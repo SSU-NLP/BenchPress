@@ -17,6 +17,7 @@ dependencies = [
     "scipy>=1.12.0",
     "huggingface-hub>=0.20.0",
     "datasets>=4.8.4",
+    "gradio>=5.0",
 ]
 
 [project.optional-dependencies]
