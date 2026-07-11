@@ -119,6 +119,12 @@ function runMonth(runId: string): string {
 async function bestRunDir(): Promise<RunCandidate | undefined> {
   if (process.env.BENCHPRESS_RUN_DIR) {
     const dir = path.resolve(process.env.BENCHPRESS_RUN_DIR);
+    // results/ is gitignored, so CI / clean clones won't have this run dir.
+    // Fall through to "keep committed demo data" instead of crashing.
+    if (!(await exists(dir))) {
+      console.warn(`[sync-benchpress-results] BENCHPRESS_RUN_DIR not found (${dir}); keeping existing demo data`);
+      return undefined;
+    }
     const folds = await loadFoldSummaries(dir);
     const qualityGate = await readJsonLenient<AnyRecord>(path.join(dir, "agg", "quality_gate.json"), {});
     const runId = path.basename(dir);
