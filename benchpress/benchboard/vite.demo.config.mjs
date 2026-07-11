@@ -6,7 +6,7 @@ import { resolve } from "node:path";
 
 export default defineConfig({
   root: "demo",
-  base: "/Benchpress/",
+  base: "/BenchPress/",
   plugins: [
     react(),
     {
