@@ -1,0 +1,1156 @@
+[
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "arc-easy",
+    "score": 94.8,
+    "config": "0-shot, English",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-4o__system-card.pdf",
+      "ref": "p.24",
+      "fetched_at": "2026-06-08T03:43:51.908Z"
+    },
+    "variants": [
+      {
+        "score": 86.5,
+        "config": "0-shot, Swahili",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4o__system-card.pdf",
+          "ref": "p.24",
+          "fetched_at": "2026-06-08T03:43:51.908Z"
+        }
+      },
+      {
+        "score": 75.4,
+        "config": "0-shot, Hausa",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4o__system-card.pdf",
+          "ref": "p.24",
+          "fetched_at": "2026-06-08T03:43:51.908Z"
+        }
+      },
+      {
+        "score": 71.4,
+        "config": "0-shot, Amharic",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4o__system-card.pdf",
+          "ref": "p.24",
+          "fetched_at": "2026-06-08T03:43:51.908Z"
+        }
+      },
+      {
+        "score": 70,
+        "config": "0-shot, Northern Sotho",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4o__system-card.pdf",
+          "ref": "p.24",
+          "fetched_at": "2026-06-08T03:43:51.908Z"
+        }
+      },
+      {
+        "score": 65.8,
+        "config": "0-shot, Yoruba",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4o__system-card.pdf",
+          "ref": "p.24",
+          "fetched_at": "2026-06-08T03:43:51.908Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "gpt-4o-mini",
+    "benchmark_id": "arc-easy",
+    "score": 93.9,
+    "config": "0-shot, English",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-4o__system-card.pdf",
+      "ref": "p.24",
+      "reported_by": "gpt-4o",
+      "fetched_at": "2026-06-08T03:43:51.908Z"
+    },
+    "variants": [
+      {
+        "score": 76.9,
+        "config": "0-shot, Swahili",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4o__system-card.pdf",
+          "ref": "p.24",
+          "reported_by": "gpt-4o",
+          "fetched_at": "2026-06-08T03:43:51.908Z"
+        }
+      },
+      {
+        "score": 58.5,
+        "config": "0-shot, Hausa",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4o__system-card.pdf",
+          "ref": "p.24",
+          "reported_by": "gpt-4o",
+          "fetched_at": "2026-06-08T03:43:51.908Z"
+        }
+      },
+      {
+        "score": 43.8,
+        "config": "0-shot, Yoruba",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4o__system-card.pdf",
+          "ref": "p.24",
+          "reported_by": "gpt-4o",
+          "fetched_at": "2026-06-08T03:43:51.908Z"
+        }
+      },
+      {
+        "score": 42.7,
+        "config": "0-shot, Amharic",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4o__system-card.pdf",
+          "ref": "p.24",
+          "reported_by": "gpt-4o",
+          "fetched_at": "2026-06-08T03:43:51.908Z"
+        }
+      },
+      {
+        "score": 37.4,
+        "config": "0-shot, Northern Sotho",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4o__system-card.pdf",
+          "ref": "p.24",
+          "reported_by": "gpt-4o",
+          "fetched_at": "2026-06-08T03:43:51.908Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "gpt-4",
+    "benchmark_id": "arc-easy",
+    "score": 89.7,
+    "config": "0-shot, English",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-4o__system-card.pdf",
+      "ref": "p.24",
+      "reported_by": "gpt-4o",
+      "fetched_at": "2026-06-08T03:43:51.908Z"
+    },
+    "variants": [
+      {
+        "score": 83.5,
+        "config": "0-shot, Swahili",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4o__system-card.pdf",
+          "ref": "p.24",
+          "reported_by": "gpt-4o",
+          "fetched_at": "2026-06-08T03:43:51.908Z"
+        }
+      },
+      {
+        "score": 31.7,
+        "config": "0-shot, Yoruba",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4o__system-card.pdf",
+          "ref": "p.24",
+          "reported_by": "gpt-4o",
+          "fetched_at": "2026-06-08T03:43:51.908Z"
+        }
+      },
+      {
+        "score": 30,
+        "config": "0-shot, Northern Sotho",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4o__system-card.pdf",
+          "ref": "p.24",
+          "reported_by": "gpt-4o",
+          "fetched_at": "2026-06-08T03:43:51.908Z"
+        }
+      },
+      {
+        "score": 28.8,
+        "config": "0-shot, Hausa",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4o__system-card.pdf",
+          "ref": "p.24",
+          "reported_by": "gpt-4o",
+          "fetched_at": "2026-06-08T03:43:51.908Z"
+        }
+      },
+      {
+        "score": 27.4,
+        "config": "0-shot, Amharic",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4o__system-card.pdf",
+          "ref": "p.24",
+          "reported_by": "gpt-4o",
+          "fetched_at": "2026-06-08T03:43:51.908Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "autonomous-replication-and-adaptation",
+    "score": 0,
+    "config": "pass@100, ARA",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-4o__system-card.pdf",
+      "ref": "p.17",
+      "fetched_at": "2026-06-08T03:43:51.908Z"
+    }
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "ctf-challenges",
+    "score": 19,
+    "config": "10 attempts, high-school",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-4o__system-card.pdf",
+      "ref": "p.13",
+      "fetched_at": "2026-06-08T03:43:51.908Z"
+    },
+    "variants": [
+      {
+        "score": 1,
+        "config": "10 attempts, professional",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4o__system-card.pdf",
+          "ref": "p.13",
+          "fetched_at": "2026-06-08T03:43:51.908Z"
+        }
+      },
+      {
+        "score": 0,
+        "config": "10 attempts, collegiate",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4o__system-card.pdf",
+          "ref": "p.13",
+          "fetched_at": "2026-06-08T03:43:51.908Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "machine-learning-engineering-tasks",
+    "score": 0,
+    "config": "0/10 trials, METR",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-4o__system-card.pdf",
+      "ref": "p.17",
+      "fetched_at": "2026-06-08T03:43:51.908Z"
+    }
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "medmcqa-dev",
+    "score": 79,
+    "config": "5-shot",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-4o__system-card.pdf",
+      "ref": "p.21",
+      "fetched_at": "2026-06-08T03:43:51.908Z"
+    },
+    "variants": [
+      {
+        "score": 77,
+        "config": "0-shot",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4o__system-card.pdf",
+          "ref": "p.21",
+          "fetched_at": "2026-06-08T03:43:51.908Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "medqa-mainland-china",
+    "score": 86,
+    "config": "5-shot",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-4o__system-card.pdf",
+      "ref": "p.21",
+      "fetched_at": "2026-06-08T03:43:51.908Z"
+    },
+    "variants": [
+      {
+        "score": 84,
+        "config": "0-shot",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4o__system-card.pdf",
+          "ref": "p.21",
+          "fetched_at": "2026-06-08T03:43:51.908Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "medqa-taiwan",
+    "score": 91,
+    "config": "0-shot",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-4o__system-card.pdf",
+      "ref": "p.21",
+      "fetched_at": "2026-06-08T03:43:51.908Z"
+    },
+    "variants": [
+      {
+        "score": 91,
+        "config": "5-shot",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4o__system-card.pdf",
+          "ref": "p.21",
+          "fetched_at": "2026-06-08T03:43:51.908Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "medqa-usmle-4-options",
+    "score": 89,
+    "config": "0-shot",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-4o__system-card.pdf",
+      "ref": "p.21",
+      "fetched_at": "2026-06-08T03:43:51.908Z"
+    },
+    "variants": [
+      {
+        "score": 89,
+        "config": "5-shot",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4o__system-card.pdf",
+          "ref": "p.21",
+          "fetched_at": "2026-06-08T03:43:51.908Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "medqa-usmle-5-options",
+    "score": 87,
+    "config": "5-shot",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-4o__system-card.pdf",
+      "ref": "p.21",
+      "fetched_at": "2026-06-08T03:43:51.908Z"
+    },
+    "variants": [
+      {
+        "score": 86,
+        "config": "0-shot",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4o__system-card.pdf",
+          "ref": "p.21",
+          "fetched_at": "2026-06-08T03:43:51.908Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "mmlu-anatomy",
+    "score": 89,
+    "config": "0-shot",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-4o__system-card.pdf",
+      "ref": "p.21",
+      "fetched_at": "2026-06-08T03:43:51.908Z"
+    },
+    "variants": [
+      {
+        "score": 89,
+        "config": "5-shot",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4o__system-card.pdf",
+          "ref": "p.21",
+          "fetched_at": "2026-06-08T03:43:51.908Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "mmlu-clinical-knowledge",
+    "score": 92,
+    "config": "0-shot",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-4o__system-card.pdf",
+      "ref": "p.21",
+      "fetched_at": "2026-06-08T03:43:51.908Z"
+    },
+    "variants": [
+      {
+        "score": 92,
+        "config": "5-shot",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4o__system-card.pdf",
+          "ref": "p.21",
+          "fetched_at": "2026-06-08T03:43:51.908Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "mmlu-college-biology",
+    "score": 95,
+    "config": "0-shot",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-4o__system-card.pdf",
+      "ref": "p.21",
+      "fetched_at": "2026-06-08T03:43:51.908Z"
+    },
+    "variants": [
+      {
+        "score": 95,
+        "config": "5-shot",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4o__system-card.pdf",
+          "ref": "p.21",
+          "fetched_at": "2026-06-08T03:43:51.908Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "mmlu-college-medicine",
+    "score": 89,
+    "config": "5-shot",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-4o__system-card.pdf",
+      "ref": "p.21",
+      "fetched_at": "2026-06-08T03:43:51.908Z"
+    },
+    "variants": [
+      {
+        "score": 84,
+        "config": "0-shot",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4o__system-card.pdf",
+          "ref": "p.21",
+          "fetched_at": "2026-06-08T03:43:51.908Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "mmlu-medical-genetics",
+    "score": 96,
+    "config": "0-shot",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-4o__system-card.pdf",
+      "ref": "p.21",
+      "fetched_at": "2026-06-08T03:43:51.908Z"
+    },
+    "variants": [
+      {
+        "score": 95,
+        "config": "5-shot",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4o__system-card.pdf",
+          "ref": "p.21",
+          "fetched_at": "2026-06-08T03:43:51.908Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "mmlu-professional-medicine",
+    "score": 94,
+    "config": "0-shot",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-4o__system-card.pdf",
+      "ref": "p.21",
+      "fetched_at": "2026-06-08T03:43:51.908Z"
+    },
+    "variants": [
+      {
+        "score": 94,
+        "config": "5-shot",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4o__system-card.pdf",
+          "ref": "p.21",
+          "fetched_at": "2026-06-08T03:43:51.908Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "openai-interview",
+    "score": 61,
+    "config": "cons@32, multiple choice",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-4o__system-card.pdf",
+      "ref": "p.17",
+      "fetched_at": "2026-06-08T03:43:51.908Z"
+    }
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "openai-research-coding-interview",
+    "score": 95,
+    "config": "pass@100",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-4o__system-card.pdf",
+      "ref": "p.17",
+      "fetched_at": "2026-06-08T03:43:51.908Z"
+    }
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "persuasion",
+    "score": 78,
+    "config": "% of human, AI audio clips effect size",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-4o__system-card.pdf",
+      "ref": "p.16",
+      "fetched_at": "2026-06-08T03:43:51.908Z"
+    },
+    "variants": [
+      {
+        "score": 65,
+        "config": "% of human, AI conversations effect size",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4o__system-card.pdf",
+          "ref": "p.16",
+          "fetched_at": "2026-06-08T03:43:51.908Z"
+        }
+      },
+      {
+        "score": 0.8,
+        "config": "%, AI conversations effect size 1 week",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4o__system-card.pdf",
+          "ref": "p.16",
+          "fetched_at": "2026-06-08T03:43:51.908Z"
+        }
+      },
+      {
+        "score": -0.72,
+        "config": "%, AI audio clips effect size 1 week",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4o__system-card.pdf",
+          "ref": "p.16",
+          "fetched_at": "2026-06-08T03:43:51.908Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "safety-evaluations-text-vs-audio-not-over-refuse",
+    "score": 82,
+    "config": "Audio",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-4o__system-card.pdf",
+      "ref": "p.11",
+      "fetched_at": "2026-06-08T03:43:51.908Z"
+    },
+    "variants": [
+      {
+        "score": 81,
+        "config": "Text",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4o__system-card.pdf",
+          "ref": "p.11",
+          "fetched_at": "2026-06-08T03:43:51.908Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "safety-evaluations-text-vs-audio-not-unsafe",
+    "score": 95,
+    "config": "Text",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-4o__system-card.pdf",
+      "ref": "p.11",
+      "fetched_at": "2026-06-08T03:43:51.908Z"
+    },
+    "variants": [
+      {
+        "score": 93,
+        "config": "Audio",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4o__system-card.pdf",
+          "ref": "p.11",
+          "fetched_at": "2026-06-08T03:43:51.908Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "safety-metrics",
+    "score": 100,
+    "config": "Audio, not_unsafe",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-4o__system-card.pdf",
+      "ref": "p.31",
+      "fetched_at": "2026-06-08T03:43:51.908Z"
+    },
+    "variants": [
+      {
+        "score": 100,
+        "config": "Text, extremism_propaganda_not_unsafe",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4o__system-card.pdf",
+          "ref": "p.31",
+          "fetched_at": "2026-06-08T03:43:51.908Z"
+        }
+      },
+      {
+        "score": 100,
+        "config": "Audio, extremism_propaganda_not_unsafe",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4o__system-card.pdf",
+          "ref": "p.31",
+          "fetched_at": "2026-06-08T03:43:51.908Z"
+        }
+      },
+      {
+        "score": 100,
+        "config": "Text, illicit_violent_not_unsafe",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4o__system-card.pdf",
+          "ref": "p.31",
+          "fetched_at": "2026-06-08T03:43:51.908Z"
+        }
+      },
+      {
+        "score": 100,
+        "config": "Audio, illicit_violent_not_unsafe",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4o__system-card.pdf",
+          "ref": "p.31",
+          "fetched_at": "2026-06-08T03:43:51.908Z"
+        }
+      },
+      {
+        "score": 100,
+        "config": "Audio, illicit_non_violent_not_unsafe",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4o__system-card.pdf",
+          "ref": "p.31",
+          "fetched_at": "2026-06-08T03:43:51.908Z"
+        }
+      },
+      {
+        "score": 100,
+        "config": "Text, self_harm_not_unsafe",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4o__system-card.pdf",
+          "ref": "p.31",
+          "fetched_at": "2026-06-08T03:43:51.908Z"
+        }
+      },
+      {
+        "score": 100,
+        "config": "Audio, self_harm_not_unsafe",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4o__system-card.pdf",
+          "ref": "p.31",
+          "fetched_at": "2026-06-08T03:43:51.908Z"
+        }
+      },
+      {
+        "score": 99,
+        "config": "Text, not_unsafe",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4o__system-card.pdf",
+          "ref": "p.31",
+          "fetched_at": "2026-06-08T03:43:51.908Z"
+        }
+      },
+      {
+        "score": 99,
+        "config": "Audio, sexual_illegal_not_unsafe",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4o__system-card.pdf",
+          "ref": "p.31",
+          "fetched_at": "2026-06-08T03:43:51.908Z"
+        }
+      },
+      {
+        "score": 98,
+        "config": "Text, sexual_minors_not_unsafe",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4o__system-card.pdf",
+          "ref": "p.31",
+          "fetched_at": "2026-06-08T03:43:51.908Z"
+        }
+      },
+      {
+        "score": 98,
+        "config": "Audio, sexual_minors_not_unsafe",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4o__system-card.pdf",
+          "ref": "p.31",
+          "fetched_at": "2026-06-08T03:43:51.908Z"
+        }
+      },
+      {
+        "score": 98,
+        "config": "Text, sexual_illegal_not_unsafe",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4o__system-card.pdf",
+          "ref": "p.31",
+          "fetched_at": "2026-06-08T03:43:51.908Z"
+        }
+      },
+      {
+        "score": 97,
+        "config": "Text, illicit_non_violent_not_unsafe",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4o__system-card.pdf",
+          "ref": "p.31",
+          "fetched_at": "2026-06-08T03:43:51.908Z"
+        }
+      },
+      {
+        "score": 91,
+        "config": "Audio, not_overrefuse",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4o__system-card.pdf",
+          "ref": "p.31",
+          "fetched_at": "2026-06-08T03:43:51.908Z"
+        }
+      },
+      {
+        "score": 89,
+        "config": "Text, not_overrefuse",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4o__system-card.pdf",
+          "ref": "p.31",
+          "fetched_at": "2026-06-08T03:43:51.908Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "swe-bench-verified",
+    "score": 19,
+    "config": "pass@1",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-4o__system-card.pdf",
+      "ref": "p.17",
+      "fetched_at": "2026-06-08T03:43:51.908Z"
+    }
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "tacit-knowledge-and-troubleshooting",
+    "score": 69,
+    "config": "consensus@10, Biorisk",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-4o__system-card.pdf",
+      "ref": "p.14",
+      "fetched_at": "2026-06-08T03:43:51.908Z"
+    }
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "truthfulqa",
+    "score": 81.4,
+    "config": "0-shot, English",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-4o__system-card.pdf",
+      "ref": "p.24",
+      "fetched_at": "2026-06-08T03:43:51.908Z"
+    },
+    "variants": [
+      {
+        "score": 64.4,
+        "config": "0-shot, Swahili",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4o__system-card.pdf",
+          "ref": "p.24",
+          "fetched_at": "2026-06-08T03:43:51.908Z"
+        }
+      },
+      {
+        "score": 59.2,
+        "config": "0-shot, Hausa",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4o__system-card.pdf",
+          "ref": "p.24",
+          "fetched_at": "2026-06-08T03:43:51.908Z"
+        }
+      },
+      {
+        "score": 59.1,
+        "config": "0-shot, Northern Sotho",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4o__system-card.pdf",
+          "ref": "p.24",
+          "fetched_at": "2026-06-08T03:43:51.908Z"
+        }
+      },
+      {
+        "score": 55.4,
+        "config": "0-shot, Amharic",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4o__system-card.pdf",
+          "ref": "p.24",
+          "fetched_at": "2026-06-08T03:43:51.908Z"
+        }
+      },
+      {
+        "score": 51.1,
+        "config": "0-shot, Yoruba",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4o__system-card.pdf",
+          "ref": "p.24",
+          "fetched_at": "2026-06-08T03:43:51.908Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "gpt-4",
+    "benchmark_id": "truthfulqa",
+    "score": 81.3,
+    "config": "0-shot, English",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-4o__system-card.pdf",
+      "ref": "p.24",
+      "reported_by": "gpt-4o",
+      "fetched_at": "2026-06-08T03:43:51.908Z"
+    },
+    "variants": [
+      {
+        "score": 62,
+        "config": "0-shot, Swahili",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4o__system-card.pdf",
+          "ref": "p.24",
+          "reported_by": "gpt-4o",
+          "fetched_at": "2026-06-08T03:43:51.908Z"
+        }
+      },
+      {
+        "score": 42.9,
+        "config": "0-shot, Northern Sotho",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4o__system-card.pdf",
+          "ref": "p.24",
+          "reported_by": "gpt-4o",
+          "fetched_at": "2026-06-08T03:43:51.908Z"
+        }
+      },
+      {
+        "score": 42.6,
+        "config": "0-shot, Amharic",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4o__system-card.pdf",
+          "ref": "p.24",
+          "reported_by": "gpt-4o",
+          "fetched_at": "2026-06-08T03:43:51.908Z"
+        }
+      },
+      {
+        "score": 41.3,
+        "config": "0-shot, Yoruba",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4o__system-card.pdf",
+          "ref": "p.24",
+          "reported_by": "gpt-4o",
+          "fetched_at": "2026-06-08T03:43:51.908Z"
+        }
+      },
+      {
+        "score": 37.6,
+        "config": "0-shot, Hausa",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4o__system-card.pdf",
+          "ref": "p.24",
+          "reported_by": "gpt-4o",
+          "fetched_at": "2026-06-08T03:43:51.908Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "gpt-4o-mini",
+    "benchmark_id": "truthfulqa",
+    "score": 66.5,
+    "config": "0-shot, English",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-4o__system-card.pdf",
+      "ref": "p.24",
+      "reported_by": "gpt-4o",
+      "fetched_at": "2026-06-08T03:43:51.908Z"
+    },
+    "variants": [
+      {
+        "score": 48.4,
+        "config": "0-shot, Swahili",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4o__system-card.pdf",
+          "ref": "p.24",
+          "reported_by": "gpt-4o",
+          "fetched_at": "2026-06-08T03:43:51.908Z"
+        }
+      },
+      {
+        "score": 42.1,
+        "config": "0-shot, Hausa",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4o__system-card.pdf",
+          "ref": "p.24",
+          "reported_by": "gpt-4o",
+          "fetched_at": "2026-06-08T03:43:51.908Z"
+        }
+      },
+      {
+        "score": 36.1,
+        "config": "0-shot, Northern Sotho",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4o__system-card.pdf",
+          "ref": "p.24",
+          "reported_by": "gpt-4o",
+          "fetched_at": "2026-06-08T03:43:51.908Z"
+        }
+      },
+      {
+        "score": 35.8,
+        "config": "0-shot, Yoruba",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4o__system-card.pdf",
+          "ref": "p.24",
+          "reported_by": "gpt-4o",
+          "fetched_at": "2026-06-08T03:43:51.908Z"
+        }
+      },
+      {
+        "score": 33.9,
+        "config": "0-shot, Amharic",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4o__system-card.pdf",
+          "ref": "p.24",
+          "reported_by": "gpt-4o",
+          "fetched_at": "2026-06-08T03:43:51.908Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "uhura-eval",
+    "score": 60.5,
+    "config": "0-shot, Yoruba",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-4o__system-card.pdf",
+      "ref": "p.24",
+      "fetched_at": "2026-06-08T03:43:51.908Z"
+    },
+    "variants": [
+      {
+        "score": 59.4,
+        "config": "0-shot, Hausa",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4o__system-card.pdf",
+          "ref": "p.24",
+          "fetched_at": "2026-06-08T03:43:51.908Z"
+        }
+      },
+      {
+        "score": 44.2,
+        "config": "0-shot, Amharic",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4o__system-card.pdf",
+          "ref": "p.24",
+          "fetched_at": "2026-06-08T03:43:51.908Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "gpt-4o-mini",
+    "benchmark_id": "uhura-eval",
+    "score": 44.2,
+    "config": "0-shot, Yoruba",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-4o__system-card.pdf",
+      "ref": "p.24",
+      "reported_by": "gpt-4o",
+      "fetched_at": "2026-06-08T03:43:51.908Z"
+    },
+    "variants": [
+      {
+        "score": 43.2,
+        "config": "0-shot, Hausa",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4o__system-card.pdf",
+          "ref": "p.24",
+          "reported_by": "gpt-4o",
+          "fetched_at": "2026-06-08T03:43:51.908Z"
+        }
+      },
+      {
+        "score": 33.8,
+        "config": "0-shot, Amharic",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4o__system-card.pdf",
+          "ref": "p.24",
+          "reported_by": "gpt-4o",
+          "fetched_at": "2026-06-08T03:43:51.908Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "gpt-4",
+    "benchmark_id": "uhura-eval",
+    "score": 41.9,
+    "config": "0-shot, Hausa",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-4o__system-card.pdf",
+      "ref": "p.24",
+      "reported_by": "gpt-4o",
+      "fetched_at": "2026-06-08T03:43:51.908Z"
+    },
+    "variants": [
+      {
+        "score": 41.9,
+        "config": "0-shot, Yoruba",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4o__system-card.pdf",
+          "ref": "p.24",
+          "reported_by": "gpt-4o",
+          "fetched_at": "2026-06-08T03:43:51.908Z"
+        }
+      },
+      {
+        "score": 41.6,
+        "config": "0-shot, Amharic",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4o__system-card.pdf",
+          "ref": "p.24",
+          "reported_by": "gpt-4o",
+          "fetched_at": "2026-06-08T03:43:51.908Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "ungrounded-inference-and-sensitive-trait-attribution-safe-behavior-accuracy",
+    "score": 84,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-4o__system-card.pdf",
+      "ref": "p.11",
+      "fetched_at": "2026-06-08T03:43:51.908Z"
+    }
+  }
+]

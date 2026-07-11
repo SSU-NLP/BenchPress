@@ -1,0 +1,201 @@
+[
+  {
+    "model_id": "claude-opus-4.7",
+    "benchmark_id": "dna-synthesis-screening-evasion",
+    "score": 80,
+    "config": "extended thinking mode",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-opus-4.7__system-card.pdf",
+      "ref": "p.22",
+      "fetched_at": "2026-06-07T09:39:45.331Z"
+    }
+  },
+  {
+    "model_id": "claude-opus-4.6",
+    "benchmark_id": "internal-suite-2",
+    "score": 0.612,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-opus-4.7__system-card.pdf",
+      "ref": "p.28",
+      "reported_by": "claude-opus-4.7",
+      "fetched_at": "2026-06-07T09:39:45.331Z"
+    }
+  },
+  {
+    "model_id": "claude-opus-4.7",
+    "benchmark_id": "kernel-task",
+    "score": 371.75,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-opus-4.7__system-card.pdf",
+      "ref": "p.28",
+      "fetched_at": "2026-06-07T09:39:45.331Z"
+    }
+  },
+  {
+    "model_id": "claude-opus-4.6",
+    "benchmark_id": "kernel-task",
+    "score": 190,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-opus-4.7__system-card.pdf",
+      "ref": "p.28",
+      "reported_by": "claude-opus-4.7",
+      "fetched_at": "2026-06-07T09:39:45.331Z"
+    }
+  },
+  {
+    "model_id": "claude-opus-4.7",
+    "benchmark_id": "llm-training",
+    "score": 40.81,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-opus-4.7__system-card.pdf",
+      "ref": "p.28",
+      "fetched_at": "2026-06-07T09:39:45.331Z"
+    }
+  },
+  {
+    "model_id": "claude-opus-4.6",
+    "benchmark_id": "llm-training",
+    "score": 34,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-opus-4.7__system-card.pdf",
+      "ref": "p.28",
+      "reported_by": "claude-opus-4.7",
+      "fetched_at": "2026-06-07T09:39:45.331Z"
+    }
+  },
+  {
+    "model_id": "claude-opus-4.7",
+    "benchmark_id": "long-form-virology-task-1",
+    "score": 0.82,
+    "config": "extended thinking mode",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-opus-4.7__system-card.pdf",
+      "ref": "p.22",
+      "fetched_at": "2026-06-07T09:39:45.331Z"
+    }
+  },
+  {
+    "model_id": "claude-opus-4.7",
+    "benchmark_id": "long-form-virology-task-2",
+    "score": 0.94,
+    "config": "extended thinking mode",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-opus-4.7__system-card.pdf",
+      "ref": "p.22",
+      "fetched_at": "2026-06-07T09:39:45.331Z"
+    }
+  },
+  {
+    "model_id": "claude-opus-4.7",
+    "benchmark_id": "multimodal-virology-vct",
+    "score": 0.5,
+    "config": "extended thinking mode",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-opus-4.7__system-card.pdf",
+      "ref": "p.22",
+      "fetched_at": "2026-06-07T09:39:45.331Z"
+    }
+  },
+  {
+    "model_id": "claude-opus-4.6",
+    "benchmark_id": "multimodal-virology-vct",
+    "score": 0.483,
+    "config": "extended thinking mode",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-opus-4.7__system-card.pdf",
+      "ref": "p.22",
+      "reported_by": "claude-opus-4.7",
+      "fetched_at": "2026-06-07T09:39:45.331Z"
+    }
+  },
+  {
+    "model_id": "claude-opus-4.7",
+    "benchmark_id": "novel-compiler",
+    "score": 71.1,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-opus-4.7__system-card.pdf",
+      "ref": "p.28",
+      "fetched_at": "2026-06-07T09:39:45.331Z"
+    }
+  },
+  {
+    "model_id": "claude-opus-4.6",
+    "benchmark_id": "novel-compiler",
+    "score": 65.83,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-opus-4.7__system-card.pdf",
+      "ref": "p.28",
+      "reported_by": "claude-opus-4.7",
+      "fetched_at": "2026-06-07T09:39:45.331Z"
+    }
+  },
+  {
+    "model_id": "claude-opus-4.7",
+    "benchmark_id": "quadruped-rl",
+    "score": 26.5,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-opus-4.7__system-card.pdf",
+      "ref": "p.28",
+      "fetched_at": "2026-06-07T09:39:45.331Z"
+    }
+  },
+  {
+    "model_id": "claude-opus-4.6",
+    "benchmark_id": "quadruped-rl",
+    "score": 20.96,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-opus-4.7__system-card.pdf",
+      "ref": "p.28",
+      "reported_by": "claude-opus-4.7",
+      "fetched_at": "2026-06-07T09:39:45.331Z"
+    }
+  },
+  {
+    "model_id": "claude-opus-4.6",
+    "benchmark_id": "time-series-forecasting",
+    "score": 5.8,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-opus-4.7__system-card.pdf",
+      "ref": "p.28",
+      "reported_by": "claude-opus-4.7",
+      "fetched_at": "2026-06-07T09:39:45.331Z"
+    }
+  },
+  {
+    "model_id": "claude-opus-4.7",
+    "benchmark_id": "time-series-forecasting",
+    "score": 4.78,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-opus-4.7__system-card.pdf",
+      "ref": "p.28",
+      "fetched_at": "2026-06-07T09:39:45.331Z"
+    }
+  }
+]

@@ -1,0 +1,83 @@
+{
+  "run_id": "demo-agentic-coding-2026-06-27",
+  "target_capability": "Agentic coding assistant",
+  "ranking_basis": [
+    "humaneval",
+    "mbpp",
+    "livecodebench",
+    "scicode",
+    "bbh"
+  ],
+  "recommendations": {
+    "best_overall": "gpt-5",
+    "best_budget": "o4-mini",
+    "most_reliable": "claude-sonnet-4.5"
+  },
+  "rankings": [
+    {
+      "model_id": "gpt-5",
+      "model_name": "GPT-5",
+      "vendor": "OpenAI",
+      "subset_rank": 1,
+      "subset_score": 92.4,
+      "full_suite_rank": 1,
+      "full_suite_score": 91.8,
+      "cost_per_mtok": 8.0,
+      "regret": 0,
+      "reliability": 0.94,
+      "recommendation": "Best overall"
+    },
+    {
+      "model_id": "claude-sonnet-4.5",
+      "model_name": "Claude Sonnet 4.5",
+      "vendor": "Anthropic",
+      "subset_rank": 2,
+      "subset_score": 90.7,
+      "full_suite_rank": 3,
+      "full_suite_score": 89.9,
+      "cost_per_mtok": 6.0,
+      "regret": 0.018,
+      "reliability": 0.95,
+      "recommendation": "Most reliable"
+    },
+    {
+      "model_id": "gemini-3-pro",
+      "model_name": "Gemini 3 Pro",
+      "vendor": "Google",
+      "subset_rank": 3,
+      "subset_score": 89.9,
+      "full_suite_rank": 2,
+      "full_suite_score": 90.4,
+      "cost_per_mtok": 5.5,
+      "regret": 0.027,
+      "reliability": 0.88,
+      "recommendation": "Full-suite backup"
+    },
+    {
+      "model_id": "o4-mini",
+      "model_name": "o4-mini",
+      "vendor": "OpenAI",
+      "subset_rank": 4,
+      "subset_score": 87.8,
+      "full_suite_rank": 5,
+      "full_suite_score": 86.2,
+      "cost_per_mtok": 1.1,
+      "regret": 0.05,
+      "reliability": 0.86,
+      "recommendation": "Best budget"
+    },
+    {
+      "model_id": "deepseek-r1",
+      "model_name": "DeepSeek R1",
+      "vendor": "DeepSeek",
+      "subset_rank": 5,
+      "subset_score": 85.6,
+      "full_suite_rank": 4,
+      "full_suite_score": 87.0,
+      "cost_per_mtok": 0.8,
+      "regret": 0.074,
+      "reliability": 0.79,
+      "recommendation": "Budget reasoning"
+    }
+  ]
+}

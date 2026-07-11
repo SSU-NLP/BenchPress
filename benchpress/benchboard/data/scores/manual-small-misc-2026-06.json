@@ -1,0 +1,418 @@
+[
+  {
+    "model_id": "gemma-2b",
+    "benchmark_id": "arc-challenge",
+    "score": 42.1,
+    "config": "25-shot",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2403.08295",
+      "reported_by": "Gemma Technical Report (arXiv:2403.08295), 2B pretrained",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-02-21"
+    }
+  },
+  {
+    "model_id": "phi-2",
+    "benchmark_id": "bbh",
+    "score": 59.2,
+    "config": "3-shot, CoT",
+    "source": {
+      "kind": "manual",
+      "url": "https://www.microsoft.com/en-us/research/blog/phi-2-the-surprising-power-of-small-language-models/",
+      "reported_by": "Microsoft Phi-2 blog",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2023-12-12"
+    }
+  },
+  {
+    "model_id": "gemma-2b",
+    "benchmark_id": "bbh",
+    "score": 35.2,
+    "config": "3-shot",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2403.08295",
+      "reported_by": "Gemma Technical Report (arXiv:2403.08295), 2B pretrained",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-02-21"
+    }
+  },
+  {
+    "model_id": "qwen2.5-3b",
+    "benchmark_id": "gsm8k",
+    "score": 86.7,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2412.15115",
+      "reported_by": "Qwen2.5 Technical Report (arXiv:2412.15115), Instruct",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-12-19"
+    }
+  },
+  {
+    "model_id": "qwen2.5-1.5b",
+    "benchmark_id": "gsm8k",
+    "score": 73.2,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2412.15115",
+      "reported_by": "Qwen2.5 Technical Report (arXiv:2412.15115), Instruct",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-12-19"
+    }
+  },
+  {
+    "model_id": "phi-2",
+    "benchmark_id": "gsm8k",
+    "score": 61.1,
+    "config": "8-shot",
+    "source": {
+      "kind": "manual",
+      "url": "https://www.microsoft.com/en-us/research/blog/phi-2-the-surprising-power-of-small-language-models/",
+      "reported_by": "Microsoft Phi-2 blog",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2023-12-12"
+    }
+  },
+  {
+    "model_id": "qwen2.5-0.5b",
+    "benchmark_id": "gsm8k",
+    "score": 49.6,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2412.15115",
+      "reported_by": "Qwen2.5 Technical Report (arXiv:2412.15115), Instruct",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-12-19"
+    }
+  },
+  {
+    "model_id": "gemma-2b",
+    "benchmark_id": "gsm8k",
+    "score": 17.7,
+    "config": "5-shot",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2403.08295",
+      "reported_by": "Gemma Technical Report (arXiv:2403.08295), 2B pretrained",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-02-21"
+    }
+  },
+  {
+    "model_id": "qwen2.5-3b",
+    "benchmark_id": "humaneval",
+    "score": 74.4,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2412.15115",
+      "reported_by": "Qwen2.5 Technical Report (arXiv:2412.15115), Instruct",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-12-19"
+    }
+  },
+  {
+    "model_id": "qwen2.5-1.5b",
+    "benchmark_id": "humaneval",
+    "score": 61.6,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2412.15115",
+      "reported_by": "Qwen2.5 Technical Report (arXiv:2412.15115), Instruct",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-12-19"
+    }
+  },
+  {
+    "model_id": "qwen2.5-0.5b",
+    "benchmark_id": "humaneval",
+    "score": 35.4,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2412.15115",
+      "reported_by": "Qwen2.5 Technical Report (arXiv:2412.15115), Instruct",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-12-19"
+    }
+  },
+  {
+    "model_id": "gemma-2b",
+    "benchmark_id": "humaneval",
+    "score": 22,
+    "config": "pass@1",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2403.08295",
+      "reported_by": "Gemma Technical Report (arXiv:2403.08295), 2B pretrained",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-02-21"
+    }
+  },
+  {
+    "model_id": "qwen2.5-3b",
+    "benchmark_id": "ifeval",
+    "score": 58.2,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2412.15115",
+      "reported_by": "Qwen2.5 Technical Report (arXiv:2412.15115), Instruct",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-12-19"
+    }
+  },
+  {
+    "model_id": "qwen2.5-1.5b",
+    "benchmark_id": "ifeval",
+    "score": 42.5,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2412.15115",
+      "reported_by": "Qwen2.5 Technical Report (arXiv:2412.15115), Instruct",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-12-19"
+    }
+  },
+  {
+    "model_id": "qwen2.5-0.5b",
+    "benchmark_id": "ifeval",
+    "score": 27.9,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2412.15115",
+      "reported_by": "Qwen2.5 Technical Report (arXiv:2412.15115), Instruct",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-12-19"
+    }
+  },
+  {
+    "model_id": "qwen2.5-3b",
+    "benchmark_id": "math",
+    "score": 65.9,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2412.15115",
+      "reported_by": "Qwen2.5 Technical Report (arXiv:2412.15115), Instruct",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-12-19"
+    }
+  },
+  {
+    "model_id": "qwen2.5-1.5b",
+    "benchmark_id": "math",
+    "score": 55.2,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2412.15115",
+      "reported_by": "Qwen2.5 Technical Report (arXiv:2412.15115), Instruct",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-12-19"
+    }
+  },
+  {
+    "model_id": "qwen2.5-0.5b",
+    "benchmark_id": "math",
+    "score": 34.4,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2412.15115",
+      "reported_by": "Qwen2.5 Technical Report (arXiv:2412.15115), Instruct",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-12-19"
+    }
+  },
+  {
+    "model_id": "gemma-2b",
+    "benchmark_id": "math",
+    "score": 11.8,
+    "config": "4-shot",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2403.08295",
+      "reported_by": "Gemma Technical Report (arXiv:2403.08295), 2B pretrained",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-02-21"
+    }
+  },
+  {
+    "model_id": "qwen2.5-3b",
+    "benchmark_id": "mbpp",
+    "score": 72.7,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2412.15115",
+      "reported_by": "Qwen2.5 Technical Report (arXiv:2412.15115), Instruct",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-12-19"
+    }
+  },
+  {
+    "model_id": "qwen2.5-1.5b",
+    "benchmark_id": "mbpp",
+    "score": 63.2,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2412.15115",
+      "reported_by": "Qwen2.5 Technical Report (arXiv:2412.15115), Instruct",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-12-19"
+    }
+  },
+  {
+    "model_id": "qwen2.5-0.5b",
+    "benchmark_id": "mbpp",
+    "score": 49.6,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2412.15115",
+      "reported_by": "Qwen2.5 Technical Report (arXiv:2412.15115), Instruct",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-12-19"
+    }
+  },
+  {
+    "model_id": "gemma-2b",
+    "benchmark_id": "mbpp",
+    "score": 29.2,
+    "config": "3-shot",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2403.08295",
+      "reported_by": "Gemma Technical Report (arXiv:2403.08295), 2B pretrained",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-02-21"
+    }
+  },
+  {
+    "model_id": "mistral-nemo-12b",
+    "benchmark_id": "mmlu",
+    "score": 68,
+    "config": "5-shot",
+    "source": {
+      "kind": "manual",
+      "url": "https://mistral.ai/news/mistral-nemo/",
+      "reported_by": "Mistral NeMo release",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-07-18"
+    }
+  },
+  {
+    "model_id": "phi-2",
+    "benchmark_id": "mmlu",
+    "score": 56.3,
+    "config": "5-shot",
+    "source": {
+      "kind": "manual",
+      "url": "https://www.microsoft.com/en-us/research/blog/phi-2-the-surprising-power-of-small-language-models/",
+      "reported_by": "Microsoft Phi-2 blog",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2023-12-12"
+    }
+  },
+  {
+    "model_id": "gemma-2b",
+    "benchmark_id": "mmlu",
+    "score": 42.3,
+    "config": "5-shot",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2403.08295",
+      "reported_by": "Gemma Technical Report (arXiv:2403.08295), 2B pretrained",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-02-21"
+    }
+  },
+  {
+    "model_id": "qwen2.5-3b",
+    "benchmark_id": "mmlu-pro",
+    "score": 43.7,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2412.15115",
+      "reported_by": "Qwen2.5 Technical Report (arXiv:2412.15115), Instruct",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-12-19"
+    }
+  },
+  {
+    "model_id": "qwen2.5-1.5b",
+    "benchmark_id": "mmlu-pro",
+    "score": 32.4,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2412.15115",
+      "reported_by": "Qwen2.5 Technical Report (arXiv:2412.15115), Instruct",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-12-19"
+    }
+  },
+  {
+    "model_id": "qwen2.5-0.5b",
+    "benchmark_id": "mmlu-pro",
+    "score": 15,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2412.15115",
+      "reported_by": "Qwen2.5 Technical Report (arXiv:2412.15115), Instruct",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-12-19"
+    }
+  },
+  {
+    "model_id": "qwen2.5-3b",
+    "benchmark_id": "mmlu-redux",
+    "score": 64.4,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2412.15115",
+      "reported_by": "Qwen2.5 Technical Report (arXiv:2412.15115), Instruct",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-12-19"
+    }
+  },
+  {
+    "model_id": "qwen2.5-1.5b",
+    "benchmark_id": "mmlu-redux",
+    "score": 50.7,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2412.15115",
+      "reported_by": "Qwen2.5 Technical Report (arXiv:2412.15115), Instruct",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-12-19"
+    }
+  },
+  {
+    "model_id": "qwen2.5-0.5b",
+    "benchmark_id": "mmlu-redux",
+    "score": 24.1,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2412.15115",
+      "reported_by": "Qwen2.5 Technical Report (arXiv:2412.15115), Instruct",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-12-19"
+    }
+  }
+]

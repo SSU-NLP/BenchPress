@@ -1,0 +1,30 @@
+[
+  {
+    "model_id": "llama-3.1-405b",
+    "benchmark_id": "mbpp",
+    "score": 65.7,
+    "config": "0-shot",
+    "source": {
+      "kind": "manual",
+      "url": "https://github.com/meta-llama/llama-models/blob/main/models/llama3_1/MODEL_CARD.md",
+      "ref": "Meta Llama 3.1 model card, instruction tuned code benchmark table, MBPP row",
+      "reported_by": "Meta",
+      "fetched_at": "2026-06-25T00:00:00Z",
+      "published": "2024-07-23"
+    }
+  },
+  {
+    "model_id": "llama-3.1-70b",
+    "benchmark_id": "mbpp",
+    "score": 62,
+    "config": "0-shot",
+    "source": {
+      "kind": "manual",
+      "url": "https://github.com/meta-llama/llama-models/blob/main/models/llama3_1/MODEL_CARD.md",
+      "ref": "Meta Llama 3.1 model card, instruction tuned code benchmark table, MBPP row",
+      "reported_by": "Meta",
+      "fetched_at": "2026-06-25T00:00:00Z",
+      "published": "2024-07-23"
+    }
+  }
+]

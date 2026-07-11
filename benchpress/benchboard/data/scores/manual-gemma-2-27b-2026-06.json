@@ -1,0 +1,93 @@
+[
+  {
+    "model_id": "gemma-2-27b",
+    "benchmark_id": "arc-challenge",
+    "score": 71.4,
+    "config": "25-shot",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2408.00118",
+      "reported_by": "Gemma 2 Technical Report (arXiv:2408.00118), 27B pretrained",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-07-31"
+    }
+  },
+  {
+    "model_id": "gemma-2-27b",
+    "benchmark_id": "bbh",
+    "score": 74.9,
+    "config": "3-shot, CoT",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2408.00118",
+      "reported_by": "Gemma 2 Technical Report (arXiv:2408.00118), 27B pretrained",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-07-31"
+    }
+  },
+  {
+    "model_id": "gemma-2-27b",
+    "benchmark_id": "gsm8k",
+    "score": 74,
+    "config": "5-shot",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2408.00118",
+      "reported_by": "Gemma 2 Technical Report (arXiv:2408.00118), 27B pretrained",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-07-31"
+    }
+  },
+  {
+    "model_id": "gemma-2-27b",
+    "benchmark_id": "humaneval",
+    "score": 51.8,
+    "config": "pass@1",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2408.00118",
+      "reported_by": "Gemma 2 Technical Report (arXiv:2408.00118), 27B pretrained",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-07-31"
+    }
+  },
+  {
+    "model_id": "gemma-2-27b",
+    "benchmark_id": "math",
+    "score": 42.3,
+    "config": "4-shot",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2408.00118",
+      "reported_by": "Gemma 2 Technical Report (arXiv:2408.00118), 27B pretrained",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-07-31"
+    }
+  },
+  {
+    "model_id": "gemma-2-27b",
+    "benchmark_id": "mbpp",
+    "score": 62.6,
+    "config": "3-shot",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2408.00118",
+      "reported_by": "Gemma 2 Technical Report (arXiv:2408.00118), 27B pretrained",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-07-31"
+    }
+  },
+  {
+    "model_id": "gemma-2-27b",
+    "benchmark_id": "mmlu",
+    "score": 75.2,
+    "config": "5-shot",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2408.00118",
+      "reported_by": "Gemma 2 Technical Report (arXiv:2408.00118), 27B pretrained",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-07-31"
+    }
+  }
+]

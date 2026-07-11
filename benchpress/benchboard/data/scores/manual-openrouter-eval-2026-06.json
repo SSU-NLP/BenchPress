@@ -1,0 +1,106 @@
+[
+  {
+    "model_id": "claude-sonnet-4",
+    "benchmark_id": "arc-challenge",
+    "score": 97.9,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://openrouter.ai",
+      "reported_by": "Self-run via OpenRouter (full set, n=1172, answer-only)",
+      "fetched_at": "2026-06-30T00:00:00Z",
+      "published": "2026-06"
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4",
+    "benchmark_id": "bbh",
+    "score": 85.5,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://openrouter.ai",
+      "reported_by": "Self-run via OpenRouter (full set, n=6511, answer-only)",
+      "fetched_at": "2026-06-30T00:00:00Z",
+      "published": "2026-06"
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4",
+    "benchmark_id": "mbpp",
+    "score": 85.8,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://openrouter.ai",
+      "reported_by": "Self-run via OpenRouter (full set, n=500, code executed against tests)",
+      "fetched_at": "2026-06-30T00:00:00Z",
+      "published": "2026-06"
+    }
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "bbh",
+    "score": 82.6,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://openrouter.ai",
+      "reported_by": "Self-run via OpenRouter (full set, n=6511, answer-only)",
+      "fetched_at": "2026-06-30T00:00:00Z",
+      "published": "2026-06"
+    }
+  },
+  {
+    "model_id": "gpt-oss-20b",
+    "benchmark_id": "drop",
+    "score": 84.5,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://openrouter.ai",
+      "reported_by": "Self-run via OpenRouter (full set, n=9536, F1)",
+      "fetched_at": "2026-06-30T00:00:00Z",
+      "published": "2026-06"
+    }
+  },
+  {
+    "model_id": "gpt-oss-20b",
+    "benchmark_id": "mbpp",
+    "score": 87.8,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://openrouter.ai",
+      "reported_by": "Self-run via OpenRouter (full set, n=500, code executed against tests)",
+      "fetched_at": "2026-06-30T00:00:00Z",
+      "published": "2026-06"
+    }
+  },
+  {
+    "model_id": "qwen-2.5-72b",
+    "benchmark_id": "arc-challenge",
+    "score": 95.4,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://openrouter.ai",
+      "reported_by": "Self-run via OpenRouter (full set, n=1172, answer-only)",
+      "fetched_at": "2026-06-30T00:00:00Z",
+      "published": "2026-06"
+    }
+  },
+  {
+    "model_id": "qwen-2.5-72b",
+    "benchmark_id": "hmmt-feb-2025",
+    "score": 3.3,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://openrouter.ai",
+      "reported_by": "Self-run via OpenRouter (full set, n=30, answer-only)",
+      "fetched_at": "2026-06-30T00:00:00Z",
+      "published": "2026-06"
+    }
+  }
+]

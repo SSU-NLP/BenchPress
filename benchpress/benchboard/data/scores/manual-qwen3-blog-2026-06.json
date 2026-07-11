@@ -1,0 +1,1406 @@
+[
+  {
+    "model_id": "gemini-2.5-pro",
+    "benchmark_id": "aider-polyglot",
+    "score": 72.9,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen3/",
+      "reported_by": "Qwen3 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-04-29"
+    }
+  },
+  {
+    "model_id": "qwen3-235b",
+    "benchmark_id": "aider-polyglot",
+    "score": 61.8,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen3/",
+      "reported_by": "Qwen3 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-04-29"
+    }
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "aider-polyglot",
+    "score": 61.7,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen3/",
+      "reported_by": "Qwen3 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-04-29"
+    }
+  },
+  {
+    "model_id": "deepseek-r1",
+    "benchmark_id": "aider-polyglot",
+    "score": 56.9,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen3/",
+      "reported_by": "Qwen3 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-04-29"
+    }
+  },
+  {
+    "model_id": "o3-mini",
+    "benchmark_id": "aider-polyglot",
+    "score": 53.8,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen3/",
+      "reported_by": "Qwen3 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-04-29"
+    }
+  },
+  {
+    "model_id": "grok-3",
+    "benchmark_id": "aider-polyglot",
+    "score": 53.3,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen3/",
+      "reported_by": "Qwen3 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-04-29"
+    }
+  },
+  {
+    "model_id": "qwen3-32b",
+    "benchmark_id": "aider-polyglot",
+    "score": 50.2,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen3/",
+      "reported_by": "Qwen3 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-04-29"
+    }
+  },
+  {
+    "model_id": "gemini-2.5-pro",
+    "benchmark_id": "aime-2024",
+    "score": 92,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen3/",
+      "reported_by": "Qwen3 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-04-29"
+    }
+  },
+  {
+    "model_id": "qwen3-235b",
+    "benchmark_id": "aime-2024",
+    "score": 85.7,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen3/",
+      "reported_by": "Qwen3 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-04-29"
+    }
+  },
+  {
+    "model_id": "grok-3",
+    "benchmark_id": "aime-2024",
+    "score": 83.9,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen3/",
+      "reported_by": "Qwen3 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-04-29"
+    }
+  },
+  {
+    "model_id": "qwen3-32b",
+    "benchmark_id": "aime-2024",
+    "score": 81.4,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen3/",
+      "reported_by": "Qwen3 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-04-29"
+    }
+  },
+  {
+    "model_id": "qwen3-30b-a3b",
+    "benchmark_id": "aime-2024",
+    "score": 80.4,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen3/",
+      "reported_by": "Qwen3 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-04-29"
+    }
+  },
+  {
+    "model_id": "deepseek-r1",
+    "benchmark_id": "aime-2024",
+    "score": 79.8,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen3/",
+      "reported_by": "Qwen3 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-04-29"
+    }
+  },
+  {
+    "model_id": "o3-mini",
+    "benchmark_id": "aime-2024",
+    "score": 79.6,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen3/",
+      "reported_by": "Qwen3 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-04-29"
+    }
+  },
+  {
+    "model_id": "qwq-32b",
+    "benchmark_id": "aime-2024",
+    "score": 79.5,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen3/",
+      "reported_by": "Qwen3 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-04-29"
+    }
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "aime-2024",
+    "score": 74.3,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen3/",
+      "reported_by": "Qwen3 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-04-29"
+    }
+  },
+  {
+    "model_id": "qwen3-4b",
+    "benchmark_id": "aime-2024",
+    "score": 73.8,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen3/",
+      "reported_by": "Qwen3 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-04-29"
+    }
+  },
+  {
+    "model_id": "deepseek-v3",
+    "benchmark_id": "aime-2024",
+    "score": 39.2,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen3/",
+      "reported_by": "Qwen3 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-04-29"
+    }
+  },
+  {
+    "model_id": "gemma-3-27b",
+    "benchmark_id": "aime-2024",
+    "score": 32.6,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen3/",
+      "reported_by": "Qwen3 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-04-29"
+    }
+  },
+  {
+    "model_id": "qwen-2.5-72b",
+    "benchmark_id": "aime-2024",
+    "score": 18.9,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen3/",
+      "reported_by": "Qwen3 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-04-29"
+    }
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "aime-2024",
+    "score": 11.1,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen3/",
+      "reported_by": "Qwen3 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-04-29"
+    }
+  },
+  {
+    "model_id": "gemini-2.5-pro",
+    "benchmark_id": "aime-2025",
+    "score": 86.7,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen3/",
+      "reported_by": "Qwen3 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-04-29"
+    }
+  },
+  {
+    "model_id": "qwen3-235b",
+    "benchmark_id": "aime-2025",
+    "score": 81.5,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen3/",
+      "reported_by": "Qwen3 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-04-29"
+    }
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "aime-2025",
+    "score": 79.2,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen3/",
+      "reported_by": "Qwen3 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-04-29"
+    }
+  },
+  {
+    "model_id": "grok-3",
+    "benchmark_id": "aime-2025",
+    "score": 77.3,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen3/",
+      "reported_by": "Qwen3 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-04-29"
+    }
+  },
+  {
+    "model_id": "o3-mini",
+    "benchmark_id": "aime-2025",
+    "score": 74.8,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen3/",
+      "reported_by": "Qwen3 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-04-29"
+    }
+  },
+  {
+    "model_id": "qwen3-32b",
+    "benchmark_id": "aime-2025",
+    "score": 72.9,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen3/",
+      "reported_by": "Qwen3 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-04-29"
+    }
+  },
+  {
+    "model_id": "qwen3-30b-a3b",
+    "benchmark_id": "aime-2025",
+    "score": 70.9,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen3/",
+      "reported_by": "Qwen3 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-04-29"
+    }
+  },
+  {
+    "model_id": "deepseek-r1",
+    "benchmark_id": "aime-2025",
+    "score": 70,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen3/",
+      "reported_by": "Qwen3 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-04-29"
+    }
+  },
+  {
+    "model_id": "qwq-32b",
+    "benchmark_id": "aime-2025",
+    "score": 69.5,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen3/",
+      "reported_by": "Qwen3 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-04-29"
+    }
+  },
+  {
+    "model_id": "qwen3-4b",
+    "benchmark_id": "aime-2025",
+    "score": 65.6,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen3/",
+      "reported_by": "Qwen3 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-04-29"
+    }
+  },
+  {
+    "model_id": "deepseek-v3",
+    "benchmark_id": "aime-2025",
+    "score": 28.8,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen3/",
+      "reported_by": "Qwen3 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-04-29"
+    }
+  },
+  {
+    "model_id": "gemma-3-27b",
+    "benchmark_id": "aime-2025",
+    "score": 24,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen3/",
+      "reported_by": "Qwen3 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-04-29"
+    }
+  },
+  {
+    "model_id": "qwen-2.5-72b",
+    "benchmark_id": "aime-2025",
+    "score": 15,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen3/",
+      "reported_by": "Qwen3 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-04-29"
+    }
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "aime-2025",
+    "score": 7.6,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen3/",
+      "reported_by": "Qwen3 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-04-29"
+    }
+  },
+  {
+    "model_id": "gemini-2.5-pro",
+    "benchmark_id": "arena-hard",
+    "score": 96.4,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen3/",
+      "reported_by": "Qwen3 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-04-29"
+    }
+  },
+  {
+    "model_id": "qwen3-235b",
+    "benchmark_id": "arena-hard",
+    "score": 95.6,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen3/",
+      "reported_by": "Qwen3 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-04-29"
+    }
+  },
+  {
+    "model_id": "qwen3-32b",
+    "benchmark_id": "arena-hard",
+    "score": 93.8,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen3/",
+      "reported_by": "Qwen3 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-04-29"
+    }
+  },
+  {
+    "model_id": "deepseek-r1",
+    "benchmark_id": "arena-hard",
+    "score": 93.2,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen3/",
+      "reported_by": "Qwen3 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-04-29"
+    }
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "arena-hard",
+    "score": 92.1,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen3/",
+      "reported_by": "Qwen3 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-04-29"
+    }
+  },
+  {
+    "model_id": "qwen3-30b-a3b",
+    "benchmark_id": "arena-hard",
+    "score": 91,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen3/",
+      "reported_by": "Qwen3 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-04-29"
+    }
+  },
+  {
+    "model_id": "qwq-32b",
+    "benchmark_id": "arena-hard",
+    "score": 89.5,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen3/",
+      "reported_by": "Qwen3 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-04-29"
+    }
+  },
+  {
+    "model_id": "o3-mini",
+    "benchmark_id": "arena-hard",
+    "score": 89,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen3/",
+      "reported_by": "Qwen3 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-04-29"
+    }
+  },
+  {
+    "model_id": "gemma-3-27b",
+    "benchmark_id": "arena-hard",
+    "score": 86.8,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen3/",
+      "reported_by": "Qwen3 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-04-29"
+    }
+  },
+  {
+    "model_id": "deepseek-v3",
+    "benchmark_id": "arena-hard",
+    "score": 85.5,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen3/",
+      "reported_by": "Qwen3 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-04-29"
+    }
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "arena-hard",
+    "score": 85.3,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen3/",
+      "reported_by": "Qwen3 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-04-29"
+    }
+  },
+  {
+    "model_id": "qwen-2.5-72b",
+    "benchmark_id": "arena-hard",
+    "score": 81.2,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen3/",
+      "reported_by": "Qwen3 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-04-29"
+    }
+  },
+  {
+    "model_id": "qwen3-4b",
+    "benchmark_id": "arena-hard",
+    "score": 76.6,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen3/",
+      "reported_by": "Qwen3 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-04-29"
+    }
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "bfcl-v3",
+    "score": 72.5,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen3/",
+      "reported_by": "Qwen3 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-04-29"
+    }
+  },
+  {
+    "model_id": "qwen3-235b",
+    "benchmark_id": "bfcl-v3",
+    "score": 70.8,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen3/",
+      "reported_by": "Qwen3 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-04-29"
+    }
+  },
+  {
+    "model_id": "qwen3-32b",
+    "benchmark_id": "bfcl-v3",
+    "score": 70.3,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen3/",
+      "reported_by": "Qwen3 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-04-29"
+    }
+  },
+  {
+    "model_id": "qwen3-30b-a3b",
+    "benchmark_id": "bfcl-v3",
+    "score": 69.1,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen3/",
+      "reported_by": "Qwen3 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-04-29"
+    }
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "bfcl-v3",
+    "score": 67.8,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen3/",
+      "reported_by": "Qwen3 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-04-29"
+    }
+  },
+  {
+    "model_id": "qwq-32b",
+    "benchmark_id": "bfcl-v3",
+    "score": 66.4,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen3/",
+      "reported_by": "Qwen3 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-04-29"
+    }
+  },
+  {
+    "model_id": "qwen3-4b",
+    "benchmark_id": "bfcl-v3",
+    "score": 65.9,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen3/",
+      "reported_by": "Qwen3 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-04-29"
+    }
+  },
+  {
+    "model_id": "o3-mini",
+    "benchmark_id": "bfcl-v3",
+    "score": 64.6,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen3/",
+      "reported_by": "Qwen3 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-04-29"
+    }
+  },
+  {
+    "model_id": "qwen-2.5-72b",
+    "benchmark_id": "bfcl-v3",
+    "score": 63.4,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen3/",
+      "reported_by": "Qwen3 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-04-29"
+    }
+  },
+  {
+    "model_id": "gemini-2.5-pro",
+    "benchmark_id": "bfcl-v3",
+    "score": 62.9,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen3/",
+      "reported_by": "Qwen3 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-04-29"
+    }
+  },
+  {
+    "model_id": "gemma-3-27b",
+    "benchmark_id": "bfcl-v3",
+    "score": 59.1,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen3/",
+      "reported_by": "Qwen3 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-04-29"
+    }
+  },
+  {
+    "model_id": "deepseek-v3",
+    "benchmark_id": "bfcl-v3",
+    "score": 57.6,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen3/",
+      "reported_by": "Qwen3 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-04-29"
+    }
+  },
+  {
+    "model_id": "deepseek-r1",
+    "benchmark_id": "bfcl-v3",
+    "score": 56.9,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen3/",
+      "reported_by": "Qwen3 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-04-29"
+    }
+  },
+  {
+    "model_id": "qwen3-30b-a3b",
+    "benchmark_id": "gpqa",
+    "score": 65.8,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen3/",
+      "reported_by": "Qwen3 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-04-29"
+    }
+  },
+  {
+    "model_id": "qwq-32b",
+    "benchmark_id": "gpqa",
+    "score": 65.6,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen3/",
+      "reported_by": "Qwen3 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-04-29"
+    }
+  },
+  {
+    "model_id": "deepseek-v3",
+    "benchmark_id": "gpqa",
+    "score": 59.1,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen3/",
+      "reported_by": "Qwen3 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-04-29"
+    }
+  },
+  {
+    "model_id": "qwen3-4b",
+    "benchmark_id": "gpqa",
+    "score": 55.9,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen3/",
+      "reported_by": "Qwen3 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-04-29"
+    }
+  },
+  {
+    "model_id": "qwen-2.5-72b",
+    "benchmark_id": "gpqa",
+    "score": 49,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen3/",
+      "reported_by": "Qwen3 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-04-29"
+    }
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "gpqa",
+    "score": 46,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen3/",
+      "reported_by": "Qwen3 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-04-29"
+    }
+  },
+  {
+    "model_id": "gemma-3-27b",
+    "benchmark_id": "gpqa",
+    "score": 42.4,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen3/",
+      "reported_by": "Qwen3 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-04-29"
+    }
+  },
+  {
+    "model_id": "gemini-2.5-pro",
+    "benchmark_id": "livebench",
+    "score": 82.4,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen3/",
+      "reported_by": "Qwen3 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-04-29"
+    }
+  },
+  {
+    "model_id": "qwen3-235b",
+    "benchmark_id": "livebench",
+    "score": 77.1,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen3/",
+      "reported_by": "Qwen3 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-04-29"
+    }
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "livebench",
+    "score": 75.7,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen3/",
+      "reported_by": "Qwen3 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-04-29"
+    }
+  },
+  {
+    "model_id": "qwen3-32b",
+    "benchmark_id": "livebench",
+    "score": 74.9,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen3/",
+      "reported_by": "Qwen3 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-04-29"
+    }
+  },
+  {
+    "model_id": "qwen3-30b-a3b",
+    "benchmark_id": "livebench",
+    "score": 74.3,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen3/",
+      "reported_by": "Qwen3 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-04-29"
+    }
+  },
+  {
+    "model_id": "qwq-32b",
+    "benchmark_id": "livebench",
+    "score": 72,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen3/",
+      "reported_by": "Qwen3 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-04-29"
+    }
+  },
+  {
+    "model_id": "deepseek-r1",
+    "benchmark_id": "livebench",
+    "score": 71.6,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen3/",
+      "reported_by": "Qwen3 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-04-29"
+    }
+  },
+  {
+    "model_id": "o3-mini",
+    "benchmark_id": "livebench",
+    "score": 70,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen3/",
+      "reported_by": "Qwen3 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-04-29"
+    }
+  },
+  {
+    "model_id": "qwen3-4b",
+    "benchmark_id": "livebench",
+    "score": 63.6,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen3/",
+      "reported_by": "Qwen3 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-04-29"
+    }
+  },
+  {
+    "model_id": "deepseek-v3",
+    "benchmark_id": "livebench",
+    "score": 60.5,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen3/",
+      "reported_by": "Qwen3 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-04-29"
+    }
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "livebench",
+    "score": 52.2,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen3/",
+      "reported_by": "Qwen3 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-04-29"
+    }
+  },
+  {
+    "model_id": "qwen-2.5-72b",
+    "benchmark_id": "livebench",
+    "score": 51.4,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen3/",
+      "reported_by": "Qwen3 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-04-29"
+    }
+  },
+  {
+    "model_id": "gemma-3-27b",
+    "benchmark_id": "livebench",
+    "score": 49.2,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen3/",
+      "reported_by": "Qwen3 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-04-29"
+    }
+  },
+  {
+    "model_id": "qwen3-235b",
+    "benchmark_id": "livecodebench",
+    "score": 70.7,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen3/",
+      "reported_by": "Qwen3 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-04-29"
+    }
+  },
+  {
+    "model_id": "grok-3",
+    "benchmark_id": "livecodebench",
+    "score": 70.6,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen3/",
+      "reported_by": "Qwen3 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-04-29"
+    }
+  },
+  {
+    "model_id": "gemini-2.5-pro",
+    "benchmark_id": "livecodebench",
+    "score": 70.4,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen3/",
+      "reported_by": "Qwen3 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-04-29"
+    }
+  },
+  {
+    "model_id": "o3-mini",
+    "benchmark_id": "livecodebench",
+    "score": 66.3,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen3/",
+      "reported_by": "Qwen3 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-04-29"
+    }
+  },
+  {
+    "model_id": "qwen3-32b",
+    "benchmark_id": "livecodebench",
+    "score": 65.7,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen3/",
+      "reported_by": "Qwen3 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-04-29"
+    }
+  },
+  {
+    "model_id": "deepseek-r1",
+    "benchmark_id": "livecodebench",
+    "score": 64.3,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen3/",
+      "reported_by": "Qwen3 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-04-29"
+    }
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "livecodebench",
+    "score": 63.9,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen3/",
+      "reported_by": "Qwen3 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-04-29"
+    }
+  },
+  {
+    "model_id": "qwq-32b",
+    "benchmark_id": "livecodebench",
+    "score": 62.7,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen3/",
+      "reported_by": "Qwen3 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-04-29"
+    }
+  },
+  {
+    "model_id": "qwen3-30b-a3b",
+    "benchmark_id": "livecodebench",
+    "score": 62.6,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen3/",
+      "reported_by": "Qwen3 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-04-29"
+    }
+  },
+  {
+    "model_id": "qwen3-4b",
+    "benchmark_id": "livecodebench",
+    "score": 54.2,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen3/",
+      "reported_by": "Qwen3 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-04-29"
+    }
+  },
+  {
+    "model_id": "deepseek-v3",
+    "benchmark_id": "livecodebench",
+    "score": 33.1,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen3/",
+      "reported_by": "Qwen3 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-04-29"
+    }
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "livecodebench",
+    "score": 32.7,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen3/",
+      "reported_by": "Qwen3 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-04-29"
+    }
+  },
+  {
+    "model_id": "qwen-2.5-72b",
+    "benchmark_id": "livecodebench",
+    "score": 30.7,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen3/",
+      "reported_by": "Qwen3 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-04-29"
+    }
+  },
+  {
+    "model_id": "gemma-3-27b",
+    "benchmark_id": "livecodebench",
+    "score": 26.9,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen3/",
+      "reported_by": "Qwen3 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-04-29"
+    }
+  },
+  {
+    "model_id": "gemini-2.5-pro",
+    "benchmark_id": "multiif",
+    "score": 77.8,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen3/",
+      "reported_by": "Qwen3 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-04-29"
+    }
+  },
+  {
+    "model_id": "qwen3-32b",
+    "benchmark_id": "multiif",
+    "score": 73,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen3/",
+      "reported_by": "Qwen3 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-04-29"
+    }
+  },
+  {
+    "model_id": "qwen3-30b-a3b",
+    "benchmark_id": "multiif",
+    "score": 72.2,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen3/",
+      "reported_by": "Qwen3 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-04-29"
+    }
+  },
+  {
+    "model_id": "qwen3-235b",
+    "benchmark_id": "multiif",
+    "score": 71.9,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen3/",
+      "reported_by": "Qwen3 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-04-29"
+    }
+  },
+  {
+    "model_id": "gemma-3-27b",
+    "benchmark_id": "multiif",
+    "score": 69.8,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen3/",
+      "reported_by": "Qwen3 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-04-29"
+    }
+  },
+  {
+    "model_id": "qwq-32b",
+    "benchmark_id": "multiif",
+    "score": 68.3,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen3/",
+      "reported_by": "Qwen3 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-04-29"
+    }
+  },
+  {
+    "model_id": "deepseek-r1",
+    "benchmark_id": "multiif",
+    "score": 67.7,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen3/",
+      "reported_by": "Qwen3 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-04-29"
+    }
+  },
+  {
+    "model_id": "qwen3-4b",
+    "benchmark_id": "multiif",
+    "score": 66.3,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen3/",
+      "reported_by": "Qwen3 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-04-29"
+    }
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "multiif",
+    "score": 65.6,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen3/",
+      "reported_by": "Qwen3 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-04-29"
+    }
+  },
+  {
+    "model_id": "qwen-2.5-72b",
+    "benchmark_id": "multiif",
+    "score": 65.3,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen3/",
+      "reported_by": "Qwen3 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-04-29"
+    }
+  },
+  {
+    "model_id": "deepseek-v3",
+    "benchmark_id": "multiif",
+    "score": 55.6,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen3/",
+      "reported_by": "Qwen3 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-04-29"
+    }
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "multiif",
+    "score": 48.8,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen3/",
+      "reported_by": "Qwen3 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-04-29"
+    }
+  },
+  {
+    "model_id": "o3-mini",
+    "benchmark_id": "multiif",
+    "score": 48.4,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen3/",
+      "reported_by": "Qwen3 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-04-29"
+    }
+  }
+]

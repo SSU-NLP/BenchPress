@@ -1,0 +1,599 @@
+[
+  {
+    "model_id": "exaone-4",
+    "benchmark_id": "aime-2025",
+    "score": 85.3,
+    "config": "reasoning",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/LGAI-EXAONE/EXAONE-4.0-32B",
+      "reported_by": "EXAONE 4.0 32B README",
+      "fetched_at": "2026-06-09T00:00:00Z",
+      "published": "2025-07"
+    }
+  },
+  {
+    "model_id": "exaone-4",
+    "benchmark_id": "bfcl-v3",
+    "score": 63.9,
+    "config": "reasoning",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/LGAI-EXAONE/EXAONE-4.0-32B",
+      "reported_by": "EXAONE 4.0 32B README",
+      "fetched_at": "2026-06-09T00:00:00Z",
+      "published": "2025-07"
+    }
+  },
+  {
+    "model_id": "ax-4",
+    "benchmark_id": "click",
+    "score": 83.51,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/skt/A.X-4.0",
+      "reported_by": "SKT A.X 4.0 README",
+      "fetched_at": "2026-06-09T00:00:00Z",
+      "published": "2025-07"
+    }
+  },
+  {
+    "model_id": "ax-3.1-light",
+    "benchmark_id": "click",
+    "score": 71.22,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/skt/A.X-3.1-Light",
+      "reported_by": "SKT A.X 3.1 Light README",
+      "fetched_at": "2026-06-09T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "exaone-4",
+    "benchmark_id": "gpqa",
+    "score": 75.4,
+    "config": "Diamond, reasoning",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/LGAI-EXAONE/EXAONE-4.0-32B",
+      "reported_by": "EXAONE 4.0 32B README",
+      "fetched_at": "2026-06-09T00:00:00Z",
+      "published": "2025-07"
+    }
+  },
+  {
+    "model_id": "ax-4",
+    "benchmark_id": "hrm8k",
+    "score": 48.55,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/skt/A.X-4.0",
+      "reported_by": "SKT A.X 4.0 README",
+      "fetched_at": "2026-06-09T00:00:00Z",
+      "published": "2025-07"
+    }
+  },
+  {
+    "model_id": "ax-3.1-light",
+    "benchmark_id": "hrm8k",
+    "score": 41.7,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/skt/A.X-3.1-Light",
+      "reported_by": "SKT A.X 3.1 Light README",
+      "fetched_at": "2026-06-09T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "ax-4",
+    "benchmark_id": "humaneval+",
+    "score": 79.27,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/skt/A.X-4.0",
+      "reported_by": "SKT A.X 4.0 README",
+      "fetched_at": "2026-06-09T00:00:00Z",
+      "published": "2025-07"
+    }
+  },
+  {
+    "model_id": "ax-3.1-light",
+    "benchmark_id": "humaneval+",
+    "score": 73.78,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/skt/A.X-3.1-Light",
+      "reported_by": "SKT A.X 3.1 Light README",
+      "fetched_at": "2026-06-09T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "ax-4",
+    "benchmark_id": "ifeval",
+    "score": 86.05,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/skt/A.X-4.0",
+      "reported_by": "SKT A.X 4.0 README",
+      "fetched_at": "2026-06-09T00:00:00Z",
+      "published": "2025-07"
+    }
+  },
+  {
+    "model_id": "exaone-4",
+    "benchmark_id": "ifeval",
+    "score": 83.7,
+    "config": "reasoning",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/LGAI-EXAONE/EXAONE-4.0-32B",
+      "reported_by": "EXAONE 4.0 32B README",
+      "fetched_at": "2026-06-09T00:00:00Z",
+      "published": "2025-07"
+    }
+  },
+  {
+    "model_id": "ax-3.1-light",
+    "benchmark_id": "ifeval",
+    "score": 79.86,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/skt/A.X-3.1-Light",
+      "reported_by": "SKT A.X 3.1 Light README",
+      "fetched_at": "2026-06-09T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "ax-4",
+    "benchmark_id": "kmmlu",
+    "score": 78.32,
+    "config": "chat CoT",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/skt/A.X-4.0",
+      "reported_by": "SKT A.X 4.0 README",
+      "fetched_at": "2026-06-09T00:00:00Z",
+      "published": "2025-07"
+    }
+  },
+  {
+    "model_id": "ax-3.1-light",
+    "benchmark_id": "kmmlu",
+    "score": 61.7,
+    "config": "chat CoT",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/skt/A.X-3.1-Light",
+      "reported_by": "SKT A.X 3.1 Light README",
+      "fetched_at": "2026-06-09T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "ax-4",
+    "benchmark_id": "kmmlu-pro",
+    "score": 72.43,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/skt/A.X-4.0",
+      "reported_by": "SKT A.X 4.0 README",
+      "fetched_at": "2026-06-09T00:00:00Z",
+      "published": "2025-07"
+    }
+  },
+  {
+    "model_id": "exaone-4",
+    "benchmark_id": "kmmlu-pro",
+    "score": 67.7,
+    "config": "reasoning",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/LGAI-EXAONE/EXAONE-4.0-32B",
+      "reported_by": "EXAONE 4.0 32B README",
+      "fetched_at": "2026-06-09T00:00:00Z",
+      "published": "2025-07"
+    }
+  },
+  {
+    "model_id": "ax-3.1-light",
+    "benchmark_id": "kmmlu-pro",
+    "score": 45.54,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/skt/A.X-3.1-Light",
+      "reported_by": "SKT A.X 3.1 Light README",
+      "fetched_at": "2026-06-09T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "ax-4",
+    "benchmark_id": "kmmlu-redux",
+    "score": 74.18,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/skt/A.X-4.0",
+      "reported_by": "SKT A.X 4.0 README",
+      "fetched_at": "2026-06-09T00:00:00Z",
+      "published": "2025-07"
+    }
+  },
+  {
+    "model_id": "exaone-4",
+    "benchmark_id": "kmmlu-redux",
+    "score": 72.7,
+    "config": "reasoning",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/LGAI-EXAONE/EXAONE-4.0-32B",
+      "reported_by": "EXAONE 4.0 32B README",
+      "fetched_at": "2026-06-09T00:00:00Z",
+      "published": "2025-07"
+    }
+  },
+  {
+    "model_id": "ax-3.1-light",
+    "benchmark_id": "kmmlu-redux",
+    "score": 52.34,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/skt/A.X-3.1-Light",
+      "reported_by": "SKT A.X 3.1 Light README",
+      "fetched_at": "2026-06-09T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "ax-4",
+    "benchmark_id": "ko-ifeval",
+    "score": 77.96,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/skt/A.X-4.0",
+      "reported_by": "SKT A.X 4.0 README",
+      "fetched_at": "2026-06-09T00:00:00Z",
+      "published": "2025-07"
+    }
+  },
+  {
+    "model_id": "ax-3.1-light",
+    "benchmark_id": "ko-ifeval",
+    "score": 70.04,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/skt/A.X-3.1-Light",
+      "reported_by": "SKT A.X 3.1 Light README",
+      "fetched_at": "2026-06-09T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "exaone-4",
+    "benchmark_id": "ko-longbench",
+    "score": 76.9,
+    "config": "non-reasoning",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/LGAI-EXAONE/EXAONE-4.0-32B",
+      "reported_by": "EXAONE 4.0 32B README",
+      "fetched_at": "2026-06-09T00:00:00Z",
+      "published": "2025-07"
+    }
+  },
+  {
+    "model_id": "ax-4",
+    "benchmark_id": "ko-mt-bench",
+    "score": 86.69,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/skt/A.X-4.0",
+      "reported_by": "SKT A.X 4.0 README",
+      "fetched_at": "2026-06-09T00:00:00Z",
+      "published": "2025-07"
+    }
+  },
+  {
+    "model_id": "ax-3.1-light",
+    "benchmark_id": "ko-mt-bench",
+    "score": 78.56,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/skt/A.X-3.1-Light",
+      "reported_by": "SKT A.X 3.1 Light README",
+      "fetched_at": "2026-06-09T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "ax-4",
+    "benchmark_id": "kobalt",
+    "score": 47.3,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/skt/A.X-4.0",
+      "reported_by": "SKT A.X 4.0 README",
+      "fetched_at": "2026-06-09T00:00:00Z",
+      "published": "2025-07"
+    }
+  },
+  {
+    "model_id": "ax-3.1-light",
+    "benchmark_id": "kobalt",
+    "score": 27.43,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/skt/A.X-3.1-Light",
+      "reported_by": "SKT A.X 3.1 Light README",
+      "fetched_at": "2026-06-09T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "ax-4",
+    "benchmark_id": "livebench",
+    "score": 52.3,
+    "config": "2024.11",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/skt/A.X-4.0",
+      "reported_by": "SKT A.X 4.0 README",
+      "fetched_at": "2026-06-09T00:00:00Z",
+      "published": "2025-07"
+    }
+  },
+  {
+    "model_id": "exaone-4",
+    "benchmark_id": "livecodebench",
+    "score": 72.6,
+    "config": "v5, reasoning",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/LGAI-EXAONE/EXAONE-4.0-32B",
+      "reported_by": "EXAONE 4.0 32B README",
+      "fetched_at": "2026-06-09T00:00:00Z",
+      "published": "2025-07"
+    }
+  },
+  {
+    "model_id": "ax-4",
+    "benchmark_id": "livecodebench",
+    "score": 26.07,
+    "config": "2024.10-2025.04",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/skt/A.X-4.0",
+      "reported_by": "SKT A.X 4.0 README",
+      "fetched_at": "2026-06-09T00:00:00Z",
+      "published": "2025-07"
+    }
+  },
+  {
+    "model_id": "ax-4",
+    "benchmark_id": "longbench",
+    "score": 56.7,
+    "config": "<128K",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/skt/A.X-4.0",
+      "reported_by": "SKT A.X 4.0 README",
+      "fetched_at": "2026-06-09T00:00:00Z",
+      "published": "2025-07"
+    }
+  },
+  {
+    "model_id": "exaone-4",
+    "benchmark_id": "longbench",
+    "score": 48.1,
+    "config": "v1, non-reasoning",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/LGAI-EXAONE/EXAONE-4.0-32B",
+      "reported_by": "EXAONE 4.0 32B README",
+      "fetched_at": "2026-06-09T00:00:00Z",
+      "published": "2025-07"
+    }
+  },
+  {
+    "model_id": "ax-4",
+    "benchmark_id": "math",
+    "score": 74.28,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/skt/A.X-4.0",
+      "reported_by": "SKT A.X 4.0 README",
+      "fetched_at": "2026-06-09T00:00:00Z",
+      "published": "2025-07"
+    }
+  },
+  {
+    "model_id": "ax-3.1-light",
+    "benchmark_id": "math",
+    "score": 70.14,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/skt/A.X-3.1-Light",
+      "reported_by": "SKT A.X 3.1 Light README",
+      "fetched_at": "2026-06-09T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "exaone-4",
+    "benchmark_id": "math-500",
+    "score": 95.8,
+    "config": "ES, reasoning",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/LGAI-EXAONE/EXAONE-4.0-32B",
+      "reported_by": "EXAONE 4.0 32B README",
+      "fetched_at": "2026-06-09T00:00:00Z",
+      "published": "2025-07"
+    }
+  },
+  {
+    "model_id": "ax-4",
+    "benchmark_id": "mbpp+",
+    "score": 73.28,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/skt/A.X-4.0",
+      "reported_by": "SKT A.X 4.0 README",
+      "fetched_at": "2026-06-09T00:00:00Z",
+      "published": "2025-07"
+    }
+  },
+  {
+    "model_id": "ax-3.1-light",
+    "benchmark_id": "mbpp+",
+    "score": 61.64,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/skt/A.X-3.1-Light",
+      "reported_by": "SKT A.X 3.1 Light README",
+      "fetched_at": "2026-06-09T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "ax-4",
+    "benchmark_id": "mmlu",
+    "score": 86.62,
+    "config": "chat CoT",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/skt/A.X-4.0",
+      "reported_by": "SKT A.X 4.0 README",
+      "fetched_at": "2026-06-09T00:00:00Z",
+      "published": "2025-07"
+    }
+  },
+  {
+    "model_id": "ax-3.1-light",
+    "benchmark_id": "mmlu",
+    "score": 66.95,
+    "config": "chat CoT",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/skt/A.X-3.1-Light",
+      "reported_by": "SKT A.X 3.1 Light README",
+      "fetched_at": "2026-06-09T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "exaone-4",
+    "benchmark_id": "mmlu-pro",
+    "score": 81.8,
+    "config": "reasoning",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/LGAI-EXAONE/EXAONE-4.0-32B",
+      "reported_by": "EXAONE 4.0 32B README",
+      "fetched_at": "2026-06-09T00:00:00Z",
+      "published": "2025-07"
+    }
+  },
+  {
+    "model_id": "exaone-4",
+    "benchmark_id": "mmlu-redux",
+    "score": 92.3,
+    "config": "reasoning",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/LGAI-EXAONE/EXAONE-4.0-32B",
+      "reported_by": "EXAONE 4.0 32B README",
+      "fetched_at": "2026-06-09T00:00:00Z",
+      "published": "2025-07"
+    }
+  },
+  {
+    "model_id": "exaone-4",
+    "benchmark_id": "mmmlu",
+    "score": 85.6,
+    "config": "ES, reasoning",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/LGAI-EXAONE/EXAONE-4.0-32B",
+      "reported_by": "EXAONE 4.0 32B README",
+      "fetched_at": "2026-06-09T00:00:00Z",
+      "published": "2025-07"
+    }
+  },
+  {
+    "model_id": "ax-4",
+    "benchmark_id": "mt-bench",
+    "score": 83.25,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/skt/A.X-4.0",
+      "reported_by": "SKT A.X 4.0 README",
+      "fetched_at": "2026-06-09T00:00:00Z",
+      "published": "2025-07"
+    }
+  },
+  {
+    "model_id": "ax-3.1-light",
+    "benchmark_id": "mt-bench",
+    "score": 74.38,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/skt/A.X-3.1-Light",
+      "reported_by": "SKT A.X 3.1 Light README",
+      "fetched_at": "2026-06-09T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "exaone-4",
+    "benchmark_id": "ruler",
+    "score": 88.2,
+    "config": "non-reasoning",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/LGAI-EXAONE/EXAONE-4.0-32B",
+      "reported_by": "EXAONE 4.0 32B README",
+      "fetched_at": "2026-06-09T00:00:00Z",
+      "published": "2025-07"
+    }
+  },
+  {
+    "model_id": "exaone-4",
+    "benchmark_id": "tau-bench-airline",
+    "score": 51.5,
+    "config": "reasoning",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/LGAI-EXAONE/EXAONE-4.0-32B",
+      "reported_by": "EXAONE 4.0 32B README",
+      "fetched_at": "2026-06-09T00:00:00Z",
+      "published": "2025-07"
+    }
+  },
+  {
+    "model_id": "exaone-4",
+    "benchmark_id": "tau-bench-retail",
+    "score": 62.8,
+    "config": "reasoning",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/LGAI-EXAONE/EXAONE-4.0-32B",
+      "reported_by": "EXAONE 4.0 32B README",
+      "fetched_at": "2026-06-09T00:00:00Z",
+      "published": "2025-07"
+    }
+  }
+]

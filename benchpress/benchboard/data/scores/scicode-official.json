@@ -1,0 +1,32 @@
+[
+  {
+    "model_id": "llama-3.1-405b",
+    "benchmark_id": "scicode",
+    "score": 19.8,
+    "config": "subproblem accuracy",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://scicode-bench.github.io/leaderboard/",
+      "ref": "SciCode official leaderboard (Llama-3.1-405B-Chat), subproblem accuracy",
+      "fetched_at": "2026-06-15T00:00:00Z"
+    },
+    "extra": {
+      "main_problem_accuracy": 1.5
+    }
+  },
+  {
+    "model_id": "llama-3.1-70b",
+    "benchmark_id": "scicode",
+    "score": 17,
+    "config": "subproblem accuracy",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://scicode-bench.github.io/leaderboard/",
+      "ref": "SciCode official leaderboard (Llama-3.1-70B-Chat), subproblem accuracy",
+      "fetched_at": "2026-06-15T00:00:00Z"
+    },
+    "extra": {
+      "main_problem_accuracy": 0
+    }
+  }
+]

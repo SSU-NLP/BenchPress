@@ -1,0 +1,658 @@
+[
+  {
+    "model_id": "qwen-2.5-72b",
+    "benchmark_id": "ammlu-arabic",
+    "score": 72.44,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen-2.5-72b__paper.pdf",
+      "ref": "p.15",
+      "fetched_at": "2026-06-07T10:23:30.912Z"
+    }
+  },
+  {
+    "model_id": "qwen-2.5-72b",
+    "benchmark_id": "arc-challenge",
+    "score": 72.4,
+    "config": "25-shot",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen-2.5-72b__paper.pdf",
+      "ref": "p.8",
+      "fetched_at": "2026-06-07T10:23:30.912Z"
+    }
+  },
+  {
+    "model_id": "qwen-2.5-72b",
+    "benchmark_id": "arena-hard",
+    "score": 81.2,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen-2.5-72b__paper.pdf",
+      "ref": "p.11",
+      "fetched_at": "2026-06-07T10:23:30.912Z"
+    }
+  },
+  {
+    "model_id": "qwen-2.5-72b",
+    "benchmark_id": "bbh",
+    "score": 86.3,
+    "config": "3-shot",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen-2.5-72b__paper.pdf",
+      "ref": "p.8",
+      "fetched_at": "2026-06-07T10:23:30.912Z"
+    }
+  },
+  {
+    "model_id": "qwen-2.5-72b",
+    "benchmark_id": "blend",
+    "score": 32.48,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen-2.5-72b__paper.pdf",
+      "ref": "p.15",
+      "fetched_at": "2026-06-07T10:23:30.912Z"
+    }
+  },
+  {
+    "model_id": "qwen-2.5-72b",
+    "benchmark_id": "gpqa",
+    "score": 49,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen-2.5-72b__paper.pdf",
+      "ref": "p.11",
+      "fetched_at": "2026-06-07T10:23:30.912Z"
+    },
+    "variants": [
+      {
+        "score": 45.9,
+        "config": "5-shot",
+        "source": {
+          "kind": "tech_report",
+          "url": "qwen-2.5-72b__paper.pdf",
+          "ref": "p.8",
+          "fetched_at": "2026-06-07T10:23:30.912Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "qwen-2.5-72b",
+    "benchmark_id": "gsm8k",
+    "score": 95.8,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen-2.5-72b__paper.pdf",
+      "ref": "p.11",
+      "fetched_at": "2026-06-07T10:23:30.912Z"
+    },
+    "variants": [
+      {
+        "score": 91.5,
+        "config": "4-shot",
+        "source": {
+          "kind": "tech_report",
+          "url": "qwen-2.5-72b__paper.pdf",
+          "ref": "p.8",
+          "fetched_at": "2026-06-07T10:23:30.912Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "qwen-2.5-72b",
+    "benchmark_id": "hellaswag",
+    "score": 87.6,
+    "config": "10-shot",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen-2.5-72b__paper.pdf",
+      "ref": "p.8",
+      "fetched_at": "2026-06-07T10:23:30.912Z"
+    }
+  },
+  {
+    "model_id": "qwen-2.5-72b",
+    "benchmark_id": "humaneval",
+    "score": 86.6,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen-2.5-72b__paper.pdf",
+      "ref": "p.11",
+      "fetched_at": "2026-06-07T10:23:30.912Z"
+    },
+    "variants": [
+      {
+        "score": 59.1,
+        "config": "0-shot",
+        "source": {
+          "kind": "tech_report",
+          "url": "qwen-2.5-72b__paper.pdf",
+          "ref": "p.8",
+          "fetched_at": "2026-06-07T10:23:30.912Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "qwen-2.5-72b",
+    "benchmark_id": "humaneval+",
+    "score": 51.2,
+    "config": "0-shot",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen-2.5-72b__paper.pdf",
+      "ref": "p.8",
+      "fetched_at": "2026-06-07T10:23:30.912Z"
+    }
+  },
+  {
+    "model_id": "qwen-2.5-72b",
+    "benchmark_id": "ifeval",
+    "score": 84.1,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen-2.5-72b__paper.pdf",
+      "ref": "p.11",
+      "fetched_at": "2026-06-07T10:23:30.912Z"
+    }
+  },
+  {
+    "model_id": "qwen-2.5-72b",
+    "benchmark_id": "ifeval-multilingual",
+    "score": 86.98,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen-2.5-72b__paper.pdf",
+      "ref": "p.15",
+      "fetched_at": "2026-06-07T10:23:30.912Z"
+    }
+  },
+  {
+    "model_id": "qwen-2.5-72b",
+    "benchmark_id": "indommlu-indonesian",
+    "score": 69.25,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen-2.5-72b__paper.pdf",
+      "ref": "p.15",
+      "fetched_at": "2026-06-07T10:23:30.912Z"
+    }
+  },
+  {
+    "model_id": "qwen-2.5-72b",
+    "benchmark_id": "jmmlu-japanese",
+    "score": 80.56,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen-2.5-72b__paper.pdf",
+      "ref": "p.15",
+      "fetched_at": "2026-06-07T10:23:30.912Z"
+    }
+  },
+  {
+    "model_id": "qwen-2.5-72b",
+    "benchmark_id": "kmmlu-korean",
+    "score": 61.96,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen-2.5-72b__paper.pdf",
+      "ref": "p.15",
+      "fetched_at": "2026-06-07T10:23:30.912Z"
+    }
+  },
+  {
+    "model_id": "qwen-2.5-72b",
+    "benchmark_id": "livebench",
+    "score": 52.3,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen-2.5-72b__paper.pdf",
+      "ref": "p.11",
+      "fetched_at": "2026-06-07T10:23:30.912Z"
+    }
+  },
+  {
+    "model_id": "qwen-2.5-72b",
+    "benchmark_id": "livecodebench",
+    "score": 55.5,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen-2.5-72b__paper.pdf",
+      "ref": "p.11",
+      "fetched_at": "2026-06-07T10:23:30.912Z"
+    }
+  },
+  {
+    "model_id": "qwen-2.5-72b",
+    "benchmark_id": "longbench-chat",
+    "score": 8.72,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen-2.5-72b__paper.pdf",
+      "ref": "p.17",
+      "fetched_at": "2026-06-07T10:23:30.912Z"
+    }
+  },
+  {
+    "model_id": "qwen-2.5-72b",
+    "benchmark_id": "lv-eval",
+    "score": 60.4,
+    "config": "16k",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen-2.5-72b__paper.pdf",
+      "ref": "p.17",
+      "fetched_at": "2026-06-07T10:23:30.912Z"
+    },
+    "variants": [
+      {
+        "score": 57.5,
+        "config": "32k",
+        "source": {
+          "kind": "tech_report",
+          "url": "qwen-2.5-72b__paper.pdf",
+          "ref": "p.17",
+          "fetched_at": "2026-06-07T10:23:30.912Z"
+        }
+      },
+      {
+        "score": 53.9,
+        "config": "64k",
+        "source": {
+          "kind": "tech_report",
+          "url": "qwen-2.5-72b__paper.pdf",
+          "ref": "p.17",
+          "fetched_at": "2026-06-07T10:23:30.912Z"
+        }
+      },
+      {
+        "score": 50.9,
+        "config": "128k",
+        "source": {
+          "kind": "tech_report",
+          "url": "qwen-2.5-72b__paper.pdf",
+          "ref": "p.17",
+          "fetched_at": "2026-06-07T10:23:30.912Z"
+        }
+      },
+      {
+        "score": 45.2,
+        "config": "256k",
+        "source": {
+          "kind": "tech_report",
+          "url": "qwen-2.5-72b__paper.pdf",
+          "ref": "p.17",
+          "fetched_at": "2026-06-07T10:23:30.912Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "qwen-2.5-72b",
+    "benchmark_id": "math",
+    "score": 62.1,
+    "config": "4-shot",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen-2.5-72b__paper.pdf",
+      "ref": "p.8",
+      "fetched_at": "2026-06-07T10:23:30.912Z"
+    }
+  },
+  {
+    "model_id": "qwen-2.5-72b",
+    "benchmark_id": "mbpp",
+    "score": 88.2,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen-2.5-72b__paper.pdf",
+      "ref": "p.11",
+      "fetched_at": "2026-06-07T10:23:30.912Z"
+    },
+    "variants": [
+      {
+        "score": 84.7,
+        "config": "0-shot",
+        "source": {
+          "kind": "tech_report",
+          "url": "qwen-2.5-72b__paper.pdf",
+          "ref": "p.8",
+          "fetched_at": "2026-06-07T10:23:30.912Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "qwen-2.5-72b",
+    "benchmark_id": "mbpp+",
+    "score": 69.2,
+    "config": "0-shot",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen-2.5-72b__paper.pdf",
+      "ref": "p.8",
+      "fetched_at": "2026-06-07T10:23:30.912Z"
+    }
+  },
+  {
+    "model_id": "qwen-2.5-72b",
+    "benchmark_id": "mgsm8k-extended",
+    "score": 88.16,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen-2.5-72b__paper.pdf",
+      "ref": "p.15",
+      "fetched_at": "2026-06-07T10:23:30.912Z"
+    }
+  },
+  {
+    "model_id": "qwen-2.5-72b",
+    "benchmark_id": "mmlu",
+    "score": 86.1,
+    "config": "5-shot",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen-2.5-72b__paper.pdf",
+      "ref": "p.8",
+      "fetched_at": "2026-06-07T10:23:30.912Z"
+    }
+  },
+  {
+    "model_id": "qwen-2.5-72b",
+    "benchmark_id": "mmlu-pro",
+    "score": 71.1,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen-2.5-72b__paper.pdf",
+      "ref": "p.11",
+      "fetched_at": "2026-06-07T10:23:30.912Z"
+    },
+    "variants": [
+      {
+        "score": 58.1,
+        "config": "5-shot",
+        "source": {
+          "kind": "tech_report",
+          "url": "qwen-2.5-72b__paper.pdf",
+          "ref": "p.8",
+          "fetched_at": "2026-06-07T10:23:30.912Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "qwen-2.5-72b",
+    "benchmark_id": "mmlu-redux",
+    "score": 86.8,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen-2.5-72b__paper.pdf",
+      "ref": "p.11",
+      "fetched_at": "2026-06-07T10:23:30.912Z"
+    },
+    "variants": [
+      {
+        "score": 83.9,
+        "config": "5-shot",
+        "source": {
+          "kind": "tech_report",
+          "url": "qwen-2.5-72b__paper.pdf",
+          "ref": "p.8",
+          "fetched_at": "2026-06-07T10:23:30.912Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "qwen-2.5-72b",
+    "benchmark_id": "mmlu-stem",
+    "score": 82.7,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen-2.5-72b__paper.pdf",
+      "ref": "p.8",
+      "fetched_at": "2026-06-07T10:23:30.912Z"
+    }
+  },
+  {
+    "model_id": "qwen-2.5-72b",
+    "benchmark_id": "mt-bench",
+    "score": 9.35,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen-2.5-72b__paper.pdf",
+      "ref": "p.11",
+      "fetched_at": "2026-06-07T10:23:30.912Z"
+    }
+  },
+  {
+    "model_id": "qwen-2.5-72b",
+    "benchmark_id": "multi-exam",
+    "score": 78.7,
+    "config": "5-shot",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen-2.5-72b__paper.pdf",
+      "ref": "p.8",
+      "fetched_at": "2026-06-07T10:23:30.912Z"
+    }
+  },
+  {
+    "model_id": "qwen-2.5-72b",
+    "benchmark_id": "multi-mathematics",
+    "score": 76.7,
+    "config": "8-shot CoT",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen-2.5-72b__paper.pdf",
+      "ref": "p.8",
+      "fetched_at": "2026-06-07T10:23:30.912Z"
+    }
+  },
+  {
+    "model_id": "qwen-2.5-72b",
+    "benchmark_id": "multi-translation",
+    "score": 39,
+    "config": "5-shot",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen-2.5-72b__paper.pdf",
+      "ref": "p.8",
+      "fetched_at": "2026-06-07T10:23:30.912Z"
+    }
+  },
+  {
+    "model_id": "qwen-2.5-72b",
+    "benchmark_id": "multi-understanding",
+    "score": 89.6,
+    "config": "5-shot",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen-2.5-72b__paper.pdf",
+      "ref": "p.8",
+      "fetched_at": "2026-06-07T10:23:30.912Z"
+    }
+  },
+  {
+    "model_id": "qwen-2.5-72b",
+    "benchmark_id": "multipl-e",
+    "score": 75.1,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen-2.5-72b__paper.pdf",
+      "ref": "p.11",
+      "fetched_at": "2026-06-07T10:23:30.912Z"
+    },
+    "variants": [
+      {
+        "score": 60.5,
+        "config": "0-shot",
+        "source": {
+          "kind": "tech_report",
+          "url": "qwen-2.5-72b__paper.pdf",
+          "ref": "p.8",
+          "fetched_at": "2026-06-07T10:23:30.912Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "qwen-2.5-72b",
+    "benchmark_id": "okapi-mmlu-translated",
+    "score": 79.97,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen-2.5-72b__paper.pdf",
+      "ref": "p.15",
+      "fetched_at": "2026-06-07T10:23:30.912Z"
+    }
+  },
+  {
+    "model_id": "qwen-2.5-72b",
+    "benchmark_id": "ruler",
+    "score": 97.7,
+    "config": "4K",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen-2.5-72b__paper.pdf",
+      "ref": "p.17",
+      "fetched_at": "2026-06-07T10:23:30.912Z"
+    },
+    "variants": [
+      {
+        "score": 97.7,
+        "config": "16K",
+        "source": {
+          "kind": "tech_report",
+          "url": "qwen-2.5-72b__paper.pdf",
+          "ref": "p.17",
+          "fetched_at": "2026-06-07T10:23:30.912Z"
+        }
+      },
+      {
+        "score": 97.2,
+        "config": "8K",
+        "source": {
+          "kind": "tech_report",
+          "url": "qwen-2.5-72b__paper.pdf",
+          "ref": "p.17",
+          "fetched_at": "2026-06-07T10:23:30.912Z"
+        }
+      },
+      {
+        "score": 96.5,
+        "config": "32K",
+        "source": {
+          "kind": "tech_report",
+          "url": "qwen-2.5-72b__paper.pdf",
+          "ref": "p.17",
+          "fetched_at": "2026-06-07T10:23:30.912Z"
+        }
+      },
+      {
+        "score": 95.1,
+        "config": "Avg",
+        "source": {
+          "kind": "tech_report",
+          "url": "qwen-2.5-72b__paper.pdf",
+          "ref": "p.17",
+          "fetched_at": "2026-06-07T10:23:30.912Z"
+        }
+      },
+      {
+        "score": 93,
+        "config": "64K",
+        "source": {
+          "kind": "tech_report",
+          "url": "qwen-2.5-72b__paper.pdf",
+          "ref": "p.17",
+          "fetched_at": "2026-06-07T10:23:30.912Z"
+        }
+      },
+      {
+        "score": 88.4,
+        "config": "128K",
+        "source": {
+          "kind": "tech_report",
+          "url": "qwen-2.5-72b__paper.pdf",
+          "ref": "p.17",
+          "fetched_at": "2026-06-07T10:23:30.912Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "qwen-2.5-72b",
+    "benchmark_id": "theoremqa",
+    "score": 42.4,
+    "config": "5-shot",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen-2.5-72b__paper.pdf",
+      "ref": "p.8",
+      "fetched_at": "2026-06-07T10:23:30.912Z"
+    }
+  },
+  {
+    "model_id": "qwen-2.5-72b",
+    "benchmark_id": "truthfulqa",
+    "score": 60.4,
+    "config": "0-shot",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen-2.5-72b__paper.pdf",
+      "ref": "p.8",
+      "fetched_at": "2026-06-07T10:23:30.912Z"
+    }
+  },
+  {
+    "model_id": "qwen-2.5-72b",
+    "benchmark_id": "turkishmmlu-turkish",
+    "score": 76.12,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen-2.5-72b__paper.pdf",
+      "ref": "p.15",
+      "fetched_at": "2026-06-07T10:23:30.912Z"
+    }
+  },
+  {
+    "model_id": "qwen-2.5-72b",
+    "benchmark_id": "winogrande",
+    "score": 83.9,
+    "config": "5-shot",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen-2.5-72b__paper.pdf",
+      "ref": "p.8",
+      "fetched_at": "2026-06-07T10:23:30.912Z"
+    }
+  }
+]

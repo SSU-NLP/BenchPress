@@ -1,0 +1,77 @@
+---
+import { buildView } from "../lib/loadData.ts";
+import { withBase } from "../lib/url";
+
+interface Props {
+  active: string;
+}
+const { active } = Astro.props;
+
+interface TabDef {
+  slug: string;
+  label: string;
+  href: string;
+  category: Parameters<typeof buildView>[0];
+  indent?: boolean;
+  separator?: boolean;
+}
+
+const tabs: TabDef[] = [
+  // Non-deterministic group
+  { slug: "non-deterministic", label: "비결정적", href: "/non-deterministic", category: "non_deterministic" },
+  { slug: "nd-preference",     label: "↳ Preference", href: "/non-deterministic/preference", category: "nd_preference", indent: true },
+  { slug: "nd-agent",          label: "↳ Agent",      href: "/non-deterministic/agent",      category: "nd_agent",      indent: true },
+  { slug: "nd-safety",         label: "↳ Safety",     href: "/non-deterministic/safety",     category: "nd_safety",     indent: true },
+  { slug: "nd-multilinguality",label: "↳ Multiling.", href: "/non-deterministic/multilinguality", category: "nd_multilinguality", indent: true },
+  { slug: "nd-korean",         label: "↳ Korean",     href: "/non-deterministic/korean",     category: "nd_korean",     indent: true },
+  // Deterministic group
+  { slug: "deterministic",     label: "결정적",       href: "/deterministic",                category: "deterministic", separator: true },
+  { slug: "general",           label: "↳ General",    href: "/deterministic/general",        category: "general",       indent: true },
+  { slug: "math",              label: "↳ Math/Sci",   href: "/deterministic/math",           category: "math",          indent: true },
+  { slug: "coding",            label: "↳ Coding",     href: "/deterministic/coding",         category: "coding",        indent: true },
+  { slug: "agent",             label: "↳ Agent",      href: "/deterministic/agent",          category: "agent",         indent: true },
+  { slug: "multimodal",        label: "↳ Multimodal", href: "/deterministic/multimodal",     category: "multimodal",    indent: true },
+  { slug: "vision",            label: "↳↳ Vision",    href: "/deterministic/vision",         category: "vision",        indent: true },
+  { slug: "video",             label: "↳↳ Video",     href: "/deterministic/video",          category: "video",         indent: true },
+  { slug: "multilinguality",   label: "↳ Multiling.", href: "/deterministic/multilinguality",category: "multilinguality",indent: true },
+  { slug: "korean",            label: "↳ Korean",     href: "/deterministic/korean",         category: "korean",        indent: true },
+  // All
+  { slug: "all",               label: "All",          href: "/deterministic/all",            category: "all",           separator: true },
+];
+
+const views = await Promise.all(tabs.map((t) => buildView(t.category)));
+const counts = tabs.map((_, i) => ({
+  models: views[i].rows.length,
+  benchmarks: views[i].benchmarks.length,
+}));
+---
+
+<nav class="border-b border-neutral-200 mb-6">
+  <ul class="flex gap-1 overflow-x-auto">
+    {tabs.map((t, i) => (
+      <li class:list={[t.separator && "ml-3"]}>
+        <a
+          href={withBase(t.href)}
+          class:list={[
+            "inline-flex items-baseline gap-1.5 px-3 py-2 text-sm border-b-2 -mb-px whitespace-nowrap",
+            t.slug === active
+              ? "border-black font-semibold text-black"
+              : "border-transparent text-neutral-600 hover:text-black hover:border-neutral-300",
+          ]}
+        >
+          <span>{t.label}</span>
+          <span
+            class:list={[
+              "text-[10px] tabular-nums",
+              t.slug === active ? "text-neutral-500" : "text-neutral-400",
+            ]}
+          >
+            {counts[i].benchmarks > 0
+              ? `${counts[i].models}m·${counts[i].benchmarks}b`
+              : "—"}
+          </span>
+        </a>
+      </li>
+    ))}
+  </ul>
+</nav>

@@ -1,0 +1,74 @@
+[
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "drop",
+    "score": 83.4,
+    "config": "3-shot, F1",
+    "source": {
+      "kind": "manual",
+      "url": "https://openai.com/index/hello-gpt-4o/",
+      "reported_by": "OpenAI GPT-4o launch (May 2024)",
+      "fetched_at": "2026-06-09T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "gpqa",
+    "score": 53.6,
+    "config": "Diamond, 0-shot CoT",
+    "source": {
+      "kind": "manual",
+      "url": "https://openai.com/index/hello-gpt-4o/",
+      "reported_by": "OpenAI GPT-4o launch (May 2024)",
+      "fetched_at": "2026-06-09T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "humaneval",
+    "score": 90.2,
+    "config": "0-shot",
+    "source": {
+      "kind": "manual",
+      "url": "https://openai.com/index/hello-gpt-4o/",
+      "reported_by": "OpenAI GPT-4o launch (May 2024)",
+      "fetched_at": "2026-06-09T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "math",
+    "score": 76.6,
+    "config": "0-shot CoT",
+    "source": {
+      "kind": "manual",
+      "url": "https://openai.com/index/hello-gpt-4o/",
+      "reported_by": "OpenAI GPT-4o launch (May 2024)",
+      "fetched_at": "2026-06-09T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "mgsm",
+    "score": 90.5,
+    "config": "0-shot CoT",
+    "source": {
+      "kind": "manual",
+      "url": "https://openai.com/index/hello-gpt-4o/",
+      "reported_by": "OpenAI GPT-4o launch (May 2024)",
+      "fetched_at": "2026-06-09T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "mmlu",
+    "score": 88.7,
+    "config": "5-shot CoT",
+    "source": {
+      "kind": "manual",
+      "url": "https://openai.com/index/hello-gpt-4o/",
+      "reported_by": "OpenAI GPT-4o launch (May 2024)",
+      "fetched_at": "2026-06-09T00:00:00Z"
+    }
+  }
+]

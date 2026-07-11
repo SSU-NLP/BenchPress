@@ -1,0 +1,1613 @@
+[
+  {
+    "model_id": "gpt-oss-120b",
+    "benchmark_id": "aider-polyglot",
+    "score": 44.4,
+    "config": "high",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-oss-120b__model-card.pdf",
+      "ref": "p.10",
+      "fetched_at": "2026-06-07T07:24:45.429Z"
+    },
+    "variants": [
+      {
+        "score": 34.2,
+        "config": "medium",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-oss-120b__model-card.pdf",
+          "ref": "p.10",
+          "fetched_at": "2026-06-07T07:24:45.429Z"
+        }
+      },
+      {
+        "score": 24,
+        "config": "low",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-oss-120b__model-card.pdf",
+          "ref": "p.10",
+          "fetched_at": "2026-06-07T07:24:45.429Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "gpt-oss-20b",
+    "benchmark_id": "aider-polyglot",
+    "score": 34.2,
+    "config": "high",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-oss-120b__model-card.pdf",
+      "ref": "p.10",
+      "reported_by": "gpt-oss-120b",
+      "fetched_at": "2026-06-07T07:24:45.429Z"
+    },
+    "variants": [
+      {
+        "score": 26.6,
+        "config": "medium",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-oss-120b__model-card.pdf",
+          "ref": "p.10",
+          "reported_by": "gpt-oss-120b",
+          "fetched_at": "2026-06-07T07:24:45.429Z"
+        }
+      },
+      {
+        "score": 16.6,
+        "config": "low",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-oss-120b__model-card.pdf",
+          "ref": "p.10",
+          "reported_by": "gpt-oss-120b",
+          "fetched_at": "2026-06-07T07:24:45.429Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "gpt-oss-120b",
+    "benchmark_id": "aime-2024",
+    "score": 96.6,
+    "config": "with tools, Competition Math",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-oss-120b__model-card.pdf",
+      "ref": "p.5",
+      "fetched_at": "2026-06-07T07:24:45.429Z"
+    },
+    "variants": [
+      {
+        "score": 96.6,
+        "config": "high, with tools",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-oss-120b__model-card.pdf",
+          "ref": "p.10",
+          "fetched_at": "2026-06-07T07:24:45.429Z"
+        }
+      },
+      {
+        "score": 95.8,
+        "config": "high, no tools",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-oss-120b__model-card.pdf",
+          "ref": "p.10",
+          "fetched_at": "2026-06-07T07:24:45.429Z"
+        }
+      },
+      {
+        "score": 87.9,
+        "config": "medium, with tools",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-oss-120b__model-card.pdf",
+          "ref": "p.10",
+          "fetched_at": "2026-06-07T07:24:45.429Z"
+        }
+      },
+      {
+        "score": 80.4,
+        "config": "medium, no tools",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-oss-120b__model-card.pdf",
+          "ref": "p.10",
+          "fetched_at": "2026-06-07T07:24:45.429Z"
+        }
+      },
+      {
+        "score": 75.4,
+        "config": "low, with tools",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-oss-120b__model-card.pdf",
+          "ref": "p.10",
+          "fetched_at": "2026-06-07T07:24:45.429Z"
+        }
+      },
+      {
+        "score": 56.3,
+        "config": "low, no tools",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-oss-120b__model-card.pdf",
+          "ref": "p.10",
+          "fetched_at": "2026-06-07T07:24:45.429Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "gpt-oss-20b",
+    "benchmark_id": "aime-2024",
+    "score": 96,
+    "config": "with tools, Competition Math",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-oss-120b__model-card.pdf",
+      "ref": "p.5",
+      "reported_by": "gpt-oss-120b",
+      "fetched_at": "2026-06-07T07:24:45.429Z"
+    },
+    "variants": [
+      {
+        "score": 96,
+        "config": "high, with tools",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-oss-120b__model-card.pdf",
+          "ref": "p.10",
+          "reported_by": "gpt-oss-120b",
+          "fetched_at": "2026-06-07T07:24:45.429Z"
+        }
+      },
+      {
+        "score": 92.1,
+        "config": "high, no tools",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-oss-120b__model-card.pdf",
+          "ref": "p.10",
+          "reported_by": "gpt-oss-120b",
+          "fetched_at": "2026-06-07T07:24:45.429Z"
+        }
+      },
+      {
+        "score": 86,
+        "config": "medium, with tools",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-oss-120b__model-card.pdf",
+          "ref": "p.10",
+          "reported_by": "gpt-oss-120b",
+          "fetched_at": "2026-06-07T07:24:45.429Z"
+        }
+      },
+      {
+        "score": 80,
+        "config": "medium, no tools",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-oss-120b__model-card.pdf",
+          "ref": "p.10",
+          "reported_by": "gpt-oss-120b",
+          "fetched_at": "2026-06-07T07:24:45.429Z"
+        }
+      },
+      {
+        "score": 61.2,
+        "config": "low, with tools",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-oss-120b__model-card.pdf",
+          "ref": "p.10",
+          "reported_by": "gpt-oss-120b",
+          "fetched_at": "2026-06-07T07:24:45.429Z"
+        }
+      },
+      {
+        "score": 42.1,
+        "config": "low, no tools",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-oss-120b__model-card.pdf",
+          "ref": "p.10",
+          "reported_by": "gpt-oss-120b",
+          "fetched_at": "2026-06-07T07:24:45.429Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "gpt-oss-20b",
+    "benchmark_id": "aime-2025",
+    "score": 98.7,
+    "config": "with tools, Competition Math",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-oss-120b__model-card.pdf",
+      "ref": "p.5",
+      "reported_by": "gpt-oss-120b",
+      "fetched_at": "2026-06-07T07:24:45.429Z"
+    },
+    "variants": [
+      {
+        "score": 98.7,
+        "config": "high, with tools",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-oss-120b__model-card.pdf",
+          "ref": "p.10",
+          "reported_by": "gpt-oss-120b",
+          "fetched_at": "2026-06-07T07:24:45.429Z"
+        }
+      },
+      {
+        "score": 91.7,
+        "config": "high, no tools",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-oss-120b__model-card.pdf",
+          "ref": "p.10",
+          "reported_by": "gpt-oss-120b",
+          "fetched_at": "2026-06-07T07:24:45.429Z"
+        }
+      },
+      {
+        "score": 90.4,
+        "config": "medium, with tools",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-oss-120b__model-card.pdf",
+          "ref": "p.10",
+          "reported_by": "gpt-oss-120b",
+          "fetched_at": "2026-06-07T07:24:45.429Z"
+        }
+      },
+      {
+        "score": 72.1,
+        "config": "medium, no tools",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-oss-120b__model-card.pdf",
+          "ref": "p.10",
+          "reported_by": "gpt-oss-120b",
+          "fetched_at": "2026-06-07T07:24:45.429Z"
+        }
+      },
+      {
+        "score": 57.5,
+        "config": "low, with tools",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-oss-120b__model-card.pdf",
+          "ref": "p.10",
+          "reported_by": "gpt-oss-120b",
+          "fetched_at": "2026-06-07T07:24:45.429Z"
+        }
+      },
+      {
+        "score": 37.1,
+        "config": "low, no tools",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-oss-120b__model-card.pdf",
+          "ref": "p.10",
+          "reported_by": "gpt-oss-120b",
+          "fetched_at": "2026-06-07T07:24:45.429Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "gpt-oss-120b",
+    "benchmark_id": "aime-2025",
+    "score": 97.9,
+    "config": "with tools, Competition Math",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-oss-120b__model-card.pdf",
+      "ref": "p.5",
+      "fetched_at": "2026-06-07T07:24:45.429Z"
+    },
+    "variants": [
+      {
+        "score": 97.9,
+        "config": "high, with tools",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-oss-120b__model-card.pdf",
+          "ref": "p.10",
+          "fetched_at": "2026-06-07T07:24:45.429Z"
+        }
+      },
+      {
+        "score": 92.5,
+        "config": "high, no tools",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-oss-120b__model-card.pdf",
+          "ref": "p.10",
+          "fetched_at": "2026-06-07T07:24:45.429Z"
+        }
+      },
+      {
+        "score": 91.6,
+        "config": "medium, with tools",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-oss-120b__model-card.pdf",
+          "ref": "p.10",
+          "fetched_at": "2026-06-07T07:24:45.429Z"
+        }
+      },
+      {
+        "score": 80,
+        "config": "medium, no tools",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-oss-120b__model-card.pdf",
+          "ref": "p.10",
+          "fetched_at": "2026-06-07T07:24:45.429Z"
+        }
+      },
+      {
+        "score": 72.9,
+        "config": "low, with tools",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-oss-120b__model-card.pdf",
+          "ref": "p.10",
+          "fetched_at": "2026-06-07T07:24:45.429Z"
+        }
+      },
+      {
+        "score": 50.4,
+        "config": "low, no tools",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-oss-120b__model-card.pdf",
+          "ref": "p.10",
+          "fetched_at": "2026-06-07T07:24:45.429Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "gpt-oss-20b",
+    "benchmark_id": "bbq",
+    "score": 89,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-oss-120b__model-card.pdf",
+      "ref": "p.16",
+      "reported_by": "gpt-oss-120b",
+      "fetched_at": "2026-06-07T07:24:45.429Z"
+    }
+  },
+  {
+    "model_id": "gpt-oss-120b",
+    "benchmark_id": "bbq",
+    "score": 87,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-oss-120b__model-card.pdf",
+      "ref": "p.16",
+      "fetched_at": "2026-06-07T07:24:45.429Z"
+    }
+  },
+  {
+    "model_id": "gpt-oss-120b",
+    "benchmark_id": "codeforces",
+    "score": 2622,
+    "config": "tool, Competition Code",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-oss-120b__model-card.pdf",
+      "ref": "p.6",
+      "fetched_at": "2026-06-07T07:24:45.429Z"
+    },
+    "variants": [
+      {
+        "score": 2622,
+        "config": "high, with tools",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-oss-120b__model-card.pdf",
+          "ref": "p.10",
+          "fetched_at": "2026-06-07T07:24:45.429Z"
+        }
+      },
+      {
+        "score": 2463,
+        "config": "no tools, Competition Code",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-oss-120b__model-card.pdf",
+          "ref": "p.6",
+          "fetched_at": "2026-06-07T07:24:45.429Z"
+        }
+      },
+      {
+        "score": 2463,
+        "config": "high, no tools",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-oss-120b__model-card.pdf",
+          "ref": "p.10",
+          "fetched_at": "2026-06-07T07:24:45.429Z"
+        }
+      },
+      {
+        "score": 2365,
+        "config": "medium, with tools",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-oss-120b__model-card.pdf",
+          "ref": "p.10",
+          "fetched_at": "2026-06-07T07:24:45.429Z"
+        }
+      },
+      {
+        "score": 2205,
+        "config": "medium, no tools",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-oss-120b__model-card.pdf",
+          "ref": "p.10",
+          "fetched_at": "2026-06-07T07:24:45.429Z"
+        }
+      },
+      {
+        "score": 1653,
+        "config": "low, with tools",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-oss-120b__model-card.pdf",
+          "ref": "p.10",
+          "fetched_at": "2026-06-07T07:24:45.429Z"
+        }
+      },
+      {
+        "score": 1595,
+        "config": "low, no tools",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-oss-120b__model-card.pdf",
+          "ref": "p.10",
+          "fetched_at": "2026-06-07T07:24:45.429Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "gpt-oss-20b",
+    "benchmark_id": "codeforces",
+    "score": 2516,
+    "config": "tool, Competition Code",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-oss-120b__model-card.pdf",
+      "ref": "p.6",
+      "reported_by": "gpt-oss-120b",
+      "fetched_at": "2026-06-07T07:24:45.429Z"
+    },
+    "variants": [
+      {
+        "score": 2516,
+        "config": "high, with tools",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-oss-120b__model-card.pdf",
+          "ref": "p.10",
+          "reported_by": "gpt-oss-120b",
+          "fetched_at": "2026-06-07T07:24:45.429Z"
+        }
+      },
+      {
+        "score": 2230,
+        "config": "no tools, Competition Code",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-oss-120b__model-card.pdf",
+          "ref": "p.6",
+          "reported_by": "gpt-oss-120b",
+          "fetched_at": "2026-06-07T07:24:45.429Z"
+        }
+      },
+      {
+        "score": 2230,
+        "config": "high, no tools",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-oss-120b__model-card.pdf",
+          "ref": "p.10",
+          "reported_by": "gpt-oss-120b",
+          "fetched_at": "2026-06-07T07:24:45.429Z"
+        }
+      },
+      {
+        "score": 2064,
+        "config": "medium, with tools",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-oss-120b__model-card.pdf",
+          "ref": "p.10",
+          "reported_by": "gpt-oss-120b",
+          "fetched_at": "2026-06-07T07:24:45.429Z"
+        }
+      },
+      {
+        "score": 1998,
+        "config": "medium, no tools",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-oss-120b__model-card.pdf",
+          "ref": "p.10",
+          "reported_by": "gpt-oss-120b",
+          "fetched_at": "2026-06-07T07:24:45.429Z"
+        }
+      },
+      {
+        "score": 1366,
+        "config": "low, no tools",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-oss-120b__model-card.pdf",
+          "ref": "p.10",
+          "reported_by": "gpt-oss-120b",
+          "fetched_at": "2026-06-07T07:24:45.429Z"
+        }
+      },
+      {
+        "score": 1251,
+        "config": "low, with tools",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-oss-120b__model-card.pdf",
+          "ref": "p.10",
+          "reported_by": "gpt-oss-120b",
+          "fetched_at": "2026-06-07T07:24:45.429Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "gpt-oss-120b",
+    "benchmark_id": "gpqa",
+    "score": 80.9,
+    "config": "high, with tools, Diamond",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-oss-120b__model-card.pdf",
+      "ref": "p.10",
+      "fetched_at": "2026-06-07T07:24:45.429Z"
+    },
+    "variants": [
+      {
+        "score": 80.1,
+        "config": "without tools, PhD Science Questions, Diamond",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-oss-120b__model-card.pdf",
+          "ref": "p.5",
+          "fetched_at": "2026-06-07T07:24:45.429Z"
+        }
+      },
+      {
+        "score": 80.1,
+        "config": "high, no tools, Diamond",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-oss-120b__model-card.pdf",
+          "ref": "p.10",
+          "fetched_at": "2026-06-07T07:24:45.429Z"
+        }
+      },
+      {
+        "score": 73.5,
+        "config": "medium, with tools, Diamond",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-oss-120b__model-card.pdf",
+          "ref": "p.10",
+          "fetched_at": "2026-06-07T07:24:45.429Z"
+        }
+      },
+      {
+        "score": 73.1,
+        "config": "medium, no tools, Diamond",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-oss-120b__model-card.pdf",
+          "ref": "p.10",
+          "fetched_at": "2026-06-07T07:24:45.429Z"
+        }
+      },
+      {
+        "score": 68.1,
+        "config": "low, with tools, Diamond",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-oss-120b__model-card.pdf",
+          "ref": "p.10",
+          "fetched_at": "2026-06-07T07:24:45.429Z"
+        }
+      },
+      {
+        "score": 67.1,
+        "config": "low, no tools, Diamond",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-oss-120b__model-card.pdf",
+          "ref": "p.10",
+          "fetched_at": "2026-06-07T07:24:45.429Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "gpt-oss-20b",
+    "benchmark_id": "gpqa",
+    "score": 74.2,
+    "config": "high, with tools, Diamond",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-oss-120b__model-card.pdf",
+      "ref": "p.10",
+      "reported_by": "gpt-oss-120b",
+      "fetched_at": "2026-06-07T07:24:45.429Z"
+    },
+    "variants": [
+      {
+        "score": 71.5,
+        "config": "without tools, PhD Science Questions, Diamond",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-oss-120b__model-card.pdf",
+          "ref": "p.5",
+          "reported_by": "gpt-oss-120b",
+          "fetched_at": "2026-06-07T07:24:45.429Z"
+        }
+      },
+      {
+        "score": 71.5,
+        "config": "high, no tools, Diamond",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-oss-120b__model-card.pdf",
+          "ref": "p.10",
+          "reported_by": "gpt-oss-120b",
+          "fetched_at": "2026-06-07T07:24:45.429Z"
+        }
+      },
+      {
+        "score": 67.1,
+        "config": "medium, with tools, Diamond",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-oss-120b__model-card.pdf",
+          "ref": "p.10",
+          "reported_by": "gpt-oss-120b",
+          "fetched_at": "2026-06-07T07:24:45.429Z"
+        }
+      },
+      {
+        "score": 66,
+        "config": "medium, no tools, Diamond",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-oss-120b__model-card.pdf",
+          "ref": "p.10",
+          "reported_by": "gpt-oss-120b",
+          "fetched_at": "2026-06-07T07:24:45.429Z"
+        }
+      },
+      {
+        "score": 58,
+        "config": "low, with tools, Diamond",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-oss-120b__model-card.pdf",
+          "ref": "p.10",
+          "reported_by": "gpt-oss-120b",
+          "fetched_at": "2026-06-07T07:24:45.429Z"
+        }
+      },
+      {
+        "score": 56.8,
+        "config": "low, no tools, Diamond",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-oss-120b__model-card.pdf",
+          "ref": "p.10",
+          "reported_by": "gpt-oss-120b",
+          "fetched_at": "2026-06-07T07:24:45.429Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "gpt-oss-120b",
+    "benchmark_id": "healthbench",
+    "score": 57.6,
+    "config": "high",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-oss-120b__model-card.pdf",
+      "ref": "p.10",
+      "fetched_at": "2026-06-07T07:24:45.429Z"
+    },
+    "variants": [
+      {
+        "score": 55.9,
+        "config": "medium",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-oss-120b__model-card.pdf",
+          "ref": "p.10",
+          "fetched_at": "2026-06-07T07:24:45.429Z"
+        }
+      },
+      {
+        "score": 53,
+        "config": "low",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-oss-120b__model-card.pdf",
+          "ref": "p.10",
+          "fetched_at": "2026-06-07T07:24:45.429Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "gpt-oss-20b",
+    "benchmark_id": "healthbench",
+    "score": 42.5,
+    "config": "high",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-oss-120b__model-card.pdf",
+      "ref": "p.10",
+      "reported_by": "gpt-oss-120b",
+      "fetched_at": "2026-06-07T07:24:45.429Z"
+    },
+    "variants": [
+      {
+        "score": 41.8,
+        "config": "medium",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-oss-120b__model-card.pdf",
+          "ref": "p.10",
+          "reported_by": "gpt-oss-120b",
+          "fetched_at": "2026-06-07T07:24:45.429Z"
+        }
+      },
+      {
+        "score": 40.4,
+        "config": "low",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-oss-120b__model-card.pdf",
+          "ref": "p.10",
+          "reported_by": "gpt-oss-120b",
+          "fetched_at": "2026-06-07T07:24:45.429Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "gpt-oss-120b",
+    "benchmark_id": "healthbench-consensus",
+    "score": 90.8,
+    "config": "medium",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-oss-120b__model-card.pdf",
+      "ref": "p.10",
+      "fetched_at": "2026-06-07T07:24:45.429Z"
+    },
+    "variants": [
+      {
+        "score": 90.6,
+        "config": "low",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-oss-120b__model-card.pdf",
+          "ref": "p.10",
+          "fetched_at": "2026-06-07T07:24:45.429Z"
+        }
+      },
+      {
+        "score": 89.9,
+        "config": "high",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-oss-120b__model-card.pdf",
+          "ref": "p.10",
+          "fetched_at": "2026-06-07T07:24:45.429Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "gpt-oss-20b",
+    "benchmark_id": "healthbench-consensus",
+    "score": 84.9,
+    "config": "low",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-oss-120b__model-card.pdf",
+      "ref": "p.10",
+      "reported_by": "gpt-oss-120b",
+      "fetched_at": "2026-06-07T07:24:45.429Z"
+    },
+    "variants": [
+      {
+        "score": 83,
+        "config": "medium",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-oss-120b__model-card.pdf",
+          "ref": "p.10",
+          "reported_by": "gpt-oss-120b",
+          "fetched_at": "2026-06-07T07:24:45.429Z"
+        }
+      },
+      {
+        "score": 82.6,
+        "config": "high",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-oss-120b__model-card.pdf",
+          "ref": "p.10",
+          "reported_by": "gpt-oss-120b",
+          "fetched_at": "2026-06-07T07:24:45.429Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "gpt-oss-120b",
+    "benchmark_id": "healthbench-hard",
+    "score": 30,
+    "config": "high",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-oss-120b__model-card.pdf",
+      "ref": "p.10",
+      "fetched_at": "2026-06-07T07:24:45.429Z"
+    },
+    "variants": [
+      {
+        "score": 26.9,
+        "config": "medium",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-oss-120b__model-card.pdf",
+          "ref": "p.10",
+          "fetched_at": "2026-06-07T07:24:45.429Z"
+        }
+      },
+      {
+        "score": 22.8,
+        "config": "low",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-oss-120b__model-card.pdf",
+          "ref": "p.10",
+          "fetched_at": "2026-06-07T07:24:45.429Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "gpt-oss-20b",
+    "benchmark_id": "healthbench-hard",
+    "score": 12.9,
+    "config": "medium",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-oss-120b__model-card.pdf",
+      "ref": "p.10",
+      "reported_by": "gpt-oss-120b",
+      "fetched_at": "2026-06-07T07:24:45.429Z"
+    },
+    "variants": [
+      {
+        "score": 10.8,
+        "config": "high",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-oss-120b__model-card.pdf",
+          "ref": "p.10",
+          "reported_by": "gpt-oss-120b",
+          "fetched_at": "2026-06-07T07:24:45.429Z"
+        }
+      },
+      {
+        "score": 9,
+        "config": "low",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-oss-120b__model-card.pdf",
+          "ref": "p.10",
+          "reported_by": "gpt-oss-120b",
+          "fetched_at": "2026-06-07T07:24:45.429Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "gpt-oss-120b",
+    "benchmark_id": "hle",
+    "score": 19,
+    "config": "tool, Expert-Level Questions",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-oss-120b__model-card.pdf",
+      "ref": "p.5",
+      "fetched_at": "2026-06-07T07:24:45.429Z"
+    },
+    "variants": [
+      {
+        "score": 14.9,
+        "config": "no tools, Expert-Level Questions",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-oss-120b__model-card.pdf",
+          "ref": "p.5",
+          "fetched_at": "2026-06-07T07:24:45.429Z"
+        }
+      },
+      {
+        "score": 9.1,
+        "config": "low, with tools",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-oss-120b__model-card.pdf",
+          "ref": "p.10",
+          "fetched_at": "2026-06-07T07:24:45.429Z"
+        }
+      },
+      {
+        "score": 5.2,
+        "config": "low, no tools",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-oss-120b__model-card.pdf",
+          "ref": "p.10",
+          "fetched_at": "2026-06-07T07:24:45.429Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "gpt-oss-20b",
+    "benchmark_id": "hle",
+    "score": 17.3,
+    "config": "tool, Expert-Level Questions",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-oss-120b__model-card.pdf",
+      "ref": "p.5",
+      "reported_by": "gpt-oss-120b",
+      "fetched_at": "2026-06-07T07:24:45.429Z"
+    },
+    "variants": [
+      {
+        "score": 10.9,
+        "config": "no tools, Expert-Level Questions",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-oss-120b__model-card.pdf",
+          "ref": "p.5",
+          "reported_by": "gpt-oss-120b",
+          "fetched_at": "2026-06-07T07:24:45.429Z"
+        }
+      },
+      {
+        "score": 6.3,
+        "config": "low, with tools",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-oss-120b__model-card.pdf",
+          "ref": "p.10",
+          "reported_by": "gpt-oss-120b",
+          "fetched_at": "2026-06-07T07:24:45.429Z"
+        }
+      },
+      {
+        "score": 4.2,
+        "config": "low, no tools",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-oss-120b__model-card.pdf",
+          "ref": "p.10",
+          "reported_by": "gpt-oss-120b",
+          "fetched_at": "2026-06-07T07:24:45.429Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "gpt-oss-120b",
+    "benchmark_id": "instruction-hierarchy-evaluation-phrase-and-password-protection",
+    "score": 0.965,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-oss-120b__model-card.pdf",
+      "ref": "p.15",
+      "fetched_at": "2026-06-07T07:24:45.429Z"
+    }
+  },
+  {
+    "model_id": "gpt-oss-20b",
+    "benchmark_id": "instruction-hierarchy-evaluation-phrase-and-password-protection",
+    "score": 0.947,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-oss-120b__model-card.pdf",
+      "ref": "p.15",
+      "reported_by": "gpt-oss-120b",
+      "fetched_at": "2026-06-07T07:24:45.429Z"
+    }
+  },
+  {
+    "model_id": "gpt-oss-20b",
+    "benchmark_id": "instruction-hierarchy-evaluation-system-user-message-conflict",
+    "score": 0.881,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-oss-120b__model-card.pdf",
+      "ref": "p.14",
+      "reported_by": "gpt-oss-120b",
+      "fetched_at": "2026-06-07T07:24:45.429Z"
+    }
+  },
+  {
+    "model_id": "gpt-oss-120b",
+    "benchmark_id": "instruction-hierarchy-evaluation-system-user-message-conflict",
+    "score": 0.832,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-oss-120b__model-card.pdf",
+      "ref": "p.14",
+      "fetched_at": "2026-06-07T07:24:45.429Z"
+    }
+  },
+  {
+    "model_id": "gpt-oss-120b",
+    "benchmark_id": "jailbreak-evaluations",
+    "score": 0.993,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-oss-120b__model-card.pdf",
+      "ref": "p.13",
+      "fetched_at": "2026-06-07T07:24:45.429Z"
+    }
+  },
+  {
+    "model_id": "gpt-oss-20b",
+    "benchmark_id": "jailbreak-evaluations",
+    "score": 0.982,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-oss-120b__model-card.pdf",
+      "ref": "p.13",
+      "reported_by": "gpt-oss-120b",
+      "fetched_at": "2026-06-07T07:24:45.429Z"
+    }
+  },
+  {
+    "model_id": "gpt-oss-120b",
+    "benchmark_id": "mmlu",
+    "score": 90,
+    "config": "College-level Exams",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-oss-120b__model-card.pdf",
+      "ref": "p.5",
+      "fetched_at": "2026-06-07T07:24:45.429Z"
+    },
+    "variants": [
+      {
+        "score": 90,
+        "config": "high",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-oss-120b__model-card.pdf",
+          "ref": "p.10",
+          "fetched_at": "2026-06-07T07:24:45.429Z"
+        }
+      },
+      {
+        "score": 88,
+        "config": "medium",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-oss-120b__model-card.pdf",
+          "ref": "p.10",
+          "fetched_at": "2026-06-07T07:24:45.429Z"
+        }
+      },
+      {
+        "score": 85.9,
+        "config": "low",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-oss-120b__model-card.pdf",
+          "ref": "p.10",
+          "fetched_at": "2026-06-07T07:24:45.429Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "gpt-oss-20b",
+    "benchmark_id": "mmlu",
+    "score": 85.3,
+    "config": "College-level Exams",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-oss-120b__model-card.pdf",
+      "ref": "p.5",
+      "reported_by": "gpt-oss-120b",
+      "fetched_at": "2026-06-07T07:24:45.429Z"
+    },
+    "variants": [
+      {
+        "score": 85.3,
+        "config": "high",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-oss-120b__model-card.pdf",
+          "ref": "p.10",
+          "reported_by": "gpt-oss-120b",
+          "fetched_at": "2026-06-07T07:24:45.429Z"
+        }
+      },
+      {
+        "score": 84,
+        "config": "medium",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-oss-120b__model-card.pdf",
+          "ref": "p.10",
+          "reported_by": "gpt-oss-120b",
+          "fetched_at": "2026-06-07T07:24:45.429Z"
+        }
+      },
+      {
+        "score": 80.4,
+        "config": "low",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-oss-120b__model-card.pdf",
+          "ref": "p.10",
+          "reported_by": "gpt-oss-120b",
+          "fetched_at": "2026-06-07T07:24:45.429Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "gpt-oss-120b",
+    "benchmark_id": "mmmlu",
+    "score": 81.3,
+    "config": "high, Average",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-oss-120b__model-card.pdf",
+      "ref": "p.9",
+      "fetched_at": "2026-06-07T07:24:45.429Z"
+    },
+    "variants": [
+      {
+        "score": 79.3,
+        "config": "medium, Average",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-oss-120b__model-card.pdf",
+          "ref": "p.9",
+          "fetched_at": "2026-06-07T07:24:45.429Z"
+        }
+      },
+      {
+        "score": 74.1,
+        "config": "low, Average",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-oss-120b__model-card.pdf",
+          "ref": "p.9",
+          "fetched_at": "2026-06-07T07:24:45.429Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "gpt-oss-20b",
+    "benchmark_id": "mmmlu",
+    "score": 75.7,
+    "config": "high, Average",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-oss-120b__model-card.pdf",
+      "ref": "p.9",
+      "reported_by": "gpt-oss-120b",
+      "fetched_at": "2026-06-07T07:24:45.429Z"
+    },
+    "variants": [
+      {
+        "score": 73.5,
+        "config": "medium, Average",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-oss-120b__model-card.pdf",
+          "ref": "p.9",
+          "reported_by": "gpt-oss-120b",
+          "fetched_at": "2026-06-07T07:24:45.429Z"
+        }
+      },
+      {
+        "score": 67,
+        "config": "low, Average",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-oss-120b__model-card.pdf",
+          "ref": "p.9",
+          "reported_by": "gpt-oss-120b",
+          "fetched_at": "2026-06-07T07:24:45.429Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "gpt-oss-120b",
+    "benchmark_id": "production-benchmarks",
+    "score": 0.967,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-oss-120b__model-card.pdf",
+      "ref": "p.13",
+      "fetched_at": "2026-06-07T07:24:45.429Z"
+    }
+  },
+  {
+    "model_id": "gpt-oss-20b",
+    "benchmark_id": "production-benchmarks",
+    "score": 0.951,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-oss-120b__model-card.pdf",
+      "ref": "p.13",
+      "reported_by": "gpt-oss-120b",
+      "fetched_at": "2026-06-07T07:24:45.429Z"
+    }
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "production-benchmarks",
+    "score": 0.939,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-oss-120b__model-card.pdf",
+      "ref": "p.13",
+      "reported_by": "gpt-oss-120b",
+      "fetched_at": "2026-06-07T07:24:45.429Z"
+    }
+  },
+  {
+    "model_id": "gpt-oss-120b",
+    "benchmark_id": "standard-disallowed-content-evaluation",
+    "score": 0.996,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-oss-120b__model-card.pdf",
+      "ref": "p.12",
+      "fetched_at": "2026-06-07T07:24:45.429Z"
+    }
+  },
+  {
+    "model_id": "gpt-oss-20b",
+    "benchmark_id": "standard-disallowed-content-evaluation",
+    "score": 0.996,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-oss-120b__model-card.pdf",
+      "ref": "p.12",
+      "reported_by": "gpt-oss-120b",
+      "fetched_at": "2026-06-07T07:24:45.429Z"
+    }
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "standard-disallowed-content-evaluation",
+    "score": 0.996,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-oss-120b__model-card.pdf",
+      "ref": "p.12",
+      "reported_by": "gpt-oss-120b",
+      "fetched_at": "2026-06-07T07:24:45.429Z"
+    }
+  },
+  {
+    "model_id": "gpt-oss-120b",
+    "benchmark_id": "swe-bench-verified",
+    "score": 62.4,
+    "config": "Software Engineering",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-oss-120b__model-card.pdf",
+      "ref": "p.6",
+      "fetched_at": "2026-06-07T07:24:45.429Z"
+    },
+    "variants": [
+      {
+        "score": 62.4,
+        "config": "high",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-oss-120b__model-card.pdf",
+          "ref": "p.10",
+          "fetched_at": "2026-06-07T07:24:45.429Z"
+        }
+      },
+      {
+        "score": 52.6,
+        "config": "medium",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-oss-120b__model-card.pdf",
+          "ref": "p.10",
+          "fetched_at": "2026-06-07T07:24:45.429Z"
+        }
+      },
+      {
+        "score": 47.9,
+        "config": "low",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-oss-120b__model-card.pdf",
+          "ref": "p.10",
+          "fetched_at": "2026-06-07T07:24:45.429Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "gpt-oss-20b",
+    "benchmark_id": "swe-bench-verified",
+    "score": 60.7,
+    "config": "Software Engineering",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-oss-120b__model-card.pdf",
+      "ref": "p.6",
+      "reported_by": "gpt-oss-120b",
+      "fetched_at": "2026-06-07T07:24:45.429Z"
+    },
+    "variants": [
+      {
+        "score": 60.7,
+        "config": "high",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-oss-120b__model-card.pdf",
+          "ref": "p.10",
+          "reported_by": "gpt-oss-120b",
+          "fetched_at": "2026-06-07T07:24:45.429Z"
+        }
+      },
+      {
+        "score": 53.2,
+        "config": "medium",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-oss-120b__model-card.pdf",
+          "ref": "p.10",
+          "reported_by": "gpt-oss-120b",
+          "fetched_at": "2026-06-07T07:24:45.429Z"
+        }
+      },
+      {
+        "score": 37.4,
+        "config": "low",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-oss-120b__model-card.pdf",
+          "ref": "p.10",
+          "reported_by": "gpt-oss-120b",
+          "fetched_at": "2026-06-07T07:24:45.429Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "gpt-oss-120b",
+    "benchmark_id": "tau-bench-airline",
+    "score": 49.2,
+    "config": "high",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-oss-120b__model-card.pdf",
+      "ref": "p.10",
+      "fetched_at": "2026-06-07T07:24:45.429Z"
+    },
+    "variants": [
+      {
+        "score": 48.6,
+        "config": "medium",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-oss-120b__model-card.pdf",
+          "ref": "p.10",
+          "fetched_at": "2026-06-07T07:24:45.429Z"
+        }
+      },
+      {
+        "score": 42.6,
+        "config": "low",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-oss-120b__model-card.pdf",
+          "ref": "p.10",
+          "fetched_at": "2026-06-07T07:24:45.429Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "gpt-oss-20b",
+    "benchmark_id": "tau-bench-airline",
+    "score": 42.6,
+    "config": "medium",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-oss-120b__model-card.pdf",
+      "ref": "p.10",
+      "reported_by": "gpt-oss-120b",
+      "fetched_at": "2026-06-07T07:24:45.429Z"
+    },
+    "variants": [
+      {
+        "score": 38,
+        "config": "high",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-oss-120b__model-card.pdf",
+          "ref": "p.10",
+          "reported_by": "gpt-oss-120b",
+          "fetched_at": "2026-06-07T07:24:45.429Z"
+        }
+      },
+      {
+        "score": 32,
+        "config": "low",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-oss-120b__model-card.pdf",
+          "ref": "p.10",
+          "reported_by": "gpt-oss-120b",
+          "fetched_at": "2026-06-07T07:24:45.429Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "gpt-oss-120b",
+    "benchmark_id": "tau-bench-retail",
+    "score": 67.8,
+    "config": "Function Calling",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-oss-120b__model-card.pdf",
+      "ref": "p.6",
+      "fetched_at": "2026-06-07T07:24:45.429Z"
+    },
+    "variants": [
+      {
+        "score": 67.8,
+        "config": "high",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-oss-120b__model-card.pdf",
+          "ref": "p.10",
+          "fetched_at": "2026-06-07T07:24:45.429Z"
+        }
+      },
+      {
+        "score": 62,
+        "config": "medium",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-oss-120b__model-card.pdf",
+          "ref": "p.10",
+          "fetched_at": "2026-06-07T07:24:45.429Z"
+        }
+      },
+      {
+        "score": 49.4,
+        "config": "low",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-oss-120b__model-card.pdf",
+          "ref": "p.10",
+          "fetched_at": "2026-06-07T07:24:45.429Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "gpt-oss-20b",
+    "benchmark_id": "tau-bench-retail",
+    "score": 54.8,
+    "config": "Function Calling",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-oss-120b__model-card.pdf",
+      "ref": "p.6",
+      "reported_by": "gpt-oss-120b",
+      "fetched_at": "2026-06-07T07:24:45.429Z"
+    },
+    "variants": [
+      {
+        "score": 54.8,
+        "config": "high",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-oss-120b__model-card.pdf",
+          "ref": "p.10",
+          "reported_by": "gpt-oss-120b",
+          "fetched_at": "2026-06-07T07:24:45.429Z"
+        }
+      },
+      {
+        "score": 47.3,
+        "config": "medium",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-oss-120b__model-card.pdf",
+          "ref": "p.10",
+          "reported_by": "gpt-oss-120b",
+          "fetched_at": "2026-06-07T07:24:45.429Z"
+        }
+      },
+      {
+        "score": 35,
+        "config": "low",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-oss-120b__model-card.pdf",
+          "ref": "p.10",
+          "reported_by": "gpt-oss-120b",
+          "fetched_at": "2026-06-07T07:24:45.429Z"
+        }
+      }
+    ]
+  }
+]

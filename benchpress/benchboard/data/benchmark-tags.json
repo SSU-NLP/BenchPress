@@ -1,0 +1,3613 @@
+{
+  "ability": {
+    "aa-lcr": [
+      "contextual-recall",
+      "long-context"
+    ],
+    "acebench": [
+      "agentic",
+      "deductive"
+    ],
+    "aegis": [
+      "safety"
+    ],
+    "agentdojo": [
+      "agentic",
+      "deductive"
+    ],
+    "agentharm": [
+      "agentic",
+      "deductive",
+      "safety"
+    ],
+    "agieval": [
+      "deductive",
+      "factuality",
+      "knowledge-recall"
+    ],
+    "agieval-english": [
+      "deductive",
+      "knowledge-recall"
+    ],
+    "ai2d": [
+      "multimodal",
+      "semantic-comprehension"
+    ],
+    "aider-polyglot": [
+      "coding",
+      "deductive"
+    ],
+    "aime-2024": [
+      "deductive",
+      "math",
+      "quantitative"
+    ],
+    "aime-2025": [
+      "deductive",
+      "math",
+      "quantitative"
+    ],
+    "aime-2025-multiple-attempts": [
+      "coding",
+      "deductive",
+      "math",
+      "quantitative"
+    ],
+    "aime-2025-single-attempt": [
+      "deductive",
+      "math",
+      "quantitative"
+    ],
+    "aime-2026": [
+      "deductive",
+      "math",
+      "quantitative"
+    ],
+    "alignbench-v1.1": [
+      "chinese",
+      "multilingual"
+    ],
+    "alpacaeval": [
+      "preference"
+    ],
+    "alpacaeval-2.0": [
+      "preference"
+    ],
+    "ammlu": [
+      "deductive",
+      "knowledge-recall",
+      "multilingual"
+    ],
+    "androidworld": [
+      "agentic",
+      "deductive"
+    ],
+    "apex": [
+      "deductive",
+      "math",
+      "quantitative"
+    ],
+    "api-bank": [
+      "agentic",
+      "deductive"
+    ],
+    "apollo-research-sabotage": [
+      "knowledge-recall"
+    ],
+    "apollo-research-scheming": [
+      "knowledge-recall"
+    ],
+    "arc-agi": [
+      "analogical",
+      "inductive",
+      "knowledge-recall",
+      "spatial-geometric"
+    ],
+    "arc-agi-1": [
+      "analogical",
+      "inductive",
+      "knowledge-recall",
+      "spatial-geometric"
+    ],
+    "arc-agi-2": [
+      "analogical",
+      "deductive",
+      "inductive",
+      "spatial-geometric"
+    ],
+    "arc-agi-3": [
+      "agentic",
+      "analogical",
+      "deductive",
+      "inductive",
+      "spatial-geometric"
+    ],
+    "arc-c": [
+      "knowledge-recall"
+    ],
+    "arc-challenge": [
+      "deductive",
+      "knowledge-recall"
+    ],
+    "arc-easy": [
+      "deductive",
+      "knowledge-recall"
+    ],
+    "arena-hard": [
+      "preference"
+    ],
+    "arena-hard-v2": [
+      "preference"
+    ],
+    "arena-hard-v2.0": [
+      "preference"
+    ],
+    "autologi": [
+      "deductive",
+      "inductive",
+      "knowledge-recall"
+    ],
+    "automationbench": [
+      "agentic",
+      "deductive"
+    ],
+    "babyvision": [
+      "multimodal",
+      "semantic-comprehension",
+      "spatial-geometric"
+    ],
+    "bbh": [
+      "deductive",
+      "inductive",
+      "knowledge-recall"
+    ],
+    "bbq": [
+      "safety"
+    ],
+    "bbq-bias-score": [
+      "safety"
+    ],
+    "betterchartqa": [
+      "multimodal",
+      "semantic-comprehension",
+      "spatial-geometric"
+    ],
+    "bfcl": [
+      "agentic",
+      "deductive"
+    ],
+    "bfcl-v2": [
+      "agentic",
+      "deductive"
+    ],
+    "bfcl-v3": [
+      "agentic",
+      "deductive"
+    ],
+    "bfcl-v4": [
+      "agentic",
+      "deductive"
+    ],
+    "big-bench-hard": [
+      "deductive",
+      "inductive",
+      "knowledge-recall"
+    ],
+    "bigcodebench-complete": [
+      "coding",
+      "deductive"
+    ],
+    "bigcodebench-instruct": [
+      "coding",
+      "deductive"
+    ],
+    "biolp-bench": [
+      "knowledge-recall",
+      "medical"
+    ],
+    "biomysterybench": [
+      "knowledge-recall",
+      "medical"
+    ],
+    "biopipelinebench": [
+      "knowledge-recall",
+      "medical"
+    ],
+    "blend": [
+      "multilingual"
+    ],
+    "blueprint-bench-2": [
+      "multimodal",
+      "semantic-comprehension",
+      "spatial-geometric"
+    ],
+    "boolq": [
+      "contextual-recall",
+      "knowledge-recall",
+      "semantic-comprehension"
+    ],
+    "browsecomp": [
+      "agentic",
+      "deductive"
+    ],
+    "browsecomp-multi-agent": [
+      "agentic",
+      "deductive"
+    ],
+    "browsecomp-plus-agentic-search": [
+      "agentic",
+      "deductive",
+      "knowledge-recall"
+    ],
+    "browsecomp-plus-agentic-search-performance": [
+      "agentic",
+      "deductive",
+      "knowledge-recall"
+    ],
+    "browsecomp-zh": [
+      "agentic",
+      "deductive"
+    ],
+    "c-eval": [
+      "chinese",
+      "multilingual"
+    ],
+    "c3": [
+      "chinese",
+      "multilingual"
+    ],
+    "cc-ocr": [
+      "multimodal",
+      "semantic-comprehension",
+      "spatial-geometric"
+    ],
+    "ccpm": [
+      "chinese",
+      "multilingual"
+    ],
+    "chartqa": [
+      "multimodal",
+      "semantic-comprehension",
+      "spatial-geometric"
+    ],
+    "charxiv": [
+      "multimodal",
+      "semantic-comprehension",
+      "spatial-geometric"
+    ],
+    "chatbot-arena": [
+      "preference"
+    ],
+    "claw-eval": [
+      "agentic",
+      "deductive"
+    ],
+    "claweval": [
+      "agentic",
+      "deductive"
+    ],
+    "click": [
+      "korean",
+      "multilingual"
+    ],
+    "cluewsc": [
+      "chinese",
+      "multilingual"
+    ],
+    "cmath": [
+      "chinese",
+      "deductive",
+      "math",
+      "multilingual",
+      "quantitative"
+    ],
+    "cmmlu": [
+      "chinese",
+      "deductive",
+      "knowledge-recall",
+      "multilingual"
+    ],
+    "cmrc": [
+      "chinese",
+      "multilingual"
+    ],
+    "cnmo-2024": [
+      "deductive",
+      "math",
+      "quantitative"
+    ],
+    "codeforces": [
+      "coding",
+      "deductive"
+    ],
+    "codeforces-elo": [
+      "coding",
+      "deductive",
+      "preference"
+    ],
+    "coding-korean": [
+      "korean",
+      "multilingual"
+    ],
+    "collie": [
+      "instruction-following",
+      "semantic-comprehension"
+    ],
+    "commonsenseqa": [
+      "commonsense-causal",
+      "knowledge-recall"
+    ],
+    "computational-biology-biomysterybench": [
+      "knowledge-recall",
+      "medical"
+    ],
+    "computational-biology-biopipelinebench": [
+      "knowledge-recall",
+      "medical"
+    ],
+    "countbench": [
+      "multimodal",
+      "semantic-comprehension",
+      "spatial-geometric"
+    ],
+    "coworkbench": [
+      "agentic",
+      "deductive"
+    ],
+    "crag": [
+      "factuality",
+      "knowledge-recall"
+    ],
+    "creative-writing-v3": [
+      "knowledge-recall",
+      "preference"
+    ],
+    "critpt": [
+      "deductive",
+      "math",
+      "quantitative"
+    ],
+    "crux-i": [
+      "coding",
+      "deductive"
+    ],
+    "crux-o": [
+      "coding",
+      "deductive"
+    ],
+    "cruxeval": [
+      "coding",
+      "deductive"
+    ],
+    "cruxeval-i": [
+      "coding",
+      "deductive"
+    ],
+    "cruxeval-o": [
+      "coding",
+      "deductive"
+    ],
+    "csimpleqa": [
+      "chinese",
+      "factuality",
+      "knowledge-recall",
+      "multilingual"
+    ],
+    "cve-bench": [
+      "safety"
+    ],
+    "cybench": [
+      "agentic",
+      "deductive"
+    ],
+    "cybergym": [
+      "safety"
+    ],
+    "cyscenariobench": [
+      "safety"
+    ],
+    "deepplanning": [
+      "agentic",
+      "deductive"
+    ],
+    "deepsearchqa": [
+      "knowledge-recall"
+    ],
+    "deepsearchqa-multi-agent": [
+      "agentic",
+      "deductive",
+      "knowledge-recall"
+    ],
+    "deepsearchqa-single-agent": [
+      "agentic",
+      "deductive",
+      "knowledge-recall"
+    ],
+    "docvqa": [
+      "multimodal",
+      "semantic-comprehension"
+    ],
+    "drop": [
+      "contextual-recall",
+      "deductive",
+      "math",
+      "quantitative",
+      "semantic-comprehension"
+    ],
+    "dynamath": [
+      "deductive",
+      "math",
+      "multimodal",
+      "quantitative",
+      "semantic-comprehension",
+      "spatial-geometric"
+    ],
+    "eclektic": [
+      "multilingual"
+    ],
+    "egoschema": [
+      "multimodal",
+      "semantic-comprehension",
+      "temporal"
+    ],
+    "embspatialbench": [
+      "multimodal",
+      "semantic-comprehension",
+      "spatial-geometric"
+    ],
+    "erqa": [
+      "multimodal",
+      "semantic-comprehension",
+      "spatial-geometric"
+    ],
+    "evalplus": [
+      "coding",
+      "deductive"
+    ],
+    "exploitbench": [
+      "safety"
+    ],
+    "facts-grounding": [
+      "factuality",
+      "knowledge-recall"
+    ],
+    "faithjudge": [
+      "factuality",
+      "knowledge-recall"
+    ],
+    "finance-agent": [
+      "agentic",
+      "deductive"
+    ],
+    "finance-agent-v1.1": [
+      "agentic",
+      "deductive"
+    ],
+    "finqa": [
+      "knowledge-recall"
+    ],
+    "fortress": [
+      "safety"
+    ],
+    "frames": [
+      "contextual-recall",
+      "factuality",
+      "knowledge-recall",
+      "long-context"
+    ],
+    "frontiercode": [
+      "coding",
+      "deductive"
+    ],
+    "frontiermath": [
+      "deductive",
+      "math",
+      "quantitative"
+    ],
+    "gdpval": [
+      "knowledge-recall"
+    ],
+    "gdpval-aa": [
+      "knowledge-recall"
+    ],
+    "gdpval-aa-elo": [
+      "knowledge-recall",
+      "preference"
+    ],
+    "global-mmlu": [
+      "deductive",
+      "knowledge-recall",
+      "multilingual"
+    ],
+    "global-piqa": [
+      "commonsense-causal",
+      "multilingual"
+    ],
+    "gmmlu-english": [
+      "deductive",
+      "knowledge-recall",
+      "multilingual"
+    ],
+    "gmmlu-high-resource-average": [
+      "deductive",
+      "knowledge-recall",
+      "multilingual"
+    ],
+    "gmmlu-low-resource-average": [
+      "deductive",
+      "knowledge-recall",
+      "multilingual"
+    ],
+    "gmmlu-mid-resource-average": [
+      "deductive",
+      "knowledge-recall",
+      "multilingual"
+    ],
+    "gmmlu-overall-average": [
+      "deductive",
+      "knowledge-recall",
+      "multilingual"
+    ],
+    "gorilla-api-bench": [
+      "agentic",
+      "deductive"
+    ],
+    "gpqa": [
+      "deductive",
+      "knowledge-recall",
+      "quantitative"
+    ],
+    "gpqa-diamond-multiple-attempts": [
+      "coding",
+      "deductive",
+      "knowledge-recall"
+    ],
+    "gpqa-diamond-single-attempt": [
+      "deductive",
+      "knowledge-recall"
+    ],
+    "graphwalks-bfs": [
+      "contextual-recall",
+      "long-context"
+    ],
+    "graphwalks-bfs-1m": [
+      "contextual-recall",
+      "long-context"
+    ],
+    "graphwalks-bfs-256k": [
+      "contextual-recall",
+      "long-context"
+    ],
+    "graphwalks-bfs-256k-subset": [
+      "contextual-recall",
+      "long-context"
+    ],
+    "graphwalks-bfs-256k-subset-of-1m": [
+      "contextual-recall",
+      "long-context"
+    ],
+    "graphwalks-parent": [
+      "contextual-recall",
+      "long-context"
+    ],
+    "graphwalks-parents-1m": [
+      "contextual-recall",
+      "long-context"
+    ],
+    "graphwalks-parents-256k": [
+      "contextual-recall",
+      "long-context"
+    ],
+    "graphwalks-parents-256k-subset": [
+      "contextual-recall",
+      "long-context"
+    ],
+    "graphwalks-parents-256k-subset-of-1m": [
+      "contextual-recall",
+      "long-context"
+    ],
+    "gray-swan-arena": [
+      "preference",
+      "safety"
+    ],
+    "groundui-1k": [
+      "agentic",
+      "deductive"
+    ],
+    "gsm8k": [
+      "deductive",
+      "math",
+      "quantitative"
+    ],
+    "gsm8k-platinum": [
+      "deductive",
+      "math",
+      "quantitative"
+    ],
+    "hae-rae-v1.1": [
+      "korean",
+      "multilingual"
+    ],
+    "hallusionbench": [
+      "multimodal",
+      "semantic-comprehension"
+    ],
+    "healthbench": [
+      "knowledge-recall",
+      "medical"
+    ],
+    "healthbench-consensus": [
+      "knowledge-recall",
+      "medical"
+    ],
+    "healthbench-consensus-global-health": [
+      "knowledge-recall",
+      "medical"
+    ],
+    "healthbench-consensus-urgent": [
+      "knowledge-recall",
+      "medical"
+    ],
+    "healthbench-hard": [
+      "knowledge-recall",
+      "medical"
+    ],
+    "healthbench-hard-hallucinations": [
+      "factuality",
+      "knowledge-recall",
+      "medical"
+    ],
+    "healthbench-professional": [
+      "knowledge-recall",
+      "medical"
+    ],
+    "hellaswag": [
+      "commonsense-causal",
+      "knowledge-recall"
+    ],
+    "hhem-v2.1": [
+      "contextual-recall",
+      "long-context"
+    ],
+    "hidden-test-hack-rate": [
+      "deductive",
+      "math",
+      "quantitative"
+    ],
+    "hiddenmath-hard": [
+      "deductive",
+      "math",
+      "quantitative"
+    ],
+    "hle": [
+      "deductive",
+      "factuality",
+      "knowledge-recall",
+      "quantitative"
+    ],
+    "hle-verified": [
+      "knowledge-recall"
+    ],
+    "hle-w-tool": [
+      "agentic",
+      "deductive"
+    ],
+    "hmmt-2025": [
+      "deductive",
+      "math",
+      "quantitative"
+    ],
+    "hmmt-feb-2025": [
+      "deductive",
+      "math",
+      "quantitative"
+    ],
+    "hmmt-feb-2026": [
+      "deductive",
+      "math",
+      "quantitative"
+    ],
+    "hmmt-nov-2025": [
+      "deductive",
+      "math",
+      "quantitative"
+    ],
+    "hrm8k": [
+      "deductive",
+      "korean",
+      "math",
+      "multilingual",
+      "quantitative"
+    ],
+    "humaneval": [
+      "coding",
+      "deductive"
+    ],
+    "humaneval+": [
+      "coding",
+      "deductive"
+    ],
+    "hypersim": [
+      "multimodal",
+      "semantic-comprehension",
+      "spatial-geometric"
+    ],
+    "ifbench": [
+      "instruction-following",
+      "semantic-comprehension"
+    ],
+    "ifeval": [
+      "instruction-following",
+      "semantic-comprehension"
+    ],
+    "imo-answerbench": [
+      "deductive",
+      "math",
+      "quantitative"
+    ],
+    "include": [
+      "multilingual"
+    ],
+    "indommlu": [
+      "deductive",
+      "knowledge-recall",
+      "multilingual"
+    ],
+    "infinitebench": [
+      "contextual-recall",
+      "long-context"
+    ],
+    "infinitebench-en.mc": [
+      "contextual-recall",
+      "long-context"
+    ],
+    "instruction-hierarchy-evaluation": [
+      "instruction-following",
+      "knowledge-recall"
+    ],
+    "instruction-hierarchy-evaluation-tutor-jailbreaks": [
+      "instruction-following",
+      "knowledge-recall",
+      "safety"
+    ],
+    "instruction-hierarchy-evaluations": [
+      "instruction-following",
+      "knowledge-recall"
+    ],
+    "jigsaw": [
+      "safety"
+    ],
+    "jmmlu": [
+      "deductive",
+      "knowledge-recall",
+      "multilingual"
+    ],
+    "kbankmmlu": [
+      "deductive",
+      "knowledge-recall",
+      "korean",
+      "multilingual"
+    ],
+    "kbl": [
+      "korean",
+      "multilingual"
+    ],
+    "kernel-task": [
+      "coding",
+      "deductive",
+      "korean",
+      "multilingual"
+    ],
+    "kgc-safety": [
+      "korean",
+      "multilingual",
+      "safety"
+    ],
+    "kmmlu": [
+      "deductive",
+      "knowledge-recall",
+      "korean",
+      "multilingual"
+    ],
+    "kmmlu-pro": [
+      "deductive",
+      "knowledge-recall",
+      "korean",
+      "multilingual"
+    ],
+    "kmmlu-redux": [
+      "deductive",
+      "knowledge-recall",
+      "korean",
+      "multilingual"
+    ],
+    "knowledge": [
+      "korean",
+      "multilingual"
+    ],
+    "ko-aime-2024": [
+      "deductive",
+      "korean",
+      "math",
+      "multilingual",
+      "quantitative"
+    ],
+    "ko-aime-2025": [
+      "deductive",
+      "korean",
+      "math",
+      "multilingual",
+      "quantitative"
+    ],
+    "ko-arena-hard-v2": [
+      "korean",
+      "multilingual",
+      "preference"
+    ],
+    "ko-ifeval": [
+      "instruction-following",
+      "korean",
+      "multilingual"
+    ],
+    "ko-longbench": [
+      "contextual-recall",
+      "korean",
+      "long-context",
+      "multilingual"
+    ],
+    "ko-longrag": [
+      "contextual-recall",
+      "korean",
+      "long-context",
+      "multilingual"
+    ],
+    "ko-longrag-multi-doc-qa-answerable": [
+      "coding",
+      "contextual-recall",
+      "deductive",
+      "korean",
+      "long-context",
+      "multilingual"
+    ],
+    "ko-longrag-multi-doc-qa-total": [
+      "contextual-recall",
+      "korean",
+      "long-context",
+      "multilingual"
+    ],
+    "ko-longrag-multi-doc-qa-unanswerable": [
+      "coding",
+      "contextual-recall",
+      "deductive",
+      "korean",
+      "long-context",
+      "multilingual"
+    ],
+    "ko-longrag-single-doc-qa-answerable": [
+      "coding",
+      "contextual-recall",
+      "deductive",
+      "korean",
+      "long-context",
+      "multilingual"
+    ],
+    "ko-longrag-single-doc-qa-total": [
+      "contextual-recall",
+      "korean",
+      "long-context",
+      "multilingual"
+    ],
+    "ko-longrag-single-doc-qa-unanswerable": [
+      "coding",
+      "contextual-recall",
+      "deductive",
+      "korean",
+      "long-context",
+      "multilingual"
+    ],
+    "ko-mt-bench": [
+      "korean",
+      "multilingual",
+      "preference"
+    ],
+    "ko-webrag": [
+      "contextual-recall",
+      "korean",
+      "long-context",
+      "multilingual"
+    ],
+    "kobalt": [
+      "korean",
+      "multilingual"
+    ],
+    "komt-bench": [
+      "korean",
+      "multilingual",
+      "preference"
+    ],
+    "korbench": [
+      "knowledge-recall"
+    ],
+    "kormedmcqa": [
+      "knowledge-recall",
+      "korean",
+      "medical",
+      "multilingual"
+    ],
+    "lab-bench": [
+      "deductive",
+      "math",
+      "quantitative"
+    ],
+    "lab-bench-figqa": [
+      "deductive",
+      "math",
+      "quantitative"
+    ],
+    "lab-bench-subset": [
+      "deductive",
+      "math",
+      "quantitative"
+    ],
+    "legal-agent-benchmark": [
+      "agentic",
+      "deductive"
+    ],
+    "lingoqa": [
+      "multimodal",
+      "semantic-comprehension",
+      "spatial-geometric"
+    ],
+    "livebench": [
+      "knowledge-recall"
+    ],
+    "livecodebench": [
+      "coding",
+      "deductive",
+      "robustness"
+    ],
+    "livecodebench-2.0": [
+      "coding",
+      "deductive"
+    ],
+    "livecodebench-base": [
+      "coding",
+      "deductive"
+    ],
+    "livecodebench-pro": [
+      "coding",
+      "deductive"
+    ],
+    "livecodebench-v5": [
+      "coding",
+      "deductive"
+    ],
+    "livecodebench-v5-multiple-attempts": [
+      "coding",
+      "deductive"
+    ],
+    "livecodebench-v5-single-attempt": [
+      "coding",
+      "deductive"
+    ],
+    "livecodebench-v6": [
+      "coding",
+      "deductive"
+    ],
+    "loft": [
+      "contextual-recall",
+      "long-context"
+    ],
+    "logickor": [
+      "deductive",
+      "inductive",
+      "korean",
+      "multilingual"
+    ],
+    "long-form-biorisk-questions": [
+      "knowledge-recall",
+      "medical",
+      "safety"
+    ],
+    "longbench": [
+      "contextual-recall",
+      "long-context"
+    ],
+    "longbench-chat": [
+      "contextual-recall",
+      "long-context"
+    ],
+    "longbench-few-shot-learning": [
+      "contextual-recall",
+      "long-context"
+    ],
+    "longbench-multi-doc-qa": [
+      "contextual-recall",
+      "long-context",
+      "multilingual"
+    ],
+    "longbench-single-doc-qa": [
+      "contextual-recall",
+      "long-context"
+    ],
+    "longbench-summarization": [
+      "contextual-recall",
+      "long-context"
+    ],
+    "longbench-v2": [
+      "contextual-recall",
+      "long-context"
+    ],
+    "longrag": [
+      "contextual-recall",
+      "long-context"
+    ],
+    "longrag-hotpot-qa-answerable": [
+      "coding",
+      "contextual-recall",
+      "deductive",
+      "long-context"
+    ],
+    "longrag-hotpot-qa-unanswerable": [
+      "coding",
+      "contextual-recall",
+      "deductive",
+      "long-context"
+    ],
+    "longrag-nq-answerable": [
+      "coding",
+      "contextual-recall",
+      "deductive",
+      "knowledge-recall",
+      "long-context"
+    ],
+    "longrag-nq-unanswerable": [
+      "coding",
+      "contextual-recall",
+      "deductive",
+      "knowledge-recall",
+      "long-context"
+    ],
+    "lv-eval": [
+      "contextual-recall",
+      "long-context"
+    ],
+    "lvbench": [
+      "multimodal",
+      "semantic-comprehension",
+      "temporal"
+    ],
+    "makemepay": [
+      "safety"
+    ],
+    "makemesay": [
+      "safety"
+    ],
+    "mask": [
+      "safety"
+    ],
+    "math": [
+      "deductive",
+      "math",
+      "quantitative"
+    ],
+    "math-500": [
+      "deductive",
+      "math",
+      "quantitative"
+    ],
+    "math-kangaroo": [
+      "deductive",
+      "math",
+      "quantitative"
+    ],
+    "math-p-hard": [
+      "deductive",
+      "math",
+      "quantitative",
+      "robustness"
+    ],
+    "math-p-simple": [
+      "deductive",
+      "math",
+      "quantitative"
+    ],
+    "mathvision": [
+      "deductive",
+      "math",
+      "multimodal",
+      "quantitative",
+      "semantic-comprehension",
+      "spatial-geometric"
+    ],
+    "mathvista": [
+      "deductive",
+      "math",
+      "multimodal",
+      "quantitative",
+      "semantic-comprehension"
+    ],
+    "maxife": [
+      "multilingual"
+    ],
+    "mbpp": [
+      "coding",
+      "deductive"
+    ],
+    "mbpp+": [
+      "coding",
+      "deductive"
+    ],
+    "mcp-atlas": [
+      "agentic",
+      "deductive"
+    ],
+    "mcp-mark": [
+      "agentic",
+      "deductive"
+    ],
+    "medcalc-bench-verified": [
+      "knowledge-recall",
+      "medical"
+    ],
+    "medmcqa-dev": [
+      "knowledge-recall",
+      "medical"
+    ],
+    "medqa-mainland-china": [
+      "knowledge-recall",
+      "medical"
+    ],
+    "medqa-taiwan": [
+      "knowledge-recall",
+      "medical"
+    ],
+    "medqa-usmle-4-options": [
+      "knowledge-recall",
+      "medical"
+    ],
+    "medqa-usmle-5-options": [
+      "knowledge-recall",
+      "medical"
+    ],
+    "medxpertqa-mm": [
+      "knowledge-recall",
+      "medical"
+    ],
+    "metr-time-horizon": [
+      "agentic",
+      "deductive",
+      "temporal"
+    ],
+    "mgsm": [
+      "deductive",
+      "math",
+      "multilingual",
+      "quantitative"
+    ],
+    "mgsm8k": [
+      "deductive",
+      "math",
+      "multilingual",
+      "quantitative"
+    ],
+    "milu-average": [
+      "multilingual"
+    ],
+    "milu-english": [
+      "multilingual"
+    ],
+    "mle-bench": [
+      "agentic",
+      "deductive"
+    ],
+    "mlogiqa": [
+      "deductive",
+      "inductive",
+      "multilingual"
+    ],
+    "mlvu": [
+      "multimodal",
+      "semantic-comprehension",
+      "temporal"
+    ],
+    "mm-mind2web": [
+      "agentic",
+      "deductive"
+    ],
+    "mmbench-en-dev-v1.1": [
+      "multimodal",
+      "semantic-comprehension"
+    ],
+    "mmlongbench-doc": [
+      "contextual-recall",
+      "long-context",
+      "multimodal",
+      "semantic-comprehension",
+      "spatial-geometric"
+    ],
+    "mmlu": [
+      "deductive",
+      "knowledge-recall"
+    ],
+    "mmlu-anatomy": [
+      "deductive",
+      "knowledge-recall"
+    ],
+    "mmlu-clinical-knowledge": [
+      "deductive",
+      "knowledge-recall",
+      "medical"
+    ],
+    "mmlu-college-biology": [
+      "deductive",
+      "knowledge-recall"
+    ],
+    "mmlu-college-medicine": [
+      "deductive",
+      "knowledge-recall",
+      "medical"
+    ],
+    "mmlu-language": [
+      "deductive",
+      "knowledge-recall"
+    ],
+    "mmlu-language-arabic": [
+      "deductive",
+      "knowledge-recall"
+    ],
+    "mmlu-language-average": [
+      "deductive",
+      "knowledge-recall"
+    ],
+    "mmlu-language-bengali": [
+      "deductive",
+      "knowledge-recall"
+    ],
+    "mmlu-language-chinese": [
+      "chinese",
+      "deductive",
+      "knowledge-recall",
+      "multilingual"
+    ],
+    "mmlu-language-french": [
+      "deductive",
+      "knowledge-recall"
+    ],
+    "mmlu-language-german": [
+      "deductive",
+      "knowledge-recall"
+    ],
+    "mmlu-language-hindi": [
+      "deductive",
+      "knowledge-recall"
+    ],
+    "mmlu-language-indonesian": [
+      "deductive",
+      "knowledge-recall"
+    ],
+    "mmlu-language-italian": [
+      "deductive",
+      "knowledge-recall"
+    ],
+    "mmlu-language-japanese": [
+      "deductive",
+      "knowledge-recall"
+    ],
+    "mmlu-language-korean": [
+      "deductive",
+      "knowledge-recall",
+      "korean",
+      "multilingual"
+    ],
+    "mmlu-language-portuguese": [
+      "deductive",
+      "knowledge-recall"
+    ],
+    "mmlu-language-spanish": [
+      "deductive",
+      "knowledge-recall"
+    ],
+    "mmlu-language-swahili": [
+      "deductive",
+      "knowledge-recall"
+    ],
+    "mmlu-language-thai": [
+      "deductive",
+      "knowledge-recall"
+    ],
+    "mmlu-language-yoruba": [
+      "deductive",
+      "knowledge-recall"
+    ],
+    "mmlu-medical-genetics": [
+      "deductive",
+      "knowledge-recall",
+      "medical"
+    ],
+    "mmlu-pro": [
+      "deductive",
+      "knowledge-recall"
+    ],
+    "mmlu-professional-medicine": [
+      "deductive",
+      "knowledge-recall",
+      "medical"
+    ],
+    "mmlu-prox": [
+      "deductive",
+      "knowledge-recall",
+      "multilingual"
+    ],
+    "mmlu-redux": [
+      "deductive",
+      "knowledge-recall"
+    ],
+    "mmlu-stem": [
+      "deductive",
+      "knowledge-recall",
+      "math",
+      "quantitative"
+    ],
+    "mmmlu": [
+      "deductive",
+      "knowledge-recall",
+      "multilingual"
+    ],
+    "mmmlu-non-english": [
+      "deductive",
+      "knowledge-recall",
+      "multilingual"
+    ],
+    "mmmu": [
+      "multimodal",
+      "semantic-comprehension"
+    ],
+    "mmmu-multiple-attempts": [
+      "coding",
+      "deductive",
+      "multimodal",
+      "semantic-comprehension"
+    ],
+    "mmmu-pro": [
+      "multimodal",
+      "semantic-comprehension"
+    ],
+    "mmmu-pro-no-tools": [
+      "multimodal",
+      "semantic-comprehension"
+    ],
+    "mmmu-pro-with-tools": [
+      "multimodal",
+      "semantic-comprehension"
+    ],
+    "mmmu-single-attempt": [
+      "multimodal",
+      "semantic-comprehension"
+    ],
+    "mmstar": [
+      "multimodal",
+      "semantic-comprehension"
+    ],
+    "mmvu": [
+      "multimodal",
+      "semantic-comprehension",
+      "temporal"
+    ],
+    "model-context-mcp-evaluation": [
+      "agentic",
+      "deductive"
+    ],
+    "model-context-protocol-mcp-evaluation": [
+      "agentic",
+      "deductive"
+    ],
+    "molecular-biology-capabilities-test": [
+      "knowledge-recall",
+      "medical"
+    ],
+    "monorepo-bench": [
+      "coding",
+      "deductive"
+    ],
+    "mrcr": [
+      "contextual-recall",
+      "long-context"
+    ],
+    "mrcr-v2": [
+      "contextual-recall",
+      "long-context"
+    ],
+    "mrcr-v2-128k": [
+      "contextual-recall",
+      "long-context"
+    ],
+    "mrcr-v2-1m": [
+      "contextual-recall",
+      "long-context"
+    ],
+    "mt-aime2024": [
+      "deductive",
+      "math",
+      "quantitative"
+    ],
+    "mt-bench": [
+      "preference"
+    ],
+    "multi-agent-search": [
+      "agentic",
+      "deductive",
+      "knowledge-recall"
+    ],
+    "multi-challenge": [
+      "knowledge-recall"
+    ],
+    "multi-doc-qa": [
+      "multilingual"
+    ],
+    "multi-exam": [
+      "multilingual"
+    ],
+    "multi-if": [
+      "instruction-following",
+      "multilingual"
+    ],
+    "multi-mathematics": [
+      "deductive",
+      "math",
+      "multilingual",
+      "quantitative"
+    ],
+    "multi-swe-bench": [
+      "coding",
+      "deductive"
+    ],
+    "multi-translation": [
+      "multilingual"
+    ],
+    "multi-turn-testing": [
+      "multilingual"
+    ],
+    "multi-understanding": [
+      "multilingual"
+    ],
+    "multichallenge": [
+      "agentic",
+      "deductive",
+      "preference"
+    ],
+    "multiif": [
+      "instruction-following",
+      "multilingual"
+    ],
+    "multinrc": [
+      "multilingual"
+    ],
+    "multipl-e": [
+      "coding",
+      "deductive"
+    ],
+    "multipl-e-humaneval": [
+      "coding",
+      "deductive"
+    ],
+    "multipl-e-mbpp": [
+      "coding",
+      "deductive"
+    ],
+    "musr": [
+      "knowledge-recall"
+    ],
+    "mvbench": [
+      "multimodal",
+      "semantic-comprehension",
+      "temporal"
+    ],
+    "naturalquestions": [
+      "deductive",
+      "factuality",
+      "knowledge-recall"
+    ],
+    "nexus": [
+      "agentic",
+      "deductive"
+    ],
+    "nih": [
+      "contextual-recall",
+      "long-context"
+    ],
+    "nih-multi-needle": [
+      "contextual-recall",
+      "long-context",
+      "multilingual"
+    ],
+    "nl2repo": [
+      "coding",
+      "deductive"
+    ],
+    "nova-63": [
+      "multilingual"
+    ],
+    "nuscene": [
+      "multimodal",
+      "semantic-comprehension",
+      "spatial-geometric"
+    ],
+    "ocrbench": [
+      "multimodal",
+      "semantic-comprehension",
+      "spatial-geometric"
+    ],
+    "odinw13": [
+      "multimodal",
+      "semantic-comprehension",
+      "spatial-geometric"
+    ],
+    "ojbench": [
+      "coding",
+      "deductive"
+    ],
+    "okapi-mmlu": [
+      "deductive",
+      "knowledge-recall",
+      "multilingual"
+    ],
+    "omnidocbench-1.5": [
+      "multimodal",
+      "semantic-comprehension",
+      "spatial-geometric"
+    ],
+    "openai-mrcr": [
+      "contextual-recall",
+      "long-context"
+    ],
+    "openai-mrcr-v2": [
+      "contextual-recall",
+      "long-context"
+    ],
+    "openai-mrcr-v2-1m-8-needles": [
+      "contextual-recall",
+      "long-context"
+    ],
+    "openai-mrcr-v2-256k-8-needles": [
+      "contextual-recall",
+      "long-context"
+    ],
+    "openai-research-coding-interview": [
+      "knowledge-recall"
+    ],
+    "openai-research-engineer-interview": [
+      "knowledge-recall"
+    ],
+    "openrca": [
+      "agentic",
+      "deductive"
+    ],
+    "osworld": [
+      "agentic",
+      "deductive"
+    ],
+    "osworld-verified": [
+      "agentic",
+      "deductive"
+    ],
+    "paper-bench-code-dev": [
+      "coding",
+      "deductive"
+    ],
+    "paperbench": [
+      "agentic",
+      "deductive"
+    ],
+    "personqa": [
+      "factuality",
+      "knowledge-recall"
+    ],
+    "pile-test": [
+      "knowledge-recall"
+    ],
+    "piqa": [
+      "commonsense-causal",
+      "knowledge-recall"
+    ],
+    "pmc-vqa": [
+      "knowledge-recall",
+      "medical",
+      "multimodal",
+      "semantic-comprehension"
+    ],
+    "polymath": [
+      "deductive",
+      "math",
+      "quantitative"
+    ],
+    "polymath-en": [
+      "deductive",
+      "math",
+      "quantitative"
+    ],
+    "propensitybench": [
+      "safety"
+    ],
+    "protocolqa-open-ended": [
+      "instruction-following",
+      "semantic-comprehension"
+    ],
+    "quac": [
+      "contextual-recall",
+      "knowledge-recall",
+      "semantic-comprehension"
+    ],
+    "qwenclaw": [
+      "agentic",
+      "deductive"
+    ],
+    "qwenclawbench": [
+      "agentic",
+      "deductive"
+    ],
+    "qwenwebbench": [
+      "coding",
+      "deductive"
+    ],
+    "qwenworldbench": [
+      "agentic",
+      "deductive"
+    ],
+    "race-high": [
+      "contextual-recall",
+      "knowledge-recall",
+      "semantic-comprehension"
+    ],
+    "race-middle": [
+      "contextual-recall",
+      "knowledge-recall",
+      "semantic-comprehension"
+    ],
+    "realworldqa": [
+      "multimodal",
+      "semantic-comprehension"
+    ],
+    "refcoco": [
+      "multimodal",
+      "semantic-comprehension",
+      "spatial-geometric"
+    ],
+    "refspatialbench": [
+      "multimodal",
+      "semantic-comprehension",
+      "spatial-geometric"
+    ],
+    "ruler": [
+      "contextual-recall",
+      "long-context"
+    ],
+    "scale-multichallenge": [
+      "instruction-following",
+      "preference",
+      "semantic-comprehension"
+    ],
+    "scicode": [
+      "coding",
+      "deductive"
+    ],
+    "screenspot-pro": [
+      "agentic",
+      "deductive",
+      "multimodal",
+      "semantic-comprehension"
+    ],
+    "seal-0": [
+      "agentic",
+      "deductive"
+    ],
+    "seccodebench": [
+      "coding",
+      "deductive"
+    ],
+    "securitbio": [
+      "safety"
+    ],
+    "simpleqa": [
+      "factuality",
+      "knowledge-recall"
+    ],
+    "simpleqa-hallucination-rate": [
+      "factuality",
+      "knowledge-recall"
+    ],
+    "simpleqa-verified": [
+      "factuality",
+      "knowledge-recall"
+    ],
+    "simplevqa": [
+      "multimodal",
+      "semantic-comprehension"
+    ],
+    "skillsbench": [
+      "agentic",
+      "deductive"
+    ],
+    "slake": [
+      "knowledge-recall",
+      "medical"
+    ],
+    "spider": [
+      "coding",
+      "deductive"
+    ],
+    "spreadsheetbench": [
+      "agentic",
+      "coding",
+      "deductive"
+    ],
+    "squad": [
+      "contextual-recall",
+      "knowledge-recall",
+      "semantic-comprehension"
+    ],
+    "squality": [
+      "contextual-recall",
+      "long-context"
+    ],
+    "structural-biology-multiple-choice": [
+      "coding",
+      "deductive",
+      "knowledge-recall",
+      "medical"
+    ],
+    "structural-biology-open-ended": [
+      "knowledge-recall",
+      "medical"
+    ],
+    "sunrgbd": [
+      "multimodal",
+      "semantic-comprehension",
+      "spatial-geometric"
+    ],
+    "supergpqa": [
+      "deductive",
+      "knowledge-recall"
+    ],
+    "swe-agentless": [
+      "agentic",
+      "coding",
+      "deductive"
+    ],
+    "swe-bench-multilingual": [
+      "coding",
+      "deductive",
+      "multilingual"
+    ],
+    "swe-bench-pro": [
+      "coding",
+      "deductive"
+    ],
+    "swe-bench-verified": [
+      "coding",
+      "deductive"
+    ],
+    "swe-bench-verified-agentic-multi-attempt": [
+      "agentic",
+      "coding",
+      "deductive"
+    ],
+    "swe-bench-verified-agentic-single-attempt": [
+      "agentic",
+      "coding",
+      "deductive"
+    ],
+    "swe-bench-verified-agentless-single-patch": [
+      "agentic",
+      "coding",
+      "deductive"
+    ],
+    "swe-lancer": [
+      "coding",
+      "deductive"
+    ],
+    "swe-lancer-ic-swe": [
+      "coding",
+      "deductive"
+    ],
+    "tau-bench": [
+      "agentic",
+      "deductive"
+    ],
+    "tau-bench-airline": [
+      "agentic",
+      "deductive"
+    ],
+    "tau-bench-retail": [
+      "agentic",
+      "deductive"
+    ],
+    "tau2-bench": [
+      "agentic",
+      "deductive"
+    ],
+    "tau2-telecom": [
+      "agentic",
+      "deductive"
+    ],
+    "terminal-bench": [
+      "agentic",
+      "coding",
+      "deductive"
+    ],
+    "terminal-bench-2.0": [
+      "agentic",
+      "coding",
+      "deductive"
+    ],
+    "terminal-bench-2.1": [
+      "agentic",
+      "coding",
+      "deductive"
+    ],
+    "terminal-bench-hard": [
+      "agentic",
+      "coding",
+      "deductive"
+    ],
+    "terminal-bench-in-house": [
+      "agentic",
+      "coding",
+      "deductive"
+    ],
+    "terminal-bench-terminus": [
+      "agentic",
+      "coding",
+      "deductive"
+    ],
+    "textvqa": [
+      "multimodal",
+      "semantic-comprehension",
+      "spatial-geometric"
+    ],
+    "theoremqa": [
+      "deductive",
+      "math",
+      "quantitative"
+    ],
+    "tool-decathlon": [
+      "agentic",
+      "deductive"
+    ],
+    "toolathlon": [
+      "agentic",
+      "deductive"
+    ],
+    "triviaqa": [
+      "deductive",
+      "factuality",
+      "knowledge-recall"
+    ],
+    "triviaqa-wiki": [
+      "deductive",
+      "knowledge-recall"
+    ],
+    "troubleshootingbench": [
+      "deductive",
+      "math",
+      "quantitative"
+    ],
+    "trustfulqa": [
+      "knowledge-recall"
+    ],
+    "truthfulqa": [
+      "factuality",
+      "knowledge-recall"
+    ],
+    "turkishmmlu": [
+      "deductive",
+      "knowledge-recall",
+      "multilingual"
+    ],
+    "uhura-eval": [
+      "multilingual"
+    ],
+    "usamo-2025": [
+      "deductive",
+      "math",
+      "quantitative"
+    ],
+    "v-star": [
+      "multimodal",
+      "semantic-comprehension",
+      "spatial-geometric"
+    ],
+    "vatex": [
+      "multimodal",
+      "semantic-comprehension",
+      "temporal"
+    ],
+    "vct": [
+      "deductive",
+      "math",
+      "quantitative"
+    ],
+    "vending-bench": [
+      "agentic",
+      "deductive"
+    ],
+    "vending-bench-2": [
+      "agentic",
+      "deductive"
+    ],
+    "vibe-eval": [
+      "multimodal",
+      "semantic-comprehension"
+    ],
+    "video-mme": [
+      "multimodal",
+      "semantic-comprehension",
+      "temporal"
+    ],
+    "videommmu": [
+      "multimodal",
+      "semantic-comprehension",
+      "temporal"
+    ],
+    "virology-capabilities-test": [
+      "safety"
+    ],
+    "visualwebbench": [
+      "agentic",
+      "deductive",
+      "multimodal",
+      "semantic-comprehension"
+    ],
+    "vita-bench": [
+      "agentic",
+      "deductive"
+    ],
+    "vitabench": [
+      "agentic",
+      "deductive"
+    ],
+    "vlmsareblind": [
+      "multimodal",
+      "semantic-comprehension",
+      "spatial-geometric"
+    ],
+    "we-math": [
+      "deductive",
+      "math",
+      "multimodal",
+      "quantitative",
+      "semantic-comprehension",
+      "spatial-geometric"
+    ],
+    "webarena": [
+      "agentic",
+      "deductive",
+      "preference"
+    ],
+    "widesearch": [
+      "agentic",
+      "deductive"
+    ],
+    "wildbench": [
+      "preference"
+    ],
+    "wildchat": [
+      "knowledge-recall",
+      "safety"
+    ],
+    "wildguard": [
+      "safety"
+    ],
+    "wildjailbreak": [
+      "safety"
+    ],
+    "windogrande": [
+      "knowledge-recall"
+    ],
+    "winograd-schema-challenge": [
+      "commonsense-causal",
+      "knowledge-recall"
+    ],
+    "winogrande": [
+      "commonsense-causal",
+      "knowledge-recall"
+    ],
+    "wmdp-bio": [
+      "knowledge-recall",
+      "medical",
+      "safety"
+    ],
+    "wmdp-biology": [
+      "knowledge-recall",
+      "medical",
+      "safety"
+    ],
+    "wmdp-chem": [
+      "safety"
+    ],
+    "wmdp-cyber": [
+      "safety"
+    ],
+    "wmt24++": [
+      "multilingual"
+    ],
+    "world-class-biology": [
+      "knowledge-recall",
+      "medical"
+    ],
+    "writing-bench": [
+      "knowledge-recall",
+      "preference"
+    ],
+    "writingbench": [
+      "preference"
+    ],
+    "xstest": [
+      "safety"
+    ],
+    "zebralogic": [
+      "deductive",
+      "inductive",
+      "knowledge-recall"
+    ],
+    "zerobench": [
+      "multimodal",
+      "semantic-comprehension",
+      "spatial-geometric"
+    ],
+    "zerobenchsub": [
+      "multimodal",
+      "semantic-comprehension",
+      "spatial-geometric"
+    ],
+    "zeroscrolls": [
+      "contextual-recall",
+      "long-context"
+    ],
+    "zeroscrolls-quality": [
+      "contextual-recall",
+      "long-context"
+    ]
+  },
+  "survey": {
+    "aa-lcr": [
+      "reasoning"
+    ],
+    "acebench": [
+      "agent-domain",
+      "agent-integrated"
+    ],
+    "aegis": [
+      "safety-t"
+    ],
+    "agentdojo": [
+      "agent-integrated"
+    ],
+    "agentharm": [
+      "agent-integrated",
+      "agent-safety"
+    ],
+    "agieval": [
+      "hallucination",
+      "knowledge"
+    ],
+    "agieval-english": [
+      "knowledge"
+    ],
+    "ai2d": [
+      "knowledge"
+    ],
+    "aider-polyglot": [
+      "code-gen",
+      "code-maintenance"
+    ],
+    "aime-2024": [
+      "mathematics"
+    ],
+    "aime-2025": [
+      "mathematics"
+    ],
+    "aime-2025-multiple-attempts": [
+      "code-gen",
+      "mathematics"
+    ],
+    "aime-2025-single-attempt": [
+      "mathematics"
+    ],
+    "aime-2026": [
+      "mathematics"
+    ],
+    "alignbench-v1.1": [
+      "knowledge"
+    ],
+    "alpacaeval": [
+      "linguistic"
+    ],
+    "alpacaeval-2.0": [
+      "linguistic"
+    ],
+    "ammlu": [
+      "knowledge"
+    ],
+    "androidworld": [
+      "agent-integrated"
+    ],
+    "apex": [
+      "mathematics"
+    ],
+    "api-bank": [
+      "agent-integrated",
+      "finance"
+    ],
+    "apollo-research-sabotage": [
+      "knowledge"
+    ],
+    "apollo-research-scheming": [
+      "chemistry",
+      "knowledge"
+    ],
+    "arc-agi": [
+      "knowledge",
+      "reasoning"
+    ],
+    "arc-agi-1": [
+      "knowledge",
+      "reasoning"
+    ],
+    "arc-agi-2": [
+      "knowledge",
+      "reasoning"
+    ],
+    "arc-agi-3": [
+      "agent-integrated",
+      "reasoning"
+    ],
+    "arc-c": [
+      "knowledge",
+      "reasoning"
+    ],
+    "arc-challenge": [
+      "knowledge",
+      "reasoning"
+    ],
+    "arc-easy": [
+      "knowledge",
+      "reasoning"
+    ],
+    "arena-hard": [
+      "linguistic"
+    ],
+    "arena-hard-v2": [
+      "linguistic"
+    ],
+    "arena-hard-v2.0": [
+      "linguistic"
+    ],
+    "autologi": [
+      "knowledge",
+      "reasoning"
+    ],
+    "automationbench": [
+      "agent-integrated"
+    ],
+    "babyvision": [
+      "knowledge"
+    ],
+    "bbh": [
+      "knowledge",
+      "reasoning"
+    ],
+    "bbq": [
+      "safety-t"
+    ],
+    "bbq-bias-score": [
+      "safety-t"
+    ],
+    "betterchartqa": [
+      "knowledge"
+    ],
+    "bfcl": [
+      "agent-domain",
+      "agent-integrated"
+    ],
+    "bfcl-v2": [
+      "agent-domain",
+      "agent-integrated"
+    ],
+    "bfcl-v3": [
+      "agent-domain",
+      "agent-integrated"
+    ],
+    "bfcl-v4": [
+      "agent-domain",
+      "agent-integrated"
+    ],
+    "big-bench-hard": [
+      "knowledge",
+      "reasoning"
+    ],
+    "bigcodebench-complete": [
+      "code-gen"
+    ],
+    "bigcodebench-instruct": [
+      "code-gen"
+    ],
+    "biolp-bench": [
+      "biology"
+    ],
+    "biomysterybench": [
+      "biology"
+    ],
+    "biopipelinebench": [
+      "biology"
+    ],
+    "blend": [
+      "linguistic"
+    ],
+    "blueprint-bench-2": [
+      "knowledge"
+    ],
+    "boolq": [
+      "knowledge"
+    ],
+    "browsecomp": [
+      "agent-integrated",
+      "agent-planning"
+    ],
+    "browsecomp-multi-agent": [
+      "agent-integrated",
+      "agent-planning",
+      "multi-agent"
+    ],
+    "browsecomp-plus-agentic-search": [
+      "agent-planning",
+      "knowledge"
+    ],
+    "browsecomp-plus-agentic-search-performance": [
+      "agent-planning",
+      "knowledge"
+    ],
+    "browsecomp-zh": [
+      "agent-integrated",
+      "agent-planning"
+    ],
+    "c-eval": [
+      "knowledge"
+    ],
+    "c3": [
+      "knowledge"
+    ],
+    "cc-ocr": [
+      "knowledge"
+    ],
+    "ccpm": [
+      "knowledge"
+    ],
+    "chartqa": [
+      "knowledge"
+    ],
+    "charxiv": [
+      "knowledge"
+    ],
+    "chatbot-arena": [
+      "linguistic"
+    ],
+    "claw-eval": [
+      "agent-integrated"
+    ],
+    "claweval": [
+      "agent-integrated"
+    ],
+    "click": [
+      "knowledge"
+    ],
+    "cluewsc": [
+      "knowledge"
+    ],
+    "cmath": [
+      "knowledge"
+    ],
+    "cmmlu": [
+      "knowledge"
+    ],
+    "cmrc": [
+      "knowledge"
+    ],
+    "cnmo-2024": [
+      "mathematics"
+    ],
+    "codeforces": [
+      "code-gen"
+    ],
+    "codeforces-elo": [
+      "code-gen"
+    ],
+    "coding-korean": [
+      "knowledge"
+    ],
+    "collie": [
+      "robustness-t"
+    ],
+    "commonsenseqa": [
+      "knowledge",
+      "linguistic"
+    ],
+    "computational-biology-biomysterybench": [
+      "biology"
+    ],
+    "computational-biology-biopipelinebench": [
+      "biology"
+    ],
+    "countbench": [
+      "knowledge"
+    ],
+    "coworkbench": [
+      "agent-integrated"
+    ],
+    "crag": [
+      "hallucination"
+    ],
+    "creative-writing-v3": [
+      "knowledge",
+      "linguistic"
+    ],
+    "critpt": [
+      "mathematics"
+    ],
+    "crux-i": [
+      "code-gen"
+    ],
+    "crux-o": [
+      "code-gen"
+    ],
+    "cruxeval": [
+      "code-gen",
+      "code-understanding"
+    ],
+    "cruxeval-i": [
+      "code-gen",
+      "code-understanding"
+    ],
+    "cruxeval-o": [
+      "code-gen",
+      "code-understanding"
+    ],
+    "csimpleqa": [
+      "hallucination",
+      "knowledge"
+    ],
+    "cve-bench": [
+      "safety-t"
+    ],
+    "cybench": [
+      "agent-integrated"
+    ],
+    "cybergym": [
+      "safety-t"
+    ],
+    "cyscenariobench": [
+      "safety-t"
+    ],
+    "deepplanning": [
+      "agent-integrated"
+    ],
+    "deepsearchqa": [
+      "knowledge"
+    ],
+    "deepsearchqa-multi-agent": [
+      "knowledge",
+      "multi-agent"
+    ],
+    "deepsearchqa-single-agent": [
+      "knowledge"
+    ],
+    "docvqa": [
+      "knowledge"
+    ],
+    "drop": [
+      "mathematics"
+    ],
+    "dynamath": [
+      "knowledge"
+    ],
+    "eclektic": [
+      "linguistic"
+    ],
+    "egoschema": [
+      "chemistry",
+      "knowledge"
+    ],
+    "embspatialbench": [
+      "knowledge"
+    ],
+    "erqa": [
+      "knowledge"
+    ],
+    "evalplus": [
+      "code-gen"
+    ],
+    "exploitbench": [
+      "safety-t"
+    ],
+    "facts-grounding": [
+      "hallucination"
+    ],
+    "faithjudge": [
+      "hallucination"
+    ],
+    "finance-agent": [
+      "agent-domain",
+      "agent-integrated",
+      "finance"
+    ],
+    "finance-agent-v1.1": [
+      "agent-domain",
+      "agent-integrated",
+      "finance"
+    ],
+    "finqa": [
+      "finance"
+    ],
+    "fortress": [
+      "safety-t"
+    ],
+    "frames": [
+      "hallucination",
+      "reasoning"
+    ],
+    "frontiercode": [
+      "code-gen"
+    ],
+    "frontiermath": [
+      "mathematics"
+    ],
+    "gdpval": [
+      "knowledge"
+    ],
+    "gdpval-aa": [
+      "knowledge"
+    ],
+    "gdpval-aa-elo": [
+      "knowledge"
+    ],
+    "global-mmlu": [
+      "knowledge",
+      "linguistic"
+    ],
+    "global-piqa": [
+      "linguistic"
+    ],
+    "gmmlu-english": [
+      "knowledge"
+    ],
+    "gmmlu-high-resource-average": [
+      "knowledge"
+    ],
+    "gmmlu-low-resource-average": [
+      "knowledge"
+    ],
+    "gmmlu-mid-resource-average": [
+      "knowledge"
+    ],
+    "gmmlu-overall-average": [
+      "knowledge"
+    ],
+    "gorilla-api-bench": [
+      "agent-integrated"
+    ],
+    "gpqa": [
+      "cross-science"
+    ],
+    "gpqa-diamond-multiple-attempts": [
+      "code-gen",
+      "cross-science",
+      "knowledge"
+    ],
+    "gpqa-diamond-single-attempt": [
+      "cross-science",
+      "knowledge"
+    ],
+    "graphwalks-bfs": [
+      "reasoning"
+    ],
+    "graphwalks-bfs-1m": [
+      "reasoning"
+    ],
+    "graphwalks-bfs-256k": [
+      "reasoning"
+    ],
+    "graphwalks-bfs-256k-subset": [
+      "reasoning"
+    ],
+    "graphwalks-bfs-256k-subset-of-1m": [
+      "reasoning"
+    ],
+    "graphwalks-parent": [
+      "reasoning"
+    ],
+    "graphwalks-parents-1m": [
+      "reasoning"
+    ],
+    "graphwalks-parents-256k": [
+      "reasoning"
+    ],
+    "graphwalks-parents-256k-subset": [
+      "reasoning"
+    ],
+    "graphwalks-parents-256k-subset-of-1m": [
+      "reasoning"
+    ],
+    "gray-swan-arena": [
+      "linguistic",
+      "safety-t"
+    ],
+    "groundui-1k": [
+      "agent-integrated"
+    ],
+    "gsm8k": [
+      "mathematics"
+    ],
+    "gsm8k-platinum": [
+      "mathematics"
+    ],
+    "hae-rae-v1.1": [
+      "knowledge"
+    ],
+    "hallusionbench": [
+      "knowledge"
+    ],
+    "healthbench": [
+      "biology"
+    ],
+    "healthbench-consensus": [
+      "biology"
+    ],
+    "healthbench-consensus-global-health": [
+      "biology"
+    ],
+    "healthbench-consensus-urgent": [
+      "biology"
+    ],
+    "healthbench-hard": [
+      "biology"
+    ],
+    "healthbench-hard-hallucinations": [
+      "biology",
+      "hallucination"
+    ],
+    "healthbench-professional": [
+      "biology"
+    ],
+    "hellaswag": [
+      "knowledge",
+      "linguistic"
+    ],
+    "hhem-v2.1": [
+      "hallucination",
+      "reasoning"
+    ],
+    "hidden-test-hack-rate": [
+      "mathematics"
+    ],
+    "hiddenmath-hard": [
+      "mathematics"
+    ],
+    "hle": [
+      "cross-science",
+      "mathematics"
+    ],
+    "hle-verified": [
+      "knowledge"
+    ],
+    "hle-w-tool": [
+      "agent-integrated"
+    ],
+    "hmmt-2025": [
+      "mathematics"
+    ],
+    "hmmt-feb-2025": [
+      "mathematics"
+    ],
+    "hmmt-feb-2026": [
+      "mathematics"
+    ],
+    "hmmt-nov-2025": [
+      "mathematics"
+    ],
+    "hrm8k": [
+      "knowledge",
+      "mathematics"
+    ],
+    "humaneval": [
+      "code-gen"
+    ],
+    "humaneval+": [
+      "code-gen"
+    ],
+    "hypersim": [
+      "knowledge"
+    ],
+    "ifbench": [
+      "robustness-t"
+    ],
+    "ifeval": [
+      "robustness-t"
+    ],
+    "imo-answerbench": [
+      "mathematics"
+    ],
+    "include": [
+      "linguistic"
+    ],
+    "indommlu": [
+      "knowledge"
+    ],
+    "infinitebench": [
+      "reasoning"
+    ],
+    "infinitebench-en.mc": [
+      "reasoning"
+    ],
+    "instruction-hierarchy-evaluation": [
+      "knowledge"
+    ],
+    "instruction-hierarchy-evaluation-tutor-jailbreaks": [
+      "education",
+      "knowledge",
+      "safety-t"
+    ],
+    "instruction-hierarchy-evaluations": [
+      "knowledge"
+    ],
+    "jigsaw": [
+      "safety-t"
+    ],
+    "jmmlu": [
+      "knowledge"
+    ],
+    "kbankmmlu": [
+      "knowledge"
+    ],
+    "kbl": [
+      "knowledge",
+      "law"
+    ],
+    "kernel-task": [
+      "knowledge"
+    ],
+    "kgc-safety": [
+      "knowledge",
+      "safety-t"
+    ],
+    "kmmlu": [
+      "knowledge"
+    ],
+    "kmmlu-pro": [
+      "knowledge"
+    ],
+    "kmmlu-redux": [
+      "knowledge"
+    ],
+    "knowledge": [
+      "knowledge"
+    ],
+    "ko-aime-2024": [
+      "knowledge",
+      "mathematics"
+    ],
+    "ko-aime-2025": [
+      "knowledge",
+      "mathematics"
+    ],
+    "ko-arena-hard-v2": [
+      "knowledge",
+      "linguistic"
+    ],
+    "ko-ifeval": [
+      "knowledge",
+      "robustness-t"
+    ],
+    "ko-longbench": [
+      "knowledge"
+    ],
+    "ko-longrag": [
+      "knowledge"
+    ],
+    "ko-longrag-multi-doc-qa-answerable": [
+      "code-gen"
+    ],
+    "ko-longrag-multi-doc-qa-total": [
+      "linguistic"
+    ],
+    "ko-longrag-multi-doc-qa-unanswerable": [
+      "code-gen"
+    ],
+    "ko-longrag-single-doc-qa-answerable": [
+      "code-gen"
+    ],
+    "ko-longrag-single-doc-qa-total": [
+      "knowledge"
+    ],
+    "ko-longrag-single-doc-qa-unanswerable": [
+      "code-gen"
+    ],
+    "ko-mt-bench": [
+      "knowledge",
+      "linguistic"
+    ],
+    "ko-webrag": [
+      "knowledge"
+    ],
+    "kobalt": [
+      "knowledge"
+    ],
+    "komt-bench": [
+      "knowledge",
+      "linguistic"
+    ],
+    "korbench": [
+      "knowledge"
+    ],
+    "kormedmcqa": [
+      "biology",
+      "knowledge"
+    ],
+    "lab-bench": [
+      "biology",
+      "mathematics"
+    ],
+    "lab-bench-figqa": [
+      "biology",
+      "mathematics"
+    ],
+    "lab-bench-subset": [
+      "biology",
+      "mathematics"
+    ],
+    "legal-agent-benchmark": [
+      "law"
+    ],
+    "lingoqa": [
+      "knowledge"
+    ],
+    "livebench": [
+      "knowledge",
+      "reasoning"
+    ],
+    "livecodebench": [
+      "code-gen",
+      "data-leak"
+    ],
+    "livecodebench-2.0": [
+      "code-gen"
+    ],
+    "livecodebench-base": [
+      "code-gen"
+    ],
+    "livecodebench-pro": [
+      "code-gen"
+    ],
+    "livecodebench-v5": [
+      "code-gen"
+    ],
+    "livecodebench-v5-multiple-attempts": [
+      "code-gen"
+    ],
+    "livecodebench-v5-single-attempt": [
+      "code-gen"
+    ],
+    "livecodebench-v6": [
+      "code-gen"
+    ],
+    "loft": [
+      "reasoning"
+    ],
+    "logickor": [
+      "knowledge",
+      "reasoning"
+    ],
+    "long-form-biorisk-questions": [
+      "biology",
+      "safety-t"
+    ],
+    "longbench": [
+      "reasoning"
+    ],
+    "longbench-chat": [
+      "linguistic",
+      "reasoning"
+    ],
+    "longbench-few-shot-learning": [
+      "reasoning"
+    ],
+    "longbench-multi-doc-qa": [
+      "linguistic"
+    ],
+    "longbench-single-doc-qa": [
+      "reasoning"
+    ],
+    "longbench-summarization": [
+      "reasoning"
+    ],
+    "longbench-v2": [
+      "reasoning"
+    ],
+    "longrag": [
+      "reasoning"
+    ],
+    "longrag-hotpot-qa-answerable": [
+      "code-gen",
+      "reasoning"
+    ],
+    "longrag-hotpot-qa-unanswerable": [
+      "code-gen",
+      "reasoning"
+    ],
+    "longrag-nq-answerable": [
+      "code-gen"
+    ],
+    "longrag-nq-unanswerable": [
+      "code-gen"
+    ],
+    "lv-eval": [
+      "reasoning"
+    ],
+    "lvbench": [
+      "knowledge"
+    ],
+    "makemepay": [
+      "safety-t"
+    ],
+    "makemesay": [
+      "safety-t"
+    ],
+    "mask": [
+      "safety-t"
+    ],
+    "math": [
+      "mathematics"
+    ],
+    "math-500": [
+      "mathematics"
+    ],
+    "math-kangaroo": [
+      "mathematics"
+    ],
+    "math-p-hard": [
+      "mathematics",
+      "robustness-t"
+    ],
+    "math-p-simple": [
+      "mathematics"
+    ],
+    "mathvision": [
+      "knowledge"
+    ],
+    "mathvista": [
+      "mathematics"
+    ],
+    "maxife": [
+      "linguistic"
+    ],
+    "mbpp": [
+      "code-gen"
+    ],
+    "mbpp+": [
+      "code-gen"
+    ],
+    "mcp-atlas": [
+      "agent-domain",
+      "agent-integrated"
+    ],
+    "mcp-mark": [
+      "agent-domain",
+      "agent-integrated"
+    ],
+    "medcalc-bench-verified": [
+      "biology"
+    ],
+    "medmcqa-dev": [
+      "biology"
+    ],
+    "medqa-mainland-china": [
+      "biology"
+    ],
+    "medqa-taiwan": [
+      "biology"
+    ],
+    "medqa-usmle-4-options": [
+      "biology"
+    ],
+    "medqa-usmle-5-options": [
+      "biology"
+    ],
+    "medxpertqa-mm": [
+      "biology"
+    ],
+    "metr-time-horizon": [
+      "agent-domain",
+      "agent-integrated"
+    ],
+    "mgsm": [
+      "linguistic"
+    ],
+    "mgsm8k": [
+      "mathematics"
+    ],
+    "milu-average": [
+      "linguistic"
+    ],
+    "milu-english": [
+      "linguistic"
+    ],
+    "mle-bench": [
+      "agent-integrated"
+    ],
+    "mlogiqa": [
+      "linguistic",
+      "reasoning"
+    ],
+    "mlvu": [
+      "knowledge"
+    ],
+    "mm-mind2web": [
+      "agent-integrated"
+    ],
+    "mmbench-en-dev-v1.1": [
+      "knowledge"
+    ],
+    "mmlongbench-doc": [
+      "knowledge"
+    ],
+    "mmlu": [
+      "knowledge"
+    ],
+    "mmlu-anatomy": [
+      "knowledge"
+    ],
+    "mmlu-clinical-knowledge": [
+      "biology",
+      "knowledge"
+    ],
+    "mmlu-college-biology": [
+      "biology",
+      "knowledge"
+    ],
+    "mmlu-college-medicine": [
+      "biology",
+      "knowledge"
+    ],
+    "mmlu-language": [
+      "knowledge"
+    ],
+    "mmlu-language-arabic": [
+      "knowledge"
+    ],
+    "mmlu-language-average": [
+      "knowledge"
+    ],
+    "mmlu-language-bengali": [
+      "knowledge"
+    ],
+    "mmlu-language-chinese": [
+      "knowledge"
+    ],
+    "mmlu-language-french": [
+      "knowledge"
+    ],
+    "mmlu-language-german": [
+      "knowledge"
+    ],
+    "mmlu-language-hindi": [
+      "knowledge"
+    ],
+    "mmlu-language-indonesian": [
+      "knowledge"
+    ],
+    "mmlu-language-italian": [
+      "knowledge"
+    ],
+    "mmlu-language-japanese": [
+      "knowledge"
+    ],
+    "mmlu-language-korean": [
+      "knowledge"
+    ],
+    "mmlu-language-portuguese": [
+      "knowledge"
+    ],
+    "mmlu-language-spanish": [
+      "knowledge"
+    ],
+    "mmlu-language-swahili": [
+      "knowledge"
+    ],
+    "mmlu-language-thai": [
+      "knowledge"
+    ],
+    "mmlu-language-yoruba": [
+      "knowledge"
+    ],
+    "mmlu-medical-genetics": [
+      "biology",
+      "knowledge"
+    ],
+    "mmlu-pro": [
+      "knowledge"
+    ],
+    "mmlu-professional-medicine": [
+      "biology",
+      "knowledge"
+    ],
+    "mmlu-prox": [
+      "knowledge",
+      "linguistic"
+    ],
+    "mmlu-redux": [
+      "knowledge"
+    ],
+    "mmlu-stem": [
+      "knowledge",
+      "mathematics"
+    ],
+    "mmmlu": [
+      "knowledge",
+      "linguistic"
+    ],
+    "mmmlu-non-english": [
+      "knowledge"
+    ],
+    "mmmu": [
+      "knowledge"
+    ],
+    "mmmu-multiple-attempts": [
+      "code-gen",
+      "knowledge"
+    ],
+    "mmmu-pro": [
+      "knowledge"
+    ],
+    "mmmu-pro-no-tools": [
+      "knowledge"
+    ],
+    "mmmu-pro-with-tools": [
+      "knowledge"
+    ],
+    "mmmu-single-attempt": [
+      "knowledge"
+    ],
+    "mmstar": [
+      "knowledge"
+    ],
+    "mmvu": [
+      "knowledge"
+    ],
+    "model-context-mcp-evaluation": [
+      "agent-domain",
+      "agent-integrated"
+    ],
+    "model-context-protocol-mcp-evaluation": [
+      "agent-domain",
+      "agent-integrated"
+    ],
+    "molecular-biology-capabilities-test": [
+      "biology"
+    ],
+    "monorepo-bench": [
+      "code-gen"
+    ],
+    "mrcr": [
+      "reasoning"
+    ],
+    "mrcr-v2": [
+      "reasoning"
+    ],
+    "mrcr-v2-128k": [
+      "reasoning"
+    ],
+    "mrcr-v2-1m": [
+      "reasoning"
+    ],
+    "mt-aime2024": [
+      "mathematics"
+    ],
+    "mt-bench": [
+      "linguistic"
+    ],
+    "multi-agent-search": [
+      "knowledge",
+      "multi-agent"
+    ],
+    "multi-challenge": [
+      "knowledge"
+    ],
+    "multi-doc-qa": [
+      "linguistic"
+    ],
+    "multi-exam": [
+      "knowledge",
+      "linguistic"
+    ],
+    "multi-if": [
+      "linguistic"
+    ],
+    "multi-mathematics": [
+      "linguistic"
+    ],
+    "multi-swe-bench": [
+      "code-gen",
+      "code-maintenance"
+    ],
+    "multi-translation": [
+      "linguistic"
+    ],
+    "multi-turn-testing": [
+      "linguistic"
+    ],
+    "multi-understanding": [
+      "linguistic"
+    ],
+    "multichallenge": [
+      "agent-integrated",
+      "linguistic"
+    ],
+    "multiif": [
+      "linguistic"
+    ],
+    "multinrc": [
+      "linguistic"
+    ],
+    "multipl-e": [
+      "code-gen"
+    ],
+    "multipl-e-humaneval": [
+      "code-gen"
+    ],
+    "multipl-e-mbpp": [
+      "code-gen"
+    ],
+    "musr": [
+      "knowledge"
+    ],
+    "mvbench": [
+      "knowledge"
+    ],
+    "naturalquestions": [
+      "hallucination",
+      "knowledge"
+    ],
+    "nexus": [
+      "agent-domain",
+      "agent-integrated"
+    ],
+    "nih": [
+      "reasoning"
+    ],
+    "nih-multi-needle": [
+      "linguistic"
+    ],
+    "nl2repo": [
+      "code-gen"
+    ],
+    "nova-63": [
+      "linguistic"
+    ],
+    "nuscene": [
+      "knowledge"
+    ],
+    "ocrbench": [
+      "knowledge"
+    ],
+    "odinw13": [
+      "knowledge"
+    ],
+    "ojbench": [
+      "code-gen"
+    ],
+    "okapi-mmlu": [
+      "knowledge"
+    ],
+    "omnidocbench-1.5": [
+      "knowledge",
+      "others"
+    ],
+    "openai-mrcr": [
+      "reasoning"
+    ],
+    "openai-mrcr-v2": [
+      "reasoning"
+    ],
+    "openai-mrcr-v2-1m-8-needles": [
+      "reasoning"
+    ],
+    "openai-mrcr-v2-256k-8-needles": [
+      "reasoning"
+    ],
+    "openai-research-coding-interview": [
+      "knowledge"
+    ],
+    "openai-research-engineer-interview": [
+      "knowledge"
+    ],
+    "openrca": [
+      "agent-domain",
+      "agent-integrated"
+    ],
+    "osworld": [
+      "agent-domain",
+      "agent-integrated"
+    ],
+    "osworld-verified": [
+      "agent-domain",
+      "agent-integrated"
+    ],
+    "paper-bench-code-dev": [
+      "code-gen"
+    ],
+    "paperbench": [
+      "agent-domain",
+      "agent-integrated"
+    ],
+    "personqa": [
+      "hallucination"
+    ],
+    "pile-test": [
+      "knowledge"
+    ],
+    "piqa": [
+      "knowledge",
+      "linguistic"
+    ],
+    "pmc-vqa": [
+      "biology"
+    ],
+    "polymath": [
+      "mathematics"
+    ],
+    "polymath-en": [
+      "mathematics"
+    ],
+    "propensitybench": [
+      "safety-t"
+    ],
+    "protocolqa-open-ended": [
+      "robustness-t"
+    ],
+    "quac": [
+      "knowledge"
+    ],
+    "qwenclaw": [
+      "agent-integrated"
+    ],
+    "qwenclawbench": [
+      "agent-integrated",
+      "law"
+    ],
+    "qwenwebbench": [
+      "code-gen"
+    ],
+    "qwenworldbench": [
+      "agent-integrated"
+    ],
+    "race-high": [
+      "knowledge"
+    ],
+    "race-middle": [
+      "knowledge"
+    ],
+    "realworldqa": [
+      "knowledge"
+    ],
+    "refcoco": [
+      "knowledge"
+    ],
+    "refspatialbench": [
+      "knowledge"
+    ],
+    "ruler": [
+      "reasoning"
+    ],
+    "scale-multichallenge": [
+      "linguistic",
+      "robustness-t"
+    ],
+    "scicode": [
+      "code-gen"
+    ],
+    "screenspot-pro": [
+      "agent-integrated"
+    ],
+    "seal-0": [
+      "agent-integrated"
+    ],
+    "seccodebench": [
+      "code-gen"
+    ],
+    "securitbio": [
+      "safety-t"
+    ],
+    "simpleqa": [
+      "hallucination"
+    ],
+    "simpleqa-hallucination-rate": [
+      "hallucination"
+    ],
+    "simpleqa-verified": [
+      "hallucination"
+    ],
+    "simplevqa": [
+      "knowledge"
+    ],
+    "skillsbench": [
+      "agent-integrated"
+    ],
+    "slake": [
+      "biology"
+    ],
+    "spider": [
+      "code-gen",
+      "database-devops"
+    ],
+    "spreadsheetbench": [
+      "agent-integrated"
+    ],
+    "squad": [
+      "knowledge"
+    ],
+    "squality": [
+      "reasoning"
+    ],
+    "structural-biology-multiple-choice": [
+      "biology",
+      "code-gen"
+    ],
+    "structural-biology-open-ended": [
+      "biology"
+    ],
+    "sunrgbd": [
+      "knowledge"
+    ],
+    "supergpqa": [
+      "cross-science",
+      "knowledge"
+    ],
+    "swe-agentless": [
+      "code-gen"
+    ],
+    "swe-bench-multilingual": [
+      "code-gen",
+      "code-maintenance",
+      "linguistic"
+    ],
+    "swe-bench-pro": [
+      "code-gen",
+      "code-maintenance"
+    ],
+    "swe-bench-verified": [
+      "code-gen",
+      "code-maintenance"
+    ],
+    "swe-bench-verified-agentic-multi-attempt": [
+      "code-gen",
+      "code-maintenance"
+    ],
+    "swe-bench-verified-agentic-single-attempt": [
+      "code-gen",
+      "code-maintenance"
+    ],
+    "swe-bench-verified-agentless-single-patch": [
+      "code-gen",
+      "code-maintenance"
+    ],
+    "swe-lancer": [
+      "code-gen",
+      "code-maintenance"
+    ],
+    "swe-lancer-ic-swe": [
+      "code-gen",
+      "code-maintenance"
+    ],
+    "tau-bench": [
+      "agent-integrated"
+    ],
+    "tau-bench-airline": [
+      "agent-integrated"
+    ],
+    "tau-bench-retail": [
+      "agent-integrated"
+    ],
+    "tau2-bench": [
+      "agent-integrated"
+    ],
+    "tau2-telecom": [
+      "agent-integrated"
+    ],
+    "terminal-bench": [
+      "agent-integrated",
+      "code-maintenance"
+    ],
+    "terminal-bench-2.0": [
+      "code-gen",
+      "code-maintenance"
+    ],
+    "terminal-bench-2.1": [
+      "agent-integrated",
+      "code-maintenance"
+    ],
+    "terminal-bench-hard": [
+      "agent-integrated",
+      "code-maintenance"
+    ],
+    "terminal-bench-in-house": [
+      "code-gen",
+      "code-maintenance"
+    ],
+    "terminal-bench-terminus": [
+      "code-gen",
+      "code-maintenance"
+    ],
+    "textvqa": [
+      "knowledge"
+    ],
+    "theoremqa": [
+      "cross-science",
+      "mathematics"
+    ],
+    "tool-decathlon": [
+      "agent-integrated"
+    ],
+    "toolathlon": [
+      "agent-domain",
+      "agent-integrated"
+    ],
+    "triviaqa": [
+      "hallucination",
+      "knowledge"
+    ],
+    "triviaqa-wiki": [
+      "knowledge"
+    ],
+    "troubleshootingbench": [
+      "mathematics"
+    ],
+    "trustfulqa": [
+      "knowledge"
+    ],
+    "truthfulqa": [
+      "hallucination"
+    ],
+    "turkishmmlu": [
+      "knowledge"
+    ],
+    "uhura-eval": [
+      "linguistic"
+    ],
+    "usamo-2025": [
+      "mathematics"
+    ],
+    "v-star": [
+      "knowledge"
+    ],
+    "vatex": [
+      "knowledge"
+    ],
+    "vct": [
+      "mathematics"
+    ],
+    "vending-bench": [
+      "agent-domain",
+      "agent-integrated"
+    ],
+    "vending-bench-2": [
+      "agent-domain",
+      "agent-integrated"
+    ],
+    "vibe-eval": [
+      "education",
+      "knowledge"
+    ],
+    "video-mme": [
+      "knowledge"
+    ],
+    "videommmu": [
+      "knowledge"
+    ],
+    "virology-capabilities-test": [
+      "safety-t"
+    ],
+    "visualwebbench": [
+      "agent-integrated"
+    ],
+    "vita-bench": [
+      "agent-integrated"
+    ],
+    "vitabench": [
+      "agent-integrated"
+    ],
+    "vlmsareblind": [
+      "knowledge"
+    ],
+    "we-math": [
+      "knowledge",
+      "mathematics"
+    ],
+    "webarena": [
+      "agent-domain",
+      "linguistic"
+    ],
+    "widesearch": [
+      "agent-integrated"
+    ],
+    "wildbench": [
+      "linguistic"
+    ],
+    "wildchat": [
+      "knowledge",
+      "linguistic"
+    ],
+    "wildguard": [
+      "safety-t"
+    ],
+    "wildjailbreak": [
+      "safety-t"
+    ],
+    "windogrande": [
+      "knowledge"
+    ],
+    "winograd-schema-challenge": [
+      "chemistry",
+      "knowledge"
+    ],
+    "winogrande": [
+      "knowledge",
+      "linguistic"
+    ],
+    "wmdp-bio": [
+      "biology",
+      "safety-t"
+    ],
+    "wmdp-biology": [
+      "biology",
+      "safety-t"
+    ],
+    "wmdp-chem": [
+      "chemistry",
+      "safety-t"
+    ],
+    "wmdp-cyber": [
+      "safety-t"
+    ],
+    "wmt24++": [
+      "linguistic"
+    ],
+    "world-class-biology": [
+      "biology"
+    ],
+    "writing-bench": [
+      "knowledge",
+      "linguistic"
+    ],
+    "writingbench": [
+      "linguistic"
+    ],
+    "xstest": [
+      "safety-t"
+    ],
+    "zebralogic": [
+      "knowledge",
+      "reasoning"
+    ],
+    "zerobench": [
+      "knowledge"
+    ],
+    "zerobenchsub": [
+      "knowledge"
+    ],
+    "zeroscrolls": [
+      "reasoning"
+    ],
+    "zeroscrolls-quality": [
+      "reasoning"
+    ]
+  }
+}

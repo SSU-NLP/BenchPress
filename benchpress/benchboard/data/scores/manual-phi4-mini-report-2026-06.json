@@ -1,0 +1,2693 @@
+[
+  {
+    "model_id": "qwen2.5-7b",
+    "benchmark_id": "arc-challenge",
+    "score": 90.1,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "gemma-2-9b",
+    "benchmark_id": "arc-challenge",
+    "score": 89.8,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "phi-3.5-mini",
+    "benchmark_id": "arc-challenge",
+    "score": 84.6,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "phi-4-mini",
+    "benchmark_id": "arc-challenge",
+    "score": 83.7,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "llama-3.1-8b",
+    "benchmark_id": "arc-challenge",
+    "score": 83.1,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "ministral-8b",
+    "benchmark_id": "arc-challenge",
+    "score": 82.7,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "qwen2.5-3b",
+    "benchmark_id": "arc-challenge",
+    "score": 82.6,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "ministral-3b",
+    "benchmark_id": "arc-challenge",
+    "score": 80.3,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "llama-3.2-3b",
+    "benchmark_id": "arc-challenge",
+    "score": 76.1,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "qwen2.5-7b",
+    "benchmark_id": "arena-hard",
+    "score": 55.5,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "gemma-2-9b",
+    "benchmark_id": "arena-hard",
+    "score": 43.7,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "ministral-8b",
+    "benchmark_id": "arena-hard",
+    "score": 37.3,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "phi-3.5-mini",
+    "benchmark_id": "arena-hard",
+    "score": 34.4,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "phi-4-mini",
+    "benchmark_id": "arena-hard",
+    "score": 32.8,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "qwen2.5-3b",
+    "benchmark_id": "arena-hard",
+    "score": 32,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "ministral-3b",
+    "benchmark_id": "arena-hard",
+    "score": 26.9,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "llama-3.1-8b",
+    "benchmark_id": "arena-hard",
+    "score": 25.7,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "llama-3.2-3b",
+    "benchmark_id": "arena-hard",
+    "score": 17,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "qwen2.5-7b",
+    "benchmark_id": "bbh",
+    "score": 72.4,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "phi-4-mini",
+    "benchmark_id": "bbh",
+    "score": 70.4,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "gemma-2-9b",
+    "benchmark_id": "bbh",
+    "score": 65.7,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "llama-3.1-8b",
+    "benchmark_id": "bbh",
+    "score": 63.4,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "phi-3.5-mini",
+    "benchmark_id": "bbh",
+    "score": 63.1,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "qwen2.5-3b",
+    "benchmark_id": "bbh",
+    "score": 56.2,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "llama-3.2-3b",
+    "benchmark_id": "bbh",
+    "score": 55.4,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "ministral-8b",
+    "benchmark_id": "bbh",
+    "score": 53.3,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "ministral-3b",
+    "benchmark_id": "bbh",
+    "score": 51.2,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "qwen2.5-7b",
+    "benchmark_id": "bfcl",
+    "score": 81.3,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "llama-3.2-3b",
+    "benchmark_id": "bfcl",
+    "score": 78.6,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "llama-3.1-8b",
+    "benchmark_id": "bfcl",
+    "score": 77,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "qwen2.5-3b",
+    "benchmark_id": "bfcl",
+    "score": 74.2,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "ministral-8b",
+    "benchmark_id": "bfcl",
+    "score": 74,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "phi-4-mini",
+    "benchmark_id": "bfcl",
+    "score": 70.3,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "phi-3.5-mini",
+    "benchmark_id": "bfcl",
+    "score": 66.1,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "ministral-3b",
+    "benchmark_id": "bfcl",
+    "score": 61.4,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "gemma-2-9b",
+    "benchmark_id": "bfcl",
+    "score": 59.9,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "ministral-3b",
+    "benchmark_id": "bigcodebench-complete",
+    "score": 50,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "ministral-8b",
+    "benchmark_id": "bigcodebench-complete",
+    "score": 47.4,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "qwen2.5-7b",
+    "benchmark_id": "bigcodebench-complete",
+    "score": 43.4,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "phi-4-mini",
+    "benchmark_id": "bigcodebench-complete",
+    "score": 43,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "gemma-2-9b",
+    "benchmark_id": "bigcodebench-complete",
+    "score": 40.6,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "phi-3.5-mini",
+    "benchmark_id": "bigcodebench-complete",
+    "score": 40.4,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "llama-3.1-8b",
+    "benchmark_id": "bigcodebench-complete",
+    "score": 34.1,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "qwen2.5-3b",
+    "benchmark_id": "bigcodebench-complete",
+    "score": 33.8,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "llama-3.2-3b",
+    "benchmark_id": "bigcodebench-complete",
+    "score": 25.7,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "ministral-8b",
+    "benchmark_id": "bigcodebench-instruct",
+    "score": 35.6,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "llama-3.1-8b",
+    "benchmark_id": "bigcodebench-instruct",
+    "score": 34.8,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "phi-4-mini",
+    "benchmark_id": "bigcodebench-instruct",
+    "score": 33.8,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "ministral-3b",
+    "benchmark_id": "bigcodebench-instruct",
+    "score": 33.8,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "gemma-2-9b",
+    "benchmark_id": "bigcodebench-instruct",
+    "score": 33.6,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "qwen2.5-7b",
+    "benchmark_id": "bigcodebench-instruct",
+    "score": 33.5,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "qwen2.5-3b",
+    "benchmark_id": "bigcodebench-instruct",
+    "score": 25,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "llama-3.2-3b",
+    "benchmark_id": "bigcodebench-instruct",
+    "score": 18.6,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "phi-3.5-mini",
+    "benchmark_id": "bigcodebench-instruct",
+    "score": 14.3,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "gemma-2-9b",
+    "benchmark_id": "boolq",
+    "score": 85.7,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "llama-3.1-8b",
+    "benchmark_id": "boolq",
+    "score": 82.8,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "phi-4-mini",
+    "benchmark_id": "boolq",
+    "score": 81.2,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "ministral-8b",
+    "benchmark_id": "boolq",
+    "score": 80.5,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "qwen2.5-7b",
+    "benchmark_id": "boolq",
+    "score": 80,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "ministral-3b",
+    "benchmark_id": "boolq",
+    "score": 79.4,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "phi-3.5-mini",
+    "benchmark_id": "boolq",
+    "score": 77.7,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "llama-3.2-3b",
+    "benchmark_id": "boolq",
+    "score": 71.4,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "qwen2.5-3b",
+    "benchmark_id": "boolq",
+    "score": 65.4,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "gemma-2-9b",
+    "benchmark_id": "gpqa",
+    "score": 31,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "qwen2.5-7b",
+    "benchmark_id": "gpqa",
+    "score": 30.6,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "phi-4-mini",
+    "benchmark_id": "gpqa",
+    "score": 30.4,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "llama-3.2-3b",
+    "benchmark_id": "gpqa",
+    "score": 26.6,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "ministral-8b",
+    "benchmark_id": "gpqa",
+    "score": 26.3,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "llama-3.1-8b",
+    "benchmark_id": "gpqa",
+    "score": 26.3,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "phi-3.5-mini",
+    "benchmark_id": "gpqa",
+    "score": 25.2,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "ministral-3b",
+    "benchmark_id": "gpqa",
+    "score": 24.3,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "qwen2.5-3b",
+    "benchmark_id": "gpqa",
+    "score": 24.3,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "qwen2.5-7b",
+    "benchmark_id": "gsm8k",
+    "score": 88.7,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "phi-4-mini",
+    "benchmark_id": "gsm8k",
+    "score": 88.6,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "phi-3.5-mini",
+    "benchmark_id": "gsm8k",
+    "score": 86.2,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "gemma-2-9b",
+    "benchmark_id": "gsm8k",
+    "score": 84.9,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "llama-3.1-8b",
+    "benchmark_id": "gsm8k",
+    "score": 82.4,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "ministral-8b",
+    "benchmark_id": "gsm8k",
+    "score": 81.9,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "qwen2.5-3b",
+    "benchmark_id": "gsm8k",
+    "score": 80.6,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "ministral-3b",
+    "benchmark_id": "gsm8k",
+    "score": 80.1,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "llama-3.2-3b",
+    "benchmark_id": "gsm8k",
+    "score": 75.6,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "qwen2.5-7b",
+    "benchmark_id": "humaneval",
+    "score": 75,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "phi-4-mini",
+    "benchmark_id": "humaneval",
+    "score": 74.4,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "ministral-3b",
+    "benchmark_id": "humaneval",
+    "score": 72,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "qwen2.5-3b",
+    "benchmark_id": "humaneval",
+    "score": 72,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "ministral-8b",
+    "benchmark_id": "humaneval",
+    "score": 70.7,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "phi-3.5-mini",
+    "benchmark_id": "humaneval",
+    "score": 70.1,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "llama-3.1-8b",
+    "benchmark_id": "humaneval",
+    "score": 66.5,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "gemma-2-9b",
+    "benchmark_id": "humaneval",
+    "score": 63.4,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "llama-3.2-3b",
+    "benchmark_id": "humaneval",
+    "score": 62.8,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "ministral-8b",
+    "benchmark_id": "humaneval+",
+    "score": 70.7,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "qwen2.5-7b",
+    "benchmark_id": "humaneval+",
+    "score": 68.9,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "phi-4-mini",
+    "benchmark_id": "humaneval+",
+    "score": 68.3,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "ministral-3b",
+    "benchmark_id": "humaneval+",
+    "score": 67.5,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "qwen2.5-3b",
+    "benchmark_id": "humaneval+",
+    "score": 64.6,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "phi-3.5-mini",
+    "benchmark_id": "humaneval+",
+    "score": 62.8,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "llama-3.1-8b",
+    "benchmark_id": "humaneval+",
+    "score": 57.3,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "gemma-2-9b",
+    "benchmark_id": "humaneval+",
+    "score": 54.3,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "llama-3.2-3b",
+    "benchmark_id": "humaneval+",
+    "score": 51.8,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "llama-3.1-8b",
+    "benchmark_id": "ifeval",
+    "score": 74.1,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "gemma-2-9b",
+    "benchmark_id": "ifeval",
+    "score": 73.2,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "phi-4-mini",
+    "benchmark_id": "ifeval",
+    "score": 70.1,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "qwen2.5-7b",
+    "benchmark_id": "ifeval",
+    "score": 69.5,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "llama-3.2-3b",
+    "benchmark_id": "ifeval",
+    "score": 68,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "qwen2.5-3b",
+    "benchmark_id": "ifeval",
+    "score": 59,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "ministral-8b",
+    "benchmark_id": "ifeval",
+    "score": 52.5,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "phi-3.5-mini",
+    "benchmark_id": "ifeval",
+    "score": 50.6,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "ministral-3b",
+    "benchmark_id": "ifeval",
+    "score": 47.5,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "qwen2.5-7b",
+    "benchmark_id": "livebench",
+    "score": 38.3,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "phi-4-mini",
+    "benchmark_id": "livebench",
+    "score": 30.5,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "ministral-8b",
+    "benchmark_id": "livebench",
+    "score": 25,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "gemma-2-9b",
+    "benchmark_id": "livebench",
+    "score": 23.4,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "qwen2.5-3b",
+    "benchmark_id": "livebench",
+    "score": 22.7,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "llama-3.1-8b",
+    "benchmark_id": "livebench",
+    "score": 18.8,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "phi-3.5-mini",
+    "benchmark_id": "livebench",
+    "score": 18.3,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "llama-3.2-3b",
+    "benchmark_id": "livebench",
+    "score": 14.8,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "ministral-3b",
+    "benchmark_id": "livebench",
+    "score": 14.8,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "phi-4-mini",
+    "benchmark_id": "livecodebench",
+    "score": 19.9,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "qwen2.5-7b",
+    "benchmark_id": "livecodebench",
+    "score": 19.9,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "llama-3.1-8b",
+    "benchmark_id": "livecodebench",
+    "score": 16.8,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "ministral-8b",
+    "benchmark_id": "livecodebench",
+    "score": 16.2,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "phi-3.5-mini",
+    "benchmark_id": "livecodebench",
+    "score": 15.7,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "qwen2.5-3b",
+    "benchmark_id": "livecodebench",
+    "score": 14.7,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "gemma-2-9b",
+    "benchmark_id": "livecodebench",
+    "score": 14.7,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "llama-3.2-3b",
+    "benchmark_id": "livecodebench",
+    "score": 9.9,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "ministral-3b",
+    "benchmark_id": "livecodebench",
+    "score": 7.3,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "phi-4-mini",
+    "benchmark_id": "math",
+    "score": 64,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "qwen2.5-3b",
+    "benchmark_id": "math",
+    "score": 61.7,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "qwen2.5-7b",
+    "benchmark_id": "math",
+    "score": 60.4,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "gemma-2-9b",
+    "benchmark_id": "math",
+    "score": 51.3,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "phi-3.5-mini",
+    "benchmark_id": "math",
+    "score": 48.5,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "llama-3.1-8b",
+    "benchmark_id": "math",
+    "score": 47.6,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "llama-3.2-3b",
+    "benchmark_id": "math",
+    "score": 46.7,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "ministral-3b",
+    "benchmark_id": "math",
+    "score": 41.8,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "ministral-8b",
+    "benchmark_id": "math",
+    "score": 41.6,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "qwen2.5-7b",
+    "benchmark_id": "mbpp",
+    "score": 76.3,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "phi-3.5-mini",
+    "benchmark_id": "mbpp",
+    "score": 70,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "gemma-2-9b",
+    "benchmark_id": "mbpp",
+    "score": 69.6,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "llama-3.1-8b",
+    "benchmark_id": "mbpp",
+    "score": 69.4,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "ministral-8b",
+    "benchmark_id": "mbpp",
+    "score": 68.9,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "llama-3.2-3b",
+    "benchmark_id": "mbpp",
+    "score": 67.2,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "phi-4-mini",
+    "benchmark_id": "mbpp",
+    "score": 65.3,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "qwen2.5-3b",
+    "benchmark_id": "mbpp",
+    "score": 65.3,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "ministral-3b",
+    "benchmark_id": "mbpp",
+    "score": 65.1,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "qwen2.5-7b",
+    "benchmark_id": "mbpp+",
+    "score": 65.9,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "phi-4-mini",
+    "benchmark_id": "mbpp+",
+    "score": 63.8,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "phi-3.5-mini",
+    "benchmark_id": "mbpp+",
+    "score": 63.8,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "gemma-2-9b",
+    "benchmark_id": "mbpp+",
+    "score": 63.5,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "ministral-8b",
+    "benchmark_id": "mbpp+",
+    "score": 61.6,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "ministral-3b",
+    "benchmark_id": "mbpp+",
+    "score": 60.8,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "qwen2.5-3b",
+    "benchmark_id": "mbpp+",
+    "score": 60.6,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "llama-3.2-3b",
+    "benchmark_id": "mbpp+",
+    "score": 52.9,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "llama-3.1-8b",
+    "benchmark_id": "mbpp+",
+    "score": 11.4,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "gemma-2-9b",
+    "benchmark_id": "mgsm",
+    "score": 75.1,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "qwen2.5-7b",
+    "benchmark_id": "mgsm",
+    "score": 64.5,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "phi-4-mini",
+    "benchmark_id": "mgsm",
+    "score": 63.9,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "ministral-8b",
+    "benchmark_id": "mgsm",
+    "score": 58.3,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "llama-3.1-8b",
+    "benchmark_id": "mgsm",
+    "score": 56.7,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "qwen2.5-3b",
+    "benchmark_id": "mgsm",
+    "score": 53.5,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "llama-3.2-3b",
+    "benchmark_id": "mgsm",
+    "score": 49.6,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "phi-3.5-mini",
+    "benchmark_id": "mgsm",
+    "score": 47.9,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "ministral-3b",
+    "benchmark_id": "mgsm",
+    "score": 44.6,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "qwen2.5-7b",
+    "benchmark_id": "mmlu",
+    "score": 72.6,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "gemma-2-9b",
+    "benchmark_id": "mmlu",
+    "score": 71.3,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "llama-3.1-8b",
+    "benchmark_id": "mmlu",
+    "score": 68.1,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "phi-4-mini",
+    "benchmark_id": "mmlu",
+    "score": 67.3,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "phi-3.5-mini",
+    "benchmark_id": "mmlu",
+    "score": 65.5,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "qwen2.5-3b",
+    "benchmark_id": "mmlu",
+    "score": 65,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "ministral-8b",
+    "benchmark_id": "mmlu",
+    "score": 63,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "llama-3.2-3b",
+    "benchmark_id": "mmlu",
+    "score": 61.8,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "ministral-3b",
+    "benchmark_id": "mmlu",
+    "score": 60.8,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "qwen2.5-7b",
+    "benchmark_id": "mmlu-pro",
+    "score": 56.2,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "phi-4-mini",
+    "benchmark_id": "mmlu-pro",
+    "score": 52.8,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "gemma-2-9b",
+    "benchmark_id": "mmlu-pro",
+    "score": 50.1,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "phi-3.5-mini",
+    "benchmark_id": "mmlu-pro",
+    "score": 47.4,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "qwen2.5-3b",
+    "benchmark_id": "mmlu-pro",
+    "score": 44.7,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "llama-3.1-8b",
+    "benchmark_id": "mmlu-pro",
+    "score": 44,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "llama-3.2-3b",
+    "benchmark_id": "mmlu-pro",
+    "score": 39.2,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "ministral-8b",
+    "benchmark_id": "mmlu-pro",
+    "score": 36.6,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "ministral-3b",
+    "benchmark_id": "mmlu-pro",
+    "score": 35.3,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "qwen2.5-7b",
+    "benchmark_id": "mmmlu",
+    "score": 64.4,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "gemma-2-9b",
+    "benchmark_id": "mmmlu",
+    "score": 63.8,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "llama-3.1-8b",
+    "benchmark_id": "mmmlu",
+    "score": 56.2,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "qwen2.5-3b",
+    "benchmark_id": "mmmlu",
+    "score": 55.9,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "phi-3.5-mini",
+    "benchmark_id": "mmmlu",
+    "score": 55.4,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "ministral-8b",
+    "benchmark_id": "mmmlu",
+    "score": 53.7,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "phi-4-mini",
+    "benchmark_id": "mmmlu",
+    "score": 49.3,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "llama-3.2-3b",
+    "benchmark_id": "mmmlu",
+    "score": 48.1,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "ministral-3b",
+    "benchmark_id": "mmmlu",
+    "score": 46.4,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "llama-3.1-8b",
+    "benchmark_id": "spider",
+    "score": 61.6,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "llama-3.2-3b",
+    "benchmark_id": "spider",
+    "score": 51.5,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "qwen2.5-7b",
+    "benchmark_id": "spider",
+    "score": 48.2,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "phi-3.5-mini",
+    "benchmark_id": "spider",
+    "score": 47,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "gemma-2-9b",
+    "benchmark_id": "spider",
+    "score": 44.7,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "phi-4-mini",
+    "benchmark_id": "spider",
+    "score": 42.2,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "ministral-3b",
+    "benchmark_id": "spider",
+    "score": 42.1,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "qwen2.5-3b",
+    "benchmark_id": "spider",
+    "score": 24.8,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "ministral-8b",
+    "benchmark_id": "spider",
+    "score": 22.1,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "gemma-2-9b",
+    "benchmark_id": "winogrande",
+    "score": 74,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "phi-3.5-mini",
+    "benchmark_id": "winogrande",
+    "score": 72.2,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "qwen2.5-7b",
+    "benchmark_id": "winogrande",
+    "score": 71.1,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "phi-4-mini",
+    "benchmark_id": "winogrande",
+    "score": 67,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "llama-3.1-8b",
+    "benchmark_id": "winogrande",
+    "score": 64.7,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "qwen2.5-3b",
+    "benchmark_id": "winogrande",
+    "score": 63.3,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "ministral-8b",
+    "benchmark_id": "winogrande",
+    "score": 63.1,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "ministral-3b",
+    "benchmark_id": "winogrande",
+    "score": 59.8,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "llama-3.2-3b",
+    "benchmark_id": "winogrande",
+    "score": 53.2,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "reported_by": "Phi-4-Mini technical report (arXiv:2503.01743)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  }
+]

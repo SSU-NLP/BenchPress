@@ -1,0 +1,340 @@
+[
+  {
+    "model_id": "claude-opus-4.5",
+    "benchmark_id": "bench",
+    "score": 91.6,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "glm-5__paper.pdf",
+      "ref": "p.1",
+      "reported_by": "glm-5",
+      "fetched_at": "2026-06-07T07:15:57.748Z"
+    }
+  },
+  {
+    "model_id": "gemini-3-pro",
+    "benchmark_id": "bench",
+    "score": 90.7,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "glm-5__paper.pdf",
+      "ref": "p.1",
+      "reported_by": "glm-5",
+      "fetched_at": "2026-06-07T07:15:57.748Z"
+    }
+  },
+  {
+    "model_id": "glm-5",
+    "benchmark_id": "bench",
+    "score": 89.7,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "glm-5__paper.pdf",
+      "ref": "p.1",
+      "fetched_at": "2026-06-07T07:15:57.748Z"
+    }
+  },
+  {
+    "model_id": "glm-5",
+    "benchmark_id": "browsecomp",
+    "score": 75.9,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "glm-5__paper.pdf",
+      "ref": "p.1",
+      "fetched_at": "2026-06-07T07:15:57.748Z"
+    },
+    "variants": [
+      {
+        "score": 62,
+        "config": "w/ keep-recent-k",
+        "source": {
+          "kind": "tech_report",
+          "url": "glm-5__paper.pdf",
+          "ref": "p.19",
+          "fetched_at": "2026-06-07T07:15:57.748Z"
+        }
+      },
+      {
+        "score": 55.3,
+        "config": "w/o keep-recent-k",
+        "source": {
+          "kind": "tech_report",
+          "url": "glm-5__paper.pdf",
+          "ref": "p.19",
+          "fetched_at": "2026-06-07T07:15:57.748Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "claude-opus-4.5",
+    "benchmark_id": "browsecomp",
+    "score": 67.8,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "glm-5__paper.pdf",
+      "ref": "p.1",
+      "reported_by": "glm-5",
+      "fetched_at": "2026-06-07T07:15:57.748Z"
+    }
+  },
+  {
+    "model_id": "gemini-3-pro",
+    "benchmark_id": "browsecomp",
+    "score": 59.2,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "glm-5__paper.pdf",
+      "ref": "p.1",
+      "reported_by": "glm-5",
+      "fetched_at": "2026-06-07T07:15:57.748Z"
+    }
+  },
+  {
+    "model_id": "glm-5",
+    "benchmark_id": "hle",
+    "score": 50.4,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "glm-5__paper.pdf",
+      "ref": "p.1",
+      "fetched_at": "2026-06-07T07:15:57.748Z"
+    }
+  },
+  {
+    "model_id": "gemini-3-pro",
+    "benchmark_id": "hle",
+    "score": 45.8,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "glm-5__paper.pdf",
+      "ref": "p.1",
+      "reported_by": "glm-5",
+      "fetched_at": "2026-06-07T07:15:57.748Z"
+    }
+  },
+  {
+    "model_id": "claude-opus-4.5",
+    "benchmark_id": "hle",
+    "score": 43.4,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "glm-5__paper.pdf",
+      "ref": "p.1",
+      "reported_by": "glm-5",
+      "fetched_at": "2026-06-07T07:15:57.748Z"
+    }
+  },
+  {
+    "model_id": "glm-5",
+    "benchmark_id": "intelligence-index-v4.0",
+    "score": 50,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "glm-5__paper.pdf",
+      "ref": "p.2",
+      "fetched_at": "2026-06-07T07:15:57.748Z"
+    }
+  },
+  {
+    "model_id": "glm-5",
+    "benchmark_id": "mcp-atlas",
+    "score": 67.8,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "glm-5__paper.pdf",
+      "ref": "p.1",
+      "fetched_at": "2026-06-07T07:15:57.748Z"
+    }
+  },
+  {
+    "model_id": "gemini-3-pro",
+    "benchmark_id": "mcp-atlas",
+    "score": 66.6,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "glm-5__paper.pdf",
+      "ref": "p.1",
+      "reported_by": "glm-5",
+      "fetched_at": "2026-06-07T07:15:57.748Z"
+    }
+  },
+  {
+    "model_id": "claude-opus-4.5",
+    "benchmark_id": "mcp-atlas",
+    "score": 65.2,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "glm-5__paper.pdf",
+      "ref": "p.1",
+      "reported_by": "glm-5",
+      "fetched_at": "2026-06-07T07:15:57.748Z"
+    }
+  },
+  {
+    "model_id": "claude-opus-4.5",
+    "benchmark_id": "swe-bench-multilingual",
+    "score": 77.5,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "glm-5__paper.pdf",
+      "ref": "p.1",
+      "reported_by": "glm-5",
+      "fetched_at": "2026-06-07T07:15:57.748Z"
+    }
+  },
+  {
+    "model_id": "glm-5",
+    "benchmark_id": "swe-bench-multilingual",
+    "score": 73.3,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "glm-5__paper.pdf",
+      "ref": "p.1",
+      "fetched_at": "2026-06-07T07:15:57.748Z"
+    }
+  },
+  {
+    "model_id": "gemini-3-pro",
+    "benchmark_id": "swe-bench-multilingual",
+    "score": 65,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "glm-5__paper.pdf",
+      "ref": "p.1",
+      "reported_by": "glm-5",
+      "fetched_at": "2026-06-07T07:15:57.748Z"
+    }
+  },
+  {
+    "model_id": "claude-opus-4.5",
+    "benchmark_id": "swe-bench-verified",
+    "score": 80.9,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "glm-5__paper.pdf",
+      "ref": "p.1",
+      "reported_by": "glm-5",
+      "fetched_at": "2026-06-07T07:15:57.748Z"
+    }
+  },
+  {
+    "model_id": "glm-5",
+    "benchmark_id": "swe-bench-verified",
+    "score": 77.8,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "glm-5__paper.pdf",
+      "ref": "p.1",
+      "fetched_at": "2026-06-07T07:15:57.748Z"
+    }
+  },
+  {
+    "model_id": "gemini-3-pro",
+    "benchmark_id": "swe-bench-verified",
+    "score": 76.2,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "glm-5__paper.pdf",
+      "ref": "p.1",
+      "reported_by": "glm-5",
+      "fetched_at": "2026-06-07T07:15:57.748Z"
+    }
+  },
+  {
+    "model_id": "claude-opus-4.5",
+    "benchmark_id": "terminal-bench-2.0",
+    "score": 59.3,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "glm-5__paper.pdf",
+      "ref": "p.1",
+      "reported_by": "glm-5",
+      "fetched_at": "2026-06-07T07:15:57.748Z"
+    }
+  },
+  {
+    "model_id": "glm-5",
+    "benchmark_id": "terminal-bench-2.0",
+    "score": 56.2,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "glm-5__paper.pdf",
+      "ref": "p.1",
+      "fetched_at": "2026-06-07T07:15:57.748Z"
+    }
+  },
+  {
+    "model_id": "gemini-3-pro",
+    "benchmark_id": "terminal-bench-2.0",
+    "score": 54.2,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "glm-5__paper.pdf",
+      "ref": "p.1",
+      "reported_by": "glm-5",
+      "fetched_at": "2026-06-07T07:15:57.748Z"
+    }
+  },
+  {
+    "model_id": "gemini-3-pro",
+    "benchmark_id": "vending-bench-2",
+    "score": 5478,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "glm-5__paper.pdf",
+      "ref": "p.1",
+      "reported_by": "glm-5",
+      "fetched_at": "2026-06-07T07:15:57.748Z"
+    }
+  },
+  {
+    "model_id": "claude-opus-4.5",
+    "benchmark_id": "vending-bench-2",
+    "score": 4967,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "glm-5__paper.pdf",
+      "ref": "p.1",
+      "reported_by": "glm-5",
+      "fetched_at": "2026-06-07T07:15:57.748Z"
+    }
+  },
+  {
+    "model_id": "glm-5",
+    "benchmark_id": "vending-bench-2",
+    "score": 4432,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "glm-5__paper.pdf",
+      "ref": "p.1",
+      "fetched_at": "2026-06-07T07:15:57.748Z"
+    }
+  }
+]

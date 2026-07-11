@@ -1,0 +1,50 @@
+[
+  {
+    "model_id": "grok-4",
+    "benchmark_id": "aime-2024",
+    "score": 94.3,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://artificialanalysis.ai/leaderboards/models",
+      "ref": "Artificial Analysis leaderboard screenshot, AIME 2024/2025",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "phi-4",
+    "benchmark_id": "aime-2024",
+    "score": 14.3,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://artificialanalysis.ai/leaderboards/models",
+      "ref": "Artificial Analysis leaderboard screenshot, AIME 2024/2025",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "nova-pro",
+    "benchmark_id": "aime-2024",
+    "score": 10.7,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://artificialanalysis.ai/leaderboards/models",
+      "ref": "Artificial Analysis leaderboard screenshot, AIME 2024/2025",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "llama-3.1-405b",
+    "benchmark_id": "aime-2025",
+    "score": 3,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://artificialanalysis.ai/leaderboards/models",
+      "ref": "Artificial Analysis leaderboard screenshot, AIME 2024/2025",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    }
+  }
+]

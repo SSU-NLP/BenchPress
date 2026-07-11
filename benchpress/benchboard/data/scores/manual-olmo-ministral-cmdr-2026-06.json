@@ -1,0 +1,587 @@
+[
+  {
+    "model_id": "qwen3-8b",
+    "benchmark_id": "agieval",
+    "score": 64.3,
+    "config": "base",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2501.00656",
+      "reported_by": "OLMo 2 report (arXiv:2501.00656), base-model evals",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-12-31"
+    }
+  },
+  {
+    "model_id": "olmo-2-13b",
+    "benchmark_id": "alpacaeval-2.0",
+    "score": 39.5,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2501.00656",
+      "reported_by": "OLMo 2 report (arXiv:2501.00656), Instruct",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-12-31"
+    }
+  },
+  {
+    "model_id": "olmo-2-7b",
+    "benchmark_id": "alpacaeval-2.0",
+    "score": 29.1,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2501.00656",
+      "reported_by": "OLMo 2 report (arXiv:2501.00656), Instruct",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-12-31"
+    }
+  },
+  {
+    "model_id": "gemma-3-1b",
+    "benchmark_id": "alpacaeval-2.0",
+    "score": 20.4,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2501.00656",
+      "reported_by": "OLMo 2 report (arXiv:2501.00656), Instruct",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-12-31"
+    }
+  },
+  {
+    "model_id": "qwen3-8b",
+    "benchmark_id": "arc-challenge",
+    "score": 91.2,
+    "config": "base",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2501.00656",
+      "reported_by": "OLMo 2 report (arXiv:2501.00656), base-model evals",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-12-31"
+    }
+  },
+  {
+    "model_id": "ministral-8b",
+    "benchmark_id": "arena-hard",
+    "score": 70.9,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://mistral.ai/news/ministraux/",
+      "reported_by": "Ministral (Les Ministraux) blog, Instruct",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-10-16"
+    }
+  },
+  {
+    "model_id": "ministral-3b",
+    "benchmark_id": "arena-hard",
+    "score": 64.3,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://mistral.ai/news/ministraux/",
+      "reported_by": "Ministral (Les Ministraux) blog, Instruct",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-10-16"
+    }
+  },
+  {
+    "model_id": "olmo-2-13b",
+    "benchmark_id": "bbh",
+    "score": 63,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2501.00656",
+      "reported_by": "OLMo 2 report (arXiv:2501.00656), Instruct",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-12-31"
+    }
+  },
+  {
+    "model_id": "olmo-2-7b",
+    "benchmark_id": "bbh",
+    "score": 51.4,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2501.00656",
+      "reported_by": "OLMo 2 report (arXiv:2501.00656), Instruct",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-12-31"
+    }
+  },
+  {
+    "model_id": "gemma-3-1b",
+    "benchmark_id": "bbh",
+    "score": 39.4,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2501.00656",
+      "reported_by": "OLMo 2 report (arXiv:2501.00656), Instruct",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-12-31"
+    }
+  },
+  {
+    "model_id": "command-r7b",
+    "benchmark_id": "bbh",
+    "score": 36.1,
+    "config": "OpenLLM-LB",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard",
+      "reported_by": "Hugging Face Open LLM Leaderboard v2",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-12-13"
+    }
+  },
+  {
+    "model_id": "ministral-8b",
+    "benchmark_id": "bbh",
+    "score": 25.82,
+    "config": "OpenLLM-LB",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard",
+      "reported_by": "Hugging Face Open LLM Leaderboard v2",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-12-13"
+    }
+  },
+  {
+    "model_id": "olmo-2-13b",
+    "benchmark_id": "drop",
+    "score": 71.5,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2501.00656",
+      "reported_by": "OLMo 2 report (arXiv:2501.00656), Instruct",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-12-31"
+    }
+  },
+  {
+    "model_id": "qwen3-8b",
+    "benchmark_id": "drop",
+    "score": 61.8,
+    "config": "base",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2501.00656",
+      "reported_by": "OLMo 2 report (arXiv:2501.00656), base-model evals",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-12-31"
+    }
+  },
+  {
+    "model_id": "olmo-2-7b",
+    "benchmark_id": "drop",
+    "score": 60.5,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2501.00656",
+      "reported_by": "OLMo 2 report (arXiv:2501.00656), Instruct",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-12-31"
+    }
+  },
+  {
+    "model_id": "gemma-3-1b",
+    "benchmark_id": "drop",
+    "score": 25.1,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2501.00656",
+      "reported_by": "OLMo 2 report (arXiv:2501.00656), Instruct",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-12-31"
+    }
+  },
+  {
+    "model_id": "command-r7b",
+    "benchmark_id": "gpqa",
+    "score": 7.7,
+    "config": "OpenLLM-LB",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard",
+      "reported_by": "Hugging Face Open LLM Leaderboard v2",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-12-13"
+    }
+  },
+  {
+    "model_id": "ministral-8b",
+    "benchmark_id": "gpqa",
+    "score": 4.5,
+    "config": "OpenLLM-LB",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard",
+      "reported_by": "Hugging Face Open LLM Leaderboard v2",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-12-13"
+    }
+  },
+  {
+    "model_id": "olmo-2-13b",
+    "benchmark_id": "gsm8k",
+    "score": 87.4,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2501.00656",
+      "reported_by": "OLMo 2 report (arXiv:2501.00656), Instruct",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-12-31"
+    }
+  },
+  {
+    "model_id": "olmo-2-7b",
+    "benchmark_id": "gsm8k",
+    "score": 85.1,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2501.00656",
+      "reported_by": "OLMo 2 report (arXiv:2501.00656), Instruct",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-12-31"
+    }
+  },
+  {
+    "model_id": "qwen3-8b",
+    "benchmark_id": "gsm8k",
+    "score": 74.8,
+    "config": "base",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2501.00656",
+      "reported_by": "OLMo 2 report (arXiv:2501.00656), base-model evals",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-12-31"
+    }
+  },
+  {
+    "model_id": "gemma-3-1b",
+    "benchmark_id": "gsm8k",
+    "score": 35,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2501.00656",
+      "reported_by": "OLMo 2 report (arXiv:2501.00656), Instruct",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-12-31"
+    }
+  },
+  {
+    "model_id": "ministral-3b",
+    "benchmark_id": "humaneval",
+    "score": 77.4,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://mistral.ai/news/ministraux/",
+      "reported_by": "Ministral (Les Ministraux) blog, Instruct",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-10-16"
+    }
+  },
+  {
+    "model_id": "ministral-8b",
+    "benchmark_id": "humaneval",
+    "score": 76.8,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://mistral.ai/news/ministraux/",
+      "reported_by": "Ministral (Les Ministraux) blog, Instruct",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-10-16"
+    }
+  },
+  {
+    "model_id": "olmo-2-13b",
+    "benchmark_id": "ifeval",
+    "score": 82.6,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2501.00656",
+      "reported_by": "OLMo 2 report (arXiv:2501.00656), Instruct",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-12-31"
+    }
+  },
+  {
+    "model_id": "command-r7b",
+    "benchmark_id": "ifeval",
+    "score": 77.9,
+    "config": "OpenLLM-LB",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard",
+      "reported_by": "Hugging Face Open LLM Leaderboard v2",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-12-13"
+    }
+  },
+  {
+    "model_id": "olmo-2-7b",
+    "benchmark_id": "ifeval",
+    "score": 72.3,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2501.00656",
+      "reported_by": "OLMo 2 report (arXiv:2501.00656), Instruct",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-12-31"
+    }
+  },
+  {
+    "model_id": "gemma-3-1b",
+    "benchmark_id": "ifeval",
+    "score": 60.6,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2501.00656",
+      "reported_by": "OLMo 2 report (arXiv:2501.00656), Instruct",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-12-31"
+    }
+  },
+  {
+    "model_id": "ministral-8b",
+    "benchmark_id": "ifeval",
+    "score": 58.96,
+    "config": "OpenLLM-LB",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard",
+      "reported_by": "Hugging Face Open LLM Leaderboard v2",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-12-13"
+    }
+  },
+  {
+    "model_id": "ministral-8b",
+    "benchmark_id": "math",
+    "score": 54.5,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://mistral.ai/news/ministraux/",
+      "reported_by": "Ministral (Les Ministraux) blog, Instruct",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-10-16"
+    }
+  },
+  {
+    "model_id": "ministral-3b",
+    "benchmark_id": "math",
+    "score": 51.7,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://mistral.ai/news/ministraux/",
+      "reported_by": "Ministral (Les Ministraux) blog, Instruct",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-10-16"
+    }
+  },
+  {
+    "model_id": "gemma-3-1b",
+    "benchmark_id": "math",
+    "score": 40.3,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2501.00656",
+      "reported_by": "OLMo 2 report (arXiv:2501.00656), Instruct",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-12-31"
+    }
+  },
+  {
+    "model_id": "olmo-2-13b",
+    "benchmark_id": "math",
+    "score": 39.2,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2501.00656",
+      "reported_by": "OLMo 2 report (arXiv:2501.00656), Instruct",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-12-31"
+    }
+  },
+  {
+    "model_id": "olmo-2-7b",
+    "benchmark_id": "math",
+    "score": 32.5,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2501.00656",
+      "reported_by": "OLMo 2 report (arXiv:2501.00656), Instruct",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-12-31"
+    }
+  },
+  {
+    "model_id": "ministral-8b",
+    "benchmark_id": "mbpp",
+    "score": 70,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://mistral.ai/news/ministraux/",
+      "reported_by": "Ministral (Les Ministraux) blog, Instruct",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-10-16"
+    }
+  },
+  {
+    "model_id": "ministral-3b",
+    "benchmark_id": "mbpp",
+    "score": 67.7,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://mistral.ai/news/ministraux/",
+      "reported_by": "Ministral (Les Ministraux) blog, Instruct",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-10-16"
+    }
+  },
+  {
+    "model_id": "qwen3-8b",
+    "benchmark_id": "mmlu",
+    "score": 76.8,
+    "config": "base",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2501.00656",
+      "reported_by": "OLMo 2 report (arXiv:2501.00656), base-model evals",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-12-31"
+    }
+  },
+  {
+    "model_id": "olmo-2-13b",
+    "benchmark_id": "mmlu",
+    "score": 68.5,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2501.00656",
+      "reported_by": "OLMo 2 report (arXiv:2501.00656), Instruct",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-12-31"
+    }
+  },
+  {
+    "model_id": "olmo-2-7b",
+    "benchmark_id": "mmlu",
+    "score": 61.3,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2501.00656",
+      "reported_by": "OLMo 2 report (arXiv:2501.00656), Instruct",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-12-31"
+    }
+  },
+  {
+    "model_id": "gemma-3-1b",
+    "benchmark_id": "mmlu",
+    "score": 38.9,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2501.00656",
+      "reported_by": "OLMo 2 report (arXiv:2501.00656), Instruct",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-12-31"
+    }
+  },
+  {
+    "model_id": "qwen3-8b",
+    "benchmark_id": "mmlu-pro",
+    "score": 50.6,
+    "config": "base",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2501.00656",
+      "reported_by": "OLMo 2 report (arXiv:2501.00656), base-model evals",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-12-31"
+    }
+  },
+  {
+    "model_id": "command-r7b",
+    "benchmark_id": "mmlu-pro",
+    "score": 28.5,
+    "config": "OpenLLM-LB",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard",
+      "reported_by": "Hugging Face Open LLM Leaderboard v2",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-12-13"
+    }
+  },
+  {
+    "model_id": "ministral-8b",
+    "benchmark_id": "mmlu-pro",
+    "score": 25.5,
+    "config": "OpenLLM-LB",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard",
+      "reported_by": "Hugging Face Open LLM Leaderboard v2",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-12-13"
+    }
+  },
+  {
+    "model_id": "command-r7b",
+    "benchmark_id": "musr",
+    "score": 11.6,
+    "config": "OpenLLM-LB",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard",
+      "reported_by": "Hugging Face Open LLM Leaderboard v2",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-12-13"
+    }
+  },
+  {
+    "model_id": "ministral-8b",
+    "benchmark_id": "musr",
+    "score": 10.7,
+    "config": "OpenLLM-LB",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard",
+      "reported_by": "Hugging Face Open LLM Leaderboard v2",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-12-13"
+    }
+  }
+]

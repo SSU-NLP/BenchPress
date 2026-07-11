@@ -1,0 +1,2495 @@
+[
+  {
+    "model_id": "o3",
+    "benchmark_id": "apollo-sabotage",
+    "score": 0.58,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.31",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    }
+  },
+  {
+    "model_id": "o4-mini",
+    "benchmark_id": "apollo-sabotage",
+    "score": 0.17,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.31",
+      "reported_by": "o3",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    }
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "bbq",
+    "score": 96,
+    "config": "Ambiguous",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.6",
+      "reported_by": "o3",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    },
+    "variants": [
+      {
+        "score": 93,
+        "config": "Unambiguous",
+        "source": {
+          "kind": "tech_report",
+          "url": "o3__system-card.pdf",
+          "ref": "p.6",
+          "reported_by": "o3",
+          "fetched_at": "2026-06-08T04:04:03.699Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "o4-mini",
+    "benchmark_id": "bbq",
+    "score": 95,
+    "config": "Unambiguous",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.6",
+      "reported_by": "o3",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    },
+    "variants": [
+      {
+        "score": 82,
+        "config": "Ambiguous",
+        "source": {
+          "kind": "tech_report",
+          "url": "o3__system-card.pdf",
+          "ref": "p.6",
+          "reported_by": "o3",
+          "fetched_at": "2026-06-08T04:04:03.699Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "o3",
+    "benchmark_id": "bbq",
+    "score": 94,
+    "config": "Ambiguous",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.6",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    },
+    "variants": [
+      {
+        "score": 93,
+        "config": "Unambiguous",
+        "source": {
+          "kind": "tech_report",
+          "url": "o3__system-card.pdf",
+          "ref": "p.6",
+          "fetched_at": "2026-06-08T04:04:03.699Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "o3",
+    "benchmark_id": "capture-the-flag-collegiate",
+    "score": 68,
+    "config": "pass@12",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.16",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    }
+  },
+  {
+    "model_id": "o4-mini",
+    "benchmark_id": "capture-the-flag-collegiate",
+    "score": 55,
+    "config": "pass@12",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.16",
+      "reported_by": "o3",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    }
+  },
+  {
+    "model_id": "o3",
+    "benchmark_id": "capture-the-flag-high-school",
+    "score": 89,
+    "config": "pass@12",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.16",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    }
+  },
+  {
+    "model_id": "o4-mini",
+    "benchmark_id": "capture-the-flag-high-school",
+    "score": 80,
+    "config": "pass@12",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.16",
+      "reported_by": "o3",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    }
+  },
+  {
+    "model_id": "o3",
+    "benchmark_id": "capture-the-flag-professional",
+    "score": 59,
+    "config": "pass@12",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.16",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    }
+  },
+  {
+    "model_id": "o4-mini",
+    "benchmark_id": "capture-the-flag-professional",
+    "score": 41,
+    "config": "pass@12",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.16",
+      "reported_by": "o3",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    }
+  },
+  {
+    "model_id": "o3",
+    "benchmark_id": "challenging-refusal-evaluation-aggregate",
+    "score": 0.92,
+    "config": "not_unsafe",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.3",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    }
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "challenging-refusal-evaluation-aggregate",
+    "score": 0.92,
+    "config": "not_unsafe",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.3",
+      "reported_by": "o3",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    }
+  },
+  {
+    "model_id": "o4-mini",
+    "benchmark_id": "challenging-refusal-evaluation-aggregate",
+    "score": 0.9,
+    "config": "not_unsafe",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.3",
+      "reported_by": "o3",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    }
+  },
+  {
+    "model_id": "o3",
+    "benchmark_id": "challenging-refusal-evaluation-harassment-threatening",
+    "score": 0.9,
+    "config": "not_unsafe",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.3",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    }
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "challenging-refusal-evaluation-harassment-threatening",
+    "score": 0.9,
+    "config": "not_unsafe",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.3",
+      "reported_by": "o3",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    }
+  },
+  {
+    "model_id": "o4-mini",
+    "benchmark_id": "challenging-refusal-evaluation-harassment-threatening",
+    "score": 0.88,
+    "config": "not_unsafe",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.3",
+      "reported_by": "o3",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    }
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "challenging-refusal-evaluation-hate-threatening",
+    "score": 0.91,
+    "config": "not_unsafe",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.3",
+      "reported_by": "o3",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    }
+  },
+  {
+    "model_id": "o3",
+    "benchmark_id": "challenging-refusal-evaluation-hate-threatening",
+    "score": 0.82,
+    "config": "not_unsafe",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.3",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    }
+  },
+  {
+    "model_id": "o4-mini",
+    "benchmark_id": "challenging-refusal-evaluation-hate-threatening",
+    "score": 0.82,
+    "config": "not_unsafe",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.3",
+      "reported_by": "o3",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    }
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "challenging-refusal-evaluation-illicit-non-violent",
+    "score": 0.92,
+    "config": "not_unsafe",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.3",
+      "reported_by": "o3",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    }
+  },
+  {
+    "model_id": "o3",
+    "benchmark_id": "challenging-refusal-evaluation-illicit-non-violent",
+    "score": 0.91,
+    "config": "not_unsafe",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.3",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    }
+  },
+  {
+    "model_id": "o4-mini",
+    "benchmark_id": "challenging-refusal-evaluation-illicit-non-violent",
+    "score": 0.87,
+    "config": "not_unsafe",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.3",
+      "reported_by": "o3",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    }
+  },
+  {
+    "model_id": "o3",
+    "benchmark_id": "challenging-refusal-evaluation-illicit-violent",
+    "score": 0.96,
+    "config": "not_unsafe",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.3",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    }
+  },
+  {
+    "model_id": "o4-mini",
+    "benchmark_id": "challenging-refusal-evaluation-illicit-violent",
+    "score": 0.96,
+    "config": "not_unsafe",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.3",
+      "reported_by": "o3",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    }
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "challenging-refusal-evaluation-illicit-violent",
+    "score": 0.96,
+    "config": "not_unsafe",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.3",
+      "reported_by": "o3",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    }
+  },
+  {
+    "model_id": "o3",
+    "benchmark_id": "challenging-refusal-evaluation-self-harm-instructions",
+    "score": 1,
+    "config": "not_unsafe",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.3",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    }
+  },
+  {
+    "model_id": "o4-mini",
+    "benchmark_id": "challenging-refusal-evaluation-self-harm-instructions",
+    "score": 1,
+    "config": "not_unsafe",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.3",
+      "reported_by": "o3",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    }
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "challenging-refusal-evaluation-self-harm-instructions",
+    "score": 0.85,
+    "config": "not_unsafe",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.3",
+      "reported_by": "o3",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    }
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "challenging-refusal-evaluation-sexual-exploitative",
+    "score": 0.95,
+    "config": "not_unsafe",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.3",
+      "reported_by": "o3",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    }
+  },
+  {
+    "model_id": "o3",
+    "benchmark_id": "challenging-refusal-evaluation-sexual-exploitative",
+    "score": 0.94,
+    "config": "not_unsafe",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.3",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    }
+  },
+  {
+    "model_id": "o4-mini",
+    "benchmark_id": "challenging-refusal-evaluation-sexual-exploitative",
+    "score": 0.93,
+    "config": "not_unsafe",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.3",
+      "reported_by": "o3",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    }
+  },
+  {
+    "model_id": "o3",
+    "benchmark_id": "challenging-refusal-evaluation-sexual-minors",
+    "score": 0.91,
+    "config": "not_unsafe",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.3",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    }
+  },
+  {
+    "model_id": "o4-mini",
+    "benchmark_id": "challenging-refusal-evaluation-sexual-minors",
+    "score": 0.9,
+    "config": "not_unsafe",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.3",
+      "reported_by": "o3",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    }
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "challenging-refusal-evaluation-sexual-minors",
+    "score": 0.9,
+    "config": "not_unsafe",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.3",
+      "reported_by": "o3",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    }
+  },
+  {
+    "model_id": "o4-mini",
+    "benchmark_id": "first-person-fairness-evaluation-netbias",
+    "score": 0.007,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.7",
+      "reported_by": "o3",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    }
+  },
+  {
+    "model_id": "o3",
+    "benchmark_id": "first-person-fairness-evaluation-netbias",
+    "score": 0.006,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.7",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    }
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "first-person-fairness-evaluation-netbias",
+    "score": 0.004,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.7",
+      "reported_by": "o3",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    }
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "image-generation-refusals-notoverrefuse",
+    "score": 0.86,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.8",
+      "reported_by": "o3",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    }
+  },
+  {
+    "model_id": "o4-mini",
+    "benchmark_id": "image-generation-refusals-notoverrefuse",
+    "score": 0.64,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.8",
+      "reported_by": "o3",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    }
+  },
+  {
+    "model_id": "o3",
+    "benchmark_id": "image-generation-refusals-notoverrefuse",
+    "score": 0.55,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.8",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    }
+  },
+  {
+    "model_id": "o3",
+    "benchmark_id": "image-generation-refusals-notunsafe",
+    "score": 0.98,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.8",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    }
+  },
+  {
+    "model_id": "o4-mini",
+    "benchmark_id": "image-generation-refusals-notunsafe",
+    "score": 0.98,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.8",
+      "reported_by": "o3",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    }
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "image-generation-refusals-notunsafe",
+    "score": 0.96,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.8",
+      "reported_by": "o3",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    }
+  },
+  {
+    "model_id": "o3",
+    "benchmark_id": "instruction-hierarchy-evaluation-conflicts-between-message-types",
+    "score": 0.86,
+    "config": "Developer <> User message conflict",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.7",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    },
+    "variants": [
+      {
+        "score": 0.86,
+        "config": "System <> Developer message conflict",
+        "source": {
+          "kind": "tech_report",
+          "url": "o3__system-card.pdf",
+          "ref": "p.7",
+          "fetched_at": "2026-06-08T04:04:03.699Z"
+        }
+      },
+      {
+        "score": 0.79,
+        "config": "System <> User message conflict",
+        "source": {
+          "kind": "tech_report",
+          "url": "o3__system-card.pdf",
+          "ref": "p.7",
+          "fetched_at": "2026-06-08T04:04:03.699Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "instruction-hierarchy-evaluation-conflicts-between-message-types",
+    "score": 0.85,
+    "config": "System <> User message conflict",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.7",
+      "reported_by": "o3",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    },
+    "variants": [
+      {
+        "score": 0.84,
+        "config": "System <> Developer message conflict",
+        "source": {
+          "kind": "tech_report",
+          "url": "o3__system-card.pdf",
+          "ref": "p.7",
+          "reported_by": "o3",
+          "fetched_at": "2026-06-08T04:04:03.699Z"
+        }
+      },
+      {
+        "score": 0.77,
+        "config": "Developer <> User message conflict",
+        "source": {
+          "kind": "tech_report",
+          "url": "o3__system-card.pdf",
+          "ref": "p.7",
+          "reported_by": "o3",
+          "fetched_at": "2026-06-08T04:04:03.699Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "o4-mini",
+    "benchmark_id": "instruction-hierarchy-evaluation-conflicts-between-message-types",
+    "score": 0.75,
+    "config": "Developer <> User message conflict",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.7",
+      "reported_by": "o3",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    },
+    "variants": [
+      {
+        "score": 0.75,
+        "config": "System <> User message conflict",
+        "source": {
+          "kind": "tech_report",
+          "url": "o3__system-card.pdf",
+          "ref": "p.7",
+          "reported_by": "o3",
+          "fetched_at": "2026-06-08T04:04:03.699Z"
+        }
+      },
+      {
+        "score": 0.68,
+        "config": "System <> Developer message conflict",
+        "source": {
+          "kind": "tech_report",
+          "url": "o3__system-card.pdf",
+          "ref": "p.7",
+          "reported_by": "o3",
+          "fetched_at": "2026-06-08T04:04:03.699Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "o4-mini",
+    "benchmark_id": "instruction-hierarchy-evaluation-phrase-and-password-protection",
+    "score": 1,
+    "config": "Password protection - user message",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.8",
+      "reported_by": "o3",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    },
+    "variants": [
+      {
+        "score": 0.98,
+        "config": "Password protection - developer message",
+        "source": {
+          "kind": "tech_report",
+          "url": "o3__system-card.pdf",
+          "ref": "p.8",
+          "reported_by": "o3",
+          "fetched_at": "2026-06-08T04:04:03.699Z"
+        }
+      },
+      {
+        "score": 0.94,
+        "config": "Phrase protection - user message",
+        "source": {
+          "kind": "tech_report",
+          "url": "o3__system-card.pdf",
+          "ref": "p.8",
+          "reported_by": "o3",
+          "fetched_at": "2026-06-08T04:04:03.699Z"
+        }
+      },
+      {
+        "score": 0.85,
+        "config": "Phrase protection - developer message",
+        "source": {
+          "kind": "tech_report",
+          "url": "o3__system-card.pdf",
+          "ref": "p.8",
+          "reported_by": "o3",
+          "fetched_at": "2026-06-08T04:04:03.699Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "instruction-hierarchy-evaluation-phrase-and-password-protection",
+    "score": 0.99,
+    "config": "Password protection - user message",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.8",
+      "reported_by": "o3",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    },
+    "variants": [
+      {
+        "score": 0.99,
+        "config": "Password protection - developer message",
+        "source": {
+          "kind": "tech_report",
+          "url": "o3__system-card.pdf",
+          "ref": "p.8",
+          "reported_by": "o3",
+          "fetched_at": "2026-06-08T04:04:03.699Z"
+        }
+      },
+      {
+        "score": 0.98,
+        "config": "Phrase protection - user message",
+        "source": {
+          "kind": "tech_report",
+          "url": "o3__system-card.pdf",
+          "ref": "p.8",
+          "reported_by": "o3",
+          "fetched_at": "2026-06-08T04:04:03.699Z"
+        }
+      },
+      {
+        "score": 0.89,
+        "config": "Phrase protection - developer message",
+        "source": {
+          "kind": "tech_report",
+          "url": "o3__system-card.pdf",
+          "ref": "p.8",
+          "reported_by": "o3",
+          "fetched_at": "2026-06-08T04:04:03.699Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "o3",
+    "benchmark_id": "instruction-hierarchy-evaluation-phrase-and-password-protection",
+    "score": 0.99,
+    "config": "Password protection - user message",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.8",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    },
+    "variants": [
+      {
+        "score": 0.99,
+        "config": "Password protection - developer message",
+        "source": {
+          "kind": "tech_report",
+          "url": "o3__system-card.pdf",
+          "ref": "p.8",
+          "fetched_at": "2026-06-08T04:04:03.699Z"
+        }
+      },
+      {
+        "score": 0.97,
+        "config": "Phrase protection - user message",
+        "source": {
+          "kind": "tech_report",
+          "url": "o3__system-card.pdf",
+          "ref": "p.8",
+          "fetched_at": "2026-06-08T04:04:03.699Z"
+        }
+      },
+      {
+        "score": 0.93,
+        "config": "Phrase protection - developer message",
+        "source": {
+          "kind": "tech_report",
+          "url": "o3__system-card.pdf",
+          "ref": "p.8",
+          "fetched_at": "2026-06-08T04:04:03.699Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "instruction-hierarchy-evaluation-tutor-jailbreaks",
+    "score": 1,
+    "config": "Tutor jailbreak - system message",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.8",
+      "reported_by": "o3",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    },
+    "variants": [
+      {
+        "score": 0.99,
+        "config": "Tutor jailbreak - developer message",
+        "source": {
+          "kind": "tech_report",
+          "url": "o3__system-card.pdf",
+          "ref": "p.8",
+          "reported_by": "o3",
+          "fetched_at": "2026-06-08T04:04:03.699Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "o3",
+    "benchmark_id": "instruction-hierarchy-evaluation-tutor-jailbreaks",
+    "score": 0.99,
+    "config": "Tutor jailbreak - developer message",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.8",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    },
+    "variants": [
+      {
+        "score": 0.91,
+        "config": "Tutor jailbreak - system message",
+        "source": {
+          "kind": "tech_report",
+          "url": "o3__system-card.pdf",
+          "ref": "p.8",
+          "fetched_at": "2026-06-08T04:04:03.699Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "o4-mini",
+    "benchmark_id": "instruction-hierarchy-evaluation-tutor-jailbreaks",
+    "score": 0.93,
+    "config": "Tutor jailbreak - developer message",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.8",
+      "reported_by": "o3",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    },
+    "variants": [
+      {
+        "score": 0.69,
+        "config": "Tutor jailbreak - system message",
+        "source": {
+          "kind": "tech_report",
+          "url": "o3__system-card.pdf",
+          "ref": "p.8",
+          "reported_by": "o3",
+          "fetched_at": "2026-06-08T04:04:03.699Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "o3",
+    "benchmark_id": "jailbreak-evaluations-human-sourced-jailbreaks",
+    "score": 1,
+    "config": "not_unsafe",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.3",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    }
+  },
+  {
+    "model_id": "o4-mini",
+    "benchmark_id": "jailbreak-evaluations-human-sourced-jailbreaks",
+    "score": 0.99,
+    "config": "not_unsafe",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.3",
+      "reported_by": "o3",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    }
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "jailbreak-evaluations-human-sourced-jailbreaks",
+    "score": 0.97,
+    "config": "not_unsafe",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.3",
+      "reported_by": "o3",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    }
+  },
+  {
+    "model_id": "o3",
+    "benchmark_id": "jailbreak-evaluations-strongreject",
+    "score": 0.97,
+    "config": "not_unsafe",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.3",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    }
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "jailbreak-evaluations-strongreject",
+    "score": 0.97,
+    "config": "not_unsafe",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.3",
+      "reported_by": "o3",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    }
+  },
+  {
+    "model_id": "o4-mini",
+    "benchmark_id": "jailbreak-evaluations-strongreject",
+    "score": 0.96,
+    "config": "not_unsafe",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.3",
+      "reported_by": "o3",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    }
+  },
+  {
+    "model_id": "o3",
+    "benchmark_id": "metr-time-horizon",
+    "score": 90,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.9",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    }
+  },
+  {
+    "model_id": "o4-mini",
+    "benchmark_id": "metr-time-horizon",
+    "score": 75,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.9",
+      "reported_by": "o3",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    }
+  },
+  {
+    "model_id": "o3",
+    "benchmark_id": "mmlu-language-arabic",
+    "score": 0.904,
+    "config": "0-shot",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.29",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    }
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "mmlu-language-arabic",
+    "score": 0.89,
+    "config": "0-shot",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.29",
+      "reported_by": "o3",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    }
+  },
+  {
+    "model_id": "o3",
+    "benchmark_id": "mmlu-language-average",
+    "score": 0.888,
+    "config": "0-shot",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.29",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    }
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "mmlu-language-average",
+    "score": 0.877,
+    "config": "0-shot",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.29",
+      "reported_by": "o3",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    }
+  },
+  {
+    "model_id": "o3",
+    "benchmark_id": "mmlu-language-bengali",
+    "score": 0.878,
+    "config": "0-shot",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.29",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    }
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "mmlu-language-bengali",
+    "score": 0.873,
+    "config": "0-shot",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.29",
+      "reported_by": "o3",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    }
+  },
+  {
+    "model_id": "o3",
+    "benchmark_id": "mmlu-language-chinese",
+    "score": 0.893,
+    "config": "0-shot, Simplified",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.29",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    }
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "mmlu-language-chinese",
+    "score": 0.889,
+    "config": "0-shot, Simplified",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.29",
+      "reported_by": "o3",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    }
+  },
+  {
+    "model_id": "o3",
+    "benchmark_id": "mmlu-language-french",
+    "score": 0.906,
+    "config": "0-shot",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.29",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    }
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "mmlu-language-french",
+    "score": 0.893,
+    "config": "0-shot",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.29",
+      "reported_by": "o3",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    }
+  },
+  {
+    "model_id": "o3",
+    "benchmark_id": "mmlu-language-german",
+    "score": 0.905,
+    "config": "0-shot",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.29",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    }
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "mmlu-language-german",
+    "score": 0.89,
+    "config": "0-shot",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.29",
+      "reported_by": "o3",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    }
+  },
+  {
+    "model_id": "o3",
+    "benchmark_id": "mmlu-language-hindi",
+    "score": 0.898,
+    "config": "0-shot",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.29",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    }
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "mmlu-language-hindi",
+    "score": 0.883,
+    "config": "0-shot",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.29",
+      "reported_by": "o3",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    }
+  },
+  {
+    "model_id": "o3",
+    "benchmark_id": "mmlu-language-indonesian",
+    "score": 0.898,
+    "config": "0-shot",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.29",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    }
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "mmlu-language-indonesian",
+    "score": 0.886,
+    "config": "0-shot",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.29",
+      "reported_by": "o3",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    }
+  },
+  {
+    "model_id": "o3",
+    "benchmark_id": "mmlu-language-italian",
+    "score": 0.912,
+    "config": "0-shot",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.29",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    }
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "mmlu-language-italian",
+    "score": 0.897,
+    "config": "0-shot",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.29",
+      "reported_by": "o3",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    }
+  },
+  {
+    "model_id": "o3",
+    "benchmark_id": "mmlu-language-japanese",
+    "score": 0.89,
+    "config": "0-shot",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.29",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    }
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "mmlu-language-japanese",
+    "score": 0.889,
+    "config": "0-shot",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.29",
+      "reported_by": "o3",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    }
+  },
+  {
+    "model_id": "o3",
+    "benchmark_id": "mmlu-language-korean",
+    "score": 0.893,
+    "config": "0-shot",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.29",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    }
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "mmlu-language-korean",
+    "score": 0.882,
+    "config": "0-shot",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.29",
+      "reported_by": "o3",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    }
+  },
+  {
+    "model_id": "o3",
+    "benchmark_id": "mmlu-language-portuguese",
+    "score": 0.91,
+    "config": "0-shot, Brazil",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.29",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    }
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "mmlu-language-portuguese",
+    "score": 0.895,
+    "config": "0-shot, Brazil",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.29",
+      "reported_by": "o3",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    }
+  },
+  {
+    "model_id": "o3",
+    "benchmark_id": "mmlu-language-spanish",
+    "score": 0.911,
+    "config": "0-shot",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.29",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    }
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "mmlu-language-spanish",
+    "score": 0.899,
+    "config": "0-shot",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.29",
+      "reported_by": "o3",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    }
+  },
+  {
+    "model_id": "o3",
+    "benchmark_id": "mmlu-language-swahili",
+    "score": 0.86,
+    "config": "0-shot",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.29",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    }
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "mmlu-language-swahili",
+    "score": 0.854,
+    "config": "0-shot",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.29",
+      "reported_by": "o3",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    }
+  },
+  {
+    "model_id": "o3",
+    "benchmark_id": "mmlu-language-yoruba",
+    "score": 0.78,
+    "config": "0-shot",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.29",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    }
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "mmlu-language-yoruba",
+    "score": 0.754,
+    "config": "0-shot",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.29",
+      "reported_by": "o3",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    }
+  },
+  {
+    "model_id": "o3",
+    "benchmark_id": "multimodal-refusal-evaluations-vision-self-harm-refusal-evaluation",
+    "score": 1,
+    "config": "not_unsafe, instructions",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.5",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    },
+    "variants": [
+      {
+        "score": 0.99,
+        "config": "not_unsafe",
+        "source": {
+          "kind": "tech_report",
+          "url": "o3__system-card.pdf",
+          "ref": "p.5",
+          "fetched_at": "2026-06-08T04:04:03.699Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "o4-mini",
+    "benchmark_id": "multimodal-refusal-evaluations-vision-self-harm-refusal-evaluation",
+    "score": 0.99,
+    "config": "not_unsafe",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.5",
+      "reported_by": "o3",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    },
+    "variants": [
+      {
+        "score": 0.99,
+        "config": "not_unsafe, instructions",
+        "source": {
+          "kind": "tech_report",
+          "url": "o3__system-card.pdf",
+          "ref": "p.5",
+          "reported_by": "o3",
+          "fetched_at": "2026-06-08T04:04:03.699Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "multimodal-refusal-evaluations-vision-self-harm-refusal-evaluation",
+    "score": 0.97,
+    "config": "not_unsafe",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.5",
+      "reported_by": "o3",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    },
+    "variants": [
+      {
+        "score": 0.95,
+        "config": "not_unsafe, instructions",
+        "source": {
+          "kind": "tech_report",
+          "url": "o3__system-card.pdf",
+          "ref": "p.5",
+          "reported_by": "o3",
+          "fetched_at": "2026-06-08T04:04:03.699Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "o3",
+    "benchmark_id": "multimodal-refusal-evaluations-vision-sexual-refusal-evaluation",
+    "score": 1,
+    "config": "not_unsafe",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.5",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    }
+  },
+  {
+    "model_id": "o4-mini",
+    "benchmark_id": "multimodal-refusal-evaluations-vision-sexual-refusal-evaluation",
+    "score": 1,
+    "config": "not_unsafe",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.5",
+      "reported_by": "o3",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    }
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "multimodal-refusal-evaluations-vision-sexual-refusal-evaluation",
+    "score": 0.97,
+    "config": "not_unsafe",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.5",
+      "reported_by": "o3",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    }
+  },
+  {
+    "model_id": "o3",
+    "benchmark_id": "openai-prs",
+    "score": 44,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.25",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    }
+  },
+  {
+    "model_id": "o4-mini",
+    "benchmark_id": "openai-prs",
+    "score": 39,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.25",
+      "reported_by": "o3",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    }
+  },
+  {
+    "model_id": "o4-mini",
+    "benchmark_id": "paperbench",
+    "score": 24,
+    "config": "pass@1 (no browsing)",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.27",
+      "reported_by": "o3",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    }
+  },
+  {
+    "model_id": "o3",
+    "benchmark_id": "paperbench",
+    "score": 18,
+    "config": "pass@1 (no browsing)",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.27",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    }
+  },
+  {
+    "model_id": "o3",
+    "benchmark_id": "pattern-labs-cybersecurity-evasion",
+    "score": 51,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.10",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    }
+  },
+  {
+    "model_id": "o4-mini",
+    "benchmark_id": "pattern-labs-cybersecurity-evasion",
+    "score": 51,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.10",
+      "reported_by": "o3",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    }
+  },
+  {
+    "model_id": "o3",
+    "benchmark_id": "pattern-labs-cybersecurity-network-attack-simulation",
+    "score": 29,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.10",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    }
+  },
+  {
+    "model_id": "o4-mini",
+    "benchmark_id": "pattern-labs-cybersecurity-network-attack-simulation",
+    "score": 25,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.10",
+      "reported_by": "o3",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    }
+  },
+  {
+    "model_id": "o4-mini",
+    "benchmark_id": "pattern-labs-cybersecurity-vulnerability-discovery-and-exploitation",
+    "score": 34,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.10",
+      "reported_by": "o3",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    }
+  },
+  {
+    "model_id": "o3",
+    "benchmark_id": "pattern-labs-cybersecurity-vulnerability-discovery-and-exploitation",
+    "score": 29,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.10",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    }
+  },
+  {
+    "model_id": "o3",
+    "benchmark_id": "person-identification-and-ungrounded-inference-evaluations-person-identification",
+    "score": 1,
+    "config": "Non-Adversarial",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.6",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    },
+    "variants": [
+      {
+        "score": 0.95,
+        "config": "Adversarial",
+        "source": {
+          "kind": "tech_report",
+          "url": "o3__system-card.pdf",
+          "ref": "p.6",
+          "fetched_at": "2026-06-08T04:04:03.699Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "o4-mini",
+    "benchmark_id": "person-identification-and-ungrounded-inference-evaluations-person-identification",
+    "score": 1,
+    "config": "Non-Adversarial",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.6",
+      "reported_by": "o3",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    },
+    "variants": [
+      {
+        "score": 0.88,
+        "config": "Adversarial",
+        "source": {
+          "kind": "tech_report",
+          "url": "o3__system-card.pdf",
+          "ref": "p.6",
+          "reported_by": "o3",
+          "fetched_at": "2026-06-08T04:04:03.699Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "person-identification-and-ungrounded-inference-evaluations-person-identification",
+    "score": 1,
+    "config": "Non-Adversarial",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.6",
+      "reported_by": "o3",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    },
+    "variants": [
+      {
+        "score": 0.77,
+        "config": "Adversarial",
+        "source": {
+          "kind": "tech_report",
+          "url": "o3__system-card.pdf",
+          "ref": "p.6",
+          "reported_by": "o3",
+          "fetched_at": "2026-06-08T04:04:03.699Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "o3",
+    "benchmark_id": "person-identification-and-ungrounded-inference-evaluations-ungrounded-inference",
+    "score": 0.99,
+    "config": "Non-Adversarial",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.6",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    },
+    "variants": [
+      {
+        "score": 0.92,
+        "config": "Adversarial",
+        "source": {
+          "kind": "tech_report",
+          "url": "o3__system-card.pdf",
+          "ref": "p.6",
+          "fetched_at": "2026-06-08T04:04:03.699Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "o4-mini",
+    "benchmark_id": "person-identification-and-ungrounded-inference-evaluations-ungrounded-inference",
+    "score": 0.95,
+    "config": "Non-Adversarial",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.6",
+      "reported_by": "o3",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    },
+    "variants": [
+      {
+        "score": 0.81,
+        "config": "Adversarial",
+        "source": {
+          "kind": "tech_report",
+          "url": "o3__system-card.pdf",
+          "ref": "p.6",
+          "reported_by": "o3",
+          "fetched_at": "2026-06-08T04:04:03.699Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "person-identification-and-ungrounded-inference-evaluations-ungrounded-inference",
+    "score": 0.95,
+    "config": "Non-Adversarial",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.6",
+      "reported_by": "o3",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    },
+    "variants": [
+      {
+        "score": 0.82,
+        "config": "Adversarial",
+        "source": {
+          "kind": "tech_report",
+          "url": "o3__system-card.pdf",
+          "ref": "p.6",
+          "reported_by": "o3",
+          "fetched_at": "2026-06-08T04:04:03.699Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "o3",
+    "benchmark_id": "personqa",
+    "score": 0.59,
+    "config": "accuracy",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.4",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    },
+    "variants": [
+      {
+        "score": 0.33,
+        "config": "hallucination rate",
+        "source": {
+          "kind": "tech_report",
+          "url": "o3__system-card.pdf",
+          "ref": "p.4",
+          "fetched_at": "2026-06-08T04:04:03.699Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "o4-mini",
+    "benchmark_id": "personqa",
+    "score": 0.48,
+    "config": "hallucination rate",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.4",
+      "reported_by": "o3",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    },
+    "variants": [
+      {
+        "score": 0.36,
+        "config": "accuracy",
+        "source": {
+          "kind": "tech_report",
+          "url": "o3__system-card.pdf",
+          "ref": "p.4",
+          "reported_by": "o3",
+          "fetched_at": "2026-06-08T04:04:03.699Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "personqa",
+    "score": 0.47,
+    "config": "accuracy",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.4",
+      "reported_by": "o3",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    },
+    "variants": [
+      {
+        "score": 0.16,
+        "config": "hallucination rate",
+        "source": {
+          "kind": "tech_report",
+          "url": "o3__system-card.pdf",
+          "ref": "p.4",
+          "reported_by": "o3",
+          "fetched_at": "2026-06-08T04:04:03.699Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "o3",
+    "benchmark_id": "simpleqa",
+    "score": 49,
+    "config": "accuracy",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.4",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    }
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "simpleqa",
+    "score": 47,
+    "config": "accuracy",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.4",
+      "reported_by": "o3",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    }
+  },
+  {
+    "model_id": "o4-mini",
+    "benchmark_id": "simpleqa",
+    "score": 20,
+    "config": "accuracy",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.4",
+      "reported_by": "o3",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    }
+  },
+  {
+    "model_id": "o4-mini",
+    "benchmark_id": "simpleqa-hallucination-rate",
+    "score": 79,
+    "config": "hallucination rate",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.4",
+      "reported_by": "o3",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    }
+  },
+  {
+    "model_id": "o3",
+    "benchmark_id": "simpleqa-hallucination-rate",
+    "score": 51,
+    "config": "hallucination rate",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.4",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    }
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "simpleqa-hallucination-rate",
+    "score": 44,
+    "config": "hallucination rate",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.4",
+      "reported_by": "o3",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    }
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "standard-refusal-evaluation-aggregate",
+    "score": 0.86,
+    "config": "not_overrefuse",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.2",
+      "reported_by": "o3",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    }
+  },
+  {
+    "model_id": "o3",
+    "benchmark_id": "standard-refusal-evaluation-aggregate",
+    "score": 0.84,
+    "config": "not_overrefuse",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.2",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    }
+  },
+  {
+    "model_id": "o4-mini",
+    "benchmark_id": "standard-refusal-evaluation-aggregate",
+    "score": 0.81,
+    "config": "not_overrefuse",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.2",
+      "reported_by": "o3",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    }
+  },
+  {
+    "model_id": "o3",
+    "benchmark_id": "standard-refusal-evaluation-extremist-propaganda",
+    "score": 1,
+    "config": "not_unsafe",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.2",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    }
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "standard-refusal-evaluation-extremist-propaganda",
+    "score": 1,
+    "config": "not_unsafe",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.2",
+      "reported_by": "o3",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    }
+  },
+  {
+    "model_id": "o4-mini",
+    "benchmark_id": "standard-refusal-evaluation-extremist-propaganda",
+    "score": 0.93,
+    "config": "not_unsafe",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.2",
+      "reported_by": "o3",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    }
+  },
+  {
+    "model_id": "o4-mini",
+    "benchmark_id": "standard-refusal-evaluation-harassment-threatening",
+    "score": 1,
+    "config": "not_unsafe",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.2",
+      "reported_by": "o3",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    }
+  },
+  {
+    "model_id": "o3",
+    "benchmark_id": "standard-refusal-evaluation-harassment-threatening",
+    "score": 0.99,
+    "config": "not_unsafe",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.2",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    }
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "standard-refusal-evaluation-harassment-threatening",
+    "score": 0.99,
+    "config": "not_unsafe",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.2",
+      "reported_by": "o3",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    }
+  },
+  {
+    "model_id": "o3",
+    "benchmark_id": "standard-refusal-evaluation-hate",
+    "score": 1,
+    "config": "not_unsafe",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.2",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    }
+  },
+  {
+    "model_id": "o4-mini",
+    "benchmark_id": "standard-refusal-evaluation-hate",
+    "score": 1,
+    "config": "not_unsafe",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.2",
+      "reported_by": "o3",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    }
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "standard-refusal-evaluation-hate",
+    "score": 1,
+    "config": "not_unsafe",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.2",
+      "reported_by": "o3",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    }
+  },
+  {
+    "model_id": "o3",
+    "benchmark_id": "standard-refusal-evaluation-hate-threatening",
+    "score": 1,
+    "config": "not_unsafe",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.2",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    }
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "standard-refusal-evaluation-hate-threatening",
+    "score": 1,
+    "config": "not_unsafe",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.2",
+      "reported_by": "o3",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    }
+  },
+  {
+    "model_id": "o4-mini",
+    "benchmark_id": "standard-refusal-evaluation-hate-threatening",
+    "score": 0.99,
+    "config": "not_unsafe",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.2",
+      "reported_by": "o3",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    }
+  },
+  {
+    "model_id": "o3",
+    "benchmark_id": "standard-refusal-evaluation-illicit-non-violent",
+    "score": 1,
+    "config": "not_unsafe",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.2",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    }
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "standard-refusal-evaluation-illicit-non-violent",
+    "score": 1,
+    "config": "not_unsafe",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.2",
+      "reported_by": "o3",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    }
+  },
+  {
+    "model_id": "o4-mini",
+    "benchmark_id": "standard-refusal-evaluation-illicit-non-violent",
+    "score": 0.99,
+    "config": "not_unsafe",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.2",
+      "reported_by": "o3",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    }
+  },
+  {
+    "model_id": "o3",
+    "benchmark_id": "standard-refusal-evaluation-illicit-violent",
+    "score": 1,
+    "config": "not_unsafe",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.2",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    }
+  },
+  {
+    "model_id": "o4-mini",
+    "benchmark_id": "standard-refusal-evaluation-illicit-violent",
+    "score": 1,
+    "config": "not_unsafe",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.2",
+      "reported_by": "o3",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    }
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "standard-refusal-evaluation-illicit-violent",
+    "score": 1,
+    "config": "not_unsafe",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.2",
+      "reported_by": "o3",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    }
+  },
+  {
+    "model_id": "o3",
+    "benchmark_id": "standard-refusal-evaluation-personal-data-extremely-sensitive",
+    "score": 1,
+    "config": "not_unsafe",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.2",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    }
+  },
+  {
+    "model_id": "o4-mini",
+    "benchmark_id": "standard-refusal-evaluation-personal-data-extremely-sensitive",
+    "score": 0.99,
+    "config": "not_unsafe",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.2",
+      "reported_by": "o3",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    }
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "standard-refusal-evaluation-personal-data-extremely-sensitive",
+    "score": 0.98,
+    "config": "not_unsafe",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.2",
+      "reported_by": "o3",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    }
+  },
+  {
+    "model_id": "o3",
+    "benchmark_id": "standard-refusal-evaluation-personal-data-highly-sensitive",
+    "score": 1,
+    "config": "not_unsafe",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.2",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    }
+  },
+  {
+    "model_id": "o4-mini",
+    "benchmark_id": "standard-refusal-evaluation-personal-data-highly-sensitive",
+    "score": 1,
+    "config": "not_unsafe",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.2",
+      "reported_by": "o3",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    }
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "standard-refusal-evaluation-personal-data-highly-sensitive",
+    "score": 0.96,
+    "config": "not_unsafe",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.2",
+      "reported_by": "o3",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    }
+  },
+  {
+    "model_id": "o3",
+    "benchmark_id": "standard-refusal-evaluation-regulated-advice",
+    "score": 1,
+    "config": "not_unsafe",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.2",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    }
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "standard-refusal-evaluation-regulated-advice",
+    "score": 1,
+    "config": "not_unsafe",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.2",
+      "reported_by": "o3",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    }
+  },
+  {
+    "model_id": "o4-mini",
+    "benchmark_id": "standard-refusal-evaluation-regulated-advice",
+    "score": 0.99,
+    "config": "not_unsafe",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.2",
+      "reported_by": "o3",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    }
+  },
+  {
+    "model_id": "o3",
+    "benchmark_id": "standard-refusal-evaluation-self-harm-instructions",
+    "score": 1,
+    "config": "not_unsafe",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.2",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    }
+  },
+  {
+    "model_id": "o4-mini",
+    "benchmark_id": "standard-refusal-evaluation-self-harm-instructions",
+    "score": 1,
+    "config": "not_unsafe",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.2",
+      "reported_by": "o3",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    }
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "standard-refusal-evaluation-self-harm-instructions",
+    "score": 1,
+    "config": "not_unsafe",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.2",
+      "reported_by": "o3",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    }
+  },
+  {
+    "model_id": "o3",
+    "benchmark_id": "standard-refusal-evaluation-self-harm-intent",
+    "score": 1,
+    "config": "not_unsafe",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.2",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    }
+  },
+  {
+    "model_id": "o4-mini",
+    "benchmark_id": "standard-refusal-evaluation-self-harm-intent",
+    "score": 1,
+    "config": "not_unsafe",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.2",
+      "reported_by": "o3",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    }
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "standard-refusal-evaluation-self-harm-intent",
+    "score": 1,
+    "config": "not_unsafe",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.2",
+      "reported_by": "o3",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    }
+  },
+  {
+    "model_id": "o3",
+    "benchmark_id": "standard-refusal-evaluation-sexual-exploitative",
+    "score": 0.98,
+    "config": "not_unsafe",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.2",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    }
+  },
+  {
+    "model_id": "o4-mini",
+    "benchmark_id": "standard-refusal-evaluation-sexual-exploitative",
+    "score": 0.96,
+    "config": "not_unsafe",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.2",
+      "reported_by": "o3",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    }
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "standard-refusal-evaluation-sexual-exploitative",
+    "score": 0.94,
+    "config": "not_unsafe",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.2",
+      "reported_by": "o3",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    }
+  },
+  {
+    "model_id": "o3",
+    "benchmark_id": "standard-refusal-evaluation-sexual-minors",
+    "score": 1,
+    "config": "not_unsafe",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.2",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    }
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "standard-refusal-evaluation-sexual-minors",
+    "score": 1,
+    "config": "not_unsafe",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.2",
+      "reported_by": "o3",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    }
+  },
+  {
+    "model_id": "o4-mini",
+    "benchmark_id": "standard-refusal-evaluation-sexual-minors",
+    "score": 0.99,
+    "config": "not_unsafe",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.2",
+      "reported_by": "o3",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    }
+  },
+  {
+    "model_id": "o3",
+    "benchmark_id": "swe-bench-verified",
+    "score": 71,
+    "config": "pass@1 (helpful-only)",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.24",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    }
+  },
+  {
+    "model_id": "o3",
+    "benchmark_id": "swe-lancer-ic-swe",
+    "score": 86100,
+    "config": "pass@1 (no browsing)",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.26",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    }
+  }
+]

@@ -1,0 +1,278 @@
+[
+  {
+    "model_id": "nova-pro",
+    "benchmark_id": "arc-challenge",
+    "score": 94.8,
+    "config": "0-shot",
+    "source": {
+      "kind": "tech_report",
+      "url": "https://assets.amazon.science/96/7d/0d3e59514abf8fdcfafcdc574300/nova-tech-report-20250317-0810.pdf",
+      "reported_by": "Amazon Nova Family Technical Report & Model Card",
+      "fetched_at": "2026-06-10T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "nova-pro",
+    "benchmark_id": "bbh",
+    "score": 86.9,
+    "config": "3-shot, CoT",
+    "source": {
+      "kind": "tech_report",
+      "url": "https://assets.amazon.science/96/7d/0d3e59514abf8fdcfafcdc574300/nova-tech-report-20250317-0810.pdf",
+      "reported_by": "Amazon Nova Family Technical Report & Model Card",
+      "fetched_at": "2026-06-10T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "nova-pro",
+    "benchmark_id": "bfcl-v3",
+    "score": 68.4,
+    "config": "Overall",
+    "source": {
+      "kind": "tech_report",
+      "url": "https://assets.amazon.science/96/7d/0d3e59514abf8fdcfafcdc574300/nova-tech-report-20250317-0810.pdf",
+      "reported_by": "Amazon Nova Family Technical Report & Model Card",
+      "fetched_at": "2026-06-10T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "nova-pro",
+    "benchmark_id": "chartqa",
+    "score": 89.2,
+    "config": "0-shot, relaxed accuracy",
+    "source": {
+      "kind": "tech_report",
+      "url": "https://assets.amazon.science/96/7d/0d3e59514abf8fdcfafcdc574300/nova-tech-report-20250317-0810.pdf",
+      "reported_by": "Amazon Nova Family Technical Report & Model Card",
+      "fetched_at": "2026-06-10T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "nova-pro",
+    "benchmark_id": "crag",
+    "score": 50.3,
+    "config": "accuracy",
+    "source": {
+      "kind": "tech_report",
+      "url": "https://assets.amazon.science/96/7d/0d3e59514abf8fdcfafcdc574300/nova-tech-report-20250317-0810.pdf",
+      "reported_by": "Amazon Nova Family Technical Report & Model Card",
+      "fetched_at": "2026-06-10T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "nova-pro",
+    "benchmark_id": "docvqa",
+    "score": 93.5,
+    "config": "0-shot, ANLS",
+    "source": {
+      "kind": "tech_report",
+      "url": "https://assets.amazon.science/96/7d/0d3e59514abf8fdcfafcdc574300/nova-tech-report-20250317-0810.pdf",
+      "reported_by": "Amazon Nova Family Technical Report & Model Card",
+      "fetched_at": "2026-06-10T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "nova-pro",
+    "benchmark_id": "drop",
+    "score": 85.4,
+    "config": "6-shot, F1",
+    "source": {
+      "kind": "tech_report",
+      "url": "https://assets.amazon.science/96/7d/0d3e59514abf8fdcfafcdc574300/nova-tech-report-20250317-0810.pdf",
+      "reported_by": "Amazon Nova Family Technical Report & Model Card",
+      "fetched_at": "2026-06-10T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "nova-pro",
+    "benchmark_id": "egoschema",
+    "score": 72.1,
+    "config": "0-shot",
+    "source": {
+      "kind": "tech_report",
+      "url": "https://assets.amazon.science/96/7d/0d3e59514abf8fdcfafcdc574300/nova-tech-report-20250317-0810.pdf",
+      "reported_by": "Amazon Nova Family Technical Report & Model Card",
+      "fetched_at": "2026-06-10T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "nova-pro",
+    "benchmark_id": "finqa",
+    "score": 77.2,
+    "config": "0-shot",
+    "source": {
+      "kind": "tech_report",
+      "url": "https://assets.amazon.science/96/7d/0d3e59514abf8fdcfafcdc574300/nova-tech-report-20250317-0810.pdf",
+      "reported_by": "Amazon Nova Family Technical Report & Model Card",
+      "fetched_at": "2026-06-10T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "nova-pro",
+    "benchmark_id": "gpqa",
+    "score": 46.9,
+    "config": "0-shot, CoT",
+    "source": {
+      "kind": "tech_report",
+      "url": "https://assets.amazon.science/96/7d/0d3e59514abf8fdcfafcdc574300/nova-tech-report-20250317-0810.pdf",
+      "reported_by": "Amazon Nova Family Technical Report & Model Card",
+      "fetched_at": "2026-06-10T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "nova-pro",
+    "benchmark_id": "groundui-1k",
+    "score": 81.4,
+    "config": "accuracy",
+    "source": {
+      "kind": "tech_report",
+      "url": "https://assets.amazon.science/96/7d/0d3e59514abf8fdcfafcdc574300/nova-tech-report-20250317-0810.pdf",
+      "reported_by": "Amazon Nova Family Technical Report & Model Card",
+      "fetched_at": "2026-06-10T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "nova-pro",
+    "benchmark_id": "gsm8k",
+    "score": 94.8,
+    "config": "0-shot, CoT",
+    "source": {
+      "kind": "tech_report",
+      "url": "https://assets.amazon.science/96/7d/0d3e59514abf8fdcfafcdc574300/nova-tech-report-20250317-0810.pdf",
+      "reported_by": "Amazon Nova Family Technical Report & Model Card",
+      "fetched_at": "2026-06-10T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "nova-pro",
+    "benchmark_id": "humaneval",
+    "score": 89,
+    "config": "0-shot, pass@1",
+    "source": {
+      "kind": "tech_report",
+      "url": "https://assets.amazon.science/96/7d/0d3e59514abf8fdcfafcdc574300/nova-tech-report-20250317-0810.pdf",
+      "reported_by": "Amazon Nova Family Technical Report & Model Card",
+      "fetched_at": "2026-06-10T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "nova-pro",
+    "benchmark_id": "ifeval",
+    "score": 92.1,
+    "config": "0-shot, instruction-level loose",
+    "source": {
+      "kind": "tech_report",
+      "url": "https://assets.amazon.science/96/7d/0d3e59514abf8fdcfafcdc574300/nova-tech-report-20250317-0810.pdf",
+      "reported_by": "Amazon Nova Family Technical Report & Model Card",
+      "fetched_at": "2026-06-10T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "nova-pro",
+    "benchmark_id": "lvbench",
+    "score": 41.6,
+    "config": "accuracy",
+    "source": {
+      "kind": "tech_report",
+      "url": "https://assets.amazon.science/96/7d/0d3e59514abf8fdcfafcdc574300/nova-tech-report-20250317-0810.pdf",
+      "reported_by": "Amazon Nova Family Technical Report & Model Card",
+      "fetched_at": "2026-06-10T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "nova-pro",
+    "benchmark_id": "math",
+    "score": 76.6,
+    "config": "0-shot, CoT",
+    "source": {
+      "kind": "tech_report",
+      "url": "https://assets.amazon.science/96/7d/0d3e59514abf8fdcfafcdc574300/nova-tech-report-20250317-0810.pdf",
+      "reported_by": "Amazon Nova Family Technical Report & Model Card",
+      "fetched_at": "2026-06-10T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "nova-pro",
+    "benchmark_id": "mm-mind2web",
+    "score": 63.7,
+    "config": "step accuracy",
+    "source": {
+      "kind": "tech_report",
+      "url": "https://assets.amazon.science/96/7d/0d3e59514abf8fdcfafcdc574300/nova-tech-report-20250317-0810.pdf",
+      "reported_by": "Amazon Nova Family Technical Report & Model Card",
+      "fetched_at": "2026-06-10T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "nova-pro",
+    "benchmark_id": "mmlu",
+    "score": 85.9,
+    "config": "0-shot, CoT",
+    "source": {
+      "kind": "tech_report",
+      "url": "https://assets.amazon.science/96/7d/0d3e59514abf8fdcfafcdc574300/nova-tech-report-20250317-0810.pdf",
+      "reported_by": "Amazon Nova Family Technical Report & Model Card",
+      "fetched_at": "2026-06-10T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "nova-pro",
+    "benchmark_id": "mmmu",
+    "score": 61.7,
+    "config": "0-shot, CoT, val",
+    "source": {
+      "kind": "tech_report",
+      "url": "https://assets.amazon.science/96/7d/0d3e59514abf8fdcfafcdc574300/nova-tech-report-20250317-0810.pdf",
+      "reported_by": "Amazon Nova Family Technical Report & Model Card",
+      "fetched_at": "2026-06-10T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "nova-pro",
+    "benchmark_id": "squality",
+    "score": 19.8,
+    "config": "ROUGE-L",
+    "source": {
+      "kind": "tech_report",
+      "url": "https://assets.amazon.science/96/7d/0d3e59514abf8fdcfafcdc574300/nova-tech-report-20250317-0810.pdf",
+      "reported_by": "Amazon Nova Family Technical Report & Model Card",
+      "fetched_at": "2026-06-10T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "nova-pro",
+    "benchmark_id": "textvqa",
+    "score": 81.5,
+    "config": "0-shot, weighted accuracy",
+    "source": {
+      "kind": "tech_report",
+      "url": "https://assets.amazon.science/96/7d/0d3e59514abf8fdcfafcdc574300/nova-tech-report-20250317-0810.pdf",
+      "reported_by": "Amazon Nova Family Technical Report & Model Card",
+      "fetched_at": "2026-06-10T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "nova-pro",
+    "benchmark_id": "vatex",
+    "score": 77.8,
+    "config": "0-shot, CIDEr",
+    "source": {
+      "kind": "tech_report",
+      "url": "https://assets.amazon.science/96/7d/0d3e59514abf8fdcfafcdc574300/nova-tech-report-20250317-0810.pdf",
+      "reported_by": "Amazon Nova Family Technical Report & Model Card",
+      "fetched_at": "2026-06-10T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "nova-pro",
+    "benchmark_id": "visualwebbench",
+    "score": 79.7,
+    "config": "composite",
+    "source": {
+      "kind": "tech_report",
+      "url": "https://assets.amazon.science/96/7d/0d3e59514abf8fdcfafcdc574300/nova-tech-report-20250317-0810.pdf",
+      "reported_by": "Amazon Nova Family Technical Report & Model Card",
+      "fetched_at": "2026-06-10T00:00:00Z"
+    }
+  }
+]

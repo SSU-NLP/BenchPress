@@ -1,0 +1,74 @@
+[
+  {
+    "model_id": "gpt-5",
+    "benchmark_id": "swe-bench-pro",
+    "score": 41.78,
+    "config": "public",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://labs.scale.com/leaderboard/swe_bench_pro_public",
+      "ref": "SEAL SWE-bench Pro Public (gpt-5-2025-08-07, High)",
+      "fetched_at": "2026-06-15T00:00:00Z"
+    },
+    "variants": [
+      {
+        "score": 14.86,
+        "config": "private",
+        "source": {
+          "kind": "aggregator_api",
+          "url": "https://labs.scale.com/leaderboard/swe_bench_pro_private",
+          "ref": "SEAL SWE-bench Pro Private — proprietary held-out codebases from startup partners (OpenAI GPT-5)",
+          "fetched_at": "2026-06-15T00:00:00Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "kimi-k2",
+    "benchmark_id": "swe-bench-pro",
+    "score": 27.67,
+    "config": "public",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://labs.scale.com/leaderboard/swe_bench_pro_public",
+      "ref": "SEAL SWE-bench Pro Public (kimi-k2-instruct)",
+      "fetched_at": "2026-06-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-oss-120b",
+    "benchmark_id": "swe-bench-pro",
+    "score": 16.2,
+    "config": "public",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://labs.scale.com/leaderboard/swe_bench_pro_public",
+      "ref": "SEAL SWE-bench Pro Public (gpt-oss-120b)",
+      "fetched_at": "2026-06-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "llama-3.1-405b",
+    "benchmark_id": "swe-bench-pro",
+    "score": 11.18,
+    "config": "public",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://labs.scale.com/leaderboard/swe_bench_pro_public",
+      "ref": "SEAL SWE-bench Pro Public (llama3-1-405b-instruct)",
+      "fetched_at": "2026-06-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "swe-bench-pro",
+    "score": 3.62,
+    "config": "private",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://labs.scale.com/leaderboard/swe_bench_pro_private",
+      "ref": "SEAL SWE-bench Pro Private — proprietary held-out codebases from startup partners (OpenAI GPT-4o)",
+      "fetched_at": "2026-06-15T00:00:00Z"
+    }
+  }
+]

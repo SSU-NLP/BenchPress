@@ -1,0 +1,19 @@
+---
+import Page from "../../layouts/Page.astro";
+import CategoryTabs from "../../components/CategoryTabs.astro";
+import LeaderboardTable from "../../components/LeaderboardTable.tsx";
+import { buildView } from "../../lib/loadData.ts";
+import "../../styles/global.css";
+
+const view = await buildView("deterministic");
+---
+
+<Page title="Deterministic">
+  <CategoryTabs active="deterministic" />
+  <p class="text-sm text-neutral-500 mb-4">
+    All deterministic benchmarks across categories — MMLU/HLE/GPQA, AIME/MATH,
+    SWE-bench, Tau2, MMMU, etc. Sub-categories appear as additional tabs above.
+    Click model chips to compare a subset.
+  </p>
+  <LeaderboardTable client:load benchmarks={view.benchmarks} rows={view.rows} />
+</Page>

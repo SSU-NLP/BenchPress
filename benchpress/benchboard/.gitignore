@@ -1,0 +1,25 @@
+node_modules
+node_modules/
+dist/
+.astro/
+.env
+.env.local
+.env.*.local
+*.log
+.DS_Store
+.codex-remote-attachments/
+
+# Local-only Claude Code permissions (user-specific allowlist)
+.claude/settings.local.json
+
+# Backup files left by canonicalize / hand edits
+*.bak
+
+# draft ingest output (review before renaming to *.json)
+data/scores/tech-reports/*.draft.json
+
+# tech-report PDFs — large, keep out of repo by default. Remove this line if
+# you want to track them.
+docs/*.pdf
+!docs/_index.json
+!docs/README.md

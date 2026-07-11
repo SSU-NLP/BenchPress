@@ -1,0 +1,16 @@
+[
+  {
+    "model_id": "gpt-5",
+    "benchmark_id": "mmmlu",
+    "score": 89.36,
+    "config": "thinking, 14-language average (computed from system-card Table 11)",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.openai.com/gpt-5-system-card.pdf",
+      "reported_by": "GPT-5 System Card, Table 11 (MMLU Language, 0-shot CoT)",
+      "ref": "Unweighted mean of gpt-5-thinking across 14 languages: AR .903, BN .892, ZH .902, FR .901, DE .896, HI .899, ID .909, IT .908, JA .898, KO .896, PT-BR .910, ES .910, SW .880, YO .806",
+      "fetched_at": "2026-06-12T00:00:00Z",
+      "published": "2025-08"
+    }
+  }
+]

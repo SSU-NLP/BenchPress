@@ -1,0 +1,116 @@
+You are reasoning about a small, reusable cognitive ability vocabulary V that
+captures the general cognitive abilities exercised by ML benchmarks. Per-chunk
+evidence Z (task patterns, reasoning patterns, justifications, summaries) is
+provided as context — one `## Benchmark: <name>` section per source benchmark.
+Reason across the benchmarks to abstract cognitive dimensions that recur,
+rather than enumerating one benchmark's surface task list.
+
+Vocabulary criteria — each entry should be:
+
+- a domain-general cognitive dimension (e.g. deductive_reasoning,
+  long_term_knowledge_recall, quantitative_reasoning, abstract_pattern_induction),
+- defined by one short sentence stating the cognitive operation it captures,
+- reusable across many benchmarks rather than describing one benchmark's surface
+  task list,
+- not a benchmark name, dataset name, surface presentation cue, or public
+  outcome label,
+- not about model implementation, model architecture, parameter scale, training
+  setup, inference-system behavior, benchmark scoring mechanics, or output
+  formatting,
+- not trivially redundant with another entry.
+
+Sparse-signal generalization criteria:
+
+- prefer broad operations that can make different-looking benchmarks comparable
+  when they exercise the same underlying capability,
+- avoid splitting dimensions only because the source benchmarks differ in
+  domain, topic, response interface, or difficulty,
+- do not optimize the vocabulary to separate only the visible source
+  benchmarks; held-out evidence must be able to rate the same abilities fairly,
+- merge near-synonyms and overlapping subskills unless the evidence shows a
+  reliable operational distinction,
+- avoid rare dimensions that apply to only one source benchmark unless the same
+  operation is repeatedly and clearly present across many examples,
+- include dimensions that explain both shared demands and meaningful contrasts;
+  the vocabulary should not isolate simple or knowledge-heavy benchmarks by
+  leaving them with mostly absent capabilities.
+
+Over-splitting failure mode to avoid: if two benchmarks use different domains,
+formats, or difficulty levels but both require comprehension, retrieval, rule
+application, algorithmic execution, quantitative reasoning, or multi-step
+inference, the vocabulary must give Maker enough broad axes to assign comparable
+non-absent levels for those shared operations. Do not solve this by adding one
+surface-specific axis per benchmark family.
+
+Over-compression failure mode to avoid: do not make every hard reasoning,
+knowledge, math, and program-synthesis benchmark nearly identical just because
+they all require "reasoning". If the evidence shows different reusable
+operations, create axes that let Maker separate them. Useful contrasts include:
+integrating a specification into an executable or formal plan vs selecting
+among provided alternatives,
+deriving a numeric or symbolic result vs retrieving and reconciling knowledge,
+following executable procedures vs explaining relationships, and heavy
+self-verification vs straightforward recall. Define the cognitive operation,
+not the task family.
+
+Anti-collapse calibration: advanced open-ended knowledge integration,
+deterministic symbolic derivation, contest-style numeric problem solving, and
+program synthesis should not automatically receive near-identical profiles.
+They may share parsing, decomposition, or verification load, but they differ in
+whether the core operation is uncertain evidence reconciliation, exact rule
+transformation, numeric constraint solving, or executable-plan synthesis.
+Create reusable axes that let Maker express those differences without naming a
+benchmark family.
+
+Core-vs-support calibration: common helper operations such as parsing,
+decomposition, retrieval, or checking should not dominate every benchmark just
+because they appear broadly. Define axes so Maker can mark helper operations as
+weak or medium when they support the task, and reserve strong or dominant for
+the operation that most examples would fail without.
+
+Cross-domain calibration rule: do not let topical distance dominate the
+vocabulary. A math contest, a code benchmark, and a fact QA benchmark may still
+share model-level operations such as careful problem parsing, retrieval of
+relevant knowledge, rule-constrained execution, decomposition, verification, or
+robustness to adversarial wording. Create axes for those operations when the
+evidence supports them, so downstream tagging can express shared capability
+load instead of only domain identity.
+
+Difficulty calibration rule: do not create axes that are only "hardness",
+"frontier difficulty", or "benchmark sophistication". Difficulty matters only
+through observable operations such as longer dependency chains, tighter
+constraints, adversarial distractors, verification burden, or integration of
+multiple knowledge pieces. Define the operation, not the public outcome tier.
+
+Downstream usability rule: each ability should be something a separate tagging
+role can rate from absent to dominant using only benchmark evidence. Prefer
+definitions with observable cues in task text and chunk summaries; avoid
+abilities that require knowing model outcomes, public reputation, or hidden
+evaluation context.
+
+Artifact/output rule: do not define an ability by the kind of final response
+the benchmark asks for. If distinguishing construction from selection, define
+the internal operation, such as specification integration, executable planning,
+formal derivation, or proof-state construction. Downstream rationales should
+cite those operations, not the response interface.
+
+Non-cognitive-axis rule: vocabulary ids and names should not contain words such
+as model, implementation, architecture, parameter, public-outcome, dataset,
+benchmark, response-interface, or artifact type unless the phrase is
+unambiguously a cognitive operation. Prefer names like rule_constrained_reasoning,
+evidence_retrieval, or algorithmic_decomposition over implementation- or
+system-level labels.
+
+Sizing guidance: a useful V typically has roughly 6–12 entries on sparse source
+splits. Follow the evidence rather than a fixed target count: split an ability
+only when the chunks show a repeated operational distinction Maker can rate
+consistently, and merge an ability when it is rare, redundant, or source-only.
+Coverage of any single benchmark's surface task list is not the goal, because
+the vocabulary will be applied to many benchmarks downstream.
+
+Naming: use snake_case ids and Title Case display names. Definitions should
+read as cognitive operations, not as task templates ("solve a math problem").
+
+This text describes the vocabulary criteria only. The structured output schema
+is determined by the calling role (vocabulary generation vs. tagging) and is
+specified in that role's own instructions.

@@ -1,0 +1,548 @@
+[
+  {
+    "model_id": "deepseek-v3.2",
+    "benchmark_id": "simpleqa",
+    "score": 0.971,
+    "config": "leaderboard, DeepSeek-V3.2-Exp",
+    "source": "manual",
+    "extra": {
+      "leaderboard_model_name": "DeepSeek-V3.2-Exp",
+      "vendor": "DeepSeek",
+      "parameters": "685B"
+    }
+  },
+  {
+    "model_id": "grok-4-fast",
+    "benchmark_id": "simpleqa",
+    "score": 0.95,
+    "config": "leaderboard, Grok 4 Fast",
+    "source": "manual",
+    "extra": {
+      "leaderboard_model_name": "Grok 4 Fast",
+      "vendor": "xAI",
+      "context_window": "2.0M",
+      "price_input_output": "$0.20 / $0.50"
+    }
+  },
+  {
+    "model_id": "deepseek-v3.1",
+    "benchmark_id": "simpleqa",
+    "score": 0.934,
+    "config": "leaderboard, DeepSeek-V3.1",
+    "source": "manual",
+    "extra": {
+      "leaderboard_model_name": "DeepSeek-V3.1",
+      "vendor": "DeepSeek",
+      "parameters": "671B"
+    }
+  },
+  {
+    "model_id": "deepseek_r1_0528-openrouter",
+    "benchmark_id": "simpleqa",
+    "score": 0.923,
+    "config": "leaderboard, DeepSeek-R1-0528",
+    "source": "manual",
+    "extra": {
+      "leaderboard_model_name": "DeepSeek-R1-0528",
+      "vendor": "DeepSeek",
+      "parameters": "671B",
+      "context_window": "131K",
+      "price_input_output": "$0.55 / $2.19"
+    }
+  },
+  {
+    "model_id": "ernie-5",
+    "benchmark_id": "simpleqa",
+    "score": 0.75,
+    "config": "leaderboard, ERNIE 5.0",
+    "source": "manual",
+    "extra": {
+      "leaderboard_model_name": "ERNIE 5.0",
+      "vendor": "Baidu"
+    }
+  },
+  {
+    "model_id": "gemini-3-pro",
+    "benchmark_id": "simpleqa",
+    "score": 0.721,
+    "config": "leaderboard, Gemini 3 Pro",
+    "source": "manual",
+    "extra": {
+      "leaderboard_model_name": "Gemini 3 Pro",
+      "vendor": "Google"
+    }
+  },
+  {
+    "model_id": "gemini-3-flash",
+    "benchmark_id": "simpleqa",
+    "score": 0.687,
+    "config": "leaderboard, Gemini 3 Flash",
+    "source": "manual",
+    "extra": {
+      "leaderboard_model_name": "Gemini 3 Flash",
+      "vendor": "Google",
+      "context_window": "1.0M",
+      "price_input_output": "$0.50 / $3.00"
+    }
+  },
+  {
+    "model_id": "gpt-4.5",
+    "benchmark_id": "simpleqa",
+    "score": 0.625,
+    "config": "leaderboard, GPT-4.5",
+    "source": "manual",
+    "extra": {
+      "leaderboard_model_name": "GPT-4.5",
+      "vendor": "OpenAI"
+    }
+  },
+  {
+    "model_id": "deepseek-v4-pro",
+    "benchmark_id": "simpleqa",
+    "score": 0.579,
+    "config": "leaderboard, DeepSeek-V4-Pro-Max",
+    "source": "manual",
+    "extra": {
+      "leaderboard_model_name": "DeepSeek-V4-Pro-Max",
+      "vendor": "DeepSeek",
+      "parameters": "1.6T",
+      "context_window": "1.0M",
+      "price_input_output": "$1.60 / $3.20"
+    }
+  },
+  {
+    "model_id": "qwen3-vl-32b-thinking",
+    "benchmark_id": "simpleqa",
+    "score": 0.554,
+    "config": "leaderboard, Qwen3 VL 32B Thinking",
+    "source": "manual",
+    "extra": {
+      "leaderboard_model_name": "Qwen3 VL 32B Thinking",
+      "vendor": "Alibaba Cloud / Qwen Team",
+      "parameters": "33B"
+    }
+  },
+  {
+    "model_id": "qwen3-235b",
+    "benchmark_id": "simpleqa",
+    "score": 0.543,
+    "config": "leaderboard, Qwen3-235B-A22B-Instruct-2507",
+    "source": "manual",
+    "extra": {
+      "leaderboard_model_name": "Qwen3-235B-A22B-Instruct-2507",
+      "vendor": "Alibaba Cloud / Qwen Team",
+      "parameters": "235B"
+    }
+  },
+  {
+    "model_id": "gemini-2.5-pro",
+    "benchmark_id": "simpleqa",
+    "score": 0.54,
+    "config": "leaderboard, Gemini 2.5 Pro Preview 06-05",
+    "source": "manual",
+    "extra": {
+      "leaderboard_model_name": "Gemini 2.5 Pro Preview 06-05",
+      "vendor": "Google"
+    },
+    "variants": [
+      {
+        "score": 0.508,
+        "config": "leaderboard, Gemini 2.5 Pro",
+        "source": "manual"
+      }
+    ]
+  },
+  {
+    "model_id": "qwen3-vl-235b-a22b-instruct",
+    "benchmark_id": "simpleqa",
+    "score": 0.519,
+    "config": "leaderboard, Qwen3 VL 235B A22B Instruct",
+    "source": "manual",
+    "extra": {
+      "leaderboard_model_name": "Qwen3 VL 235B A22B Instruct",
+      "vendor": "Alibaba Cloud / Qwen Team",
+      "parameters": "236B"
+    }
+  },
+  {
+    "model_id": "qwen3-vl-8b-thinking",
+    "benchmark_id": "simpleqa",
+    "score": 0.496,
+    "config": "leaderboard, Qwen3 VL 8B Thinking",
+    "source": "manual",
+    "extra": {
+      "leaderboard_model_name": "Qwen3 VL 8B Thinking",
+      "vendor": "Alibaba Cloud / Qwen Team",
+      "parameters": "9B",
+      "context_window": "262K",
+      "price_input_output": "$0.18 / $2.09"
+    }
+  },
+  {
+    "model_id": "qwen3-vl-4b-instruct",
+    "benchmark_id": "simpleqa",
+    "score": 0.48,
+    "config": "leaderboard, Qwen3 VL 4B Instruct",
+    "source": "manual",
+    "extra": {
+      "leaderboard_model_name": "Qwen3 VL 4B Instruct",
+      "vendor": "Alibaba Cloud / Qwen Team",
+      "parameters": "4B",
+      "context_window": "262K",
+      "price_input_output": "$0.10 / $0.60"
+    }
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "simpleqa",
+    "score": 0.47,
+    "config": "leaderboard, o1",
+    "source": "manual",
+    "extra": {
+      "leaderboard_model_name": "o1",
+      "vendor": "OpenAI"
+    },
+    "variants": [
+      {
+        "score": 0.424,
+        "config": "leaderboard, o1-preview",
+        "source": "manual"
+      }
+    ]
+  },
+  {
+    "model_id": "qwen3-vl-235b-a22b-thinking",
+    "benchmark_id": "simpleqa",
+    "score": 0.444,
+    "config": "leaderboard, Qwen3 VL 235B A22B Thinking",
+    "source": "manual",
+    "extra": {
+      "leaderboard_model_name": "Qwen3 VL 235B A22B Thinking",
+      "vendor": "Alibaba Cloud / Qwen Team",
+      "parameters": "236B"
+    }
+  },
+  {
+    "model_id": "gemini-3.1-flash-lite",
+    "benchmark_id": "simpleqa",
+    "score": 0.433,
+    "config": "leaderboard, Gemini 3.1 Flash-Lite",
+    "source": "manual",
+    "extra": {
+      "leaderboard_model_name": "Gemini 3.1 Flash-Lite",
+      "vendor": "Google",
+      "context_window": "1.0M",
+      "price_input_output": "$0.25 / $1.50"
+    }
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "simpleqa",
+    "score": 0.382,
+    "config": "leaderboard, GPT-4o",
+    "source": "manual",
+    "extra": {
+      "leaderboard_model_name": "GPT-4o",
+      "vendor": "OpenAI",
+      "context_window": "128K",
+      "price_input_output": "$2.50 / $10.00"
+    }
+  },
+  {
+    "model_id": "kimi-k2-base",
+    "benchmark_id": "simpleqa",
+    "score": 0.353,
+    "config": "leaderboard, Kimi K2 Base",
+    "source": "manual",
+    "extra": {
+      "leaderboard_model_name": "Kimi K2 Base",
+      "vendor": "Moonshot AI",
+      "parameters": "1.0T"
+    }
+  },
+  {
+    "model_id": "deepseek-v4-flash-max",
+    "benchmark_id": "simpleqa",
+    "score": 0.341,
+    "config": "leaderboard, DeepSeek-V4-Flash-Max",
+    "source": "manual",
+    "extra": {
+      "leaderboard_model_name": "DeepSeek-V4-Flash-Max",
+      "vendor": "DeepSeek",
+      "parameters": "284B",
+      "context_window": "1.0M",
+      "price_input_output": "$0.10 / $0.20"
+    }
+  },
+  {
+    "model_id": "kimi-k2-instruct-0905",
+    "benchmark_id": "simpleqa",
+    "score": 0.31,
+    "config": "leaderboard, Kimi K2-Instruct-0905",
+    "source": "manual",
+    "extra": {
+      "leaderboard_model_name": "Kimi K2-Instruct-0905",
+      "vendor": "Moonshot AI",
+      "parameters": "1.0T"
+    }
+  },
+  {
+    "model_id": "kimi-k2",
+    "benchmark_id": "simpleqa",
+    "score": 0.31,
+    "config": "leaderboard, Kimi K2 Instruct",
+    "source": "manual",
+    "extra": {
+      "leaderboard_model_name": "Kimi K2 Instruct",
+      "vendor": "Moonshot AI",
+      "parameters": "1.0T"
+    }
+  },
+  {
+    "model_id": "qwen3-vl-30b-a3b",
+    "benchmark_id": "simpleqa",
+    "score": 0.27,
+    "config": "leaderboard, Qwen3 VL 30B A3B Instruct",
+    "source": "manual",
+    "extra": {
+      "leaderboard_model_name": "Qwen3 VL 30B A3B Instruct",
+      "vendor": "Alibaba Cloud / Qwen Team",
+      "parameters": "31B"
+    }
+  },
+  {
+    "model_id": "gemini-2.5-flash",
+    "benchmark_id": "simpleqa",
+    "score": 0.269,
+    "config": "leaderboard, Gemini 2.5 Flash",
+    "source": "manual",
+    "extra": {
+      "leaderboard_model_name": "Gemini 2.5 Flash",
+      "vendor": "Google",
+      "context_window": "1.0M",
+      "price_input_output": "$0.30 / $2.50"
+    }
+  },
+  {
+    "model_id": "deepseek-v3",
+    "benchmark_id": "simpleqa",
+    "score": 0.249,
+    "config": "leaderboard, DeepSeek-V3",
+    "source": "manual",
+    "extra": {
+      "leaderboard_model_name": "DeepSeek-V3",
+      "vendor": "DeepSeek",
+      "parameters": "671B"
+    }
+  },
+  {
+    "model_id": "qwen3-vl-30b-a3b-thinking",
+    "benchmark_id": "simpleqa",
+    "score": 0.239,
+    "config": "leaderboard, Qwen3 VL 30B A3B Thinking",
+    "source": "manual",
+    "extra": {
+      "leaderboard_model_name": "Qwen3 VL 30B A3B Thinking",
+      "vendor": "Alibaba Cloud / Qwen Team",
+      "parameters": "31B"
+    }
+  },
+  {
+    "model_id": "mistral-large-3-675b-instruct-2512-nvfp4",
+    "benchmark_id": "simpleqa",
+    "score": 0.238,
+    "config": "leaderboard, Mistral Large 3 (675B Instruct 2512 NVFP4)",
+    "source": "manual",
+    "extra": {
+      "leaderboard_model_name": "Mistral Large 3 (675B Instruct 2512 NVFP4)",
+      "vendor": "Mistral AI",
+      "parameters": "675B"
+    }
+  },
+  {
+    "model_id": "mistral-large-3-675b-instruct-2512-eagle",
+    "benchmark_id": "simpleqa",
+    "score": 0.238,
+    "config": "leaderboard, Mistral Large 3 (675B Instruct 2512 Eagle)",
+    "source": "manual",
+    "extra": {
+      "leaderboard_model_name": "Mistral Large 3 (675B Instruct 2512 Eagle)",
+      "vendor": "Mistral AI",
+      "parameters": "675B"
+    }
+  },
+  {
+    "model_id": "mistral-large-3-675b-base",
+    "benchmark_id": "simpleqa",
+    "score": 0.238,
+    "config": "leaderboard, Mistral Large 3 (675B Base)",
+    "source": "manual",
+    "extra": {
+      "leaderboard_model_name": "Mistral Large 3 (675B Base)",
+      "vendor": "Mistral AI",
+      "parameters": "675B"
+    }
+  },
+  {
+    "model_id": "mistral-large-3-675b-instruct-2512",
+    "benchmark_id": "simpleqa",
+    "score": 0.238,
+    "config": "leaderboard, Mistral Large 3 (675B Instruct 2512)",
+    "source": "manual",
+    "extra": {
+      "leaderboard_model_name": "Mistral Large 3 (675B Instruct 2512)",
+      "vendor": "Mistral AI",
+      "parameters": "675B",
+      "context_window": "262K",
+      "price_input_output": "$0.50 / $1.50"
+    }
+  },
+  {
+    "model_id": "gemini-2.0-flash-lite",
+    "benchmark_id": "simpleqa",
+    "score": 0.217,
+    "config": "leaderboard, Gemini 2.0 Flash-Lite",
+    "source": "manual",
+    "extra": {
+      "leaderboard_model_name": "Gemini 2.0 Flash-Lite",
+      "vendor": "Google"
+    }
+  },
+  {
+    "model_id": "minimax-m1",
+    "benchmark_id": "simpleqa",
+    "score": 0.185,
+    "config": "leaderboard, MiniMax M1 80K",
+    "source": "manual",
+    "extra": {
+      "leaderboard_model_name": "MiniMax M1 80K",
+      "vendor": "MiniMax",
+      "parameters": "456B"
+    },
+    "variants": [
+      {
+        "score": 0.179,
+        "config": "leaderboard, MiniMax M1 40K",
+        "source": "manual"
+      }
+    ]
+  },
+  {
+    "model_id": "o3-mini",
+    "benchmark_id": "simpleqa",
+    "score": 0.15,
+    "config": "leaderboard, o3-mini",
+    "source": "manual",
+    "extra": {
+      "leaderboard_model_name": "o3-mini",
+      "vendor": "OpenAI"
+    }
+  },
+  {
+    "model_id": "mistral-small-3.2",
+    "benchmark_id": "simpleqa",
+    "score": 0.121,
+    "config": "leaderboard, Mistral Small 3.2 24B Instruct",
+    "source": "manual",
+    "extra": {
+      "leaderboard_model_name": "Mistral Small 3.2 24B Instruct",
+      "vendor": "Mistral AI",
+      "parameters": "24B"
+    }
+  },
+  {
+    "model_id": "gemini-2.5-flash-lite",
+    "benchmark_id": "simpleqa",
+    "score": 0.107,
+    "config": "leaderboard, Gemini 2.5 Flash-Lite",
+    "source": "manual",
+    "extra": {
+      "leaderboard_model_name": "Gemini 2.5 Flash-Lite",
+      "vendor": "Google"
+    }
+  },
+  {
+    "model_id": "mistral-small-3.1",
+    "benchmark_id": "simpleqa",
+    "score": 0.104,
+    "config": "leaderboard, Mistral Small 3.1 24B Instruct",
+    "source": "manual",
+    "extra": {
+      "leaderboard_model_name": "Mistral Small 3.1 24B Instruct",
+      "vendor": "Mistral AI",
+      "parameters": "24B"
+    }
+  },
+  {
+    "model_id": "gemma-3-27b",
+    "benchmark_id": "simpleqa",
+    "score": 0.1,
+    "config": "leaderboard, Gemma 3 27B",
+    "source": "manual",
+    "extra": {
+      "leaderboard_model_name": "Gemma 3 27B",
+      "vendor": "Google",
+      "parameters": "27B"
+    }
+  },
+  {
+    "model_id": "gemma-3-12b",
+    "benchmark_id": "simpleqa",
+    "score": 0.063,
+    "config": "leaderboard, Gemma 3 12B",
+    "source": "manual",
+    "extra": {
+      "leaderboard_model_name": "Gemma 3 12B",
+      "vendor": "Google",
+      "parameters": "12B"
+    }
+  },
+  {
+    "model_id": "gemma-3-4b",
+    "benchmark_id": "simpleqa",
+    "score": 0.04,
+    "config": "leaderboard, Gemma 3 4B",
+    "source": "manual",
+    "extra": {
+      "leaderboard_model_name": "Gemma 3 4B",
+      "vendor": "Google",
+      "parameters": "4B"
+    }
+  },
+  {
+    "model_id": "phi-4",
+    "benchmark_id": "simpleqa",
+    "score": 0.03,
+    "config": "leaderboard, Phi 4",
+    "source": "manual",
+    "extra": {
+      "leaderboard_model_name": "Phi 4",
+      "vendor": "Microsoft",
+      "parameters": "15B"
+    }
+  },
+  {
+    "model_id": "gemma-3-1b",
+    "benchmark_id": "simpleqa",
+    "score": 0.022,
+    "config": "leaderboard, Gemma 3 1B",
+    "source": "manual",
+    "extra": {
+      "leaderboard_model_name": "Gemma 3 1B",
+      "vendor": "Google",
+      "parameters": "1B"
+    }
+  },
+  {
+    "model_id": "ernie-4.5",
+    "benchmark_id": "simpleqa",
+    "score": 0.018,
+    "config": "leaderboard, ERNIE 4.5",
+    "source": "manual",
+    "extra": {
+      "leaderboard_model_name": "ERNIE 4.5",
+      "vendor": "Baidu",
+      "parameters": "21B"
+    }
+  }
+]

@@ -1,0 +1,54 @@
+[
+  {
+    "model_id": "gemini-1.5-pro",
+    "benchmark_id": "bbh",
+    "score": 89.2,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://epoch.ai/data/benchmark_data.zip",
+      "ref": "bbh_external.csv",
+      "published": "2024-05-14",
+      "fetched_at": "2026-06-11T08:47:43.603Z"
+    }
+  },
+  {
+    "model_id": "llama-3.1-405b",
+    "benchmark_id": "bbh",
+    "score": 82.9,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://epoch.ai/data/benchmark_data.zip",
+      "ref": "bbh_external.csv",
+      "published": "2024-07-23",
+      "fetched_at": "2026-06-11T08:47:43.603Z"
+    }
+  },
+  {
+    "model_id": "qwen-2.5-72b",
+    "benchmark_id": "bbh",
+    "score": 79.8,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://epoch.ai/data/benchmark_data.zip",
+      "ref": "bbh_external.csv",
+      "published": "2024-09-19",
+      "fetched_at": "2026-06-11T08:47:43.603Z"
+    }
+  },
+  {
+    "model_id": "gpt-4",
+    "benchmark_id": "bbh",
+    "score": 75.1,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://epoch.ai/data/benchmark_data.zip",
+      "ref": "bbh_external.csv",
+      "published": "2023-06-13",
+      "fetched_at": "2026-06-11T08:47:43.603Z"
+    }
+  }
+]

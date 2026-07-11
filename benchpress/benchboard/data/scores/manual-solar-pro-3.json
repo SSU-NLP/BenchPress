@@ -1,0 +1,102 @@
+[
+  {
+    "model_id": "solar-pro-3",
+    "benchmark_id": "aime-2025",
+    "score": 80.33,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://www.upstage.ai/blog/ko/solar-pro-3-0127",
+      "reported_by": "Upstage Solar Pro 3 launch blog (graph)",
+      "fetched_at": "2026-06-11T00:00:00Z",
+      "published": "2026-01-27"
+    }
+  },
+  {
+    "model_id": "solar-pro-2",
+    "benchmark_id": "aime-2025",
+    "score": 68.67,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://www.upstage.ai/blog/ko/solar-pro-3-0127",
+      "reported_by": "Upstage Solar Pro 3 launch blog (graph)",
+      "fetched_at": "2026-06-11T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "solar-pro-3",
+    "benchmark_id": "arena-hard-v2",
+    "score": 62.5,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://www.upstage.ai/blog/ko/solar-pro-3-0127",
+      "reported_by": "Upstage Solar Pro 3 launch blog (graph)",
+      "fetched_at": "2026-06-11T00:00:00Z",
+      "published": "2026-01-27"
+    }
+  },
+  {
+    "model_id": "solar-pro-2",
+    "benchmark_id": "arena-hard-v2",
+    "score": 48.2,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://www.upstage.ai/blog/ko/solar-pro-3-0127",
+      "reported_by": "Upstage Solar Pro 3 launch blog (graph)",
+      "fetched_at": "2026-06-11T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "solar-pro-3",
+    "benchmark_id": "ifbench",
+    "score": 55.78,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://www.upstage.ai/blog/ko/solar-pro-3-0127",
+      "reported_by": "Upstage Solar Pro 3 launch blog (graph)",
+      "fetched_at": "2026-06-11T00:00:00Z",
+      "published": "2026-01-27"
+    }
+  },
+  {
+    "model_id": "solar-pro-2",
+    "benchmark_id": "ifbench",
+    "score": 36.73,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://www.upstage.ai/blog/ko/solar-pro-3-0127",
+      "reported_by": "Upstage Solar Pro 3 launch blog (graph)",
+      "fetched_at": "2026-06-11T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "solar-pro-3",
+    "benchmark_id": "mmlu-pro",
+    "score": 76.98,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://www.upstage.ai/blog/ko/solar-pro-3-0127",
+      "reported_by": "Upstage Solar Pro 3 launch blog (graph)",
+      "fetched_at": "2026-06-11T00:00:00Z",
+      "published": "2026-01-27"
+    }
+  },
+  {
+    "model_id": "solar-pro-2",
+    "benchmark_id": "mmlu-pro",
+    "score": 74.09,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://www.upstage.ai/blog/ko/solar-pro-3-0127",
+      "reported_by": "Upstage Solar Pro 3 launch blog (graph)",
+      "fetched_at": "2026-06-11T00:00:00Z"
+    }
+  }
+]

@@ -1,0 +1,470 @@
+[
+  {
+    "model_id": "deepseek-v3",
+    "benchmark_id": "agieval",
+    "score": 79.6,
+    "config": "0-shot, EM",
+    "source": {
+      "kind": "tech_report",
+      "url": "deepseek-v3__paper.pdf",
+      "ref": "p.25",
+      "fetched_at": "2026-06-07T08:05:33.539Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3",
+    "benchmark_id": "aime-2024",
+    "score": 39.2,
+    "config": "pass@1",
+    "source": {
+      "kind": "tech_report",
+      "url": "deepseek-v3__paper.pdf",
+      "ref": "p.1",
+      "fetched_at": "2026-06-07T08:05:33.539Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3",
+    "benchmark_id": "arc-challenge",
+    "score": 95.3,
+    "config": "25-shot, EM",
+    "source": {
+      "kind": "tech_report",
+      "url": "deepseek-v3__paper.pdf",
+      "ref": "p.25",
+      "fetched_at": "2026-06-07T08:05:33.539Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3",
+    "benchmark_id": "arc-easy",
+    "score": 98.9,
+    "config": "25-shot, EM",
+    "source": {
+      "kind": "tech_report",
+      "url": "deepseek-v3__paper.pdf",
+      "ref": "p.25",
+      "fetched_at": "2026-06-07T08:05:33.539Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3",
+    "benchmark_id": "bbh",
+    "score": 87.5,
+    "config": "3-shot, EM",
+    "source": {
+      "kind": "tech_report",
+      "url": "deepseek-v3__paper.pdf",
+      "ref": "p.25",
+      "fetched_at": "2026-06-07T08:05:33.539Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3",
+    "benchmark_id": "c-eval",
+    "score": 90.1,
+    "config": "5-shot, EM",
+    "source": {
+      "kind": "tech_report",
+      "url": "deepseek-v3__paper.pdf",
+      "ref": "p.25",
+      "fetched_at": "2026-06-07T08:05:33.539Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3",
+    "benchmark_id": "c3",
+    "score": 78.6,
+    "config": "0-shot, EM",
+    "source": {
+      "kind": "tech_report",
+      "url": "deepseek-v3__paper.pdf",
+      "ref": "p.25",
+      "fetched_at": "2026-06-07T08:05:33.539Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3",
+    "benchmark_id": "ccpm",
+    "score": 92,
+    "config": "0-shot, EM",
+    "source": {
+      "kind": "tech_report",
+      "url": "deepseek-v3__paper.pdf",
+      "ref": "p.25",
+      "fetched_at": "2026-06-07T08:05:33.539Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3",
+    "benchmark_id": "cluewsc",
+    "score": 82.7,
+    "config": "5-shot, EM",
+    "source": {
+      "kind": "tech_report",
+      "url": "deepseek-v3__paper.pdf",
+      "ref": "p.25",
+      "fetched_at": "2026-06-07T08:05:33.539Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3",
+    "benchmark_id": "cmath",
+    "score": 90.7,
+    "config": "3-shot, EM",
+    "source": {
+      "kind": "tech_report",
+      "url": "deepseek-v3__paper.pdf",
+      "ref": "p.25",
+      "fetched_at": "2026-06-07T08:05:33.539Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3",
+    "benchmark_id": "cmmlu",
+    "score": 88.8,
+    "config": "5-shot, EM",
+    "source": {
+      "kind": "tech_report",
+      "url": "deepseek-v3__paper.pdf",
+      "ref": "p.25",
+      "fetched_at": "2026-06-07T08:05:33.539Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3",
+    "benchmark_id": "cmrc",
+    "score": 76.3,
+    "config": "1-shot, EM",
+    "source": {
+      "kind": "tech_report",
+      "url": "deepseek-v3__paper.pdf",
+      "ref": "p.25",
+      "fetched_at": "2026-06-07T08:05:33.539Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3",
+    "benchmark_id": "codeforces",
+    "score": 51.6,
+    "config": "Percentile",
+    "source": {
+      "kind": "tech_report",
+      "url": "deepseek-v3__paper.pdf",
+      "ref": "p.1",
+      "fetched_at": "2026-06-07T08:05:33.539Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3",
+    "benchmark_id": "cruxeval-i",
+    "score": 67.3,
+    "config": "2-shot, EM",
+    "source": {
+      "kind": "tech_report",
+      "url": "deepseek-v3__paper.pdf",
+      "ref": "p.25",
+      "fetched_at": "2026-06-07T08:05:33.539Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3",
+    "benchmark_id": "cruxeval-o",
+    "score": 69.8,
+    "config": "2-shot, EM",
+    "source": {
+      "kind": "tech_report",
+      "url": "deepseek-v3__paper.pdf",
+      "ref": "p.25",
+      "fetched_at": "2026-06-07T08:05:33.539Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3",
+    "benchmark_id": "drop",
+    "score": 89,
+    "config": "3-shot, F1",
+    "source": {
+      "kind": "tech_report",
+      "url": "deepseek-v3__paper.pdf",
+      "ref": "p.25",
+      "fetched_at": "2026-06-07T08:05:33.539Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3",
+    "benchmark_id": "gpqa",
+    "score": 59.1,
+    "config": "pass@1, Diamond",
+    "source": {
+      "kind": "tech_report",
+      "url": "deepseek-v3__paper.pdf",
+      "ref": "p.1",
+      "fetched_at": "2026-06-07T08:05:33.539Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3",
+    "benchmark_id": "gsm8k",
+    "score": 89.3,
+    "config": "8-shot, EM",
+    "source": {
+      "kind": "tech_report",
+      "url": "deepseek-v3__paper.pdf",
+      "ref": "p.25",
+      "fetched_at": "2026-06-07T08:05:33.539Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3",
+    "benchmark_id": "hellaswag",
+    "score": 88.9,
+    "config": "10-shot, EM",
+    "source": {
+      "kind": "tech_report",
+      "url": "deepseek-v3__paper.pdf",
+      "ref": "p.25",
+      "fetched_at": "2026-06-07T08:05:33.539Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3",
+    "benchmark_id": "humaneval",
+    "score": 65.2,
+    "config": "0-shot, pass@1",
+    "source": {
+      "kind": "tech_report",
+      "url": "deepseek-v3__paper.pdf",
+      "ref": "p.25",
+      "fetched_at": "2026-06-07T08:05:33.539Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3",
+    "benchmark_id": "livecodebench-base",
+    "score": 19.4,
+    "config": "3-shot, pass@1",
+    "source": {
+      "kind": "tech_report",
+      "url": "deepseek-v3__paper.pdf",
+      "ref": "p.25",
+      "fetched_at": "2026-06-07T08:05:33.539Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3",
+    "benchmark_id": "math",
+    "score": 61.6,
+    "config": "4-shot, EM",
+    "source": {
+      "kind": "tech_report",
+      "url": "deepseek-v3__paper.pdf",
+      "ref": "p.25",
+      "fetched_at": "2026-06-07T08:05:33.539Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3",
+    "benchmark_id": "math-500",
+    "score": 90.2,
+    "config": "EM",
+    "source": {
+      "kind": "tech_report",
+      "url": "deepseek-v3__paper.pdf",
+      "ref": "p.1",
+      "fetched_at": "2026-06-07T08:05:33.539Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3",
+    "benchmark_id": "mbpp",
+    "score": 75.4,
+    "config": "3-shot, pass@1",
+    "source": {
+      "kind": "tech_report",
+      "url": "deepseek-v3__paper.pdf",
+      "ref": "p.25",
+      "fetched_at": "2026-06-07T08:05:33.539Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3",
+    "benchmark_id": "mgsm",
+    "score": 79.8,
+    "config": "8-shot, EM",
+    "source": {
+      "kind": "tech_report",
+      "url": "deepseek-v3__paper.pdf",
+      "ref": "p.25",
+      "fetched_at": "2026-06-07T08:05:33.539Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3",
+    "benchmark_id": "mmlu",
+    "score": 88.5,
+    "config": "EM",
+    "source": {
+      "kind": "tech_report",
+      "url": "deepseek-v3__paper.pdf",
+      "ref": "p.5",
+      "fetched_at": "2026-06-07T08:05:33.539Z"
+    },
+    "variants": [
+      {
+        "score": 87.1,
+        "config": "5-shot, EM",
+        "source": {
+          "kind": "tech_report",
+          "url": "deepseek-v3__paper.pdf",
+          "ref": "p.25",
+          "fetched_at": "2026-06-07T08:05:33.539Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "deepseek-v3",
+    "benchmark_id": "mmlu-pro",
+    "score": 75.9,
+    "config": "EM",
+    "source": {
+      "kind": "tech_report",
+      "url": "deepseek-v3__paper.pdf",
+      "ref": "p.1",
+      "fetched_at": "2026-06-07T08:05:33.539Z"
+    },
+    "variants": [
+      {
+        "score": 64.4,
+        "config": "5-shot, EM",
+        "source": {
+          "kind": "tech_report",
+          "url": "deepseek-v3__paper.pdf",
+          "ref": "p.25",
+          "fetched_at": "2026-06-07T08:05:33.539Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "deepseek-v3",
+    "benchmark_id": "mmlu-redux",
+    "score": 86.2,
+    "config": "5-shot, EM",
+    "source": {
+      "kind": "tech_report",
+      "url": "deepseek-v3__paper.pdf",
+      "ref": "p.25",
+      "fetched_at": "2026-06-07T08:05:33.539Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3",
+    "benchmark_id": "mmmlu-non-english",
+    "score": 79.4,
+    "config": "5-shot, EM",
+    "source": {
+      "kind": "tech_report",
+      "url": "deepseek-v3__paper.pdf",
+      "ref": "p.25",
+      "fetched_at": "2026-06-07T08:05:33.539Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3",
+    "benchmark_id": "naturalquestions",
+    "score": 40,
+    "config": "5-shot, EM",
+    "source": {
+      "kind": "tech_report",
+      "url": "deepseek-v3__paper.pdf",
+      "ref": "p.25",
+      "fetched_at": "2026-06-07T08:05:33.539Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3",
+    "benchmark_id": "pile-test",
+    "score": 0.548,
+    "config": "BPB",
+    "source": {
+      "kind": "tech_report",
+      "url": "deepseek-v3__paper.pdf",
+      "ref": "p.25",
+      "fetched_at": "2026-06-07T08:05:33.539Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3",
+    "benchmark_id": "piqa",
+    "score": 84.7,
+    "config": "0-shot, EM",
+    "source": {
+      "kind": "tech_report",
+      "url": "deepseek-v3__paper.pdf",
+      "ref": "p.25",
+      "fetched_at": "2026-06-07T08:05:33.539Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3",
+    "benchmark_id": "race-high",
+    "score": 51.3,
+    "config": "5-shot, EM",
+    "source": {
+      "kind": "tech_report",
+      "url": "deepseek-v3__paper.pdf",
+      "ref": "p.25",
+      "fetched_at": "2026-06-07T08:05:33.539Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3",
+    "benchmark_id": "race-middle",
+    "score": 67.1,
+    "config": "5-shot, EM",
+    "source": {
+      "kind": "tech_report",
+      "url": "deepseek-v3__paper.pdf",
+      "ref": "p.25",
+      "fetched_at": "2026-06-07T08:05:33.539Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3",
+    "benchmark_id": "swe-bench-verified",
+    "score": 42,
+    "config": "Resolved",
+    "source": {
+      "kind": "tech_report",
+      "url": "deepseek-v3__paper.pdf",
+      "ref": "p.1",
+      "fetched_at": "2026-06-07T08:05:33.539Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3",
+    "benchmark_id": "triviaqa",
+    "score": 82.9,
+    "config": "5-shot, EM",
+    "source": {
+      "kind": "tech_report",
+      "url": "deepseek-v3__paper.pdf",
+      "ref": "p.25",
+      "fetched_at": "2026-06-07T08:05:33.539Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3",
+    "benchmark_id": "winogrande",
+    "score": 84.9,
+    "config": "5-shot, EM",
+    "source": {
+      "kind": "tech_report",
+      "url": "deepseek-v3__paper.pdf",
+      "ref": "p.25",
+      "fetched_at": "2026-06-07T08:05:33.539Z"
+    }
+  }
+]

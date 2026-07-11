@@ -1,0 +1,289 @@
+---
+import Page from "../layouts/Page.astro";
+import "../styles/global.css";
+import runs from "../../data/runs/index.json";
+import axisSources from "../../data/axis_sources.json";
+import axisWeights from "../../data/benchmark_axis_weights.json";
+import axisLineage from "../../data/axis_lineage.json";
+import subsetSelection from "../../data/subset_selection_results.json";
+import validationResults from "../../data/validation_results.json";
+import modelShortlist from "../../data/model_shortlist.json";
+import {
+  BUILDER_COPY,
+  CAPABILITY_OPTIONS,
+  DEFAULT_BENCHMARK_COUNT,
+  DEFAULT_PLANNER_SOURCE_ID,
+  DEFAULT_TARGET_AXIS_IDS,
+  LINEAGE_BADGE_CLASS,
+  VALIDATION_BAR_SPECS,
+  coverageBarWidth,
+  metricBarWidth,
+  metricLabel,
+  pct,
+  prettyId,
+  regretBarWidth,
+} from "../lib/plannerDemo.ts";
+
+const run = runs[0];
+
+// Demo defaults live in src/lib/plannerDemo.ts so a new video scenario can be
+// changed without digging through the page markup below.
+const sourceId = DEFAULT_PLANNER_SOURCE_ID;
+const selectedAxes = DEFAULT_TARGET_AXIS_IDS;
+const selectedResult = subsetSelection.results.find((item) => item.source_id === sourceId) ?? subsetSelection.results[0];
+const selectedBenchmarks = selectedResult.selected_benchmarks.slice(0, DEFAULT_BENCHMARK_COUNT);
+
+// Lookup maps keep the template readable: data additions should happen in JSON,
+// while this page only joins the contracts into visible sections.
+const source = axisSources.find((item) => item.id === sourceId) ?? axisSources[0];
+const benchById = new Map(axisWeights.benchmarks.map((bench) => [bench.id, bench]));
+const lineageByAxis = new Map(axisLineage.map((item) => [item.axis_id, item]));
+const activeAxes = axisWeights.axes.filter((axis) => selectedAxes.includes(axis.id));
+const builderMetrics = {
+  coverage_score: selectedResult.coverage_score,
+  expected_predictive_utility: selectedResult.expected_predictive_utility,
+  ...selectedResult.utility_components,
+};
+---
+
+<Page title="Builder">
+  <!-- 1. Builder input: target capability, source, k, and cost controls. -->
+  <section class="grid gap-6 lg:grid-cols-[minmax(0,1.2fr)_minmax(320px,0.8fr)]">
+    <div class="space-y-5">
+      <div>
+        <p class="mb-2 text-xs font-semibold uppercase tracking-wide text-emerald-700">{BUILDER_COPY.eyebrow}</p>
+        <h1 class="max-w-4xl text-3xl font-bold tracking-tight text-neutral-950 md:text-4xl">
+          {BUILDER_COPY.title}
+        </h1>
+        <p class="mt-3 max-w-3xl text-sm leading-6 text-neutral-600">
+          {BUILDER_COPY.summary}
+        </p>
+      </div>
+
+      <div class="rounded-lg border border-neutral-200 bg-white p-4 shadow-sm">
+        <div class="mb-4 flex flex-wrap items-center justify-between gap-3">
+          <div>
+            <h2 class="text-base font-semibold text-neutral-950">Target capability</h2>
+            <p class="text-xs text-neutral-500">{BUILDER_COPY.demoPath}</p>
+          </div>
+          <div class="rounded-md border border-neutral-200 bg-neutral-50 px-3 py-2 text-xs text-neutral-600">{BUILDER_COPY.selectionPrinciple}</div>
+        </div>
+
+        <div class="flex flex-wrap gap-2">
+          {CAPABILITY_OPTIONS.map(([id, label]) => (
+            <button
+              type="button"
+              class:list={[
+                "rounded-md border px-3 py-2 text-sm font-medium",
+                selectedAxes.includes(id) ? "border-neutral-950 bg-neutral-950 text-white" : "border-neutral-300 bg-white text-neutral-700",
+              ]}
+            >
+              {label}
+            </button>
+          ))}
+        </div>
+
+        <div class="mt-5 grid gap-4 md:grid-cols-3">
+          <label class="space-y-2">
+            <span class="text-xs font-semibold uppercase tracking-wide text-neutral-500">Axis source</span>
+            <select class="w-full rounded-md border border-neutral-300 bg-white px-3 py-2 text-sm" aria-label="Axis source">
+              {axisSources.map((item) => <option selected={item.id === sourceId}>{item.label}</option>)}
+            </select>
+          </label>
+          <label class="space-y-2">
+            <span class="text-xs font-semibold uppercase tracking-wide text-neutral-500">Benchmark count</span>
+            <input class="w-full rounded-md border border-neutral-300 px-3 py-2 text-sm" type="number" value="5" min="3" max="7" />
+          </label>
+          <label class="space-y-2">
+            <span class="text-xs font-semibold uppercase tracking-wide text-neutral-500">Cost penalty</span>
+            <input class="w-full accent-emerald-600" type="range" value="25" min="0" max="60" />
+            <span class="block text-xs text-neutral-500">25%</span>
+          </label>
+        </div>
+      </div>
+    </div>
+
+    <aside class="rounded-lg bg-neutral-950 p-4 text-white shadow-sm">
+      <div class="flex items-start justify-between gap-4">
+        <div>
+          <p class="text-xs font-semibold uppercase tracking-wide text-emerald-300">Selected source</p>
+          <h2 class="mt-1 text-xl font-semibold">{source.label}</h2>
+        </div>
+        <span class="rounded-md border border-white/15 px-2 py-1 text-xs text-neutral-300">{pct(source.confidence)} confidence</span>
+      </div>
+      <p class="mt-4 text-sm leading-6 text-neutral-300">{source.description}</p>
+      <div class="mt-6 grid grid-cols-3 gap-3">
+        <div><div class="text-2xl font-semibold">{run.score_matrix_coverage.models}</div><div class="text-xs text-neutral-400">models</div></div>
+        <div><div class="text-2xl font-semibold">{run.score_matrix_coverage.benchmarks}</div><div class="text-xs text-neutral-400">benchmarks</div></div>
+        <div><div class="text-2xl font-semibold">{pct(run.score_matrix_coverage.density)}</div><div class="text-xs text-neutral-400">coverage</div></div>
+      </div>
+    </aside>
+  </section>
+
+  <!-- 2. Explanation layer: axis fit and benchmark-by-axis coverage. -->
+  <section class="mt-8 grid gap-6 lg:grid-cols-[minmax(0,0.95fr)_minmax(0,1.05fr)]">
+    <div class="border-t border-neutral-200 pt-5">
+      <div class="mb-4 flex items-start justify-between gap-4">
+        <div>
+          <p class="text-xs font-semibold uppercase tracking-wide text-neutral-500">Axis explorer</p>
+          <h2 class="text-lg font-semibold text-neutral-950">Score-pattern axes for this target</h2>
+        </div>
+        <span class="rounded-md bg-emerald-50 px-2 py-1 text-xs font-medium text-emerald-800">learned fit</span>
+      </div>
+      <div class="space-y-3">
+        {activeAxes.map((axis) => {
+          const lineage = lineageByAxis.get(axis.id);
+          return (
+            <article class="rounded-lg border border-neutral-200 bg-white p-4 shadow-sm">
+              <div class="flex flex-wrap items-center gap-2">
+                <h3 class="font-semibold text-neutral-950">{axis.name}</h3>
+                <span class:list={["rounded-md border px-2 py-0.5 text-[11px] font-medium", LINEAGE_BADGE_CLASS[axis.lineage_status] ?? LINEAGE_BADGE_CLASS.unchanged]}>{axis.lineage_status}</span>
+              </div>
+              <p class="mt-1 text-sm leading-5 text-neutral-600">{axis.description}</p>
+              <div class="mt-2 flex flex-wrap gap-1">
+                {axis.related_benchmarks.map((benchId) => <span class="rounded bg-neutral-100 px-2 py-1 text-xs text-neutral-600">{benchById.get(benchId)?.name ?? prettyId(benchId)}</span>)}
+              </div>
+              {lineage && <p class="mt-2 text-xs leading-5 text-neutral-500">{lineage.reason}</p>}
+            </article>
+          );
+        })}
+      </div>
+    </div>
+
+    <div class="border-t border-neutral-200 pt-5">
+      <div class="mb-4">
+        <p class="text-xs font-semibold uppercase tracking-wide text-neutral-500">Benchmark coverage map</p>
+        <h2 class="text-lg font-semibold text-neutral-950">Why these benchmarks were selected</h2>
+      </div>
+      <div class="overflow-x-auto rounded-lg border border-neutral-200 bg-white shadow-sm">
+        <table class="w-full min-w-[560px] border-collapse text-sm">
+          <thead>
+            <tr class="border-b border-neutral-200 bg-neutral-50 text-left text-xs uppercase tracking-wide text-neutral-500">
+              <th class="py-2 pl-3 pr-3 font-semibold">Benchmark</th>
+              {activeAxes.map((axis) => <th class="px-2 py-2 font-semibold">{axis.name}</th>)}
+              <th class="px-2 py-2 font-semibold">Cost</th>
+            </tr>
+          </thead>
+          <tbody>
+            {selectedBenchmarks.map((benchId) => {
+              const bench = benchById.get(benchId);
+              if (!bench) return null;
+              return (
+                <tr class="border-b border-neutral-100 last:border-b-0">
+                  <td class="py-3 pl-3 pr-3 font-medium text-neutral-900">{bench.name}</td>
+                  {activeAxes.map((axis) => {
+                    const value = bench.weights[axis.id] ?? 0;
+                    return <td class="px-2 py-3"><div class="h-6 rounded bg-neutral-100"><div class="flex h-6 items-center rounded bg-emerald-500 px-2 text-[11px] font-medium text-white" style={`width:${coverageBarWidth(value)}`}>{pct(value)}</div></div></td>;
+                  })}
+                  <td class="px-2 py-3 text-neutral-600">{bench.cost.toFixed(1)}x</td>
+                </tr>
+              );
+            })}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. Decision layer: selected subset and model shortlist. -->
+  <section class="mt-8 grid gap-6 lg:grid-cols-[minmax(0,0.9fr)_minmax(0,1.1fr)]">
+    <div class="border-t border-neutral-200 pt-5">
+      <div class="mb-4">
+        <p class="text-xs font-semibold uppercase tracking-wide text-neutral-500">Axis-based benchmark builder</p>
+        <h2 class="text-lg font-semibold text-neutral-950">Compact subset output</h2>
+      </div>
+      <div class="grid gap-3 sm:grid-cols-2 xl:grid-cols-3">
+        {selectedBenchmarks.map((benchId, index) => {
+          const bench = benchById.get(benchId);
+          return <article class="rounded-lg border border-neutral-200 bg-white p-4 shadow-sm"><div class="text-[11px] font-semibold uppercase tracking-wide text-neutral-400">pick {index + 1}</div><h3 class="mt-1 font-semibold text-neutral-950">{bench?.name ?? prettyId(benchId)}</h3><p class="mt-2 text-xs leading-5 text-neutral-500">{bench?.rationale}</p></article>;
+        })}
+      </div>
+      <div class="mt-5 grid gap-3 sm:grid-cols-2">
+        {Object.entries(builderMetrics).map(([label, value]) => (
+          <div>
+            <div class="mb-1 flex items-center justify-between text-xs"><span class="font-medium capitalize text-neutral-600">{metricLabel(label)}</span><span class="tabular-nums text-neutral-500">{Number(value).toFixed(2)}</span></div>
+            <div class="h-2 rounded-full bg-neutral-100"><div class="h-2 rounded-full bg-cyan-500" style={`width:${metricBarWidth(Number(value))}`}></div></div>
+          </div>
+        ))}
+      </div>
+      <div class="mt-5 space-y-2">
+        {selectedResult.duplicate_notes.map((note) => <p class="rounded-md border border-neutral-200 bg-neutral-50 px-3 py-2 text-sm text-neutral-700">{note}</p>)}
+      </div>
+    </div>
+
+    <div class="border-t border-neutral-200 pt-5">
+      <div class="mb-4 flex items-start justify-between gap-4">
+        <div>
+          <p class="text-xs font-semibold uppercase tracking-wide text-neutral-500">Model shortlist</p>
+          <h2 class="text-lg font-semibold text-neutral-950">Ranking from the compact suite</h2>
+        </div>
+        <span class="rounded-md bg-amber-50 px-2 py-1 text-xs font-medium text-amber-800">regret tracked</span>
+      </div>
+      <div class="overflow-x-auto rounded-lg border border-neutral-200 bg-white shadow-sm">
+        <table class="w-full min-w-[650px] border-collapse text-sm">
+          <thead><tr class="border-b border-neutral-200 bg-neutral-50 text-left text-xs uppercase tracking-wide text-neutral-500"><th class="py-2 pl-3 pr-3 font-semibold">Model</th><th class="px-2 py-2 font-semibold">Subset</th><th class="px-2 py-2 font-semibold">Full suite</th><th class="px-2 py-2 font-semibold">Cost</th><th class="px-2 py-2 font-semibold">Regret</th><th class="px-2 py-2 font-semibold">Recommendation</th></tr></thead>
+          <tbody>
+            {modelShortlist.rankings.map((row) => (
+              <tr class="border-b border-neutral-100 last:border-b-0">
+                <td class="py-3 pl-3 pr-3"><div class="font-semibold text-neutral-950">{row.model_name}</div><div class="text-xs text-neutral-500">{row.vendor}</div></td>
+                <td class="px-2 py-3 text-neutral-700">#{row.subset_rank} / {row.subset_score.toFixed(1)}</td>
+                <td class="px-2 py-3 text-neutral-700">#{row.full_suite_rank} / {row.full_suite_score.toFixed(1)}</td>
+                <td class="px-2 py-3 text-neutral-700">${row.cost_per_mtok.toFixed(1)}/M</td>
+                <td class="px-2 py-3 text-neutral-700">{row.regret.toFixed(3)}</td>
+                <td class="px-2 py-3"><span class="rounded-md bg-neutral-100 px-2 py-1 text-xs font-medium text-neutral-700">{row.recommendation}</span></td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. Proof layer: validation baselines and run provenance. -->
+  <section class="mt-8 grid gap-6 lg:grid-cols-[minmax(0,1fr)_360px]">
+    <div class="border-t border-neutral-200 pt-5">
+      <div class="mb-4">
+        <p class="text-xs font-semibold uppercase tracking-wide text-neutral-500">Validation panel</p>
+        <h2 class="text-lg font-semibold text-neutral-950">Small-suite preservation of full-suite ranking</h2>
+      </div>
+      <div class="grid gap-4 md:grid-cols-2">
+        {validationResults.metrics.map((metric) => (
+          <article class="rounded-lg border border-neutral-200 bg-white p-4 shadow-sm">
+            <div class="mb-3 flex items-center justify-between gap-3"><h3 class="font-semibold text-neutral-950">{metric.label}</h3><span class="text-xs text-neutral-500">overlap {pct(metric.top_k_overlap)}</span></div>
+            {VALIDATION_BAR_SPECS.map(([label, key, color]) => {
+              const value = metric[key];
+              return (
+                <div class="mb-3">
+                  <div class="mb-1 flex justify-between text-xs">
+                    <span class="font-medium text-neutral-600">{label}</span>
+                    <span class="text-neutral-500">{Number(value).toFixed(2)}</span>
+                  </div>
+                  <div class="h-2 rounded-full bg-neutral-100">
+                    <div class:list={["h-2 rounded-full", color]} style={`width:${metricBarWidth(Number(value))}`}></div>
+                  </div>
+                </div>
+              );
+            })}
+            <div><div class="mb-1 flex justify-between text-xs"><span class="font-medium text-neutral-600">Regret</span><span class="text-neutral-500">{metric.regret.toFixed(3)}</span></div><div class="h-2 rounded-full bg-neutral-100"><div class="h-2 rounded-full bg-rose-500" style={`width:${regretBarWidth(metric.regret)}`}></div></div></div>
+          </article>
+        ))}
+      </div>
+    </div>
+
+    <aside class="border-t border-neutral-200 pt-5">
+      <p class="text-xs font-semibold uppercase tracking-wide text-neutral-500">Run provenance</p>
+      <h2 class="mt-1 text-lg font-semibold text-neutral-950">Guardrails and coverage</h2>
+      <dl class="mt-4 space-y-3 text-sm">
+        <div><dt class="text-xs uppercase tracking-wide text-neutral-500">Run id</dt><dd class="mt-1 break-words font-medium text-neutral-900">{run.run_id}</dd></div>
+        <div><dt class="text-xs uppercase tracking-wide text-neutral-500">Condition</dt><dd class="mt-1 text-neutral-700">{run.condition}</dd></div>
+        <div><dt class="text-xs uppercase tracking-wide text-neutral-500">Selected source</dt><dd class="mt-1 text-neutral-700">{source.label}</dd></div>
+      </dl>
+      <div class="mt-5 space-y-2">
+        {selectedResult.reject_reasons.map((reason) => <p class="rounded-md border border-amber-200 bg-amber-50 px-3 py-2 text-xs leading-5 text-amber-900">{reason}</p>)}
+      </div>
+      <div class="mt-5 rounded-md bg-neutral-50 p-3 text-xs leading-5 text-neutral-600">
+        Held-out Spearman {validationResults.held_out_prediction.spearman.toFixed(2)} across {validationResults.held_out_prediction.held_out_benchmarks.map(pretty).join(", ")}.
+      </div>
+    </aside>
+  </section>
+</Page>

@@ -1,0 +1,123 @@
+[
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "bigcodebench-instruct",
+    "score": 51.1,
+    "config": "default",
+    "source": {
+      "kind": "hf_dataset",
+      "url": "https://datasets-server.huggingface.co/rows?dataset=bigcode%2Fbigcodebench-results&config=default&split=train&offset=0&limit=500",
+      "fetched_at": "2026-06-11T08:36:21.491Z"
+    }
+  },
+  {
+    "model_id": "gpt-4-turbo",
+    "benchmark_id": "bigcodebench-instruct",
+    "score": 48.2,
+    "config": "default",
+    "source": {
+      "kind": "hf_dataset",
+      "url": "https://datasets-server.huggingface.co/rows?dataset=bigcode%2Fbigcodebench-results&config=default&split=train&offset=0&limit=500",
+      "fetched_at": "2026-06-11T08:36:21.491Z"
+    }
+  },
+  {
+    "model_id": "claude-3.5-sonnet",
+    "benchmark_id": "bigcodebench-instruct",
+    "score": 46.8,
+    "config": "default",
+    "source": {
+      "kind": "hf_dataset",
+      "url": "https://datasets-server.huggingface.co/rows?dataset=bigcode%2Fbigcodebench-results&config=default&split=train&offset=0&limit=500",
+      "fetched_at": "2026-06-11T08:36:21.491Z"
+    }
+  },
+  {
+    "model_id": "gpt-4o-mini",
+    "benchmark_id": "bigcodebench-instruct",
+    "score": 46.1,
+    "config": "default",
+    "source": {
+      "kind": "hf_dataset",
+      "url": "https://datasets-server.huggingface.co/rows?dataset=bigcode%2Fbigcodebench-results&config=default&split=train&offset=0&limit=500",
+      "fetched_at": "2026-06-11T08:36:21.491Z"
+    }
+  },
+  {
+    "model_id": "gpt-4",
+    "benchmark_id": "bigcodebench-instruct",
+    "score": 46,
+    "config": "default",
+    "source": {
+      "kind": "hf_dataset",
+      "url": "https://datasets-server.huggingface.co/rows?dataset=bigcode%2Fbigcodebench-results&config=default&split=train&offset=0&limit=500",
+      "fetched_at": "2026-06-11T08:36:21.491Z"
+    }
+  },
+  {
+    "model_id": "claude-3-opus",
+    "benchmark_id": "bigcodebench-instruct",
+    "score": 45.5,
+    "config": "default",
+    "source": {
+      "kind": "hf_dataset",
+      "url": "https://datasets-server.huggingface.co/rows?dataset=bigcode%2Fbigcodebench-results&config=default&split=train&offset=0&limit=500",
+      "fetched_at": "2026-06-11T08:36:21.491Z"
+    }
+  },
+  {
+    "model_id": "llama-3-70b",
+    "benchmark_id": "bigcodebench-instruct",
+    "score": 43.6,
+    "config": "default",
+    "source": {
+      "kind": "hf_dataset",
+      "url": "https://datasets-server.huggingface.co/rows?dataset=bigcode%2Fbigcodebench-results&config=default&split=train&offset=0&limit=500",
+      "fetched_at": "2026-06-11T08:36:21.491Z"
+    }
+  },
+  {
+    "model_id": "claude-3-sonnet",
+    "benchmark_id": "bigcodebench-instruct",
+    "score": 42.7,
+    "config": "default",
+    "source": {
+      "kind": "hf_dataset",
+      "url": "https://datasets-server.huggingface.co/rows?dataset=bigcode%2Fbigcodebench-results&config=default&split=train&offset=0&limit=500",
+      "fetched_at": "2026-06-11T08:36:21.491Z"
+    }
+  },
+  {
+    "model_id": "claude-3-haiku",
+    "benchmark_id": "bigcodebench-instruct",
+    "score": 39.4,
+    "config": "default",
+    "source": {
+      "kind": "hf_dataset",
+      "url": "https://datasets-server.huggingface.co/rows?dataset=bigcode%2Fbigcodebench-results&config=default&split=train&offset=0&limit=500",
+      "fetched_at": "2026-06-11T08:36:21.491Z"
+    }
+  },
+  {
+    "model_id": "llama-3-8b",
+    "benchmark_id": "bigcodebench-instruct",
+    "score": 31.9,
+    "config": "default",
+    "source": {
+      "kind": "hf_dataset",
+      "url": "https://datasets-server.huggingface.co/rows?dataset=bigcode%2Fbigcodebench-results&config=default&split=train&offset=0&limit=500",
+      "fetched_at": "2026-06-11T08:36:21.491Z"
+    }
+  },
+  {
+    "model_id": "mistral-large",
+    "benchmark_id": "bigcodebench-instruct",
+    "score": 30,
+    "config": "default",
+    "source": {
+      "kind": "hf_dataset",
+      "url": "https://datasets-server.huggingface.co/rows?dataset=bigcode%2Fbigcodebench-results&config=default&split=train&offset=0&limit=500",
+      "fetched_at": "2026-06-11T08:36:21.491Z"
+    }
+  }
+]

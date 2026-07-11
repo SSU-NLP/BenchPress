@@ -1,0 +1,2612 @@
+[
+  {
+    "model_id": "qwen-2.5-72b",
+    "benchmark_id": "bbh",
+    "score": 0.72727473,
+    "config": "Open LLM Leaderboard v2, official provider, raw, BBH, precision bfloat16, type chatmodels, chat_template True",
+    "source": "open-llm-leaderboard",
+    "extra": {
+      "hf_model": "Qwen/Qwen2.5-72B-Instruct",
+      "leaderboard_id": "Qwen/Qwen2.5-72B-Instruct_bfloat16_a13fff9ad76700c7ecff2769f75943ba8395b4a7_True",
+      "benchmark_display_name": "BBH",
+      "normalized_score": 61.87325566878789,
+      "average_score": 47.98045991216864,
+      "precision": "bfloat16",
+      "model_type": "chatmodels",
+      "weight_type": "Original",
+      "architecture": "Qwen2ForCausalLM",
+      "has_chat_template": true,
+      "params_billions": 72.706,
+      "hub_license": "other",
+      "submission_date": "2024-10-16",
+      "upload_date": "2024-09-16",
+      "co2_cost": 47.645491341309835
+    },
+    "variants": [
+      {
+        "score": 0.69773097,
+        "config": "Open LLM Leaderboard v2, official provider, raw, BBH, precision bfloat16, type chatmodels, chat_template False",
+        "source": "open-llm-leaderboard"
+      },
+      {
+        "score": 0.67973207,
+        "config": "Open LLM Leaderboard v2, official provider, raw, BBH, precision bfloat16, type pretrained, chat_template False",
+        "source": "open-llm-leaderboard"
+      }
+    ]
+  },
+  {
+    "model_id": "llama-3.3-70b",
+    "benchmark_id": "bbh",
+    "score": 0.69193128,
+    "config": "Open LLM Leaderboard v2, official provider, raw, BBH, precision bfloat16, type chatmodels, chat_template True",
+    "source": "open-llm-leaderboard",
+    "extra": {
+      "hf_model": "meta-llama/Llama-3.3-70B-Instruct",
+      "leaderboard_id": "meta-llama/Llama-3.3-70B-Instruct_bfloat16__True",
+      "benchmark_display_name": "BBH",
+      "normalized_score": 56.561410788022194,
+      "average_score": 44.84747145129876,
+      "precision": "bfloat16",
+      "model_type": "chatmodels",
+      "weight_type": "Original",
+      "architecture": "LlamaForCausalLM",
+      "has_chat_template": true,
+      "params_billions": 70.554,
+      "hub_license": "llama3.3",
+      "submission_date": "2024-12-03",
+      "upload_date": "2024-11-26",
+      "co2_cost": 76.55907410745293
+    }
+  },
+  {
+    "model_id": "llama-3.1-70b",
+    "benchmark_id": "bbh",
+    "score": 0.69172875,
+    "config": "Open LLM Leaderboard v2, official provider, raw, BBH, precision bfloat16, type chatmodels, chat_template True",
+    "source": "open-llm-leaderboard",
+    "extra": {
+      "hf_model": "meta-llama/Llama-3.1-70B-Instruct",
+      "leaderboard_id": "meta-llama/Llama-3.1-70B-Instruct_bfloat16_b9461463b511ed3c0762467538ea32cf7c9669f2_True",
+      "benchmark_display_name": "BBH",
+      "normalized_score": 55.92799173898473,
+      "average_score": 43.409948245645786,
+      "precision": "bfloat16",
+      "model_type": "chatmodels",
+      "weight_type": "Original",
+      "architecture": "LlamaForCausalLM",
+      "has_chat_template": true,
+      "params_billions": 70.554,
+      "hub_license": "llama3.1",
+      "submission_date": "2024-08-15",
+      "upload_date": "2024-07-16",
+      "co2_cost": 40.22182401425256
+    },
+    "variants": [
+      {
+        "score": 0.62600692,
+        "config": "Open LLM Leaderboard v2, official provider, raw, BBH, precision bfloat16, type pretrained, chat_template True",
+        "source": "open-llm-leaderboard"
+      }
+    ]
+  },
+  {
+    "model_id": "qwen2.5-32b",
+    "benchmark_id": "bbh",
+    "score": 0.69125251,
+    "config": "Open LLM Leaderboard v2, official provider, raw, BBH, precision bfloat16, type chatmodels, chat_template True",
+    "source": "open-llm-leaderboard",
+    "extra": {
+      "hf_model": "Qwen/Qwen2.5-32B-Instruct",
+      "leaderboard_id": "Qwen/Qwen2.5-32B-Instruct_bfloat16_70e8dfb9ad18a7d499f765fe206ff065ed8ca197_True",
+      "benchmark_display_name": "BBH",
+      "normalized_score": 56.48934826159387,
+      "average_score": 46.59714569921449,
+      "precision": "bfloat16",
+      "model_type": "chatmodels",
+      "weight_type": "Original",
+      "architecture": "Qwen2ForCausalLM",
+      "has_chat_template": true,
+      "params_billions": 32.764,
+      "hub_license": "apache-2.0",
+      "submission_date": "2024-09-19",
+      "upload_date": "2024-09-17",
+      "co2_cost": 11.504966340685739
+    },
+    "variants": [
+      {
+        "score": 0.67705224,
+        "config": "Open LLM Leaderboard v2, official provider, raw, BBH, precision bfloat16, type pretrained, chat_template False",
+        "source": "open-llm-leaderboard"
+      }
+    ]
+  },
+  {
+    "model_id": "phi-4",
+    "benchmark_id": "bbh",
+    "score": 0.67034646,
+    "config": "Open LLM Leaderboard v2, official provider, raw, BBH, precision float16, type pretrained, chat_template False",
+    "source": "open-llm-leaderboard",
+    "extra": {
+      "hf_model": "microsoft/phi-4",
+      "leaderboard_id": "microsoft/phi-4_float16_381727a5ee103da6c1b14ecd3d39cd09832cbcf8_False",
+      "benchmark_display_name": "BBH",
+      "normalized_score": 52.57567157258284,
+      "average_score": 29.48341679122318,
+      "precision": "float16",
+      "model_type": "pretrained",
+      "weight_type": "Original",
+      "architecture": "Phi3ForCausalLM",
+      "has_chat_template": false,
+      "params_billions": 14.66,
+      "hub_license": "mit",
+      "submission_date": "2025-01-08",
+      "upload_date": "2024-12-11",
+      "co2_cost": 0.8783618221059865
+    },
+    "variants": [
+      {
+        "score": 0.66905623,
+        "config": "Open LLM Leaderboard v2, official provider, raw, BBH, precision bfloat16, type chatmodels, chat_template True",
+        "source": "open-llm-leaderboard"
+      }
+    ]
+  },
+  {
+    "model_id": "qwq-32b",
+    "benchmark_id": "bbh",
+    "score": 0.66913815,
+    "config": "Open LLM Leaderboard v2, official provider, raw, BBH, precision bfloat16, type chatmodels, chat_template True",
+    "source": "open-llm-leaderboard",
+    "extra": {
+      "hf_model": "Qwen/QwQ-32B-Preview",
+      "leaderboard_id": "Qwen/QwQ-32B-Preview_bfloat16_1032e81cb936c486aae1d33da75b2fbcd5deed4a_True",
+      "benchmark_display_name": "BBH",
+      "normalized_score": 53.3876763517132,
+      "average_score": 34.11985336826446,
+      "precision": "bfloat16",
+      "model_type": "chatmodels",
+      "weight_type": "Original",
+      "architecture": "Qwen2ForCausalLM",
+      "has_chat_template": true,
+      "params_billions": 32.764,
+      "hub_license": "apache-2.0",
+      "submission_date": "2024-11-29",
+      "upload_date": "2024-11-27",
+      "co2_cost": 20.42077955247921
+    },
+    "variants": [
+      {
+        "score": 0.29829653,
+        "config": "Open LLM Leaderboard v2, official provider, raw, BBH, precision bfloat16, type fine-tunedondomain-specificdatasets, chat_template True",
+        "source": "open-llm-leaderboard"
+      }
+    ]
+  },
+  {
+    "model_id": "qwen2.5-coder-32b",
+    "benchmark_id": "bbh",
+    "score": 0.66252222,
+    "config": "Open LLM Leaderboard v2, official provider, raw, BBH, precision float16, type chatmodels, chat_template False",
+    "source": "open-llm-leaderboard",
+    "extra": {
+      "hf_model": "Qwen/Qwen2.5-Coder-32B-Instruct",
+      "leaderboard_id": "Qwen/Qwen2.5-Coder-32B-Instruct_float16_b47205940b83b5b484577359f71ee7b88472df67_False",
+      "benchmark_display_name": "BBH",
+      "normalized_score": 52.26651520943606,
+      "average_score": 39.8854717744228,
+      "precision": "float16",
+      "model_type": "chatmodels",
+      "weight_type": "Original",
+      "architecture": "Qwen2ForCausalLM",
+      "has_chat_template": false,
+      "params_billions": 32.764,
+      "hub_license": "apache-2.0",
+      "submission_date": "2024-12-10",
+      "upload_date": "2024-11-06",
+      "co2_cost": 9.388779325959574
+    },
+    "variants": [
+      {
+        "score": 0.64039551,
+        "config": "Open LLM Leaderboard v2, official provider, raw, BBH, precision float16, type pretrained, chat_template False",
+        "source": "open-llm-leaderboard"
+      }
+    ]
+  },
+  {
+    "model_id": "llama-3-70b",
+    "benchmark_id": "bbh",
+    "score": 0.65466994,
+    "config": "Open LLM Leaderboard v2, official provider, raw, BBH, precision bfloat16, type chatmodels, chat_template True",
+    "source": "open-llm-leaderboard",
+    "extra": {
+      "hf_model": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "leaderboard_id": "meta-llama/Meta-Llama-3-70B-Instruct_bfloat16_7129260dd854a80eb10ace5f61c20324b472b31c_True",
+      "benchmark_display_name": "BBH",
+      "normalized_score": 50.18513318440344,
+      "average_score": 36.37222412927012,
+      "precision": "bfloat16",
+      "model_type": "chatmodels",
+      "weight_type": "Original",
+      "architecture": "LlamaForCausalLM",
+      "has_chat_template": true,
+      "params_billions": 70.554,
+      "hub_license": "llama3",
+      "submission_date": "2024-06-12",
+      "upload_date": "2024-04-17",
+      "co2_cost": 36.478300235478294
+    }
+  },
+  {
+    "model_id": "phi-3.5-moe",
+    "benchmark_id": "bbh",
+    "score": 0.64076256,
+    "config": "Open LLM Leaderboard v2, official provider, raw, BBH, precision bfloat16, type chatmodels, chat_template True",
+    "source": "open-llm-leaderboard",
+    "extra": {
+      "hf_model": "microsoft/Phi-3.5-MoE-instruct",
+      "leaderboard_id": "microsoft/Phi-3.5-MoE-instruct_bfloat16_482a9ba0eb0e1fa1671e3560e009d7cec2e5147c_True",
+      "benchmark_display_name": "BBH",
+      "normalized_score": 48.77464635932187,
+      "average_score": 36.8789647220093,
+      "precision": "bfloat16",
+      "model_type": "chatmodels",
+      "weight_type": "Original",
+      "architecture": "Phi3ForCausalLM",
+      "has_chat_template": true,
+      "params_billions": 42,
+      "hub_license": "mit",
+      "submission_date": "2024-08-21",
+      "upload_date": "2024-08-17",
+      "co2_cost": 9.264557227888623
+    }
+  },
+  {
+    "model_id": "qwen2.5-14b",
+    "benchmark_id": "bbh",
+    "score": 0.63904537,
+    "config": "Open LLM Leaderboard v2, official provider, raw, BBH, precision bfloat16, type chatmodels, chat_template True",
+    "source": "open-llm-leaderboard",
+    "extra": {
+      "hf_model": "Qwen/Qwen2.5-14B-Instruct",
+      "leaderboard_id": "Qwen/Qwen2.5-14B-Instruct_bfloat16_f55224c616ca27d4bcf28969a156de12c98981cf_True",
+      "benchmark_display_name": "BBH",
+      "normalized_score": 48.36070661282705,
+      "average_score": 41.30945747711163,
+      "precision": "bfloat16",
+      "model_type": "chatmodels",
+      "weight_type": "Original",
+      "architecture": "Qwen2ForCausalLM",
+      "has_chat_template": true,
+      "params_billions": 14.77,
+      "hub_license": "apache-2.0",
+      "submission_date": "2024-09-18",
+      "upload_date": "2024-09-16",
+      "co2_cost": 3.547300640675203
+    },
+    "variants": [
+      {
+        "score": 0.61605149,
+        "config": "Open LLM Leaderboard v2, official provider, raw, BBH, precision bfloat16, type pretrained, chat_template False",
+        "source": "open-llm-leaderboard"
+      }
+    ]
+  },
+  {
+    "model_id": "deepseek-r1-distill-llama-70b",
+    "benchmark_id": "bbh",
+    "score": 0.56349626,
+    "config": "Open LLM Leaderboard v2, official provider, raw, BBH, precision bfloat16, type chatmodels, chat_template True",
+    "source": "open-llm-leaderboard",
+    "extra": {
+      "hf_model": "deepseek-ai/DeepSeek-R1-Distill-Llama-70B",
+      "leaderboard_id": "deepseek-ai/DeepSeek-R1-Distill-Llama-70B_bfloat16_07a264a567ba0863a4ab34fdb3c2b8a54e0bb494_True",
+      "benchmark_display_name": "BBH",
+      "normalized_score": 35.81986234433108,
+      "average_score": 27.809426360756188,
+      "precision": "bfloat16",
+      "model_type": "chatmodels",
+      "weight_type": "Original",
+      "architecture": "LlamaForCausalLM",
+      "has_chat_template": true,
+      "params_billions": 70.554,
+      "hub_license": "mit",
+      "submission_date": "2025-01-22",
+      "upload_date": "2025-01-20",
+      "co2_cost": 118.54646560023332
+    }
+  },
+  {
+    "model_id": "qwen2.5-7b",
+    "benchmark_id": "bbh",
+    "score": 0.54163038,
+    "config": "Open LLM Leaderboard v2, official provider, raw, BBH, precision bfloat16, type pretrained, chat_template False",
+    "source": "open-llm-leaderboard",
+    "extra": {
+      "hf_model": "Qwen/Qwen2.5-7B",
+      "leaderboard_id": "Qwen/Qwen2.5-7B_bfloat16_57597c00770845ceba45271ba1b24c94bbcc7baf_False",
+      "benchmark_display_name": "BBH",
+      "normalized_score": 35.81347328754777,
+      "average_score": 26.019159924095096,
+      "precision": "bfloat16",
+      "model_type": "pretrained",
+      "weight_type": "Original",
+      "architecture": "Qwen2ForCausalLM",
+      "has_chat_template": false,
+      "params_billions": 7.616,
+      "hub_license": "apache-2.0",
+      "submission_date": "2024-09-19",
+      "upload_date": "2024-09-15",
+      "co2_cost": 4.686730426753914
+    },
+    "variants": [
+      {
+        "score": 0.5394232,
+        "config": "Open LLM Leaderboard v2, official provider, raw, BBH, precision bfloat16, type chatmodels, chat_template True",
+        "source": "open-llm-leaderboard"
+      }
+    ]
+  },
+  {
+    "model_id": "llama-3.1-8b",
+    "benchmark_id": "bbh",
+    "score": 0.50870322,
+    "config": "Open LLM Leaderboard v2, official provider, raw, BBH, precision float16, type pretrained, chat_template False",
+    "source": "open-llm-leaderboard",
+    "extra": {
+      "hf_model": "meta-llama/Llama-3.1-8B-Instruct",
+      "leaderboard_id": "meta-llama/Llama-3.1-8B-Instruct_float16_0e9e39f249a16976918f6564b8830bc894c89659_False",
+      "benchmark_display_name": "BBH",
+      "normalized_score": 29.379192497334035,
+      "average_score": 23.763729445470883,
+      "precision": "float16",
+      "model_type": "pretrained",
+      "weight_type": "Original",
+      "architecture": "LlamaForCausalLM",
+      "has_chat_template": false,
+      "params_billions": 8.03,
+      "hub_license": "llama3.1",
+      "submission_date": "2025-02-06",
+      "upload_date": "2024-07-18",
+      "co2_cost": 2.1060373342307948
+    },
+    "variants": [
+      {
+        "score": 0.46595905,
+        "config": "Open LLM Leaderboard v2, official provider, raw, BBH, precision float16, type fine-tunedondomain-specificdatasets, chat_template False",
+        "source": "open-llm-leaderboard"
+      }
+    ]
+  },
+  {
+    "model_id": "llama-3-8b",
+    "benchmark_id": "bbh",
+    "score": 0.49887111,
+    "config": "Open LLM Leaderboard v2, official provider, raw, BBH, precision bfloat16, type chatmodels, chat_template True",
+    "source": "open-llm-leaderboard",
+    "extra": {
+      "hf_model": "meta-llama/Meta-Llama-3-8B-Instruct",
+      "leaderboard_id": "meta-llama/Meta-Llama-3-8B-Instruct_bfloat16_e1945c40cd546c78e41f1151f4db032b271faeaa_True",
+      "benchmark_display_name": "BBH",
+      "normalized_score": 28.244949576343615,
+      "average_score": 23.908735693936837,
+      "precision": "bfloat16",
+      "model_type": "chatmodels",
+      "weight_type": "Original",
+      "architecture": "LlamaForCausalLM",
+      "has_chat_template": true,
+      "params_billions": 8.03,
+      "hub_license": "llama3",
+      "submission_date": "2024-06-12",
+      "upload_date": "2024-04-17",
+      "co2_cost": 0.7974996778909468
+    },
+    "variants": [
+      {
+        "score": 0.49102642,
+        "config": "Open LLM Leaderboard v2, official provider, raw, BBH, precision float16, type chatmodels, chat_template False",
+        "source": "open-llm-leaderboard"
+      }
+    ]
+  },
+  {
+    "model_id": "deepseek-r1-distill-qwen-32b",
+    "benchmark_id": "bbh",
+    "score": 0.41969151,
+    "config": "Open LLM Leaderboard v2, official provider, raw, BBH, precision bfloat16, type fine-tunedondomain-specificdatasets, chat_template True",
+    "source": "open-llm-leaderboard",
+    "extra": {
+      "hf_model": "deepseek-ai/DeepSeek-R1-Distill-Qwen-32B",
+      "leaderboard_id": "deepseek-ai/DeepSeek-R1-Distill-Qwen-32B_bfloat16_4569fd730224ec487752bd4954399c6e18bf3aa6_True",
+      "benchmark_display_name": "BBH",
+      "normalized_score": 17.149673765590364,
+      "average_score": 22.96226839270608,
+      "precision": "bfloat16",
+      "model_type": "fine-tunedondomain-specificdatasets",
+      "weight_type": "Original",
+      "architecture": "Qwen2ForCausalLM",
+      "has_chat_template": true,
+      "params_billions": 32.764,
+      "hub_license": "mit",
+      "submission_date": "2025-01-21",
+      "upload_date": "2025-01-20",
+      "co2_cost": 47.27590504446936
+    }
+  },
+  {
+    "model_id": "qwen2.5-32b",
+    "benchmark_id": "gpqa",
+    "score": 0.41191275,
+    "config": "Open LLM Leaderboard v2, official provider, raw, GPQA, precision bfloat16, type pretrained, chat_template False",
+    "source": "open-llm-leaderboard",
+    "extra": {
+      "hf_model": "Qwen/Qwen2.5-32B",
+      "leaderboard_id": "Qwen/Qwen2.5-32B_bfloat16_ff23665d01c3665be5fdb271d18a62090b65c06d_False",
+      "benchmark_display_name": "GPQA",
+      "normalized_score": 21.58836689038031,
+      "average_score": 38.00796730514634,
+      "precision": "bfloat16",
+      "model_type": "pretrained",
+      "weight_type": "Original",
+      "architecture": "Qwen2ForCausalLM",
+      "has_chat_template": false,
+      "params_billions": 32.764,
+      "hub_license": "apache-2.0",
+      "submission_date": "2024-09-19",
+      "upload_date": "2024-09-15",
+      "co2_cost": 11.74977108549449
+    },
+    "variants": [
+      {
+        "score": 0.33808725,
+        "config": "Open LLM Leaderboard v2, official provider, raw, GPQA, precision bfloat16, type chatmodels, chat_template True",
+        "source": "open-llm-leaderboard"
+      }
+    ]
+  },
+  {
+    "model_id": "phi-4",
+    "benchmark_id": "gpqa",
+    "score": 0.40604027,
+    "config": "Open LLM Leaderboard v2, official provider, raw, GPQA, precision bfloat16, type chatmodels, chat_template True",
+    "source": "open-llm-leaderboard",
+    "extra": {
+      "hf_model": "microsoft/phi-4",
+      "leaderboard_id": "microsoft/phi-4_bfloat16_381727a5ee103da6c1b14ecd3d39cd09832cbcf8_True",
+      "benchmark_display_name": "GPQA",
+      "normalized_score": 20.805369127516784,
+      "average_score": 30.35812781134617,
+      "precision": "bfloat16",
+      "model_type": "chatmodels",
+      "weight_type": "Original",
+      "architecture": "Phi3ForCausalLM",
+      "has_chat_template": true,
+      "params_billions": 14.66,
+      "hub_license": "mit",
+      "submission_date": "2025-01-08",
+      "upload_date": "2024-12-11",
+      "co2_cost": 2.7731595658140327
+    },
+    "variants": [
+      {
+        "score": 0.40100671,
+        "config": "Open LLM Leaderboard v2, official provider, raw, GPQA, precision float16, type pretrained, chat_template False",
+        "source": "open-llm-leaderboard"
+      }
+    ]
+  },
+  {
+    "model_id": "qwen-2.5-72b",
+    "benchmark_id": "gpqa",
+    "score": 0.40520134,
+    "config": "Open LLM Leaderboard v2, official provider, raw, GPQA, precision bfloat16, type pretrained, chat_template False",
+    "source": "open-llm-leaderboard",
+    "extra": {
+      "hf_model": "Qwen/Qwen2.5-72B",
+      "leaderboard_id": "Qwen/Qwen2.5-72B_bfloat16_587cc4061cf6a7cc0d429d05c109447e5cf063af_False",
+      "benchmark_display_name": "GPQA",
+      "normalized_score": 20.69351230425056,
+      "average_score": 38.441143572535815,
+      "precision": "bfloat16",
+      "model_type": "pretrained",
+      "weight_type": "Original",
+      "architecture": "Qwen2ForCausalLM",
+      "has_chat_template": false,
+      "params_billions": 72.706,
+      "hub_license": "other",
+      "submission_date": "2024-09-19",
+      "upload_date": "2024-09-15",
+      "co2_cost": 36.18385317998766
+    },
+    "variants": [
+      {
+        "score": 0.375,
+        "config": "Open LLM Leaderboard v2, official provider, raw, GPQA, precision bfloat16, type chatmodels, chat_template True",
+        "source": "open-llm-leaderboard"
+      },
+      {
+        "score": 0.37248322,
+        "config": "Open LLM Leaderboard v2, official provider, raw, GPQA, precision bfloat16, type chatmodels, chat_template False",
+        "source": "open-llm-leaderboard"
+      }
+    ]
+  },
+  {
+    "model_id": "llama-3.1-70b",
+    "benchmark_id": "gpqa",
+    "score": 0.38758389,
+    "config": "Open LLM Leaderboard v2, official provider, raw, GPQA, precision bfloat16, type pretrained, chat_template True",
+    "source": "open-llm-leaderboard",
+    "extra": {
+      "hf_model": "meta-llama/Llama-3.1-70B",
+      "leaderboard_id": "meta-llama/Llama-3.1-70B_bfloat16_f7d3cc45ed4ff669a354baf2e0f05e65799a0bee_True",
+      "benchmark_display_name": "GPQA",
+      "normalized_score": 18.34451901565996,
+      "average_score": 26.200215843375947,
+      "precision": "bfloat16",
+      "model_type": "pretrained",
+      "weight_type": "Original",
+      "architecture": "LlamaForCausalLM",
+      "has_chat_template": true,
+      "params_billions": 70.554,
+      "hub_license": "llama3.1",
+      "submission_date": "2024-07-23",
+      "upload_date": "2024-07-14",
+      "co2_cost": 13.601852032718597
+    },
+    "variants": [
+      {
+        "score": 0.35654362,
+        "config": "Open LLM Leaderboard v2, official provider, raw, GPQA, precision bfloat16, type chatmodels, chat_template True",
+        "source": "open-llm-leaderboard"
+      }
+    ]
+  },
+  {
+    "model_id": "qwen2.5-14b",
+    "benchmark_id": "gpqa",
+    "score": 0.38171141,
+    "config": "Open LLM Leaderboard v2, official provider, raw, GPQA, precision bfloat16, type pretrained, chat_template False",
+    "source": "open-llm-leaderboard",
+    "extra": {
+      "hf_model": "Qwen/Qwen2.5-14B",
+      "leaderboard_id": "Qwen/Qwen2.5-14B_bfloat16_83a1904df002b00bc8db6f877821cb77dbb363b0_False",
+      "benchmark_display_name": "GPQA",
+      "normalized_score": 17.561521252796418,
+      "average_score": 31.951062693148973,
+      "precision": "bfloat16",
+      "model_type": "pretrained",
+      "weight_type": "Original",
+      "architecture": "Qwen2ForCausalLM",
+      "has_chat_template": false,
+      "params_billions": 14.77,
+      "hub_license": "apache-2.0",
+      "submission_date": "2024-09-19",
+      "upload_date": "2024-09-15",
+      "co2_cost": 8.733912171643484
+    },
+    "variants": [
+      {
+        "score": 0.32214765,
+        "config": "Open LLM Leaderboard v2, official provider, raw, GPQA, precision bfloat16, type chatmodels, chat_template True",
+        "source": "open-llm-leaderboard"
+      }
+    ]
+  },
+  {
+    "model_id": "phi-3.5-moe",
+    "benchmark_id": "gpqa",
+    "score": 0.3557047,
+    "config": "Open LLM Leaderboard v2, official provider, raw, GPQA, precision bfloat16, type chatmodels, chat_template True",
+    "source": "open-llm-leaderboard",
+    "extra": {
+      "hf_model": "microsoft/Phi-3.5-MoE-instruct",
+      "leaderboard_id": "microsoft/Phi-3.5-MoE-instruct_bfloat16_482a9ba0eb0e1fa1671e3560e009d7cec2e5147c_True",
+      "benchmark_display_name": "GPQA",
+      "normalized_score": 14.093959731543624,
+      "average_score": 36.8789647220093,
+      "precision": "bfloat16",
+      "model_type": "chatmodels",
+      "weight_type": "Original",
+      "architecture": "Phi3ForCausalLM",
+      "has_chat_template": true,
+      "params_billions": 42,
+      "hub_license": "mit",
+      "submission_date": "2024-08-21",
+      "upload_date": "2024-08-17",
+      "co2_cost": 9.264557227888623
+    }
+  },
+  {
+    "model_id": "qwen2.5-coder-32b",
+    "benchmark_id": "gpqa",
+    "score": 0.34899329,
+    "config": "Open LLM Leaderboard v2, official provider, raw, GPQA, precision float16, type chatmodels, chat_template False",
+    "source": "open-llm-leaderboard",
+    "extra": {
+      "hf_model": "Qwen/Qwen2.5-Coder-32B-Instruct",
+      "leaderboard_id": "Qwen/Qwen2.5-Coder-32B-Instruct_float16_b47205940b83b5b484577359f71ee7b88472df67_False",
+      "benchmark_display_name": "GPQA",
+      "normalized_score": 13.19910514541387,
+      "average_score": 39.8854717744228,
+      "precision": "float16",
+      "model_type": "chatmodels",
+      "weight_type": "Original",
+      "architecture": "Qwen2ForCausalLM",
+      "has_chat_template": false,
+      "params_billions": 32.764,
+      "hub_license": "apache-2.0",
+      "submission_date": "2024-12-10",
+      "upload_date": "2024-11-06",
+      "co2_cost": 9.388779325959574
+    },
+    "variants": [
+      {
+        "score": 0.34647651,
+        "config": "Open LLM Leaderboard v2, official provider, raw, GPQA, precision float16, type pretrained, chat_template False",
+        "source": "open-llm-leaderboard"
+      }
+    ]
+  },
+  {
+    "model_id": "llama-3.3-70b",
+    "benchmark_id": "gpqa",
+    "score": 0.32885906,
+    "config": "Open LLM Leaderboard v2, official provider, raw, GPQA, precision bfloat16, type chatmodels, chat_template True",
+    "source": "open-llm-leaderboard",
+    "extra": {
+      "hf_model": "meta-llama/Llama-3.3-70B-Instruct",
+      "leaderboard_id": "meta-llama/Llama-3.3-70B-Instruct_bfloat16__True",
+      "benchmark_display_name": "GPQA",
+      "normalized_score": 10.514541387024613,
+      "average_score": 44.84747145129876,
+      "precision": "bfloat16",
+      "model_type": "chatmodels",
+      "weight_type": "Original",
+      "architecture": "LlamaForCausalLM",
+      "has_chat_template": true,
+      "params_billions": 70.554,
+      "hub_license": "llama3.3",
+      "submission_date": "2024-12-03",
+      "upload_date": "2024-11-26",
+      "co2_cost": 76.55907410745293
+    }
+  },
+  {
+    "model_id": "qwen2.5-7b",
+    "benchmark_id": "gpqa",
+    "score": 0.32466443,
+    "config": "Open LLM Leaderboard v2, official provider, raw, GPQA, precision bfloat16, type pretrained, chat_template False",
+    "source": "open-llm-leaderboard",
+    "extra": {
+      "hf_model": "Qwen/Qwen2.5-7B",
+      "leaderboard_id": "Qwen/Qwen2.5-7B_bfloat16_57597c00770845ceba45271ba1b24c94bbcc7baf_False",
+      "benchmark_display_name": "GPQA",
+      "normalized_score": 9.955257270693512,
+      "average_score": 26.019159924095096,
+      "precision": "bfloat16",
+      "model_type": "pretrained",
+      "weight_type": "Original",
+      "architecture": "Qwen2ForCausalLM",
+      "has_chat_template": false,
+      "params_billions": 7.616,
+      "hub_license": "apache-2.0",
+      "submission_date": "2024-09-19",
+      "upload_date": "2024-09-15",
+      "co2_cost": 4.686730426753914
+    },
+    "variants": [
+      {
+        "score": 0.29110738,
+        "config": "Open LLM Leaderboard v2, official provider, raw, GPQA, precision bfloat16, type chatmodels, chat_template True",
+        "source": "open-llm-leaderboard"
+      }
+    ]
+  },
+  {
+    "model_id": "llama-3.1-8b",
+    "benchmark_id": "gpqa",
+    "score": 0.31543624,
+    "config": "Open LLM Leaderboard v2, official provider, raw, GPQA, precision float16, type pretrained, chat_template False",
+    "source": "open-llm-leaderboard",
+    "extra": {
+      "hf_model": "meta-llama/Llama-3.1-8B-Instruct",
+      "leaderboard_id": "meta-llama/Llama-3.1-8B-Instruct_float16_0e9e39f249a16976918f6564b8830bc894c89659_False",
+      "benchmark_display_name": "GPQA",
+      "normalized_score": 8.7248322147651,
+      "average_score": 23.763729445470883,
+      "precision": "float16",
+      "model_type": "pretrained",
+      "weight_type": "Original",
+      "architecture": "LlamaForCausalLM",
+      "has_chat_template": false,
+      "params_billions": 8.03,
+      "hub_license": "llama3.1",
+      "submission_date": "2025-02-06",
+      "upload_date": "2024-07-18",
+      "co2_cost": 2.1060373342307948
+    },
+    "variants": [
+      {
+        "score": 0.31040268,
+        "config": "Open LLM Leaderboard v2, official provider, raw, GPQA, precision float16, type fine-tunedondomain-specificdatasets, chat_template False",
+        "source": "open-llm-leaderboard"
+      }
+    ]
+  },
+  {
+    "model_id": "llama-3-8b",
+    "benchmark_id": "gpqa",
+    "score": 0.29278523,
+    "config": "Open LLM Leaderboard v2, official provider, raw, GPQA, precision float16, type chatmodels, chat_template False",
+    "source": "open-llm-leaderboard",
+    "extra": {
+      "hf_model": "meta-llama/Meta-Llama-3-8B-Instruct",
+      "leaderboard_id": "meta-llama/Meta-Llama-3-8B-Instruct_float16_e1945c40cd546c78e41f1151f4db032b271faeaa_False",
+      "benchmark_display_name": "GPQA",
+      "normalized_score": 5.7046979865771785,
+      "average_score": 20.60915944602587,
+      "precision": "float16",
+      "model_type": "chatmodels",
+      "weight_type": "Original",
+      "architecture": "LlamaForCausalLM",
+      "has_chat_template": false,
+      "params_billions": 8.03,
+      "hub_license": "llama3",
+      "submission_date": "2024-07-08",
+      "upload_date": "2024-04-17",
+      "co2_cost": 1.898946514376925
+    },
+    "variants": [
+      {
+        "score": 0.25922819,
+        "config": "Open LLM Leaderboard v2, official provider, raw, GPQA, precision bfloat16, type chatmodels, chat_template True",
+        "source": "open-llm-leaderboard"
+      }
+    ]
+  },
+  {
+    "model_id": "llama-3-70b",
+    "benchmark_id": "gpqa",
+    "score": 0.28691275,
+    "config": "Open LLM Leaderboard v2, official provider, raw, GPQA, precision bfloat16, type chatmodels, chat_template True",
+    "source": "open-llm-leaderboard",
+    "extra": {
+      "hf_model": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "leaderboard_id": "meta-llama/Meta-Llama-3-70B-Instruct_bfloat16_7129260dd854a80eb10ace5f61c20324b472b31c_True",
+      "benchmark_display_name": "GPQA",
+      "normalized_score": 4.921700223713646,
+      "average_score": 36.37222412927012,
+      "precision": "bfloat16",
+      "model_type": "chatmodels",
+      "weight_type": "Original",
+      "architecture": "LlamaForCausalLM",
+      "has_chat_template": true,
+      "params_billions": 70.554,
+      "hub_license": "llama3",
+      "submission_date": "2024-06-12",
+      "upload_date": "2024-04-17",
+      "co2_cost": 36.478300235478294
+    }
+  },
+  {
+    "model_id": "deepseek-r1-distill-qwen-32b",
+    "benchmark_id": "gpqa",
+    "score": 0.28439597,
+    "config": "Open LLM Leaderboard v2, official provider, raw, GPQA, precision bfloat16, type fine-tunedondomain-specificdatasets, chat_template True",
+    "source": "open-llm-leaderboard",
+    "extra": {
+      "hf_model": "deepseek-ai/DeepSeek-R1-Distill-Qwen-32B",
+      "leaderboard_id": "deepseek-ai/DeepSeek-R1-Distill-Qwen-32B_bfloat16_4569fd730224ec487752bd4954399c6e18bf3aa6_True",
+      "benchmark_display_name": "GPQA",
+      "normalized_score": 4.5861297539149914,
+      "average_score": 22.96226839270608,
+      "precision": "bfloat16",
+      "model_type": "fine-tunedondomain-specificdatasets",
+      "weight_type": "Original",
+      "architecture": "Qwen2ForCausalLM",
+      "has_chat_template": true,
+      "params_billions": 32.764,
+      "hub_license": "mit",
+      "submission_date": "2025-01-21",
+      "upload_date": "2025-01-20",
+      "co2_cost": 47.27590504446936
+    }
+  },
+  {
+    "model_id": "qwq-32b",
+    "benchmark_id": "gpqa",
+    "score": 0.28187919,
+    "config": "Open LLM Leaderboard v2, official provider, raw, GPQA, precision bfloat16, type chatmodels, chat_template True",
+    "source": "open-llm-leaderboard",
+    "extra": {
+      "hf_model": "Qwen/QwQ-32B-Preview",
+      "leaderboard_id": "Qwen/QwQ-32B-Preview_bfloat16_1032e81cb936c486aae1d33da75b2fbcd5deed4a_True",
+      "benchmark_display_name": "GPQA",
+      "normalized_score": 4.250559284116337,
+      "average_score": 34.11985336826446,
+      "precision": "bfloat16",
+      "model_type": "chatmodels",
+      "weight_type": "Original",
+      "architecture": "Qwen2ForCausalLM",
+      "has_chat_template": true,
+      "params_billions": 32.764,
+      "hub_license": "apache-2.0",
+      "submission_date": "2024-11-29",
+      "upload_date": "2024-11-27",
+      "co2_cost": 20.42077955247921
+    },
+    "variants": [
+      {
+        "score": 0.26006711,
+        "config": "Open LLM Leaderboard v2, official provider, raw, GPQA, precision bfloat16, type fine-tunedondomain-specificdatasets, chat_template True",
+        "source": "open-llm-leaderboard"
+      }
+    ]
+  },
+  {
+    "model_id": "deepseek-r1-distill-llama-70b",
+    "benchmark_id": "gpqa",
+    "score": 0.26510067,
+    "config": "Open LLM Leaderboard v2, official provider, raw, GPQA, precision bfloat16, type chatmodels, chat_template True",
+    "source": "open-llm-leaderboard",
+    "extra": {
+      "hf_model": "deepseek-ai/DeepSeek-R1-Distill-Llama-70B",
+      "leaderboard_id": "deepseek-ai/DeepSeek-R1-Distill-Llama-70B_bfloat16_07a264a567ba0863a4ab34fdb3c2b8a54e0bb494_True",
+      "benchmark_display_name": "GPQA",
+      "normalized_score": 2.0134228187919474,
+      "average_score": 27.809426360756188,
+      "precision": "bfloat16",
+      "model_type": "chatmodels",
+      "weight_type": "Original",
+      "architecture": "LlamaForCausalLM",
+      "has_chat_template": true,
+      "params_billions": 70.554,
+      "hub_license": "mit",
+      "submission_date": "2025-01-22",
+      "upload_date": "2025-01-20",
+      "co2_cost": 118.54646560023332
+    }
+  },
+  {
+    "model_id": "llama-3.3-70b",
+    "benchmark_id": "ifeval",
+    "score": 0.8997582,
+    "config": "Open LLM Leaderboard v2, official provider, raw, IFEval, precision bfloat16, type chatmodels, chat_template True",
+    "source": "open-llm-leaderboard",
+    "extra": {
+      "hf_model": "meta-llama/Llama-3.3-70B-Instruct",
+      "leaderboard_id": "meta-llama/Llama-3.3-70B-Instruct_bfloat16__True",
+      "benchmark_display_name": "IFEval",
+      "normalized_score": 89.97581971391463,
+      "average_score": 44.84747145129876,
+      "precision": "bfloat16",
+      "model_type": "chatmodels",
+      "weight_type": "Original",
+      "architecture": "LlamaForCausalLM",
+      "has_chat_template": true,
+      "params_billions": 70.554,
+      "hub_license": "llama3.3",
+      "submission_date": "2024-12-03",
+      "upload_date": "2024-11-26",
+      "co2_cost": 76.55907410745293
+    }
+  },
+  {
+    "model_id": "llama-3.1-70b",
+    "benchmark_id": "ifeval",
+    "score": 0.86688542,
+    "config": "Open LLM Leaderboard v2, official provider, raw, IFEval, precision bfloat16, type chatmodels, chat_template True",
+    "source": "open-llm-leaderboard",
+    "extra": {
+      "hf_model": "meta-llama/Llama-3.1-70B-Instruct",
+      "leaderboard_id": "meta-llama/Llama-3.1-70B-Instruct_bfloat16_b9461463b511ed3c0762467538ea32cf7c9669f2_True",
+      "benchmark_display_name": "IFEval",
+      "normalized_score": 86.6885419575615,
+      "average_score": 43.409948245645786,
+      "precision": "bfloat16",
+      "model_type": "chatmodels",
+      "weight_type": "Original",
+      "architecture": "LlamaForCausalLM",
+      "has_chat_template": true,
+      "params_billions": 70.554,
+      "hub_license": "llama3.1",
+      "submission_date": "2024-08-15",
+      "upload_date": "2024-07-16",
+      "co2_cost": 40.22182401425256
+    },
+    "variants": [
+      {
+        "score": 0.16843752,
+        "config": "Open LLM Leaderboard v2, official provider, raw, IFEval, precision bfloat16, type pretrained, chat_template True",
+        "source": "open-llm-leaderboard"
+      }
+    ]
+  },
+  {
+    "model_id": "qwen-2.5-72b",
+    "benchmark_id": "ifeval",
+    "score": 0.86383795,
+    "config": "Open LLM Leaderboard v2, official provider, raw, IFEval, precision bfloat16, type chatmodels, chat_template True",
+    "source": "open-llm-leaderboard",
+    "extra": {
+      "hf_model": "Qwen/Qwen2.5-72B-Instruct",
+      "leaderboard_id": "Qwen/Qwen2.5-72B-Instruct_bfloat16_a13fff9ad76700c7ecff2769f75943ba8395b4a7_True",
+      "benchmark_display_name": "IFEval",
+      "normalized_score": 86.3837949972739,
+      "average_score": 47.98045991216864,
+      "precision": "bfloat16",
+      "model_type": "chatmodels",
+      "weight_type": "Original",
+      "architecture": "Qwen2ForCausalLM",
+      "has_chat_template": true,
+      "params_billions": 72.706,
+      "hub_license": "other",
+      "submission_date": "2024-10-16",
+      "upload_date": "2024-09-16",
+      "co2_cost": 47.645491341309835
+    },
+    "variants": [
+      {
+        "score": 0.79891687,
+        "config": "Open LLM Leaderboard v2, official provider, raw, IFEval, precision bfloat16, type chatmodels, chat_template False",
+        "source": "open-llm-leaderboard"
+      },
+      {
+        "score": 0.41371007,
+        "config": "Open LLM Leaderboard v2, official provider, raw, IFEval, precision bfloat16, type pretrained, chat_template False",
+        "source": "open-llm-leaderboard"
+      }
+    ]
+  },
+  {
+    "model_id": "qwen2.5-32b",
+    "benchmark_id": "ifeval",
+    "score": 0.83461216,
+    "config": "Open LLM Leaderboard v2, official provider, raw, IFEval, precision bfloat16, type chatmodels, chat_template True",
+    "source": "open-llm-leaderboard",
+    "extra": {
+      "hf_model": "Qwen/Qwen2.5-32B-Instruct",
+      "leaderboard_id": "Qwen/Qwen2.5-32B-Instruct_bfloat16_70e8dfb9ad18a7d499f765fe206ff065ed8ca197_True",
+      "benchmark_display_name": "IFEval",
+      "normalized_score": 83.46121623957765,
+      "average_score": 46.59714569921449,
+      "precision": "bfloat16",
+      "model_type": "chatmodels",
+      "weight_type": "Original",
+      "architecture": "Qwen2ForCausalLM",
+      "has_chat_template": true,
+      "params_billions": 32.764,
+      "hub_license": "apache-2.0",
+      "submission_date": "2024-09-19",
+      "upload_date": "2024-09-17",
+      "co2_cost": 11.504966340685739
+    },
+    "variants": [
+      {
+        "score": 0.407665,
+        "config": "Open LLM Leaderboard v2, official provider, raw, IFEval, precision bfloat16, type pretrained, chat_template False",
+        "source": "open-llm-leaderboard"
+      }
+    ]
+  },
+  {
+    "model_id": "qwen2.5-14b",
+    "benchmark_id": "ifeval",
+    "score": 0.81577769,
+    "config": "Open LLM Leaderboard v2, official provider, raw, IFEval, precision bfloat16, type chatmodels, chat_template True",
+    "source": "open-llm-leaderboard",
+    "extra": {
+      "hf_model": "Qwen/Qwen2.5-14B-Instruct",
+      "leaderboard_id": "Qwen/Qwen2.5-14B-Instruct_bfloat16_f55224c616ca27d4bcf28969a156de12c98981cf_True",
+      "benchmark_display_name": "IFEval",
+      "normalized_score": 81.57776920792386,
+      "average_score": 41.30945747711163,
+      "precision": "bfloat16",
+      "model_type": "chatmodels",
+      "weight_type": "Original",
+      "architecture": "Qwen2ForCausalLM",
+      "has_chat_template": true,
+      "params_billions": 14.77,
+      "hub_license": "apache-2.0",
+      "submission_date": "2024-09-18",
+      "upload_date": "2024-09-16",
+      "co2_cost": 3.547300640675203
+    },
+    "variants": [
+      {
+        "score": 0.3694464,
+        "config": "Open LLM Leaderboard v2, official provider, raw, IFEval, precision bfloat16, type pretrained, chat_template False",
+        "source": "open-llm-leaderboard"
+      }
+    ]
+  },
+  {
+    "model_id": "llama-3-70b",
+    "benchmark_id": "ifeval",
+    "score": 0.80990771,
+    "config": "Open LLM Leaderboard v2, official provider, raw, IFEval, precision bfloat16, type chatmodels, chat_template True",
+    "source": "open-llm-leaderboard",
+    "extra": {
+      "hf_model": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "leaderboard_id": "meta-llama/Meta-Llama-3-70B-Instruct_bfloat16_7129260dd854a80eb10ace5f61c20324b472b31c_True",
+      "benchmark_display_name": "IFEval",
+      "normalized_score": 80.99077115387172,
+      "average_score": 36.37222412927012,
+      "precision": "bfloat16",
+      "model_type": "chatmodels",
+      "weight_type": "Original",
+      "architecture": "LlamaForCausalLM",
+      "has_chat_template": true,
+      "params_billions": 70.554,
+      "hub_license": "llama3",
+      "submission_date": "2024-06-12",
+      "upload_date": "2024-04-17",
+      "co2_cost": 36.478300235478294
+    }
+  },
+  {
+    "model_id": "qwen2.5-7b",
+    "benchmark_id": "ifeval",
+    "score": 0.75852516,
+    "config": "Open LLM Leaderboard v2, official provider, raw, IFEval, precision bfloat16, type chatmodels, chat_template True",
+    "source": "open-llm-leaderboard",
+    "extra": {
+      "hf_model": "Qwen/Qwen2.5-7B-Instruct",
+      "leaderboard_id": "Qwen/Qwen2.5-7B-Instruct_bfloat16_52e20a6f5f475e5c8f6a8ebda4ae5fa6b1ea22ac_True",
+      "benchmark_display_name": "IFEval",
+      "normalized_score": 75.85251576926998,
+      "average_score": 35.200108659947965,
+      "precision": "bfloat16",
+      "model_type": "chatmodels",
+      "weight_type": "Original",
+      "architecture": "Qwen2ForCausalLM",
+      "has_chat_template": true,
+      "params_billions": 7.616,
+      "hub_license": "apache-2.0",
+      "submission_date": "2024-09-18",
+      "upload_date": "2024-09-16",
+      "co2_cost": 3.2405911036770783
+    },
+    "variants": [
+      {
+        "score": 0.33744797,
+        "config": "Open LLM Leaderboard v2, official provider, raw, IFEval, precision bfloat16, type pretrained, chat_template False",
+        "source": "open-llm-leaderboard"
+      }
+    ]
+  },
+  {
+    "model_id": "llama-3-8b",
+    "benchmark_id": "ifeval",
+    "score": 0.74083986,
+    "config": "Open LLM Leaderboard v2, official provider, raw, IFEval, precision bfloat16, type chatmodels, chat_template True",
+    "source": "open-llm-leaderboard",
+    "extra": {
+      "hf_model": "meta-llama/Meta-Llama-3-8B-Instruct",
+      "leaderboard_id": "meta-llama/Meta-Llama-3-8B-Instruct_bfloat16_e1945c40cd546c78e41f1151f4db032b271faeaa_True",
+      "benchmark_display_name": "IFEval",
+      "normalized_score": 74.08398604591373,
+      "average_score": 23.908735693936837,
+      "precision": "bfloat16",
+      "model_type": "chatmodels",
+      "weight_type": "Original",
+      "architecture": "LlamaForCausalLM",
+      "has_chat_template": true,
+      "params_billions": 8.03,
+      "hub_license": "llama3",
+      "submission_date": "2024-06-12",
+      "upload_date": "2024-04-17",
+      "co2_cost": 0.7974996778909468
+    },
+    "variants": [
+      {
+        "score": 0.4782322,
+        "config": "Open LLM Leaderboard v2, official provider, raw, IFEval, precision float16, type chatmodels, chat_template False",
+        "source": "open-llm-leaderboard"
+      }
+    ]
+  },
+  {
+    "model_id": "qwen2.5-coder-32b",
+    "benchmark_id": "ifeval",
+    "score": 0.72652673,
+    "config": "Open LLM Leaderboard v2, official provider, raw, IFEval, precision float16, type chatmodels, chat_template False",
+    "source": "open-llm-leaderboard",
+    "extra": {
+      "hf_model": "Qwen/Qwen2.5-Coder-32B-Instruct",
+      "leaderboard_id": "Qwen/Qwen2.5-Coder-32B-Instruct_float16_b47205940b83b5b484577359f71ee7b88472df67_False",
+      "benchmark_display_name": "IFEval",
+      "normalized_score": 72.65267268625026,
+      "average_score": 39.8854717744228,
+      "precision": "float16",
+      "model_type": "chatmodels",
+      "weight_type": "Original",
+      "architecture": "Qwen2ForCausalLM",
+      "has_chat_template": false,
+      "params_billions": 32.764,
+      "hub_license": "apache-2.0",
+      "submission_date": "2024-12-10",
+      "upload_date": "2024-11-06",
+      "co2_cost": 9.388779325959574
+    },
+    "variants": [
+      {
+        "score": 0.43634113,
+        "config": "Open LLM Leaderboard v2, official provider, raw, IFEval, precision float16, type pretrained, chat_template False",
+        "source": "open-llm-leaderboard"
+      }
+    ]
+  },
+  {
+    "model_id": "phi-3.5-moe",
+    "benchmark_id": "ifeval",
+    "score": 0.69245491,
+    "config": "Open LLM Leaderboard v2, official provider, raw, IFEval, precision bfloat16, type chatmodels, chat_template True",
+    "source": "open-llm-leaderboard",
+    "extra": {
+      "hf_model": "microsoft/Phi-3.5-MoE-instruct",
+      "leaderboard_id": "microsoft/Phi-3.5-MoE-instruct_bfloat16_482a9ba0eb0e1fa1671e3560e009d7cec2e5147c_True",
+      "benchmark_display_name": "IFEval",
+      "normalized_score": 69.2454908531585,
+      "average_score": 36.8789647220093,
+      "precision": "bfloat16",
+      "model_type": "chatmodels",
+      "weight_type": "Original",
+      "architecture": "Phi3ForCausalLM",
+      "has_chat_template": true,
+      "params_billions": 42,
+      "hub_license": "mit",
+      "submission_date": "2024-08-21",
+      "upload_date": "2024-08-17",
+      "co2_cost": 9.264557227888623
+    }
+  },
+  {
+    "model_id": "llama-3.1-8b",
+    "benchmark_id": "ifeval",
+    "score": 0.49217077,
+    "config": "Open LLM Leaderboard v2, official provider, raw, IFEval, precision float16, type pretrained, chat_template False",
+    "source": "open-llm-leaderboard",
+    "extra": {
+      "hf_model": "meta-llama/Llama-3.1-8B-Instruct",
+      "leaderboard_id": "meta-llama/Llama-3.1-8B-Instruct_float16_0e9e39f249a16976918f6564b8830bc894c89659_False",
+      "benchmark_display_name": "IFEval",
+      "normalized_score": 49.217077354752064,
+      "average_score": 23.763729445470883,
+      "precision": "float16",
+      "model_type": "pretrained",
+      "weight_type": "Original",
+      "architecture": "LlamaForCausalLM",
+      "has_chat_template": false,
+      "params_billions": 8.03,
+      "hub_license": "llama3.1",
+      "submission_date": "2025-02-06",
+      "upload_date": "2024-07-18",
+      "co2_cost": 2.1060373342307948
+    },
+    "variants": [
+      {
+        "score": 0.12459829,
+        "config": "Open LLM Leaderboard v2, official provider, raw, IFEval, precision float16, type fine-tunedondomain-specificdatasets, chat_template False",
+        "source": "open-llm-leaderboard"
+      }
+    ]
+  },
+  {
+    "model_id": "deepseek-r1-distill-llama-70b",
+    "benchmark_id": "ifeval",
+    "score": 0.43359398,
+    "config": "Open LLM Leaderboard v2, official provider, raw, IFEval, precision bfloat16, type chatmodels, chat_template True",
+    "source": "open-llm-leaderboard",
+    "extra": {
+      "hf_model": "deepseek-ai/DeepSeek-R1-Distill-Llama-70B",
+      "leaderboard_id": "deepseek-ai/DeepSeek-R1-Distill-Llama-70B_bfloat16_07a264a567ba0863a4ab34fdb3c2b8a54e0bb494_True",
+      "benchmark_display_name": "IFEval",
+      "normalized_score": 43.35939750971866,
+      "average_score": 27.809426360756188,
+      "precision": "bfloat16",
+      "model_type": "chatmodels",
+      "weight_type": "Original",
+      "architecture": "LlamaForCausalLM",
+      "has_chat_template": true,
+      "params_billions": 70.554,
+      "hub_license": "mit",
+      "submission_date": "2025-01-22",
+      "upload_date": "2025-01-20",
+      "co2_cost": 118.54646560023332
+    }
+  },
+  {
+    "model_id": "deepseek-r1-distill-qwen-32b",
+    "benchmark_id": "ifeval",
+    "score": 0.41863145,
+    "config": "Open LLM Leaderboard v2, official provider, raw, IFEval, precision bfloat16, type fine-tunedondomain-specificdatasets, chat_template True",
+    "source": "open-llm-leaderboard",
+    "extra": {
+      "hf_model": "deepseek-ai/DeepSeek-R1-Distill-Qwen-32B",
+      "leaderboard_id": "deepseek-ai/DeepSeek-R1-Distill-Qwen-32B_bfloat16_4569fd730224ec487752bd4954399c6e18bf3aa6_True",
+      "benchmark_display_name": "IFEval",
+      "normalized_score": 41.86314534324481,
+      "average_score": 22.96226839270608,
+      "precision": "bfloat16",
+      "model_type": "fine-tunedondomain-specificdatasets",
+      "weight_type": "Original",
+      "architecture": "Qwen2ForCausalLM",
+      "has_chat_template": true,
+      "params_billions": 32.764,
+      "hub_license": "mit",
+      "submission_date": "2025-01-21",
+      "upload_date": "2025-01-20",
+      "co2_cost": 47.27590504446936
+    }
+  },
+  {
+    "model_id": "qwq-32b",
+    "benchmark_id": "ifeval",
+    "score": 0.40354371,
+    "config": "Open LLM Leaderboard v2, official provider, raw, IFEval, precision bfloat16, type chatmodels, chat_template True",
+    "source": "open-llm-leaderboard",
+    "extra": {
+      "hf_model": "Qwen/QwQ-32B-Preview",
+      "leaderboard_id": "Qwen/QwQ-32B-Preview_bfloat16_1032e81cb936c486aae1d33da75b2fbcd5deed4a_True",
+      "benchmark_display_name": "IFEval",
+      "normalized_score": 40.354370847130056,
+      "average_score": 34.11985336826446,
+      "precision": "bfloat16",
+      "model_type": "chatmodels",
+      "weight_type": "Original",
+      "architecture": "Qwen2ForCausalLM",
+      "has_chat_template": true,
+      "params_billions": 32.764,
+      "hub_license": "apache-2.0",
+      "submission_date": "2024-11-29",
+      "upload_date": "2024-11-27",
+      "co2_cost": 20.42077955247921
+    },
+    "variants": [
+      {
+        "score": 0.39767373,
+        "config": "Open LLM Leaderboard v2, official provider, raw, IFEval, precision bfloat16, type fine-tunedondomain-specificdatasets, chat_template True",
+        "source": "open-llm-leaderboard"
+      }
+    ]
+  },
+  {
+    "model_id": "phi-4",
+    "benchmark_id": "ifeval",
+    "score": 0.05852693,
+    "config": "Open LLM Leaderboard v2, official provider, raw, IFEval, precision bfloat16, type chatmodels, chat_template True",
+    "source": "open-llm-leaderboard",
+    "extra": {
+      "hf_model": "microsoft/phi-4",
+      "leaderboard_id": "microsoft/phi-4_bfloat16_381727a5ee103da6c1b14ecd3d39cd09832cbcf8_True",
+      "benchmark_display_name": "IFEval",
+      "normalized_score": 5.852693076592331,
+      "average_score": 30.35812781134617,
+      "precision": "bfloat16",
+      "model_type": "chatmodels",
+      "weight_type": "Original",
+      "architecture": "Phi3ForCausalLM",
+      "has_chat_template": true,
+      "params_billions": 14.66,
+      "hub_license": "mit",
+      "submission_date": "2025-01-08",
+      "upload_date": "2024-12-11",
+      "co2_cost": 2.7731595658140327
+    },
+    "variants": [
+      {
+        "score": 0.048785,
+        "config": "Open LLM Leaderboard v2, official provider, raw, IFEval, precision float16, type pretrained, chat_template False",
+        "source": "open-llm-leaderboard"
+      }
+    ]
+  },
+  {
+    "model_id": "qwen2.5-32b",
+    "benchmark_id": "math",
+    "score": 0.62537764,
+    "config": "Open LLM Leaderboard v2, official provider, raw, MATH Level 5, precision bfloat16, type chatmodels, chat_template True",
+    "source": "open-llm-leaderboard",
+    "extra": {
+      "hf_model": "Qwen/Qwen2.5-32B-Instruct",
+      "leaderboard_id": "Qwen/Qwen2.5-32B-Instruct_bfloat16_70e8dfb9ad18a7d499f765fe206ff065ed8ca197_True",
+      "benchmark_display_name": "MATH Level 5",
+      "normalized_score": 62.53776435045317,
+      "average_score": 46.59714569921449,
+      "precision": "bfloat16",
+      "model_type": "chatmodels",
+      "weight_type": "Original",
+      "architecture": "Qwen2ForCausalLM",
+      "has_chat_template": true,
+      "params_billions": 32.764,
+      "hub_license": "apache-2.0",
+      "submission_date": "2024-09-19",
+      "upload_date": "2024-09-17",
+      "co2_cost": 11.504966340685739
+    },
+    "variants": [
+      {
+        "score": 0.35649547,
+        "config": "Open LLM Leaderboard v2, official provider, raw, MATH Level 5, precision bfloat16, type pretrained, chat_template False",
+        "source": "open-llm-leaderboard"
+      }
+    ]
+  },
+  {
+    "model_id": "qwen-2.5-72b",
+    "benchmark_id": "math",
+    "score": 0.59818731,
+    "config": "Open LLM Leaderboard v2, official provider, raw, MATH Level 5, precision bfloat16, type chatmodels, chat_template True",
+    "source": "open-llm-leaderboard",
+    "extra": {
+      "hf_model": "Qwen/Qwen2.5-72B-Instruct",
+      "leaderboard_id": "Qwen/Qwen2.5-72B-Instruct_bfloat16_a13fff9ad76700c7ecff2769f75943ba8395b4a7_True",
+      "benchmark_display_name": "MATH Level 5",
+      "normalized_score": 59.818731117824775,
+      "average_score": 47.98045991216864,
+      "precision": "bfloat16",
+      "model_type": "chatmodels",
+      "weight_type": "Original",
+      "architecture": "Qwen2ForCausalLM",
+      "has_chat_template": true,
+      "params_billions": 72.706,
+      "hub_license": "other",
+      "submission_date": "2024-10-16",
+      "upload_date": "2024-09-16",
+      "co2_cost": 47.645491341309835
+    },
+    "variants": [
+      {
+        "score": 0.41767372,
+        "config": "Open LLM Leaderboard v2, official provider, raw, MATH Level 5, precision bfloat16, type chatmodels, chat_template False",
+        "source": "open-llm-leaderboard"
+      },
+      {
+        "score": 0.39123867,
+        "config": "Open LLM Leaderboard v2, official provider, raw, MATH Level 5, precision bfloat16, type pretrained, chat_template False",
+        "source": "open-llm-leaderboard"
+      }
+    ]
+  },
+  {
+    "model_id": "qwen2.5-14b",
+    "benchmark_id": "math",
+    "score": 0.54758308,
+    "config": "Open LLM Leaderboard v2, official provider, raw, MATH Level 5, precision bfloat16, type chatmodels, chat_template True",
+    "source": "open-llm-leaderboard",
+    "extra": {
+      "hf_model": "Qwen/Qwen2.5-14B-Instruct",
+      "leaderboard_id": "Qwen/Qwen2.5-14B-Instruct_bfloat16_f55224c616ca27d4bcf28969a156de12c98981cf_True",
+      "benchmark_display_name": "MATH Level 5",
+      "normalized_score": 54.7583081570997,
+      "average_score": 41.30945747711163,
+      "precision": "bfloat16",
+      "model_type": "chatmodels",
+      "weight_type": "Original",
+      "architecture": "Qwen2ForCausalLM",
+      "has_chat_template": true,
+      "params_billions": 14.77,
+      "hub_license": "apache-2.0",
+      "submission_date": "2024-09-18",
+      "upload_date": "2024-09-16",
+      "co2_cost": 3.547300640675203
+    },
+    "variants": [
+      {
+        "score": 0.29003021,
+        "config": "Open LLM Leaderboard v2, official provider, raw, MATH Level 5, precision bfloat16, type pretrained, chat_template False",
+        "source": "open-llm-leaderboard"
+      }
+    ]
+  },
+  {
+    "model_id": "qwen2.5-7b",
+    "benchmark_id": "math",
+    "score": 0.5,
+    "config": "Open LLM Leaderboard v2, official provider, raw, MATH Level 5, precision bfloat16, type chatmodels, chat_template True",
+    "source": "open-llm-leaderboard",
+    "extra": {
+      "hf_model": "Qwen/Qwen2.5-7B-Instruct",
+      "leaderboard_id": "Qwen/Qwen2.5-7B-Instruct_bfloat16_52e20a6f5f475e5c8f6a8ebda4ae5fa6b1ea22ac_True",
+      "benchmark_display_name": "MATH Level 5",
+      "normalized_score": 50,
+      "average_score": 35.200108659947965,
+      "precision": "bfloat16",
+      "model_type": "chatmodels",
+      "weight_type": "Original",
+      "architecture": "Qwen2ForCausalLM",
+      "has_chat_template": true,
+      "params_billions": 7.616,
+      "hub_license": "apache-2.0",
+      "submission_date": "2024-09-18",
+      "upload_date": "2024-09-16",
+      "co2_cost": 3.2405911036770783
+    },
+    "variants": [
+      {
+        "score": 0.25075529,
+        "config": "Open LLM Leaderboard v2, official provider, raw, MATH Level 5, precision bfloat16, type pretrained, chat_template False",
+        "source": "open-llm-leaderboard"
+      }
+    ]
+  },
+  {
+    "model_id": "qwen2.5-coder-32b",
+    "benchmark_id": "math",
+    "score": 0.49546828,
+    "config": "Open LLM Leaderboard v2, official provider, raw, MATH Level 5, precision float16, type chatmodels, chat_template False",
+    "source": "open-llm-leaderboard",
+    "extra": {
+      "hf_model": "Qwen/Qwen2.5-Coder-32B-Instruct",
+      "leaderboard_id": "Qwen/Qwen2.5-Coder-32B-Instruct_float16_b47205940b83b5b484577359f71ee7b88472df67_False",
+      "benchmark_display_name": "MATH Level 5",
+      "normalized_score": 49.546827794561935,
+      "average_score": 39.8854717744228,
+      "precision": "float16",
+      "model_type": "chatmodels",
+      "weight_type": "Original",
+      "architecture": "Qwen2ForCausalLM",
+      "has_chat_template": false,
+      "params_billions": 32.764,
+      "hub_license": "apache-2.0",
+      "submission_date": "2024-12-10",
+      "upload_date": "2024-11-06",
+      "co2_cost": 9.388779325959574
+    },
+    "variants": [
+      {
+        "score": 0.30891239,
+        "config": "Open LLM Leaderboard v2, official provider, raw, MATH Level 5, precision float16, type pretrained, chat_template False",
+        "source": "open-llm-leaderboard"
+      }
+    ]
+  },
+  {
+    "model_id": "llama-3.3-70b",
+    "benchmark_id": "math",
+    "score": 0.48338369,
+    "config": "Open LLM Leaderboard v2, official provider, raw, MATH Level 5, precision bfloat16, type chatmodels, chat_template True",
+    "source": "open-llm-leaderboard",
+    "extra": {
+      "hf_model": "meta-llama/Llama-3.3-70B-Instruct",
+      "leaderboard_id": "meta-llama/Llama-3.3-70B-Instruct_bfloat16__True",
+      "benchmark_display_name": "MATH Level 5",
+      "normalized_score": 48.338368580060425,
+      "average_score": 44.84747145129876,
+      "precision": "bfloat16",
+      "model_type": "chatmodels",
+      "weight_type": "Original",
+      "architecture": "LlamaForCausalLM",
+      "has_chat_template": true,
+      "params_billions": 70.554,
+      "hub_license": "llama3.3",
+      "submission_date": "2024-12-03",
+      "upload_date": "2024-11-26",
+      "co2_cost": 76.55907410745293
+    }
+  },
+  {
+    "model_id": "qwq-32b",
+    "benchmark_id": "math",
+    "score": 0.44939577,
+    "config": "Open LLM Leaderboard v2, official provider, raw, MATH Level 5, precision bfloat16, type chatmodels, chat_template True",
+    "source": "open-llm-leaderboard",
+    "extra": {
+      "hf_model": "Qwen/QwQ-32B-Preview",
+      "leaderboard_id": "Qwen/QwQ-32B-Preview_bfloat16_1032e81cb936c486aae1d33da75b2fbcd5deed4a_True",
+      "benchmark_display_name": "MATH Level 5",
+      "normalized_score": 44.93957703927492,
+      "average_score": 34.11985336826446,
+      "precision": "bfloat16",
+      "model_type": "chatmodels",
+      "weight_type": "Original",
+      "architecture": "Qwen2ForCausalLM",
+      "has_chat_template": true,
+      "params_billions": 32.764,
+      "hub_license": "apache-2.0",
+      "submission_date": "2024-11-29",
+      "upload_date": "2024-11-27",
+      "co2_cost": 20.42077955247921
+    },
+    "variants": [
+      {
+        "score": 0.16087613,
+        "config": "Open LLM Leaderboard v2, official provider, raw, MATH Level 5, precision bfloat16, type fine-tunedondomain-specificdatasets, chat_template True",
+        "source": "open-llm-leaderboard"
+      }
+    ]
+  },
+  {
+    "model_id": "llama-3.1-70b",
+    "benchmark_id": "math",
+    "score": 0.38066465,
+    "config": "Open LLM Leaderboard v2, official provider, raw, MATH Level 5, precision bfloat16, type chatmodels, chat_template True",
+    "source": "open-llm-leaderboard",
+    "extra": {
+      "hf_model": "meta-llama/Llama-3.1-70B-Instruct",
+      "leaderboard_id": "meta-llama/Llama-3.1-70B-Instruct_bfloat16_b9461463b511ed3c0762467538ea32cf7c9669f2_True",
+      "benchmark_display_name": "MATH Level 5",
+      "normalized_score": 38.066465256797585,
+      "average_score": 43.409948245645786,
+      "precision": "bfloat16",
+      "model_type": "chatmodels",
+      "weight_type": "Original",
+      "architecture": "LlamaForCausalLM",
+      "has_chat_template": true,
+      "params_billions": 70.554,
+      "hub_license": "llama3.1",
+      "submission_date": "2024-08-15",
+      "upload_date": "2024-07-16",
+      "co2_cost": 40.22182401425256
+    },
+    "variants": [
+      {
+        "score": 0.18429003,
+        "config": "Open LLM Leaderboard v2, official provider, raw, MATH Level 5, precision bfloat16, type pretrained, chat_template True",
+        "source": "open-llm-leaderboard"
+      }
+    ]
+  },
+  {
+    "model_id": "phi-4",
+    "benchmark_id": "math",
+    "score": 0.31646526,
+    "config": "Open LLM Leaderboard v2, official provider, raw, MATH Level 5, precision bfloat16, type chatmodels, chat_template True",
+    "source": "open-llm-leaderboard",
+    "extra": {
+      "hf_model": "microsoft/phi-4",
+      "leaderboard_id": "microsoft/phi-4_bfloat16_381727a5ee103da6c1b14ecd3d39cd09832cbcf8_True",
+      "benchmark_display_name": "MATH Level 5",
+      "normalized_score": 31.64652567975831,
+      "average_score": 30.35812781134617,
+      "precision": "bfloat16",
+      "model_type": "chatmodels",
+      "weight_type": "Original",
+      "architecture": "Phi3ForCausalLM",
+      "has_chat_template": true,
+      "params_billions": 14.66,
+      "hub_license": "mit",
+      "submission_date": "2025-01-08",
+      "upload_date": "2024-12-11",
+      "co2_cost": 2.7731595658140327
+    },
+    "variants": [
+      {
+        "score": 0.27870091,
+        "config": "Open LLM Leaderboard v2, official provider, raw, MATH Level 5, precision float16, type pretrained, chat_template False",
+        "source": "open-llm-leaderboard"
+      }
+    ]
+  },
+  {
+    "model_id": "phi-3.5-moe",
+    "benchmark_id": "math",
+    "score": 0.31193353,
+    "config": "Open LLM Leaderboard v2, official provider, raw, MATH Level 5, precision bfloat16, type chatmodels, chat_template True",
+    "source": "open-llm-leaderboard",
+    "extra": {
+      "hf_model": "microsoft/Phi-3.5-MoE-instruct",
+      "leaderboard_id": "microsoft/Phi-3.5-MoE-instruct_bfloat16_482a9ba0eb0e1fa1671e3560e009d7cec2e5147c_True",
+      "benchmark_display_name": "MATH Level 5",
+      "normalized_score": 31.19335347432024,
+      "average_score": 36.8789647220093,
+      "precision": "bfloat16",
+      "model_type": "chatmodels",
+      "weight_type": "Original",
+      "architecture": "Phi3ForCausalLM",
+      "has_chat_template": true,
+      "params_billions": 42,
+      "hub_license": "mit",
+      "submission_date": "2024-08-21",
+      "upload_date": "2024-08-17",
+      "co2_cost": 9.264557227888623
+    }
+  },
+  {
+    "model_id": "deepseek-r1-distill-llama-70b",
+    "benchmark_id": "math",
+    "score": 0.30740181,
+    "config": "Open LLM Leaderboard v2, official provider, raw, MATH Level 5, precision bfloat16, type chatmodels, chat_template True",
+    "source": "open-llm-leaderboard",
+    "extra": {
+      "hf_model": "deepseek-ai/DeepSeek-R1-Distill-Llama-70B",
+      "leaderboard_id": "deepseek-ai/DeepSeek-R1-Distill-Llama-70B_bfloat16_07a264a567ba0863a4ab34fdb3c2b8a54e0bb494_True",
+      "benchmark_display_name": "MATH Level 5",
+      "normalized_score": 30.74018126888218,
+      "average_score": 27.809426360756188,
+      "precision": "bfloat16",
+      "model_type": "chatmodels",
+      "weight_type": "Original",
+      "architecture": "LlamaForCausalLM",
+      "has_chat_template": true,
+      "params_billions": 70.554,
+      "hub_license": "mit",
+      "submission_date": "2025-01-22",
+      "upload_date": "2025-01-20",
+      "co2_cost": 118.54646560023332
+    }
+  },
+  {
+    "model_id": "llama-3-70b",
+    "benchmark_id": "math",
+    "score": 0.24471299,
+    "config": "Open LLM Leaderboard v2, official provider, raw, MATH Level 5, precision bfloat16, type chatmodels, chat_template True",
+    "source": "open-llm-leaderboard",
+    "extra": {
+      "hf_model": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "leaderboard_id": "meta-llama/Meta-Llama-3-70B-Instruct_bfloat16_7129260dd854a80eb10ace5f61c20324b472b31c_True",
+      "benchmark_display_name": "MATH Level 5",
+      "normalized_score": 24.47129909365559,
+      "average_score": 36.37222412927012,
+      "precision": "bfloat16",
+      "model_type": "chatmodels",
+      "weight_type": "Original",
+      "architecture": "LlamaForCausalLM",
+      "has_chat_template": true,
+      "params_billions": 70.554,
+      "hub_license": "llama3",
+      "submission_date": "2024-06-12",
+      "upload_date": "2024-04-17",
+      "co2_cost": 36.478300235478294
+    }
+  },
+  {
+    "model_id": "deepseek-r1-distill-qwen-32b",
+    "benchmark_id": "math",
+    "score": 0.17069486,
+    "config": "Open LLM Leaderboard v2, official provider, raw, MATH Level 5, precision bfloat16, type fine-tunedondomain-specificdatasets, chat_template True",
+    "source": "open-llm-leaderboard",
+    "extra": {
+      "hf_model": "deepseek-ai/DeepSeek-R1-Distill-Qwen-32B",
+      "leaderboard_id": "deepseek-ai/DeepSeek-R1-Distill-Qwen-32B_bfloat16_4569fd730224ec487752bd4954399c6e18bf3aa6_True",
+      "benchmark_display_name": "MATH Level 5",
+      "normalized_score": 17.069486404833835,
+      "average_score": 22.96226839270608,
+      "precision": "bfloat16",
+      "model_type": "fine-tunedondomain-specificdatasets",
+      "weight_type": "Original",
+      "architecture": "Qwen2ForCausalLM",
+      "has_chat_template": true,
+      "params_billions": 32.764,
+      "hub_license": "mit",
+      "submission_date": "2025-01-21",
+      "upload_date": "2025-01-20",
+      "co2_cost": 47.27590504446936
+    }
+  },
+  {
+    "model_id": "llama-3.1-8b",
+    "benchmark_id": "math",
+    "score": 0.15558912,
+    "config": "Open LLM Leaderboard v2, official provider, raw, MATH Level 5, precision float16, type pretrained, chat_template False",
+    "source": "open-llm-leaderboard",
+    "extra": {
+      "hf_model": "meta-llama/Llama-3.1-8B-Instruct",
+      "leaderboard_id": "meta-llama/Llama-3.1-8B-Instruct_float16_0e9e39f249a16976918f6564b8830bc894c89659_False",
+      "benchmark_display_name": "MATH Level 5",
+      "normalized_score": 15.55891238670695,
+      "average_score": 23.763729445470883,
+      "precision": "float16",
+      "model_type": "pretrained",
+      "weight_type": "Original",
+      "architecture": "LlamaForCausalLM",
+      "has_chat_template": false,
+      "params_billions": 8.03,
+      "hub_license": "llama3.1",
+      "submission_date": "2025-02-06",
+      "upload_date": "2024-07-18",
+      "co2_cost": 2.1060373342307948
+    },
+    "variants": [
+      {
+        "score": 0.06570997,
+        "config": "Open LLM Leaderboard v2, official provider, raw, MATH Level 5, precision float16, type fine-tunedondomain-specificdatasets, chat_template False",
+        "source": "open-llm-leaderboard"
+      }
+    ]
+  },
+  {
+    "model_id": "llama-3-8b",
+    "benchmark_id": "math",
+    "score": 0.09138973,
+    "config": "Open LLM Leaderboard v2, official provider, raw, MATH Level 5, precision float16, type chatmodels, chat_template False",
+    "source": "open-llm-leaderboard",
+    "extra": {
+      "hf_model": "meta-llama/Meta-Llama-3-8B-Instruct",
+      "leaderboard_id": "meta-llama/Meta-Llama-3-8B-Instruct_float16_e1945c40cd546c78e41f1151f4db032b271faeaa_False",
+      "benchmark_display_name": "MATH Level 5",
+      "normalized_score": 9.138972809667674,
+      "average_score": 20.60915944602587,
+      "precision": "float16",
+      "model_type": "chatmodels",
+      "weight_type": "Original",
+      "architecture": "LlamaForCausalLM",
+      "has_chat_template": false,
+      "params_billions": 8.03,
+      "hub_license": "llama3",
+      "submission_date": "2024-07-08",
+      "upload_date": "2024-04-17",
+      "co2_cost": 1.898946514376925
+    },
+    "variants": [
+      {
+        "score": 0.08685801,
+        "config": "Open LLM Leaderboard v2, official provider, raw, MATH Level 5, precision bfloat16, type chatmodels, chat_template True",
+        "source": "open-llm-leaderboard"
+      }
+    ]
+  },
+  {
+    "model_id": "qwen-2.5-72b",
+    "benchmark_id": "mmlu-pro",
+    "score": 0.59682513,
+    "config": "Open LLM Leaderboard v2, official provider, raw, MMLU-PRO, precision bfloat16, type pretrained, chat_template False",
+    "source": "open-llm-leaderboard",
+    "extra": {
+      "hf_model": "Qwen/Qwen2.5-72B",
+      "leaderboard_id": "Qwen/Qwen2.5-72B_bfloat16_587cc4061cf6a7cc0d429d05c109447e5cf063af_False",
+      "benchmark_display_name": "MMLU-PRO",
+      "normalized_score": 55.20279255319149,
+      "average_score": 38.441143572535815,
+      "precision": "bfloat16",
+      "model_type": "pretrained",
+      "weight_type": "Original",
+      "architecture": "Qwen2ForCausalLM",
+      "has_chat_template": false,
+      "params_billions": 72.706,
+      "hub_license": "other",
+      "submission_date": "2024-09-19",
+      "upload_date": "2024-09-15",
+      "co2_cost": 36.18385317998766
+    },
+    "variants": [
+      {
+        "score": 0.56258311,
+        "config": "Open LLM Leaderboard v2, official provider, raw, MMLU-PRO, precision bfloat16, type chatmodels, chat_template True",
+        "source": "open-llm-leaderboard"
+      },
+      {
+        "score": 0.54030918,
+        "config": "Open LLM Leaderboard v2, official provider, raw, MMLU-PRO, precision bfloat16, type chatmodels, chat_template False",
+        "source": "open-llm-leaderboard"
+      }
+    ]
+  },
+  {
+    "model_id": "qwen2.5-32b",
+    "benchmark_id": "mmlu-pro",
+    "score": 0.58053524,
+    "config": "Open LLM Leaderboard v2, official provider, raw, MMLU-PRO, precision bfloat16, type pretrained, chat_template False",
+    "source": "open-llm-leaderboard",
+    "extra": {
+      "hf_model": "Qwen/Qwen2.5-32B",
+      "leaderboard_id": "Qwen/Qwen2.5-32B_bfloat16_ff23665d01c3665be5fdb271d18a62090b65c06d_False",
+      "benchmark_display_name": "MMLU-PRO",
+      "normalized_score": 53.39280437352246,
+      "average_score": 38.00796730514634,
+      "precision": "bfloat16",
+      "model_type": "pretrained",
+      "weight_type": "Original",
+      "architecture": "Qwen2ForCausalLM",
+      "has_chat_template": false,
+      "params_billions": 32.764,
+      "hub_license": "apache-2.0",
+      "submission_date": "2024-09-19",
+      "upload_date": "2024-09-15",
+      "co2_cost": 11.74977108549449
+    },
+    "variants": [
+      {
+        "score": 0.56665559,
+        "config": "Open LLM Leaderboard v2, official provider, raw, MMLU-PRO, precision bfloat16, type chatmodels, chat_template True",
+        "source": "open-llm-leaderboard"
+      }
+    ]
+  },
+  {
+    "model_id": "qwq-32b",
+    "benchmark_id": "mmlu-pro",
+    "score": 0.56781915,
+    "config": "Open LLM Leaderboard v2, official provider, raw, MMLU-PRO, precision bfloat16, type chatmodels, chat_template True",
+    "source": "open-llm-leaderboard",
+    "extra": {
+      "hf_model": "Qwen/QwQ-32B-Preview",
+      "leaderboard_id": "Qwen/QwQ-32B-Preview_bfloat16_1032e81cb936c486aae1d33da75b2fbcd5deed4a_True",
+      "benchmark_display_name": "MMLU-PRO",
+      "normalized_score": 51.97990543735224,
+      "average_score": 34.11985336826446,
+      "precision": "bfloat16",
+      "model_type": "chatmodels",
+      "weight_type": "Original",
+      "architecture": "Qwen2ForCausalLM",
+      "has_chat_template": true,
+      "params_billions": 32.764,
+      "hub_license": "apache-2.0",
+      "submission_date": "2024-11-29",
+      "upload_date": "2024-11-27",
+      "co2_cost": 20.42077955247921
+    },
+    "variants": [
+      {
+        "score": 0.11959774,
+        "config": "Open LLM Leaderboard v2, official provider, raw, MMLU-PRO, precision bfloat16, type fine-tunedondomain-specificdatasets, chat_template True",
+        "source": "open-llm-leaderboard"
+      }
+    ]
+  },
+  {
+    "model_id": "llama-3.3-70b",
+    "benchmark_id": "mmlu-pro",
+    "score": 0.53316157,
+    "config": "Open LLM Leaderboard v2, official provider, raw, MMLU-PRO, precision bfloat16, type chatmodels, chat_template True",
+    "source": "open-llm-leaderboard",
+    "extra": {
+      "hf_model": "meta-llama/Llama-3.3-70B-Instruct",
+      "leaderboard_id": "meta-llama/Llama-3.3-70B-Instruct_bfloat16__True",
+      "benchmark_display_name": "MMLU-PRO",
+      "normalized_score": 48.12906323877069,
+      "average_score": 44.84747145129876,
+      "precision": "bfloat16",
+      "model_type": "chatmodels",
+      "weight_type": "Original",
+      "architecture": "LlamaForCausalLM",
+      "has_chat_template": true,
+      "params_billions": 70.554,
+      "hub_license": "llama3.3",
+      "submission_date": "2024-12-03",
+      "upload_date": "2024-11-26",
+      "co2_cost": 76.55907410745293
+    }
+  },
+  {
+    "model_id": "llama-3.1-70b",
+    "benchmark_id": "mmlu-pro",
+    "score": 0.53091755,
+    "config": "Open LLM Leaderboard v2, official provider, raw, MMLU-PRO, precision bfloat16, type chatmodels, chat_template True",
+    "source": "open-llm-leaderboard",
+    "extra": {
+      "hf_model": "meta-llama/Llama-3.1-70B-Instruct",
+      "leaderboard_id": "meta-llama/Llama-3.1-70B-Instruct_bfloat16_b9461463b511ed3c0762467538ea32cf7c9669f2_True",
+      "benchmark_display_name": "MMLU-PRO",
+      "normalized_score": 47.87972813238771,
+      "average_score": 43.409948245645786,
+      "precision": "bfloat16",
+      "model_type": "chatmodels",
+      "weight_type": "Original",
+      "architecture": "LlamaForCausalLM",
+      "has_chat_template": true,
+      "params_billions": 70.554,
+      "hub_license": "llama3.1",
+      "submission_date": "2024-08-15",
+      "upload_date": "2024-07-16",
+      "co2_cost": 40.22182401425256
+    },
+    "variants": [
+      {
+        "score": 0.46542553,
+        "config": "Open LLM Leaderboard v2, official provider, raw, MMLU-PRO, precision bfloat16, type pretrained, chat_template True",
+        "source": "open-llm-leaderboard"
+      }
+    ]
+  },
+  {
+    "model_id": "qwen2.5-coder-32b",
+    "benchmark_id": "mmlu-pro",
+    "score": 0.53025266,
+    "config": "Open LLM Leaderboard v2, official provider, raw, MMLU-PRO, precision float16, type pretrained, chat_template False",
+    "source": "open-llm-leaderboard",
+    "extra": {
+      "hf_model": "Qwen/Qwen2.5-Coder-32B",
+      "leaderboard_id": "Qwen/Qwen2.5-Coder-32B_float16_2e12b5f7bc878d424d222e224ed40aee564ec45f_False",
+      "benchmark_display_name": "MMLU-PRO",
+      "normalized_score": 47.80585106382979,
+      "average_score": 33.2623633375386,
+      "precision": "float16",
+      "model_type": "pretrained",
+      "weight_type": "Original",
+      "architecture": "Qwen2ForCausalLM",
+      "has_chat_template": false,
+      "params_billions": 32.764,
+      "hub_license": "apache-2.0",
+      "submission_date": "2024-12-10",
+      "upload_date": "2024-11-08",
+      "co2_cost": 9.380500534599602
+    },
+    "variants": [
+      {
+        "score": 0.44132314,
+        "config": "Open LLM Leaderboard v2, official provider, raw, MMLU-PRO, precision float16, type chatmodels, chat_template False",
+        "source": "open-llm-leaderboard"
+      }
+    ]
+  },
+  {
+    "model_id": "phi-4",
+    "benchmark_id": "mmlu-pro",
+    "score": 0.52950465,
+    "config": "Open LLM Leaderboard v2, official provider, raw, MMLU-PRO, precision float16, type pretrained, chat_template False",
+    "source": "open-llm-leaderboard",
+    "extra": {
+      "hf_model": "microsoft/phi-4",
+      "leaderboard_id": "microsoft/phi-4_float16_381727a5ee103da6c1b14ecd3d39cd09832cbcf8_False",
+      "benchmark_display_name": "MMLU-PRO",
+      "normalized_score": 47.722739361702125,
+      "average_score": 29.48341679122318,
+      "precision": "float16",
+      "model_type": "pretrained",
+      "weight_type": "Original",
+      "architecture": "Phi3ForCausalLM",
+      "has_chat_template": false,
+      "params_billions": 14.66,
+      "hub_license": "mit",
+      "submission_date": "2025-01-08",
+      "upload_date": "2024-12-11",
+      "co2_cost": 0.8783618221059865
+    },
+    "variants": [
+      {
+        "score": 0.52867354,
+        "config": "Open LLM Leaderboard v2, official provider, raw, MMLU-PRO, precision bfloat16, type chatmodels, chat_template True",
+        "source": "open-llm-leaderboard"
+      }
+    ]
+  },
+  {
+    "model_id": "qwen2.5-14b",
+    "benchmark_id": "mmlu-pro",
+    "score": 0.5248504,
+    "config": "Open LLM Leaderboard v2, official provider, raw, MMLU-PRO, precision bfloat16, type pretrained, chat_template False",
+    "source": "open-llm-leaderboard",
+    "extra": {
+      "hf_model": "Qwen/Qwen2.5-14B",
+      "leaderboard_id": "Qwen/Qwen2.5-14B_bfloat16_83a1904df002b00bc8db6f877821cb77dbb363b0_False",
+      "benchmark_display_name": "MMLU-PRO",
+      "normalized_score": 47.205599881796694,
+      "average_score": 31.951062693148973,
+      "precision": "bfloat16",
+      "model_type": "pretrained",
+      "weight_type": "Original",
+      "architecture": "Qwen2ForCausalLM",
+      "has_chat_template": false,
+      "params_billions": 14.77,
+      "hub_license": "apache-2.0",
+      "submission_date": "2024-09-19",
+      "upload_date": "2024-09-15",
+      "co2_cost": 8.733912171643484
+    },
+    "variants": [
+      {
+        "score": 0.49044215,
+        "config": "Open LLM Leaderboard v2, official provider, raw, MMLU-PRO, precision bfloat16, type chatmodels, chat_template True",
+        "source": "open-llm-leaderboard"
+      }
+    ]
+  },
+  {
+    "model_id": "llama-3-70b",
+    "benchmark_id": "mmlu-pro",
+    "score": 0.52069481,
+    "config": "Open LLM Leaderboard v2, official provider, raw, MMLU-PRO, precision bfloat16, type chatmodels, chat_template True",
+    "source": "open-llm-leaderboard",
+    "extra": {
+      "hf_model": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "leaderboard_id": "meta-llama/Meta-Llama-3-70B-Instruct_bfloat16_7129260dd854a80eb10ace5f61c20324b472b31c_True",
+      "benchmark_display_name": "MMLU-PRO",
+      "normalized_score": 46.74386820330969,
+      "average_score": 36.37222412927012,
+      "precision": "bfloat16",
+      "model_type": "chatmodels",
+      "weight_type": "Original",
+      "architecture": "LlamaForCausalLM",
+      "has_chat_template": true,
+      "params_billions": 70.554,
+      "hub_license": "llama3",
+      "submission_date": "2024-06-12",
+      "upload_date": "2024-04-17",
+      "co2_cost": 36.478300235478294
+    }
+  },
+  {
+    "model_id": "deepseek-r1-distill-llama-70b",
+    "benchmark_id": "mmlu-pro",
+    "score": 0.47481715,
+    "config": "Open LLM Leaderboard v2, official provider, raw, MMLU-PRO, precision bfloat16, type chatmodels, chat_template True",
+    "source": "open-llm-leaderboard",
+    "extra": {
+      "hf_model": "deepseek-ai/DeepSeek-R1-Distill-Llama-70B",
+      "leaderboard_id": "deepseek-ai/DeepSeek-R1-Distill-Llama-70B_bfloat16_07a264a567ba0863a4ab34fdb3c2b8a54e0bb494_True",
+      "benchmark_display_name": "MMLU-PRO",
+      "normalized_score": 41.64635047281324,
+      "average_score": 27.809426360756188,
+      "precision": "bfloat16",
+      "model_type": "chatmodels",
+      "weight_type": "Original",
+      "architecture": "LlamaForCausalLM",
+      "has_chat_template": true,
+      "params_billions": 70.554,
+      "hub_license": "mit",
+      "submission_date": "2025-01-22",
+      "upload_date": "2025-01-20",
+      "co2_cost": 118.54646560023332
+    }
+  },
+  {
+    "model_id": "deepseek-r1-distill-qwen-32b",
+    "benchmark_id": "mmlu-pro",
+    "score": 0.46866689,
+    "config": "Open LLM Leaderboard v2, official provider, raw, MMLU-PRO, precision bfloat16, type fine-tunedondomain-specificdatasets, chat_template True",
+    "source": "open-llm-leaderboard",
+    "extra": {
+      "hf_model": "deepseek-ai/DeepSeek-R1-Distill-Qwen-32B",
+      "leaderboard_id": "deepseek-ai/DeepSeek-R1-Distill-Qwen-32B_bfloat16_4569fd730224ec487752bd4954399c6e18bf3aa6_True",
+      "benchmark_display_name": "MMLU-PRO",
+      "normalized_score": 40.962987588652474,
+      "average_score": 22.96226839270608,
+      "precision": "bfloat16",
+      "model_type": "fine-tunedondomain-specificdatasets",
+      "weight_type": "Original",
+      "architecture": "Qwen2ForCausalLM",
+      "has_chat_template": true,
+      "params_billions": 32.764,
+      "hub_license": "mit",
+      "submission_date": "2025-01-21",
+      "upload_date": "2025-01-20",
+      "co2_cost": 47.27590504446936
+    }
+  },
+  {
+    "model_id": "phi-3.5-moe",
+    "benchmark_id": "mmlu-pro",
+    "score": 0.46575798,
+    "config": "Open LLM Leaderboard v2, official provider, raw, MMLU-PRO, precision bfloat16, type chatmodels, chat_template True",
+    "source": "open-llm-leaderboard",
+    "extra": {
+      "hf_model": "microsoft/Phi-3.5-MoE-instruct",
+      "leaderboard_id": "microsoft/Phi-3.5-MoE-instruct_bfloat16_482a9ba0eb0e1fa1671e3560e009d7cec2e5147c_True",
+      "benchmark_display_name": "MMLU-PRO",
+      "normalized_score": 40.639775413711575,
+      "average_score": 36.8789647220093,
+      "precision": "bfloat16",
+      "model_type": "chatmodels",
+      "weight_type": "Original",
+      "architecture": "Phi3ForCausalLM",
+      "has_chat_template": true,
+      "params_billions": 42,
+      "hub_license": "mit",
+      "submission_date": "2024-08-21",
+      "upload_date": "2024-08-17",
+      "co2_cost": 9.264557227888623
+    }
+  },
+  {
+    "model_id": "qwen2.5-7b",
+    "benchmark_id": "mmlu-pro",
+    "score": 0.43650266,
+    "config": "Open LLM Leaderboard v2, official provider, raw, MMLU-PRO, precision bfloat16, type pretrained, chat_template False",
+    "source": "open-llm-leaderboard",
+    "extra": {
+      "hf_model": "Qwen/Qwen2.5-7B",
+      "leaderboard_id": "Qwen/Qwen2.5-7B_bfloat16_57597c00770845ceba45271ba1b24c94bbcc7baf_False",
+      "benchmark_display_name": "MMLU-PRO",
+      "normalized_score": 37.38918439716312,
+      "average_score": 26.019159924095096,
+      "precision": "bfloat16",
+      "model_type": "pretrained",
+      "weight_type": "Original",
+      "architecture": "Qwen2ForCausalLM",
+      "has_chat_template": false,
+      "params_billions": 7.616,
+      "hub_license": "apache-2.0",
+      "submission_date": "2024-09-19",
+      "upload_date": "2024-09-15",
+      "co2_cost": 4.686730426753914
+    },
+    "variants": [
+      {
+        "score": 0.42869016,
+        "config": "Open LLM Leaderboard v2, official provider, raw, MMLU-PRO, precision bfloat16, type chatmodels, chat_template True",
+        "source": "open-llm-leaderboard"
+      }
+    ]
+  },
+  {
+    "model_id": "llama-3.1-8b",
+    "benchmark_id": "mmlu-pro",
+    "score": 0.37982048,
+    "config": "Open LLM Leaderboard v2, official provider, raw, MMLU-PRO, precision float16, type pretrained, chat_template False",
+    "source": "open-llm-leaderboard",
+    "extra": {
+      "hf_model": "meta-llama/Llama-3.1-8B-Instruct",
+      "leaderboard_id": "meta-llama/Llama-3.1-8B-Instruct_float16_0e9e39f249a16976918f6564b8830bc894c89659_False",
+      "benchmark_display_name": "MMLU-PRO",
+      "normalized_score": 31.091164302600465,
+      "average_score": 23.763729445470883,
+      "precision": "float16",
+      "model_type": "pretrained",
+      "weight_type": "Original",
+      "architecture": "LlamaForCausalLM",
+      "has_chat_template": false,
+      "params_billions": 8.03,
+      "hub_license": "llama3.1",
+      "submission_date": "2025-02-06",
+      "upload_date": "2024-07-18",
+      "co2_cost": 2.1060373342307948
+    },
+    "variants": [
+      {
+        "score": 0.32878989,
+        "config": "Open LLM Leaderboard v2, official provider, raw, MMLU-PRO, precision float16, type fine-tunedondomain-specificdatasets, chat_template False",
+        "source": "open-llm-leaderboard"
+      }
+    ]
+  },
+  {
+    "model_id": "llama-3-8b",
+    "benchmark_id": "mmlu-pro",
+    "score": 0.36643949,
+    "config": "Open LLM Leaderboard v2, official provider, raw, MMLU-PRO, precision bfloat16, type chatmodels, chat_template True",
+    "source": "open-llm-leaderboard",
+    "extra": {
+      "hf_model": "meta-llama/Meta-Llama-3-8B-Instruct",
+      "leaderboard_id": "meta-llama/Meta-Llama-3-8B-Instruct_bfloat16_e1945c40cd546c78e41f1151f4db032b271faeaa_True",
+      "benchmark_display_name": "MMLU-PRO",
+      "normalized_score": 29.604388297872337,
+      "average_score": 23.908735693936837,
+      "precision": "bfloat16",
+      "model_type": "chatmodels",
+      "weight_type": "Original",
+      "architecture": "LlamaForCausalLM",
+      "has_chat_template": true,
+      "params_billions": 8.03,
+      "hub_license": "llama3",
+      "submission_date": "2024-06-12",
+      "upload_date": "2024-04-17",
+      "co2_cost": 0.7974996778909468
+    },
+    "variants": [
+      {
+        "score": 0.35912566,
+        "config": "Open LLM Leaderboard v2, official provider, raw, MMLU-PRO, precision float16, type chatmodels, chat_template False",
+        "source": "open-llm-leaderboard"
+      }
+    ]
+  },
+  {
+    "model_id": "phi-4",
+    "benchmark_id": "musr",
+    "score": 0.50335417,
+    "config": "Open LLM Leaderboard v2, official provider, raw, MUSR, precision float16, type pretrained, chat_template False",
+    "source": "open-llm-leaderboard",
+    "extra": {
+      "hf_model": "microsoft/phi-4",
+      "leaderboard_id": "microsoft/phi-4_float16_381727a5ee103da6c1b14ecd3d39cd09832cbcf8_False",
+      "benchmark_display_name": "MUSR",
+      "normalized_score": 23.71927083333333,
+      "average_score": 29.48341679122318,
+      "precision": "float16",
+      "model_type": "pretrained",
+      "weight_type": "Original",
+      "architecture": "Phi3ForCausalLM",
+      "has_chat_template": false,
+      "params_billions": 14.66,
+      "hub_license": "mit",
+      "submission_date": "2025-01-08",
+      "upload_date": "2024-12-11",
+      "co2_cost": 0.8783618221059865
+    },
+    "variants": [
+      {
+        "score": 0.50335417,
+        "config": "Open LLM Leaderboard v2, official provider, raw, MUSR, precision bfloat16, type chatmodels, chat_template True",
+        "source": "open-llm-leaderboard"
+      }
+    ]
+  },
+  {
+    "model_id": "qwen2.5-32b",
+    "benchmark_id": "musr",
+    "score": 0.49783333,
+    "config": "Open LLM Leaderboard v2, official provider, raw, MUSR, precision bfloat16, type pretrained, chat_template False",
+    "source": "open-llm-leaderboard",
+    "extra": {
+      "hf_model": "Qwen/Qwen2.5-32B",
+      "leaderboard_id": "Qwen/Qwen2.5-32B_bfloat16_ff23665d01c3665be5fdb271d18a62090b65c06d_False",
+      "benchmark_display_name": "MUSR",
+      "normalized_score": 22.69583333333333,
+      "average_score": 38.00796730514634,
+      "precision": "bfloat16",
+      "model_type": "pretrained",
+      "weight_type": "Original",
+      "architecture": "Qwen2ForCausalLM",
+      "has_chat_template": false,
+      "params_billions": 32.764,
+      "hub_license": "apache-2.0",
+      "submission_date": "2024-09-19",
+      "upload_date": "2024-09-15",
+      "co2_cost": 11.74977108549449
+    },
+    "variants": [
+      {
+        "score": 0.426125,
+        "config": "Open LLM Leaderboard v2, official provider, raw, MUSR, precision bfloat16, type chatmodels, chat_template True",
+        "source": "open-llm-leaderboard"
+      }
+    ]
+  },
+  {
+    "model_id": "qwen-2.5-72b",
+    "benchmark_id": "musr",
+    "score": 0.477125,
+    "config": "Open LLM Leaderboard v2, official provider, raw, MUSR, precision bfloat16, type pretrained, chat_template False",
+    "source": "open-llm-leaderboard",
+    "extra": {
+      "hf_model": "Qwen/Qwen2.5-72B",
+      "leaderboard_id": "Qwen/Qwen2.5-72B_bfloat16_587cc4061cf6a7cc0d429d05c109447e5cf063af_False",
+      "benchmark_display_name": "MUSR",
+      "normalized_score": 19.640624999999996,
+      "average_score": 38.441143572535815,
+      "precision": "bfloat16",
+      "model_type": "pretrained",
+      "weight_type": "Original",
+      "architecture": "Qwen2ForCausalLM",
+      "has_chat_template": false,
+      "params_billions": 72.706,
+      "hub_license": "other",
+      "submission_date": "2024-09-19",
+      "upload_date": "2024-09-15",
+      "co2_cost": 36.18385317998766
+    },
+    "variants": [
+      {
+        "score": 0.45601042,
+        "config": "Open LLM Leaderboard v2, official provider, raw, MUSR, precision bfloat16, type chatmodels, chat_template False",
+        "source": "open-llm-leaderboard"
+      },
+      {
+        "score": 0.42060417,
+        "config": "Open LLM Leaderboard v2, official provider, raw, MUSR, precision bfloat16, type chatmodels, chat_template True",
+        "source": "open-llm-leaderboard"
+      }
+    ]
+  },
+  {
+    "model_id": "llama-3.1-70b",
+    "benchmark_id": "musr",
+    "score": 0.4580625,
+    "config": "Open LLM Leaderboard v2, official provider, raw, MUSR, precision bfloat16, type chatmodels, chat_template True",
+    "source": "open-llm-leaderboard",
+    "extra": {
+      "hf_model": "meta-llama/Llama-3.1-70B-Instruct",
+      "leaderboard_id": "meta-llama/Llama-3.1-70B-Instruct_bfloat16_b9461463b511ed3c0762467538ea32cf7c9669f2_True",
+      "benchmark_display_name": "MUSR",
+      "normalized_score": 17.691145833333334,
+      "average_score": 43.409948245645786,
+      "precision": "bfloat16",
+      "model_type": "chatmodels",
+      "weight_type": "Original",
+      "architecture": "LlamaForCausalLM",
+      "has_chat_template": true,
+      "params_billions": 70.554,
+      "hub_license": "llama3.1",
+      "submission_date": "2024-08-15",
+      "upload_date": "2024-07-16",
+      "co2_cost": 40.22182401425256
+    },
+    "variants": [
+      {
+        "score": 0.4571875,
+        "config": "Open LLM Leaderboard v2, official provider, raw, MUSR, precision bfloat16, type pretrained, chat_template True",
+        "source": "open-llm-leaderboard"
+      }
+    ]
+  },
+  {
+    "model_id": "phi-3.5-moe",
+    "benchmark_id": "musr",
+    "score": 0.45647917,
+    "config": "Open LLM Leaderboard v2, official provider, raw, MUSR, precision bfloat16, type chatmodels, chat_template True",
+    "source": "open-llm-leaderboard",
+    "extra": {
+      "hf_model": "microsoft/Phi-3.5-MoE-instruct",
+      "leaderboard_id": "microsoft/Phi-3.5-MoE-instruct_bfloat16_482a9ba0eb0e1fa1671e3560e009d7cec2e5147c_True",
+      "benchmark_display_name": "MUSR",
+      "normalized_score": 17.326562499999998,
+      "average_score": 36.8789647220093,
+      "precision": "bfloat16",
+      "model_type": "chatmodels",
+      "weight_type": "Original",
+      "architecture": "Phi3ForCausalLM",
+      "has_chat_template": true,
+      "params_billions": 42,
+      "hub_license": "mit",
+      "submission_date": "2024-08-21",
+      "upload_date": "2024-08-17",
+      "co2_cost": 9.264557227888623
+    }
+  },
+  {
+    "model_id": "qwen2.5-coder-32b",
+    "benchmark_id": "musr",
+    "score": 0.4528125,
+    "config": "Open LLM Leaderboard v2, official provider, raw, MUSR, precision float16, type pretrained, chat_template False",
+    "source": "open-llm-leaderboard",
+    "extra": {
+      "hf_model": "Qwen/Qwen2.5-Coder-32B",
+      "leaderboard_id": "Qwen/Qwen2.5-Coder-32B_float16_2e12b5f7bc878d424d222e224ed40aee564ec45f_False",
+      "benchmark_display_name": "MUSR",
+      "normalized_score": 15.868229166666664,
+      "average_score": 33.2623633375386,
+      "precision": "float16",
+      "model_type": "pretrained",
+      "weight_type": "Original",
+      "architecture": "Qwen2ForCausalLM",
+      "has_chat_template": false,
+      "params_billions": 32.764,
+      "hub_license": "apache-2.0",
+      "submission_date": "2024-12-10",
+      "upload_date": "2024-11-08",
+      "co2_cost": 9.380500534599602
+    },
+    "variants": [
+      {
+        "score": 0.43858333,
+        "config": "Open LLM Leaderboard v2, official provider, raw, MUSR, precision float16, type chatmodels, chat_template False",
+        "source": "open-llm-leaderboard"
+      }
+    ]
+  },
+  {
+    "model_id": "deepseek-r1-distill-qwen-32b",
+    "benchmark_id": "musr",
+    "score": 0.45260417,
+    "config": "Open LLM Leaderboard v2, official provider, raw, MUSR, precision bfloat16, type fine-tunedondomain-specificdatasets, chat_template True",
+    "source": "open-llm-leaderboard",
+    "extra": {
+      "hf_model": "deepseek-ai/DeepSeek-R1-Distill-Qwen-32B",
+      "leaderboard_id": "deepseek-ai/DeepSeek-R1-Distill-Qwen-32B_bfloat16_4569fd730224ec487752bd4954399c6e18bf3aa6_True",
+      "benchmark_display_name": "MUSR",
+      "normalized_score": 16.1421875,
+      "average_score": 22.96226839270608,
+      "precision": "bfloat16",
+      "model_type": "fine-tunedondomain-specificdatasets",
+      "weight_type": "Original",
+      "architecture": "Qwen2ForCausalLM",
+      "has_chat_template": true,
+      "params_billions": 32.764,
+      "hub_license": "mit",
+      "submission_date": "2025-01-21",
+      "upload_date": "2025-01-20",
+      "co2_cost": 47.27590504446936
+    }
+  },
+  {
+    "model_id": "qwen2.5-14b",
+    "benchmark_id": "musr",
+    "score": 0.45023958,
+    "config": "Open LLM Leaderboard v2, official provider, raw, MUSR, precision bfloat16, type pretrained, chat_template False",
+    "source": "open-llm-leaderboard",
+    "extra": {
+      "hf_model": "Qwen/Qwen2.5-14B",
+      "leaderboard_id": "Qwen/Qwen2.5-14B_bfloat16_83a1904df002b00bc8db6f877821cb77dbb363b0_False",
+      "benchmark_display_name": "MUSR",
+      "normalized_score": 15.913281249999995,
+      "average_score": 31.951062693148973,
+      "precision": "bfloat16",
+      "model_type": "pretrained",
+      "weight_type": "Original",
+      "architecture": "Qwen2ForCausalLM",
+      "has_chat_template": false,
+      "params_billions": 14.77,
+      "hub_license": "apache-2.0",
+      "submission_date": "2024-09-19",
+      "upload_date": "2024-09-15",
+      "co2_cost": 8.733912171643484
+    },
+    "variants": [
+      {
+        "score": 0.4100625,
+        "config": "Open LLM Leaderboard v2, official provider, raw, MUSR, precision bfloat16, type chatmodels, chat_template True",
+        "source": "open-llm-leaderboard"
+      }
+    ]
+  },
+  {
+    "model_id": "llama-3.3-70b",
+    "benchmark_id": "musr",
+    "score": 0.446125,
+    "config": "Open LLM Leaderboard v2, official provider, raw, MUSR, precision bfloat16, type chatmodels, chat_template True",
+    "source": "open-llm-leaderboard",
+    "extra": {
+      "hf_model": "meta-llama/Llama-3.3-70B-Instruct",
+      "leaderboard_id": "meta-llama/Llama-3.3-70B-Instruct_bfloat16__True",
+      "benchmark_display_name": "MUSR",
+      "normalized_score": 15.565625,
+      "average_score": 44.84747145129876,
+      "precision": "bfloat16",
+      "model_type": "chatmodels",
+      "weight_type": "Original",
+      "architecture": "LlamaForCausalLM",
+      "has_chat_template": true,
+      "params_billions": 70.554,
+      "hub_license": "llama3.3",
+      "submission_date": "2024-12-03",
+      "upload_date": "2024-11-26",
+      "co2_cost": 76.55907410745293
+    }
+  },
+  {
+    "model_id": "qwen2.5-7b",
+    "benchmark_id": "musr",
+    "score": 0.44242708,
+    "config": "Open LLM Leaderboard v2, official provider, raw, MUSR, precision bfloat16, type pretrained, chat_template False",
+    "source": "open-llm-leaderboard",
+    "extra": {
+      "hf_model": "Qwen/Qwen2.5-7B",
+      "leaderboard_id": "Qwen/Qwen2.5-7B_bfloat16_57597c00770845ceba45271ba1b24c94bbcc7baf_False",
+      "benchmark_display_name": "MUSR",
+      "normalized_score": 14.13671875,
+      "average_score": 26.019159924095096,
+      "precision": "bfloat16",
+      "model_type": "pretrained",
+      "weight_type": "Original",
+      "architecture": "Qwen2ForCausalLM",
+      "has_chat_template": false,
+      "params_billions": 7.616,
+      "hub_license": "apache-2.0",
+      "submission_date": "2024-09-19",
+      "upload_date": "2024-09-15",
+      "co2_cost": 4.686730426753914
+    },
+    "variants": [
+      {
+        "score": 0.40203125,
+        "config": "Open LLM Leaderboard v2, official provider, raw, MUSR, precision bfloat16, type chatmodels, chat_template True",
+        "source": "open-llm-leaderboard"
+      }
+    ]
+  },
+  {
+    "model_id": "deepseek-r1-distill-llama-70b",
+    "benchmark_id": "musr",
+    "score": 0.43421875,
+    "config": "Open LLM Leaderboard v2, official provider, raw, MUSR, precision bfloat16, type chatmodels, chat_template True",
+    "source": "open-llm-leaderboard",
+    "extra": {
+      "hf_model": "deepseek-ai/DeepSeek-R1-Distill-Llama-70B",
+      "leaderboard_id": "deepseek-ai/DeepSeek-R1-Distill-Llama-70B_bfloat16_07a264a567ba0863a4ab34fdb3c2b8a54e0bb494_True",
+      "benchmark_display_name": "MUSR",
+      "normalized_score": 13.277343749999998,
+      "average_score": 27.809426360756188,
+      "precision": "bfloat16",
+      "model_type": "chatmodels",
+      "weight_type": "Original",
+      "architecture": "LlamaForCausalLM",
+      "has_chat_template": true,
+      "params_billions": 70.554,
+      "hub_license": "mit",
+      "submission_date": "2025-01-22",
+      "upload_date": "2025-01-20",
+      "co2_cost": 118.54646560023332
+    }
+  },
+  {
+    "model_id": "qwq-32b",
+    "benchmark_id": "musr",
+    "score": 0.42063542,
+    "config": "Open LLM Leaderboard v2, official provider, raw, MUSR, precision bfloat16, type fine-tunedondomain-specificdatasets, chat_template True",
+    "source": "open-llm-leaderboard",
+    "extra": {
+      "hf_model": "Qwen/QwQ-32B",
+      "leaderboard_id": "Qwen/QwQ-32B_bfloat16_7c0a8dc0ac2eef85a227942ad8daeabe9f3ad709_True",
+      "benchmark_display_name": "MUSR",
+      "normalized_score": 11.04609375,
+      "average_score": 12.21487061660057,
+      "precision": "bfloat16",
+      "model_type": "fine-tunedondomain-specificdatasets",
+      "weight_type": "Original",
+      "architecture": "Qwen2ForCausalLM",
+      "has_chat_template": true,
+      "params_billions": 32.764,
+      "hub_license": "apache-2.0",
+      "submission_date": "2025-03-11",
+      "upload_date": "2025-03-05",
+      "co2_cost": 48.30528943515114
+    },
+    "variants": [
+      {
+        "score": 0.41098958,
+        "config": "Open LLM Leaderboard v2, official provider, raw, MUSR, precision bfloat16, type chatmodels, chat_template True",
+        "source": "open-llm-leaderboard"
+      }
+    ]
+  },
+  {
+    "model_id": "llama-3-70b",
+    "benchmark_id": "musr",
+    "score": 0.41536458,
+    "config": "Open LLM Leaderboard v2, official provider, raw, MUSR, precision bfloat16, type chatmodels, chat_template True",
+    "source": "open-llm-leaderboard",
+    "extra": {
+      "hf_model": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "leaderboard_id": "meta-llama/Meta-Llama-3-70B-Instruct_bfloat16_7129260dd854a80eb10ace5f61c20324b472b31c_True",
+      "benchmark_display_name": "MUSR",
+      "normalized_score": 10.92057291666667,
+      "average_score": 36.37222412927012,
+      "precision": "bfloat16",
+      "model_type": "chatmodels",
+      "weight_type": "Original",
+      "architecture": "LlamaForCausalLM",
+      "has_chat_template": true,
+      "params_billions": 70.554,
+      "hub_license": "llama3",
+      "submission_date": "2024-06-12",
+      "upload_date": "2024-04-17",
+      "co2_cost": 36.478300235478294
+    }
+  },
+  {
+    "model_id": "llama-3.1-8b",
+    "benchmark_id": "musr",
+    "score": 0.39715625,
+    "config": "Open LLM Leaderboard v2, official provider, raw, MUSR, precision float16, type pretrained, chat_template False",
+    "source": "open-llm-leaderboard",
+    "extra": {
+      "hf_model": "meta-llama/Llama-3.1-8B-Instruct",
+      "leaderboard_id": "meta-llama/Llama-3.1-8B-Instruct_float16_0e9e39f249a16976918f6564b8830bc894c89659_False",
+      "benchmark_display_name": "MUSR",
+      "normalized_score": 8.611197916666667,
+      "average_score": 23.763729445470883,
+      "precision": "float16",
+      "model_type": "pretrained",
+      "weight_type": "Original",
+      "architecture": "LlamaForCausalLM",
+      "has_chat_template": false,
+      "params_billions": 8.03,
+      "hub_license": "llama3.1",
+      "submission_date": "2025-02-06",
+      "upload_date": "2024-07-18",
+      "co2_cost": 2.1060373342307948
+    },
+    "variants": [
+      {
+        "score": 0.3811875,
+        "config": "Open LLM Leaderboard v2, official provider, raw, MUSR, precision float16, type fine-tunedondomain-specificdatasets, chat_template False",
+        "source": "open-llm-leaderboard"
+      }
+    ]
+  },
+  {
+    "model_id": "llama-3-8b",
+    "benchmark_id": "musr",
+    "score": 0.38054167,
+    "config": "Open LLM Leaderboard v2, official provider, raw, MUSR, precision float16, type chatmodels, chat_template False",
+    "source": "open-llm-leaderboard",
+    "extra": {
+      "hf_model": "meta-llama/Meta-Llama-3-8B-Instruct",
+      "leaderboard_id": "meta-llama/Meta-Llama-3-8B-Instruct_float16_e1945c40cd546c78e41f1151f4db032b271faeaa_False",
+      "benchmark_display_name": "MUSR",
+      "normalized_score": 5.401041666666668,
+      "average_score": 20.60915944602587,
+      "precision": "float16",
+      "model_type": "chatmodels",
+      "weight_type": "Original",
+      "architecture": "LlamaForCausalLM",
+      "has_chat_template": false,
+      "params_billions": 8.03,
+      "hub_license": "llama3",
+      "submission_date": "2024-07-08",
+      "upload_date": "2024-04-17",
+      "co2_cost": 1.898946514376925
+    },
+    "variants": [
+      {
+        "score": 0.35682292,
+        "config": "Open LLM Leaderboard v2, official provider, raw, MUSR, precision bfloat16, type chatmodels, chat_template True",
+        "source": "open-llm-leaderboard"
+      }
+    ]
+  }
+]

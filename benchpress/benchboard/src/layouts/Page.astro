@@ -1,0 +1,37 @@
+---
+import { withBase } from "../lib/url";
+interface Props {
+  title: string;
+}
+const { title } = Astro.props;
+---
+
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>{title} · BenchPress</title>
+  </head>
+  <body class="bg-white text-neutral-900 antialiased">
+    <header class="border-b border-neutral-200">
+      <div class="mx-auto max-w-6xl px-4 py-3 flex items-center justify-between">
+        <div class="flex items-baseline gap-5">
+          <a href={withBase("/")} class="font-semibold tracking-tight">BenchPress</a>
+          <nav class="flex gap-3 text-sm">
+            <a href={withBase("/")} class="text-neutral-600 hover:text-black">Builder</a>
+            <a href={withBase("/non-deterministic")} class="text-neutral-600 hover:text-black">Scores</a>
+            <a href={withBase("/trends")} class="text-neutral-600 hover:text-black">Trends</a>
+          </nav>
+        </div>
+        <span class="text-xs text-neutral-500">LLM evaluation planner</span>
+      </div>
+    </header>
+    <main class="mx-auto max-w-6xl px-4 py-6">
+      <slot />
+    </main>
+    <footer class="border-t border-neutral-200 mt-12 py-4 text-center text-xs text-neutral-400">
+      Data auto-refreshed daily. See <code>data/scores/</code>.
+    </footer>
+  </body>
+</html>

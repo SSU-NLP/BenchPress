@@ -1,0 +1,158 @@
+[
+  {
+    "pdf": "claude-3.5-haiku__model-card.pdf",
+    "model_id": "claude-3.5-haiku",
+    "processed_at": "2026-06-08T05:47:10.353Z",
+    "sha": "5425dde49b649916"
+  },
+  {
+    "pdf": "claude-3.7-sonnet__system-card.pdf",
+    "model_id": "claude-3.7-sonnet",
+    "processed_at": "2026-06-08T05:49:55.566Z",
+    "sha": "82947a46fc2d1b9a"
+  },
+  {
+    "pdf": "claude-haiku-4.5__system-card.pdf",
+    "model_id": "claude-haiku-4.5",
+    "processed_at": "2026-06-08T05:52:21.167Z",
+    "sha": "1b9ae5f4f66a65c1"
+  },
+  {
+    "pdf": "claude-opus-4.5__system-card.pdf",
+    "model_id": "claude-opus-4.5",
+    "processed_at": "2026-06-08T03:16:16.360Z",
+    "sha": "33be92efcb58f901"
+  },
+  {
+    "pdf": "claude-opus-4.6__system-card.pdf",
+    "model_id": "claude-opus-4.6",
+    "processed_at": "2026-06-07T09:38:14.168Z",
+    "sha": "75130eefef08af5b"
+  },
+  {
+    "pdf": "claude-opus-4.7__system-card.pdf",
+    "model_id": "claude-opus-4.7",
+    "processed_at": "2026-06-07T09:39:45.452Z",
+    "sha": "a7729a0e5eb61dc6"
+  },
+  {
+    "pdf": "claude-sonnet-4.5__system-card.pdf",
+    "model_id": "claude-sonnet-4.5",
+    "processed_at": "2026-06-07T09:50:33.186Z",
+    "sha": "d5d1ce28fea101ae"
+  },
+  {
+    "pdf": "claude-sonnet-4.6__system-card.pdf",
+    "model_id": "claude-sonnet-4.6",
+    "processed_at": "2026-06-07T07:04:00.285Z",
+    "sha": "8eb002f168d59851"
+  },
+  {
+    "pdf": "deepseek-v3__paper.pdf",
+    "model_id": "deepseek-v3",
+    "processed_at": "2026-06-07T08:05:34.639Z",
+    "sha": "812a3fd645c80725"
+  },
+  {
+    "pdf": "exaone__paper.pdf",
+    "model_id": "exaone",
+    "processed_at": "2026-06-08T03:24:42.145Z",
+    "sha": "0fb6742c5283c930"
+  },
+  {
+    "pdf": "gemini-2.5-flash__model-card.pdf",
+    "model_id": "gemini-2.5-flash",
+    "processed_at": "2026-06-08T05:57:45.010Z",
+    "sha": "f3221d9458b2fed9"
+  },
+  {
+    "pdf": "gemini-3-pro__model-card.pdf",
+    "model_id": "gemini-3-pro",
+    "processed_at": "2026-06-08T05:59:51.211Z",
+    "sha": "9a1734bc3aa31069"
+  },
+  {
+    "pdf": "glm-5__paper.pdf",
+    "model_id": "glm-5",
+    "processed_at": "2026-06-07T07:15:59.016Z",
+    "sha": "e20742ff36e08dc3"
+  },
+  {
+    "pdf": "gpt-4.5__system-card.pdf",
+    "model_id": "gpt-4.5",
+    "processed_at": "2026-06-08T06:08:11.665Z",
+    "sha": "f8fd0acc416faf11"
+  },
+  {
+    "pdf": "gpt-4o__system-card.pdf",
+    "model_id": "gpt-4o",
+    "processed_at": "2026-06-08T03:43:52.428Z",
+    "sha": "e2579ecb185cbc13"
+  },
+  {
+    "pdf": "gpt-5__system-card.pdf",
+    "model_id": "gpt-5",
+    "processed_at": "2026-06-07T10:05:46.042Z",
+    "sha": "d40d91ae00d744f6"
+  },
+  {
+    "pdf": "gpt-oss-120b__model-card.pdf",
+    "model_id": "gpt-oss-120b",
+    "processed_at": "2026-06-07T07:24:48.772Z",
+    "sha": "8839e1efdf835be0"
+  },
+  {
+    "pdf": "grok-4__model-card.pdf",
+    "model_id": "grok-4",
+    "processed_at": "2026-06-07T10:06:56.217Z",
+    "sha": "54068c0d9570d94d"
+  },
+  {
+    "pdf": "kimi-k2.pdf",
+    "model_id": "kimi-k2",
+    "processed_at": "2026-06-07T06:47:26.807Z",
+    "sha": "035062b5e1ab865f"
+  },
+  {
+    "pdf": "llama-3__paper.pdf",
+    "model_id": "llama-3",
+    "processed_at": "2026-06-08T06:11:03.115Z",
+    "sha": "481f1599468f95a0"
+  },
+  {
+    "pdf": "llama-3.1-405b__paper.pdf",
+    "model_id": "llama-3.1-405b",
+    "processed_at": "2026-06-08T03:48:48.869Z",
+    "sha": "481f1599468f95a0"
+  },
+  {
+    "pdf": "o1__system-card.pdf",
+    "model_id": "o1",
+    "processed_at": "2026-06-08T03:59:49.968Z",
+    "sha": "3ba7bdbe69e022f6"
+  },
+  {
+    "pdf": "o3__system-card.pdf",
+    "model_id": "o3",
+    "processed_at": "2026-06-08T04:04:06.260Z",
+    "sha": "32d7ca19fff2ed0d"
+  },
+  {
+    "pdf": "qwen-2.5-72b__paper.pdf",
+    "model_id": "qwen-2.5-72b",
+    "processed_at": "2026-06-07T10:23:31.030Z",
+    "sha": "73b3292bead3ac88"
+  },
+  {
+    "pdf": "qwen3-235b__paper.pdf",
+    "model_id": "qwen3-235b",
+    "processed_at": "2026-06-07T08:24:45.024Z",
+    "sha": "84a5e2b1fa04bb77"
+  },
+  {
+    "pdf": "solar-open__paper.pdf",
+    "model_id": "solar-open",
+    "processed_at": "2026-06-08T04:07:37.983Z",
+    "sha": "2179f5203e2a9d92"
+  }
+]

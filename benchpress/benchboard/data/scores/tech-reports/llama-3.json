@@ -1,0 +1,405 @@
+[
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "arc-challenge",
+    "score": 96.7,
+    "config": "0-shot",
+    "source": {
+      "kind": "tech_report",
+      "url": "llama-3__paper.pdf",
+      "ref": "p.3",
+      "reported_by": "llama-3",
+      "fetched_at": "2026-06-08T06:11:02.693Z"
+    }
+  },
+  {
+    "model_id": "claude-3.5-sonnet",
+    "benchmark_id": "arc-challenge",
+    "score": 96.7,
+    "config": "0-shot",
+    "source": {
+      "kind": "tech_report",
+      "url": "llama-3__paper.pdf",
+      "ref": "p.3",
+      "reported_by": "llama-3",
+      "fetched_at": "2026-06-08T06:11:02.693Z"
+    }
+  },
+  {
+    "model_id": "claude-3.5-sonnet",
+    "benchmark_id": "bfcl",
+    "score": 90.2,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "llama-3__paper.pdf",
+      "ref": "p.3",
+      "reported_by": "llama-3",
+      "fetched_at": "2026-06-08T06:11:02.693Z"
+    }
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "bfcl",
+    "score": 80.5,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "llama-3__paper.pdf",
+      "ref": "p.3",
+      "reported_by": "llama-3",
+      "fetched_at": "2026-06-08T06:11:02.693Z"
+    }
+  },
+  {
+    "model_id": "claude-3.5-sonnet",
+    "benchmark_id": "gpqa",
+    "score": 59.4,
+    "config": "0-shot, CoT",
+    "source": {
+      "kind": "tech_report",
+      "url": "llama-3__paper.pdf",
+      "ref": "p.3",
+      "reported_by": "llama-3",
+      "fetched_at": "2026-06-08T06:11:02.693Z"
+    }
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "gpqa",
+    "score": 53.6,
+    "config": "0-shot, CoT",
+    "source": {
+      "kind": "tech_report",
+      "url": "llama-3__paper.pdf",
+      "ref": "p.3",
+      "reported_by": "llama-3",
+      "fetched_at": "2026-06-08T06:11:02.693Z"
+    }
+  },
+  {
+    "model_id": "claude-3.5-sonnet",
+    "benchmark_id": "gsm8k",
+    "score": 96.4,
+    "config": "8-shot, CoT",
+    "source": {
+      "kind": "tech_report",
+      "url": "llama-3__paper.pdf",
+      "ref": "p.3",
+      "reported_by": "llama-3",
+      "fetched_at": "2026-06-08T06:11:02.693Z"
+    }
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "gsm8k",
+    "score": 96.1,
+    "config": "8-shot, CoT",
+    "source": {
+      "kind": "tech_report",
+      "url": "llama-3__paper.pdf",
+      "ref": "p.3",
+      "reported_by": "llama-3",
+      "fetched_at": "2026-06-08T06:11:02.693Z"
+    }
+  },
+  {
+    "model_id": "claude-3.5-sonnet",
+    "benchmark_id": "humaneval",
+    "score": 92,
+    "config": "0-shot",
+    "source": {
+      "kind": "tech_report",
+      "url": "llama-3__paper.pdf",
+      "ref": "p.3",
+      "reported_by": "llama-3",
+      "fetched_at": "2026-06-08T06:11:02.693Z"
+    }
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "humaneval",
+    "score": 90.2,
+    "config": "0-shot",
+    "source": {
+      "kind": "tech_report",
+      "url": "llama-3__paper.pdf",
+      "ref": "p.3",
+      "reported_by": "llama-3",
+      "fetched_at": "2026-06-08T06:11:02.693Z"
+    }
+  },
+  {
+    "model_id": "claude-3.5-sonnet",
+    "benchmark_id": "ifeval",
+    "score": 88,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "llama-3__paper.pdf",
+      "ref": "p.3",
+      "reported_by": "llama-3",
+      "fetched_at": "2026-06-08T06:11:02.693Z"
+    }
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "ifeval",
+    "score": 85.6,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "llama-3__paper.pdf",
+      "ref": "p.3",
+      "reported_by": "llama-3",
+      "fetched_at": "2026-06-08T06:11:02.693Z"
+    }
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "infinitebench-en.mc",
+    "score": 82.5,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "llama-3__paper.pdf",
+      "ref": "p.3",
+      "reported_by": "llama-3",
+      "fetched_at": "2026-06-08T06:11:02.693Z"
+    }
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "math",
+    "score": 76.6,
+    "config": "0-shot, CoT",
+    "source": {
+      "kind": "tech_report",
+      "url": "llama-3__paper.pdf",
+      "ref": "p.3",
+      "reported_by": "llama-3",
+      "fetched_at": "2026-06-08T06:11:02.693Z"
+    }
+  },
+  {
+    "model_id": "claude-3.5-sonnet",
+    "benchmark_id": "math",
+    "score": 71.1,
+    "config": "0-shot, CoT",
+    "source": {
+      "kind": "tech_report",
+      "url": "llama-3__paper.pdf",
+      "ref": "p.3",
+      "reported_by": "llama-3",
+      "fetched_at": "2026-06-08T06:11:02.693Z"
+    }
+  },
+  {
+    "model_id": "claude-3.5-sonnet",
+    "benchmark_id": "mbpp+",
+    "score": 90.5,
+    "config": "0-shot",
+    "source": {
+      "kind": "tech_report",
+      "url": "llama-3__paper.pdf",
+      "ref": "p.3",
+      "reported_by": "llama-3",
+      "fetched_at": "2026-06-08T06:11:02.693Z"
+    }
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "mbpp+",
+    "score": 87.8,
+    "config": "0-shot",
+    "source": {
+      "kind": "tech_report",
+      "url": "llama-3__paper.pdf",
+      "ref": "p.3",
+      "reported_by": "llama-3",
+      "fetched_at": "2026-06-08T06:11:02.693Z"
+    }
+  },
+  {
+    "model_id": "claude-3.5-sonnet",
+    "benchmark_id": "mgsm",
+    "score": 91.6,
+    "config": "0-shot, CoT",
+    "source": {
+      "kind": "tech_report",
+      "url": "llama-3__paper.pdf",
+      "ref": "p.3",
+      "reported_by": "llama-3",
+      "fetched_at": "2026-06-08T06:11:02.693Z"
+    }
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "mgsm",
+    "score": 90.5,
+    "config": "0-shot, CoT",
+    "source": {
+      "kind": "tech_report",
+      "url": "llama-3__paper.pdf",
+      "ref": "p.3",
+      "reported_by": "llama-3",
+      "fetched_at": "2026-06-08T06:11:02.693Z"
+    }
+  },
+  {
+    "model_id": "claude-3.5-sonnet",
+    "benchmark_id": "mmlu",
+    "score": 89.9,
+    "config": "5-shot",
+    "source": {
+      "kind": "tech_report",
+      "url": "llama-3__paper.pdf",
+      "ref": "p.3",
+      "reported_by": "llama-3",
+      "fetched_at": "2026-06-08T06:11:02.693Z"
+    },
+    "variants": [
+      {
+        "score": 88.3,
+        "config": "0-shot, CoT",
+        "source": {
+          "kind": "tech_report",
+          "url": "llama-3__paper.pdf",
+          "ref": "p.3",
+          "reported_by": "llama-3",
+          "fetched_at": "2026-06-08T06:11:02.693Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "mmlu",
+    "score": 89.1,
+    "config": "5-shot",
+    "source": {
+      "kind": "tech_report",
+      "url": "llama-3__paper.pdf",
+      "ref": "p.3",
+      "reported_by": "llama-3",
+      "fetched_at": "2026-06-08T06:11:02.693Z"
+    },
+    "variants": [
+      {
+        "score": 88.7,
+        "config": "0-shot, CoT",
+        "source": {
+          "kind": "tech_report",
+          "url": "llama-3__paper.pdf",
+          "ref": "p.3",
+          "reported_by": "llama-3",
+          "fetched_at": "2026-06-08T06:11:02.693Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "claude-3.5-sonnet",
+    "benchmark_id": "mmlu-pro",
+    "score": 77,
+    "config": "5-shot, CoT",
+    "source": {
+      "kind": "tech_report",
+      "url": "llama-3__paper.pdf",
+      "ref": "p.3",
+      "reported_by": "llama-3",
+      "fetched_at": "2026-06-08T06:11:02.693Z"
+    }
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "mmlu-pro",
+    "score": 74,
+    "config": "5-shot, CoT",
+    "source": {
+      "kind": "tech_report",
+      "url": "llama-3__paper.pdf",
+      "ref": "p.3",
+      "reported_by": "llama-3",
+      "fetched_at": "2026-06-08T06:11:02.693Z"
+    }
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "nexus",
+    "score": 56.1,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "llama-3__paper.pdf",
+      "ref": "p.3",
+      "reported_by": "llama-3",
+      "fetched_at": "2026-06-08T06:11:02.693Z"
+    }
+  },
+  {
+    "model_id": "claude-3.5-sonnet",
+    "benchmark_id": "nexus",
+    "score": 45.7,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "llama-3__paper.pdf",
+      "ref": "p.3",
+      "reported_by": "llama-3",
+      "fetched_at": "2026-06-08T06:11:02.693Z"
+    }
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "nih-multi-needle",
+    "score": 100,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "llama-3__paper.pdf",
+      "ref": "p.3",
+      "reported_by": "llama-3",
+      "fetched_at": "2026-06-08T06:11:02.693Z"
+    }
+  },
+  {
+    "model_id": "claude-3.5-sonnet",
+    "benchmark_id": "nih-multi-needle",
+    "score": 90.8,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "llama-3__paper.pdf",
+      "ref": "p.3",
+      "reported_by": "llama-3",
+      "fetched_at": "2026-06-08T06:11:02.693Z"
+    }
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "zeroscrolls-quality",
+    "score": 90.5,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "llama-3__paper.pdf",
+      "ref": "p.3",
+      "reported_by": "llama-3",
+      "fetched_at": "2026-06-08T06:11:02.693Z"
+    }
+  },
+  {
+    "model_id": "claude-3.5-sonnet",
+    "benchmark_id": "zeroscrolls-quality",
+    "score": 90.5,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "llama-3__paper.pdf",
+      "ref": "p.3",
+      "reported_by": "llama-3",
+      "fetched_at": "2026-06-08T06:11:02.693Z"
+    }
+  }
+]

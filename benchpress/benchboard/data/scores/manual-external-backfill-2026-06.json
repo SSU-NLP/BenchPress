@@ -1,0 +1,66 @@
+[
+  {
+    "model_id": "gpt-oss-20b",
+    "benchmark_id": "simpleqa",
+    "score": 6.7,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2508.10925",
+      "ref": "gpt-oss-120b & gpt-oss-20b Model Card (OpenAI), SimpleQA accuracy",
+      "fetched_at": "2026-06-17T00:00:00Z",
+      "published": "2025-08"
+    },
+    "extra": {
+      "n": 4326
+    }
+  },
+  {
+    "model_id": "claude-3.5-sonnet",
+    "benchmark_id": "supergpqa",
+    "score": 48.16,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://github.com/SuperGPQA/SuperGPQA",
+      "ref": "SuperGPQA official leaderboard, sample-level overall accuracy (Claude-3.5-Sonnet-20241022)",
+      "fetched_at": "2026-06-17T00:00:00Z",
+      "published": "2025-02"
+    },
+    "extra": {
+      "n": 26529
+    }
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "supergpqa",
+    "score": 41.64,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2502.14739",
+      "ref": "SuperGPQA paper, overall accuracy (GPT-4o-2024-08-06)",
+      "fetched_at": "2026-06-17T00:00:00Z",
+      "published": "2025-02"
+    },
+    "extra": {
+      "n": 26529
+    }
+  },
+  {
+    "model_id": "qwen-2.5-72b",
+    "benchmark_id": "supergpqa",
+    "score": 40.75,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2502.14739",
+      "ref": "SuperGPQA paper, overall accuracy (Qwen2.5-72B-Instruct)",
+      "fetched_at": "2026-06-17T00:00:00Z",
+      "published": "2025-02"
+    },
+    "extra": {
+      "n": 26529
+    }
+  }
+]

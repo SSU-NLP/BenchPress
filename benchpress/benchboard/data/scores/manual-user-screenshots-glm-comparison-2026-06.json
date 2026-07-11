@@ -1,0 +1,658 @@
+[
+  {
+    "model_id": "glm-4.7",
+    "benchmark_id": "aime-2025",
+    "score": 95.7,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "local://codex-clipboard/glm-comparison-screenshots-2026-06-25",
+      "ref": "User-provided GLM/Gemini/Claude/GPT comparison screenshots",
+      "reported_by": "user screenshot",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gemini-3-pro",
+    "benchmark_id": "aime-2025",
+    "score": 95,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "local://codex-clipboard/glm-comparison-screenshots-2026-06-25",
+      "ref": "User-provided GLM/Gemini/Claude/GPT comparison screenshots",
+      "reported_by": "user screenshot",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "screenshot_note": "AIME 2025 (Math)"
+    }
+  },
+  {
+    "model_id": "gpt-5.1",
+    "benchmark_id": "aime-2025",
+    "score": 94,
+    "config": "high",
+    "source": {
+      "kind": "manual",
+      "url": "local://codex-clipboard/glm-comparison-screenshots-2026-06-25",
+      "ref": "User-provided GLM/Gemini/Claude/GPT comparison screenshots",
+      "reported_by": "user screenshot",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "screenshot_note": "AIME 2025 (Math)"
+    }
+  },
+  {
+    "model_id": "glm-4.6",
+    "benchmark_id": "aime-2025",
+    "score": 93.9,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "local://codex-clipboard/glm-comparison-screenshots-2026-06-25",
+      "ref": "User-provided GLM/Gemini/Claude/GPT comparison screenshots",
+      "reported_by": "user screenshot",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4.5",
+    "benchmark_id": "aime-2025",
+    "score": 87,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "local://codex-clipboard/glm-comparison-screenshots-2026-06-25",
+      "ref": "User-provided GLM/Gemini/Claude/GPT comparison screenshots",
+      "reported_by": "user screenshot",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "screenshot_note": "AIME 2025 (Math)"
+    }
+  },
+  {
+    "model_id": "glm-4.7",
+    "benchmark_id": "browsecomp",
+    "score": 52,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "local://codex-clipboard/glm-comparison-screenshots-2026-06-25",
+      "ref": "User-provided GLM/Gemini/Claude/GPT comparison screenshots",
+      "reported_by": "user screenshot",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "glm-4.6",
+    "benchmark_id": "browsecomp",
+    "score": 45.1,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "local://codex-clipboard/glm-comparison-screenshots-2026-06-25",
+      "ref": "User-provided GLM/Gemini/Claude/GPT comparison screenshots",
+      "reported_by": "user screenshot",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gemini-3-pro",
+    "benchmark_id": "gpqa",
+    "score": 91.9,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "local://codex-clipboard/glm-comparison-screenshots-2026-06-25",
+      "ref": "User-provided GLM/Gemini/Claude/GPT comparison screenshots",
+      "reported_by": "user screenshot",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "screenshot_note": "GPQA-Diamond (Expert QA)"
+    }
+  },
+  {
+    "model_id": "gpt-5.1",
+    "benchmark_id": "gpqa",
+    "score": 88.1,
+    "config": "high",
+    "source": {
+      "kind": "manual",
+      "url": "local://codex-clipboard/glm-comparison-screenshots-2026-06-25",
+      "ref": "User-provided GLM/Gemini/Claude/GPT comparison screenshots",
+      "reported_by": "user screenshot",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "screenshot_note": "GPQA-Diamond (Expert QA)"
+    }
+  },
+  {
+    "model_id": "glm-4.7",
+    "benchmark_id": "gpqa",
+    "score": 85.7,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "local://codex-clipboard/glm-comparison-screenshots-2026-06-25",
+      "ref": "User-provided GLM/Gemini/Claude/GPT comparison screenshots",
+      "reported_by": "user screenshot",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "screenshot_note": "GPQA-Diamond (Expert QA)"
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4.5",
+    "benchmark_id": "gpqa",
+    "score": 83.4,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "local://codex-clipboard/glm-comparison-screenshots-2026-06-25",
+      "ref": "User-provided GLM/Gemini/Claude/GPT comparison screenshots",
+      "reported_by": "user screenshot",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "screenshot_note": "GPQA-Diamond (Expert QA)"
+    }
+  },
+  {
+    "model_id": "gemini-3-pro",
+    "benchmark_id": "hle",
+    "score": 45.8,
+    "config": "with tools",
+    "source": {
+      "kind": "manual",
+      "url": "local://codex-clipboard/glm-comparison-screenshots-2026-06-25",
+      "ref": "User-provided GLM/Gemini/Claude/GPT comparison screenshots",
+      "reported_by": "user screenshot",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "screenshot_note": "HLE w/ Tools (Complex)"
+    }
+  },
+  {
+    "model_id": "glm-4.7",
+    "benchmark_id": "hle",
+    "score": 42.8,
+    "config": "with tools",
+    "source": {
+      "kind": "manual",
+      "url": "local://codex-clipboard/glm-comparison-screenshots-2026-06-25",
+      "ref": "User-provided GLM/Gemini/Claude/GPT comparison screenshots",
+      "reported_by": "user screenshot",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "variants": [
+      {
+        "score": 24.8,
+        "config": "default",
+        "source": {
+          "kind": "manual",
+          "url": "local://codex-clipboard/glm-comparison-screenshots-2026-06-25",
+          "ref": "User-provided GLM/Gemini/Claude/GPT comparison screenshots",
+          "reported_by": "user screenshot",
+          "fetched_at": "2026-06-25T00:00:00Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "gpt-5.1",
+    "benchmark_id": "hle",
+    "score": 42.7,
+    "config": "with tools",
+    "source": {
+      "kind": "manual",
+      "url": "local://codex-clipboard/glm-comparison-screenshots-2026-06-25",
+      "ref": "User-provided GLM/Gemini/Claude/GPT comparison screenshots",
+      "reported_by": "user screenshot",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "screenshot_note": "HLE w/ Tools (Complex)"
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4.5",
+    "benchmark_id": "hle",
+    "score": 32,
+    "config": "with tools",
+    "source": {
+      "kind": "manual",
+      "url": "local://codex-clipboard/glm-comparison-screenshots-2026-06-25",
+      "ref": "User-provided GLM/Gemini/Claude/GPT comparison screenshots",
+      "reported_by": "user screenshot",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "screenshot_note": "HLE w/ Tools (Complex)"
+    }
+  },
+  {
+    "model_id": "glm-4.6",
+    "benchmark_id": "hle",
+    "score": 30.4,
+    "config": "with tools",
+    "source": {
+      "kind": "manual",
+      "url": "local://codex-clipboard/glm-comparison-screenshots-2026-06-25",
+      "ref": "User-provided GLM/Gemini/Claude/GPT comparison screenshots",
+      "reported_by": "user screenshot",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "variants": [
+      {
+        "score": 17.2,
+        "config": "default",
+        "source": {
+          "kind": "manual",
+          "url": "local://codex-clipboard/glm-comparison-screenshots-2026-06-25",
+          "ref": "User-provided GLM/Gemini/Claude/GPT comparison screenshots",
+          "reported_by": "user screenshot",
+          "fetched_at": "2026-06-25T00:00:00Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "gemini-3-pro",
+    "benchmark_id": "hmmt-feb-2025",
+    "score": 97.5,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "local://codex-clipboard/glm-comparison-screenshots-2026-06-25",
+      "ref": "User-provided GLM/Gemini/Claude/GPT comparison screenshots",
+      "reported_by": "user screenshot",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "screenshot_note": "HMMT Feb 2025 (Math)"
+    }
+  },
+  {
+    "model_id": "glm-4.7",
+    "benchmark_id": "hmmt-feb-2025",
+    "score": 97.1,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "local://codex-clipboard/glm-comparison-screenshots-2026-06-25",
+      "ref": "User-provided GLM/Gemini/Claude/GPT comparison screenshots",
+      "reported_by": "user screenshot",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "screenshot_note": "HMMT Feb 2025 (Math)"
+    }
+  },
+  {
+    "model_id": "gpt-5.1",
+    "benchmark_id": "hmmt-feb-2025",
+    "score": 96.3,
+    "config": "high",
+    "source": {
+      "kind": "manual",
+      "url": "local://codex-clipboard/glm-comparison-screenshots-2026-06-25",
+      "ref": "User-provided GLM/Gemini/Claude/GPT comparison screenshots",
+      "reported_by": "user screenshot",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "screenshot_note": "HMMT Feb 2025 (Math)"
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4.5",
+    "benchmark_id": "hmmt-feb-2025",
+    "score": 79.2,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "local://codex-clipboard/glm-comparison-screenshots-2026-06-25",
+      "ref": "User-provided GLM/Gemini/Claude/GPT comparison screenshots",
+      "reported_by": "user screenshot",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "screenshot_note": "HMMT Feb 2025 (Math)"
+    }
+  },
+  {
+    "model_id": "gemini-3-pro",
+    "benchmark_id": "livecodebench-v6",
+    "score": 90.7,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "local://codex-clipboard/glm-comparison-screenshots-2026-06-25",
+      "ref": "User-provided GLM/Gemini/Claude/GPT comparison screenshots",
+      "reported_by": "user screenshot",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "screenshot_note": "LiveCodeBench-v6 (Code)"
+    }
+  },
+  {
+    "model_id": "gpt-5.1",
+    "benchmark_id": "livecodebench-v6",
+    "score": 87,
+    "config": "high",
+    "source": {
+      "kind": "manual",
+      "url": "local://codex-clipboard/glm-comparison-screenshots-2026-06-25",
+      "ref": "User-provided GLM/Gemini/Claude/GPT comparison screenshots",
+      "reported_by": "user screenshot",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "screenshot_note": "LiveCodeBench-v6 (Code)"
+    }
+  },
+  {
+    "model_id": "glm-4.7",
+    "benchmark_id": "livecodebench-v6",
+    "score": 84.9,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "local://codex-clipboard/glm-comparison-screenshots-2026-06-25",
+      "ref": "User-provided GLM/Gemini/Claude/GPT comparison screenshots",
+      "reported_by": "user screenshot",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "screenshot_note": "LiveCodeBench-v6 (Code)"
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4.5",
+    "benchmark_id": "livecodebench-v6",
+    "score": 64,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "local://codex-clipboard/glm-comparison-screenshots-2026-06-25",
+      "ref": "User-provided GLM/Gemini/Claude/GPT comparison screenshots",
+      "reported_by": "user screenshot",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "screenshot_note": "LiveCodeBench-v6 (Code)"
+    }
+  },
+  {
+    "model_id": "gemini-3-pro",
+    "benchmark_id": "mmlu-pro",
+    "score": 90.1,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "local://codex-clipboard/glm-comparison-screenshots-2026-06-25",
+      "ref": "User-provided GLM/Gemini/Claude/GPT comparison screenshots",
+      "reported_by": "user screenshot",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "screenshot_note": "MMLU-Pro (Reasoning)"
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4.5",
+    "benchmark_id": "mmlu-pro",
+    "score": 88.2,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "local://codex-clipboard/glm-comparison-screenshots-2026-06-25",
+      "ref": "User-provided GLM/Gemini/Claude/GPT comparison screenshots",
+      "reported_by": "user screenshot",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "screenshot_note": "MMLU-Pro (Reasoning)"
+    }
+  },
+  {
+    "model_id": "gpt-5.1",
+    "benchmark_id": "mmlu-pro",
+    "score": 87,
+    "config": "high",
+    "source": {
+      "kind": "manual",
+      "url": "local://codex-clipboard/glm-comparison-screenshots-2026-06-25",
+      "ref": "User-provided GLM/Gemini/Claude/GPT comparison screenshots",
+      "reported_by": "user screenshot",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "screenshot_note": "MMLU-Pro (Reasoning)"
+    }
+  },
+  {
+    "model_id": "glm-4.7",
+    "benchmark_id": "mmlu-pro",
+    "score": 84.3,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "local://codex-clipboard/glm-comparison-screenshots-2026-06-25",
+      "ref": "User-provided GLM/Gemini/Claude/GPT comparison screenshots",
+      "reported_by": "user screenshot",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "screenshot_note": "MMLU-Pro (Reasoning)"
+    }
+  },
+  {
+    "model_id": "glm-4.7",
+    "benchmark_id": "swe-bench-multilingual",
+    "score": 66.7,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "local://codex-clipboard/glm-comparison-screenshots-2026-06-25",
+      "ref": "User-provided GLM/Gemini/Claude/GPT comparison screenshots",
+      "reported_by": "user screenshot",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "glm-4.6",
+    "benchmark_id": "swe-bench-multilingual",
+    "score": 53.8,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "local://codex-clipboard/glm-comparison-screenshots-2026-06-25",
+      "ref": "User-provided GLM/Gemini/Claude/GPT comparison screenshots",
+      "reported_by": "user screenshot",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4.5",
+    "benchmark_id": "swe-bench-verified",
+    "score": 77.2,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "local://codex-clipboard/glm-comparison-screenshots-2026-06-25",
+      "ref": "User-provided GLM/Gemini/Claude/GPT comparison screenshots",
+      "reported_by": "user screenshot",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "screenshot_note": "SWE-bench Verified (Eng)"
+    }
+  },
+  {
+    "model_id": "gpt-5.1",
+    "benchmark_id": "swe-bench-verified",
+    "score": 76.3,
+    "config": "high",
+    "source": {
+      "kind": "manual",
+      "url": "local://codex-clipboard/glm-comparison-screenshots-2026-06-25",
+      "ref": "User-provided GLM/Gemini/Claude/GPT comparison screenshots",
+      "reported_by": "user screenshot",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "screenshot_note": "SWE-bench Verified (Eng)"
+    }
+  },
+  {
+    "model_id": "gemini-3-pro",
+    "benchmark_id": "swe-bench-verified",
+    "score": 76.2,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "local://codex-clipboard/glm-comparison-screenshots-2026-06-25",
+      "ref": "User-provided GLM/Gemini/Claude/GPT comparison screenshots",
+      "reported_by": "user screenshot",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "screenshot_note": "SWE-bench Verified (Eng)"
+    }
+  },
+  {
+    "model_id": "glm-4.7",
+    "benchmark_id": "swe-bench-verified",
+    "score": 73.8,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "local://codex-clipboard/glm-comparison-screenshots-2026-06-25",
+      "ref": "User-provided GLM/Gemini/Claude/GPT comparison screenshots",
+      "reported_by": "user screenshot",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "glm-4.6",
+    "benchmark_id": "swe-bench-verified",
+    "score": 68,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "local://codex-clipboard/glm-comparison-screenshots-2026-06-25",
+      "ref": "User-provided GLM/Gemini/Claude/GPT comparison screenshots",
+      "reported_by": "user screenshot",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "glm-4.7",
+    "benchmark_id": "tau2-bench",
+    "score": 87.4,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "local://codex-clipboard/glm-comparison-screenshots-2026-06-25",
+      "ref": "User-provided GLM/Gemini/Claude/GPT comparison screenshots",
+      "reported_by": "user screenshot",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "glm-4.6",
+    "benchmark_id": "tau2-bench",
+    "score": 75.2,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "local://codex-clipboard/glm-comparison-screenshots-2026-06-25",
+      "ref": "User-provided GLM/Gemini/Claude/GPT comparison screenshots",
+      "reported_by": "user screenshot",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gemini-3-pro",
+    "benchmark_id": "terminal-bench-2.0",
+    "score": 54.2,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "local://codex-clipboard/glm-comparison-screenshots-2026-06-25",
+      "ref": "User-provided GLM/Gemini/Claude/GPT comparison screenshots",
+      "reported_by": "user screenshot",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "screenshot_note": "Terminal Bench 2.0"
+    }
+  },
+  {
+    "model_id": "gpt-5.1",
+    "benchmark_id": "terminal-bench-2.0",
+    "score": 47.6,
+    "config": "high",
+    "source": {
+      "kind": "manual",
+      "url": "local://codex-clipboard/glm-comparison-screenshots-2026-06-25",
+      "ref": "User-provided GLM/Gemini/Claude/GPT comparison screenshots",
+      "reported_by": "user screenshot",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "screenshot_note": "Terminal Bench 2.0"
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4.5",
+    "benchmark_id": "terminal-bench-2.0",
+    "score": 42.8,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "local://codex-clipboard/glm-comparison-screenshots-2026-06-25",
+      "ref": "User-provided GLM/Gemini/Claude/GPT comparison screenshots",
+      "reported_by": "user screenshot",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "screenshot_note": "Terminal Bench 2.0"
+    }
+  },
+  {
+    "model_id": "glm-4.7",
+    "benchmark_id": "terminal-bench-2.0",
+    "score": 41,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "local://codex-clipboard/glm-comparison-screenshots-2026-06-25",
+      "ref": "User-provided GLM/Gemini/Claude/GPT comparison screenshots",
+      "reported_by": "user screenshot",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "glm-4.6",
+    "benchmark_id": "terminal-bench-2.0",
+    "score": 24.5,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "local://codex-clipboard/glm-comparison-screenshots-2026-06-25",
+      "ref": "User-provided GLM/Gemini/Claude/GPT comparison screenshots",
+      "reported_by": "user screenshot",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    }
+  }
+]

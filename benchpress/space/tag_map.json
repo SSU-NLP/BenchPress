@@ -1,0 +1,301 @@
+{
+  "meta": {
+    "run": "results/part2_experiment/run_cv_20260708_183338/fold2/final",
+    "n_benchmarks": 20,
+    "n_tags": 10
+  },
+  "vocab": [
+    {
+      "id": "information_extraction_filtering",
+      "name": "Information Extraction and Filtering",
+      "definition": "Identifying specific entities, values, or conditions within unstructured or semi-structured text and isolating them based on temporal, spatial, or categorical constraints."
+    },
+    {
+      "id": "procedural_algorithmic_execution",
+      "name": "Procedural and Algorithmic Execution",
+      "definition": "Translating natural language specifications or abstract rules into a precise sequence of executable steps, simulations, or code to transform inputs into outputs."
+    },
+    {
+      "id": "symbolic_mathematical_derivation",
+      "name": "Symbolic and Mathematical Derivation",
+      "definition": "Manipulating formal symbols, equations, and logical expressions using domain-specific axioms to derive exact numerical results or prove structural properties."
+    },
+    {
+      "id": "domain_knowledge_retrieval",
+      "name": "Domain Knowledge Retrieval",
+      "definition": "Accessing and applying specific factual knowledge, definitions, theorems, or professional standards from long-term memory to interpret scenarios or validate claims."
+    },
+    {
+      "id": "multi_step_decomposition",
+      "name": "Multi-Step Problem Decomposition",
+      "definition": "Breaking down complex, multi-constraint problems into a logical sequence of intermediate sub-tasks where later steps depend on the successful resolution of earlier ones."
+    },
+    {
+      "id": "constraint_satisfaction_optimization",
+      "name": "Constraint Satisfaction and Optimization",
+      "definition": "Evaluating potential solutions against a set of rigid logical, physical, or resource boundaries to identify valid configurations or maximize/minimize a target objective."
+    },
+    {
+      "id": "abstract_pattern_induction",
+      "name": "Abstract Pattern Induction",
+      "definition": "Analyzing limited examples or formal definitions to infer underlying structural rules, grammars, or transformation logic that govern a system's behavior."
+    },
+    {
+      "id": "evidence_reconciliation_verification",
+      "name": "Evidence Reconciliation and Verification",
+      "definition": "Cross-checking derived conclusions, calculated values, or selected options against provided premises, distractors, or internal consistency checks to eliminate errors."
+    },
+    {
+      "id": "spatial_structural_reasoning",
+      "name": "Spatial and Structural Reasoning",
+      "definition": "Mentally manipulating geometric coordinates, graph topologies, or data structures to determine relationships, paths, connectivity, or configuration changes."
+    },
+    {
+      "id": "quantitative_aggregation_computation",
+      "name": "Quantitative Aggregation and Computation",
+      "definition": "Performing arithmetic operations, statistical calculations, or numerical estimations on extracted or derived values to produce a final quantitative answer."
+    }
+  ],
+  "tag_scores": {
+    "AIME 2024": {
+      "information_extraction_filtering": 0.5,
+      "procedural_algorithmic_execution": 0.25,
+      "symbolic_mathematical_derivation": 1.0,
+      "domain_knowledge_retrieval": 0.75,
+      "multi_step_decomposition": 0.75,
+      "constraint_satisfaction_optimization": 0.75,
+      "abstract_pattern_induction": 0.5,
+      "evidence_reconciliation_verification": 0.75,
+      "spatial_structural_reasoning": 0.5,
+      "quantitative_aggregation_computation": 0.75
+    },
+    "AIME 2025": {
+      "information_extraction_filtering": 0.5,
+      "procedural_algorithmic_execution": 0.25,
+      "symbolic_mathematical_derivation": 1.0,
+      "domain_knowledge_retrieval": 0.75,
+      "multi_step_decomposition": 0.75,
+      "constraint_satisfaction_optimization": 0.75,
+      "abstract_pattern_induction": 0.5,
+      "evidence_reconciliation_verification": 0.75,
+      "spatial_structural_reasoning": 0.5,
+      "quantitative_aggregation_computation": 0.5
+    },
+    "ARC Challenge": {
+      "information_extraction_filtering": 0.5,
+      "procedural_algorithmic_execution": 0.0,
+      "symbolic_mathematical_derivation": 0.25,
+      "domain_knowledge_retrieval": 1.0,
+      "multi_step_decomposition": 0.5,
+      "constraint_satisfaction_optimization": 0.0,
+      "abstract_pattern_induction": 0.25,
+      "evidence_reconciliation_verification": 0.75,
+      "spatial_structural_reasoning": 0.25,
+      "quantitative_aggregation_computation": 0.25
+    },
+    "BBH": {
+      "information_extraction_filtering": 0.25,
+      "procedural_algorithmic_execution": 0.75,
+      "symbolic_mathematical_derivation": 0.5,
+      "domain_knowledge_retrieval": 0.0,
+      "multi_step_decomposition": 0.75,
+      "constraint_satisfaction_optimization": 0.0,
+      "abstract_pattern_induction": 0.0,
+      "evidence_reconciliation_verification": 0.5,
+      "spatial_structural_reasoning": 0.0,
+      "quantitative_aggregation_computation": 0.0
+    },
+    "Drop": {
+      "information_extraction_filtering": 1.0,
+      "procedural_algorithmic_execution": 0.0,
+      "symbolic_mathematical_derivation": 0.0,
+      "domain_knowledge_retrieval": 0.25,
+      "multi_step_decomposition": 0.5,
+      "constraint_satisfaction_optimization": 0.0,
+      "abstract_pattern_induction": 0.0,
+      "evidence_reconciliation_verification": 0.5,
+      "spatial_structural_reasoning": 0.0,
+      "quantitative_aggregation_computation": 0.75
+    },
+    "GPQA": {
+      "information_extraction_filtering": 0.5,
+      "procedural_algorithmic_execution": 0.25,
+      "symbolic_mathematical_derivation": 0.75,
+      "domain_knowledge_retrieval": 1.0,
+      "multi_step_decomposition": 0.75,
+      "constraint_satisfaction_optimization": 0.5,
+      "abstract_pattern_induction": 0.25,
+      "evidence_reconciliation_verification": 0.5,
+      "spatial_structural_reasoning": 0.25,
+      "quantitative_aggregation_computation": 0.75
+    },
+    "GSM8K": {
+      "information_extraction_filtering": 0.75,
+      "procedural_algorithmic_execution": 0.5,
+      "symbolic_mathematical_derivation": 0.0,
+      "domain_knowledge_retrieval": 0.25,
+      "multi_step_decomposition": 1.0,
+      "constraint_satisfaction_optimization": 0.0,
+      "abstract_pattern_induction": 0.0,
+      "evidence_reconciliation_verification": 0.5,
+      "spatial_structural_reasoning": 0.0,
+      "quantitative_aggregation_computation": 1.0
+    },
+    "HLE": {
+      "information_extraction_filtering": 0.25,
+      "procedural_algorithmic_execution": 0.75,
+      "symbolic_mathematical_derivation": 1.0,
+      "domain_knowledge_retrieval": 0.75,
+      "multi_step_decomposition": 0.75,
+      "constraint_satisfaction_optimization": 0.75,
+      "abstract_pattern_induction": 0.5,
+      "evidence_reconciliation_verification": 0.75,
+      "spatial_structural_reasoning": 0.5,
+      "quantitative_aggregation_computation": 0.5
+    },
+    "HMMT Feb 2025": {
+      "information_extraction_filtering": 0.5,
+      "procedural_algorithmic_execution": 0.25,
+      "symbolic_mathematical_derivation": 1.0,
+      "domain_knowledge_retrieval": 0.75,
+      "multi_step_decomposition": 0.75,
+      "constraint_satisfaction_optimization": 0.75,
+      "abstract_pattern_induction": 0.5,
+      "evidence_reconciliation_verification": 0.75,
+      "spatial_structural_reasoning": 0.5,
+      "quantitative_aggregation_computation": 0.5
+    },
+    "HumanEval": {
+      "information_extraction_filtering": 0.25,
+      "procedural_algorithmic_execution": 1.0,
+      "symbolic_mathematical_derivation": 0.0,
+      "domain_knowledge_retrieval": 0.5,
+      "multi_step_decomposition": 0.75,
+      "constraint_satisfaction_optimization": 0.75,
+      "abstract_pattern_induction": 0.5,
+      "evidence_reconciliation_verification": 0.75,
+      "spatial_structural_reasoning": 0.0,
+      "quantitative_aggregation_computation": 0.25
+    },
+    "LiveCodeBench": {
+      "information_extraction_filtering": 0.5,
+      "procedural_algorithmic_execution": 1.0,
+      "symbolic_mathematical_derivation": 0.25,
+      "domain_knowledge_retrieval": 0.0,
+      "multi_step_decomposition": 0.75,
+      "constraint_satisfaction_optimization": 0.75,
+      "abstract_pattern_induction": 0.5,
+      "evidence_reconciliation_verification": 0.5,
+      "spatial_structural_reasoning": 0.5,
+      "quantitative_aggregation_computation": 0.5
+    },
+    "MATH": {
+      "information_extraction_filtering": 0.5,
+      "procedural_algorithmic_execution": 0.25,
+      "symbolic_mathematical_derivation": 1.0,
+      "domain_knowledge_retrieval": 0.75,
+      "multi_step_decomposition": 0.75,
+      "constraint_satisfaction_optimization": 0.5,
+      "abstract_pattern_induction": 0.25,
+      "evidence_reconciliation_verification": 0.5,
+      "spatial_structural_reasoning": 0.5,
+      "quantitative_aggregation_computation": 0.75
+    },
+    "MATH-500": {
+      "information_extraction_filtering": 0.5,
+      "procedural_algorithmic_execution": 0.25,
+      "symbolic_mathematical_derivation": 1.0,
+      "domain_knowledge_retrieval": 0.75,
+      "multi_step_decomposition": 0.75,
+      "constraint_satisfaction_optimization": 0.75,
+      "abstract_pattern_induction": 0.5,
+      "evidence_reconciliation_verification": 0.75,
+      "spatial_structural_reasoning": 0.5,
+      "quantitative_aggregation_computation": 0.75
+    },
+    "MBPP": {
+      "information_extraction_filtering": 0.25,
+      "procedural_algorithmic_execution": 1.0,
+      "symbolic_mathematical_derivation": 0.5,
+      "domain_knowledge_retrieval": 0.25,
+      "multi_step_decomposition": 0.75,
+      "constraint_satisfaction_optimization": 0.5,
+      "abstract_pattern_induction": 0.5,
+      "evidence_reconciliation_verification": 0.5,
+      "spatial_structural_reasoning": 0.0,
+      "quantitative_aggregation_computation": 0.5
+    },
+    "MMLU": {
+      "information_extraction_filtering": 0.5,
+      "procedural_algorithmic_execution": 0.0,
+      "symbolic_mathematical_derivation": 0.25,
+      "domain_knowledge_retrieval": 1.0,
+      "multi_step_decomposition": 0.5,
+      "constraint_satisfaction_optimization": 0.0,
+      "abstract_pattern_induction": 0.25,
+      "evidence_reconciliation_verification": 0.5,
+      "spatial_structural_reasoning": 0.0,
+      "quantitative_aggregation_computation": 0.25
+    },
+    "MMLU-Pro": {
+      "information_extraction_filtering": 0.75,
+      "procedural_algorithmic_execution": 0.25,
+      "symbolic_mathematical_derivation": 0.75,
+      "domain_knowledge_retrieval": 0.75,
+      "multi_step_decomposition": 0.75,
+      "constraint_satisfaction_optimization": 0.25,
+      "abstract_pattern_induction": 0.0,
+      "evidence_reconciliation_verification": 0.5,
+      "spatial_structural_reasoning": 0.0,
+      "quantitative_aggregation_computation": 0.75
+    },
+    "MMLU-Redux": {
+      "information_extraction_filtering": 0.25,
+      "procedural_algorithmic_execution": 0.0,
+      "symbolic_mathematical_derivation": 0.75,
+      "domain_knowledge_retrieval": 1.0,
+      "multi_step_decomposition": 0.5,
+      "constraint_satisfaction_optimization": 0.5,
+      "abstract_pattern_induction": 0.25,
+      "evidence_reconciliation_verification": 0.75,
+      "spatial_structural_reasoning": 0.0,
+      "quantitative_aggregation_computation": 0.5
+    },
+    "SciCode": {
+      "information_extraction_filtering": 0.5,
+      "procedural_algorithmic_execution": 1.0,
+      "symbolic_mathematical_derivation": 0.75,
+      "domain_knowledge_retrieval": 0.75,
+      "multi_step_decomposition": 0.75,
+      "constraint_satisfaction_optimization": 0.75,
+      "abstract_pattern_induction": 0.25,
+      "evidence_reconciliation_verification": 0.5,
+      "spatial_structural_reasoning": 0.0,
+      "quantitative_aggregation_computation": 0.5
+    },
+    "SimpleQA": {
+      "information_extraction_filtering": 0.75,
+      "procedural_algorithmic_execution": 0.0,
+      "symbolic_mathematical_derivation": 0.0,
+      "domain_knowledge_retrieval": 1.0,
+      "multi_step_decomposition": 0.25,
+      "constraint_satisfaction_optimization": 0.0,
+      "abstract_pattern_induction": 0.0,
+      "evidence_reconciliation_verification": 0.25,
+      "spatial_structural_reasoning": 0.0,
+      "quantitative_aggregation_computation": 0.0
+    },
+    "SuperGPQA": {
+      "information_extraction_filtering": 0.5,
+      "procedural_algorithmic_execution": 0.25,
+      "symbolic_mathematical_derivation": 0.75,
+      "domain_knowledge_retrieval": 1.0,
+      "multi_step_decomposition": 0.75,
+      "constraint_satisfaction_optimization": 0.25,
+      "abstract_pattern_induction": 0.25,
+      "evidence_reconciliation_verification": 0.75,
+      "spatial_structural_reasoning": 0.0,
+      "quantitative_aggregation_computation": 0.5
+    }
+  }
+}

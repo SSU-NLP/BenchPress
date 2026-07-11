@@ -1,0 +1,21 @@
+---
+import Page from "../../layouts/Page.astro";
+import CategoryTabs from "../../components/CategoryTabs.astro";
+import LeaderboardTable from "../../components/LeaderboardTable.tsx";
+import { buildView } from "../../lib/loadData.ts";
+import "../../styles/global.css";
+
+const view = await buildView("non_deterministic");
+---
+
+<Page title="비결정적 벤치마크">
+  <CategoryTabs active="non-deterministic" />
+  <p class="text-sm text-neutral-500 mb-4">
+    인간 선호도(ELO), LLM-as-judge, 시뮬레이션 기반 평가 — 매 실행마다 결과가 다를 수 있습니다.
+  </p>
+  <LeaderboardTable
+    client:load
+    benchmarks={view.benchmarks}
+    rows={view.rows}
+  />
+</Page>

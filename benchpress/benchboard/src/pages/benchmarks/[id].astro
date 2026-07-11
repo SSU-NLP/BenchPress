@@ -1,0 +1,268 @@
+---
+import Page from "../../layouts/Page.astro";
+import ScoreCell from "../../components/ScoreCell.tsx";
+import {
+  loadAllScores,
+  loadBenchmarks,
+  loadModels,
+  loadBenchmarkTags,
+} from "../../lib/loadData.ts";
+import { SCHEMES, tagById, surveyPath } from "../../lib/tags.ts";
+import { withBase } from "../../lib/url";
+import "../../styles/global.css";
+
+export async function getStaticPaths() {
+  const benchmarks = await loadBenchmarks();
+  return benchmarks.map((b) => ({ params: { id: b.id } }));
+}
+
+const { id } = Astro.params;
+const [benchmarks, models, scores, tagMaps] = await Promise.all([
+  loadBenchmarks(),
+  loadModels(),
+  loadAllScores(),
+  loadBenchmarkTags(),
+]);
+const bench = benchmarks.find((b) => b.id === id);
+if (!bench) throw new Error(`Unknown benchmark: ${id}`);
+
+// Tag set under both schemes. Scheme 1 = flat ability chips; scheme 2 = the
+// taxonomy path (계>문>강 식 breadcrumb).
+const abilityTags = (tagMaps.ability?.[id as string] ?? [])
+  .map((t) => tagById(t))
+  .filter((t): t is NonNullable<ReturnType<typeof tagById>> => Boolean(t));
+const surveyPaths = (tagMaps.survey?.[id as string] ?? []).map((leaf) =>
+  surveyPath(leaf),
+);
+
+const modelById = new Map(models.map((m) => [m.id, m]));
+const here = scores
+  .filter((s) => s.benchmark_id === id)
+  .sort((a, b) => b.score - a.score);
+
+// Contamination signals — surface-level diagnostics computed from the score
+// distribution, not a verdict. Each pair below: parent benchmark_id ↔ the
+// contamination-resistant variant we compare against.
+const HARD_VARIANTS: Record<string, string> = {
+  math: "math-p-hard",
+  "math-500": "math-p-hard",
+  humaneval: "humaneval+",
+  mbpp: "mbpp+",
+  mmlu: "mmlu-pro",
+  "mmlu-redux": "mmlu-pro",
+  "aime-2024": "aime-2025",
+  livecodebench: "livecodebench-v5",
+};
+
+interface Signals {
+  n: number;
+  median: number;
+  max: number;
+  ceilingCount: number;
+  saturated: boolean;
+  hardId: string | null;
+  hardGap: number | null;
+  hardPairs: number;
+}
+
+function compute(): Signals | null {
+  const xs = here.map((s) => s.score).sort((a, b) => a - b);
+  const n = xs.length;
+  if (n < 3) return null;
+  const median = n % 2 ? xs[(n - 1) / 2] : (xs[n / 2 - 1] + xs[n / 2]) / 2;
+  const max = xs[n - 1];
+  // "ceiling" = within 5% of top score, only meaningful when scale looks like %
+  const ceilingCount = max >= 50 ? xs.filter((s) => s >= max * 0.95).length : 0;
+  const saturated = n >= 5 && ceilingCount >= 3 && median >= max * 0.85;
+
+  let hardId: string | null = null;
+  let hardGap: number | null = null;
+  let hardPairs = 0;
+  const variantId = HARD_VARIANTS[id as string];
+  if (variantId && variantId !== id) {
+    const variantByModel = new Map<string, number>();
+    for (const s of scores) {
+      if (s.benchmark_id === variantId) variantByModel.set(s.model_id, s.score);
+    }
+    const diffs: number[] = [];
+    for (const s of here) {
+      const v = variantByModel.get(s.model_id);
+      if (v !== undefined) diffs.push(s.score - v);
+    }
+    if (diffs.length >= 3) {
+      hardId = variantId;
+      hardPairs = diffs.length;
+      hardGap = diffs.reduce((a, b) => a + b, 0) / diffs.length;
+    }
+  }
+
+  return { n, median, max, ceilingCount, saturated, hardId, hardGap, hardPairs };
+}
+
+const sig = compute();
+const variantName = sig?.hardId
+  ? (benchmarks.find((b) => b.id === sig.hardId)?.name ?? sig.hardId)
+  : null;
+
+type RiskLevel = "high" | "medium" | "low";
+function riskOf(s: Signals): { level: RiskLevel; label: string; reason: string } {
+  const ceilingFrac = s.ceilingCount / s.n;
+  const bigGap = (s.hardGap ?? 0) > 15;
+  const someGap = (s.hardGap ?? 0) > 8;
+  if ((s.saturated && ceilingFrac >= 0.3) || bigGap) {
+    return { level: "high", label: "높음", reason: bigGap ? "hard variant 격차 큼" : "천장 효과 강함" };
+  }
+  if (s.ceilingCount >= 2 || someGap) {
+    return { level: "medium", label: "중간", reason: someGap ? "hard variant 격차 있음" : "상위 점수 밀집" };
+  }
+  return { level: "low", label: "낮음", reason: "분포 정상" };
+}
+const risk = sig ? riskOf(sig) : null;
+const riskColor: Record<RiskLevel, string> = {
+  high: "bg-red-100 text-red-800 border-red-300",
+  medium: "bg-amber-100 text-amber-800 border-amber-300",
+  low: "bg-emerald-100 text-emerald-800 border-emerald-300",
+};
+---
+
+<Page title={bench.name}>
+  <a href={withBase("/")} class="text-xs text-neutral-500 hover:underline">&larr; back</a>
+  <h1 class="text-2xl font-bold tracking-tight mt-2">{bench.name}</h1>
+  <div class="text-sm text-neutral-500 mb-3">
+    {bench.category} · {bench.type === "non_deterministic" ? "Non-deterministic" : "Deterministic"}
+    {bench.language && ` · ${bench.language}`}
+    {bench.source_url && (
+      <>
+        {" · "}
+        <a href={bench.source_url} class="hover:underline" target="_blank" rel="noopener">source ↗</a>
+      </>
+    )}
+  </div>
+
+  {bench.description && (
+    <p class="text-sm text-neutral-600 mb-4 max-w-2xl">{bench.description}</p>
+  )}
+
+  <div class="mb-6 flex flex-col lg:flex-row lg:items-start gap-4">
+    {bench.note && (
+      <div class="lg:flex-1 lg:max-w-2xl rounded-md border border-amber-300 bg-amber-50 px-4 py-3 text-sm text-amber-900">
+        <div class="font-semibold mb-1">⚠ 벤치마크 주의사항</div>
+        <p class="whitespace-pre-line">{bench.note}</p>
+      </div>
+    )}
+    <div class={`rounded border border-neutral-200 bg-neutral-50 px-3 py-2 ${bench.note ? "lg:w-80 shrink-0" : "w-full max-w-2xl"}`}>
+      <div class="text-[10px] uppercase tracking-wider text-neutral-400 mb-1.5">
+        Benchmark tag set
+      </div>
+
+      <div class="mb-2">
+        <div class="text-[10px] text-neutral-500 mb-1">
+          <a href={SCHEMES.ability.url} target="_blank" rel="noopener" class="hover:underline">{SCHEMES.ability.label}</a>
+        </div>
+        <div class="flex flex-wrap gap-1">
+          {abilityTags.length === 0 ? (
+            <span class="text-[10px] text-neutral-300">—</span>
+          ) : (
+            abilityTags.map((t) => (
+              <span class="text-[10px] rounded bg-white border border-neutral-200 px-1.5 py-0.5 text-neutral-600" title={t.description}>
+                {t.label}
+              </span>
+            ))
+          )}
+        </div>
+      </div>
+
+      <div>
+        <div class="text-[10px] text-neutral-500 mb-1">
+          <a href={SCHEMES.survey.url} target="_blank" rel="noopener" class="hover:underline">{SCHEMES.survey.label}</a>
+        </div>
+        {surveyPaths.length === 0 ? (
+          <span class="text-[10px] text-neutral-300">—</span>
+        ) : (
+          <ul class="space-y-0.5">
+            {surveyPaths.map((path) => (
+              <li class="text-[10px] text-neutral-600 flex flex-wrap items-center gap-0.5">
+                {path.map((seg, i) => (
+                  <>
+                    {i > 0 && <span class="text-neutral-300">›</span>}
+                    <span class={i === path.length - 1 ? "font-medium text-neutral-800" : "text-neutral-500"}>{seg}</span>
+                  </>
+                ))}
+              </li>
+            ))}
+          </ul>
+        )}
+      </div>
+    </div>
+  </div>
+
+  {sig && risk && (
+    <div class={`mb-6 max-w-2xl rounded border px-4 py-3 text-xs ${sig.saturated ? "border-amber-300 bg-amber-50 text-amber-900" : "border-neutral-200 bg-neutral-50 text-neutral-700"}`}>
+      <div class="flex items-center justify-between mb-2">
+        <div class="font-semibold text-sm">오염 의심 지표</div>
+        <span
+          class={`inline-flex items-center gap-1 rounded border px-2 py-0.5 text-[11px] font-medium ${riskColor[risk.level]}`}
+          title={risk.reason}
+        >
+          {risk.label}
+          <span class="text-[9px] opacity-70">· {risk.reason}</span>
+        </span>
+      </div>
+      <ul class="space-y-1 leading-relaxed">
+        <li>점수 분포 — median <span class="tabular-nums">{sig.median.toFixed(1)}</span> · top <span class="tabular-nums">{sig.max.toFixed(1)}</span> · {sig.n}개 모델</li>
+        {sig.ceilingCount >= 2 && (
+          <li>
+            상위 5% 구간({(sig.max * 0.95).toFixed(1)}+)에 <span class="tabular-nums">{sig.ceilingCount}</span>개 모델 몰림
+            {sig.saturated && <span class="ml-1">— 천장 효과(saturation) 신호</span>}
+          </li>
+        )}
+        {sig.hardId && sig.hardGap !== null && (
+          <li>
+            <a href={withBase(`/benchmarks/${sig.hardId}`)} class="underline">{variantName}</a>(contamination-resistant 변형) 대비 평균
+            {" "}<span class={`tabular-nums ${sig.hardGap > 10 ? "font-semibold text-amber-700" : ""}`}>{sig.hardGap > 0 ? "+" : ""}{sig.hardGap.toFixed(1)}pt</span>
+            {" "}({sig.hardPairs}쌍)
+            {sig.hardGap > 15 && <span class="ml-1">— 큰 격차는 원본 문제 memorization 가능성</span>}
+          </li>
+        )}
+      </ul>
+      <div class="mt-2 text-[10px] text-neutral-500">
+        오염은 점수만으로 단정 불가. training cutoff·decontamination 절차 등 외부 정보와 종합 판단 필요.
+      </div>
+    </div>
+  )}
+
+  {here.length === 0 ? (
+    <p class="text-sm text-neutral-500">No scores yet for this benchmark.</p>
+  ) : (
+    <table class="min-w-full text-sm border-t border-neutral-100">
+      <thead class="bg-neutral-50">
+        <tr>
+          <th class="px-3 py-2 text-left text-xs font-semibold">#</th>
+          <th class="px-3 py-2 text-left text-xs font-semibold">Model</th>
+          <th class="px-3 py-2 text-right text-xs font-semibold">Score</th>
+          <th class="px-3 py-2 text-left text-xs font-semibold">Config</th>
+        </tr>
+      </thead>
+      <tbody>
+        {here.map((s, i) => {
+          const m = modelById.get(s.model_id);
+          return (
+            <tr class="border-b border-neutral-100">
+              <td class="px-3 py-2 text-neutral-400 tabular-nums">{i + 1}</td>
+              <td class="px-3 py-2">
+                <a href={withBase(`/models/${s.model_id}`)} class="hover:underline">
+                  {m?.name ?? s.model_id}
+                </a>
+                <span class="ml-2 text-xs text-neutral-400">{m?.vendor}</span>
+              </td>
+              <td class="px-3 py-2 text-right">
+                <ScoreCell record={s} />
+              </td>
+              <td class="px-3 py-2 text-xs text-neutral-500">{s.config}</td>
+            </tr>
+          );
+        })}
+      </tbody>
+    </table>
+  )}
+</Page>

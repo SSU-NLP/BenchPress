@@ -1,0 +1,37 @@
+# --- caches / env (any level) ---
+.venv
+.venv-wsl
+.env
+__pycache__
+*.egg-info
+.pytest_cache
+.ruff_cache
+.DS_Store
+
+# --- repo-root inputs / generated / heavy (not committed) ---
+/results
+/logs
+/docs
+/demo_examples
+/archive
+/analysis
+/reports
+/wandb
+/tests
+/dev
+/node_modules
+/package-lock.json
+
+# data/ holds pipeline inputs; commit only the 3 files the demo Composer loads
+/data/*
+!/data/hf_dataset_map.json
+!/data/leaderboard_scores.json
+!/data/cognitive_abilities.json
+
+# --- not demo or pipeline — kept out of the repo (still on disk locally) ---
+/demo_experiment
+/figs
+/REPORT.pdf
+/REPORT.md
+/HANDOFF.md
+/tea_debug.log

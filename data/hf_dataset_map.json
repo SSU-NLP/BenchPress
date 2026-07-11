@@ -1,0 +1,270 @@
+{
+  "MATH-500": {
+    "id": "HuggingFaceH4/MATH-500",
+    "config": null,
+    "split": "test"
+  },
+  "MATH": {
+    "id": "nlile/hendrycks-MATH-benchmark",
+    "config": null,
+    "split": "test"
+  },
+  "MMLU": {
+    "id": "tinyBenchmarks/tinyMMLU",
+    "config": "all",
+    "split": "test"
+  },
+  "MMLU-Pro": {
+    "id": "TIGER-Lab/MMLU-Pro",
+    "config": null,
+    "split": "test"
+  },
+  "GSM8K": {
+    "id": "openai/gsm8k",
+    "config": "main",
+    "split": "test"
+  },
+  "MMLU-Redux": {
+    "id": "edinburgh-dawg/mmlu-redux-2.0",
+    "config": "abstract_algebra",
+    "split": "test"
+  },
+  "MMLU-stem": {
+    "id": "TIGER-Lab/MMLU-STEM",
+    "config": "STEM",
+    "split": "test"
+  },
+  "HLE": {
+    "id": "cais/hle",
+    "config": null,
+    "split": "test"
+  },
+  "Chinese-SimpleQA": {
+    "id": "OpenStellarTeam/Chinese-SimpleQA",
+    "config": null,
+    "split": "train"
+  },
+  "CMMLU": {
+    "id": "lmlmcat/cmmlu",
+    "config": null,
+    "split": "test"
+  },
+  "CMRC": {
+    "id": "hfl/cmrc2018",
+    "config": null,
+    "split": "test"
+  },
+  "CMATH": {
+    "id": "weitianwen/cmath",
+    "config": null,
+    "split": "test"
+  },
+  "commonsense_qa": {
+    "id": "tau/commonsense_qa",
+    "config": null,
+    "split": "train"
+  },
+  "Drop": {
+    "id": "EleutherAI/drop",
+    "config": null,
+    "split": "validation"
+  },
+  "MedThinkVQA": {
+    "id": "bio-nlp-umass/MedThinkVQA",
+    "config": null,
+    "split": "train"
+  },
+  "HAE-RAE v1.1": {
+    "id": "HAERAE-HUB/HAE_RAE_BENCH_1.1",
+    "config": "correct_definition_matching",
+    "split": "test"
+  },
+  "HMMT Feb 2025": {
+    "id": "MathArena/hmmt_feb_2025",
+    "config": null,
+    "split": "train"
+  },
+  "HMMT 2026": {
+    "id": "MathArena/hmmt_feb_2026",
+    "config": null,
+    "split": "train"
+  },
+  "SuperGPQA": {
+    "id": "m-a-p/SuperGPQA",
+    "config": null,
+    "split": "train"
+  },
+  "ARC Challenge": {
+    "id": "allenai/ai2_arc",
+    "config": "ARC-Challenge",
+    "split": "test"
+  },
+  "ARC Easy": {
+    "id": "allenai/ai2_arc",
+    "config": "ARC-Easy",
+    "split": "test"
+  },
+  "AIME 2024": {
+    "id": "math-ai/aime24",
+    "config": null,
+    "split": "test"
+  },
+  "AIME 2025": {
+    "id": "math-ai/aime25",
+    "config": null,
+    "split": "test"
+  },
+  "MBPP": {
+    "id": "google-research-datasets/mbpp",
+    "config": "full",
+    "split": "test"
+  },
+  "TheoremQA": {
+    "id": "TIGER-Lab/TheoremQA",
+    "config": null,
+    "split": "test"
+  },
+  "GPQA": {
+    "id": "Idavidrein/gpqa",
+    "config": "gpqa_diamond",
+    "split": "train"
+  },
+  "HellaSwag": {
+    "id": "tinyBenchmarks/tinyHellaswag",
+    "config": "default",
+    "split": "validation"
+  },
+  "PIQA": {
+    "id": "ybisk/piqa",
+    "config": null,
+    "split": "validation"
+  },
+  "RACE-Middle": {
+    "id": "ehovy/race",
+    "config": "middle",
+    "split": "test"
+  },
+  "WinoGrande": {
+    "id": "allenai/winogrande",
+    "config": "winogrande_xl",
+    "split": "validation"
+  },
+  "HumanEval": {
+    "id": "evalplus/humanevalplus",
+    "config": "default",
+    "split": "test"
+  },
+  "HRM8K": {
+    "id": "HAERAE-HUB/HRM8K",
+    "config": "MATH",
+    "split": "test"
+  },
+  "mentalBench": {
+    "id": "hysong/MentalBench",
+    "config": null,
+    "split": "train"
+  },
+  "SimpleQA": {
+    "id": "basicv8vc/SimpleQA",
+    "config": null,
+    "split": "test"
+  },
+  "simpleqa_subset_llama_ours": {
+    "id": "shivank21/simpleqa_subset_llama_ours",
+    "config": null,
+    "split": "train"
+  },
+  "hotpot_qa": {
+    "id": "hotpotqa/hotpotqa",
+    "config": "distractor",
+    "split": "train"
+  },
+  "BBH-Boolean_Expressions": {
+    "id": "maveriq/bigbenchhard",
+    "config": "boolean_expressions",
+    "split": "train"
+  },
+  "AGIEval_GaokaoMathQA": {
+    "id": "dmayhem93/agieval-gaokao-mathqa",
+    "config": null,
+    "split": "test"
+  },
+  "LogiQA": {
+    "id": "lucasmccabe/logiqa",
+    "config": null,
+    "split": "test"
+  },
+  "Gaokao-Bench": {
+    "id": "RUCAIBox/gaokao-bench",
+    "config": "2010-2013_English_MCQs",
+    "split": "test"
+  },
+  "FrontierScience": {
+    "id": "openai/frontierscience",
+    "config": null,
+    "split": "test"
+  },
+  "TruthfulQA": {
+    "id": "truthfulqa/truthful_qa",
+    "config": "multiple_choice",
+    "split": "validation"
+  },
+  "TriviaQA": {
+    "id": "mandarjoshi/trivia_qa",
+    "config": "rc.nocontext",
+    "split": "validation"
+  },
+  "BoolQ": {
+    "id": "google/boolq",
+    "config": null,
+    "split": "train"
+  },
+  "MMMU-Pharmacy": {
+    "id": "MMMU/MMMU",
+    "config": "Pharmacy",
+    "split": "validation"
+  },
+  "MMMU-Pro": {
+    "id": "MMMU/MMMU_Pro",
+    "config": "standard (10 options)",
+    "split": "test"
+  },
+  "CV-Bench": {
+    "id": "nyu-visionx/CV-Bench",
+    "config": "default",
+    "split": "test"
+  },
+  "ChartQA": {
+    "id": "lmms-lab/ChartQA",
+    "config": null,
+    "split": "test"
+  },
+  "LegalBench": {
+    "id": "nguha/legalbench",
+    "config": "contract_nli_no_licensing",
+    "split": "test"
+  },
+  "BBH": {
+    "id": "lukaemon/bbh",
+    "config": "boolean_expressions",
+    "split": "test"
+  },
+  "KMMLU": {
+    "id": "HAERAE-HUB/KMMLU",
+    "config": "Accounting",
+    "split": "train"
+  },
+  "LiveCodeBench":{
+    "id": "livecodebench/code_generation",
+    "config": null,
+    "split": "test"
+  },
+  "SciCode": {
+    "id": "SciCode1/SciCode",
+    "config": null,
+    "split": "test"
+  },
+  "Aider-Polyglot": {
+    "url": "https://github.com/Aider-AI/polyglot-benchmark"
+  }
+}

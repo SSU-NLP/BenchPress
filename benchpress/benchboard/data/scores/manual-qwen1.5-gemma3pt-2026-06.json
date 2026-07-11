@@ -1,0 +1,613 @@
+[
+  {
+    "model_id": "gemma-3-27b",
+    "benchmark_id": "agieval",
+    "score": 66.2,
+    "config": "Base (PT)",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.19786",
+      "reported_by": "Gemma 3 Technical Report (arXiv:2503.19786), pretrained",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-03-12"
+    }
+  },
+  {
+    "model_id": "gemma-3-12b",
+    "benchmark_id": "agieval",
+    "score": 57.4,
+    "config": "Base (PT)",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.19786",
+      "reported_by": "Gemma 3 Technical Report (arXiv:2503.19786), pretrained",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-03-12"
+    }
+  },
+  {
+    "model_id": "gemma-3-4b",
+    "benchmark_id": "agieval",
+    "score": 42.1,
+    "config": "Base (PT)",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.19786",
+      "reported_by": "Gemma 3 Technical Report (arXiv:2503.19786), pretrained",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-03-12"
+    }
+  },
+  {
+    "model_id": "gemma-3-27b",
+    "benchmark_id": "ai2d",
+    "score": 79,
+    "config": "Base (PT)",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.19786",
+      "reported_by": "Gemma 3 Technical Report (arXiv:2503.19786), pretrained",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-03-12"
+    }
+  },
+  {
+    "model_id": "gemma-3-12b",
+    "benchmark_id": "ai2d",
+    "score": 75.2,
+    "config": "Base (PT)",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.19786",
+      "reported_by": "Gemma 3 Technical Report (arXiv:2503.19786), pretrained",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-03-12"
+    }
+  },
+  {
+    "model_id": "gemma-3-4b",
+    "benchmark_id": "ai2d",
+    "score": 63.2,
+    "config": "Base (PT)",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.19786",
+      "reported_by": "Gemma 3 Technical Report (arXiv:2503.19786), pretrained",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-03-12"
+    }
+  },
+  {
+    "model_id": "qwen1.5-1.8b",
+    "benchmark_id": "bbh",
+    "score": 24.2,
+    "config": "base",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen1.5/",
+      "reported_by": "Qwen1.5 blog (base eval)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-02-05"
+    }
+  },
+  {
+    "model_id": "qwen1.5-1.8b",
+    "benchmark_id": "c-eval",
+    "score": 59.7,
+    "config": "base",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen1.5/",
+      "reported_by": "Qwen1.5 blog (base eval)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-02-05"
+    }
+  },
+  {
+    "model_id": "gemma-3-27b",
+    "benchmark_id": "chartqa",
+    "score": 76.3,
+    "config": "Base (PT)",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.19786",
+      "reported_by": "Gemma 3 Technical Report (arXiv:2503.19786), pretrained",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-03-12"
+    }
+  },
+  {
+    "model_id": "gemma-3-12b",
+    "benchmark_id": "chartqa",
+    "score": 74.7,
+    "config": "Base (PT)",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.19786",
+      "reported_by": "Gemma 3 Technical Report (arXiv:2503.19786), pretrained",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-03-12"
+    }
+  },
+  {
+    "model_id": "gemma-3-4b",
+    "benchmark_id": "chartqa",
+    "score": 63.6,
+    "config": "Base (PT)",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.19786",
+      "reported_by": "Gemma 3 Technical Report (arXiv:2503.19786), pretrained",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-03-12"
+    }
+  },
+  {
+    "model_id": "qwen1.5-1.8b",
+    "benchmark_id": "cmmlu",
+    "score": 57.8,
+    "config": "base",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen1.5/",
+      "reported_by": "Qwen1.5 blog (base eval)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-02-05"
+    }
+  },
+  {
+    "model_id": "gemma-3-27b",
+    "benchmark_id": "docvqa",
+    "score": 85.6,
+    "config": "Base (PT)",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.19786",
+      "reported_by": "Gemma 3 Technical Report (arXiv:2503.19786), pretrained",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-03-12"
+    }
+  },
+  {
+    "model_id": "gemma-3-12b",
+    "benchmark_id": "docvqa",
+    "score": 82.3,
+    "config": "Base (PT)",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.19786",
+      "reported_by": "Gemma 3 Technical Report (arXiv:2503.19786), pretrained",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-03-12"
+    }
+  },
+  {
+    "model_id": "gemma-3-4b",
+    "benchmark_id": "docvqa",
+    "score": 72.8,
+    "config": "Base (PT)",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.19786",
+      "reported_by": "Gemma 3 Technical Report (arXiv:2503.19786), pretrained",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-03-12"
+    }
+  },
+  {
+    "model_id": "gemma-3-12b",
+    "benchmark_id": "gpqa",
+    "score": 25.4,
+    "config": "Base (PT)",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.19786",
+      "reported_by": "Gemma 3 Technical Report (arXiv:2503.19786), pretrained",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-03-12"
+    }
+  },
+  {
+    "model_id": "gemma-3-27b",
+    "benchmark_id": "gpqa",
+    "score": 24.3,
+    "config": "Base (PT)",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.19786",
+      "reported_by": "Gemma 3 Technical Report (arXiv:2503.19786), pretrained",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-03-12"
+    }
+  },
+  {
+    "model_id": "gemma-3-4b",
+    "benchmark_id": "gpqa",
+    "score": 15,
+    "config": "Base (PT)",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.19786",
+      "reported_by": "Gemma 3 Technical Report (arXiv:2503.19786), pretrained",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-03-12"
+    }
+  },
+  {
+    "model_id": "gemma-3-27b",
+    "benchmark_id": "gsm8k",
+    "score": 82.6,
+    "config": "Base (PT)",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.19786",
+      "reported_by": "Gemma 3 Technical Report (arXiv:2503.19786), pretrained",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-03-12"
+    }
+  },
+  {
+    "model_id": "gemma-3-12b",
+    "benchmark_id": "gsm8k",
+    "score": 71,
+    "config": "Base (PT)",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.19786",
+      "reported_by": "Gemma 3 Technical Report (arXiv:2503.19786), pretrained",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-03-12"
+    }
+  },
+  {
+    "model_id": "qwen1.5-1.8b",
+    "benchmark_id": "gsm8k",
+    "score": 38.4,
+    "config": "base",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen1.5/",
+      "reported_by": "Qwen1.5 blog (base eval)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-02-05"
+    }
+  },
+  {
+    "model_id": "gemma-3-4b",
+    "benchmark_id": "gsm8k",
+    "score": 38.4,
+    "config": "Base (PT)",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.19786",
+      "reported_by": "Gemma 3 Technical Report (arXiv:2503.19786), pretrained",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-03-12"
+    }
+  },
+  {
+    "model_id": "gemma-3-27b",
+    "benchmark_id": "humaneval",
+    "score": 48.8,
+    "config": "Base (PT)",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.19786",
+      "reported_by": "Gemma 3 Technical Report (arXiv:2503.19786), pretrained",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-03-12"
+    }
+  },
+  {
+    "model_id": "gemma-3-12b",
+    "benchmark_id": "humaneval",
+    "score": 45.7,
+    "config": "Base (PT)",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.19786",
+      "reported_by": "Gemma 3 Technical Report (arXiv:2503.19786), pretrained",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-03-12"
+    }
+  },
+  {
+    "model_id": "gemma-3-4b",
+    "benchmark_id": "humaneval",
+    "score": 36,
+    "config": "Base (PT)",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.19786",
+      "reported_by": "Gemma 3 Technical Report (arXiv:2503.19786), pretrained",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-03-12"
+    }
+  },
+  {
+    "model_id": "qwen1.5-1.8b",
+    "benchmark_id": "humaneval",
+    "score": 20.1,
+    "config": "base",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen1.5/",
+      "reported_by": "Qwen1.5 blog (base eval)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-02-05"
+    }
+  },
+  {
+    "model_id": "gemma-3-27b",
+    "benchmark_id": "math",
+    "score": 50,
+    "config": "Base (PT)",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.19786",
+      "reported_by": "Gemma 3 Technical Report (arXiv:2503.19786), pretrained",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-03-12"
+    }
+  },
+  {
+    "model_id": "gemma-3-12b",
+    "benchmark_id": "math",
+    "score": 43.3,
+    "config": "Base (PT)",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.19786",
+      "reported_by": "Gemma 3 Technical Report (arXiv:2503.19786), pretrained",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-03-12"
+    }
+  },
+  {
+    "model_id": "gemma-3-4b",
+    "benchmark_id": "math",
+    "score": 24.2,
+    "config": "Base (PT)",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.19786",
+      "reported_by": "Gemma 3 Technical Report (arXiv:2503.19786), pretrained",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-03-12"
+    }
+  },
+  {
+    "model_id": "qwen1.5-1.8b",
+    "benchmark_id": "math",
+    "score": 10.1,
+    "config": "base",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen1.5/",
+      "reported_by": "Qwen1.5 blog (base eval)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-02-05"
+    }
+  },
+  {
+    "model_id": "gemma-3-27b",
+    "benchmark_id": "mbpp",
+    "score": 65.6,
+    "config": "Base (PT)",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.19786",
+      "reported_by": "Gemma 3 Technical Report (arXiv:2503.19786), pretrained",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-03-12"
+    }
+  },
+  {
+    "model_id": "gemma-3-12b",
+    "benchmark_id": "mbpp",
+    "score": 60.4,
+    "config": "Base (PT)",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.19786",
+      "reported_by": "Gemma 3 Technical Report (arXiv:2503.19786), pretrained",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-03-12"
+    }
+  },
+  {
+    "model_id": "gemma-3-4b",
+    "benchmark_id": "mbpp",
+    "score": 46,
+    "config": "Base (PT)",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.19786",
+      "reported_by": "Gemma 3 Technical Report (arXiv:2503.19786), pretrained",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-03-12"
+    }
+  },
+  {
+    "model_id": "qwen1.5-1.8b",
+    "benchmark_id": "mbpp",
+    "score": 18,
+    "config": "base",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen1.5/",
+      "reported_by": "Qwen1.5 blog (base eval)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-02-05"
+    }
+  },
+  {
+    "model_id": "gemma-3-27b",
+    "benchmark_id": "mmlu",
+    "score": 78.6,
+    "config": "Base (PT)",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.19786",
+      "reported_by": "Gemma 3 Technical Report (arXiv:2503.19786), pretrained",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-03-12"
+    }
+  },
+  {
+    "model_id": "gemma-3-12b",
+    "benchmark_id": "mmlu",
+    "score": 74.5,
+    "config": "Base (PT)",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.19786",
+      "reported_by": "Gemma 3 Technical Report (arXiv:2503.19786), pretrained",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-03-12"
+    }
+  },
+  {
+    "model_id": "gemma-3-4b",
+    "benchmark_id": "mmlu",
+    "score": 59.6,
+    "config": "Base (PT)",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.19786",
+      "reported_by": "Gemma 3 Technical Report (arXiv:2503.19786), pretrained",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-03-12"
+    }
+  },
+  {
+    "model_id": "qwen1.5-1.8b",
+    "benchmark_id": "mmlu",
+    "score": 46.8,
+    "config": "base",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen1.5/",
+      "reported_by": "Qwen1.5 blog (base eval)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-02-05"
+    }
+  },
+  {
+    "model_id": "gemma-3-27b",
+    "benchmark_id": "mmlu-pro",
+    "score": 52.2,
+    "config": "Base (PT)",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.19786",
+      "reported_by": "Gemma 3 Technical Report (arXiv:2503.19786), pretrained",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-03-12"
+    }
+  },
+  {
+    "model_id": "gemma-3-12b",
+    "benchmark_id": "mmlu-pro",
+    "score": 45.3,
+    "config": "Base (PT)",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.19786",
+      "reported_by": "Gemma 3 Technical Report (arXiv:2503.19786), pretrained",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-03-12"
+    }
+  },
+  {
+    "model_id": "gemma-3-4b",
+    "benchmark_id": "mmlu-pro",
+    "score": 29.2,
+    "config": "Base (PT)",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.19786",
+      "reported_by": "Gemma 3 Technical Report (arXiv:2503.19786), pretrained",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-03-12"
+    }
+  },
+  {
+    "model_id": "gemma-3-27b",
+    "benchmark_id": "mmmu",
+    "score": 56.1,
+    "config": "Base (PT)",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.19786",
+      "reported_by": "Gemma 3 Technical Report (arXiv:2503.19786), pretrained",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-03-12"
+    }
+  },
+  {
+    "model_id": "gemma-3-12b",
+    "benchmark_id": "mmmu",
+    "score": 50.3,
+    "config": "Base (PT)",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.19786",
+      "reported_by": "Gemma 3 Technical Report (arXiv:2503.19786), pretrained",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-03-12"
+    }
+  },
+  {
+    "model_id": "gemma-3-4b",
+    "benchmark_id": "mmmu",
+    "score": 39.2,
+    "config": "Base (PT)",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.19786",
+      "reported_by": "Gemma 3 Technical Report (arXiv:2503.19786), pretrained",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-03-12"
+    }
+  },
+  {
+    "model_id": "gemma-3-27b",
+    "benchmark_id": "realworldqa",
+    "score": 53.9,
+    "config": "Base (PT)",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.19786",
+      "reported_by": "Gemma 3 Technical Report (arXiv:2503.19786), pretrained",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-03-12"
+    }
+  },
+  {
+    "model_id": "gemma-3-12b",
+    "benchmark_id": "realworldqa",
+    "score": 52.2,
+    "config": "Base (PT)",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.19786",
+      "reported_by": "Gemma 3 Technical Report (arXiv:2503.19786), pretrained",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-03-12"
+    }
+  },
+  {
+    "model_id": "gemma-3-4b",
+    "benchmark_id": "realworldqa",
+    "score": 45.5,
+    "config": "Base (PT)",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2503.19786",
+      "reported_by": "Gemma 3 Technical Report (arXiv:2503.19786), pretrained",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-03-12"
+    }
+  }
+]

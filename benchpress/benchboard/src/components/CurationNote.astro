@@ -1,0 +1,14 @@
+---
+import { withBase } from "../lib/url";
+interface Props {
+  hidden: number;
+  allHref: string;
+}
+const { hidden, allHref } = Astro.props;
+---
+{hidden > 0 && (
+  <p class="text-xs text-neutral-500 mb-4">
+    이 탭은 데이터가 충분한 핵심 벤치마크만 보여줍니다. 점수가 적은 {hidden}개는 숨겨졌어요 —{" "}
+    <a href={withBase(allHref)} class="underline hover:text-neutral-700">전체 보기 →</a>
+  </p>
+)}

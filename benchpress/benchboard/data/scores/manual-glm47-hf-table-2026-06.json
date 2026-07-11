@@ -1,0 +1,938 @@
+[
+  {
+    "model_id": "glm-4.7",
+    "benchmark_id": "aime-2025",
+    "score": 95.7,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/zai-org/GLM-4.7",
+      "ref": "Z.ai GLM-4.7 model card benchmark table, AIME 2025 row",
+      "reported_by": "Z.ai",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gemini-3-pro",
+    "benchmark_id": "aime-2025",
+    "score": 95,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/zai-org/GLM-4.7",
+      "ref": "Z.ai GLM-4.7 model card benchmark table, AIME 2025 row",
+      "reported_by": "Z.ai",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-5",
+    "benchmark_id": "aime-2025",
+    "score": 94.6,
+    "config": "high",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/zai-org/GLM-4.7",
+      "ref": "Z.ai GLM-4.7 model card benchmark table, AIME 2025 row",
+      "reported_by": "Z.ai",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "kimi-k2-thinking",
+    "benchmark_id": "aime-2025",
+    "score": 94.5,
+    "config": "thinking",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/zai-org/GLM-4.7",
+      "ref": "Z.ai GLM-4.7 model card benchmark table, AIME 2025 row",
+      "reported_by": "Z.ai",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.1",
+    "benchmark_id": "aime-2025",
+    "score": 94,
+    "config": "high",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/zai-org/GLM-4.7",
+      "ref": "Z.ai GLM-4.7 model card benchmark table, AIME 2025 row",
+      "reported_by": "Z.ai",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "glm-4.6",
+    "benchmark_id": "aime-2025",
+    "score": 93.9,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/zai-org/GLM-4.7",
+      "ref": "Z.ai GLM-4.7 model card benchmark table, AIME 2025 row",
+      "reported_by": "Z.ai",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3.2",
+    "benchmark_id": "aime-2025",
+    "score": 93.1,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/zai-org/GLM-4.7",
+      "ref": "Z.ai GLM-4.7 model card benchmark table, AIME 2025 row",
+      "reported_by": "Z.ai",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4.5",
+    "benchmark_id": "aime-2025",
+    "score": 87,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/zai-org/GLM-4.7",
+      "ref": "Z.ai GLM-4.7 model card benchmark table, AIME 2025 row",
+      "reported_by": "Z.ai",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gemini-3-pro",
+    "benchmark_id": "gpqa",
+    "score": 91.9,
+    "config": "Diamond",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/zai-org/GLM-4.7",
+      "ref": "Z.ai GLM-4.7 model card benchmark table, GPQA-Diamond row",
+      "reported_by": "Z.ai",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.1",
+    "benchmark_id": "gpqa",
+    "score": 88.1,
+    "config": "high, Diamond",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/zai-org/GLM-4.7",
+      "ref": "Z.ai GLM-4.7 model card benchmark table, GPQA-Diamond row",
+      "reported_by": "Z.ai",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "glm-4.7",
+    "benchmark_id": "gpqa",
+    "score": 85.7,
+    "config": "Diamond",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/zai-org/GLM-4.7",
+      "ref": "Z.ai GLM-4.7 model card benchmark table, GPQA-Diamond row",
+      "reported_by": "Z.ai",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-5",
+    "benchmark_id": "gpqa",
+    "score": 85.7,
+    "config": "high, Diamond",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/zai-org/GLM-4.7",
+      "ref": "Z.ai GLM-4.7 model card benchmark table, GPQA-Diamond row",
+      "reported_by": "Z.ai",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "kimi-k2-thinking",
+    "benchmark_id": "gpqa",
+    "score": 84.5,
+    "config": "thinking, Diamond",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/zai-org/GLM-4.7",
+      "ref": "Z.ai GLM-4.7 model card benchmark table, GPQA-Diamond row",
+      "reported_by": "Z.ai",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4.5",
+    "benchmark_id": "gpqa",
+    "score": 83.4,
+    "config": "Diamond",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/zai-org/GLM-4.7",
+      "ref": "Z.ai GLM-4.7 model card benchmark table, GPQA-Diamond row",
+      "reported_by": "Z.ai",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3.2",
+    "benchmark_id": "gpqa",
+    "score": 82.4,
+    "config": "Diamond",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/zai-org/GLM-4.7",
+      "ref": "Z.ai GLM-4.7 model card benchmark table, GPQA-Diamond row",
+      "reported_by": "Z.ai",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "glm-4.6",
+    "benchmark_id": "gpqa",
+    "score": 81,
+    "config": "Diamond",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/zai-org/GLM-4.7",
+      "ref": "Z.ai GLM-4.7 model card benchmark table, GPQA-Diamond row",
+      "reported_by": "Z.ai",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gemini-3-pro",
+    "benchmark_id": "hle",
+    "score": 45.8,
+    "config": "with tools",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/zai-org/GLM-4.7",
+      "ref": "Z.ai GLM-4.7 model card benchmark table, HLE (w/ Tools) row",
+      "reported_by": "Z.ai",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "variants": [
+      {
+        "score": 37.5,
+        "config": "default",
+        "source": {
+          "kind": "manual",
+          "url": "https://huggingface.co/zai-org/GLM-4.7",
+          "ref": "Z.ai GLM-4.7 model card benchmark table, HLE row",
+          "reported_by": "Z.ai",
+          "fetched_at": "2026-06-25T00:00:00Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "kimi-k2-thinking",
+    "benchmark_id": "hle",
+    "score": 44.9,
+    "config": "thinking, with tools",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/zai-org/GLM-4.7",
+      "ref": "Z.ai GLM-4.7 model card benchmark table, HLE (w/ Tools) row",
+      "reported_by": "Z.ai",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "variants": [
+      {
+        "score": 23.9,
+        "config": "thinking",
+        "source": {
+          "kind": "manual",
+          "url": "https://huggingface.co/zai-org/GLM-4.7",
+          "ref": "Z.ai GLM-4.7 model card benchmark table, HLE row",
+          "reported_by": "Z.ai",
+          "fetched_at": "2026-06-25T00:00:00Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "glm-4.7",
+    "benchmark_id": "hle",
+    "score": 42.8,
+    "config": "with tools",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/zai-org/GLM-4.7",
+      "ref": "Z.ai GLM-4.7 model card benchmark table, HLE (w/ Tools) row",
+      "reported_by": "Z.ai",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "variants": [
+      {
+        "score": 24.8,
+        "config": "default",
+        "source": {
+          "kind": "manual",
+          "url": "https://huggingface.co/zai-org/GLM-4.7",
+          "ref": "Z.ai GLM-4.7 model card benchmark table, HLE row",
+          "reported_by": "Z.ai",
+          "fetched_at": "2026-06-25T00:00:00Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "gpt-5.1",
+    "benchmark_id": "hle",
+    "score": 42.7,
+    "config": "high, with tools",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/zai-org/GLM-4.7",
+      "ref": "Z.ai GLM-4.7 model card benchmark table, HLE (w/ Tools) row",
+      "reported_by": "Z.ai",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "variants": [
+      {
+        "score": 25.7,
+        "config": "high",
+        "source": {
+          "kind": "manual",
+          "url": "https://huggingface.co/zai-org/GLM-4.7",
+          "ref": "Z.ai GLM-4.7 model card benchmark table, HLE row",
+          "reported_by": "Z.ai",
+          "fetched_at": "2026-06-25T00:00:00Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "deepseek-v3.2",
+    "benchmark_id": "hle",
+    "score": 40.8,
+    "config": "with tools",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/zai-org/GLM-4.7",
+      "ref": "Z.ai GLM-4.7 model card benchmark table, HLE (w/ Tools) row",
+      "reported_by": "Z.ai",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "variants": [
+      {
+        "score": 25.1,
+        "config": "default",
+        "source": {
+          "kind": "manual",
+          "url": "https://huggingface.co/zai-org/GLM-4.7",
+          "ref": "Z.ai GLM-4.7 model card benchmark table, HLE row",
+          "reported_by": "Z.ai",
+          "fetched_at": "2026-06-25T00:00:00Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "gpt-5",
+    "benchmark_id": "hle",
+    "score": 35.2,
+    "config": "high, with tools",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/zai-org/GLM-4.7",
+      "ref": "Z.ai GLM-4.7 model card benchmark table, HLE (w/ Tools) row",
+      "reported_by": "Z.ai",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "variants": [
+      {
+        "score": 26.3,
+        "config": "high",
+        "source": {
+          "kind": "manual",
+          "url": "https://huggingface.co/zai-org/GLM-4.7",
+          "ref": "Z.ai GLM-4.7 model card benchmark table, HLE row",
+          "reported_by": "Z.ai",
+          "fetched_at": "2026-06-25T00:00:00Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "claude-sonnet-4.5",
+    "benchmark_id": "hle",
+    "score": 32,
+    "config": "with tools",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/zai-org/GLM-4.7",
+      "ref": "Z.ai GLM-4.7 model card benchmark table, HLE (w/ Tools) row",
+      "reported_by": "Z.ai",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "variants": [
+      {
+        "score": 13.7,
+        "config": "default",
+        "source": {
+          "kind": "manual",
+          "url": "https://huggingface.co/zai-org/GLM-4.7",
+          "ref": "Z.ai GLM-4.7 model card benchmark table, HLE row",
+          "reported_by": "Z.ai",
+          "fetched_at": "2026-06-25T00:00:00Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "glm-4.6",
+    "benchmark_id": "hle",
+    "score": 30.4,
+    "config": "with tools",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/zai-org/GLM-4.7",
+      "ref": "Z.ai GLM-4.7 model card benchmark table, HLE (w/ Tools) row",
+      "reported_by": "Z.ai",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "variants": [
+      {
+        "score": 17.2,
+        "config": "default",
+        "source": {
+          "kind": "manual",
+          "url": "https://huggingface.co/zai-org/GLM-4.7",
+          "ref": "Z.ai GLM-4.7 model card benchmark table, HLE row",
+          "reported_by": "Z.ai",
+          "fetched_at": "2026-06-25T00:00:00Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "gemini-3-pro",
+    "benchmark_id": "hmmt-feb-2025",
+    "score": 97.5,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/zai-org/GLM-4.7",
+      "ref": "Z.ai GLM-4.7 model card benchmark table, HMMT Feb. 2025 row",
+      "reported_by": "Z.ai",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "glm-4.7",
+    "benchmark_id": "hmmt-feb-2025",
+    "score": 97.1,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/zai-org/GLM-4.7",
+      "ref": "Z.ai GLM-4.7 model card benchmark table, HMMT Feb. 2025 row",
+      "reported_by": "Z.ai",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.1",
+    "benchmark_id": "hmmt-feb-2025",
+    "score": 96.3,
+    "config": "high",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/zai-org/GLM-4.7",
+      "ref": "Z.ai GLM-4.7 model card benchmark table, HMMT Feb. 2025 row",
+      "reported_by": "Z.ai",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3.2",
+    "benchmark_id": "hmmt-feb-2025",
+    "score": 92.5,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/zai-org/GLM-4.7",
+      "ref": "Z.ai GLM-4.7 model card benchmark table, HMMT Feb. 2025 row",
+      "reported_by": "Z.ai",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "kimi-k2-thinking",
+    "benchmark_id": "hmmt-feb-2025",
+    "score": 89.4,
+    "config": "thinking",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/zai-org/GLM-4.7",
+      "ref": "Z.ai GLM-4.7 model card benchmark table, HMMT Feb. 2025 row",
+      "reported_by": "Z.ai",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "glm-4.6",
+    "benchmark_id": "hmmt-feb-2025",
+    "score": 89.2,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/zai-org/GLM-4.7",
+      "ref": "Z.ai GLM-4.7 model card benchmark table, HMMT Feb. 2025 row",
+      "reported_by": "Z.ai",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-5",
+    "benchmark_id": "hmmt-feb-2025",
+    "score": 88.3,
+    "config": "high",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/zai-org/GLM-4.7",
+      "ref": "Z.ai GLM-4.7 model card benchmark table, HMMT Feb. 2025 row",
+      "reported_by": "Z.ai",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4.5",
+    "benchmark_id": "hmmt-feb-2025",
+    "score": 79.2,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/zai-org/GLM-4.7",
+      "ref": "Z.ai GLM-4.7 model card benchmark table, HMMT Feb. 2025 row",
+      "reported_by": "Z.ai",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gemini-3-pro",
+    "benchmark_id": "livecodebench-v6",
+    "score": 90.7,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/zai-org/GLM-4.7",
+      "ref": "Z.ai GLM-4.7 model card benchmark table, LiveCodeBench-v6 row",
+      "reported_by": "Z.ai",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-5",
+    "benchmark_id": "livecodebench-v6",
+    "score": 87,
+    "config": "high",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/zai-org/GLM-4.7",
+      "ref": "Z.ai GLM-4.7 model card benchmark table, LiveCodeBench-v6 row",
+      "reported_by": "Z.ai",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.1",
+    "benchmark_id": "livecodebench-v6",
+    "score": 87,
+    "config": "high",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/zai-org/GLM-4.7",
+      "ref": "Z.ai GLM-4.7 model card benchmark table, LiveCodeBench-v6 row",
+      "reported_by": "Z.ai",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "glm-4.7",
+    "benchmark_id": "livecodebench-v6",
+    "score": 84.9,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/zai-org/GLM-4.7",
+      "ref": "Z.ai GLM-4.7 model card benchmark table, LiveCodeBench-v6 row",
+      "reported_by": "Z.ai",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3.2",
+    "benchmark_id": "livecodebench-v6",
+    "score": 83.3,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/zai-org/GLM-4.7",
+      "ref": "Z.ai GLM-4.7 model card benchmark table, LiveCodeBench-v6 row",
+      "reported_by": "Z.ai",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "kimi-k2-thinking",
+    "benchmark_id": "livecodebench-v6",
+    "score": 83.1,
+    "config": "thinking",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/zai-org/GLM-4.7",
+      "ref": "Z.ai GLM-4.7 model card benchmark table, LiveCodeBench-v6 row",
+      "reported_by": "Z.ai",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "glm-4.6",
+    "benchmark_id": "livecodebench-v6",
+    "score": 82.8,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/zai-org/GLM-4.7",
+      "ref": "Z.ai GLM-4.7 model card benchmark table, LiveCodeBench-v6 row",
+      "reported_by": "Z.ai",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4.5",
+    "benchmark_id": "livecodebench-v6",
+    "score": 64,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/zai-org/GLM-4.7",
+      "ref": "Z.ai GLM-4.7 model card benchmark table, LiveCodeBench-v6 row",
+      "reported_by": "Z.ai",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gemini-3-pro",
+    "benchmark_id": "mmlu-pro",
+    "score": 90.1,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/zai-org/GLM-4.7",
+      "ref": "Z.ai GLM-4.7 model card benchmark table, MMLU-Pro row",
+      "reported_by": "Z.ai",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4.5",
+    "benchmark_id": "mmlu-pro",
+    "score": 88.2,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/zai-org/GLM-4.7",
+      "ref": "Z.ai GLM-4.7 model card benchmark table, MMLU-Pro row",
+      "reported_by": "Z.ai",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-5",
+    "benchmark_id": "mmlu-pro",
+    "score": 87.5,
+    "config": "high",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/zai-org/GLM-4.7",
+      "ref": "Z.ai GLM-4.7 model card benchmark table, MMLU-Pro row",
+      "reported_by": "Z.ai",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.1",
+    "benchmark_id": "mmlu-pro",
+    "score": 87,
+    "config": "high",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/zai-org/GLM-4.7",
+      "ref": "Z.ai GLM-4.7 model card benchmark table, MMLU-Pro row",
+      "reported_by": "Z.ai",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3.2",
+    "benchmark_id": "mmlu-pro",
+    "score": 85,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/zai-org/GLM-4.7",
+      "ref": "Z.ai GLM-4.7 model card benchmark table, MMLU-Pro row",
+      "reported_by": "Z.ai",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "kimi-k2-thinking",
+    "benchmark_id": "mmlu-pro",
+    "score": 84.6,
+    "config": "thinking",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/zai-org/GLM-4.7",
+      "ref": "Z.ai GLM-4.7 model card benchmark table, MMLU-Pro row",
+      "reported_by": "Z.ai",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "glm-4.7",
+    "benchmark_id": "mmlu-pro",
+    "score": 84.3,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/zai-org/GLM-4.7",
+      "ref": "Z.ai GLM-4.7 model card benchmark table, MMLU-Pro row",
+      "reported_by": "Z.ai",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "glm-4.6",
+    "benchmark_id": "mmlu-pro",
+    "score": 83.2,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/zai-org/GLM-4.7",
+      "ref": "Z.ai GLM-4.7 model card benchmark table, MMLU-Pro row",
+      "reported_by": "Z.ai",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4.5",
+    "benchmark_id": "swe-bench-verified",
+    "score": 77.2,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/zai-org/GLM-4.7",
+      "ref": "Z.ai GLM-4.7 model card benchmark table, SWE-bench Verified row",
+      "reported_by": "Z.ai",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.1",
+    "benchmark_id": "swe-bench-verified",
+    "score": 76.3,
+    "config": "high",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/zai-org/GLM-4.7",
+      "ref": "Z.ai GLM-4.7 model card benchmark table, SWE-bench Verified row",
+      "reported_by": "Z.ai",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gemini-3-pro",
+    "benchmark_id": "swe-bench-verified",
+    "score": 76.2,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/zai-org/GLM-4.7",
+      "ref": "Z.ai GLM-4.7 model card benchmark table, SWE-bench Verified row",
+      "reported_by": "Z.ai",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-5",
+    "benchmark_id": "swe-bench-verified",
+    "score": 74.9,
+    "config": "high",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/zai-org/GLM-4.7",
+      "ref": "Z.ai GLM-4.7 model card benchmark table, SWE-bench Verified row",
+      "reported_by": "Z.ai",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "glm-4.7",
+    "benchmark_id": "swe-bench-verified",
+    "score": 73.8,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/zai-org/GLM-4.7",
+      "ref": "Z.ai GLM-4.7 model card benchmark table, SWE-bench Verified row",
+      "reported_by": "Z.ai",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3.2",
+    "benchmark_id": "swe-bench-verified",
+    "score": 73.1,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/zai-org/GLM-4.7",
+      "ref": "Z.ai GLM-4.7 model card benchmark table, SWE-bench Verified row",
+      "reported_by": "Z.ai",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "kimi-k2-thinking",
+    "benchmark_id": "swe-bench-verified",
+    "score": 71.3,
+    "config": "thinking",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/zai-org/GLM-4.7",
+      "ref": "Z.ai GLM-4.7 model card benchmark table, SWE-bench Verified row",
+      "reported_by": "Z.ai",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "glm-4.6",
+    "benchmark_id": "swe-bench-verified",
+    "score": 68,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/zai-org/GLM-4.7",
+      "ref": "Z.ai GLM-4.7 model card benchmark table, SWE-bench Verified row",
+      "reported_by": "Z.ai",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gemini-3-pro",
+    "benchmark_id": "terminal-bench-2.0",
+    "score": 54.2,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/zai-org/GLM-4.7",
+      "ref": "Z.ai GLM-4.7 model card benchmark table, Terminal Bench 2.0 row",
+      "reported_by": "Z.ai",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.1",
+    "benchmark_id": "terminal-bench-2.0",
+    "score": 47.6,
+    "config": "high",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/zai-org/GLM-4.7",
+      "ref": "Z.ai GLM-4.7 model card benchmark table, Terminal Bench 2.0 row",
+      "reported_by": "Z.ai",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3.2",
+    "benchmark_id": "terminal-bench-2.0",
+    "score": 46.4,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/zai-org/GLM-4.7",
+      "ref": "Z.ai GLM-4.7 model card benchmark table, Terminal Bench 2.0 row",
+      "reported_by": "Z.ai",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4.5",
+    "benchmark_id": "terminal-bench-2.0",
+    "score": 42.8,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/zai-org/GLM-4.7",
+      "ref": "Z.ai GLM-4.7 model card benchmark table, Terminal Bench 2.0 row",
+      "reported_by": "Z.ai",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "glm-4.7",
+    "benchmark_id": "terminal-bench-2.0",
+    "score": 41,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/zai-org/GLM-4.7",
+      "ref": "Z.ai GLM-4.7 model card benchmark table, Terminal Bench 2.0 row",
+      "reported_by": "Z.ai",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "kimi-k2-thinking",
+    "benchmark_id": "terminal-bench-2.0",
+    "score": 35.7,
+    "config": "thinking",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/zai-org/GLM-4.7",
+      "ref": "Z.ai GLM-4.7 model card benchmark table, Terminal Bench 2.0 row",
+      "reported_by": "Z.ai",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-5",
+    "benchmark_id": "terminal-bench-2.0",
+    "score": 35.2,
+    "config": "high",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/zai-org/GLM-4.7",
+      "ref": "Z.ai GLM-4.7 model card benchmark table, Terminal Bench 2.0 row",
+      "reported_by": "Z.ai",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "glm-4.6",
+    "benchmark_id": "terminal-bench-2.0",
+    "score": 24.5,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/zai-org/GLM-4.7",
+      "ref": "Z.ai GLM-4.7 model card benchmark table, Terminal Bench 2.0 row",
+      "reported_by": "Z.ai",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    }
+  }
+]

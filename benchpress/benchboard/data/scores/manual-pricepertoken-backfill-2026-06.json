@@ -1,0 +1,5104 @@
+[
+  {
+    "model_id": "grok-4",
+    "benchmark_id": "aime-2024",
+    "score": 94.3,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/aime#grok-4",
+      "ref": "PricePerToken benchmark leaderboard: Grok 4",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "xAI",
+      "pricepertoken_model": "Grok 4"
+    }
+  },
+  {
+    "model_id": "gemini-2.5-flash",
+    "benchmark_id": "aime-2024",
+    "score": 84.3,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/aime#gemini-2-5-flash",
+      "ref": "PricePerToken benchmark leaderboard: Gemini 2.5 Flash",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Google",
+      "pricepertoken_model": "Gemini 2.5 Flash"
+    },
+    "variants": [
+      {
+        "score": 50,
+        "config": "default",
+        "source": {
+          "kind": "manual",
+          "url": "https://pricepertoken.com/leaderboards/benchmark/aime#gemini-2-5-flash",
+          "ref": "PricePerToken benchmark leaderboard: Gemini 2.5 Flash",
+          "reported_by": "PricePerToken",
+          "fetched_at": "2026-06-25T00:00:00Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "qwen3-235b",
+    "benchmark_id": "aime-2024",
+    "score": 84,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/aime#qwen3-235b-a22b",
+      "ref": "PricePerToken benchmark leaderboard: Qwen3 235B A22B",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Alibaba",
+      "pricepertoken_model": "Qwen3 235B A22B"
+    },
+    "variants": [
+      {
+        "score": 71.7,
+        "config": "default",
+        "source": {
+          "kind": "manual",
+          "url": "https://pricepertoken.com/leaderboards/benchmark/aime#qwen3-235b-a22b-instruct-2507",
+          "ref": "PricePerToken benchmark leaderboard: Qwen3 235B A22B Instruct 2507",
+          "reported_by": "PricePerToken",
+          "fetched_at": "2026-06-25T00:00:00Z"
+        }
+      },
+      {
+        "score": 32.7,
+        "config": "default",
+        "source": {
+          "kind": "manual",
+          "url": "https://pricepertoken.com/leaderboards/benchmark/aime#qwen3-235b-a22b",
+          "ref": "PricePerToken benchmark leaderboard: Qwen3 235B A22B",
+          "reported_by": "PricePerToken",
+          "fetched_at": "2026-06-25T00:00:00Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "claude-sonnet-4",
+    "benchmark_id": "aime-2024",
+    "score": 77.3,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/aime#claude-sonnet-4",
+      "ref": "PricePerToken benchmark leaderboard: Claude Sonnet 4",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Anthropic",
+      "pricepertoken_model": "Claude Sonnet 4"
+    },
+    "variants": [
+      {
+        "score": 40.7,
+        "config": "default",
+        "source": {
+          "kind": "manual",
+          "url": "https://pricepertoken.com/leaderboards/benchmark/aime#claude-sonnet-4",
+          "ref": "PricePerToken benchmark leaderboard: Claude Sonnet 4",
+          "reported_by": "PricePerToken",
+          "fetched_at": "2026-06-25T00:00:00Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "kimi-k2",
+    "benchmark_id": "aime-2024",
+    "score": 69.3,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/aime#kimi-k2-0711",
+      "ref": "PricePerToken benchmark leaderboard: Kimi K2 0711",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Kimi",
+      "pricepertoken_model": "Kimi K2 0711"
+    }
+  },
+  {
+    "model_id": "deepseek-v3",
+    "benchmark_id": "aime-2024",
+    "score": 52,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/aime#deepseek-v3-0324",
+      "ref": "PricePerToken benchmark leaderboard: DeepSeek V3 0324",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "DeepSeek",
+      "pricepertoken_model": "DeepSeek V3 0324"
+    }
+  },
+  {
+    "model_id": "llama-3.1-405b",
+    "benchmark_id": "aime-2024",
+    "score": 21.3,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/aime#llama-3-1-405b-instruct",
+      "ref": "PricePerToken benchmark leaderboard: Llama 3.1 405B Instruct",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Meta",
+      "pricepertoken_model": "Llama 3.1 405B Instruct"
+    }
+  },
+  {
+    "model_id": "llama-3.1-70b",
+    "benchmark_id": "aime-2024",
+    "score": 17.3,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/aime#llama-3-1-70b-instruct",
+      "ref": "PricePerToken benchmark leaderboard: Llama 3.1 70B Instruct",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Meta",
+      "pricepertoken_model": "Llama 3.1 70B Instruct"
+    }
+  },
+  {
+    "model_id": "qwen-2.5-72b",
+    "benchmark_id": "aime-2024",
+    "score": 16,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/aime#qwen2-5-72b-instruct",
+      "ref": "PricePerToken benchmark leaderboard: Qwen2.5 72B Instruct",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Alibaba",
+      "pricepertoken_model": "Qwen2.5 72B Instruct"
+    }
+  },
+  {
+    "model_id": "claude-3.5-sonnet",
+    "benchmark_id": "aime-2024",
+    "score": 15.7,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/aime#claude-3-5-sonnet",
+      "ref": "PricePerToken benchmark leaderboard: Claude 3.5 Sonnet",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Anthropic",
+      "pricepertoken_model": "Claude 3.5 Sonnet"
+    }
+  },
+  {
+    "model_id": "phi-4",
+    "benchmark_id": "aime-2024",
+    "score": 14.3,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/aime#phi-4",
+      "ref": "PricePerToken benchmark leaderboard: Phi 4",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Microsoft",
+      "pricepertoken_model": "Phi 4"
+    }
+  },
+  {
+    "model_id": "nova-pro",
+    "benchmark_id": "aime-2024",
+    "score": 10.7,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/aime#nova-pro-1-0",
+      "ref": "PricePerToken benchmark leaderboard: Nova Pro 1.0",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Amazon",
+      "pricepertoken_model": "Nova Pro 1.0"
+    }
+  },
+  {
+    "model_id": "llama-3.1-8b",
+    "benchmark_id": "aime-2024",
+    "score": 7.7,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/aime#llama-3-1-8b-instruct",
+      "ref": "PricePerToken benchmark leaderboard: Llama 3.1 8B Instruct",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Meta",
+      "pricepertoken_model": "Llama 3.1 8B Instruct"
+    }
+  },
+  {
+    "model_id": "gemma-3-4b",
+    "benchmark_id": "aime-2024",
+    "score": 6.3,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/aime#gemma-3-4b",
+      "ref": "PricePerToken benchmark leaderboard: Gemma 3 4B",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Google",
+      "pricepertoken_model": "Gemma 3 4B"
+    }
+  },
+  {
+    "model_id": "gemini-3-pro",
+    "benchmark_id": "aime-2025",
+    "score": 95.7,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/aime-25#gemini-3-pro-preview",
+      "ref": "PricePerToken benchmark leaderboard: Gemini 3 Pro Preview",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Google",
+      "pricepertoken_model": "Gemini 3 Pro Preview"
+    }
+  },
+  {
+    "model_id": "glm-4.7",
+    "benchmark_id": "aime-2025",
+    "score": 95,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/aime-25#glm-4-7",
+      "ref": "PricePerToken benchmark leaderboard: GLM 4.7",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Z AI",
+      "pricepertoken_model": "GLM 4.7"
+    },
+    "variants": [
+      {
+        "score": 48,
+        "config": "default",
+        "source": {
+          "kind": "manual",
+          "url": "https://pricepertoken.com/leaderboards/benchmark/aime-25#glm-4-7",
+          "ref": "PricePerToken benchmark leaderboard: GLM 4.7",
+          "reported_by": "PricePerToken",
+          "fetched_at": "2026-06-25T00:00:00Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "kimi-k2",
+    "benchmark_id": "aime-2025",
+    "score": 94.7,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/aime-25#kimi-k2-0711",
+      "ref": "PricePerToken benchmark leaderboard: Kimi K2 0711",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Kimi",
+      "pricepertoken_model": "Kimi K2 0711"
+    }
+  },
+  {
+    "model_id": "gpt-5.1",
+    "benchmark_id": "aime-2025",
+    "score": 94,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/aime-25#gpt-5-1",
+      "ref": "PricePerToken benchmark leaderboard: GPT-5.1",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "OpenAI",
+      "pricepertoken_model": "GPT-5.1"
+    }
+  },
+  {
+    "model_id": "gpt-oss-120b",
+    "benchmark_id": "aime-2025",
+    "score": 93.4,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/aime-25#gpt-oss-120b",
+      "ref": "PricePerToken benchmark leaderboard: GPT-OSS-120b",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "OpenAI",
+      "pricepertoken_model": "GPT-OSS-120b"
+    }
+  },
+  {
+    "model_id": "grok-4",
+    "benchmark_id": "aime-2025",
+    "score": 92.7,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/aime-25#grok-4",
+      "ref": "PricePerToken benchmark leaderboard: Grok 4",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "xAI",
+      "pricepertoken_model": "Grok 4"
+    }
+  },
+  {
+    "model_id": "deepseek-v3",
+    "benchmark_id": "aime-2025",
+    "score": 92,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/aime-25#deepseek-v3-2",
+      "ref": "PricePerToken benchmark leaderboard: DeepSeek V3.2",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "DeepSeek",
+      "pricepertoken_model": "DeepSeek V3.2"
+    },
+    "variants": [
+      {
+        "score": 89.7,
+        "config": "default",
+        "source": {
+          "kind": "manual",
+          "url": "https://pricepertoken.com/leaderboards/benchmark/aime-25#deepseek-v3-1",
+          "ref": "PricePerToken benchmark leaderboard: DeepSeek V3.1",
+          "reported_by": "PricePerToken",
+          "fetched_at": "2026-06-25T00:00:00Z"
+        }
+      },
+      {
+        "score": 59,
+        "config": "default",
+        "source": {
+          "kind": "manual",
+          "url": "https://pricepertoken.com/leaderboards/benchmark/aime-25#deepseek-v3-2",
+          "ref": "PricePerToken benchmark leaderboard: DeepSeek V3.2",
+          "reported_by": "PricePerToken",
+          "fetched_at": "2026-06-25T00:00:00Z"
+        }
+      },
+      {
+        "score": 49.7,
+        "config": "default",
+        "source": {
+          "kind": "manual",
+          "url": "https://pricepertoken.com/leaderboards/benchmark/aime-25#deepseek-v3-1",
+          "ref": "PricePerToken benchmark leaderboard: DeepSeek V3.1",
+          "reported_by": "PricePerToken",
+          "fetched_at": "2026-06-25T00:00:00Z"
+        }
+      },
+      {
+        "score": 41,
+        "config": "default",
+        "source": {
+          "kind": "manual",
+          "url": "https://pricepertoken.com/leaderboards/benchmark/aime-25#deepseek-v3-0324",
+          "ref": "PricePerToken benchmark leaderboard: DeepSeek V3 0324",
+          "reported_by": "PricePerToken",
+          "fetched_at": "2026-06-25T00:00:00Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "gpt-oss-20b",
+    "benchmark_id": "aime-2025",
+    "score": 89.3,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/aime-25#gpt-oss-20b",
+      "ref": "PricePerToken benchmark leaderboard: GPT-OSS-20b",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "OpenAI",
+      "pricepertoken_model": "GPT-OSS-20b"
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4.5",
+    "benchmark_id": "aime-2025",
+    "score": 88,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/aime-25#claude-sonnet-4-5",
+      "ref": "PricePerToken benchmark leaderboard: Claude Sonnet 4.5",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Anthropic",
+      "pricepertoken_model": "Claude Sonnet 4.5"
+    },
+    "variants": [
+      {
+        "score": 37,
+        "config": "default",
+        "source": {
+          "kind": "manual",
+          "url": "https://pricepertoken.com/leaderboards/benchmark/aime-25#claude-sonnet-4-5",
+          "ref": "PricePerToken benchmark leaderboard: Claude Sonnet 4.5",
+          "reported_by": "PricePerToken",
+          "fetched_at": "2026-06-25T00:00:00Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "glm-4.6",
+    "benchmark_id": "aime-2025",
+    "score": 86,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/aime-25#glm-4-6",
+      "ref": "PricePerToken benchmark leaderboard: GLM 4.6",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Z AI",
+      "pricepertoken_model": "GLM 4.6"
+    },
+    "variants": [
+      {
+        "score": 85.3,
+        "config": "default",
+        "source": {
+          "kind": "manual",
+          "url": "https://pricepertoken.com/leaderboards/benchmark/aime-25#glm-4-6v",
+          "ref": "PricePerToken benchmark leaderboard: GLM 4.6V",
+          "reported_by": "PricePerToken",
+          "fetched_at": "2026-06-25T00:00:00Z"
+        }
+      },
+      {
+        "score": 44.3,
+        "config": "default",
+        "source": {
+          "kind": "manual",
+          "url": "https://pricepertoken.com/leaderboards/benchmark/aime-25#glm-4-6",
+          "ref": "PricePerToken benchmark leaderboard: GLM 4.6",
+          "reported_by": "PricePerToken",
+          "fetched_at": "2026-06-25T00:00:00Z"
+        }
+      },
+      {
+        "score": 26.3,
+        "config": "default",
+        "source": {
+          "kind": "manual",
+          "url": "https://pricepertoken.com/leaderboards/benchmark/aime-25#glm-4-6v",
+          "ref": "PricePerToken benchmark leaderboard: GLM 4.6V",
+          "reported_by": "PricePerToken",
+          "fetched_at": "2026-06-25T00:00:00Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "qwen3-235b",
+    "benchmark_id": "aime-2025",
+    "score": 82,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/aime-25#qwen3-235b-a22b",
+      "ref": "PricePerToken benchmark leaderboard: Qwen3 235B A22B",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Alibaba",
+      "pricepertoken_model": "Qwen3 235B A22B"
+    },
+    "variants": [
+      {
+        "score": 71.7,
+        "config": "default",
+        "source": {
+          "kind": "manual",
+          "url": "https://pricepertoken.com/leaderboards/benchmark/aime-25#qwen3-235b-a22b-instruct-2507",
+          "ref": "PricePerToken benchmark leaderboard: Qwen3 235B A22B Instruct 2507",
+          "reported_by": "PricePerToken",
+          "fetched_at": "2026-06-25T00:00:00Z"
+        }
+      },
+      {
+        "score": 23.7,
+        "config": "default",
+        "source": {
+          "kind": "manual",
+          "url": "https://pricepertoken.com/leaderboards/benchmark/aime-25#qwen3-235b-a22b",
+          "ref": "PricePerToken benchmark leaderboard: Qwen3 235B A22B",
+          "reported_by": "PricePerToken",
+          "fetched_at": "2026-06-25T00:00:00Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "claude-sonnet-4",
+    "benchmark_id": "aime-2025",
+    "score": 74.3,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/aime-25#claude-sonnet-4",
+      "ref": "PricePerToken benchmark leaderboard: Claude Sonnet 4",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Anthropic",
+      "pricepertoken_model": "Claude Sonnet 4"
+    },
+    "variants": [
+      {
+        "score": 38,
+        "config": "default",
+        "source": {
+          "kind": "manual",
+          "url": "https://pricepertoken.com/leaderboards/benchmark/aime-25#claude-sonnet-4",
+          "ref": "PricePerToken benchmark leaderboard: Claude Sonnet 4",
+          "reported_by": "PricePerToken",
+          "fetched_at": "2026-06-25T00:00:00Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "gemini-2.5-flash",
+    "benchmark_id": "aime-2025",
+    "score": 73.3,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/aime-25#gemini-2-5-flash",
+      "ref": "PricePerToken benchmark leaderboard: Gemini 2.5 Flash",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Google",
+      "pricepertoken_model": "Gemini 2.5 Flash"
+    },
+    "variants": [
+      {
+        "score": 60.3,
+        "config": "default",
+        "source": {
+          "kind": "manual",
+          "url": "https://pricepertoken.com/leaderboards/benchmark/aime-25#gemini-2-5-flash",
+          "ref": "PricePerToken benchmark leaderboard: Gemini 2.5 Flash",
+          "reported_by": "PricePerToken",
+          "fetched_at": "2026-06-25T00:00:00Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "phi-4",
+    "benchmark_id": "aime-2025",
+    "score": 18,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/aime-25#phi-4",
+      "ref": "PricePerToken benchmark leaderboard: Phi 4",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Microsoft",
+      "pricepertoken_model": "Phi 4"
+    }
+  },
+  {
+    "model_id": "qwen-2.5-72b",
+    "benchmark_id": "aime-2025",
+    "score": 14,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/aime-25#qwen2-5-72b-instruct",
+      "ref": "PricePerToken benchmark leaderboard: Qwen2.5 72B Instruct",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Alibaba",
+      "pricepertoken_model": "Qwen2.5 72B Instruct"
+    }
+  },
+  {
+    "model_id": "gemma-3-4b",
+    "benchmark_id": "aime-2025",
+    "score": 12.7,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/aime-25#gemma-3-4b",
+      "ref": "PricePerToken benchmark leaderboard: Gemma 3 4B",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Google",
+      "pricepertoken_model": "Gemma 3 4B"
+    }
+  },
+  {
+    "model_id": "nova-pro",
+    "benchmark_id": "aime-2025",
+    "score": 7,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/aime-25#nova-pro-1-0",
+      "ref": "PricePerToken benchmark leaderboard: Nova Pro 1.0",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Amazon",
+      "pricepertoken_model": "Nova Pro 1.0"
+    }
+  },
+  {
+    "model_id": "llama-3.1-8b",
+    "benchmark_id": "aime-2025",
+    "score": 4.3,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/aime-25#llama-3-1-8b-instruct",
+      "ref": "PricePerToken benchmark leaderboard: Llama 3.1 8B Instruct",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Meta",
+      "pricepertoken_model": "Llama 3.1 8B Instruct"
+    }
+  },
+  {
+    "model_id": "llama-3.1-70b",
+    "benchmark_id": "aime-2025",
+    "score": 4,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/aime-25#llama-3-1-70b-instruct",
+      "ref": "PricePerToken benchmark leaderboard: Llama 3.1 70B Instruct",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Meta",
+      "pricepertoken_model": "Llama 3.1 70B Instruct"
+    }
+  },
+  {
+    "model_id": "llama-3.1-405b",
+    "benchmark_id": "aime-2025",
+    "score": 3,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/aime-25#llama-3-1-405b-instruct",
+      "ref": "PricePerToken benchmark leaderboard: Llama 3.1 405B Instruct",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Meta",
+      "pricepertoken_model": "Llama 3.1 405B Instruct"
+    }
+  },
+  {
+    "model_id": "qwen3-235b",
+    "benchmark_id": "arc-challenge",
+    "score": 94.8,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/arc-challenge#qwen3-235b-a22b-instruct-2507",
+      "ref": "PricePerToken benchmark leaderboard: Qwen3 235B A22B Instruct 2507",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Alibaba",
+      "pricepertoken_model": "Qwen3 235B A22B Instruct 2507"
+    }
+  },
+  {
+    "model_id": "deepseek-v3",
+    "benchmark_id": "arc-challenge",
+    "score": 94,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/arc-challenge#deepseek-v3",
+      "ref": "PricePerToken benchmark leaderboard: DeepSeek V3",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Deepseek",
+      "pricepertoken_model": "DeepSeek V3"
+    }
+  },
+  {
+    "model_id": "nova-pro",
+    "benchmark_id": "arc-challenge",
+    "score": 92.7,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/arc-challenge#nova-pro-1-0",
+      "ref": "PricePerToken benchmark leaderboard: Nova Pro 1.0",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Amazon",
+      "pricepertoken_model": "Nova Pro 1.0"
+    }
+  },
+  {
+    "model_id": "phi-4",
+    "benchmark_id": "arc-challenge",
+    "score": 92.6,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/arc-challenge#phi-4",
+      "ref": "PricePerToken benchmark leaderboard: Phi 4",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Microsoft",
+      "pricepertoken_model": "Phi 4"
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4.5",
+    "benchmark_id": "bbh",
+    "score": 94.4,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/bbh#claude-sonnet-4-5",
+      "ref": "PricePerToken benchmark leaderboard: Claude Sonnet 4.5",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Anthropic",
+      "pricepertoken_model": "Claude Sonnet 4.5"
+    },
+    "variants": [
+      {
+        "score": 94.3,
+        "config": "default",
+        "source": {
+          "kind": "manual",
+          "url": "https://pricepertoken.com/leaderboards/benchmark/bbh#claude-sonnet-4-5",
+          "ref": "PricePerToken benchmark leaderboard: Claude Sonnet 4.5",
+          "reported_by": "PricePerToken",
+          "fetched_at": "2026-06-25T00:00:00Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "kimi-k2.5",
+    "benchmark_id": "bbh",
+    "score": 91.9,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/bbh#kimi-k2-5",
+      "ref": "PricePerToken benchmark leaderboard: Kimi K2.5",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Kimi",
+      "pricepertoken_model": "Kimi K2.5"
+    }
+  },
+  {
+    "model_id": "qwen3-235b",
+    "benchmark_id": "bbh",
+    "score": 90.1,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/bbh#qwen3-235b-a22b-instruct-2507",
+      "ref": "PricePerToken benchmark leaderboard: Qwen3 235B A22B Instruct 2507",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Alibaba",
+      "pricepertoken_model": "Qwen3 235B A22B Instruct 2507"
+    },
+    "variants": [
+      {
+        "score": 84.2,
+        "config": "default",
+        "source": {
+          "kind": "manual",
+          "url": "https://pricepertoken.com/leaderboards/benchmark/bbh#qwen3-235b-a22b",
+          "ref": "PricePerToken benchmark leaderboard: Qwen3 235B A22B",
+          "reported_by": "PricePerToken",
+          "fetched_at": "2026-06-25T00:00:00Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "deepseek-v3",
+    "benchmark_id": "bbh",
+    "score": 88.5,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/bbh#deepseek-v3-2",
+      "ref": "PricePerToken benchmark leaderboard: DeepSeek V3.2",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "DeepSeek",
+      "pricepertoken_model": "DeepSeek V3.2"
+    },
+    "variants": [
+      {
+        "score": 88.2,
+        "config": "default",
+        "source": {
+          "kind": "manual",
+          "url": "https://pricepertoken.com/leaderboards/benchmark/bbh#deepseek-v3-2",
+          "ref": "PricePerToken benchmark leaderboard: DeepSeek V3.2",
+          "reported_by": "PricePerToken",
+          "fetched_at": "2026-06-25T00:00:00Z"
+        }
+      },
+      {
+        "score": 79.7,
+        "config": "default",
+        "source": {
+          "kind": "manual",
+          "url": "https://pricepertoken.com/leaderboards/benchmark/bbh#deepseek-v3-1",
+          "ref": "PricePerToken benchmark leaderboard: DeepSeek V3.1",
+          "reported_by": "PricePerToken",
+          "fetched_at": "2026-06-25T00:00:00Z"
+        }
+      },
+      {
+        "score": 69.8,
+        "config": "default",
+        "source": {
+          "kind": "manual",
+          "url": "https://pricepertoken.com/leaderboards/benchmark/bbh#deepseek-v3",
+          "ref": "PricePerToken benchmark leaderboard: DeepSeek V3",
+          "reported_by": "PricePerToken",
+          "fetched_at": "2026-06-25T00:00:00Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "glm-4.7",
+    "benchmark_id": "bbh",
+    "score": 88.4,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/bbh#glm-4-7",
+      "ref": "PricePerToken benchmark leaderboard: GLM 4.7",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Z AI",
+      "pricepertoken_model": "GLM 4.7"
+    }
+  },
+  {
+    "model_id": "kimi-k2",
+    "benchmark_id": "bbh",
+    "score": 87.1,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/bbh#kimi-k2-0711",
+      "ref": "PricePerToken benchmark leaderboard: Kimi K2 0711",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Kimi",
+      "pricepertoken_model": "Kimi K2 0711"
+    }
+  },
+  {
+    "model_id": "glm-4.6",
+    "benchmark_id": "bbh",
+    "score": 85.5,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/bbh#glm-4-6",
+      "ref": "PricePerToken benchmark leaderboard: GLM 4.6",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Z AI",
+      "pricepertoken_model": "GLM 4.6"
+    }
+  },
+  {
+    "model_id": "gpt-oss-20b",
+    "benchmark_id": "bbh",
+    "score": 84.4,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/bbh#gpt-oss-20b",
+      "ref": "PricePerToken benchmark leaderboard: GPT-OSS-20b",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "OpenAI",
+      "pricepertoken_model": "GPT-OSS-20b"
+    }
+  },
+  {
+    "model_id": "gpt-oss-120b",
+    "benchmark_id": "bbh",
+    "score": 84.3,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/bbh#gpt-oss-120b",
+      "ref": "PricePerToken benchmark leaderboard: GPT-OSS-120b",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "OpenAI",
+      "pricepertoken_model": "GPT-OSS-120b"
+    }
+  },
+  {
+    "model_id": "nova-pro",
+    "benchmark_id": "bbh",
+    "score": 83.9,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/bbh#nova-pro-1-0",
+      "ref": "PricePerToken benchmark leaderboard: Nova Pro 1.0",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Amazon",
+      "pricepertoken_model": "Nova Pro 1.0"
+    }
+  },
+  {
+    "model_id": "qwen-2.5-72b",
+    "benchmark_id": "bbh",
+    "score": 72.4,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/bbh#qwen2-5-72b-instruct",
+      "ref": "PricePerToken benchmark leaderboard: Qwen2.5 72B Instruct",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Alibaba",
+      "pricepertoken_model": "Qwen2.5 72B Instruct"
+    }
+  },
+  {
+    "model_id": "gpt-5.1",
+    "benchmark_id": "bbh",
+    "score": 69.8,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/bbh#gpt-5-1",
+      "ref": "PricePerToken benchmark leaderboard: GPT-5.1",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "OpenAI",
+      "pricepertoken_model": "GPT-5.1"
+    }
+  },
+  {
+    "model_id": "gemini-2.5-flash",
+    "benchmark_id": "bbh",
+    "score": 61.6,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/bbh#gemini-2-5-flash",
+      "ref": "PricePerToken benchmark leaderboard: Gemini 2.5 Flash",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Google",
+      "pricepertoken_model": "Gemini 2.5 Flash"
+    }
+  },
+  {
+    "model_id": "llama-3.1-8b",
+    "benchmark_id": "bbh",
+    "score": 46.1,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/bbh#llama-3-1-8b-instruct",
+      "ref": "PricePerToken benchmark leaderboard: Llama 3.1 8B Instruct",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Meta",
+      "pricepertoken_model": "Llama 3.1 8B Instruct"
+    }
+  },
+  {
+    "model_id": "phi-4",
+    "benchmark_id": "bbh",
+    "score": 34.5,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/bbh#phi-4",
+      "ref": "PricePerToken benchmark leaderboard: Phi 4",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Microsoft",
+      "pricepertoken_model": "Phi 4"
+    }
+  },
+  {
+    "model_id": "gemini-3-pro",
+    "benchmark_id": "gpqa",
+    "score": 90.8,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/gpqa#gemini-3-pro-preview",
+      "ref": "PricePerToken benchmark leaderboard: Gemini 3 Pro Preview",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Google",
+      "pricepertoken_model": "Gemini 3 Pro Preview"
+    }
+  },
+  {
+    "model_id": "kimi-k2.5",
+    "benchmark_id": "gpqa",
+    "score": 87.9,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/gpqa#kimi-k2-5",
+      "ref": "PricePerToken benchmark leaderboard: Kimi K2.5",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Kimi",
+      "pricepertoken_model": "Kimi K2.5"
+    },
+    "variants": [
+      {
+        "score": 78.9,
+        "config": "default",
+        "source": {
+          "kind": "manual",
+          "url": "https://pricepertoken.com/leaderboards/benchmark/gpqa#kimi-k2-5",
+          "ref": "PricePerToken benchmark leaderboard: Kimi K2.5",
+          "reported_by": "PricePerToken",
+          "fetched_at": "2026-06-25T00:00:00Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "grok-4",
+    "benchmark_id": "gpqa",
+    "score": 87.7,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/gpqa#grok-4",
+      "ref": "PricePerToken benchmark leaderboard: Grok 4",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "xAI",
+      "pricepertoken_model": "Grok 4"
+    }
+  },
+  {
+    "model_id": "gpt-5.1",
+    "benchmark_id": "gpqa",
+    "score": 87.3,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/gpqa#gpt-5-1",
+      "ref": "PricePerToken benchmark leaderboard: GPT-5.1",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "OpenAI",
+      "pricepertoken_model": "GPT-5.1"
+    }
+  },
+  {
+    "model_id": "glm-4.7",
+    "benchmark_id": "gpqa",
+    "score": 85.9,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/gpqa#glm-4-7",
+      "ref": "PricePerToken benchmark leaderboard: GLM 4.7",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Z AI",
+      "pricepertoken_model": "GLM 4.7"
+    },
+    "variants": [
+      {
+        "score": 66.4,
+        "config": "default",
+        "source": {
+          "kind": "manual",
+          "url": "https://pricepertoken.com/leaderboards/benchmark/gpqa#glm-4-7",
+          "ref": "PricePerToken benchmark leaderboard: GLM 4.7",
+          "reported_by": "PricePerToken",
+          "fetched_at": "2026-06-25T00:00:00Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "deepseek-v3",
+    "benchmark_id": "gpqa",
+    "score": 84,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/gpqa#deepseek-v3-2",
+      "ref": "PricePerToken benchmark leaderboard: DeepSeek V3.2",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "DeepSeek",
+      "pricepertoken_model": "DeepSeek V3.2"
+    },
+    "variants": [
+      {
+        "score": 77.9,
+        "config": "default",
+        "source": {
+          "kind": "manual",
+          "url": "https://pricepertoken.com/leaderboards/benchmark/gpqa#deepseek-v3-1",
+          "ref": "PricePerToken benchmark leaderboard: DeepSeek V3.1",
+          "reported_by": "PricePerToken",
+          "fetched_at": "2026-06-25T00:00:00Z"
+        }
+      },
+      {
+        "score": 75.1,
+        "config": "default",
+        "source": {
+          "kind": "manual",
+          "url": "https://pricepertoken.com/leaderboards/benchmark/gpqa#deepseek-v3-2",
+          "ref": "PricePerToken benchmark leaderboard: DeepSeek V3.2",
+          "reported_by": "PricePerToken",
+          "fetched_at": "2026-06-25T00:00:00Z"
+        }
+      },
+      {
+        "score": 73.5,
+        "config": "default",
+        "source": {
+          "kind": "manual",
+          "url": "https://pricepertoken.com/leaderboards/benchmark/gpqa#deepseek-v3-1",
+          "ref": "PricePerToken benchmark leaderboard: DeepSeek V3.1",
+          "reported_by": "PricePerToken",
+          "fetched_at": "2026-06-25T00:00:00Z"
+        }
+      },
+      {
+        "score": 65.5,
+        "config": "default",
+        "source": {
+          "kind": "manual",
+          "url": "https://pricepertoken.com/leaderboards/benchmark/gpqa#deepseek-v3-0324",
+          "ref": "PricePerToken benchmark leaderboard: DeepSeek V3 0324",
+          "reported_by": "PricePerToken",
+          "fetched_at": "2026-06-25T00:00:00Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "kimi-k2",
+    "benchmark_id": "gpqa",
+    "score": 83.8,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/gpqa#kimi-k2-0711",
+      "ref": "PricePerToken benchmark leaderboard: Kimi K2 0711",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Kimi",
+      "pricepertoken_model": "Kimi K2 0711"
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4.5",
+    "benchmark_id": "gpqa",
+    "score": 83.4,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/gpqa#claude-sonnet-4-5",
+      "ref": "PricePerToken benchmark leaderboard: Claude Sonnet 4.5",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Anthropic",
+      "pricepertoken_model": "Claude Sonnet 4.5"
+    },
+    "variants": [
+      {
+        "score": 72.7,
+        "config": "default",
+        "source": {
+          "kind": "manual",
+          "url": "https://pricepertoken.com/leaderboards/benchmark/gpqa#claude-sonnet-4-5",
+          "ref": "PricePerToken benchmark leaderboard: Claude Sonnet 4.5",
+          "reported_by": "PricePerToken",
+          "fetched_at": "2026-06-25T00:00:00Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "gemini-2.5-flash",
+    "benchmark_id": "gpqa",
+    "score": 79,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/gpqa#gemini-2-5-flash",
+      "ref": "PricePerToken benchmark leaderboard: Gemini 2.5 Flash",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Google",
+      "pricepertoken_model": "Gemini 2.5 Flash"
+    },
+    "variants": [
+      {
+        "score": 68.3,
+        "config": "default",
+        "source": {
+          "kind": "manual",
+          "url": "https://pricepertoken.com/leaderboards/benchmark/gpqa#gemini-2-5-flash",
+          "ref": "PricePerToken benchmark leaderboard: Gemini 2.5 Flash",
+          "reported_by": "PricePerToken",
+          "fetched_at": "2026-06-25T00:00:00Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "gpt-oss-120b",
+    "benchmark_id": "gpqa",
+    "score": 78.2,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/gpqa#gpt-oss-120b",
+      "ref": "PricePerToken benchmark leaderboard: GPT-OSS-120b",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "OpenAI",
+      "pricepertoken_model": "GPT-OSS-120b"
+    }
+  },
+  {
+    "model_id": "glm-4.6",
+    "benchmark_id": "gpqa",
+    "score": 78,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/gpqa#glm-4-6",
+      "ref": "PricePerToken benchmark leaderboard: GLM 4.6",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Z AI",
+      "pricepertoken_model": "GLM 4.6"
+    },
+    "variants": [
+      {
+        "score": 71.9,
+        "config": "default",
+        "source": {
+          "kind": "manual",
+          "url": "https://pricepertoken.com/leaderboards/benchmark/gpqa#glm-4-6v",
+          "ref": "PricePerToken benchmark leaderboard: GLM 4.6V",
+          "reported_by": "PricePerToken",
+          "fetched_at": "2026-06-25T00:00:00Z"
+        }
+      },
+      {
+        "score": 63.2,
+        "config": "default",
+        "source": {
+          "kind": "manual",
+          "url": "https://pricepertoken.com/leaderboards/benchmark/gpqa#glm-4-6",
+          "ref": "PricePerToken benchmark leaderboard: GLM 4.6",
+          "reported_by": "PricePerToken",
+          "fetched_at": "2026-06-25T00:00:00Z"
+        }
+      },
+      {
+        "score": 56.6,
+        "config": "default",
+        "source": {
+          "kind": "manual",
+          "url": "https://pricepertoken.com/leaderboards/benchmark/gpqa#glm-4-6v",
+          "ref": "PricePerToken benchmark leaderboard: GLM 4.6V",
+          "reported_by": "PricePerToken",
+          "fetched_at": "2026-06-25T00:00:00Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "claude-sonnet-4",
+    "benchmark_id": "gpqa",
+    "score": 77.7,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/gpqa#claude-sonnet-4",
+      "ref": "PricePerToken benchmark leaderboard: Claude Sonnet 4",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Anthropic",
+      "pricepertoken_model": "Claude Sonnet 4"
+    },
+    "variants": [
+      {
+        "score": 68.3,
+        "config": "default",
+        "source": {
+          "kind": "manual",
+          "url": "https://pricepertoken.com/leaderboards/benchmark/gpqa#claude-sonnet-4",
+          "ref": "PricePerToken benchmark leaderboard: Claude Sonnet 4",
+          "reported_by": "PricePerToken",
+          "fetched_at": "2026-06-25T00:00:00Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "qwen3-235b",
+    "benchmark_id": "gpqa",
+    "score": 75.3,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/gpqa#qwen3-235b-a22b-instruct-2507",
+      "ref": "PricePerToken benchmark leaderboard: Qwen3 235B A22B Instruct 2507",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Alibaba",
+      "pricepertoken_model": "Qwen3 235B A22B Instruct 2507"
+    },
+    "variants": [
+      {
+        "score": 70,
+        "config": "default",
+        "source": {
+          "kind": "manual",
+          "url": "https://pricepertoken.com/leaderboards/benchmark/gpqa#qwen3-235b-a22b",
+          "ref": "PricePerToken benchmark leaderboard: Qwen3 235B A22B",
+          "reported_by": "PricePerToken",
+          "fetched_at": "2026-06-25T00:00:00Z"
+        }
+      },
+      {
+        "score": 61.3,
+        "config": "default",
+        "source": {
+          "kind": "manual",
+          "url": "https://pricepertoken.com/leaderboards/benchmark/gpqa#qwen3-235b-a22b",
+          "ref": "PricePerToken benchmark leaderboard: Qwen3 235B A22B",
+          "reported_by": "PricePerToken",
+          "fetched_at": "2026-06-25T00:00:00Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "gpt-oss-20b",
+    "benchmark_id": "gpqa",
+    "score": 68.8,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/gpqa#gpt-oss-20b",
+      "ref": "PricePerToken benchmark leaderboard: GPT-OSS-20b",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "OpenAI",
+      "pricepertoken_model": "GPT-OSS-20b"
+    }
+  },
+  {
+    "model_id": "claude-3.5-sonnet",
+    "benchmark_id": "gpqa",
+    "score": 59.9,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/gpqa#claude-3-5-sonnet",
+      "ref": "PricePerToken benchmark leaderboard: Claude 3.5 Sonnet",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Anthropic",
+      "pricepertoken_model": "Claude 3.5 Sonnet"
+    }
+  },
+  {
+    "model_id": "phi-4",
+    "benchmark_id": "gpqa",
+    "score": 57.5,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/gpqa#phi-4",
+      "ref": "PricePerToken benchmark leaderboard: Phi 4",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Microsoft",
+      "pricepertoken_model": "Phi 4"
+    }
+  },
+  {
+    "model_id": "llama-3.1-405b",
+    "benchmark_id": "gpqa",
+    "score": 51.5,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/gpqa#llama-3-1-405b-instruct",
+      "ref": "PricePerToken benchmark leaderboard: Llama 3.1 405B Instruct",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Meta",
+      "pricepertoken_model": "Llama 3.1 405B Instruct"
+    }
+  },
+  {
+    "model_id": "nova-pro",
+    "benchmark_id": "gpqa",
+    "score": 49.9,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/gpqa#nova-pro-1-0",
+      "ref": "PricePerToken benchmark leaderboard: Nova Pro 1.0",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Amazon",
+      "pricepertoken_model": "Nova Pro 1.0"
+    }
+  },
+  {
+    "model_id": "qwen-2.5-72b",
+    "benchmark_id": "gpqa",
+    "score": 49.1,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/gpqa#qwen2-5-72b-instruct",
+      "ref": "PricePerToken benchmark leaderboard: Qwen2.5 72B Instruct",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Alibaba",
+      "pricepertoken_model": "Qwen2.5 72B Instruct"
+    }
+  },
+  {
+    "model_id": "llama-3.1-70b",
+    "benchmark_id": "gpqa",
+    "score": 40.9,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/gpqa#llama-3-1-70b-instruct",
+      "ref": "PricePerToken benchmark leaderboard: Llama 3.1 70B Instruct",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Meta",
+      "pricepertoken_model": "Llama 3.1 70B Instruct"
+    }
+  },
+  {
+    "model_id": "gemma-3-4b",
+    "benchmark_id": "gpqa",
+    "score": 29.1,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/gpqa#gemma-3-4b",
+      "ref": "PricePerToken benchmark leaderboard: Gemma 3 4B",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Google",
+      "pricepertoken_model": "Gemma 3 4B"
+    }
+  },
+  {
+    "model_id": "llama-3.1-8b",
+    "benchmark_id": "gpqa",
+    "score": 25.9,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/gpqa#llama-3-1-8b-instruct",
+      "ref": "PricePerToken benchmark leaderboard: Llama 3.1 8B Instruct",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Meta",
+      "pricepertoken_model": "Llama 3.1 8B Instruct"
+    }
+  },
+  {
+    "model_id": "qwen3-235b",
+    "benchmark_id": "gsm8k",
+    "score": 95.2,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/gsm8k#qwen3-235b-a22b",
+      "ref": "PricePerToken benchmark leaderboard: Qwen3 235B A22B",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Alibaba",
+      "pricepertoken_model": "Qwen3 235B A22B"
+    },
+    "variants": [
+      {
+        "score": 88.7,
+        "config": "default",
+        "source": {
+          "kind": "manual",
+          "url": "https://pricepertoken.com/leaderboards/benchmark/gsm8k#qwen3-235b-a22b-instruct-2507",
+          "ref": "PricePerToken benchmark leaderboard: Qwen3 235B A22B Instruct 2507",
+          "reported_by": "PricePerToken",
+          "fetched_at": "2026-06-25T00:00:00Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "kimi-k2",
+    "benchmark_id": "gsm8k",
+    "score": 95,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/gsm8k#kimi-k2-0711",
+      "ref": "PricePerToken benchmark leaderboard: Kimi K2 0711",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Kimi",
+      "pricepertoken_model": "Kimi K2 0711"
+    }
+  },
+  {
+    "model_id": "deepseek-v3",
+    "benchmark_id": "gsm8k",
+    "score": 93.8,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/gsm8k#deepseek-v3",
+      "ref": "PricePerToken benchmark leaderboard: DeepSeek V3",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Deepseek",
+      "pricepertoken_model": "DeepSeek V3"
+    }
+  },
+  {
+    "model_id": "qwen-2.5-72b",
+    "benchmark_id": "gsm8k",
+    "score": 92.9,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/gsm8k#qwen2-5-72b-instruct",
+      "ref": "PricePerToken benchmark leaderboard: Qwen2.5 72B Instruct",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Alibaba",
+      "pricepertoken_model": "Qwen2.5 72B Instruct"
+    }
+  },
+  {
+    "model_id": "nova-pro",
+    "benchmark_id": "gsm8k",
+    "score": 91.7,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/gsm8k#nova-pro-1-0",
+      "ref": "PricePerToken benchmark leaderboard: Nova Pro 1.0",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Amazon",
+      "pricepertoken_model": "Nova Pro 1.0"
+    }
+  },
+  {
+    "model_id": "phi-4",
+    "benchmark_id": "gsm8k",
+    "score": 91.3,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/gsm8k#phi-4",
+      "ref": "PricePerToken benchmark leaderboard: Phi 4",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Microsoft",
+      "pricepertoken_model": "Phi 4"
+    }
+  },
+  {
+    "model_id": "gemini-2.5-flash",
+    "benchmark_id": "gsm8k",
+    "score": 79.1,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/gsm8k#gemini-2-5-flash",
+      "ref": "PricePerToken benchmark leaderboard: Gemini 2.5 Flash",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Google",
+      "pricepertoken_model": "Gemini 2.5 Flash"
+    }
+  },
+  {
+    "model_id": "gemini-3-pro",
+    "benchmark_id": "hle",
+    "score": 37.2,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/hle#gemini-3-pro-preview",
+      "ref": "PricePerToken benchmark leaderboard: Gemini 3 Pro Preview",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Google",
+      "pricepertoken_model": "Gemini 3 Pro Preview"
+    }
+  },
+  {
+    "model_id": "kimi-k2.5",
+    "benchmark_id": "hle",
+    "score": 29.4,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/hle#kimi-k2-5",
+      "ref": "PricePerToken benchmark leaderboard: Kimi K2.5",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Kimi",
+      "pricepertoken_model": "Kimi K2.5"
+    },
+    "variants": [
+      {
+        "score": 12.3,
+        "config": "default",
+        "source": {
+          "kind": "manual",
+          "url": "https://pricepertoken.com/leaderboards/benchmark/hle#kimi-k2-5",
+          "ref": "PricePerToken benchmark leaderboard: Kimi K2.5",
+          "reported_by": "PricePerToken",
+          "fetched_at": "2026-06-25T00:00:00Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "gpt-5.1",
+    "benchmark_id": "hle",
+    "score": 26.5,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/hle#gpt-5-1",
+      "ref": "PricePerToken benchmark leaderboard: GPT-5.1",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "OpenAI",
+      "pricepertoken_model": "GPT-5.1"
+    }
+  },
+  {
+    "model_id": "glm-4.7",
+    "benchmark_id": "hle",
+    "score": 25.1,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/hle#glm-4-7",
+      "ref": "PricePerToken benchmark leaderboard: GLM 4.7",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Z AI",
+      "pricepertoken_model": "GLM 4.7"
+    },
+    "variants": [
+      {
+        "score": 6.1,
+        "config": "default",
+        "source": {
+          "kind": "manual",
+          "url": "https://pricepertoken.com/leaderboards/benchmark/hle#glm-4-7",
+          "ref": "PricePerToken benchmark leaderboard: GLM 4.7",
+          "reported_by": "PricePerToken",
+          "fetched_at": "2026-06-25T00:00:00Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "grok-4",
+    "benchmark_id": "hle",
+    "score": 23.9,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/hle#grok-4",
+      "ref": "PricePerToken benchmark leaderboard: Grok 4",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "xAI",
+      "pricepertoken_model": "Grok 4"
+    }
+  },
+  {
+    "model_id": "kimi-k2",
+    "benchmark_id": "hle",
+    "score": 22.3,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/hle#kimi-k2-0711",
+      "ref": "PricePerToken benchmark leaderboard: Kimi K2 0711",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Kimi",
+      "pricepertoken_model": "Kimi K2 0711"
+    }
+  },
+  {
+    "model_id": "deepseek-v3",
+    "benchmark_id": "hle",
+    "score": 22.2,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/hle#deepseek-v3-2",
+      "ref": "PricePerToken benchmark leaderboard: DeepSeek V3.2",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "DeepSeek",
+      "pricepertoken_model": "DeepSeek V3.2"
+    },
+    "variants": [
+      {
+        "score": 13,
+        "config": "default",
+        "source": {
+          "kind": "manual",
+          "url": "https://pricepertoken.com/leaderboards/benchmark/hle#deepseek-v3-1",
+          "ref": "PricePerToken benchmark leaderboard: DeepSeek V3.1",
+          "reported_by": "PricePerToken",
+          "fetched_at": "2026-06-25T00:00:00Z"
+        }
+      },
+      {
+        "score": 10.5,
+        "config": "default",
+        "source": {
+          "kind": "manual",
+          "url": "https://pricepertoken.com/leaderboards/benchmark/hle#deepseek-v3-2",
+          "ref": "PricePerToken benchmark leaderboard: DeepSeek V3.2",
+          "reported_by": "PricePerToken",
+          "fetched_at": "2026-06-25T00:00:00Z"
+        }
+      },
+      {
+        "score": 6.3,
+        "config": "default",
+        "source": {
+          "kind": "manual",
+          "url": "https://pricepertoken.com/leaderboards/benchmark/hle#deepseek-v3-1",
+          "ref": "PricePerToken benchmark leaderboard: DeepSeek V3.1",
+          "reported_by": "PricePerToken",
+          "fetched_at": "2026-06-25T00:00:00Z"
+        }
+      },
+      {
+        "score": 5.2,
+        "config": "default",
+        "source": {
+          "kind": "manual",
+          "url": "https://pricepertoken.com/leaderboards/benchmark/hle#deepseek-v3-0324",
+          "ref": "PricePerToken benchmark leaderboard: DeepSeek V3 0324",
+          "reported_by": "PricePerToken",
+          "fetched_at": "2026-06-25T00:00:00Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "gpt-oss-120b",
+    "benchmark_id": "hle",
+    "score": 18.5,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/hle#gpt-oss-120b",
+      "ref": "PricePerToken benchmark leaderboard: GPT-OSS-120b",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "OpenAI",
+      "pricepertoken_model": "GPT-OSS-120b"
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4.5",
+    "benchmark_id": "hle",
+    "score": 17.3,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/hle#claude-sonnet-4-5",
+      "ref": "PricePerToken benchmark leaderboard: Claude Sonnet 4.5",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Anthropic",
+      "pricepertoken_model": "Claude Sonnet 4.5"
+    },
+    "variants": [
+      {
+        "score": 7.1,
+        "config": "default",
+        "source": {
+          "kind": "manual",
+          "url": "https://pricepertoken.com/leaderboards/benchmark/hle#claude-sonnet-4-5",
+          "ref": "PricePerToken benchmark leaderboard: Claude Sonnet 4.5",
+          "reported_by": "PricePerToken",
+          "fetched_at": "2026-06-25T00:00:00Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "glm-4.6",
+    "benchmark_id": "hle",
+    "score": 13.3,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/hle#glm-4-6",
+      "ref": "PricePerToken benchmark leaderboard: GLM 4.6",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Z AI",
+      "pricepertoken_model": "GLM 4.6"
+    },
+    "variants": [
+      {
+        "score": 8.9,
+        "config": "default",
+        "source": {
+          "kind": "manual",
+          "url": "https://pricepertoken.com/leaderboards/benchmark/hle#glm-4-6v",
+          "ref": "PricePerToken benchmark leaderboard: GLM 4.6V",
+          "reported_by": "PricePerToken",
+          "fetched_at": "2026-06-25T00:00:00Z"
+        }
+      },
+      {
+        "score": 5.2,
+        "config": "default",
+        "source": {
+          "kind": "manual",
+          "url": "https://pricepertoken.com/leaderboards/benchmark/hle#glm-4-6",
+          "ref": "PricePerToken benchmark leaderboard: GLM 4.6",
+          "reported_by": "PricePerToken",
+          "fetched_at": "2026-06-25T00:00:00Z"
+        }
+      },
+      {
+        "score": 3.7,
+        "config": "default",
+        "source": {
+          "kind": "manual",
+          "url": "https://pricepertoken.com/leaderboards/benchmark/hle#glm-4-6v",
+          "ref": "PricePerToken benchmark leaderboard: GLM 4.6V",
+          "reported_by": "PricePerToken",
+          "fetched_at": "2026-06-25T00:00:00Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "qwen3-235b",
+    "benchmark_id": "hle",
+    "score": 11.7,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/hle#qwen3-235b-a22b",
+      "ref": "PricePerToken benchmark leaderboard: Qwen3 235B A22B",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Alibaba",
+      "pricepertoken_model": "Qwen3 235B A22B"
+    },
+    "variants": [
+      {
+        "score": 10.6,
+        "config": "default",
+        "source": {
+          "kind": "manual",
+          "url": "https://pricepertoken.com/leaderboards/benchmark/hle#qwen3-235b-a22b-instruct-2507",
+          "ref": "PricePerToken benchmark leaderboard: Qwen3 235B A22B Instruct 2507",
+          "reported_by": "PricePerToken",
+          "fetched_at": "2026-06-25T00:00:00Z"
+        }
+      },
+      {
+        "score": 4.7,
+        "config": "default",
+        "source": {
+          "kind": "manual",
+          "url": "https://pricepertoken.com/leaderboards/benchmark/hle#qwen3-235b-a22b",
+          "ref": "PricePerToken benchmark leaderboard: Qwen3 235B A22B",
+          "reported_by": "PricePerToken",
+          "fetched_at": "2026-06-25T00:00:00Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "gemini-2.5-flash",
+    "benchmark_id": "hle",
+    "score": 11.6,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/hle#gemini-2-5-flash",
+      "ref": "PricePerToken benchmark leaderboard: Gemini 2.5 Flash",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Google",
+      "pricepertoken_model": "Gemini 2.5 Flash"
+    },
+    "variants": [
+      {
+        "score": 5.1,
+        "config": "default",
+        "source": {
+          "kind": "manual",
+          "url": "https://pricepertoken.com/leaderboards/benchmark/hle#gemini-2-5-flash",
+          "ref": "PricePerToken benchmark leaderboard: Gemini 2.5 Flash",
+          "reported_by": "PricePerToken",
+          "fetched_at": "2026-06-25T00:00:00Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "gpt-oss-20b",
+    "benchmark_id": "hle",
+    "score": 9.8,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/hle#gpt-oss-20b",
+      "ref": "PricePerToken benchmark leaderboard: GPT-OSS-20b",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "OpenAI",
+      "pricepertoken_model": "GPT-OSS-20b"
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4",
+    "benchmark_id": "hle",
+    "score": 9.6,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/hle#claude-sonnet-4",
+      "ref": "PricePerToken benchmark leaderboard: Claude Sonnet 4",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Anthropic",
+      "pricepertoken_model": "Claude Sonnet 4"
+    },
+    "variants": [
+      {
+        "score": 4,
+        "config": "default",
+        "source": {
+          "kind": "manual",
+          "url": "https://pricepertoken.com/leaderboards/benchmark/hle#claude-sonnet-4",
+          "ref": "PricePerToken benchmark leaderboard: Claude Sonnet 4",
+          "reported_by": "PricePerToken",
+          "fetched_at": "2026-06-25T00:00:00Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "gemma-3-4b",
+    "benchmark_id": "hle",
+    "score": 5.2,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/hle#gemma-3-4b",
+      "ref": "PricePerToken benchmark leaderboard: Gemma 3 4B",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Google",
+      "pricepertoken_model": "Gemma 3 4B"
+    }
+  },
+  {
+    "model_id": "llama-3.1-8b",
+    "benchmark_id": "hle",
+    "score": 5.1,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/hle#llama-3-1-8b-instruct",
+      "ref": "PricePerToken benchmark leaderboard: Llama 3.1 8B Instruct",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Meta",
+      "pricepertoken_model": "Llama 3.1 8B Instruct"
+    }
+  },
+  {
+    "model_id": "llama-3.1-70b",
+    "benchmark_id": "hle",
+    "score": 4.6,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/hle#llama-3-1-70b-instruct",
+      "ref": "PricePerToken benchmark leaderboard: Llama 3.1 70B Instruct",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Meta",
+      "pricepertoken_model": "Llama 3.1 70B Instruct"
+    }
+  },
+  {
+    "model_id": "llama-3.1-405b",
+    "benchmark_id": "hle",
+    "score": 4.2,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/hle#llama-3-1-405b-instruct",
+      "ref": "PricePerToken benchmark leaderboard: Llama 3.1 405B Instruct",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Meta",
+      "pricepertoken_model": "Llama 3.1 405B Instruct"
+    }
+  },
+  {
+    "model_id": "qwen-2.5-72b",
+    "benchmark_id": "hle",
+    "score": 4.2,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/hle#qwen2-5-72b-instruct",
+      "ref": "PricePerToken benchmark leaderboard: Qwen2.5 72B Instruct",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Alibaba",
+      "pricepertoken_model": "Qwen2.5 72B Instruct"
+    }
+  },
+  {
+    "model_id": "phi-4",
+    "benchmark_id": "hle",
+    "score": 4.1,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/hle#phi-4",
+      "ref": "PricePerToken benchmark leaderboard: Phi 4",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Microsoft",
+      "pricepertoken_model": "Phi 4"
+    }
+  },
+  {
+    "model_id": "claude-3.5-sonnet",
+    "benchmark_id": "hle",
+    "score": 3.9,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/hle#claude-3-5-sonnet",
+      "ref": "PricePerToken benchmark leaderboard: Claude 3.5 Sonnet",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Anthropic",
+      "pricepertoken_model": "Claude 3.5 Sonnet"
+    }
+  },
+  {
+    "model_id": "nova-pro",
+    "benchmark_id": "hle",
+    "score": 3.4,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/hle#nova-pro-1-0",
+      "ref": "PricePerToken benchmark leaderboard: Nova Pro 1.0",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Amazon",
+      "pricepertoken_model": "Nova Pro 1.0"
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4.5",
+    "benchmark_id": "humaneval",
+    "score": 97.6,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/humaneval#claude-sonnet-4-5",
+      "ref": "PricePerToken benchmark leaderboard: Claude Sonnet 4.5",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Anthropic",
+      "pricepertoken_model": "Claude Sonnet 4.5"
+    },
+    "variants": [
+      {
+        "score": 97,
+        "config": "default",
+        "source": {
+          "kind": "manual",
+          "url": "https://pricepertoken.com/leaderboards/benchmark/humaneval#claude-sonnet-4-5",
+          "ref": "PricePerToken benchmark leaderboard: Claude Sonnet 4.5",
+          "reported_by": "PricePerToken",
+          "fetched_at": "2026-06-25T00:00:00Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "gpt-5.1",
+    "benchmark_id": "humaneval",
+    "score": 94.5,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/humaneval#gpt-5-1",
+      "ref": "PricePerToken benchmark leaderboard: GPT-5.1",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "OpenAI",
+      "pricepertoken_model": "GPT-5.1"
+    }
+  },
+  {
+    "model_id": "deepseek-v3",
+    "benchmark_id": "humaneval",
+    "score": 93.9,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/humaneval#deepseek-v3-2",
+      "ref": "PricePerToken benchmark leaderboard: DeepSeek V3.2",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "DeepSeek",
+      "pricepertoken_model": "DeepSeek V3.2"
+    },
+    "variants": [
+      {
+        "score": 87.2,
+        "config": "default",
+        "source": {
+          "kind": "manual",
+          "url": "https://pricepertoken.com/leaderboards/benchmark/humaneval#deepseek-v3",
+          "ref": "PricePerToken benchmark leaderboard: DeepSeek V3",
+          "reported_by": "PricePerToken",
+          "fetched_at": "2026-06-25T00:00:00Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "qwen3-235b",
+    "benchmark_id": "humaneval",
+    "score": 92.1,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/humaneval#qwen3-235b-a22b-instruct-2507",
+      "ref": "PricePerToken benchmark leaderboard: Qwen3 235B A22B Instruct 2507",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Alibaba",
+      "pricepertoken_model": "Qwen3 235B A22B Instruct 2507"
+    },
+    "variants": [
+      {
+        "score": 90.2,
+        "config": "default",
+        "source": {
+          "kind": "manual",
+          "url": "https://pricepertoken.com/leaderboards/benchmark/humaneval#qwen3-235b-a22b",
+          "ref": "PricePerToken benchmark leaderboard: Qwen3 235B A22B",
+          "reported_by": "PricePerToken",
+          "fetched_at": "2026-06-25T00:00:00Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "phi-4",
+    "benchmark_id": "humaneval",
+    "score": 84.8,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/humaneval#phi-4",
+      "ref": "PricePerToken benchmark leaderboard: Phi 4",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Microsoft",
+      "pricepertoken_model": "Phi 4"
+    }
+  },
+  {
+    "model_id": "qwen-2.5-72b",
+    "benchmark_id": "humaneval",
+    "score": 82.3,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/humaneval#qwen2-5-72b-instruct",
+      "ref": "PricePerToken benchmark leaderboard: Qwen2.5 72B Instruct",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Alibaba",
+      "pricepertoken_model": "Qwen2.5 72B Instruct"
+    }
+  },
+  {
+    "model_id": "nova-pro",
+    "benchmark_id": "humaneval",
+    "score": 76.8,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/humaneval#nova-pro-1-0",
+      "ref": "PricePerToken benchmark leaderboard: Nova Pro 1.0",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Amazon",
+      "pricepertoken_model": "Nova Pro 1.0"
+    }
+  },
+  {
+    "model_id": "gemini-3-pro",
+    "benchmark_id": "livecodebench",
+    "score": 91.7,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/livecodebench#gemini-3-pro-preview",
+      "ref": "PricePerToken benchmark leaderboard: Gemini 3 Pro Preview",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Google",
+      "pricepertoken_model": "Gemini 3 Pro Preview"
+    }
+  },
+  {
+    "model_id": "glm-4.7",
+    "benchmark_id": "livecodebench",
+    "score": 89.4,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/livecodebench#glm-4-7",
+      "ref": "PricePerToken benchmark leaderboard: GLM 4.7",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Z AI",
+      "pricepertoken_model": "GLM 4.7"
+    },
+    "variants": [
+      {
+        "score": 56.2,
+        "config": "default",
+        "source": {
+          "kind": "manual",
+          "url": "https://pricepertoken.com/leaderboards/benchmark/livecodebench#glm-4-7",
+          "ref": "PricePerToken benchmark leaderboard: GLM 4.7",
+          "reported_by": "PricePerToken",
+          "fetched_at": "2026-06-25T00:00:00Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "gpt-oss-120b",
+    "benchmark_id": "livecodebench",
+    "score": 87.8,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/livecodebench#gpt-oss-120b",
+      "ref": "PricePerToken benchmark leaderboard: GPT-OSS-120b",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "OpenAI",
+      "pricepertoken_model": "GPT-OSS-120b"
+    }
+  },
+  {
+    "model_id": "gpt-5.1",
+    "benchmark_id": "livecodebench",
+    "score": 86.8,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/livecodebench#gpt-5-1",
+      "ref": "PricePerToken benchmark leaderboard: GPT-5.1",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "OpenAI",
+      "pricepertoken_model": "GPT-5.1"
+    }
+  },
+  {
+    "model_id": "deepseek-v3",
+    "benchmark_id": "livecodebench",
+    "score": 86.2,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/livecodebench#deepseek-v3-2",
+      "ref": "PricePerToken benchmark leaderboard: DeepSeek V3.2",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "DeepSeek",
+      "pricepertoken_model": "DeepSeek V3.2"
+    },
+    "variants": [
+      {
+        "score": 78.4,
+        "config": "default",
+        "source": {
+          "kind": "manual",
+          "url": "https://pricepertoken.com/leaderboards/benchmark/livecodebench#deepseek-v3-1",
+          "ref": "PricePerToken benchmark leaderboard: DeepSeek V3.1",
+          "reported_by": "PricePerToken",
+          "fetched_at": "2026-06-25T00:00:00Z"
+        }
+      },
+      {
+        "score": 59.3,
+        "config": "default",
+        "source": {
+          "kind": "manual",
+          "url": "https://pricepertoken.com/leaderboards/benchmark/livecodebench#deepseek-v3-2",
+          "ref": "PricePerToken benchmark leaderboard: DeepSeek V3.2",
+          "reported_by": "PricePerToken",
+          "fetched_at": "2026-06-25T00:00:00Z"
+        }
+      },
+      {
+        "score": 57.7,
+        "config": "default",
+        "source": {
+          "kind": "manual",
+          "url": "https://pricepertoken.com/leaderboards/benchmark/livecodebench#deepseek-v3-1",
+          "ref": "PricePerToken benchmark leaderboard: DeepSeek V3.1",
+          "reported_by": "PricePerToken",
+          "fetched_at": "2026-06-25T00:00:00Z"
+        }
+      },
+      {
+        "score": 40.5,
+        "config": "default",
+        "source": {
+          "kind": "manual",
+          "url": "https://pricepertoken.com/leaderboards/benchmark/livecodebench#deepseek-v3-0324",
+          "ref": "PricePerToken benchmark leaderboard: DeepSeek V3 0324",
+          "reported_by": "PricePerToken",
+          "fetched_at": "2026-06-25T00:00:00Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "kimi-k2",
+    "benchmark_id": "livecodebench",
+    "score": 85.3,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/livecodebench#kimi-k2-0711",
+      "ref": "PricePerToken benchmark leaderboard: Kimi K2 0711",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Kimi",
+      "pricepertoken_model": "Kimi K2 0711"
+    }
+  },
+  {
+    "model_id": "grok-4",
+    "benchmark_id": "livecodebench",
+    "score": 81.9,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/livecodebench#grok-4",
+      "ref": "PricePerToken benchmark leaderboard: Grok 4",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "xAI",
+      "pricepertoken_model": "Grok 4"
+    }
+  },
+  {
+    "model_id": "gpt-oss-20b",
+    "benchmark_id": "livecodebench",
+    "score": 77.7,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/livecodebench#gpt-oss-20b",
+      "ref": "PricePerToken benchmark leaderboard: GPT-OSS-20b",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "OpenAI",
+      "pricepertoken_model": "GPT-OSS-20b"
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4.5",
+    "benchmark_id": "livecodebench",
+    "score": 71.4,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/livecodebench#claude-sonnet-4-5",
+      "ref": "PricePerToken benchmark leaderboard: Claude Sonnet 4.5",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Anthropic",
+      "pricepertoken_model": "Claude Sonnet 4.5"
+    },
+    "variants": [
+      {
+        "score": 59,
+        "config": "default",
+        "source": {
+          "kind": "manual",
+          "url": "https://pricepertoken.com/leaderboards/benchmark/livecodebench#claude-sonnet-4-5",
+          "ref": "PricePerToken benchmark leaderboard: Claude Sonnet 4.5",
+          "reported_by": "PricePerToken",
+          "fetched_at": "2026-06-25T00:00:00Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "gemini-2.5-flash",
+    "benchmark_id": "livecodebench",
+    "score": 69.5,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/livecodebench#gemini-2-5-flash",
+      "ref": "PricePerToken benchmark leaderboard: Gemini 2.5 Flash",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Google",
+      "pricepertoken_model": "Gemini 2.5 Flash"
+    },
+    "variants": [
+      {
+        "score": 49.5,
+        "config": "default",
+        "source": {
+          "kind": "manual",
+          "url": "https://pricepertoken.com/leaderboards/benchmark/livecodebench#gemini-2-5-flash",
+          "ref": "PricePerToken benchmark leaderboard: Gemini 2.5 Flash",
+          "reported_by": "PricePerToken",
+          "fetched_at": "2026-06-25T00:00:00Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "glm-4.6",
+    "benchmark_id": "livecodebench",
+    "score": 69.5,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/livecodebench#glm-4-6",
+      "ref": "PricePerToken benchmark leaderboard: GLM 4.6",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Z AI",
+      "pricepertoken_model": "GLM 4.6"
+    },
+    "variants": [
+      {
+        "score": 56.1,
+        "config": "default",
+        "source": {
+          "kind": "manual",
+          "url": "https://pricepertoken.com/leaderboards/benchmark/livecodebench#glm-4-6",
+          "ref": "PricePerToken benchmark leaderboard: GLM 4.6",
+          "reported_by": "PricePerToken",
+          "fetched_at": "2026-06-25T00:00:00Z"
+        }
+      },
+      {
+        "score": 41.1,
+        "config": "default",
+        "source": {
+          "kind": "manual",
+          "url": "https://pricepertoken.com/leaderboards/benchmark/livecodebench#glm-4-6v",
+          "ref": "PricePerToken benchmark leaderboard: GLM 4.6V",
+          "reported_by": "PricePerToken",
+          "fetched_at": "2026-06-25T00:00:00Z"
+        }
+      },
+      {
+        "score": 16,
+        "config": "default",
+        "source": {
+          "kind": "manual",
+          "url": "https://pricepertoken.com/leaderboards/benchmark/livecodebench#glm-4-6v",
+          "ref": "PricePerToken benchmark leaderboard: GLM 4.6V",
+          "reported_by": "PricePerToken",
+          "fetched_at": "2026-06-25T00:00:00Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "claude-sonnet-4",
+    "benchmark_id": "livecodebench",
+    "score": 65.5,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/livecodebench#claude-sonnet-4",
+      "ref": "PricePerToken benchmark leaderboard: Claude Sonnet 4",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Anthropic",
+      "pricepertoken_model": "Claude Sonnet 4"
+    },
+    "variants": [
+      {
+        "score": 44.9,
+        "config": "default",
+        "source": {
+          "kind": "manual",
+          "url": "https://pricepertoken.com/leaderboards/benchmark/livecodebench#claude-sonnet-4",
+          "ref": "PricePerToken benchmark leaderboard: Claude Sonnet 4",
+          "reported_by": "PricePerToken",
+          "fetched_at": "2026-06-25T00:00:00Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "qwen3-235b",
+    "benchmark_id": "livecodebench",
+    "score": 62.2,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/livecodebench#qwen3-235b-a22b",
+      "ref": "PricePerToken benchmark leaderboard: Qwen3 235B A22B",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Alibaba",
+      "pricepertoken_model": "Qwen3 235B A22B"
+    },
+    "variants": [
+      {
+        "score": 52.4,
+        "config": "default",
+        "source": {
+          "kind": "manual",
+          "url": "https://pricepertoken.com/leaderboards/benchmark/livecodebench#qwen3-235b-a22b-instruct-2507",
+          "ref": "PricePerToken benchmark leaderboard: Qwen3 235B A22B Instruct 2507",
+          "reported_by": "PricePerToken",
+          "fetched_at": "2026-06-25T00:00:00Z"
+        }
+      },
+      {
+        "score": 34.3,
+        "config": "default",
+        "source": {
+          "kind": "manual",
+          "url": "https://pricepertoken.com/leaderboards/benchmark/livecodebench#qwen3-235b-a22b",
+          "ref": "PricePerToken benchmark leaderboard: Qwen3 235B A22B",
+          "reported_by": "PricePerToken",
+          "fetched_at": "2026-06-25T00:00:00Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "claude-3.5-sonnet",
+    "benchmark_id": "livecodebench",
+    "score": 38.1,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/livecodebench#claude-3-5-sonnet",
+      "ref": "PricePerToken benchmark leaderboard: Claude 3.5 Sonnet",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Anthropic",
+      "pricepertoken_model": "Claude 3.5 Sonnet"
+    }
+  },
+  {
+    "model_id": "llama-3.1-405b",
+    "benchmark_id": "livecodebench",
+    "score": 30.5,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/livecodebench#llama-3-1-405b-instruct",
+      "ref": "PricePerToken benchmark leaderboard: Llama 3.1 405B Instruct",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Meta",
+      "pricepertoken_model": "Llama 3.1 405B Instruct"
+    }
+  },
+  {
+    "model_id": "qwen-2.5-72b",
+    "benchmark_id": "livecodebench",
+    "score": 27.6,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/livecodebench#qwen2-5-72b-instruct",
+      "ref": "PricePerToken benchmark leaderboard: Qwen2.5 72B Instruct",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Alibaba",
+      "pricepertoken_model": "Qwen2.5 72B Instruct"
+    }
+  },
+  {
+    "model_id": "nova-pro",
+    "benchmark_id": "livecodebench",
+    "score": 23.3,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/livecodebench#nova-pro-1-0",
+      "ref": "PricePerToken benchmark leaderboard: Nova Pro 1.0",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Amazon",
+      "pricepertoken_model": "Nova Pro 1.0"
+    }
+  },
+  {
+    "model_id": "llama-3.1-70b",
+    "benchmark_id": "livecodebench",
+    "score": 23.2,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/livecodebench#llama-3-1-70b-instruct",
+      "ref": "PricePerToken benchmark leaderboard: Llama 3.1 70B Instruct",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Meta",
+      "pricepertoken_model": "Llama 3.1 70B Instruct"
+    }
+  },
+  {
+    "model_id": "phi-4",
+    "benchmark_id": "livecodebench",
+    "score": 23.1,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/livecodebench#phi-4",
+      "ref": "PricePerToken benchmark leaderboard: Phi 4",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Microsoft",
+      "pricepertoken_model": "Phi 4"
+    }
+  },
+  {
+    "model_id": "llama-3.1-8b",
+    "benchmark_id": "livecodebench",
+    "score": 11.6,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/livecodebench#llama-3-1-8b-instruct",
+      "ref": "PricePerToken benchmark leaderboard: Llama 3.1 8B Instruct",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Meta",
+      "pricepertoken_model": "Llama 3.1 8B Instruct"
+    }
+  },
+  {
+    "model_id": "gemma-3-4b",
+    "benchmark_id": "livecodebench",
+    "score": 11.2,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/livecodebench#gemma-3-4b",
+      "ref": "PricePerToken benchmark leaderboard: Gemma 3 4B",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Google",
+      "pricepertoken_model": "Gemma 3 4B"
+    }
+  },
+  {
+    "model_id": "grok-4",
+    "benchmark_id": "math",
+    "score": 92.7,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/math#grok-4",
+      "ref": "PricePerToken benchmark leaderboard: Grok 4",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "xAI",
+      "pricepertoken_model": "Grok 4"
+    }
+  },
+  {
+    "model_id": "gemini-3-pro",
+    "benchmark_id": "math",
+    "score": 86.7,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/math#gemini-3-pro-preview",
+      "ref": "PricePerToken benchmark leaderboard: Gemini 3 Pro Preview",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Google",
+      "pricepertoken_model": "Gemini 3 Pro Preview"
+    }
+  },
+  {
+    "model_id": "deepseek-v3",
+    "benchmark_id": "math",
+    "score": 83.1,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/math#deepseek-v3",
+      "ref": "PricePerToken benchmark leaderboard: DeepSeek V3",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Deepseek",
+      "pricepertoken_model": "DeepSeek V3"
+    },
+    "variants": [
+      {
+        "score": 59,
+        "config": "default",
+        "source": {
+          "kind": "manual",
+          "url": "https://pricepertoken.com/leaderboards/benchmark/math#deepseek-v3-2",
+          "ref": "PricePerToken benchmark leaderboard: DeepSeek V3.2",
+          "reported_by": "PricePerToken",
+          "fetched_at": "2026-06-25T00:00:00Z"
+        }
+      },
+      {
+        "score": 49.7,
+        "config": "default",
+        "source": {
+          "kind": "manual",
+          "url": "https://pricepertoken.com/leaderboards/benchmark/math#deepseek-v3-1",
+          "ref": "PricePerToken benchmark leaderboard: DeepSeek V3.1",
+          "reported_by": "PricePerToken",
+          "fetched_at": "2026-06-25T00:00:00Z"
+        }
+      },
+      {
+        "score": 26,
+        "config": "default",
+        "source": {
+          "kind": "manual",
+          "url": "https://pricepertoken.com/leaderboards/benchmark/math#deepseek-v3-0324",
+          "ref": "PricePerToken benchmark leaderboard: DeepSeek V3 0324",
+          "reported_by": "PricePerToken",
+          "fetched_at": "2026-06-25T00:00:00Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "phi-4",
+    "benchmark_id": "math",
+    "score": 78.2,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/math#phi-4",
+      "ref": "PricePerToken benchmark leaderboard: Phi 4",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Microsoft",
+      "pricepertoken_model": "Phi 4"
+    }
+  },
+  {
+    "model_id": "nova-pro",
+    "benchmark_id": "math",
+    "score": 74.8,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/math#nova-pro-1-0",
+      "ref": "PricePerToken benchmark leaderboard: Nova Pro 1.0",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Amazon",
+      "pricepertoken_model": "Nova Pro 1.0"
+    }
+  },
+  {
+    "model_id": "qwen3-235b",
+    "benchmark_id": "math",
+    "score": 71.7,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/math#qwen3-235b-a22b-instruct-2507",
+      "ref": "PricePerToken benchmark leaderboard: Qwen3 235B A22B Instruct 2507",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Alibaba",
+      "pricepertoken_model": "Qwen3 235B A22B Instruct 2507"
+    },
+    "variants": [
+      {
+        "score": 23.7,
+        "config": "default",
+        "source": {
+          "kind": "manual",
+          "url": "https://pricepertoken.com/leaderboards/benchmark/math#qwen3-235b-a22b",
+          "ref": "PricePerToken benchmark leaderboard: Qwen3 235B A22B",
+          "reported_by": "PricePerToken",
+          "fetched_at": "2026-06-25T00:00:00Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "gpt-oss-120b",
+    "benchmark_id": "math",
+    "score": 66.7,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/math#gpt-oss-120b",
+      "ref": "PricePerToken benchmark leaderboard: GPT-OSS-120b",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "OpenAI",
+      "pricepertoken_model": "GPT-OSS-120b"
+    }
+  },
+  {
+    "model_id": "gpt-oss-20b",
+    "benchmark_id": "math",
+    "score": 62.3,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/math#gpt-oss-20b",
+      "ref": "PricePerToken benchmark leaderboard: GPT-OSS-20b",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "OpenAI",
+      "pricepertoken_model": "GPT-OSS-20b"
+    }
+  },
+  {
+    "model_id": "kimi-k2",
+    "benchmark_id": "math",
+    "score": 57,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/math#kimi-k2-0711",
+      "ref": "PricePerToken benchmark leaderboard: Kimi K2 0711",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Kimi",
+      "pricepertoken_model": "Kimi K2 0711"
+    }
+  },
+  {
+    "model_id": "glm-4.7",
+    "benchmark_id": "math",
+    "score": 48,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/math#glm-4-7",
+      "ref": "PricePerToken benchmark leaderboard: GLM 4.7",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Z AI",
+      "pricepertoken_model": "GLM 4.7"
+    }
+  },
+  {
+    "model_id": "glm-4.6",
+    "benchmark_id": "math",
+    "score": 44.3,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/math#glm-4-6",
+      "ref": "PricePerToken benchmark leaderboard: GLM 4.6",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Z AI",
+      "pricepertoken_model": "GLM 4.6"
+    },
+    "variants": [
+      {
+        "score": 26.3,
+        "config": "default",
+        "source": {
+          "kind": "manual",
+          "url": "https://pricepertoken.com/leaderboards/benchmark/math#glm-4-6v",
+          "ref": "PricePerToken benchmark leaderboard: GLM 4.6V",
+          "reported_by": "PricePerToken",
+          "fetched_at": "2026-06-25T00:00:00Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "claude-sonnet-4",
+    "benchmark_id": "math",
+    "score": 38,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/math#claude-sonnet-4",
+      "ref": "PricePerToken benchmark leaderboard: Claude Sonnet 4",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Anthropic",
+      "pricepertoken_model": "Claude Sonnet 4"
+    }
+  },
+  {
+    "model_id": "gpt-5.1",
+    "benchmark_id": "math",
+    "score": 38,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/math#gpt-5-1",
+      "ref": "PricePerToken benchmark leaderboard: GPT-5.1",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "OpenAI",
+      "pricepertoken_model": "GPT-5.1"
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4.5",
+    "benchmark_id": "math",
+    "score": 37,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/math#claude-sonnet-4-5",
+      "ref": "PricePerToken benchmark leaderboard: Claude Sonnet 4.5",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Anthropic",
+      "pricepertoken_model": "Claude Sonnet 4.5"
+    }
+  },
+  {
+    "model_id": "qwen-2.5-72b",
+    "benchmark_id": "math",
+    "score": 14,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/math#qwen2-5-72b-instruct",
+      "ref": "PricePerToken benchmark leaderboard: Qwen2.5 72B Instruct",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Alibaba",
+      "pricepertoken_model": "Qwen2.5 72B Instruct"
+    }
+  },
+  {
+    "model_id": "gemma-3-4b",
+    "benchmark_id": "math",
+    "score": 12.7,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/math#gemma-3-4b",
+      "ref": "PricePerToken benchmark leaderboard: Gemma 3 4B",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Google",
+      "pricepertoken_model": "Gemma 3 4B"
+    }
+  },
+  {
+    "model_id": "llama-3.1-8b",
+    "benchmark_id": "math",
+    "score": 4.3,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/math#llama-3-1-8b-instruct",
+      "ref": "PricePerToken benchmark leaderboard: Llama 3.1 8B Instruct",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Meta",
+      "pricepertoken_model": "Llama 3.1 8B Instruct"
+    }
+  },
+  {
+    "model_id": "llama-3.1-70b",
+    "benchmark_id": "math",
+    "score": 4,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/math#llama-3-1-70b-instruct",
+      "ref": "PricePerToken benchmark leaderboard: Llama 3.1 70B Instruct",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Meta",
+      "pricepertoken_model": "Llama 3.1 70B Instruct"
+    }
+  },
+  {
+    "model_id": "llama-3.1-405b",
+    "benchmark_id": "math",
+    "score": 3,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/math#llama-3-1-405b-instruct",
+      "ref": "PricePerToken benchmark leaderboard: Llama 3.1 405B Instruct",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Meta",
+      "pricepertoken_model": "Llama 3.1 405B Instruct"
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4",
+    "benchmark_id": "math-500",
+    "score": 99.1,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/math-500#claude-sonnet-4",
+      "ref": "PricePerToken benchmark leaderboard: Claude Sonnet 4",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Anthropic",
+      "pricepertoken_model": "Claude Sonnet 4"
+    },
+    "variants": [
+      {
+        "score": 93.4,
+        "config": "default",
+        "source": {
+          "kind": "manual",
+          "url": "https://pricepertoken.com/leaderboards/benchmark/math-500#claude-sonnet-4",
+          "ref": "PricePerToken benchmark leaderboard: Claude Sonnet 4",
+          "reported_by": "PricePerToken",
+          "fetched_at": "2026-06-25T00:00:00Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "grok-4",
+    "benchmark_id": "math-500",
+    "score": 99,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/math-500#grok-4",
+      "ref": "PricePerToken benchmark leaderboard: Grok 4",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "xAI",
+      "pricepertoken_model": "Grok 4"
+    }
+  },
+  {
+    "model_id": "gemini-2.5-flash",
+    "benchmark_id": "math-500",
+    "score": 98.1,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/math-500#gemini-2-5-flash",
+      "ref": "PricePerToken benchmark leaderboard: Gemini 2.5 Flash",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Google",
+      "pricepertoken_model": "Gemini 2.5 Flash"
+    },
+    "variants": [
+      {
+        "score": 93.2,
+        "config": "default",
+        "source": {
+          "kind": "manual",
+          "url": "https://pricepertoken.com/leaderboards/benchmark/math-500#gemini-2-5-flash",
+          "ref": "PricePerToken benchmark leaderboard: Gemini 2.5 Flash",
+          "reported_by": "PricePerToken",
+          "fetched_at": "2026-06-25T00:00:00Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "qwen3-235b",
+    "benchmark_id": "math-500",
+    "score": 98,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/math-500#qwen3-235b-a22b-instruct-2507",
+      "ref": "PricePerToken benchmark leaderboard: Qwen3 235B A22B Instruct 2507",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Alibaba",
+      "pricepertoken_model": "Qwen3 235B A22B Instruct 2507"
+    },
+    "variants": [
+      {
+        "score": 93,
+        "config": "default",
+        "source": {
+          "kind": "manual",
+          "url": "https://pricepertoken.com/leaderboards/benchmark/math-500#qwen3-235b-a22b",
+          "ref": "PricePerToken benchmark leaderboard: Qwen3 235B A22B",
+          "reported_by": "PricePerToken",
+          "fetched_at": "2026-06-25T00:00:00Z"
+        }
+      },
+      {
+        "score": 90.2,
+        "config": "default",
+        "source": {
+          "kind": "manual",
+          "url": "https://pricepertoken.com/leaderboards/benchmark/math-500#qwen3-235b-a22b",
+          "ref": "PricePerToken benchmark leaderboard: Qwen3 235B A22B",
+          "reported_by": "PricePerToken",
+          "fetched_at": "2026-06-25T00:00:00Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "kimi-k2",
+    "benchmark_id": "math-500",
+    "score": 97.1,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/math-500#kimi-k2-0711",
+      "ref": "PricePerToken benchmark leaderboard: Kimi K2 0711",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Kimi",
+      "pricepertoken_model": "Kimi K2 0711"
+    }
+  },
+  {
+    "model_id": "deepseek-v3",
+    "benchmark_id": "math-500",
+    "score": 94.2,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/math-500#deepseek-v3-0324",
+      "ref": "PricePerToken benchmark leaderboard: DeepSeek V3 0324",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "DeepSeek",
+      "pricepertoken_model": "DeepSeek V3 0324"
+    }
+  },
+  {
+    "model_id": "qwen-2.5-72b",
+    "benchmark_id": "math-500",
+    "score": 85.8,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/math-500#qwen2-5-72b-instruct",
+      "ref": "PricePerToken benchmark leaderboard: Qwen2.5 72B Instruct",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Alibaba",
+      "pricepertoken_model": "Qwen2.5 72B Instruct"
+    }
+  },
+  {
+    "model_id": "phi-4",
+    "benchmark_id": "math-500",
+    "score": 81,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/math-500#phi-4",
+      "ref": "PricePerToken benchmark leaderboard: Phi 4",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Microsoft",
+      "pricepertoken_model": "Phi 4"
+    }
+  },
+  {
+    "model_id": "nova-pro",
+    "benchmark_id": "math-500",
+    "score": 78.6,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/math-500#nova-pro-1-0",
+      "ref": "PricePerToken benchmark leaderboard: Nova Pro 1.0",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Amazon",
+      "pricepertoken_model": "Nova Pro 1.0"
+    }
+  },
+  {
+    "model_id": "claude-3.5-sonnet",
+    "benchmark_id": "math-500",
+    "score": 77.1,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/math-500#claude-3-5-sonnet",
+      "ref": "PricePerToken benchmark leaderboard: Claude 3.5 Sonnet",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Anthropic",
+      "pricepertoken_model": "Claude 3.5 Sonnet"
+    }
+  },
+  {
+    "model_id": "gemma-3-4b",
+    "benchmark_id": "math-500",
+    "score": 76.6,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/math-500#gemma-3-4b",
+      "ref": "PricePerToken benchmark leaderboard: Gemma 3 4B",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Google",
+      "pricepertoken_model": "Gemma 3 4B"
+    }
+  },
+  {
+    "model_id": "llama-3.1-405b",
+    "benchmark_id": "math-500",
+    "score": 70.3,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/math-500#llama-3-1-405b-instruct",
+      "ref": "PricePerToken benchmark leaderboard: Llama 3.1 405B Instruct",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Meta",
+      "pricepertoken_model": "Llama 3.1 405B Instruct"
+    }
+  },
+  {
+    "model_id": "llama-3.1-70b",
+    "benchmark_id": "math-500",
+    "score": 64.9,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/math-500#llama-3-1-70b-instruct",
+      "ref": "PricePerToken benchmark leaderboard: Llama 3.1 70B Instruct",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Meta",
+      "pricepertoken_model": "Llama 3.1 70B Instruct"
+    }
+  },
+  {
+    "model_id": "llama-3.1-8b",
+    "benchmark_id": "math-500",
+    "score": 51.9,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/math-500#llama-3-1-8b-instruct",
+      "ref": "PricePerToken benchmark leaderboard: Llama 3.1 8B Instruct",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Meta",
+      "pricepertoken_model": "Llama 3.1 8B Instruct"
+    }
+  },
+  {
+    "model_id": "glm-4.7",
+    "benchmark_id": "mmlu",
+    "score": 91.9,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/mmlu#glm-4-7",
+      "ref": "PricePerToken benchmark leaderboard: GLM 4.7",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Z AI",
+      "pricepertoken_model": "GLM 4.7"
+    }
+  },
+  {
+    "model_id": "qwen3-235b",
+    "benchmark_id": "mmlu",
+    "score": 88.7,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/mmlu#qwen3-235b-a22b",
+      "ref": "PricePerToken benchmark leaderboard: Qwen3 235B A22B",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Alibaba",
+      "pricepertoken_model": "Qwen3 235B A22B"
+    },
+    "variants": [
+      {
+        "score": 85.2,
+        "config": "default",
+        "source": {
+          "kind": "manual",
+          "url": "https://pricepertoken.com/leaderboards/benchmark/mmlu#qwen3-235b-a22b-instruct-2507",
+          "ref": "PricePerToken benchmark leaderboard: Qwen3 235B A22B Instruct 2507",
+          "reported_by": "PricePerToken",
+          "fetched_at": "2026-06-25T00:00:00Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "kimi-k2",
+    "benchmark_id": "mmlu",
+    "score": 88.3,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/mmlu#kimi-k2-0711",
+      "ref": "PricePerToken benchmark leaderboard: Kimi K2 0711",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Kimi",
+      "pricepertoken_model": "Kimi K2 0711"
+    }
+  },
+  {
+    "model_id": "gpt-oss-120b",
+    "benchmark_id": "mmlu",
+    "score": 87.6,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/mmlu#gpt-oss-120b",
+      "ref": "PricePerToken benchmark leaderboard: GPT-OSS-120b",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "OpenAI",
+      "pricepertoken_model": "GPT-OSS-120b"
+    }
+  },
+  {
+    "model_id": "gemini-2.5-flash",
+    "benchmark_id": "mmlu",
+    "score": 85.7,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/mmlu#gemini-2-5-flash",
+      "ref": "PricePerToken benchmark leaderboard: Gemini 2.5 Flash",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Google",
+      "pricepertoken_model": "Gemini 2.5 Flash"
+    }
+  },
+  {
+    "model_id": "gpt-5.1",
+    "benchmark_id": "mmlu",
+    "score": 85.5,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/mmlu#gpt-5-1",
+      "ref": "PricePerToken benchmark leaderboard: GPT-5.1",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "OpenAI",
+      "pricepertoken_model": "GPT-5.1"
+    }
+  },
+  {
+    "model_id": "deepseek-v3",
+    "benchmark_id": "mmlu",
+    "score": 83.4,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/mmlu#deepseek-v3",
+      "ref": "PricePerToken benchmark leaderboard: DeepSeek V3",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Deepseek",
+      "pricepertoken_model": "DeepSeek V3"
+    }
+  },
+  {
+    "model_id": "qwen-2.5-72b",
+    "benchmark_id": "mmlu",
+    "score": 81.2,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/mmlu#qwen2-5-72b-instruct",
+      "ref": "PricePerToken benchmark leaderboard: Qwen2.5 72B Instruct",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Alibaba",
+      "pricepertoken_model": "Qwen2.5 72B Instruct"
+    }
+  },
+  {
+    "model_id": "nova-pro",
+    "benchmark_id": "mmlu",
+    "score": 78.3,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/mmlu#nova-pro-1-0",
+      "ref": "PricePerToken benchmark leaderboard: Nova Pro 1.0",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Amazon",
+      "pricepertoken_model": "Nova Pro 1.0"
+    }
+  },
+  {
+    "model_id": "phi-4",
+    "benchmark_id": "mmlu",
+    "score": 77.6,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/mmlu#phi-4",
+      "ref": "PricePerToken benchmark leaderboard: Phi 4",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Microsoft",
+      "pricepertoken_model": "Phi 4"
+    }
+  },
+  {
+    "model_id": "llama-3.1-8b",
+    "benchmark_id": "mmlu",
+    "score": 63.8,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/mmlu#llama-3-1-8b-instruct",
+      "ref": "PricePerToken benchmark leaderboard: Llama 3.1 8B Instruct",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Meta",
+      "pricepertoken_model": "Llama 3.1 8B Instruct"
+    }
+  },
+  {
+    "model_id": "gemini-3-pro",
+    "benchmark_id": "mmlu-pro",
+    "score": 89.8,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/mmlu-pro#gemini-3-pro-preview",
+      "ref": "PricePerToken benchmark leaderboard: Gemini 3 Pro Preview",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Google",
+      "pricepertoken_model": "Gemini 3 Pro Preview"
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4.5",
+    "benchmark_id": "mmlu-pro",
+    "score": 87.5,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/mmlu-pro#claude-sonnet-4-5",
+      "ref": "PricePerToken benchmark leaderboard: Claude Sonnet 4.5",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Anthropic",
+      "pricepertoken_model": "Claude Sonnet 4.5"
+    },
+    "variants": [
+      {
+        "score": 86,
+        "config": "default",
+        "source": {
+          "kind": "manual",
+          "url": "https://pricepertoken.com/leaderboards/benchmark/mmlu-pro#claude-sonnet-4-5",
+          "ref": "PricePerToken benchmark leaderboard: Claude Sonnet 4.5",
+          "reported_by": "PricePerToken",
+          "fetched_at": "2026-06-25T00:00:00Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "gpt-5.1",
+    "benchmark_id": "mmlu-pro",
+    "score": 87,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/mmlu-pro#gpt-5-1",
+      "ref": "PricePerToken benchmark leaderboard: GPT-5.1",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "OpenAI",
+      "pricepertoken_model": "GPT-5.1"
+    }
+  },
+  {
+    "model_id": "grok-4",
+    "benchmark_id": "mmlu-pro",
+    "score": 86.6,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/mmlu-pro#grok-4",
+      "ref": "PricePerToken benchmark leaderboard: Grok 4",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "xAI",
+      "pricepertoken_model": "Grok 4"
+    }
+  },
+  {
+    "model_id": "deepseek-v3",
+    "benchmark_id": "mmlu-pro",
+    "score": 86.2,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/mmlu-pro#deepseek-v3-2",
+      "ref": "PricePerToken benchmark leaderboard: DeepSeek V3.2",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "DeepSeek",
+      "pricepertoken_model": "DeepSeek V3.2"
+    },
+    "variants": [
+      {
+        "score": 85.1,
+        "config": "default",
+        "source": {
+          "kind": "manual",
+          "url": "https://pricepertoken.com/leaderboards/benchmark/mmlu-pro#deepseek-v3-1",
+          "ref": "PricePerToken benchmark leaderboard: DeepSeek V3.1",
+          "reported_by": "PricePerToken",
+          "fetched_at": "2026-06-25T00:00:00Z"
+        }
+      },
+      {
+        "score": 83.7,
+        "config": "default",
+        "source": {
+          "kind": "manual",
+          "url": "https://pricepertoken.com/leaderboards/benchmark/mmlu-pro#deepseek-v3-2",
+          "ref": "PricePerToken benchmark leaderboard: DeepSeek V3.2",
+          "reported_by": "PricePerToken",
+          "fetched_at": "2026-06-25T00:00:00Z"
+        }
+      },
+      {
+        "score": 83.3,
+        "config": "default",
+        "source": {
+          "kind": "manual",
+          "url": "https://pricepertoken.com/leaderboards/benchmark/mmlu-pro#deepseek-v3-1",
+          "ref": "PricePerToken benchmark leaderboard: DeepSeek V3.1",
+          "reported_by": "PricePerToken",
+          "fetched_at": "2026-06-25T00:00:00Z"
+        }
+      },
+      {
+        "score": 81.9,
+        "config": "default",
+        "source": {
+          "kind": "manual",
+          "url": "https://pricepertoken.com/leaderboards/benchmark/mmlu-pro#deepseek-v3-0324",
+          "ref": "PricePerToken benchmark leaderboard: DeepSeek V3 0324",
+          "reported_by": "PricePerToken",
+          "fetched_at": "2026-06-25T00:00:00Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "glm-4.7",
+    "benchmark_id": "mmlu-pro",
+    "score": 85.6,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/mmlu-pro#glm-4-7",
+      "ref": "PricePerToken benchmark leaderboard: GLM 4.7",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Z AI",
+      "pricepertoken_model": "GLM 4.7"
+    },
+    "variants": [
+      {
+        "score": 79.4,
+        "config": "default",
+        "source": {
+          "kind": "manual",
+          "url": "https://pricepertoken.com/leaderboards/benchmark/mmlu-pro#glm-4-7",
+          "ref": "PricePerToken benchmark leaderboard: GLM 4.7",
+          "reported_by": "PricePerToken",
+          "fetched_at": "2026-06-25T00:00:00Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "kimi-k2",
+    "benchmark_id": "mmlu-pro",
+    "score": 84.8,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/mmlu-pro#kimi-k2-0711",
+      "ref": "PricePerToken benchmark leaderboard: Kimi K2 0711",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Kimi",
+      "pricepertoken_model": "Kimi K2 0711"
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4",
+    "benchmark_id": "mmlu-pro",
+    "score": 84.2,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/mmlu-pro#claude-sonnet-4",
+      "ref": "PricePerToken benchmark leaderboard: Claude Sonnet 4",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Anthropic",
+      "pricepertoken_model": "Claude Sonnet 4"
+    },
+    "variants": [
+      {
+        "score": 83.7,
+        "config": "default",
+        "source": {
+          "kind": "manual",
+          "url": "https://pricepertoken.com/leaderboards/benchmark/mmlu-pro#claude-sonnet-4",
+          "ref": "PricePerToken benchmark leaderboard: Claude Sonnet 4",
+          "reported_by": "PricePerToken",
+          "fetched_at": "2026-06-25T00:00:00Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "gemini-2.5-flash",
+    "benchmark_id": "mmlu-pro",
+    "score": 83.2,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/mmlu-pro#gemini-2-5-flash",
+      "ref": "PricePerToken benchmark leaderboard: Gemini 2.5 Flash",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Google",
+      "pricepertoken_model": "Gemini 2.5 Flash"
+    },
+    "variants": [
+      {
+        "score": 80.9,
+        "config": "default",
+        "source": {
+          "kind": "manual",
+          "url": "https://pricepertoken.com/leaderboards/benchmark/mmlu-pro#gemini-2-5-flash",
+          "ref": "PricePerToken benchmark leaderboard: Gemini 2.5 Flash",
+          "reported_by": "PricePerToken",
+          "fetched_at": "2026-06-25T00:00:00Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "glm-4.6",
+    "benchmark_id": "mmlu-pro",
+    "score": 82.9,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/mmlu-pro#glm-4-6",
+      "ref": "PricePerToken benchmark leaderboard: GLM 4.6",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Z AI",
+      "pricepertoken_model": "GLM 4.6"
+    },
+    "variants": [
+      {
+        "score": 79.9,
+        "config": "default",
+        "source": {
+          "kind": "manual",
+          "url": "https://pricepertoken.com/leaderboards/benchmark/mmlu-pro#glm-4-6v",
+          "ref": "PricePerToken benchmark leaderboard: GLM 4.6V",
+          "reported_by": "PricePerToken",
+          "fetched_at": "2026-06-25T00:00:00Z"
+        }
+      },
+      {
+        "score": 78.4,
+        "config": "default",
+        "source": {
+          "kind": "manual",
+          "url": "https://pricepertoken.com/leaderboards/benchmark/mmlu-pro#glm-4-6",
+          "ref": "PricePerToken benchmark leaderboard: GLM 4.6",
+          "reported_by": "PricePerToken",
+          "fetched_at": "2026-06-25T00:00:00Z"
+        }
+      },
+      {
+        "score": 75.2,
+        "config": "default",
+        "source": {
+          "kind": "manual",
+          "url": "https://pricepertoken.com/leaderboards/benchmark/mmlu-pro#glm-4-6v",
+          "ref": "PricePerToken benchmark leaderboard: GLM 4.6V",
+          "reported_by": "PricePerToken",
+          "fetched_at": "2026-06-25T00:00:00Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "qwen3-235b",
+    "benchmark_id": "mmlu-pro",
+    "score": 82.8,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/mmlu-pro#qwen3-235b-a22b",
+      "ref": "PricePerToken benchmark leaderboard: Qwen3 235B A22B",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Alibaba",
+      "pricepertoken_model": "Qwen3 235B A22B"
+    },
+    "variants": [
+      {
+        "score": 82.8,
+        "config": "default",
+        "source": {
+          "kind": "manual",
+          "url": "https://pricepertoken.com/leaderboards/benchmark/mmlu-pro#qwen3-235b-a22b-instruct-2507",
+          "ref": "PricePerToken benchmark leaderboard: Qwen3 235B A22B Instruct 2507",
+          "reported_by": "PricePerToken",
+          "fetched_at": "2026-06-25T00:00:00Z"
+        }
+      },
+      {
+        "score": 76.2,
+        "config": "default",
+        "source": {
+          "kind": "manual",
+          "url": "https://pricepertoken.com/leaderboards/benchmark/mmlu-pro#qwen3-235b-a22b",
+          "ref": "PricePerToken benchmark leaderboard: Qwen3 235B A22B",
+          "reported_by": "PricePerToken",
+          "fetched_at": "2026-06-25T00:00:00Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "gpt-oss-120b",
+    "benchmark_id": "mmlu-pro",
+    "score": 80.8,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/mmlu-pro#gpt-oss-120b",
+      "ref": "PricePerToken benchmark leaderboard: GPT-OSS-120b",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "OpenAI",
+      "pricepertoken_model": "GPT-OSS-120b"
+    }
+  },
+  {
+    "model_id": "claude-3.5-sonnet",
+    "benchmark_id": "mmlu-pro",
+    "score": 77.2,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/mmlu-pro#claude-3-5-sonnet",
+      "ref": "PricePerToken benchmark leaderboard: Claude 3.5 Sonnet",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Anthropic",
+      "pricepertoken_model": "Claude 3.5 Sonnet"
+    }
+  },
+  {
+    "model_id": "gpt-oss-20b",
+    "benchmark_id": "mmlu-pro",
+    "score": 74.8,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/mmlu-pro#gpt-oss-20b",
+      "ref": "PricePerToken benchmark leaderboard: GPT-OSS-20b",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "OpenAI",
+      "pricepertoken_model": "GPT-OSS-20b"
+    }
+  },
+  {
+    "model_id": "llama-3.1-405b",
+    "benchmark_id": "mmlu-pro",
+    "score": 73.2,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/mmlu-pro#llama-3-1-405b-instruct",
+      "ref": "PricePerToken benchmark leaderboard: Llama 3.1 405B Instruct",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Meta",
+      "pricepertoken_model": "Llama 3.1 405B Instruct"
+    }
+  },
+  {
+    "model_id": "qwen-2.5-72b",
+    "benchmark_id": "mmlu-pro",
+    "score": 72,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/mmlu-pro#qwen2-5-72b-instruct",
+      "ref": "PricePerToken benchmark leaderboard: Qwen2.5 72B Instruct",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Alibaba",
+      "pricepertoken_model": "Qwen2.5 72B Instruct"
+    }
+  },
+  {
+    "model_id": "phi-4",
+    "benchmark_id": "mmlu-pro",
+    "score": 71.4,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/mmlu-pro#phi-4",
+      "ref": "PricePerToken benchmark leaderboard: Phi 4",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Microsoft",
+      "pricepertoken_model": "Phi 4"
+    }
+  },
+  {
+    "model_id": "nova-pro",
+    "benchmark_id": "mmlu-pro",
+    "score": 69.1,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/mmlu-pro#nova-pro-1-0",
+      "ref": "PricePerToken benchmark leaderboard: Nova Pro 1.0",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Amazon",
+      "pricepertoken_model": "Nova Pro 1.0"
+    }
+  },
+  {
+    "model_id": "llama-3.1-70b",
+    "benchmark_id": "mmlu-pro",
+    "score": 67.6,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/mmlu-pro#llama-3-1-70b-instruct",
+      "ref": "PricePerToken benchmark leaderboard: Llama 3.1 70B Instruct",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Meta",
+      "pricepertoken_model": "Llama 3.1 70B Instruct"
+    }
+  },
+  {
+    "model_id": "llama-3.1-8b",
+    "benchmark_id": "mmlu-pro",
+    "score": 47.6,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/mmlu-pro#llama-3-1-8b-instruct",
+      "ref": "PricePerToken benchmark leaderboard: Llama 3.1 8B Instruct",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Meta",
+      "pricepertoken_model": "Llama 3.1 8B Instruct"
+    }
+  },
+  {
+    "model_id": "gemma-3-4b",
+    "benchmark_id": "mmlu-pro",
+    "score": 41.7,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/mmlu-pro#gemma-3-4b",
+      "ref": "PricePerToken benchmark leaderboard: Gemma 3 4B",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Google",
+      "pricepertoken_model": "Gemma 3 4B"
+    }
+  },
+  {
+    "model_id": "gemini-3-pro",
+    "benchmark_id": "scicode",
+    "score": 56.1,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/scicode#gemini-3-pro-preview",
+      "ref": "PricePerToken benchmark leaderboard: Gemini 3 Pro Preview",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Google",
+      "pricepertoken_model": "Gemini 3 Pro Preview"
+    }
+  },
+  {
+    "model_id": "kimi-k2.5",
+    "benchmark_id": "scicode",
+    "score": 49,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/scicode#kimi-k2-5",
+      "ref": "PricePerToken benchmark leaderboard: Kimi K2.5",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Kimi",
+      "pricepertoken_model": "Kimi K2.5"
+    },
+    "variants": [
+      {
+        "score": 39.6,
+        "config": "default",
+        "source": {
+          "kind": "manual",
+          "url": "https://pricepertoken.com/leaderboards/benchmark/scicode#kimi-k2-5",
+          "ref": "PricePerToken benchmark leaderboard: Kimi K2.5",
+          "reported_by": "PricePerToken",
+          "fetched_at": "2026-06-25T00:00:00Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "grok-4",
+    "benchmark_id": "scicode",
+    "score": 45.7,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/scicode#grok-4",
+      "ref": "PricePerToken benchmark leaderboard: Grok 4",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "xAI",
+      "pricepertoken_model": "Grok 4"
+    }
+  },
+  {
+    "model_id": "glm-4.7",
+    "benchmark_id": "scicode",
+    "score": 45.1,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/scicode#glm-4-7",
+      "ref": "PricePerToken benchmark leaderboard: GLM 4.7",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Z AI",
+      "pricepertoken_model": "GLM 4.7"
+    },
+    "variants": [
+      {
+        "score": 35.4,
+        "config": "default",
+        "source": {
+          "kind": "manual",
+          "url": "https://pricepertoken.com/leaderboards/benchmark/scicode#glm-4-7",
+          "ref": "PricePerToken benchmark leaderboard: GLM 4.7",
+          "reported_by": "PricePerToken",
+          "fetched_at": "2026-06-25T00:00:00Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "claude-sonnet-4.5",
+    "benchmark_id": "scicode",
+    "score": 44.7,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/scicode#claude-sonnet-4-5",
+      "ref": "PricePerToken benchmark leaderboard: Claude Sonnet 4.5",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Anthropic",
+      "pricepertoken_model": "Claude Sonnet 4.5"
+    },
+    "variants": [
+      {
+        "score": 42.8,
+        "config": "default",
+        "source": {
+          "kind": "manual",
+          "url": "https://pricepertoken.com/leaderboards/benchmark/scicode#claude-sonnet-4-5",
+          "ref": "PricePerToken benchmark leaderboard: Claude Sonnet 4.5",
+          "reported_by": "PricePerToken",
+          "fetched_at": "2026-06-25T00:00:00Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "gpt-5.1",
+    "benchmark_id": "scicode",
+    "score": 43.3,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/scicode#gpt-5-1",
+      "ref": "PricePerToken benchmark leaderboard: GPT-5.1",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "OpenAI",
+      "pricepertoken_model": "GPT-5.1"
+    }
+  },
+  {
+    "model_id": "kimi-k2",
+    "benchmark_id": "scicode",
+    "score": 42.4,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/scicode#kimi-k2-0711",
+      "ref": "PricePerToken benchmark leaderboard: Kimi K2 0711",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Kimi",
+      "pricepertoken_model": "Kimi K2 0711"
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4",
+    "benchmark_id": "scicode",
+    "score": 40,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/scicode#claude-sonnet-4",
+      "ref": "PricePerToken benchmark leaderboard: Claude Sonnet 4",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Anthropic",
+      "pricepertoken_model": "Claude Sonnet 4"
+    },
+    "variants": [
+      {
+        "score": 37.3,
+        "config": "default",
+        "source": {
+          "kind": "manual",
+          "url": "https://pricepertoken.com/leaderboards/benchmark/scicode#claude-sonnet-4",
+          "ref": "PricePerToken benchmark leaderboard: Claude Sonnet 4",
+          "reported_by": "PricePerToken",
+          "fetched_at": "2026-06-25T00:00:00Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "qwen3-235b",
+    "benchmark_id": "scicode",
+    "score": 39.9,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/scicode#qwen3-235b-a22b",
+      "ref": "PricePerToken benchmark leaderboard: Qwen3 235B A22B",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Alibaba",
+      "pricepertoken_model": "Qwen3 235B A22B"
+    },
+    "variants": [
+      {
+        "score": 36,
+        "config": "default",
+        "source": {
+          "kind": "manual",
+          "url": "https://pricepertoken.com/leaderboards/benchmark/scicode#qwen3-235b-a22b-instruct-2507",
+          "ref": "PricePerToken benchmark leaderboard: Qwen3 235B A22B Instruct 2507",
+          "reported_by": "PricePerToken",
+          "fetched_at": "2026-06-25T00:00:00Z"
+        }
+      },
+      {
+        "score": 29.9,
+        "config": "default",
+        "source": {
+          "kind": "manual",
+          "url": "https://pricepertoken.com/leaderboards/benchmark/scicode#qwen3-235b-a22b",
+          "ref": "PricePerToken benchmark leaderboard: Qwen3 235B A22B",
+          "reported_by": "PricePerToken",
+          "fetched_at": "2026-06-25T00:00:00Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "gemini-2.5-flash",
+    "benchmark_id": "scicode",
+    "score": 39.4,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/scicode#gemini-2-5-flash",
+      "ref": "PricePerToken benchmark leaderboard: Gemini 2.5 Flash",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Google",
+      "pricepertoken_model": "Gemini 2.5 Flash"
+    },
+    "variants": [
+      {
+        "score": 29.1,
+        "config": "default",
+        "source": {
+          "kind": "manual",
+          "url": "https://pricepertoken.com/leaderboards/benchmark/scicode#gemini-2-5-flash",
+          "ref": "PricePerToken benchmark leaderboard: Gemini 2.5 Flash",
+          "reported_by": "PricePerToken",
+          "fetched_at": "2026-06-25T00:00:00Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "deepseek-v3",
+    "benchmark_id": "scicode",
+    "score": 39.1,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/scicode#deepseek-v3-1",
+      "ref": "PricePerToken benchmark leaderboard: DeepSeek V3.1",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "DeepSeek",
+      "pricepertoken_model": "DeepSeek V3.1"
+    },
+    "variants": [
+      {
+        "score": 38.9,
+        "config": "default",
+        "source": {
+          "kind": "manual",
+          "url": "https://pricepertoken.com/leaderboards/benchmark/scicode#deepseek-v3-2",
+          "ref": "PricePerToken benchmark leaderboard: DeepSeek V3.2",
+          "reported_by": "PricePerToken",
+          "fetched_at": "2026-06-25T00:00:00Z"
+        }
+      },
+      {
+        "score": 38.7,
+        "config": "default",
+        "source": {
+          "kind": "manual",
+          "url": "https://pricepertoken.com/leaderboards/benchmark/scicode#deepseek-v3-2",
+          "ref": "PricePerToken benchmark leaderboard: DeepSeek V3.2",
+          "reported_by": "PricePerToken",
+          "fetched_at": "2026-06-25T00:00:00Z"
+        }
+      },
+      {
+        "score": 36.7,
+        "config": "default",
+        "source": {
+          "kind": "manual",
+          "url": "https://pricepertoken.com/leaderboards/benchmark/scicode#deepseek-v3-1",
+          "ref": "PricePerToken benchmark leaderboard: DeepSeek V3.1",
+          "reported_by": "PricePerToken",
+          "fetched_at": "2026-06-25T00:00:00Z"
+        }
+      },
+      {
+        "score": 35.8,
+        "config": "default",
+        "source": {
+          "kind": "manual",
+          "url": "https://pricepertoken.com/leaderboards/benchmark/scicode#deepseek-v3-0324",
+          "ref": "PricePerToken benchmark leaderboard: DeepSeek V3 0324",
+          "reported_by": "PricePerToken",
+          "fetched_at": "2026-06-25T00:00:00Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "gpt-oss-120b",
+    "benchmark_id": "scicode",
+    "score": 38.9,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/scicode#gpt-oss-120b",
+      "ref": "PricePerToken benchmark leaderboard: GPT-OSS-120b",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "OpenAI",
+      "pricepertoken_model": "GPT-OSS-120b"
+    }
+  },
+  {
+    "model_id": "glm-4.6",
+    "benchmark_id": "scicode",
+    "score": 38.4,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/scicode#glm-4-6",
+      "ref": "PricePerToken benchmark leaderboard: GLM 4.6",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Z AI",
+      "pricepertoken_model": "GLM 4.6"
+    },
+    "variants": [
+      {
+        "score": 33.1,
+        "config": "default",
+        "source": {
+          "kind": "manual",
+          "url": "https://pricepertoken.com/leaderboards/benchmark/scicode#glm-4-6",
+          "ref": "PricePerToken benchmark leaderboard: GLM 4.6",
+          "reported_by": "PricePerToken",
+          "fetched_at": "2026-06-25T00:00:00Z"
+        }
+      },
+      {
+        "score": 30.4,
+        "config": "default",
+        "source": {
+          "kind": "manual",
+          "url": "https://pricepertoken.com/leaderboards/benchmark/scicode#glm-4-6v",
+          "ref": "PricePerToken benchmark leaderboard: GLM 4.6V",
+          "reported_by": "PricePerToken",
+          "fetched_at": "2026-06-25T00:00:00Z"
+        }
+      },
+      {
+        "score": 27.2,
+        "config": "default",
+        "source": {
+          "kind": "manual",
+          "url": "https://pricepertoken.com/leaderboards/benchmark/scicode#glm-4-6v",
+          "ref": "PricePerToken benchmark leaderboard: GLM 4.6V",
+          "reported_by": "PricePerToken",
+          "fetched_at": "2026-06-25T00:00:00Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "claude-3.5-sonnet",
+    "benchmark_id": "scicode",
+    "score": 36.6,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/scicode#claude-3-5-sonnet",
+      "ref": "PricePerToken benchmark leaderboard: Claude 3.5 Sonnet",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Anthropic",
+      "pricepertoken_model": "Claude 3.5 Sonnet"
+    }
+  },
+  {
+    "model_id": "gpt-oss-20b",
+    "benchmark_id": "scicode",
+    "score": 34.4,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/scicode#gpt-oss-20b",
+      "ref": "PricePerToken benchmark leaderboard: GPT-OSS-20b",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "OpenAI",
+      "pricepertoken_model": "GPT-OSS-20b"
+    }
+  },
+  {
+    "model_id": "llama-3.1-405b",
+    "benchmark_id": "scicode",
+    "score": 29.9,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/scicode#llama-3-1-405b-instruct",
+      "ref": "PricePerToken benchmark leaderboard: Llama 3.1 405B Instruct",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Meta",
+      "pricepertoken_model": "Llama 3.1 405B Instruct"
+    }
+  },
+  {
+    "model_id": "llama-3.1-70b",
+    "benchmark_id": "scicode",
+    "score": 26.7,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/scicode#llama-3-1-70b-instruct",
+      "ref": "PricePerToken benchmark leaderboard: Llama 3.1 70B Instruct",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Meta",
+      "pricepertoken_model": "Llama 3.1 70B Instruct"
+    }
+  },
+  {
+    "model_id": "qwen-2.5-72b",
+    "benchmark_id": "scicode",
+    "score": 26.7,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/scicode#qwen2-5-72b-instruct",
+      "ref": "PricePerToken benchmark leaderboard: Qwen2.5 72B Instruct",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Alibaba",
+      "pricepertoken_model": "Qwen2.5 72B Instruct"
+    }
+  },
+  {
+    "model_id": "phi-4",
+    "benchmark_id": "scicode",
+    "score": 26,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/scicode#phi-4",
+      "ref": "PricePerToken benchmark leaderboard: Phi 4",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Microsoft",
+      "pricepertoken_model": "Phi 4"
+    }
+  },
+  {
+    "model_id": "nova-pro",
+    "benchmark_id": "scicode",
+    "score": 20.8,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/scicode#nova-pro-1-0",
+      "ref": "PricePerToken benchmark leaderboard: Nova Pro 1.0",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Amazon",
+      "pricepertoken_model": "Nova Pro 1.0"
+    }
+  },
+  {
+    "model_id": "llama-3.1-8b",
+    "benchmark_id": "scicode",
+    "score": 13.2,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/scicode#llama-3-1-8b-instruct",
+      "ref": "PricePerToken benchmark leaderboard: Llama 3.1 8B Instruct",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Meta",
+      "pricepertoken_model": "Llama 3.1 8B Instruct"
+    }
+  },
+  {
+    "model_id": "gemma-3-4b",
+    "benchmark_id": "scicode",
+    "score": 7.3,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/scicode#gemma-3-4b",
+      "ref": "PricePerToken benchmark leaderboard: Gemma 3 4B",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Google",
+      "pricepertoken_model": "Gemma 3 4B"
+    }
+  },
+  {
+    "model_id": "qwen3-235b",
+    "benchmark_id": "simpleqa",
+    "score": 50.6,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/simpleqa#qwen3-235b-a22b-instruct-2507",
+      "ref": "PricePerToken benchmark leaderboard: Qwen3 235B A22B Instruct 2507",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Alibaba",
+      "pricepertoken_model": "Qwen3 235B A22B Instruct 2507"
+    },
+    "variants": [
+      {
+        "score": 12.7,
+        "config": "default",
+        "source": {
+          "kind": "manual",
+          "url": "https://pricepertoken.com/leaderboards/benchmark/simpleqa#qwen3-235b-a22b",
+          "ref": "PricePerToken benchmark leaderboard: Qwen3 235B A22B",
+          "reported_by": "PricePerToken",
+          "fetched_at": "2026-06-25T00:00:00Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "kimi-k2",
+    "benchmark_id": "simpleqa",
+    "score": 26.5,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/simpleqa#kimi-k2-0711",
+      "ref": "PricePerToken benchmark leaderboard: Kimi K2 0711",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Kimi",
+      "pricepertoken_model": "Kimi K2 0711"
+    }
+  },
+  {
+    "model_id": "deepseek-v3",
+    "benchmark_id": "simpleqa",
+    "score": 23.3,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/simpleqa#deepseek-v3-1",
+      "ref": "PricePerToken benchmark leaderboard: DeepSeek V3.1",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "DeepSeek",
+      "pricepertoken_model": "DeepSeek V3.1"
+    },
+    "variants": [
+      {
+        "score": 23,
+        "config": "default",
+        "source": {
+          "kind": "manual",
+          "url": "https://pricepertoken.com/leaderboards/benchmark/simpleqa#deepseek-v3",
+          "ref": "PricePerToken benchmark leaderboard: DeepSeek V3",
+          "reported_by": "PricePerToken",
+          "fetched_at": "2026-06-25T00:00:00Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "nova-pro",
+    "benchmark_id": "simpleqa",
+    "score": 12.6,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/simpleqa#nova-pro-1-0",
+      "ref": "PricePerToken benchmark leaderboard: Nova Pro 1.0",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Amazon",
+      "pricepertoken_model": "Nova Pro 1.0"
+    }
+  },
+  {
+    "model_id": "phi-4",
+    "benchmark_id": "simpleqa",
+    "score": 2.3,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/simpleqa#phi-4",
+      "ref": "PricePerToken benchmark leaderboard: Phi 4",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Microsoft",
+      "pricepertoken_model": "Phi 4"
+    }
+  }
+]

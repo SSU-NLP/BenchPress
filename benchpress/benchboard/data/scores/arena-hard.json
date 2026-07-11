@@ -1,0 +1,218 @@
+[
+  {
+    "model_id": "gpt-4-turbo",
+    "benchmark_id": "arena-hard",
+    "score": 82.63,
+    "config": "default",
+    "source": {
+      "kind": "github_repo",
+      "url": "https://raw.githubusercontent.com/lmarena/arena-hard-auto/main/leaderboard/arena_hard_leaderboard_20240731.csv",
+      "ref": "arena_hard_leaderboard_20240731.csv",
+      "fetched_at": "2026-06-11T08:36:12.665Z"
+    },
+    "extra": {
+      "ci_lo": 80.75,
+      "ci_hi": 84.6,
+      "avg_tokens": 662,
+      "snapshot_date": "2024-07-31"
+    }
+  },
+  {
+    "model_id": "claude-3.5-sonnet",
+    "benchmark_id": "arena-hard",
+    "score": 79.35,
+    "config": "default",
+    "source": {
+      "kind": "github_repo",
+      "url": "https://raw.githubusercontent.com/lmarena/arena-hard-auto/main/leaderboard/arena_hard_leaderboard_20240731.csv",
+      "ref": "arena_hard_leaderboard_20240731.csv",
+      "fetched_at": "2026-06-11T08:36:12.665Z"
+    },
+    "extra": {
+      "ci_lo": 77.25,
+      "ci_hi": 80.62,
+      "avg_tokens": 567,
+      "snapshot_date": "2024-07-31"
+    }
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "arena-hard",
+    "score": 79.21,
+    "config": "default",
+    "source": {
+      "kind": "github_repo",
+      "url": "https://raw.githubusercontent.com/lmarena/arena-hard-auto/main/leaderboard/arena_hard_leaderboard_20240731.csv",
+      "ref": "arena_hard_leaderboard_20240731.csv",
+      "fetched_at": "2026-06-11T08:36:12.665Z"
+    },
+    "extra": {
+      "ci_lo": 77.42,
+      "ci_hi": 80.71,
+      "avg_tokens": 696,
+      "snapshot_date": "2024-07-31"
+    }
+  },
+  {
+    "model_id": "gpt-4o-mini",
+    "benchmark_id": "arena-hard",
+    "score": 74.94,
+    "config": "default",
+    "source": {
+      "kind": "github_repo",
+      "url": "https://raw.githubusercontent.com/lmarena/arena-hard-auto/main/leaderboard/arena_hard_leaderboard_20240731.csv",
+      "ref": "arena_hard_leaderboard_20240731.csv",
+      "fetched_at": "2026-06-11T08:36:12.665Z"
+    },
+    "extra": {
+      "ci_lo": 72.66,
+      "ci_hi": 77.07,
+      "avg_tokens": 668,
+      "snapshot_date": "2024-07-31"
+    }
+  },
+  {
+    "model_id": "llama-3.1-405b",
+    "benchmark_id": "arena-hard",
+    "score": 64.09,
+    "config": "default",
+    "source": {
+      "kind": "github_repo",
+      "url": "https://raw.githubusercontent.com/lmarena/arena-hard-auto/main/leaderboard/arena_hard_leaderboard_20240731.csv",
+      "ref": "arena_hard_leaderboard_20240731.csv",
+      "fetched_at": "2026-06-11T08:36:12.665Z"
+    },
+    "extra": {
+      "ci_lo": 61.43,
+      "ci_hi": 66.55,
+      "avg_tokens": 633,
+      "snapshot_date": "2024-07-31"
+    }
+  },
+  {
+    "model_id": "claude-3-opus",
+    "benchmark_id": "arena-hard",
+    "score": 60.36,
+    "config": "default",
+    "source": {
+      "kind": "github_repo",
+      "url": "https://raw.githubusercontent.com/lmarena/arena-hard-auto/main/leaderboard/arena_hard_leaderboard_20240731.csv",
+      "ref": "arena_hard_leaderboard_20240731.csv",
+      "fetched_at": "2026-06-11T08:36:12.665Z"
+    },
+    "extra": {
+      "ci_lo": 57.56,
+      "ci_hi": 62.34,
+      "avg_tokens": 541,
+      "snapshot_date": "2024-07-31"
+    }
+  },
+  {
+    "model_id": "llama-3.1-70b",
+    "benchmark_id": "arena-hard",
+    "score": 55.73,
+    "config": "default",
+    "source": {
+      "kind": "github_repo",
+      "url": "https://raw.githubusercontent.com/lmarena/arena-hard-auto/main/leaderboard/arena_hard_leaderboard_20240731.csv",
+      "ref": "arena_hard_leaderboard_20240731.csv",
+      "fetched_at": "2026-06-11T08:36:12.665Z"
+    },
+    "extra": {
+      "ci_lo": 52.85,
+      "ci_hi": 58.2,
+      "avg_tokens": 628,
+      "snapshot_date": "2024-07-31"
+    }
+  },
+  {
+    "model_id": "qwen-2.5-72b",
+    "benchmark_id": "arena-hard",
+    "score": 46.86,
+    "config": "default",
+    "source": {
+      "kind": "github_repo",
+      "url": "https://raw.githubusercontent.com/lmarena/arena-hard-auto/main/leaderboard/arena_hard_leaderboard_20240731.csv",
+      "ref": "arena_hard_leaderboard_20240731.csv",
+      "fetched_at": "2026-06-11T08:36:12.665Z"
+    },
+    "extra": {
+      "ci_lo": 44.57,
+      "ci_hi": 49.29,
+      "avg_tokens": 515,
+      "snapshot_date": "2024-07-31"
+    }
+  },
+  {
+    "model_id": "claude-3-sonnet",
+    "benchmark_id": "arena-hard",
+    "score": 46.8,
+    "config": "default",
+    "source": {
+      "kind": "github_repo",
+      "url": "https://raw.githubusercontent.com/lmarena/arena-hard-auto/main/leaderboard/arena_hard_leaderboard_20240731.csv",
+      "ref": "arena_hard_leaderboard_20240731.csv",
+      "fetched_at": "2026-06-11T08:36:12.665Z"
+    },
+    "extra": {
+      "ci_lo": 44.12,
+      "ci_hi": 49.04,
+      "avg_tokens": 552,
+      "snapshot_date": "2024-07-31"
+    }
+  },
+  {
+    "model_id": "llama-3-70b",
+    "benchmark_id": "arena-hard",
+    "score": 46.57,
+    "config": "default",
+    "source": {
+      "kind": "github_repo",
+      "url": "https://raw.githubusercontent.com/lmarena/arena-hard-auto/main/leaderboard/arena_hard_leaderboard_20240731.csv",
+      "ref": "arena_hard_leaderboard_20240731.csv",
+      "fetched_at": "2026-06-11T08:36:12.665Z"
+    },
+    "extra": {
+      "ci_lo": 43.84,
+      "ci_hi": 49.18,
+      "avg_tokens": 591,
+      "snapshot_date": "2024-07-31"
+    }
+  },
+  {
+    "model_id": "claude-3-haiku",
+    "benchmark_id": "arena-hard",
+    "score": 41.47,
+    "config": "default",
+    "source": {
+      "kind": "github_repo",
+      "url": "https://raw.githubusercontent.com/lmarena/arena-hard-auto/main/leaderboard/arena_hard_leaderboard_20240731.csv",
+      "ref": "arena_hard_leaderboard_20240731.csv",
+      "fetched_at": "2026-06-11T08:36:12.665Z"
+    },
+    "extra": {
+      "ci_lo": 39.57,
+      "ci_hi": 44.02,
+      "avg_tokens": 505,
+      "snapshot_date": "2024-07-31"
+    }
+  },
+  {
+    "model_id": "llama-3-8b",
+    "benchmark_id": "arena-hard",
+    "score": 20.56,
+    "config": "default",
+    "source": {
+      "kind": "github_repo",
+      "url": "https://raw.githubusercontent.com/lmarena/arena-hard-auto/main/leaderboard/arena_hard_leaderboard_20240731.csv",
+      "ref": "arena_hard_leaderboard_20240731.csv",
+      "fetched_at": "2026-06-11T08:36:12.665Z"
+    },
+    "extra": {
+      "ci_lo": 18.82,
+      "ci_hi": 22.61,
+      "avg_tokens": 585,
+      "snapshot_date": "2024-07-31"
+    }
+  }
+]

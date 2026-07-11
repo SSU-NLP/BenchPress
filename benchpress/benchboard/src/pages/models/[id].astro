@@ -1,0 +1,90 @@
+---
+import Page from "../../layouts/Page.astro";
+import ScoreCell from "../../components/ScoreCell.tsx";
+import {
+  loadAllScores,
+  loadBenchmarks,
+  loadModels,
+} from "../../lib/loadData.ts";
+import { withBase } from "../../lib/url";
+import "../../styles/global.css";
+
+export async function getStaticPaths() {
+  const models = await loadModels();
+  return models.map((m) => ({ params: { id: m.id } }));
+}
+
+const { id } = Astro.params;
+const [models, benchmarks, scores] = await Promise.all([
+  loadModels(),
+  loadBenchmarks(),
+  loadAllScores(),
+]);
+const model = models.find((m) => m.id === id);
+if (!model) throw new Error(`Unknown model: ${id}`);
+
+const benchById = new Map(benchmarks.map((b) => [b.id, b]));
+const myScores = scores.filter((s) => s.model_id === id);
+const grouped = new Map<string, typeof myScores>();
+for (const s of myScores) {
+  const b = benchById.get(s.benchmark_id);
+  const cat = b?.category ?? "other";
+  if (!grouped.has(cat)) grouped.set(cat, []);
+  grouped.get(cat)!.push(s);
+}
+const cats = [...grouped.keys()].sort();
+---
+
+<Page title={model.name}>
+  <a href={withBase("/")} class="text-xs text-neutral-500 hover:underline">&larr; back</a>
+  <h1 class="text-2xl font-bold tracking-tight mt-2">{model.name}</h1>
+  <div class="text-sm text-neutral-500 mb-6">
+    {model.vendor}
+    {model.release_date && ` · released ${model.release_date}`}
+  </div>
+
+  {cats.length === 0 ? (
+    <p class="text-sm text-neutral-500">No scores yet.</p>
+  ) : (
+    cats.map((cat) => {
+      const items = grouped.get(cat)!.sort((a, b) =>
+        a.benchmark_id.localeCompare(b.benchmark_id),
+      );
+      return (
+        <section class="mb-6">
+          <h2 class="text-sm uppercase tracking-wider text-neutral-500 mb-2">
+            {cat}
+          </h2>
+          <table class="min-w-full text-sm border-t border-neutral-100">
+            <tbody>
+              {items.map((s) => {
+                const b = benchById.get(s.benchmark_id);
+                return (
+                  <tr class="border-b border-neutral-100">
+                    <td class="px-3 py-2">
+                      <a href={withBase(`/benchmarks/${s.benchmark_id}`)} class="hover:underline">
+                        {b?.name ?? s.benchmark_id}
+                      </a>
+                    </td>
+                    <td class="px-3 py-2 text-right">
+                      <ScoreCell record={s} />
+                    </td>
+                  </tr>
+                );
+              })}
+            </tbody>
+          </table>
+        </section>
+      );
+    })
+  )}
+
+  {model.aliases.length > 0 && (
+    <details class="mt-8 text-xs text-neutral-500">
+      <summary class="cursor-pointer">Aliases ({model.aliases.length})</summary>
+      <ul class="mt-2 ml-4 list-disc">
+        {model.aliases.map((a) => <li>{a}</li>)}
+      </ul>
+    </details>
+  )}
+</Page>

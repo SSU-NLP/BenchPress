@@ -1,0 +1,23 @@
+---
+import Page from "../../layouts/Page.astro";
+import CategoryTabs from "../../components/CategoryTabs.astro";
+import LeaderboardTable from "../../components/LeaderboardTable.tsx";
+import CurationNote from "../../components/CurationNote.astro";
+import { buildView } from "../../lib/loadData.ts";
+import "../../styles/global.css";
+
+const view = await buildView("nd_safety");
+---
+
+<Page title="비결정적 — Safety">
+  <CategoryTabs active="nd-safety" />
+  <p class="text-sm text-neutral-500 mb-4">
+    적대적 프롬프트 및 안전성 평가 — LLM/인간 심판 기반: Gray Swan Arena 등.
+  </p>
+  <CurationNote hidden={view.hiddenBenchmarks} allHref="/non-deterministic" />
+  <LeaderboardTable
+    client:load
+    benchmarks={view.benchmarks}
+    rows={view.rows}
+  />
+</Page>

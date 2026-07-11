@@ -1,0 +1,626 @@
+[
+  {
+    "model_id": "phi-4-mini",
+    "benchmark_id": "aime-2024",
+    "score": 10,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "",
+      "reported_by": "Comparison eval table (lm-eval harness, 0-1 scores normalized x100)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "gemma-3-4b",
+    "benchmark_id": "aime-2024",
+    "score": 10,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "",
+      "reported_by": "Comparison eval table (lm-eval harness, 0-1 scores normalized x100)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "llama-3.1-8b",
+    "benchmark_id": "aime-2024",
+    "score": 6.7,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "",
+      "reported_by": "Comparison eval table (lm-eval harness, 0-1 scores normalized x100)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "gemma-3-4b",
+    "benchmark_id": "aime-2025",
+    "score": 10,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "",
+      "reported_by": "Comparison eval table (lm-eval harness, 0-1 scores normalized x100)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "phi-4-mini",
+    "benchmark_id": "aime-2025",
+    "score": 3.3,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "",
+      "reported_by": "Comparison eval table (lm-eval harness, 0-1 scores normalized x100)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "llama-3.1-8b",
+    "benchmark_id": "aime-2025",
+    "score": 0,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "",
+      "reported_by": "Comparison eval table (lm-eval harness, 0-1 scores normalized x100)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "phi-4-mini",
+    "benchmark_id": "arc-challenge",
+    "score": 79.4,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "",
+      "reported_by": "Comparison eval table (lm-eval harness, 0-1 scores normalized x100)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "gemma-3-4b",
+    "benchmark_id": "arc-challenge",
+    "score": 76.8,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "",
+      "reported_by": "Comparison eval table (lm-eval harness, 0-1 scores normalized x100)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "llama-3.1-8b",
+    "benchmark_id": "arc-challenge",
+    "score": 75.6,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "",
+      "reported_by": "Comparison eval table (lm-eval harness, 0-1 scores normalized x100)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "gemma-3-4b",
+    "benchmark_id": "drop",
+    "score": 73.1,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "",
+      "reported_by": "Comparison eval table (openbench harness, 0-1 scores normalized x100)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "llama-3.1-8b",
+    "benchmark_id": "drop",
+    "score": 71.2,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "",
+      "reported_by": "Comparison eval table (openbench harness, 0-1 scores normalized x100)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "phi-4-mini",
+    "benchmark_id": "drop",
+    "score": 59.5,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "",
+      "reported_by": "Comparison eval table (openbench harness, 0-1 scores normalized x100)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "phi-4-mini",
+    "benchmark_id": "gpqa",
+    "score": 25.2,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "",
+      "reported_by": "Comparison eval table (lm-eval harness, 0-1 scores normalized x100)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "gemma-3-4b",
+    "benchmark_id": "gpqa",
+    "score": 24.8,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "",
+      "reported_by": "Comparison eval table (lm-eval harness, 0-1 scores normalized x100)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "llama-3.1-8b",
+    "benchmark_id": "gpqa",
+    "score": 20.5,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "",
+      "reported_by": "Comparison eval table (lm-eval harness, 0-1 scores normalized x100)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "gemma-3-4b",
+    "benchmark_id": "gsm8k",
+    "score": 79.8,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "",
+      "reported_by": "Comparison eval table (lm-eval harness, 0-1 scores normalized x100)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "phi-4-mini",
+    "benchmark_id": "gsm8k",
+    "score": 74.7,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "",
+      "reported_by": "Comparison eval table (lm-eval harness, 0-1 scores normalized x100)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "llama-3.1-8b",
+    "benchmark_id": "gsm8k",
+    "score": 73.1,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "",
+      "reported_by": "Comparison eval table (lm-eval harness, 0-1 scores normalized x100)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "gemma-3-4b",
+    "benchmark_id": "hle",
+    "score": 10.2,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "",
+      "reported_by": "Comparison eval table (openbench harness, acc, 0-1 scores normalized x100; self-grade)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "llama-3.1-8b",
+    "benchmark_id": "hle",
+    "score": 4.4,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "",
+      "reported_by": "Comparison eval table (openbench harness, acc, 0-1 scores normalized x100; self-grade)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "phi-4-mini",
+    "benchmark_id": "hle",
+    "score": 3.6,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "",
+      "reported_by": "Comparison eval table (openbench harness, acc, 0-1 scores normalized x100; self-grade)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "phi-4-mini",
+    "benchmark_id": "hmmt-feb-2025",
+    "score": 0,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "",
+      "reported_by": "Comparison eval table (lm-eval-custom harness, exact_match, 0-1 scores normalized x100)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "gemma-3-4b",
+    "benchmark_id": "hmmt-feb-2025",
+    "score": 0,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "",
+      "reported_by": "Comparison eval table (lm-eval-custom harness, exact_match, 0-1 scores normalized x100)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "llama-3.1-8b",
+    "benchmark_id": "hmmt-feb-2025",
+    "score": 0,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "",
+      "reported_by": "Comparison eval table (lm-eval-custom harness, exact_match, 0-1 scores normalized x100)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "gemma-3-4b",
+    "benchmark_id": "livecodebench",
+    "score": 23.5,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "",
+      "reported_by": "Comparison eval table (lcb-repo harness, pass@1, 0-1 scores normalized x100; max_tokens-4096; corrected from an earlier 0.000 underestimate)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "llama-3.1-8b",
+    "benchmark_id": "livecodebench",
+    "score": 21.5,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "",
+      "reported_by": "Comparison eval table (lcb-repo harness, pass@1, 0-1 scores normalized x100; max_tokens-4096; corrected from an earlier 0.000 underestimate)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "phi-4-mini",
+    "benchmark_id": "livecodebench",
+    "score": 20.3,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "",
+      "reported_by": "Comparison eval table (lcb-repo harness, pass@1, 0-1 scores normalized x100; max_tokens-4096; corrected from an earlier 0.000 underestimate)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "llama-3.1-8b",
+    "benchmark_id": "math",
+    "score": 40.4,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "",
+      "reported_by": "Comparison eval table (lm-eval harness, 0-1 scores normalized x100)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "gemma-3-4b",
+    "benchmark_id": "math",
+    "score": 29.6,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "",
+      "reported_by": "Comparison eval table (lm-eval harness, 0-1 scores normalized x100)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "phi-4-mini",
+    "benchmark_id": "math",
+    "score": 25.7,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "",
+      "reported_by": "Comparison eval table (lm-eval harness, 0-1 scores normalized x100)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "llama-3.1-8b",
+    "benchmark_id": "math-500",
+    "score": 41.2,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "",
+      "reported_by": "Comparison eval table (lm-eval harness, 0-1 scores normalized x100)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "gemma-3-4b",
+    "benchmark_id": "math-500",
+    "score": 29.4,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "",
+      "reported_by": "Comparison eval table (lm-eval harness, 0-1 scores normalized x100)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "phi-4-mini",
+    "benchmark_id": "math-500",
+    "score": 21.2,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "",
+      "reported_by": "Comparison eval table (lm-eval harness, 0-1 scores normalized x100)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "llama-3.1-8b",
+    "benchmark_id": "mmlu",
+    "score": 68.1,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "",
+      "reported_by": "Comparison eval table (lm-eval harness, 0-1 scores normalized x100)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "phi-4-mini",
+    "benchmark_id": "mmlu",
+    "score": 65,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "",
+      "reported_by": "Comparison eval table (lm-eval harness, 0-1 scores normalized x100)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "gemma-3-4b",
+    "benchmark_id": "mmlu",
+    "score": 60.7,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "",
+      "reported_by": "Comparison eval table (lm-eval harness, 0-1 scores normalized x100)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "llama-3.1-8b",
+    "benchmark_id": "mmlu-pro",
+    "score": 47,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "",
+      "reported_by": "Comparison eval table (lm-eval harness, 0-1 scores normalized x100)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "phi-4-mini",
+    "benchmark_id": "mmlu-pro",
+    "score": 46.5,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "",
+      "reported_by": "Comparison eval table (lm-eval harness, 0-1 scores normalized x100)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "gemma-3-4b",
+    "benchmark_id": "mmlu-pro",
+    "score": 41.7,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "",
+      "reported_by": "Comparison eval table (lm-eval harness, 0-1 scores normalized x100)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "llama-3.1-8b",
+    "benchmark_id": "mmlu-redux",
+    "score": 70.1,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "",
+      "reported_by": "Comparison eval table (lm-eval harness, 0-1 scores normalized x100)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "phi-4-mini",
+    "benchmark_id": "mmlu-redux",
+    "score": 66.5,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "",
+      "reported_by": "Comparison eval table (lm-eval harness, 0-1 scores normalized x100)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "gemma-3-4b",
+    "benchmark_id": "mmlu-redux",
+    "score": 60.8,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "",
+      "reported_by": "Comparison eval table (lm-eval harness, 0-1 scores normalized x100)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "llama-3.1-8b",
+    "benchmark_id": "scicode",
+    "score": 6.9,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "",
+      "reported_by": "Comparison eval table (scicode-repo harness, sub_problem, 0-1 scores normalized x100)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "phi-4-mini",
+    "benchmark_id": "scicode",
+    "score": 4.5,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "",
+      "reported_by": "Comparison eval table (scicode-repo harness, sub_problem, 0-1 scores normalized x100)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "gemma-3-4b",
+    "benchmark_id": "scicode",
+    "score": 4.5,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "",
+      "reported_by": "Comparison eval table (scicode-repo harness, sub_problem, 0-1 scores normalized x100)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "llama-3.1-8b",
+    "benchmark_id": "supergpqa",
+    "score": 21.4,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "",
+      "reported_by": "Comparison eval table (openbench harness, 0-1 scores normalized x100)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "phi-4-mini",
+    "benchmark_id": "supergpqa",
+    "score": 20.2,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "",
+      "reported_by": "Comparison eval table (openbench harness, 0-1 scores normalized x100)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "gemma-3-4b",
+    "benchmark_id": "supergpqa",
+    "score": 20.1,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "",
+      "reported_by": "Comparison eval table (openbench harness, 0-1 scores normalized x100)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  }
+]

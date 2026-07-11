@@ -1,0 +1,458 @@
+[
+  {
+    "model_id": "claude-opus-4.5",
+    "benchmark_id": "bench-airline",
+    "score": 84,
+    "config": "pass^1",
+    "source": {
+      "kind": "github_repo",
+      "url": "https://raw.githubusercontent.com/sierra-research/tau2-bench/main/web/leaderboard/public/submissions/claude-opus-4-5_sierra_2026-02-26/submission.json",
+      "ref": "claude-opus-4-5_sierra_2026-02-26",
+      "fetched_at": "2026-06-11T08:36:51.054Z"
+    }
+  },
+  {
+    "model_id": "glm-5",
+    "benchmark_id": "bench-airline",
+    "score": 82.5,
+    "config": "pass^1",
+    "source": {
+      "kind": "github_repo",
+      "url": "https://raw.githubusercontent.com/sierra-research/tau2-bench/main/web/leaderboard/public/submissions/glm-5-think_sierra_2026-03-02/submission.json",
+      "ref": "glm-5-think_sierra_2026-03-02",
+      "fetched_at": "2026-06-11T08:36:51.054Z"
+    }
+  },
+  {
+    "model_id": "gemini-3-flash",
+    "benchmark_id": "bench-airline",
+    "score": 82.5,
+    "config": "pass^1",
+    "source": {
+      "kind": "github_repo",
+      "url": "https://raw.githubusercontent.com/sierra-research/tau2-bench/main/web/leaderboard/public/submissions/gemini-3-flash_sierra_2026-03-02/submission.json",
+      "ref": "gemini-3-flash_sierra_2026-03-02",
+      "fetched_at": "2026-06-11T08:36:51.054Z"
+    }
+  },
+  {
+    "model_id": "claude-3.7-sonnet",
+    "benchmark_id": "bench-airline",
+    "score": 64.2,
+    "config": "pass^1",
+    "source": {
+      "kind": "github_repo",
+      "url": "https://raw.githubusercontent.com/sierra-research/tau2-bench/main/web/leaderboard/public/submissions/claude-3-7-sonnet_anthropic_2024-06-20/submission.json",
+      "ref": "claude-3-7-sonnet_anthropic_2024-06-20",
+      "fetched_at": "2026-06-11T08:36:51.054Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3.2",
+    "benchmark_id": "bench-airline",
+    "score": 63.8,
+    "config": "pass^1",
+    "source": {
+      "kind": "github_repo",
+      "url": "https://raw.githubusercontent.com/sierra-research/tau2-bench/main/web/leaderboard/public/submissions/deepseek-v3.2_deepseek_2025-12-01/submission.json",
+      "ref": "deepseek-v3.2_deepseek_2025-12-01",
+      "fetched_at": "2026-06-11T08:36:51.054Z"
+    }
+  },
+  {
+    "model_id": "gpt-5",
+    "benchmark_id": "bench-airline",
+    "score": 62.5,
+    "config": "pass^1",
+    "source": {
+      "kind": "github_repo",
+      "url": "https://raw.githubusercontent.com/sierra-research/tau2-bench/main/web/leaderboard/public/submissions/gpt-5_sierra_2025-08-09/submission.json",
+      "ref": "gpt-5_sierra_2025-08-09",
+      "fetched_at": "2026-06-11T08:36:51.054Z"
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4",
+    "benchmark_id": "bench-airline",
+    "score": 60,
+    "config": "pass^1",
+    "source": {
+      "kind": "github_repo",
+      "url": "https://raw.githubusercontent.com/sierra-research/tau2-bench/main/web/leaderboard/public/submissions/claude-sonnet-4_anthropic_2025-05-22/submission.json",
+      "ref": "claude-sonnet-4_anthropic_2025-05-22",
+      "fetched_at": "2026-06-11T08:36:51.054Z"
+    }
+  },
+  {
+    "model_id": "claude-opus-4",
+    "benchmark_id": "bench-airline",
+    "score": 59.6,
+    "config": "pass^1",
+    "source": {
+      "kind": "github_repo",
+      "url": "https://raw.githubusercontent.com/sierra-research/tau2-bench/main/web/leaderboard/public/submissions/claude-opus-4_anthropic_2025-05-22/submission.json",
+      "ref": "claude-opus-4_anthropic_2025-05-22",
+      "fetched_at": "2026-06-11T08:36:51.054Z"
+    }
+  },
+  {
+    "model_id": "kimi-k2",
+    "benchmark_id": "bench-airline",
+    "score": 56.5,
+    "config": "pass^1",
+    "source": {
+      "kind": "github_repo",
+      "url": "https://raw.githubusercontent.com/sierra-research/tau2-bench/main/web/leaderboard/public/submissions/kimi-k2_moonshot-ai_2025-07-11/submission.json",
+      "ref": "kimi-k2_moonshot-ai_2025-07-11",
+      "fetched_at": "2026-06-11T08:36:51.054Z"
+    }
+  },
+  {
+    "model_id": "claude-opus-4.1",
+    "benchmark_id": "bench-airline",
+    "score": 56,
+    "config": "pass^1",
+    "source": {
+      "kind": "github_repo",
+      "url": "https://raw.githubusercontent.com/sierra-research/tau2-bench/main/web/leaderboard/public/submissions/claude-opus-4-1_anthropic_2025-01-15/submission.json",
+      "ref": "claude-opus-4-1_anthropic_2025-01-15",
+      "fetched_at": "2026-06-11T08:36:51.054Z"
+    }
+  },
+  {
+    "model_id": "gpt-4.1",
+    "benchmark_id": "bench-airline",
+    "score": 56,
+    "config": "pass^1",
+    "source": {
+      "kind": "github_repo",
+      "url": "https://raw.githubusercontent.com/sierra-research/tau2-bench/main/web/leaderboard/public/submissions/gpt-4-1_openai_2024-06-20/submission.json",
+      "ref": "gpt-4-1_openai_2024-06-20",
+      "fetched_at": "2026-06-11T08:36:51.054Z"
+    }
+  },
+  {
+    "model_id": "o4-mini",
+    "benchmark_id": "bench-airline",
+    "score": 52.1,
+    "config": "pass^1",
+    "source": {
+      "kind": "github_repo",
+      "url": "https://raw.githubusercontent.com/sierra-research/tau2-bench/main/web/leaderboard/public/submissions/o4-mini_openai_2024-06-20/submission.json",
+      "ref": "o4-mini_openai_2024-06-20",
+      "fetched_at": "2026-06-11T08:36:51.054Z"
+    }
+  },
+  {
+    "model_id": "o3",
+    "benchmark_id": "bench-airline",
+    "score": 52,
+    "config": "pass^1",
+    "source": {
+      "kind": "github_repo",
+      "url": "https://raw.githubusercontent.com/sierra-research/tau2-bench/main/web/leaderboard/public/submissions/o3_openai_2025-01-15/submission.json",
+      "ref": "o3_openai_2025-01-15",
+      "fetched_at": "2026-06-11T08:36:51.054Z"
+    }
+  },
+  {
+    "model_id": "gpt-4.1-mini",
+    "benchmark_id": "bench-airline",
+    "score": 48.7,
+    "config": "pass^1",
+    "source": {
+      "kind": "github_repo",
+      "url": "https://raw.githubusercontent.com/sierra-research/tau2-bench/main/web/leaderboard/public/submissions/gpt-4-1-mini_openai_2024-06-20/submission.json",
+      "ref": "gpt-4-1-mini_openai_2024-06-20",
+      "fetched_at": "2026-06-11T08:36:51.054Z"
+    }
+  },
+  {
+    "model_id": "claude-opus-4.1",
+    "benchmark_id": "bench-retail",
+    "score": 82.4,
+    "config": "pass^1",
+    "source": {
+      "kind": "github_repo",
+      "url": "https://raw.githubusercontent.com/sierra-research/tau2-bench/main/web/leaderboard/public/submissions/claude-opus-4-1_anthropic_2025-01-15/submission.json",
+      "ref": "claude-opus-4-1_anthropic_2025-01-15",
+      "fetched_at": "2026-06-11T08:36:51.054Z"
+    }
+  },
+  {
+    "model_id": "gpt-5",
+    "benchmark_id": "bench-retail",
+    "score": 81.6,
+    "config": "pass^1",
+    "source": {
+      "kind": "github_repo",
+      "url": "https://raw.githubusercontent.com/sierra-research/tau2-bench/main/web/leaderboard/public/submissions/gpt-5_sierra_2025-08-09/submission.json",
+      "ref": "gpt-5_sierra_2025-08-09",
+      "fetched_at": "2026-06-11T08:36:51.054Z"
+    }
+  },
+  {
+    "model_id": "claude-opus-4",
+    "benchmark_id": "bench-retail",
+    "score": 81.4,
+    "config": "pass^1",
+    "source": {
+      "kind": "github_repo",
+      "url": "https://raw.githubusercontent.com/sierra-research/tau2-bench/main/web/leaderboard/public/submissions/claude-opus-4_anthropic_2025-05-22/submission.json",
+      "ref": "claude-opus-4_anthropic_2025-05-22",
+      "fetched_at": "2026-06-11T08:36:51.054Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3.2",
+    "benchmark_id": "bench-retail",
+    "score": 81.1,
+    "config": "pass^1",
+    "source": {
+      "kind": "github_repo",
+      "url": "https://raw.githubusercontent.com/sierra-research/tau2-bench/main/web/leaderboard/public/submissions/deepseek-v3.2_deepseek_2025-12-01/submission.json",
+      "ref": "deepseek-v3.2_deepseek_2025-12-01",
+      "fetched_at": "2026-06-11T08:36:51.054Z"
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4",
+    "benchmark_id": "bench-retail",
+    "score": 80.5,
+    "config": "pass^1",
+    "source": {
+      "kind": "github_repo",
+      "url": "https://raw.githubusercontent.com/sierra-research/tau2-bench/main/web/leaderboard/public/submissions/claude-sonnet-4_anthropic_2025-05-22/submission.json",
+      "ref": "claude-sonnet-4_anthropic_2025-05-22",
+      "fetched_at": "2026-06-11T08:36:51.054Z"
+    }
+  },
+  {
+    "model_id": "claude-opus-4.5",
+    "benchmark_id": "bench-retail",
+    "score": 79.6,
+    "config": "pass^1",
+    "source": {
+      "kind": "github_repo",
+      "url": "https://raw.githubusercontent.com/sierra-research/tau2-bench/main/web/leaderboard/public/submissions/claude-opus-4-5_sierra_2026-02-26/submission.json",
+      "ref": "claude-opus-4-5_sierra_2026-02-26",
+      "fetched_at": "2026-06-11T08:36:51.054Z"
+    }
+  },
+  {
+    "model_id": "gemini-3-flash",
+    "benchmark_id": "bench-retail",
+    "score": 76.8,
+    "config": "pass^1",
+    "source": {
+      "kind": "github_repo",
+      "url": "https://raw.githubusercontent.com/sierra-research/tau2-bench/main/web/leaderboard/public/submissions/gemini-3-flash_sierra_2026-03-02/submission.json",
+      "ref": "gemini-3-flash_sierra_2026-03-02",
+      "fetched_at": "2026-06-11T08:36:51.054Z"
+    }
+  },
+  {
+    "model_id": "gpt-4.1",
+    "benchmark_id": "bench-retail",
+    "score": 74,
+    "config": "pass^1",
+    "source": {
+      "kind": "github_repo",
+      "url": "https://raw.githubusercontent.com/sierra-research/tau2-bench/main/web/leaderboard/public/submissions/gpt-4-1_openai_2024-06-20/submission.json",
+      "ref": "gpt-4-1_openai_2024-06-20",
+      "fetched_at": "2026-06-11T08:36:51.054Z"
+    }
+  },
+  {
+    "model_id": "o3",
+    "benchmark_id": "bench-retail",
+    "score": 73.9,
+    "config": "pass^1",
+    "source": {
+      "kind": "github_repo",
+      "url": "https://raw.githubusercontent.com/sierra-research/tau2-bench/main/web/leaderboard/public/submissions/o3_openai_2025-01-15/submission.json",
+      "ref": "o3_openai_2025-01-15",
+      "fetched_at": "2026-06-11T08:36:51.054Z"
+    }
+  },
+  {
+    "model_id": "glm-5",
+    "benchmark_id": "bench-retail",
+    "score": 73.7,
+    "config": "pass^1",
+    "source": {
+      "kind": "github_repo",
+      "url": "https://raw.githubusercontent.com/sierra-research/tau2-bench/main/web/leaderboard/public/submissions/glm-5-think_sierra_2026-03-02/submission.json",
+      "ref": "glm-5-think_sierra_2026-03-02",
+      "fetched_at": "2026-06-11T08:36:51.054Z"
+    }
+  },
+  {
+    "model_id": "claude-3.7-sonnet",
+    "benchmark_id": "bench-retail",
+    "score": 72.1,
+    "config": "pass^1",
+    "source": {
+      "kind": "github_repo",
+      "url": "https://raw.githubusercontent.com/sierra-research/tau2-bench/main/web/leaderboard/public/submissions/claude-3-7-sonnet_anthropic_2024-06-20/submission.json",
+      "ref": "claude-3-7-sonnet_anthropic_2024-06-20",
+      "fetched_at": "2026-06-11T08:36:51.054Z"
+    }
+  },
+  {
+    "model_id": "kimi-k2",
+    "benchmark_id": "bench-retail",
+    "score": 70.6,
+    "config": "pass^1",
+    "source": {
+      "kind": "github_repo",
+      "url": "https://raw.githubusercontent.com/sierra-research/tau2-bench/main/web/leaderboard/public/submissions/kimi-k2_moonshot-ai_2025-07-11/submission.json",
+      "ref": "kimi-k2_moonshot-ai_2025-07-11",
+      "fetched_at": "2026-06-11T08:36:51.054Z"
+    }
+  },
+  {
+    "model_id": "o4-mini",
+    "benchmark_id": "bench-retail",
+    "score": 68.3,
+    "config": "pass^1",
+    "source": {
+      "kind": "github_repo",
+      "url": "https://raw.githubusercontent.com/sierra-research/tau2-bench/main/web/leaderboard/public/submissions/o4-mini_openai_2024-06-20/submission.json",
+      "ref": "o4-mini_openai_2024-06-20",
+      "fetched_at": "2026-06-11T08:36:51.054Z"
+    }
+  },
+  {
+    "model_id": "gpt-4.1-mini",
+    "benchmark_id": "bench-retail",
+    "score": 61.4,
+    "config": "pass^1",
+    "source": {
+      "kind": "github_repo",
+      "url": "https://raw.githubusercontent.com/sierra-research/tau2-bench/main/web/leaderboard/public/submissions/gpt-4-1-mini_openai_2024-06-20/submission.json",
+      "ref": "gpt-4-1-mini_openai_2024-06-20",
+      "fetched_at": "2026-06-11T08:36:51.054Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3.2",
+    "benchmark_id": "bench-telecom",
+    "score": 96.2,
+    "config": "pass^1",
+    "source": {
+      "kind": "github_repo",
+      "url": "https://raw.githubusercontent.com/sierra-research/tau2-bench/main/web/leaderboard/public/submissions/deepseek-v3.2_deepseek_2025-12-01/submission.json",
+      "ref": "deepseek-v3.2_deepseek_2025-12-01",
+      "fetched_at": "2026-06-11T08:36:51.054Z"
+    }
+  },
+  {
+    "model_id": "gpt-5",
+    "benchmark_id": "bench-telecom",
+    "score": 95.8,
+    "config": "pass^1",
+    "source": {
+      "kind": "github_repo",
+      "url": "https://raw.githubusercontent.com/sierra-research/tau2-bench/main/web/leaderboard/public/submissions/gpt-5_sierra_2025-08-09/submission.json",
+      "ref": "gpt-5_sierra_2025-08-09",
+      "fetched_at": "2026-06-11T08:36:51.054Z"
+    }
+  },
+  {
+    "model_id": "claude-opus-4.5",
+    "benchmark_id": "bench-telecom",
+    "score": 92.3,
+    "config": "pass^1",
+    "source": {
+      "kind": "github_repo",
+      "url": "https://raw.githubusercontent.com/sierra-research/tau2-bench/main/web/leaderboard/public/submissions/claude-opus-4-5_sierra_2026-02-26/submission.json",
+      "ref": "claude-opus-4-5_sierra_2026-02-26",
+      "fetched_at": "2026-06-11T08:36:51.054Z"
+    }
+  },
+  {
+    "model_id": "gemini-3-flash",
+    "benchmark_id": "bench-telecom",
+    "score": 91.2,
+    "config": "pass^1",
+    "source": {
+      "kind": "github_repo",
+      "url": "https://raw.githubusercontent.com/sierra-research/tau2-bench/main/web/leaderboard/public/submissions/gemini-3-flash_sierra_2026-03-02/submission.json",
+      "ref": "gemini-3-flash_sierra_2026-03-02",
+      "fetched_at": "2026-06-11T08:36:51.054Z"
+    }
+  },
+  {
+    "model_id": "glm-5",
+    "benchmark_id": "bench-telecom",
+    "score": 86.8,
+    "config": "pass^1",
+    "source": {
+      "kind": "github_repo",
+      "url": "https://raw.githubusercontent.com/sierra-research/tau2-bench/main/web/leaderboard/public/submissions/glm-5-think_sierra_2026-03-02/submission.json",
+      "ref": "glm-5-think_sierra_2026-03-02",
+      "fetched_at": "2026-06-11T08:36:51.054Z"
+    }
+  },
+  {
+    "model_id": "kimi-k2",
+    "benchmark_id": "bench-telecom",
+    "score": 65.8,
+    "config": "pass^1",
+    "source": {
+      "kind": "github_repo",
+      "url": "https://raw.githubusercontent.com/sierra-research/tau2-bench/main/web/leaderboard/public/submissions/kimi-k2_moonshot-ai_2025-07-11/submission.json",
+      "ref": "kimi-k2_moonshot-ai_2025-07-11",
+      "fetched_at": "2026-06-11T08:36:51.054Z"
+    }
+  },
+  {
+    "model_id": "o4-mini",
+    "benchmark_id": "bench-telecom",
+    "score": 50.2,
+    "config": "pass^1",
+    "source": {
+      "kind": "github_repo",
+      "url": "https://raw.githubusercontent.com/sierra-research/tau2-bench/main/web/leaderboard/public/submissions/o4-mini_openai_2024-06-20/submission.json",
+      "ref": "o4-mini_openai_2024-06-20",
+      "fetched_at": "2026-06-11T08:36:51.054Z"
+    }
+  },
+  {
+    "model_id": "claude-3.7-sonnet",
+    "benchmark_id": "bench-telecom",
+    "score": 49,
+    "config": "pass^1",
+    "source": {
+      "kind": "github_repo",
+      "url": "https://raw.githubusercontent.com/sierra-research/tau2-bench/main/web/leaderboard/public/submissions/claude-3-7-sonnet_anthropic_2024-06-20/submission.json",
+      "ref": "claude-3-7-sonnet_anthropic_2024-06-20",
+      "fetched_at": "2026-06-11T08:36:51.054Z"
+    }
+  },
+  {
+    "model_id": "gpt-4.1-mini",
+    "benchmark_id": "bench-telecom",
+    "score": 48.9,
+    "config": "pass^1",
+    "source": {
+      "kind": "github_repo",
+      "url": "https://raw.githubusercontent.com/sierra-research/tau2-bench/main/web/leaderboard/public/submissions/gpt-4-1-mini_openai_2024-06-20/submission.json",
+      "ref": "gpt-4-1-mini_openai_2024-06-20",
+      "fetched_at": "2026-06-11T08:36:51.054Z"
+    }
+  },
+  {
+    "model_id": "gpt-4.1",
+    "benchmark_id": "bench-telecom",
+    "score": 34,
+    "config": "pass^1",
+    "source": {
+      "kind": "github_repo",
+      "url": "https://raw.githubusercontent.com/sierra-research/tau2-bench/main/web/leaderboard/public/submissions/gpt-4-1_openai_2024-06-20/submission.json",
+      "ref": "gpt-4-1_openai_2024-06-20",
+      "fetched_at": "2026-06-11T08:36:51.054Z"
+    }
+  }
+]

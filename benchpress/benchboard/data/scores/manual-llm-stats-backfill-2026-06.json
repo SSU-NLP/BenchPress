@@ -1,0 +1,70 @@
+[
+  {
+    "model_id": "llama-3.1-405b",
+    "benchmark_id": "drop",
+    "score": 84.8,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://llm-stats.com/benchmarks/drop#llama-3-1-405b-instruct",
+      "ref": "LLM-Stats DROP leaderboard: Llama 3.1 405B Instruct",
+      "reported_by": "LLM-Stats",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Meta",
+      "llm_stats_model": "Llama 3.1 405B Instruct"
+    }
+  },
+  {
+    "model_id": "llama-3.1-70b",
+    "benchmark_id": "drop",
+    "score": 79.6,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://llm-stats.com/benchmarks/drop#llama-3-1-70b-instruct",
+      "ref": "LLM-Stats DROP leaderboard: Llama 3.1 70B Instruct",
+      "reported_by": "LLM-Stats",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Meta",
+      "llm_stats_model": "Llama 3.1 70B Instruct"
+    }
+  },
+  {
+    "model_id": "kimi-k2",
+    "benchmark_id": "gsm8k",
+    "score": 97.3,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://llm-stats.com/benchmarks/gsm8k#kimi-k2-instruct",
+      "ref": "LLM-Stats GSM8K leaderboard: Kimi K2 Instruct, self-reported result",
+      "reported_by": "LLM-Stats",
+      "fetched_at": "2026-06-26T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Moonshot AI",
+      "llm_stats_model": "Kimi K2 Instruct"
+    }
+  },
+  {
+    "model_id": "kimi-k2",
+    "benchmark_id": "humaneval",
+    "score": 93.3,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://llm-stats.com/benchmarks/humaneval#kimi-k2-instruct",
+      "ref": "LLM-Stats HumanEval leaderboard: Kimi K2 Instruct, self-reported result",
+      "reported_by": "LLM-Stats",
+      "fetched_at": "2026-06-26T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Moonshot AI",
+      "llm_stats_model": "Kimi K2 Instruct"
+    }
+  }
+]

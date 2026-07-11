@@ -1,0 +1,41 @@
+[
+  {
+    "model_id": "gpt-4o-mini",
+    "benchmark_id": "gsm8k",
+    "score": 91.3,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://epoch.ai/data/benchmark_data.zip",
+      "ref": "gsm8k_external.csv",
+      "published": "2024-07-18",
+      "fetched_at": "2026-06-11T08:47:43.603Z"
+    }
+  },
+  {
+    "model_id": "gpt-4",
+    "benchmark_id": "gsm8k",
+    "score": 90,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://epoch.ai/data/benchmark_data.zip",
+      "ref": "gsm8k_external.csv",
+      "published": "2023-06-13",
+      "fetched_at": "2026-06-11T08:47:43.603Z"
+    }
+  },
+  {
+    "model_id": "phi-3.5-moe",
+    "benchmark_id": "gsm8k",
+    "score": 88.7,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://epoch.ai/data/benchmark_data.zip",
+      "ref": "gsm8k_external.csv",
+      "published": "2024-08-17",
+      "fetched_at": "2026-06-11T08:47:43.603Z"
+    }
+  }
+]

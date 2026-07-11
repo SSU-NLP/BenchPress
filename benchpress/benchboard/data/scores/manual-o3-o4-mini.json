@@ -1,0 +1,366 @@
+[
+  {
+    "model_id": "o3",
+    "benchmark_id": "aider-polyglot",
+    "score": 81.3,
+    "config": "whole, high",
+    "source": {
+      "kind": "manual",
+      "url": "https://openai.com/index/introducing-o3-and-o4-mini/",
+      "reported_by": "OpenAI o3 / o4-mini launch",
+      "fetched_at": "2026-06-12T00:00:00Z",
+      "published": "2025-04"
+    },
+    "variants": [
+      {
+        "score": 79.6,
+        "config": "diff, high",
+        "source": {
+          "kind": "manual",
+          "url": "https://openai.com/index/introducing-o3-and-o4-mini/",
+          "reported_by": "OpenAI o3 / o4-mini launch",
+          "fetched_at": "2026-06-12T00:00:00Z",
+          "published": "2025-04"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "o4-mini",
+    "benchmark_id": "aider-polyglot",
+    "score": 68.9,
+    "config": "whole, high",
+    "source": {
+      "kind": "manual",
+      "url": "https://openai.com/index/introducing-o3-and-o4-mini/",
+      "reported_by": "OpenAI o3 / o4-mini launch",
+      "fetched_at": "2026-06-12T00:00:00Z",
+      "published": "2025-04"
+    },
+    "variants": [
+      {
+        "score": 58.2,
+        "config": "diff, high",
+        "source": {
+          "kind": "manual",
+          "url": "https://openai.com/index/introducing-o3-and-o4-mini/",
+          "reported_by": "OpenAI o3 / o4-mini launch",
+          "fetched_at": "2026-06-12T00:00:00Z",
+          "published": "2025-04"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "o4-mini",
+    "benchmark_id": "aime-2025",
+    "score": 92.7,
+    "config": "no tools",
+    "source": {
+      "kind": "manual",
+      "url": "https://openai.com/index/introducing-o3-and-o4-mini/",
+      "reported_by": "OpenAI o3 / o4-mini launch",
+      "fetched_at": "2026-06-12T00:00:00Z",
+      "published": "2025-04"
+    }
+  },
+  {
+    "model_id": "o3",
+    "benchmark_id": "aime-2025",
+    "score": 88.9,
+    "config": "no tools",
+    "source": {
+      "kind": "manual",
+      "url": "https://openai.com/index/introducing-o3-and-o4-mini/",
+      "reported_by": "OpenAI o3 / o4-mini launch",
+      "fetched_at": "2026-06-12T00:00:00Z",
+      "published": "2025-04"
+    }
+  },
+  {
+    "model_id": "o3-mini",
+    "benchmark_id": "aime-2025",
+    "score": 86.5,
+    "config": "high, no tools",
+    "source": {
+      "kind": "manual",
+      "url": "https://openai.com/index/introducing-o3-and-o4-mini/",
+      "reported_by": "OpenAI o3 / o4-mini launch",
+      "fetched_at": "2026-06-12T00:00:00Z",
+      "published": "2025-04"
+    }
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "aime-2025",
+    "score": 79.2,
+    "config": "no tools",
+    "source": {
+      "kind": "manual",
+      "url": "https://openai.com/index/introducing-o3-and-o4-mini/",
+      "reported_by": "OpenAI o3 / o4-mini launch",
+      "fetched_at": "2026-06-12T00:00:00Z",
+      "published": "2025-04"
+    }
+  },
+  {
+    "model_id": "o4-mini",
+    "benchmark_id": "codeforces-elo",
+    "score": 2719,
+    "config": "with terminal",
+    "source": {
+      "kind": "manual",
+      "url": "https://openai.com/index/introducing-o3-and-o4-mini/",
+      "reported_by": "OpenAI o3 / o4-mini launch",
+      "fetched_at": "2026-06-12T00:00:00Z",
+      "published": "2025-04"
+    }
+  },
+  {
+    "model_id": "o3",
+    "benchmark_id": "codeforces-elo",
+    "score": 2706,
+    "config": "with terminal",
+    "source": {
+      "kind": "manual",
+      "url": "https://openai.com/index/introducing-o3-and-o4-mini/",
+      "reported_by": "OpenAI o3 / o4-mini launch",
+      "fetched_at": "2026-06-12T00:00:00Z",
+      "published": "2025-04"
+    }
+  },
+  {
+    "model_id": "o3-mini",
+    "benchmark_id": "codeforces-elo",
+    "score": 2073,
+    "config": "with terminal",
+    "source": {
+      "kind": "manual",
+      "url": "https://openai.com/index/introducing-o3-and-o4-mini/",
+      "reported_by": "OpenAI o3 / o4-mini launch",
+      "fetched_at": "2026-06-12T00:00:00Z",
+      "published": "2025-04"
+    }
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "codeforces-elo",
+    "score": 1891,
+    "config": "with terminal",
+    "source": {
+      "kind": "manual",
+      "url": "https://openai.com/index/introducing-o3-and-o4-mini/",
+      "reported_by": "OpenAI o3 / o4-mini launch",
+      "fetched_at": "2026-06-12T00:00:00Z",
+      "published": "2025-04"
+    }
+  },
+  {
+    "model_id": "o3",
+    "benchmark_id": "gpqa",
+    "score": 83.3,
+    "config": "Diamond",
+    "source": {
+      "kind": "manual",
+      "url": "https://openai.com/index/introducing-o3-and-o4-mini/",
+      "reported_by": "OpenAI o3 / o4-mini launch",
+      "fetched_at": "2026-06-12T00:00:00Z",
+      "published": "2025-04"
+    }
+  },
+  {
+    "model_id": "o4-mini",
+    "benchmark_id": "gpqa",
+    "score": 81.4,
+    "config": "Diamond",
+    "source": {
+      "kind": "manual",
+      "url": "https://openai.com/index/introducing-o3-and-o4-mini/",
+      "reported_by": "OpenAI o3 / o4-mini launch",
+      "fetched_at": "2026-06-12T00:00:00Z",
+      "published": "2025-04"
+    }
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "gpqa",
+    "score": 78,
+    "config": "Diamond",
+    "source": {
+      "kind": "manual",
+      "url": "https://openai.com/index/introducing-o3-and-o4-mini/",
+      "reported_by": "OpenAI o3 / o4-mini launch",
+      "fetched_at": "2026-06-12T00:00:00Z",
+      "published": "2025-04"
+    }
+  },
+  {
+    "model_id": "o3-mini",
+    "benchmark_id": "gpqa",
+    "score": 77,
+    "config": "Diamond, high",
+    "source": {
+      "kind": "manual",
+      "url": "https://openai.com/index/introducing-o3-and-o4-mini/",
+      "reported_by": "OpenAI o3 / o4-mini launch",
+      "fetched_at": "2026-06-12T00:00:00Z",
+      "published": "2025-04"
+    }
+  },
+  {
+    "model_id": "o3",
+    "benchmark_id": "hle",
+    "score": 24.9,
+    "config": "with tools",
+    "source": {
+      "kind": "manual",
+      "url": "https://openai.com/index/introducing-o3-and-o4-mini/",
+      "reported_by": "OpenAI o3 / o4-mini launch",
+      "fetched_at": "2026-06-12T00:00:00Z",
+      "published": "2025-04"
+    }
+  },
+  {
+    "model_id": "o4-mini",
+    "benchmark_id": "hle",
+    "score": 17.7,
+    "config": "with tools",
+    "source": {
+      "kind": "manual",
+      "url": "https://openai.com/index/introducing-o3-and-o4-mini/",
+      "reported_by": "OpenAI o3 / o4-mini launch",
+      "fetched_at": "2026-06-12T00:00:00Z",
+      "published": "2025-04"
+    }
+  },
+  {
+    "model_id": "o3",
+    "benchmark_id": "mathvista",
+    "score": 86.8,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://openai.com/index/introducing-o3-and-o4-mini/",
+      "reported_by": "OpenAI o3 / o4-mini launch",
+      "fetched_at": "2026-06-12T00:00:00Z",
+      "published": "2025-04"
+    }
+  },
+  {
+    "model_id": "o4-mini",
+    "benchmark_id": "mathvista",
+    "score": 84.3,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://openai.com/index/introducing-o3-and-o4-mini/",
+      "reported_by": "OpenAI o3 / o4-mini launch",
+      "fetched_at": "2026-06-12T00:00:00Z",
+      "published": "2025-04"
+    }
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "mathvista",
+    "score": 71.8,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://openai.com/index/introducing-o3-and-o4-mini/",
+      "reported_by": "OpenAI o3 / o4-mini launch",
+      "fetched_at": "2026-06-12T00:00:00Z",
+      "published": "2025-04"
+    }
+  },
+  {
+    "model_id": "o3",
+    "benchmark_id": "mmmu",
+    "score": 82.9,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://openai.com/index/introducing-o3-and-o4-mini/",
+      "reported_by": "OpenAI o3 / o4-mini launch",
+      "fetched_at": "2026-06-12T00:00:00Z",
+      "published": "2025-04"
+    }
+  },
+  {
+    "model_id": "o4-mini",
+    "benchmark_id": "mmmu",
+    "score": 81.6,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://openai.com/index/introducing-o3-and-o4-mini/",
+      "reported_by": "OpenAI o3 / o4-mini launch",
+      "fetched_at": "2026-06-12T00:00:00Z",
+      "published": "2025-04"
+    }
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "mmmu",
+    "score": 77.6,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://openai.com/index/introducing-o3-and-o4-mini/",
+      "reported_by": "OpenAI o3 / o4-mini launch",
+      "fetched_at": "2026-06-12T00:00:00Z",
+      "published": "2025-04"
+    }
+  },
+  {
+    "model_id": "o3",
+    "benchmark_id": "swe-bench-verified",
+    "score": 69.1,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://openai.com/index/introducing-o3-and-o4-mini/",
+      "reported_by": "OpenAI o3 / o4-mini launch",
+      "fetched_at": "2026-06-12T00:00:00Z",
+      "published": "2025-04"
+    }
+  },
+  {
+    "model_id": "o4-mini",
+    "benchmark_id": "swe-bench-verified",
+    "score": 68.1,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://openai.com/index/introducing-o3-and-o4-mini/",
+      "reported_by": "OpenAI o3 / o4-mini launch",
+      "fetched_at": "2026-06-12T00:00:00Z",
+      "published": "2025-04"
+    }
+  },
+  {
+    "model_id": "o3-mini",
+    "benchmark_id": "swe-bench-verified",
+    "score": 49.3,
+    "config": "high",
+    "source": {
+      "kind": "manual",
+      "url": "https://openai.com/index/introducing-o3-and-o4-mini/",
+      "reported_by": "OpenAI o3 / o4-mini launch",
+      "fetched_at": "2026-06-12T00:00:00Z",
+      "published": "2025-04"
+    }
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "swe-bench-verified",
+    "score": 48.9,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://openai.com/index/introducing-o3-and-o4-mini/",
+      "reported_by": "OpenAI o3 / o4-mini launch",
+      "fetched_at": "2026-06-12T00:00:00Z",
+      "published": "2025-04"
+    }
+  }
+]

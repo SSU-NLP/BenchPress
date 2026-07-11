@@ -1,0 +1,15 @@
+[
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "hmmt-feb-2025",
+    "score": 5.83,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2505.23281",
+      "reported_by": "MathArena (arXiv:2505.23281, Table 12; 5.83 ± 4.2)",
+      "fetched_at": "2026-06-30T00:00:00Z",
+      "published": "2025-05"
+    }
+  }
+]

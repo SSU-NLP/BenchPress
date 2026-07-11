@@ -1,0 +1,5255 @@
+[
+  {
+    "model_id": "gemini-3-1-pro-preview",
+    "benchmark_id": "arc-agi-1",
+    "score": 98,
+    "config": "Semi-Private Eval, CoT, cost/task $0.5223",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v1",
+      "arcprize_dataset_id": "v1_Semi_Private",
+      "arcprize_model_id": "gemini-3-1-pro-preview",
+      "arcprize_model_display_name": "Gemini 3.1 Pro (Preview)",
+      "provider": "Google",
+      "generated_at": "2026-06-24T22:54:59.136Z",
+      "model_type": "CoT",
+      "cost_per_task": 0.5223
+    }
+  },
+  {
+    "model_id": "gpt-5-5-pro-2026-04-23-high",
+    "benchmark_id": "arc-agi-1",
+    "score": 96.5,
+    "config": "Semi-Private Eval, CoT, cost/task $4.53",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v1",
+      "arcprize_dataset_id": "v1_Semi_Private",
+      "arcprize_model_id": "gpt-5-5-pro-2026-04-23-high",
+      "arcprize_model_display_name": "GPT-5.5 Pro (High)",
+      "provider": "OpenAI",
+      "generated_at": "2026-06-24T22:54:59.136Z",
+      "model_type": "CoT",
+      "model_group": "gpt-5-5-pro-2026-04-23-thinking",
+      "cost_per_task": 4.53
+    }
+  },
+  {
+    "model_id": "gemini_3_deep_think_022026",
+    "benchmark_id": "arc-agi-1",
+    "score": 96,
+    "config": "Semi-Private Eval, CoT, cost/task $7.171",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v1",
+      "arcprize_dataset_id": "v1_Semi_Private",
+      "arcprize_model_id": "gemini_3_deep_think_022026",
+      "arcprize_model_display_name": "Gemini 3 Deep Think (2/26)",
+      "provider": "Google",
+      "generated_at": "2026-06-24T22:54:59.136Z",
+      "model_type": "CoT",
+      "cost_per_task": 7.171
+    }
+  },
+  {
+    "model_id": "gpt-5-5-2026-04-22-thinking-xhigh",
+    "benchmark_id": "arc-agi-1",
+    "score": 95,
+    "config": "Semi-Private Eval, CoT, cost/task $0.73",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v1",
+      "arcprize_dataset_id": "v1_Semi_Private",
+      "arcprize_model_id": "gpt-5-5-2026-04-22-thinking-xhigh",
+      "arcprize_model_display_name": "GPT-5.5 (xHigh)",
+      "provider": "OpenAI",
+      "generated_at": "2026-06-24T22:54:59.136Z",
+      "model_type": "CoT",
+      "model_group": "gpt-5-5-2026-04-22-thinking",
+      "cost_per_task": 0.73
+    }
+  },
+  {
+    "model_id": "gpt-5-5-pro-2026-04-23-xhigh",
+    "benchmark_id": "arc-agi-1",
+    "score": 95,
+    "config": "Semi-Private Eval, CoT, cost/task $4.52",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v1",
+      "arcprize_dataset_id": "v1_Semi_Private",
+      "arcprize_model_id": "gpt-5-5-pro-2026-04-23-xhigh",
+      "arcprize_model_display_name": "GPT-5.5 Pro (xHigh)",
+      "provider": "OpenAI",
+      "generated_at": "2026-06-24T22:54:59.136Z",
+      "model_type": "CoT",
+      "model_group": "gpt-5-5-pro-2026-04-23-thinking",
+      "cost_per_task": 4.52
+    }
+  },
+  {
+    "model_id": "johan_land_gpt_5_2_refine",
+    "benchmark_id": "arc-agi-1",
+    "score": 94.5,
+    "config": "Semi-Private Eval, Refinement, cost/task $11.4",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v1",
+      "arcprize_dataset_id": "v1_Semi_Private",
+      "arcprize_model_id": "johan_land_gpt_5_2_refine",
+      "arcprize_model_display_name": "GPT-5.2 (Refine.)",
+      "provider": "Johan Land",
+      "generated_at": "2026-06-24T22:54:59.136Z",
+      "model_type": "Refinement",
+      "cost_per_task": 11.4
+    }
+  },
+  {
+    "model_id": "gpt-5-4-pro-xhigh",
+    "benchmark_id": "arc-agi-1",
+    "score": 94.5,
+    "config": "Semi-Private Eval, CoT, cost/task $7.21",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v1",
+      "arcprize_dataset_id": "v1_Semi_Private",
+      "arcprize_model_id": "gpt-5-4-pro-xhigh",
+      "arcprize_model_display_name": "GPT-5.4 Pro (xHigh)",
+      "provider": "OpenAI",
+      "generated_at": "2026-06-24T22:54:59.136Z",
+      "model_type": "CoT",
+      "model_group": "gpt-5-4-pro",
+      "cost_per_task": 7.21
+    }
+  },
+  {
+    "model_id": "gpt-5-5-2026-04-22-thinking-high",
+    "benchmark_id": "arc-agi-1",
+    "score": 94.5,
+    "config": "Semi-Private Eval, CoT, cost/task $0.56",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v1",
+      "arcprize_dataset_id": "v1_Semi_Private",
+      "arcprize_model_id": "gpt-5-5-2026-04-22-thinking-high",
+      "arcprize_model_display_name": "GPT-5.5 (High)",
+      "provider": "OpenAI",
+      "generated_at": "2026-06-24T22:54:59.136Z",
+      "model_type": "CoT",
+      "model_group": "gpt-5-5-2026-04-22-thinking",
+      "cost_per_task": 0.56
+    }
+  },
+  {
+    "model_id": "claude-opus-4-6-thinking-120k-high",
+    "benchmark_id": "arc-agi-1",
+    "score": 94,
+    "config": "Semi-Private Eval, CoT, cost/task $1.3948",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v1",
+      "arcprize_dataset_id": "v1_Semi_Private",
+      "arcprize_model_id": "claude-opus-4-6-thinking-120K-high",
+      "arcprize_model_display_name": "Claude Opus 4.6 (120K, High)",
+      "provider": "Anthropic",
+      "generated_at": "2026-06-24T22:54:59.136Z",
+      "model_type": "CoT",
+      "model_group": "claude-opus-4-6-thinking",
+      "cost_per_task": 1.3948
+    }
+  },
+  {
+    "model_id": "gpt-5-4-xhigh",
+    "benchmark_id": "arc-agi-1",
+    "score": 93.67,
+    "config": "Semi-Private Eval, CoT, cost/task $0.62",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v1",
+      "arcprize_dataset_id": "v1_Semi_Private",
+      "arcprize_model_id": "gpt-5-4-xhigh",
+      "arcprize_model_display_name": "GPT-5.4 (xHigh)",
+      "provider": "OpenAI",
+      "generated_at": "2026-06-24T22:54:59.136Z",
+      "model_type": "CoT",
+      "model_group": "gpt-5-4",
+      "cost_per_task": 0.62
+    }
+  },
+  {
+    "model_id": "claude-4-7-high",
+    "benchmark_id": "arc-agi-1",
+    "score": 93.5,
+    "config": "Semi-Private Eval, CoT, cost/task $1.41",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v1",
+      "arcprize_dataset_id": "v1_Semi_Private",
+      "arcprize_model_id": "claude-4-7-high",
+      "arcprize_model_display_name": "Claude 4.7 (High)",
+      "provider": "Anthropic",
+      "generated_at": "2026-06-24T22:54:59.136Z",
+      "model_type": "CoT",
+      "model_group": "claude-4-7",
+      "cost_per_task": 1.41
+    }
+  },
+  {
+    "model_id": "claude-opus-4-6-thinking-120k-max",
+    "benchmark_id": "arc-agi-1",
+    "score": 93,
+    "config": "Semi-Private Eval, CoT, cost/task $1.8791",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v1",
+      "arcprize_dataset_id": "v1_Semi_Private",
+      "arcprize_model_id": "claude-opus-4-6-thinking-120K-max",
+      "arcprize_model_display_name": "Claude Opus 4.6 (120K, Max)",
+      "provider": "Anthropic",
+      "generated_at": "2026-06-24T22:54:59.136Z",
+      "model_type": "CoT",
+      "model_group": "claude-opus-4-6-thinking",
+      "cost_per_task": 1.8791
+    }
+  },
+  {
+    "model_id": "gpt-5-4-high",
+    "benchmark_id": "arc-agi-1",
+    "score": 92.67,
+    "config": "Semi-Private Eval, CoT, cost/task $0.37",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v1",
+      "arcprize_dataset_id": "v1_Semi_Private",
+      "arcprize_model_id": "gpt-5-4-high",
+      "arcprize_model_display_name": "GPT-5.4 (High)",
+      "provider": "OpenAI",
+      "generated_at": "2026-06-24T22:54:59.136Z",
+      "model_type": "CoT",
+      "model_group": "gpt-5-4",
+      "cost_per_task": 0.37
+    }
+  },
+  {
+    "model_id": "anthropic-opus-4-8-max",
+    "benchmark_id": "arc-agi-1",
+    "score": 92.5,
+    "config": "Semi-Private Eval, CoT, cost/task $2.332",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v1",
+      "arcprize_dataset_id": "v1_Semi_Private",
+      "arcprize_model_id": "anthropic-opus-4-8-max",
+      "arcprize_model_display_name": "Claude Opus 4.8 (Max)",
+      "provider": "Anthropic",
+      "generated_at": "2026-06-24T22:54:59.136Z",
+      "model_type": "CoT",
+      "model_group": "anthropic-opus-4-8",
+      "cost_per_task": 2.332
+    }
+  },
+  {
+    "model_id": "gemini-3-5-flash-high",
+    "benchmark_id": "arc-agi-1",
+    "score": 92.5,
+    "config": "Semi-Private Eval, CoT, cost/task $0.4278",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v1",
+      "arcprize_dataset_id": "v1_Semi_Private",
+      "arcprize_model_id": "gemini-3-5-flash-high",
+      "arcprize_model_display_name": "Gemini 3.5 Flash (High)",
+      "provider": "Google",
+      "generated_at": "2026-06-24T22:54:59.136Z",
+      "model_type": "CoT",
+      "model_group": "gemini-3-5-flash",
+      "cost_per_task": 0.4278
+    }
+  },
+  {
+    "model_id": "gpt-5-5-2026-04-22-thinking-medium",
+    "benchmark_id": "arc-agi-1",
+    "score": 92.17,
+    "config": "Semi-Private Eval, CoT, cost/task $0.39",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v1",
+      "arcprize_dataset_id": "v1_Semi_Private",
+      "arcprize_model_id": "gpt-5-5-2026-04-22-thinking-medium",
+      "arcprize_model_display_name": "GPT-5.5 (Medium)",
+      "provider": "OpenAI",
+      "generated_at": "2026-06-24T22:54:59.136Z",
+      "model_type": "CoT",
+      "model_group": "gpt-5-5-2026-04-22-thinking",
+      "cost_per_task": 0.39
+    }
+  },
+  {
+    "model_id": "claude-opus-4-6-thinking-120k-medium",
+    "benchmark_id": "arc-agi-1",
+    "score": 92,
+    "config": "Semi-Private Eval, CoT, cost/task $0.9647",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v1",
+      "arcprize_dataset_id": "v1_Semi_Private",
+      "arcprize_model_id": "claude-opus-4-6-thinking-120K-medium",
+      "arcprize_model_display_name": "Claude Opus 4.6 (120K, Medium)",
+      "provider": "Anthropic",
+      "generated_at": "2026-06-24T22:54:59.136Z",
+      "model_type": "CoT",
+      "model_group": "claude-opus-4-6-thinking",
+      "cost_per_task": 0.9647
+    }
+  },
+  {
+    "model_id": "anthropic-opus-4-8-high",
+    "benchmark_id": "arc-agi-1",
+    "score": 92,
+    "config": "Semi-Private Eval, CoT, cost/task $1.0416",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v1",
+      "arcprize_dataset_id": "v1_Semi_Private",
+      "arcprize_model_id": "anthropic-opus-4-8-high",
+      "arcprize_model_display_name": "Claude Opus 4.8 (High)",
+      "provider": "Anthropic",
+      "generated_at": "2026-06-24T22:54:59.136Z",
+      "model_type": "CoT",
+      "model_group": "anthropic-opus-4-8",
+      "cost_per_task": 1.0416
+    }
+  },
+  {
+    "model_id": "claude-4-7-max",
+    "benchmark_id": "arc-agi-1",
+    "score": 92,
+    "config": "Semi-Private Eval, CoT, cost/task $2.58",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v1",
+      "arcprize_dataset_id": "v1_Semi_Private",
+      "arcprize_model_id": "claude-4-7-max",
+      "arcprize_model_display_name": "Claude 4.7 (Max)",
+      "provider": "Anthropic",
+      "generated_at": "2026-06-24T22:54:59.136Z",
+      "model_type": "CoT",
+      "model_group": "claude-4-7",
+      "cost_per_task": 2.58
+    }
+  },
+  {
+    "model_id": "anthropic-opus-4-8-medium",
+    "benchmark_id": "arc-agi-1",
+    "score": 91.5,
+    "config": "Semi-Private Eval, CoT, cost/task $0.9115",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v1",
+      "arcprize_dataset_id": "v1_Semi_Private",
+      "arcprize_model_id": "anthropic-opus-4-8-medium",
+      "arcprize_model_display_name": "Claude Opus 4.8 (Medium)",
+      "provider": "Anthropic",
+      "generated_at": "2026-06-24T22:54:59.136Z",
+      "model_type": "CoT",
+      "model_group": "anthropic-opus-4-8",
+      "cost_per_task": 0.9115
+    }
+  },
+  {
+    "model_id": "claude-4-7-low",
+    "benchmark_id": "arc-agi-1",
+    "score": 91,
+    "config": "Semi-Private Eval, CoT, cost/task $0.76",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v1",
+      "arcprize_dataset_id": "v1_Semi_Private",
+      "arcprize_model_id": "claude-4-7-low",
+      "arcprize_model_display_name": "Claude 4.7 (Low)",
+      "provider": "Anthropic",
+      "generated_at": "2026-06-24T22:54:59.136Z",
+      "model_type": "CoT",
+      "model_group": "claude-4-7",
+      "cost_per_task": 0.76
+    }
+  },
+  {
+    "model_id": "claude-4-7-medium",
+    "benchmark_id": "arc-agi-1",
+    "score": 91,
+    "config": "Semi-Private Eval, CoT, cost/task $1.04",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v1",
+      "arcprize_dataset_id": "v1_Semi_Private",
+      "arcprize_model_id": "claude-4-7-medium",
+      "arcprize_model_display_name": "Claude 4.7 (Medium)",
+      "provider": "Anthropic",
+      "generated_at": "2026-06-24T22:54:59.136Z",
+      "model_type": "CoT",
+      "model_group": "claude-4-7",
+      "cost_per_task": 1.04
+    }
+  },
+  {
+    "model_id": "gpt-5-2-pro-2025-12-11-xhigh",
+    "benchmark_id": "arc-agi-1",
+    "score": 90.5,
+    "config": "Semi-Private Eval, CoT, cost/task $11.6542",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v1",
+      "arcprize_dataset_id": "v1_Semi_Private",
+      "arcprize_model_id": "gpt-5-2-pro-2025-12-11-xhigh",
+      "arcprize_model_display_name": "GPT-5.2 Pro (xHigh)",
+      "provider": "OpenAI",
+      "generated_at": "2026-06-24T22:54:59.136Z",
+      "model_type": "CoT",
+      "model_group": "gpt-5-2-pro-2025-12-11-thinking",
+      "cost_per_task": 11.6542
+    }
+  },
+  {
+    "model_id": "grok-4.20-beta-0309b-reasoning",
+    "benchmark_id": "arc-agi-1",
+    "score": 89.5,
+    "config": "Semi-Private Eval, CoT, cost/task $0.35",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v1",
+      "arcprize_dataset_id": "v1_Semi_Private",
+      "arcprize_model_id": "grok-4.20-beta-0309b-reasoning",
+      "arcprize_model_display_name": "Grok 4.20 (Reasoning)",
+      "provider": "xAI",
+      "generated_at": "2026-06-24T22:54:59.136Z",
+      "model_type": "CoT",
+      "model_group": "grok-4.20-beta-0309b-reasoning",
+      "cost_per_task": 0.35
+    }
+  },
+  {
+    "model_id": "anthropic-opus-4-8-low",
+    "benchmark_id": "arc-agi-1",
+    "score": 88,
+    "config": "Semi-Private Eval, CoT, cost/task $0.6711",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v1",
+      "arcprize_dataset_id": "v1_Semi_Private",
+      "arcprize_model_id": "anthropic-opus-4-8-low",
+      "arcprize_model_display_name": "Claude Opus 4.8 (Low)",
+      "provider": "Anthropic",
+      "generated_at": "2026-06-24T22:54:59.136Z",
+      "model_type": "CoT",
+      "model_group": "anthropic-opus-4-8",
+      "cost_per_task": 0.6711
+    }
+  },
+  {
+    "model_id": "gemini-3-deep-think-preview",
+    "benchmark_id": "arc-agi-1",
+    "score": 87.5,
+    "config": "Semi-Private Eval, CoT, cost/task $44.25900135",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v1",
+      "arcprize_dataset_id": "v1_Semi_Private",
+      "arcprize_model_id": "gemini-3-deep-think-preview",
+      "arcprize_model_display_name": "Gemini 3 Deep Think (Preview) Â²",
+      "provider": "Google",
+      "generated_at": "2026-06-24T22:54:59.136Z",
+      "model_type": "CoT",
+      "model_group": "gemini-3-deep-think-preview",
+      "cost_per_task": 44.25900135
+    }
+  },
+  {
+    "model_id": "claude_sonnet_4_6_high",
+    "benchmark_id": "arc-agi-1",
+    "score": 86.5,
+    "config": "Semi-Private Eval, CoT, cost/task $1.1908",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v1",
+      "arcprize_dataset_id": "v1_Semi_Private",
+      "arcprize_model_id": "claude_sonnet_4_6_high",
+      "arcprize_model_display_name": "Claude Sonnet 4.6 (High)",
+      "provider": "Anthropic",
+      "generated_at": "2026-06-24T22:54:59.136Z",
+      "model_type": "CoT",
+      "model_group": "claude-sonnet-4-6",
+      "cost_per_task": 1.1908
+    }
+  },
+  {
+    "model_id": "gpt-5-2-2025-12-11-thinking-xhigh",
+    "benchmark_id": "arc-agi-1",
+    "score": 86.17,
+    "config": "Semi-Private Eval, CoT, cost/task $0.96",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v1",
+      "arcprize_dataset_id": "v1_Semi_Private",
+      "arcprize_model_id": "gpt-5-2-2025-12-11-thinking-xhigh",
+      "arcprize_model_display_name": "GPT-5.2 (xHigh)",
+      "provider": "OpenAI",
+      "generated_at": "2026-06-24T22:54:59.136Z",
+      "model_type": "CoT",
+      "model_group": "gpt-5-2-2025-12-11-thinking",
+      "cost_per_task": 0.96
+    }
+  },
+  {
+    "model_id": "gpt-5-4-medium",
+    "benchmark_id": "arc-agi-1",
+    "score": 86.17,
+    "config": "Semi-Private Eval, CoT, cost/task $0.25",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v1",
+      "arcprize_dataset_id": "v1_Semi_Private",
+      "arcprize_model_id": "gpt-5-4-medium",
+      "arcprize_model_display_name": "GPT-5.4 (Medium)",
+      "provider": "OpenAI",
+      "generated_at": "2026-06-24T22:54:59.136Z",
+      "model_type": "CoT",
+      "model_group": "gpt-5-4",
+      "cost_per_task": 0.25
+    }
+  },
+  {
+    "model_id": "claude-opus-4-6-thinking-120k-low",
+    "benchmark_id": "arc-agi-1",
+    "score": 86,
+    "config": "Semi-Private Eval, CoT, cost/task $0.648",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v1",
+      "arcprize_dataset_id": "v1_Semi_Private",
+      "arcprize_model_id": "claude-opus-4-6-thinking-120K-low",
+      "arcprize_model_display_name": "Claude Opus 4.6 (120K, Low)",
+      "provider": "Anthropic",
+      "generated_at": "2026-06-24T22:54:59.136Z",
+      "model_type": "CoT",
+      "model_group": "claude-opus-4-6-thinking",
+      "cost_per_task": 0.648
+    }
+  },
+  {
+    "model_id": "claude_sonnet_4_6_max",
+    "benchmark_id": "arc-agi-1",
+    "score": 86,
+    "config": "Semi-Private Eval, CoT, cost/task $1.452",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v1",
+      "arcprize_dataset_id": "v1_Semi_Private",
+      "arcprize_model_id": "claude_sonnet_4_6_max",
+      "arcprize_model_display_name": "Claude Sonnet 4.6 (Max)",
+      "provider": "Anthropic",
+      "generated_at": "2026-06-24T22:54:59.136Z",
+      "model_type": "CoT",
+      "model_group": "claude-sonnet-4-6",
+      "cost_per_task": 1.452
+    }
+  },
+  {
+    "model_id": "gpt-5-2-pro-2025-12-11-high",
+    "benchmark_id": "arc-agi-1",
+    "score": 85.67,
+    "config": "Semi-Private Eval, CoT, cost/task $5.8694",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v1",
+      "arcprize_dataset_id": "v1_Semi_Private",
+      "arcprize_model_id": "gpt-5-2-pro-2025-12-11-high",
+      "arcprize_model_display_name": "GPT-5.2 Pro (High)",
+      "provider": "OpenAI",
+      "generated_at": "2026-06-24T22:54:59.136Z",
+      "model_type": "CoT",
+      "model_group": "gpt-5-2-pro-2025-12-11-thinking",
+      "cost_per_task": 5.8694
+    }
+  },
+  {
+    "model_id": "gemini-3-flash-preview-thinking-high",
+    "benchmark_id": "arc-agi-1",
+    "score": 84.67,
+    "config": "Semi-Private Eval, CoT, cost/task $0.1743",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v1",
+      "arcprize_dataset_id": "v1_Semi_Private",
+      "arcprize_model_id": "gemini-3-flash-preview-thinking-high",
+      "arcprize_model_display_name": "Gemini 3 Flash Preview (High)",
+      "provider": "Google",
+      "generated_at": "2026-06-24T22:54:59.136Z",
+      "model_type": "CoT",
+      "model_group": "gemini-3-flash-preview-thinking",
+      "cost_per_task": 0.1743
+    }
+  },
+  {
+    "model_id": "gpt-5-2-pro-2025-12-11-medium",
+    "benchmark_id": "arc-agi-1",
+    "score": 81.17,
+    "config": "Semi-Private Eval, CoT, cost/task $3.9774",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v1",
+      "arcprize_dataset_id": "v1_Semi_Private",
+      "arcprize_model_id": "gpt-5-2-pro-2025-12-11-medium",
+      "arcprize_model_display_name": "GPT-5.2 Pro (Medium)",
+      "provider": "OpenAI",
+      "generated_at": "2026-06-24T22:54:59.136Z",
+      "model_type": "CoT",
+      "model_group": "gpt-5-2-pro-2025-12-11-thinking",
+      "cost_per_task": 3.9774
+    }
+  },
+  {
+    "model_id": "claude-opus-4-5-20251101-thinking-64k",
+    "benchmark_id": "arc-agi-1",
+    "score": 80,
+    "config": "Semi-Private Eval, CoT, cost/task $1.47",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v1",
+      "arcprize_dataset_id": "v1_Semi_Private",
+      "arcprize_model_id": "claude-opus-4-5-20251101-thinking-64k",
+      "arcprize_model_display_name": "Opus 4.5 (Thinking, 64K)",
+      "provider": "Anthropic",
+      "generated_at": "2026-06-24T22:54:59.136Z",
+      "model_type": "CoT",
+      "model_group": "opus-4-5-thinking",
+      "cost_per_task": 1.47
+    }
+  },
+  {
+    "model_id": "jeremy_sept_2025",
+    "benchmark_id": "arc-agi-1",
+    "score": 79.6,
+    "config": "Semi-Private Eval, Refinement, cost/task $8.42",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v1",
+      "arcprize_dataset_id": "v1_Semi_Private",
+      "arcprize_model_id": "jeremy_sept_2025",
+      "arcprize_model_display_name": "Grok 4 (Refine.)",
+      "provider": "J. Berman",
+      "generated_at": "2026-06-24T22:54:59.136Z",
+      "model_type": "Refinement",
+      "cost_per_task": 8.42
+    }
+  },
+  {
+    "model_id": "gpt-5-2-2025-12-11-thinking-high",
+    "benchmark_id": "arc-agi-1",
+    "score": 78.67,
+    "config": "Semi-Private Eval, CoT, cost/task $0.5196",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v1",
+      "arcprize_dataset_id": "v1_Semi_Private",
+      "arcprize_model_id": "gpt-5-2-2025-12-11-thinking-high",
+      "arcprize_model_display_name": "GPT-5.2 (High)",
+      "provider": "OpenAI",
+      "generated_at": "2026-06-24T22:54:59.136Z",
+      "model_type": "CoT",
+      "model_group": "gpt-5-2-2025-12-11-thinking",
+      "cost_per_task": 0.5196
+    }
+  },
+  {
+    "model_id": "glm-5.2",
+    "benchmark_id": "arc-agi-1",
+    "score": 77,
+    "config": "Semi-Private Eval, CoT, cost/task $0.1916",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v1",
+      "arcprize_dataset_id": "v1_Semi_Private",
+      "arcprize_model_id": "glm-5.2",
+      "arcprize_model_display_name": "GLM-5.2",
+      "provider": "Z.ai",
+      "generated_at": "2026-06-24T22:54:59.136Z",
+      "model_type": "CoT",
+      "cost_per_task": 0.1916
+    }
+  },
+  {
+    "model_id": "gpt-5-5-2026-04-22-thinking-low",
+    "benchmark_id": "arc-agi-1",
+    "score": 76.17,
+    "config": "Semi-Private Eval, CoT, cost/task $0.2",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v1",
+      "arcprize_dataset_id": "v1_Semi_Private",
+      "arcprize_model_id": "gpt-5-5-2026-04-22-thinking-low",
+      "arcprize_model_display_name": "GPT-5.5 (Low)",
+      "provider": "OpenAI",
+      "generated_at": "2026-06-24T22:54:59.136Z",
+      "model_type": "CoT",
+      "model_group": "gpt-5-5-2026-04-22-thinking",
+      "cost_per_task": 0.2
+    }
+  },
+  {
+    "model_id": "claude-opus-4-5-20251101-thinking-32k",
+    "benchmark_id": "arc-agi-1",
+    "score": 75.83,
+    "config": "Semi-Private Eval, CoT, cost/task $0.95",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v1",
+      "arcprize_dataset_id": "v1_Semi_Private",
+      "arcprize_model_id": "claude-opus-4-5-20251101-thinking-32k",
+      "arcprize_model_display_name": "Opus 4.5 (Thinking, 32K)",
+      "provider": "Anthropic",
+      "generated_at": "2026-06-24T22:54:59.136Z",
+      "model_type": "CoT",
+      "model_group": "opus-4-5-thinking",
+      "cost_per_task": 0.95
+    }
+  },
+  {
+    "model_id": "gemini-3-pro-preview",
+    "benchmark_id": "arc-agi-1",
+    "score": 75,
+    "config": "Semi-Private Eval, CoT, cost/task $0.4926",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v1",
+      "arcprize_dataset_id": "v1_Semi_Private",
+      "arcprize_model_id": "gemini-3-pro-preview",
+      "arcprize_model_display_name": "Gemini 3 Pro",
+      "provider": "Google",
+      "generated_at": "2026-06-24T22:54:59.136Z",
+      "model_type": "CoT",
+      "model_group": "gemini-3-pro",
+      "cost_per_task": 0.4926
+    }
+  },
+  {
+    "model_id": "gpt-5-1-2025-11-13-thinking-high",
+    "benchmark_id": "arc-agi-1",
+    "score": 72.83,
+    "config": "Semi-Private Eval, CoT, cost/task $0.674",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v1",
+      "arcprize_dataset_id": "v1_Semi_Private",
+      "arcprize_model_id": "gpt-5-1-2025-11-13-thinking-high",
+      "arcprize_model_display_name": "GPT-5.1 (Thinking, High)",
+      "provider": "OpenAI",
+      "generated_at": "2026-06-24T22:54:59.136Z",
+      "model_type": "CoT",
+      "model_group": "gpt-5-1-reasoning",
+      "cost_per_task": 0.674
+    }
+  },
+  {
+    "model_id": "gpt-5-2-2025-12-11-thinking-medium",
+    "benchmark_id": "arc-agi-1",
+    "score": 72.67,
+    "config": "Semi-Private Eval, CoT, cost/task $0.3448",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v1",
+      "arcprize_dataset_id": "v1_Semi_Private",
+      "arcprize_model_id": "gpt-5-2-2025-12-11-thinking-medium",
+      "arcprize_model_display_name": "GPT-5.2 (Medium)",
+      "provider": "OpenAI",
+      "generated_at": "2026-06-24T22:54:59.136Z",
+      "model_type": "CoT",
+      "model_group": "gpt-5-2-2025-12-11-thinking",
+      "cost_per_task": 0.3448
+    }
+  },
+  {
+    "model_id": "claude-opus-4-5-20251101-thinking-16k",
+    "benchmark_id": "arc-agi-1",
+    "score": 72,
+    "config": "Semi-Private Eval, CoT, cost/task $0.62",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v1",
+      "arcprize_dataset_id": "v1_Semi_Private",
+      "arcprize_model_id": "claude-opus-4-5-20251101-thinking-16k",
+      "arcprize_model_display_name": "Opus 4.5 (Thinking, 16K)",
+      "provider": "Anthropic",
+      "generated_at": "2026-06-24T22:54:59.136Z",
+      "model_type": "CoT",
+      "model_group": "opus-4-5-thinking",
+      "cost_per_task": 0.62
+    }
+  },
+  {
+    "model_id": "gpt-5-pro-2025-10-06",
+    "benchmark_id": "arc-agi-1",
+    "score": 70.17,
+    "config": "Semi-Private Eval, CoT, cost/task $4.7785",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v1",
+      "arcprize_dataset_id": "v1_Semi_Private",
+      "arcprize_model_id": "gpt-5-pro-2025-10-06",
+      "arcprize_model_display_name": "GPT-5 Pro",
+      "provider": "OpenAI",
+      "generated_at": "2026-06-24T22:54:59.136Z",
+      "model_type": "CoT",
+      "cost_per_task": 4.7785
+    }
+  },
+  {
+    "model_id": "gpt-5-4-low",
+    "benchmark_id": "arc-agi-1",
+    "score": 68.17,
+    "config": "Semi-Private Eval, CoT, cost/task $0.15",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v1",
+      "arcprize_dataset_id": "v1_Semi_Private",
+      "arcprize_model_id": "gpt-5-4-low",
+      "arcprize_model_display_name": "GPT-5.4 (Low)",
+      "provider": "OpenAI",
+      "generated_at": "2026-06-24T22:54:59.136Z",
+      "model_type": "CoT",
+      "model_group": "gpt-5-4",
+      "cost_per_task": 0.15
+    }
+  },
+  {
+    "model_id": "grok-4-0709",
+    "benchmark_id": "arc-agi-1",
+    "score": 66.67,
+    "config": "Semi-Private Eval, CoT, cost/task $1.0136",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v1",
+      "arcprize_dataset_id": "v1_Semi_Private",
+      "arcprize_model_id": "grok-4-0709",
+      "arcprize_model_display_name": "Grok 4 (Thinking)",
+      "provider": "xAI",
+      "generated_at": "2026-06-24T22:54:59.136Z",
+      "model_type": "CoT",
+      "cost_per_task": 1.0136
+    }
+  },
+  {
+    "model_id": "gpt-5-2025-08-07-high",
+    "benchmark_id": "arc-agi-1",
+    "score": 65.67,
+    "config": "Semi-Private Eval, CoT, cost/task $0.5087",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v1",
+      "arcprize_dataset_id": "v1_Semi_Private",
+      "arcprize_model_id": "gpt-5-2025-08-07-high",
+      "arcprize_model_display_name": "GPT-5 (High)",
+      "provider": "OpenAI",
+      "generated_at": "2026-06-24T22:54:59.136Z",
+      "model_type": "CoT",
+      "model_group": "gpt-5-reasoning",
+      "cost_per_task": 0.5087
+    }
+  },
+  {
+    "model_id": "kimi-k2.5",
+    "benchmark_id": "arc-agi-1",
+    "score": 65.33,
+    "config": "Semi-Private Eval, CoT, cost/task $0.15",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v1",
+      "arcprize_dataset_id": "v1_Semi_Private",
+      "arcprize_model_id": "kimi-k2.5",
+      "arcprize_model_display_name": "Kimi K2.5",
+      "provider": "Moonshot AI",
+      "generated_at": "2026-06-24T22:54:59.136Z",
+      "model_type": "CoT",
+      "cost_per_task": 0.15
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4-5-20250929-thinking-32k",
+    "benchmark_id": "arc-agi-1",
+    "score": 63.67,
+    "config": "Semi-Private Eval, CoT, cost/task $0.5193",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v1",
+      "arcprize_dataset_id": "v1_Semi_Private",
+      "arcprize_model_id": "claude-sonnet-4-5-20250929-thinking-32k",
+      "arcprize_model_display_name": "Claude Sonnet 4.5 (Thinking 32K)",
+      "provider": "Anthropic",
+      "generated_at": "2026-06-24T22:54:59.136Z",
+      "model_type": "CoT",
+      "model_group": "claude-sonnet-4-5-20250929",
+      "cost_per_task": 0.5193
+    }
+  },
+  {
+    "model_id": "minimax-m2.5",
+    "benchmark_id": "arc-agi-1",
+    "score": 63.67,
+    "config": "Semi-Private Eval, CoT, cost/task $0.07",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v1",
+      "arcprize_dataset_id": "v1_Semi_Private",
+      "arcprize_model_id": "minimax-m2.5",
+      "arcprize_model_display_name": "Minimax M2.5",
+      "provider": "Minimax",
+      "generated_at": "2026-06-24T22:54:59.136Z",
+      "model_type": "CoT",
+      "cost_per_task": 0.07
+    }
+  },
+  {
+    "model_id": "gpt-5-4-mini-xhigh",
+    "benchmark_id": "arc-agi-1",
+    "score": 63.67,
+    "config": "Semi-Private Eval, CoT, cost/task $0.51",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v1",
+      "arcprize_dataset_id": "v1_Semi_Private",
+      "arcprize_model_id": "gpt-5-4-mini-xhigh",
+      "arcprize_model_display_name": "GPT-5.4 Mini (xHigh)",
+      "provider": "OpenAI",
+      "generated_at": "2026-06-24T22:54:59.136Z",
+      "model_type": "CoT",
+      "model_group": "gpt-5-4-mini-reasoning",
+      "cost_per_task": 0.51
+    }
+  },
+  {
+    "model_id": "o3-2025-04-16-high",
+    "benchmark_id": "arc-agi-1",
+    "score": 60.83,
+    "config": "Semi-Private Eval, CoT, cost/task $0.5002",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v1",
+      "arcprize_dataset_id": "v1_Semi_Private",
+      "arcprize_model_id": "o3-2025-04-16-high",
+      "arcprize_model_display_name": "o3 (High)",
+      "provider": "OpenAI",
+      "generated_at": "2026-06-24T22:54:59.136Z",
+      "model_type": "CoT",
+      "model_group": "o3",
+      "cost_per_task": 0.5002
+    }
+  },
+  {
+    "model_id": "o3-pro-2025-06-10-high",
+    "benchmark_id": "arc-agi-1",
+    "score": 59.33,
+    "config": "Semi-Private Eval, CoT + Synthesis, cost/task $4.16",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v1",
+      "arcprize_dataset_id": "v1_Semi_Private",
+      "arcprize_model_id": "o3-pro-2025-06-10-high",
+      "arcprize_model_display_name": "o3-Pro (High)",
+      "provider": "OpenAI",
+      "generated_at": "2026-06-24T22:54:59.136Z",
+      "model_type": "CoT + Synthesis",
+      "model_group": "o3-pro",
+      "cost_per_task": 4.16
+    }
+  },
+  {
+    "model_id": "o4-mini-2025-04-16-high",
+    "benchmark_id": "arc-agi-1",
+    "score": 58.67,
+    "config": "Semi-Private Eval, CoT, cost/task $0.4058",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v1",
+      "arcprize_dataset_id": "v1_Semi_Private",
+      "arcprize_model_id": "o4-mini-2025-04-16-high",
+      "arcprize_model_display_name": "o4-mini (High)",
+      "provider": "OpenAI",
+      "generated_at": "2026-06-24T22:54:59.136Z",
+      "model_type": "CoT",
+      "model_group": "o4-mini",
+      "cost_per_task": 0.4058
+    }
+  },
+  {
+    "model_id": "claude-opus-4-5-20251101-thinking-8k",
+    "benchmark_id": "arc-agi-1",
+    "score": 58.67,
+    "config": "Semi-Private Eval, CoT, cost/task $0.38",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v1",
+      "arcprize_dataset_id": "v1_Semi_Private",
+      "arcprize_model_id": "claude-opus-4-5-20251101-thinking-8k",
+      "arcprize_model_display_name": "Opus 4.5 (Thinking, 8K)",
+      "provider": "Anthropic",
+      "generated_at": "2026-06-24T22:54:59.136Z",
+      "model_type": "CoT",
+      "model_group": "opus-4-5-thinking",
+      "cost_per_task": 0.38
+    }
+  },
+  {
+    "model_id": "gpt-5-4-mini-high",
+    "benchmark_id": "arc-agi-1",
+    "score": 58,
+    "config": "Semi-Private Eval, CoT, cost/task $0.27",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v1",
+      "arcprize_dataset_id": "v1_Semi_Private",
+      "arcprize_model_id": "gpt-5-4-mini-high",
+      "arcprize_model_display_name": "GPT-5.4 Mini (High)",
+      "provider": "OpenAI",
+      "generated_at": "2026-06-24T22:54:59.136Z",
+      "model_type": "CoT",
+      "model_group": "gpt-5-4-mini-reasoning",
+      "cost_per_task": 0.27
+    }
+  },
+  {
+    "model_id": "gpt-5-1-2025-11-13-thinking-medium",
+    "benchmark_id": "arc-agi-1",
+    "score": 57.67,
+    "config": "Semi-Private Eval, CoT, cost/task $0.3149",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v1",
+      "arcprize_dataset_id": "v1_Semi_Private",
+      "arcprize_model_id": "gpt-5-1-2025-11-13-thinking-medium",
+      "arcprize_model_display_name": "GPT-5.1 (Thinking, Medium)",
+      "provider": "OpenAI",
+      "generated_at": "2026-06-24T22:54:59.136Z",
+      "model_type": "CoT",
+      "model_group": "gpt-5-1-reasoning",
+      "cost_per_task": 0.3149
+    }
+  },
+  {
+    "model_id": "gemini-3-flash-preview-thinking-medium",
+    "benchmark_id": "arc-agi-1",
+    "score": 57.67,
+    "config": "Semi-Private Eval, CoT, cost/task $0.0612",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v1",
+      "arcprize_dataset_id": "v1_Semi_Private",
+      "arcprize_model_id": "gemini-3-flash-preview-thinking-medium",
+      "arcprize_model_display_name": "Gemini 3 Flash Preview (Medium)",
+      "provider": "Google",
+      "generated_at": "2026-06-24T22:54:59.136Z",
+      "model_type": "CoT",
+      "model_group": "gemini-3-flash-preview-thinking",
+      "cost_per_task": 0.0612
+    }
+  },
+  {
+    "model_id": "o3-pro-2025-06-10-medium",
+    "benchmark_id": "arc-agi-1",
+    "score": 57,
+    "config": "Semi-Private Eval, CoT + Synthesis, cost/task $3.1766",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v1",
+      "arcprize_dataset_id": "v1_Semi_Private",
+      "arcprize_model_id": "o3-pro-2025-06-10-medium",
+      "arcprize_model_display_name": "o3-Pro (Medium)",
+      "provider": "OpenAI",
+      "generated_at": "2026-06-24T22:54:59.136Z",
+      "model_type": "CoT + Synthesis",
+      "model_group": "o3-pro",
+      "cost_per_task": 3.1766
+    }
+  },
+  {
+    "model_id": "deepseek-v3.2",
+    "benchmark_id": "arc-agi-1",
+    "score": 57,
+    "config": "Semi-Private Eval, Base LLM, cost/task $0.08",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v1",
+      "arcprize_dataset_id": "v1_Semi_Private",
+      "arcprize_model_id": "deepseek-v3.2",
+      "arcprize_model_display_name": "Deepseek V3.2",
+      "provider": "Deepseek",
+      "generated_at": "2026-06-24T22:54:59.136Z",
+      "model_type": "Base LLM",
+      "cost_per_task": 0.08
+    }
+  },
+  {
+    "model_id": "gpt-5-2025-08-07-medium",
+    "benchmark_id": "arc-agi-1",
+    "score": 56.17,
+    "config": "Semi-Private Eval, CoT, cost/task $0.3301",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v1",
+      "arcprize_dataset_id": "v1_Semi_Private",
+      "arcprize_model_id": "gpt-5-2025-08-07-medium",
+      "arcprize_model_display_name": "GPT-5 (Medium)",
+      "provider": "OpenAI",
+      "generated_at": "2026-06-24T22:54:59.136Z",
+      "model_type": "CoT",
+      "model_group": "gpt-5-reasoning",
+      "cost_per_task": 0.3301
+    }
+  },
+  {
+    "model_id": "gpt-5-2-2025-12-11-thinking-low",
+    "benchmark_id": "arc-agi-1",
+    "score": 55.67,
+    "config": "Semi-Private Eval, CoT, cost/task $0.1657",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v1",
+      "arcprize_dataset_id": "v1_Semi_Private",
+      "arcprize_model_id": "gpt-5-2-2025-12-11-thinking-low",
+      "arcprize_model_display_name": "GPT-5.2 (Low)",
+      "provider": "OpenAI",
+      "generated_at": "2026-06-24T22:54:59.136Z",
+      "model_type": "CoT",
+      "model_group": "gpt-5-2-2025-12-11-thinking",
+      "cost_per_task": 0.1657
+    }
+  },
+  {
+    "model_id": "gpt-5-mini-2025-08-07-high",
+    "benchmark_id": "arc-agi-1",
+    "score": 54.33,
+    "config": "Semi-Private Eval, CoT, cost/task $0.116",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v1",
+      "arcprize_dataset_id": "v1_Semi_Private",
+      "arcprize_model_id": "gpt-5-mini-2025-08-07-high",
+      "arcprize_model_display_name": "GPT-5 Mini (High)",
+      "provider": "OpenAI",
+      "generated_at": "2026-06-24T22:54:59.136Z",
+      "model_type": "CoT",
+      "model_group": "gpt-5-mini-reasoning",
+      "cost_per_task": 0.116
+    }
+  },
+  {
+    "model_id": "o3-2025-04-16-medium",
+    "benchmark_id": "arc-agi-1",
+    "score": 53.83,
+    "config": "Semi-Private Eval, CoT, cost/task $0.2882",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v1",
+      "arcprize_dataset_id": "v1_Semi_Private",
+      "arcprize_model_id": "o3-2025-04-16-medium",
+      "arcprize_model_display_name": "o3 (Medium)",
+      "provider": "OpenAI",
+      "generated_at": "2026-06-24T22:54:59.136Z",
+      "model_type": "CoT",
+      "model_group": "o3",
+      "cost_per_task": 0.2882
+    }
+  },
+  {
+    "model_id": "gpt-5-4-nano-xhigh",
+    "benchmark_id": "arc-agi-1",
+    "score": 51.5,
+    "config": "Semi-Private Eval, CoT, cost/task $0.13",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v1",
+      "arcprize_dataset_id": "v1_Semi_Private",
+      "arcprize_model_id": "gpt-5-4-nano-xhigh",
+      "arcprize_model_display_name": "GPT-5.4 Nano (xHigh)",
+      "provider": "OpenAI",
+      "generated_at": "2026-06-24T22:54:59.136Z",
+      "model_type": "CoT",
+      "model_group": "gpt-5-4-nano-reasoning",
+      "cost_per_task": 0.13
+    }
+  },
+  {
+    "model_id": "gemini-3-5-flash-minimal",
+    "benchmark_id": "arc-agi-1",
+    "score": 48.83,
+    "config": "Semi-Private Eval, CoT, cost/task $0.0645",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v1",
+      "arcprize_dataset_id": "v1_Semi_Private",
+      "arcprize_model_id": "gemini-3-5-flash-minimal",
+      "arcprize_model_display_name": "Gemini 3.5 Flash (Minimal)",
+      "provider": "Google",
+      "generated_at": "2026-06-24T22:54:59.136Z",
+      "model_type": "CoT",
+      "model_group": "gemini-3-5-flash",
+      "cost_per_task": 0.0645
+    }
+  },
+  {
+    "model_id": "grok-4-fast-reasoning",
+    "benchmark_id": "arc-agi-1",
+    "score": 48.5,
+    "config": "Semi-Private Eval, CoT, cost/task $0.0307",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v1",
+      "arcprize_dataset_id": "v1_Semi_Private",
+      "arcprize_model_id": "grok-4-fast-reasoning",
+      "arcprize_model_display_name": "Grok 4 (Fast Reasoning)",
+      "provider": "xAI",
+      "generated_at": "2026-06-24T22:54:59.136Z",
+      "model_type": "CoT",
+      "model_group": "grok-4-0709",
+      "cost_per_task": 0.0307
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4-5-20250929-thinking-16k",
+    "benchmark_id": "arc-agi-1",
+    "score": 48.33,
+    "config": "Semi-Private Eval, CoT, cost/task $0.2683",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v1",
+      "arcprize_dataset_id": "v1_Semi_Private",
+      "arcprize_model_id": "claude-sonnet-4-5-20250929-thinking-16k",
+      "arcprize_model_display_name": "Claude Sonnet 4.5 (Thinking 16K)",
+      "provider": "Anthropic",
+      "generated_at": "2026-06-24T22:54:59.136Z",
+      "model_type": "CoT",
+      "model_group": "claude-sonnet-4-5-20250929",
+      "cost_per_task": 0.2683
+    }
+  },
+  {
+    "model_id": "claude-haiku-4-5-20251001-thinking-32k",
+    "benchmark_id": "arc-agi-1",
+    "score": 47.67,
+    "config": "Semi-Private Eval, CoT, cost/task $0.2558",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v1",
+      "arcprize_dataset_id": "v1_Semi_Private",
+      "arcprize_model_id": "claude-haiku-4-5-20251001-thinking-32k",
+      "arcprize_model_display_name": "Claude Haiku 4.5 (Thinking 32K)",
+      "provider": "Anthropic",
+      "generated_at": "2026-06-24T22:54:59.136Z",
+      "model_type": "CoT",
+      "model_group": "claude-haiku-4-5-20251001",
+      "cost_per_task": 0.2558
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4-5-20250929-thinking-8k",
+    "benchmark_id": "arc-agi-1",
+    "score": 46.5,
+    "config": "Semi-Private Eval, CoT, cost/task $0.1776",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v1",
+      "arcprize_dataset_id": "v1_Semi_Private",
+      "arcprize_model_id": "claude-sonnet-4-5-20250929-thinking-8k",
+      "arcprize_model_display_name": "Claude Sonnet 4.5 (Thinking 8K)",
+      "provider": "Anthropic",
+      "generated_at": "2026-06-24T22:54:59.136Z",
+      "model_type": "CoT",
+      "model_group": "claude-sonnet-4-5-20250929",
+      "cost_per_task": 0.1776
+    }
+  },
+  {
+    "model_id": "glm-5",
+    "benchmark_id": "arc-agi-1",
+    "score": 44.67,
+    "config": "Semi-Private Eval, CoT, cost/task $0.17",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v1",
+      "arcprize_dataset_id": "v1_Semi_Private",
+      "arcprize_model_id": "glm-5",
+      "arcprize_model_display_name": "GLM-5",
+      "provider": "Z.ai",
+      "generated_at": "2026-06-24T22:54:59.136Z",
+      "model_type": "CoT",
+      "cost_per_task": 0.17
+    }
+  },
+  {
+    "model_id": "o3-pro-2025-06-10-low",
+    "benchmark_id": "arc-agi-1",
+    "score": 44.33,
+    "config": "Semi-Private Eval, CoT + Synthesis, cost/task $1.6382",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v1",
+      "arcprize_dataset_id": "v1_Semi_Private",
+      "arcprize_model_id": "o3-pro-2025-06-10-low",
+      "arcprize_model_display_name": "o3-Pro (Low)",
+      "provider": "OpenAI",
+      "generated_at": "2026-06-24T22:54:59.136Z",
+      "model_type": "CoT + Synthesis",
+      "model_group": "o3-pro",
+      "cost_per_task": 1.6382
+    }
+  },
+  {
+    "model_id": "gpt-5-2025-08-07-low",
+    "benchmark_id": "arc-agi-1",
+    "score": 44,
+    "config": "Semi-Private Eval, CoT, cost/task $0.1531",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v1",
+      "arcprize_dataset_id": "v1_Semi_Private",
+      "arcprize_model_id": "gpt-5-2025-08-07-low",
+      "arcprize_model_display_name": "GPT-5 (Low)",
+      "provider": "OpenAI",
+      "generated_at": "2026-06-24T22:54:59.136Z",
+      "model_type": "CoT",
+      "model_group": "gpt-5-reasoning",
+      "cost_per_task": 0.1531
+    }
+  },
+  {
+    "model_id": "o4-mini-2025-04-16-medium",
+    "benchmark_id": "arc-agi-1",
+    "score": 41.83,
+    "config": "Semi-Private Eval, CoT, cost/task $0.15",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v1",
+      "arcprize_dataset_id": "v1_Semi_Private",
+      "arcprize_model_id": "o4-mini-2025-04-16-medium",
+      "arcprize_model_display_name": "o4-mini (Medium)",
+      "provider": "OpenAI",
+      "generated_at": "2026-06-24T22:54:59.136Z",
+      "model_type": "CoT",
+      "model_group": "o4-mini",
+      "cost_per_task": 0.15
+    }
+  },
+  {
+    "model_id": "o3-2025-04-16-low",
+    "benchmark_id": "arc-agi-1",
+    "score": 41.5,
+    "config": "Semi-Private Eval, CoT, cost/task $0.1764",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v1",
+      "arcprize_dataset_id": "v1_Semi_Private",
+      "arcprize_model_id": "o3-2025-04-16-low",
+      "arcprize_model_display_name": "o3 (Low)",
+      "provider": "OpenAI",
+      "generated_at": "2026-06-24T22:54:59.136Z",
+      "model_type": "CoT",
+      "model_group": "o3",
+      "cost_per_task": 0.1764
+    }
+  },
+  {
+    "model_id": "gemini-2-5-pro-2025-06-17-thinking-16k",
+    "benchmark_id": "arc-agi-1",
+    "score": 41,
+    "config": "Semi-Private Eval, CoT, cost/task $0.4839",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v1",
+      "arcprize_dataset_id": "v1_Semi_Private",
+      "arcprize_model_id": "gemini-2-5-pro-2025-06-17-thinking-16k",
+      "arcprize_model_display_name": "Gemini 2.5 Pro (Thinking 16K)",
+      "provider": "Google",
+      "generated_at": "2026-06-24T22:54:59.136Z",
+      "model_type": "CoT",
+      "model_group": "gemini-2-5-pro-2025-06-17-thinking",
+      "cost_per_task": 0.4839
+    }
+  },
+  {
+    "model_id": "gpt-5-4-mini-medium",
+    "benchmark_id": "arc-agi-1",
+    "score": 40.83,
+    "config": "Semi-Private Eval, CoT, cost/task $0.16",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v1",
+      "arcprize_dataset_id": "v1_Semi_Private",
+      "arcprize_model_id": "gpt-5-4-mini-medium",
+      "arcprize_model_display_name": "GPT-5.4 Mini (Medium)",
+      "provider": "OpenAI",
+      "generated_at": "2026-06-24T22:54:59.136Z",
+      "model_type": "CoT",
+      "model_group": "gpt-5-4-mini-reasoning",
+      "cost_per_task": 0.16
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4-20250514-thinking-16k-bedrock",
+    "benchmark_id": "arc-agi-1",
+    "score": 40,
+    "config": "Semi-Private Eval, CoT, cost/task $0.3658",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v1",
+      "arcprize_dataset_id": "v1_Semi_Private",
+      "arcprize_model_id": "claude-sonnet-4-20250514-thinking-16k-bedrock",
+      "arcprize_model_display_name": "Claude Sonnet 4 (Thinking 16K)",
+      "provider": "Anthropic",
+      "generated_at": "2026-06-24T22:54:59.136Z",
+      "model_type": "CoT",
+      "model_group": "claude-sonnet-4-20250514-thinking",
+      "cost_per_task": 0.3658
+    }
+  },
+  {
+    "model_id": "trm-2025-10-07",
+    "benchmark_id": "arc-agi-1",
+    "score": 40,
+    "config": "Semi-Private Eval, cost/task $1.7638",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v1",
+      "arcprize_dataset_id": "v1_Semi_Private",
+      "arcprize_model_id": "trm-2025-10-07",
+      "arcprize_model_display_name": "Tiny Recursion Model (TRM)",
+      "provider": "Bespoke",
+      "generated_at": "2026-06-24T22:54:59.136Z",
+      "cost_per_task": 1.7638
+    }
+  },
+  {
+    "model_id": "claude-opus-4-5-20251101-thinking-none",
+    "benchmark_id": "arc-agi-1",
+    "score": 40,
+    "config": "Semi-Private Eval, CoT, cost/task $0.13",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v1",
+      "arcprize_dataset_id": "v1_Semi_Private",
+      "arcprize_model_id": "claude-opus-4-5-20251101-thinking-none",
+      "arcprize_model_display_name": "Opus 4.5 (Thinking, None)",
+      "provider": "Anthropic",
+      "generated_at": "2026-06-24T22:54:59.136Z",
+      "model_type": "CoT",
+      "model_group": "opus-4-5-thinking",
+      "cost_per_task": 0.13
+    }
+  },
+  {
+    "model_id": "gpt-5-4-nano-high",
+    "benchmark_id": "arc-agi-1",
+    "score": 38.17,
+    "config": "Semi-Private Eval, CoT, cost/task $0.07",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v1",
+      "arcprize_dataset_id": "v1_Semi_Private",
+      "arcprize_model_id": "gpt-5-4-nano-high",
+      "arcprize_model_display_name": "GPT-5.4 Nano (High)",
+      "provider": "OpenAI",
+      "generated_at": "2026-06-24T22:54:59.136Z",
+      "model_type": "CoT",
+      "model_group": "gpt-5-4-nano-reasoning",
+      "cost_per_task": 0.07
+    }
+  },
+  {
+    "model_id": "gpt-5-mini-2025-08-07-medium",
+    "benchmark_id": "arc-agi-1",
+    "score": 37.33,
+    "config": "Semi-Private Eval, CoT, cost/task $0.0401",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v1",
+      "arcprize_dataset_id": "v1_Semi_Private",
+      "arcprize_model_id": "gpt-5-mini-2025-08-07-medium",
+      "arcprize_model_display_name": "GPT-5 Mini (Medium)",
+      "provider": "OpenAI",
+      "generated_at": "2026-06-24T22:54:59.136Z",
+      "model_type": "CoT",
+      "model_group": "gpt-5-mini-reasoning",
+      "cost_per_task": 0.0401
+    }
+  },
+  {
+    "model_id": "claude-haiku-4-5-20251001-thinking-16k",
+    "benchmark_id": "arc-agi-1",
+    "score": 37.33,
+    "config": "Semi-Private Eval, CoT, cost/task $0.1042",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v1",
+      "arcprize_dataset_id": "v1_Semi_Private",
+      "arcprize_model_id": "claude-haiku-4-5-20251001-thinking-16k",
+      "arcprize_model_display_name": "Claude Haiku 4.5 (Thinking 16K)",
+      "provider": "Anthropic",
+      "generated_at": "2026-06-24T22:54:59.136Z",
+      "model_type": "CoT",
+      "model_group": "claude-haiku-4-5-20251001",
+      "cost_per_task": 0.1042
+    }
+  },
+  {
+    "model_id": "gemini-2-5-pro-2025-06-17-thinking-32k",
+    "benchmark_id": "arc-agi-1",
+    "score": 37,
+    "config": "Semi-Private Eval, CoT, cost/task $0.5123",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v1",
+      "arcprize_dataset_id": "v1_Semi_Private",
+      "arcprize_model_id": "gemini-2-5-pro-2025-06-17-thinking-32k",
+      "arcprize_model_display_name": "Gemini 2.5 Pro (Thinking 32K)",
+      "provider": "Google",
+      "generated_at": "2026-06-24T22:54:59.136Z",
+      "model_type": "CoT",
+      "model_group": "gemini-2-5-pro-2025-06-17-thinking",
+      "cost_per_task": 0.5123
+    }
+  },
+  {
+    "model_id": "claude-opus-4-20250514-thinking-16k",
+    "benchmark_id": "arc-agi-1",
+    "score": 35.67,
+    "config": "Semi-Private Eval, CoT, cost/task $1.2496",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v1",
+      "arcprize_dataset_id": "v1_Semi_Private",
+      "arcprize_model_id": "claude-opus-4-20250514-thinking-16k",
+      "arcprize_model_display_name": "Claude Opus 4 (Thinking 16K)",
+      "provider": "Anthropic",
+      "generated_at": "2026-06-24T22:54:59.136Z",
+      "model_type": "CoT",
+      "model_group": "claude-opus-4-20250514-thinking",
+      "cost_per_task": 1.2496
+    }
+  },
+  {
+    "model_id": "o3-mini-2025-01-31-high",
+    "benchmark_id": "arc-agi-1",
+    "score": 34.5,
+    "config": "Semi-Private Eval, CoT, cost/task $0.3989",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v1",
+      "arcprize_dataset_id": "v1_Semi_Private",
+      "arcprize_model_id": "o3-mini-2025-01-31-high",
+      "arcprize_model_display_name": "o3-mini (High)",
+      "provider": "OpenAI",
+      "generated_at": "2026-06-24T22:54:59.136Z",
+      "model_type": "CoT",
+      "model_group": "o3-mini",
+      "cost_per_task": 0.3989
+    }
+  },
+  {
+    "model_id": "gemini-2-5-flash-preview-05-20",
+    "benchmark_id": "arc-agi-1",
+    "score": 33.33,
+    "config": "Semi-Private Eval, CoT, cost/task $0.0371",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v1",
+      "arcprize_dataset_id": "v1_Semi_Private",
+      "arcprize_model_id": "gemini-2-5-flash-preview-05-20",
+      "arcprize_model_display_name": "Gemini 2.5 Flash (Preview)",
+      "provider": "Google",
+      "generated_at": "2026-06-24T22:54:59.136Z",
+      "model_type": "CoT",
+      "cost_per_task": 0.0371
+    }
+  },
+  {
+    "model_id": "gemini-2-5-flash-preview-05-20-thinking-16k",
+    "benchmark_id": "arc-agi-1",
+    "score": 33.33,
+    "config": "Semi-Private Eval, CoT, cost/task $0.2134",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v1",
+      "arcprize_dataset_id": "v1_Semi_Private",
+      "arcprize_model_id": "gemini-2-5-flash-preview-05-20-thinking-16k",
+      "arcprize_model_display_name": "Gemini 2.5 Flash (Preview) (Thinking 16K)",
+      "provider": "Google",
+      "generated_at": "2026-06-24T22:54:59.136Z",
+      "model_type": "CoT",
+      "model_group": "gemini-2-5-flash-preview-05-20-thinking",
+      "cost_per_task": 0.2134
+    }
+  },
+  {
+    "model_id": "gpt-5-1-2025-11-13-thinking-low",
+    "benchmark_id": "arc-agi-1",
+    "score": 33.17,
+    "config": "Semi-Private Eval, CoT, cost/task $0.1",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v1",
+      "arcprize_dataset_id": "v1_Semi_Private",
+      "arcprize_model_id": "gpt-5-1-2025-11-13-thinking-low",
+      "arcprize_model_display_name": "GPT-5.1 (Thinking, Low)",
+      "provider": "OpenAI",
+      "generated_at": "2026-06-24T22:54:59.136Z",
+      "model_type": "CoT",
+      "model_group": "gpt-5-1-reasoning",
+      "cost_per_task": 0.1
+    }
+  },
+  {
+    "model_id": "gpt-5-4-nano-medium",
+    "benchmark_id": "arc-agi-1",
+    "score": 33,
+    "config": "Semi-Private Eval, CoT, cost/task $0.04",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v1",
+      "arcprize_dataset_id": "v1_Semi_Private",
+      "arcprize_model_id": "gpt-5-4-nano-medium",
+      "arcprize_model_display_name": "GPT-5.4 Nano (Medium)",
+      "provider": "OpenAI",
+      "generated_at": "2026-06-24T22:54:59.136Z",
+      "model_type": "CoT",
+      "model_group": "gpt-5-4-nano-reasoning",
+      "cost_per_task": 0.04
+    }
+  },
+  {
+    "model_id": "gemini-2-5-flash-preview-05-20-thinking-24k",
+    "benchmark_id": "arc-agi-1",
+    "score": 32.33,
+    "config": "Semi-Private Eval, CoT, cost/task $0.1971",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v1",
+      "arcprize_dataset_id": "v1_Semi_Private",
+      "arcprize_model_id": "gemini-2-5-flash-preview-05-20-thinking-24k",
+      "arcprize_model_display_name": "Gemini 2.5 Flash (Preview) (Thinking 24K)",
+      "provider": "Google",
+      "generated_at": "2026-06-24T22:54:59.136Z",
+      "model_type": "CoT",
+      "model_group": "gemini-2-5-flash-preview-05-20-thinking",
+      "cost_per_task": 0.1971
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4-5-20250929-thinking-1k",
+    "benchmark_id": "arc-agi-1",
+    "score": 31,
+    "config": "Semi-Private Eval, CoT, cost/task $0.0928",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v1",
+      "arcprize_dataset_id": "v1_Semi_Private",
+      "arcprize_model_id": "claude-sonnet-4-5-20250929-thinking-1k",
+      "arcprize_model_display_name": "Claude Sonnet 4.5 (Thinking 1K)",
+      "provider": "Anthropic",
+      "generated_at": "2026-06-24T22:54:59.136Z",
+      "model_type": "CoT",
+      "model_group": "claude-sonnet-4-5-20250929",
+      "cost_per_task": 0.0928
+    }
+  },
+  {
+    "model_id": "claude-opus-4-20250514-thinking-8k",
+    "benchmark_id": "arc-agi-1",
+    "score": 30.67,
+    "config": "Semi-Private Eval, CoT, cost/task $0.7408",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v1",
+      "arcprize_dataset_id": "v1_Semi_Private",
+      "arcprize_model_id": "claude-opus-4-20250514-thinking-8k",
+      "arcprize_model_display_name": "Claude Opus 4 (Thinking 8K)",
+      "provider": "Anthropic",
+      "generated_at": "2026-06-24T22:54:59.136Z",
+      "model_type": "CoT",
+      "model_group": "claude-opus-4-20250514-thinking",
+      "cost_per_task": 0.7408
+    }
+  },
+  {
+    "model_id": "gemini-2-5-pro-2025-06-17-thinking-8k",
+    "benchmark_id": "arc-agi-1",
+    "score": 29.5,
+    "config": "Semi-Private Eval, CoT, cost/task $0.2947",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v1",
+      "arcprize_dataset_id": "v1_Semi_Private",
+      "arcprize_model_id": "gemini-2-5-pro-2025-06-17-thinking-8k",
+      "arcprize_model_display_name": "Gemini 2.5 Pro (Thinking 8K)",
+      "provider": "Google",
+      "generated_at": "2026-06-24T22:54:59.136Z",
+      "model_type": "CoT",
+      "model_group": "gemini-2-5-pro-2025-06-17-thinking",
+      "cost_per_task": 0.2947
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4-20250514-thinking-8k-bedrock",
+    "benchmark_id": "arc-agi-1",
+    "score": 29,
+    "config": "Semi-Private Eval, CoT, cost/task $0.1952",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v1",
+      "arcprize_dataset_id": "v1_Semi_Private",
+      "arcprize_model_id": "claude-sonnet-4-20250514-thinking-8k-bedrock",
+      "arcprize_model_display_name": "Claude Sonnet 4 (Thinking 8K)",
+      "provider": "Anthropic",
+      "generated_at": "2026-06-24T22:54:59.136Z",
+      "model_type": "CoT",
+      "model_group": "claude-sonnet-4-20250514-thinking",
+      "cost_per_task": 0.1952
+    }
+  },
+  {
+    "model_id": "gemini-3-flash-preview-thinking-low",
+    "benchmark_id": "arc-agi-1",
+    "score": 29,
+    "config": "Semi-Private Eval, CoT, cost/task $0.0163",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v1",
+      "arcprize_dataset_id": "v1_Semi_Private",
+      "arcprize_model_id": "gemini-3-flash-preview-thinking-low",
+      "arcprize_model_display_name": "Gemini 3 Flash Preview (Low)",
+      "provider": "Google",
+      "generated_at": "2026-06-24T22:54:59.136Z",
+      "model_type": "CoT",
+      "model_group": "gemini-3-flash-preview-thinking",
+      "cost_per_task": 0.0163
+    }
+  },
+  {
+    "model_id": "claude-3.7-thinking-16k",
+    "benchmark_id": "arc-agi-1",
+    "score": 28.6,
+    "config": "Semi-Private Eval, CoT, cost/task $0.33",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v1",
+      "arcprize_dataset_id": "v1_Semi_Private",
+      "arcprize_model_id": "Claude 3.7 Thinking 16K",
+      "arcprize_model_display_name": "Claude 3.7 (16K)",
+      "provider": "Anthropic",
+      "generated_at": "2026-06-24T22:54:59.136Z",
+      "model_type": "CoT",
+      "model_group": "Claude_3_7_thinking",
+      "cost_per_task": 0.33
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4-20250514-thinking-1k",
+    "benchmark_id": "arc-agi-1",
+    "score": 28,
+    "config": "Semi-Private Eval, CoT, cost/task $0.0937",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v1",
+      "arcprize_dataset_id": "v1_Semi_Private",
+      "arcprize_model_id": "claude-sonnet-4-20250514-thinking-1k",
+      "arcprize_model_display_name": "Claude Sonnet 4 (Thinking 1K)",
+      "provider": "Anthropic",
+      "generated_at": "2026-06-24T22:54:59.136Z",
+      "model_type": "CoT",
+      "model_group": "claude-sonnet-4-20250514-thinking",
+      "cost_per_task": 0.0937
+    }
+  },
+  {
+    "model_id": "codex-mini-latest",
+    "benchmark_id": "arc-agi-1",
+    "score": 27.33,
+    "config": "Semi-Private Eval, CoT, cost/task $0.1597",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v1",
+      "arcprize_dataset_id": "v1_Semi_Private",
+      "arcprize_model_id": "codex-mini-latest",
+      "arcprize_model_display_name": "Codex Mini (Latest)",
+      "provider": "OpenAI",
+      "generated_at": "2026-06-24T22:54:59.136Z",
+      "model_type": "CoT",
+      "cost_per_task": 0.1597
+    }
+  },
+  {
+    "model_id": "claude-opus-4-20250514-thinking-1k",
+    "benchmark_id": "arc-agi-1",
+    "score": 27,
+    "config": "Semi-Private Eval, CoT, cost/task $0.5021",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v1",
+      "arcprize_dataset_id": "v1_Semi_Private",
+      "arcprize_model_id": "claude-opus-4-20250514-thinking-1k",
+      "arcprize_model_display_name": "Claude Opus 4 (Thinking 1K)",
+      "provider": "Anthropic",
+      "generated_at": "2026-06-24T22:54:59.136Z",
+      "model_type": "CoT",
+      "model_group": "claude-opus-4-20250514-thinking",
+      "cost_per_task": 0.5021
+    }
+  },
+  {
+    "model_id": "gpt-5-mini-2025-08-07-low",
+    "benchmark_id": "arc-agi-1",
+    "score": 26.33,
+    "config": "Semi-Private Eval, CoT, cost/task $0.0135",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v1",
+      "arcprize_dataset_id": "v1_Semi_Private",
+      "arcprize_model_id": "gpt-5-mini-2025-08-07-low",
+      "arcprize_model_display_name": "GPT-5 Mini (Low)",
+      "provider": "OpenAI",
+      "generated_at": "2026-06-24T22:54:59.136Z",
+      "model_type": "CoT",
+      "model_group": "gpt-5-mini-reasoning",
+      "cost_per_task": 0.0135
+    }
+  },
+  {
+    "model_id": "gemini-2-5-flash-preview-05-20-thinking-8k",
+    "benchmark_id": "arc-agi-1",
+    "score": 25.83,
+    "config": "Semi-Private Eval, CoT, cost/task $0.1344",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v1",
+      "arcprize_dataset_id": "v1_Semi_Private",
+      "arcprize_model_id": "gemini-2-5-flash-preview-05-20-thinking-8k",
+      "arcprize_model_display_name": "Gemini 2.5 Flash (Preview) (Thinking 8K)",
+      "provider": "Google",
+      "generated_at": "2026-06-24T22:54:59.136Z",
+      "model_type": "CoT",
+      "model_group": "gemini-2-5-flash-preview-05-20-thinking",
+      "cost_per_task": 0.1344
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4-5-20250929",
+    "benchmark_id": "arc-agi-1",
+    "score": 25.5,
+    "config": "Semi-Private Eval, Base LLM, cost/task $0.0808",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v1",
+      "arcprize_dataset_id": "v1_Semi_Private",
+      "arcprize_model_id": "claude-sonnet-4-5-20250929",
+      "arcprize_model_display_name": "Claude Sonnet 4.5",
+      "provider": "Anthropic",
+      "generated_at": "2026-06-24T22:54:59.136Z",
+      "model_type": "Base LLM",
+      "model_group": "claude-sonnet-4-5-20250929",
+      "cost_per_task": 0.0808
+    }
+  },
+  {
+    "model_id": "claude-haiku-4-5-20251001-thinking-8k",
+    "benchmark_id": "arc-agi-1",
+    "score": 25.5,
+    "config": "Semi-Private Eval, CoT, cost/task $0.0687",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v1",
+      "arcprize_dataset_id": "v1_Semi_Private",
+      "arcprize_model_id": "claude-haiku-4-5-20251001-thinking-8k",
+      "arcprize_model_display_name": "Claude Haiku 4.5 (Thinking 8K)",
+      "provider": "Anthropic",
+      "generated_at": "2026-06-24T22:54:59.136Z",
+      "model_type": "CoT",
+      "model_group": "claude-haiku-4-5-20251001",
+      "cost_per_task": 0.0687
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4-20250514",
+    "benchmark_id": "arc-agi-1",
+    "score": 23.83,
+    "config": "Semi-Private Eval, Base LLM, cost/task $0.0806",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v1",
+      "arcprize_dataset_id": "v1_Semi_Private",
+      "arcprize_model_id": "claude-sonnet-4-20250514",
+      "arcprize_model_display_name": "Claude Sonnet 4",
+      "provider": "Anthropic",
+      "generated_at": "2026-06-24T22:54:59.136Z",
+      "model_type": "Base LLM",
+      "cost_per_task": 0.0806
+    }
+  },
+  {
+    "model_id": "claude-opus-4-20250514",
+    "benchmark_id": "arc-agi-1",
+    "score": 22.5,
+    "config": "Semi-Private Eval, CoT, cost/task $0.4036",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v1",
+      "arcprize_dataset_id": "v1_Semi_Private",
+      "arcprize_model_id": "claude-opus-4-20250514",
+      "arcprize_model_display_name": "Claude Opus 4",
+      "provider": "Anthropic",
+      "generated_at": "2026-06-24T22:54:59.136Z",
+      "model_type": "CoT",
+      "cost_per_task": 0.4036
+    }
+  },
+  {
+    "model_id": "o3-mini-2025-01-31-medium",
+    "benchmark_id": "arc-agi-1",
+    "score": 22.33,
+    "config": "Semi-Private Eval, CoT, cost/task $0.1907",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v1",
+      "arcprize_dataset_id": "v1_Semi_Private",
+      "arcprize_model_id": "o3-mini-2025-01-31-medium",
+      "arcprize_model_display_name": "o3-mini (Medium)",
+      "provider": "OpenAI",
+      "generated_at": "2026-06-24T22:54:59.136Z",
+      "model_type": "CoT",
+      "model_group": "o3-mini",
+      "cost_per_task": 0.1907
+    }
+  },
+  {
+    "model_id": "gemini-3-flash-preview-thinking-minimal",
+    "benchmark_id": "arc-agi-1",
+    "score": 21.5,
+    "config": "Semi-Private Eval, CoT, cost/task $0.012",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v1",
+      "arcprize_dataset_id": "v1_Semi_Private",
+      "arcprize_model_id": "gemini-3-flash-preview-thinking-minimal",
+      "arcprize_model_display_name": "Gemini 3 Flash Preview (Minimal)",
+      "provider": "Google",
+      "generated_at": "2026-06-24T22:54:59.136Z",
+      "model_type": "CoT",
+      "model_group": "gemini-3-flash-preview-thinking",
+      "cost_per_task": 0.012
+    }
+  },
+  {
+    "model_id": "o4-mini-2025-04-16-low",
+    "benchmark_id": "arc-agi-1",
+    "score": 21.33,
+    "config": "Semi-Private Eval, CoT, cost/task $0.0406",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v1",
+      "arcprize_dataset_id": "v1_Semi_Private",
+      "arcprize_model_id": "o4-mini-2025-04-16-low",
+      "arcprize_model_display_name": "o4-mini (Low)",
+      "provider": "OpenAI",
+      "generated_at": "2026-06-24T22:54:59.136Z",
+      "model_type": "CoT",
+      "model_group": "o4-mini",
+      "cost_per_task": 0.0406
+    }
+  },
+  {
+    "model_id": "deepseek_r1_0528-openrouter",
+    "benchmark_id": "arc-agi-1",
+    "score": 21.21,
+    "config": "Semi-Private Eval, CoT, cost/task $0.0464",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v1",
+      "arcprize_dataset_id": "v1_Semi_Private",
+      "arcprize_model_id": "deepseek_r1_0528-openrouter",
+      "arcprize_model_display_name": "Deepseek R1 (05/28)",
+      "provider": "Deepseek",
+      "generated_at": "2026-06-24T22:54:59.136Z",
+      "model_type": "CoT",
+      "cost_per_task": 0.0464
+    }
+  },
+  {
+    "model_id": "claude-3.7-thinking-8k",
+    "benchmark_id": "arc-agi-1",
+    "score": 21.2,
+    "config": "Semi-Private Eval, CoT, cost/task $0.21",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v1",
+      "arcprize_dataset_id": "v1_Semi_Private",
+      "arcprize_model_id": "Claude 3.7 Thinking 8K",
+      "arcprize_model_display_name": "Claude 3.7 (8K)",
+      "provider": "Anthropic",
+      "generated_at": "2026-06-24T22:54:59.136Z",
+      "model_type": "CoT",
+      "model_group": "Claude_3_7_thinking",
+      "cost_per_task": 0.21
+    }
+  },
+  {
+    "model_id": "gpt-5-nano-2025-08-07-medium",
+    "benchmark_id": "arc-agi-1",
+    "score": 20.71,
+    "config": "Semi-Private Eval, CoT, cost/task $0.0124",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v1",
+      "arcprize_dataset_id": "v1_Semi_Private",
+      "arcprize_model_id": "gpt-5-nano-2025-08-07-medium",
+      "arcprize_model_display_name": "GPT-5 Nano (Medium)",
+      "provider": "OpenAI",
+      "generated_at": "2026-06-24T22:54:59.136Z",
+      "model_type": "CoT",
+      "model_group": "gpt-5-nano-reasoning",
+      "cost_per_task": 0.0124
+    }
+  },
+  {
+    "model_id": "gpt-5-4-nano-low",
+    "benchmark_id": "arc-agi-1",
+    "score": 18.33,
+    "config": "Semi-Private Eval, CoT, cost/task $0.01",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v1",
+      "arcprize_dataset_id": "v1_Semi_Private",
+      "arcprize_model_id": "gpt-5-4-nano-low",
+      "arcprize_model_display_name": "GPT-5.4 Nano (Low)",
+      "provider": "OpenAI",
+      "generated_at": "2026-06-24T22:54:59.136Z",
+      "model_type": "CoT",
+      "model_group": "gpt-5-4-nano-reasoning",
+      "cost_per_task": 0.01
+    }
+  },
+  {
+    "model_id": "claude-haiku-4-5-20251001-thinking-1k",
+    "benchmark_id": "arc-agi-1",
+    "score": 16.83,
+    "config": "Semi-Private Eval, CoT, cost/task $0.0306",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v1",
+      "arcprize_dataset_id": "v1_Semi_Private",
+      "arcprize_model_id": "claude-haiku-4-5-20251001-thinking-1k",
+      "arcprize_model_display_name": "Claude Haiku 4.5 (Thinking 1K)",
+      "provider": "Anthropic",
+      "generated_at": "2026-06-24T22:54:59.136Z",
+      "model_type": "CoT",
+      "model_group": "claude-haiku-4-5-20251001",
+      "cost_per_task": 0.0306
+    }
+  },
+  {
+    "model_id": "gpt-5-nano-2025-08-07-high",
+    "benchmark_id": "arc-agi-1",
+    "score": 16.67,
+    "config": "Semi-Private Eval, CoT, cost/task $0.0292",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v1",
+      "arcprize_dataset_id": "v1_Semi_Private",
+      "arcprize_model_id": "gpt-5-nano-2025-08-07-high",
+      "arcprize_model_display_name": "GPT-5 Nano (High)",
+      "provider": "OpenAI",
+      "generated_at": "2026-06-24T22:54:59.136Z",
+      "model_type": "CoT",
+      "model_group": "gpt-5-nano-reasoning",
+      "cost_per_task": 0.0292
+    }
+  },
+  {
+    "model_id": "grok-3-mini-beta-low-openrouter",
+    "benchmark_id": "arc-agi-1",
+    "score": 16.5,
+    "config": "Semi-Private Eval, CoT, cost/task $0.0099",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v1",
+      "arcprize_dataset_id": "v1_Semi_Private",
+      "arcprize_model_id": "grok-3-mini-beta-low-openrouter",
+      "arcprize_model_display_name": "Grok 3 Mini (Low)",
+      "provider": "xAI",
+      "generated_at": "2026-06-24T22:54:59.136Z",
+      "model_type": "CoT",
+      "cost_per_task": 0.0099
+    }
+  },
+  {
+    "model_id": "gemini-2-5-flash-preview-05-20-thinking-1k",
+    "benchmark_id": "arc-agi-1",
+    "score": 16,
+    "config": "Semi-Private Eval, CoT, cost/task $0.0356",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v1",
+      "arcprize_dataset_id": "v1_Semi_Private",
+      "arcprize_model_id": "gemini-2-5-flash-preview-05-20-thinking-1k",
+      "arcprize_model_display_name": "Gemini 2.5 Flash (Preview) (Thinking 1K)",
+      "provider": "Google",
+      "generated_at": "2026-06-24T22:54:59.136Z",
+      "model_type": "CoT",
+      "model_group": "gemini-2-5-flash-preview-05-20-thinking",
+      "cost_per_task": 0.0356
+    }
+  },
+  {
+    "model_id": "gemini-2-5-pro-2025-06-17-thinking-1k",
+    "benchmark_id": "arc-agi-1",
+    "score": 16,
+    "config": "Semi-Private Eval, CoT, cost/task $0.0573",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v1",
+      "arcprize_dataset_id": "v1_Semi_Private",
+      "arcprize_model_id": "gemini-2-5-pro-2025-06-17-thinking-1k",
+      "arcprize_model_display_name": "Gemini 2.5 Pro (Thinking 1K)",
+      "provider": "Google",
+      "generated_at": "2026-06-24T22:54:59.136Z",
+      "model_type": "CoT",
+      "model_group": "gemini-2-5-pro-2025-06-17-thinking",
+      "cost_per_task": 0.0573
+    }
+  },
+  {
+    "model_id": "r1",
+    "benchmark_id": "arc-agi-1",
+    "score": 15.8,
+    "config": "Semi-Private Eval, CoT, cost/task $0.06",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v1",
+      "arcprize_dataset_id": "v1_Semi_Private",
+      "arcprize_model_id": "R1",
+      "arcprize_model_display_name": "Deepseek R1",
+      "provider": "Deepseek",
+      "generated_at": "2026-06-24T22:54:59.136Z",
+      "model_type": "CoT",
+      "cost_per_task": 0.06
+    }
+  },
+  {
+    "model_id": "o3-mini-2025-01-31-low",
+    "benchmark_id": "arc-agi-1",
+    "score": 14.5,
+    "config": "Semi-Private Eval, CoT, cost/task $0.0519",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v1",
+      "arcprize_dataset_id": "v1_Semi_Private",
+      "arcprize_model_id": "o3-mini-2025-01-31-low",
+      "arcprize_model_display_name": "o3-mini (Low)",
+      "provider": "OpenAI",
+      "generated_at": "2026-06-24T22:54:59.136Z",
+      "model_type": "CoT",
+      "model_group": "o3-mini",
+      "cost_per_task": 0.0519
+    }
+  },
+  {
+    "model_id": "claude-haiku-4-5-20251001",
+    "benchmark_id": "arc-agi-1",
+    "score": 14.33,
+    "config": "Semi-Private Eval, Base LLM, cost/task $0.0263",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v1",
+      "arcprize_dataset_id": "v1_Semi_Private",
+      "arcprize_model_id": "claude-haiku-4-5-20251001",
+      "arcprize_model_display_name": "Claude Haiku 4.5",
+      "provider": "Anthropic",
+      "generated_at": "2026-06-24T22:54:59.136Z",
+      "model_type": "Base LLM",
+      "model_group": "claude-haiku-4-5-20251001",
+      "cost_per_task": 0.0263
+    }
+  },
+  {
+    "model_id": "o1-mini-2024-09-12",
+    "benchmark_id": "arc-agi-1",
+    "score": 14,
+    "config": "Semi-Private Eval, CoT, cost/task $0.135",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v1",
+      "arcprize_dataset_id": "v1_Semi_Private",
+      "arcprize_model_id": "o1-mini-2024-09-12",
+      "arcprize_model_display_name": "o1-mini",
+      "provider": "OpenAI",
+      "generated_at": "2026-06-24T22:54:59.136Z",
+      "model_type": "CoT",
+      "model_group": "o1-mini",
+      "cost_per_task": 0.135
+    }
+  },
+  {
+    "model_id": "claude-3.7",
+    "benchmark_id": "arc-agi-1",
+    "score": 13.6,
+    "config": "Semi-Private Eval, Base LLM, cost/task $0.058",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v1",
+      "arcprize_dataset_id": "v1_Semi_Private",
+      "arcprize_model_id": "Claude 3.7",
+      "arcprize_model_display_name": "Claude 3.7",
+      "provider": "Anthropic",
+      "generated_at": "2026-06-24T22:54:59.136Z",
+      "model_type": "Base LLM",
+      "cost_per_task": 0.058
+    }
+  },
+  {
+    "model_id": "gpt-5-4-mini-low",
+    "benchmark_id": "arc-agi-1",
+    "score": 13,
+    "config": "Semi-Private Eval, CoT, cost/task $0.04",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v1",
+      "arcprize_dataset_id": "v1_Semi_Private",
+      "arcprize_model_id": "gpt-5-4-mini-low",
+      "arcprize_model_display_name": "GPT-5.4 Mini (Low)",
+      "provider": "OpenAI",
+      "generated_at": "2026-06-24T22:54:59.136Z",
+      "model_type": "CoT",
+      "model_group": "gpt-5-4-mini-reasoning",
+      "cost_per_task": 0.04
+    }
+  },
+  {
+    "model_id": "gpt-5-2-2025-12-11-thinking-none",
+    "benchmark_id": "arc-agi-1",
+    "score": 12.33,
+    "config": "Semi-Private Eval, Base LLM, cost/task $0.0472",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v1",
+      "arcprize_dataset_id": "v1_Semi_Private",
+      "arcprize_model_id": "gpt-5-2-2025-12-11-thinking-none",
+      "arcprize_model_display_name": "GPT-5.2",
+      "provider": "OpenAI",
+      "generated_at": "2026-06-24T22:54:59.136Z",
+      "model_type": "Base LLM",
+      "cost_per_task": 0.0472
+    }
+  },
+  {
+    "model_id": "claude-3.7-thinking-1k",
+    "benchmark_id": "arc-agi-1",
+    "score": 11.6,
+    "config": "Semi-Private Eval, CoT, cost/task $0.07",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v1",
+      "arcprize_dataset_id": "v1_Semi_Private",
+      "arcprize_model_id": "Claude 3.7 Thinking 1K",
+      "arcprize_model_display_name": "Claude 3.7 (1K)",
+      "provider": "Anthropic",
+      "generated_at": "2026-06-24T22:54:59.136Z",
+      "model_type": "CoT",
+      "model_group": "Claude_3_7_thinking",
+      "cost_per_task": 0.07
+    }
+  },
+  {
+    "model_id": "qwen3-235b-a22b-instruct-2507",
+    "benchmark_id": "arc-agi-1",
+    "score": 11,
+    "config": "Semi-Private Eval, Base LLM, cost/task $0.0025",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v1",
+      "arcprize_dataset_id": "v1_Semi_Private",
+      "arcprize_model_id": "qwen3-235b-a22b-instruct-2507",
+      "arcprize_model_display_name": "Qwen3-235b-a22b Instruct (25/07)",
+      "provider": "Alibaba",
+      "generated_at": "2026-06-24T22:54:59.136Z",
+      "model_type": "Base LLM",
+      "cost_per_task": 0.0025
+    }
+  },
+  {
+    "model_id": "gpt-4-5-2025-02-27",
+    "benchmark_id": "arc-agi-1",
+    "score": 10.3,
+    "config": "Semi-Private Eval, Base LLM, cost/task $0.29",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v1",
+      "arcprize_dataset_id": "v1_Semi_Private",
+      "arcprize_model_id": "gpt-4-5-2025-02-27",
+      "arcprize_model_display_name": "GPT-4.5",
+      "provider": "OpenAI",
+      "generated_at": "2026-06-24T22:54:59.136Z",
+      "model_type": "Base LLM",
+      "cost_per_task": 0.29
+    }
+  },
+  {
+    "model_id": "magistral-medium-2506-thinking",
+    "benchmark_id": "arc-agi-1",
+    "score": 6.12,
+    "config": "Semi-Private Eval, CoT, cost/task $0.0989",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v1",
+      "arcprize_dataset_id": "v1_Semi_Private",
+      "arcprize_model_id": "magistral-medium-2506-thinking",
+      "arcprize_model_display_name": "Magistral Medium (Thinking)",
+      "provider": "Mistral",
+      "generated_at": "2026-06-24T22:54:59.136Z",
+      "model_type": "CoT",
+      "cost_per_task": 0.0989
+    }
+  },
+  {
+    "model_id": "gpt-5-2025-08-07-minimal",
+    "benchmark_id": "arc-agi-1",
+    "score": 6,
+    "config": "Semi-Private Eval, Base LLM, cost/task $0.0335",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v1",
+      "arcprize_dataset_id": "v1_Semi_Private",
+      "arcprize_model_id": "gpt-5-2025-08-07-minimal",
+      "arcprize_model_display_name": "GPT-5 (Minimal)",
+      "provider": "OpenAI",
+      "generated_at": "2026-06-24T22:54:59.136Z",
+      "model_type": "Base LLM",
+      "cost_per_task": 0.0335
+    }
+  },
+  {
+    "model_id": "magistral-medium-2506",
+    "benchmark_id": "arc-agi-1",
+    "score": 5.91,
+    "config": "Semi-Private Eval, CoT, cost/task $0.1015",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v1",
+      "arcprize_dataset_id": "v1_Semi_Private",
+      "arcprize_model_id": "magistral-medium-2506",
+      "arcprize_model_display_name": "Magistral Medium",
+      "provider": "Mistral",
+      "generated_at": "2026-06-24T22:54:59.136Z",
+      "model_type": "CoT",
+      "cost_per_task": 0.1015
+    }
+  },
+  {
+    "model_id": "gpt-5-1-2025-11-13-thinking-none",
+    "benchmark_id": "arc-agi-1",
+    "score": 5.83,
+    "config": "Semi-Private Eval, CoT, cost/task $0.0338",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v1",
+      "arcprize_dataset_id": "v1_Semi_Private",
+      "arcprize_model_id": "gpt-5-1-2025-11-13-thinking-none",
+      "arcprize_model_display_name": "GPT-5.1 (Thinking, None)",
+      "provider": "OpenAI",
+      "generated_at": "2026-06-24T22:54:59.136Z",
+      "model_type": "CoT",
+      "model_group": "gpt-5-1-reasoning",
+      "cost_per_task": 0.0338
+    }
+  },
+  {
+    "model_id": "gpt-4-1-2025-04-14",
+    "benchmark_id": "arc-agi-1",
+    "score": 5.5,
+    "config": "Semi-Private Eval, Base LLM, cost/task $0.039",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v1",
+      "arcprize_dataset_id": "v1_Semi_Private",
+      "arcprize_model_id": "gpt-4-1-2025-04-14",
+      "arcprize_model_display_name": "GPT-4.1",
+      "provider": "OpenAI",
+      "generated_at": "2026-06-24T22:54:59.136Z",
+      "model_type": "Base LLM",
+      "model_group": "gpt-4.1",
+      "cost_per_task": 0.039
+    }
+  },
+  {
+    "model_id": "grok-3-openrouter",
+    "benchmark_id": "arc-agi-1",
+    "score": 5.5,
+    "config": "Semi-Private Eval, Base LLM, cost/task $0.0931",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v1",
+      "arcprize_dataset_id": "v1_Semi_Private",
+      "arcprize_model_id": "grok-3-openrouter",
+      "arcprize_model_display_name": "Grok 3",
+      "provider": "xAI",
+      "generated_at": "2026-06-24T22:54:59.136Z",
+      "model_type": "Base LLM",
+      "cost_per_task": 0.0931
+    }
+  },
+  {
+    "model_id": "gpt-5-mini-2025-08-07-minimal",
+    "benchmark_id": "arc-agi-1",
+    "score": 5.33,
+    "config": "Semi-Private Eval, CoT, cost/task $0.0057",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v1",
+      "arcprize_dataset_id": "v1_Semi_Private",
+      "arcprize_model_id": "gpt-5-mini-2025-08-07-minimal",
+      "arcprize_model_display_name": "GPT-5 Mini (Minimal)",
+      "provider": "OpenAI",
+      "generated_at": "2026-06-24T22:54:59.136Z",
+      "model_type": "CoT",
+      "cost_per_task": 0.0057
+    }
+  },
+  {
+    "model_id": "magistral-small-2506",
+    "benchmark_id": "arc-agi-1",
+    "score": 5,
+    "config": "Semi-Private Eval, CoT, cost/task $0.0399",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v1",
+      "arcprize_dataset_id": "v1_Semi_Private",
+      "arcprize_model_id": "magistral-small-2506",
+      "arcprize_model_display_name": "Magistral Small",
+      "provider": "Mistral",
+      "generated_at": "2026-06-24T22:54:59.136Z",
+      "model_type": "CoT",
+      "cost_per_task": 0.0399
+    }
+  },
+  {
+    "model_id": "gpt-4o-2024-11-20",
+    "benchmark_id": "arc-agi-1",
+    "score": 4.5,
+    "config": "Semi-Private Eval, Base LLM, cost/task $0.05",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v1",
+      "arcprize_dataset_id": "v1_Semi_Private",
+      "arcprize_model_id": "gpt-4o-2024-11-20",
+      "arcprize_model_display_name": "GPT-4o",
+      "provider": "OpenAI",
+      "generated_at": "2026-06-24T22:54:59.136Z",
+      "model_type": "Base LLM",
+      "cost_per_task": 0.05
+    }
+  },
+  {
+    "model_id": "llama-4-maverick-17b-128e-instruct-fp8-together",
+    "benchmark_id": "arc-agi-1",
+    "score": 4.38,
+    "config": "Semi-Private Eval, Base LLM, cost/task $0.0078",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v1",
+      "arcprize_dataset_id": "v1_Semi_Private",
+      "arcprize_model_id": "Llama-4-Maverick-17B-128E-Instruct-FP8-together",
+      "arcprize_model_display_name": "Llama 4 Maverick",
+      "provider": "Meta",
+      "generated_at": "2026-06-24T22:54:59.136Z",
+      "model_type": "Base LLM",
+      "model_group": "Llama 4",
+      "cost_per_task": 0.0078
+    }
+  },
+  {
+    "model_id": "gpt-5-nano-2025-08-07-low",
+    "benchmark_id": "arc-agi-1",
+    "score": 4.04,
+    "config": "Semi-Private Eval, CoT, cost/task $0.0033",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v1",
+      "arcprize_dataset_id": "v1_Semi_Private",
+      "arcprize_model_id": "gpt-5-nano-2025-08-07-low",
+      "arcprize_model_display_name": "GPT-5 Nano (Low)",
+      "provider": "OpenAI",
+      "generated_at": "2026-06-24T22:54:59.136Z",
+      "model_type": "CoT",
+      "model_group": "gpt-5-nano-reasoning",
+      "cost_per_task": 0.0033
+    }
+  },
+  {
+    "model_id": "gpt-4-1-mini-2025-04-14",
+    "benchmark_id": "arc-agi-1",
+    "score": 3.5,
+    "config": "Semi-Private Eval, Base LLM, cost/task $0.0078",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v1",
+      "arcprize_dataset_id": "v1_Semi_Private",
+      "arcprize_model_id": "gpt-4-1-mini-2025-04-14",
+      "arcprize_model_display_name": "GPT-4.1-Mini",
+      "provider": "OpenAI",
+      "generated_at": "2026-06-24T22:54:59.136Z",
+      "model_type": "Base LLM",
+      "model_group": "gpt-4.1",
+      "cost_per_task": 0.0078
+    }
+  },
+  {
+    "model_id": "gpt-5-nano-2025-08-07-minimal",
+    "benchmark_id": "arc-agi-1",
+    "score": 1.5,
+    "config": "Semi-Private Eval, CoT, cost/task $0.0015",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v1",
+      "arcprize_dataset_id": "v1_Semi_Private",
+      "arcprize_model_id": "gpt-5-nano-2025-08-07-minimal",
+      "arcprize_model_display_name": "GPT-5 Nano (Minimal)",
+      "provider": "OpenAI",
+      "generated_at": "2026-06-24T22:54:59.136Z",
+      "model_type": "CoT",
+      "cost_per_task": 0.0015
+    }
+  },
+  {
+    "model_id": "llama-4-scout-17b-16e-instruct-together",
+    "benchmark_id": "arc-agi-1",
+    "score": 0.5,
+    "config": "Semi-Private Eval, Base LLM, cost/task $0.0041",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v1",
+      "arcprize_dataset_id": "v1_Semi_Private",
+      "arcprize_model_id": "Llama-4-Scout-17B-16E-Instruct-together",
+      "arcprize_model_display_name": "Llama 4 Scout",
+      "provider": "Meta",
+      "generated_at": "2026-06-24T22:54:59.136Z",
+      "model_type": "Base LLM",
+      "model_group": "Llama 4",
+      "cost_per_task": 0.0041
+    }
+  },
+  {
+    "model_id": "gpt-4-1-nano-2025-04-14",
+    "benchmark_id": "arc-agi-1",
+    "score": 0,
+    "config": "Semi-Private Eval, Base LLM, cost/task $0.0021",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v1",
+      "arcprize_dataset_id": "v1_Semi_Private",
+      "arcprize_model_id": "gpt-4-1-nano-2025-04-14",
+      "arcprize_model_display_name": "GPT-4.1-Nano",
+      "provider": "OpenAI",
+      "generated_at": "2026-06-24T22:54:59.136Z",
+      "model_type": "Base LLM",
+      "model_group": "gpt-4.1",
+      "cost_per_task": 0.0021
+    }
+  },
+  {
+    "model_id": "gpt-5-5-2026-04-22-thinking-xhigh",
+    "benchmark_id": "arc-agi-2",
+    "score": 0.85,
+    "config": "Semi-Private Eval, CoT, cost/task $1.87",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v2",
+      "arcprize_dataset_id": "v2_Semi_Private",
+      "arcprize_model_id": "gpt-5-5-2026-04-22-thinking-xhigh",
+      "arcprize_model_display_name": "GPT-5.5 (xHigh)",
+      "provider": "OpenAI",
+      "generated_at": "2026-06-24T22:54:59.140Z",
+      "model_type": "CoT",
+      "model_group": "gpt-5-5-2026-04-22-thinking",
+      "cost_per_task": 1.87
+    }
+  },
+  {
+    "model_id": "gemini_3_deep_think_022026",
+    "benchmark_id": "arc-agi-2",
+    "score": 0.8458,
+    "config": "Semi-Private Eval, CoT, cost/task $13.6213",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v2",
+      "arcprize_dataset_id": "v2_Semi_Private",
+      "arcprize_model_id": "gemini_3_deep_think_022026",
+      "arcprize_model_display_name": "Gemini 3 Deep Think (2/26)",
+      "provider": "Google",
+      "generated_at": "2026-06-24T22:54:59.140Z",
+      "model_type": "CoT",
+      "cost_per_task": 13.6213
+    }
+  },
+  {
+    "model_id": "gpt-5-5-pro-2026-04-23-high",
+    "benchmark_id": "arc-agi-2",
+    "score": 0.8458,
+    "config": "Semi-Private Eval, CoT, cost/task $10.51",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v2",
+      "arcprize_dataset_id": "v2_Semi_Private",
+      "arcprize_model_id": "gpt-5-5-pro-2026-04-23-high",
+      "arcprize_model_display_name": "GPT-5.5 Pro (High)",
+      "provider": "OpenAI",
+      "generated_at": "2026-06-24T22:54:59.140Z",
+      "model_type": "CoT",
+      "model_group": "gpt-5-5-pro-2026-04-23-thinking",
+      "cost_per_task": 10.51
+    }
+  },
+  {
+    "model_id": "gpt-5-5-pro-2026-04-23-xhigh",
+    "benchmark_id": "arc-agi-2",
+    "score": 0.8416,
+    "config": "Semi-Private Eval, CoT, cost/task $10.76",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v2",
+      "arcprize_dataset_id": "v2_Semi_Private",
+      "arcprize_model_id": "gpt-5-5-pro-2026-04-23-xhigh",
+      "arcprize_model_display_name": "GPT-5.5 Pro (xHigh)",
+      "provider": "OpenAI",
+      "generated_at": "2026-06-24T22:54:59.140Z",
+      "model_type": "CoT",
+      "model_group": "gpt-5-5-pro-2026-04-23-thinking",
+      "cost_per_task": 10.76
+    }
+  },
+  {
+    "model_id": "gpt-5-4-pro-xhigh",
+    "benchmark_id": "arc-agi-2",
+    "score": 0.8333,
+    "config": "Semi-Private Eval, CoT, cost/task $16.41",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v2",
+      "arcprize_dataset_id": "v2_Semi_Private",
+      "arcprize_model_id": "gpt-5-4-pro-xhigh",
+      "arcprize_model_display_name": "GPT-5.4 Pro (xHigh)",
+      "provider": "OpenAI",
+      "generated_at": "2026-06-24T22:54:59.140Z",
+      "model_type": "CoT",
+      "model_group": "gpt-5-4-pro",
+      "cost_per_task": 16.41
+    }
+  },
+  {
+    "model_id": "gpt-5-5-2026-04-22-thinking-high",
+    "benchmark_id": "arc-agi-2",
+    "score": 0.8333,
+    "config": "Semi-Private Eval, CoT, cost/task $1.45",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v2",
+      "arcprize_dataset_id": "v2_Semi_Private",
+      "arcprize_model_id": "gpt-5-5-2026-04-22-thinking-high",
+      "arcprize_model_display_name": "GPT-5.5 (High)",
+      "provider": "OpenAI",
+      "generated_at": "2026-06-24T22:54:59.140Z",
+      "model_type": "CoT",
+      "model_group": "gpt-5-5-2026-04-22-thinking",
+      "cost_per_task": 1.45
+    }
+  },
+  {
+    "model_id": "gemini-3-1-pro-preview",
+    "benchmark_id": "arc-agi-2",
+    "score": 0.7708,
+    "config": "Semi-Private Eval, CoT, cost/task $0.9622",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v2",
+      "arcprize_dataset_id": "v2_Semi_Private",
+      "arcprize_model_id": "gemini-3-1-pro-preview",
+      "arcprize_model_display_name": "Gemini 3.1 Pro (Preview)",
+      "provider": "Google",
+      "generated_at": "2026-06-24T22:54:59.140Z",
+      "model_type": "CoT",
+      "cost_per_task": 0.9622
+    }
+  },
+  {
+    "model_id": "claude-4-7-max",
+    "benchmark_id": "arc-agi-2",
+    "score": 0.7583,
+    "config": "Semi-Private Eval, CoT, cost/task $7.43",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v2",
+      "arcprize_dataset_id": "v2_Semi_Private",
+      "arcprize_model_id": "claude-4-7-max",
+      "arcprize_model_display_name": "Claude 4.7 (Max)",
+      "provider": "Anthropic",
+      "generated_at": "2026-06-24T22:54:59.140Z",
+      "model_type": "CoT",
+      "model_group": "claude-4-7",
+      "cost_per_task": 7.43
+    }
+  },
+  {
+    "model_id": "gpt-5-4-xhigh",
+    "benchmark_id": "arc-agi-2",
+    "score": 0.7395,
+    "config": "Semi-Private Eval, CoT, cost/task $1.52",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v2",
+      "arcprize_dataset_id": "v2_Semi_Private",
+      "arcprize_model_id": "gpt-5-4-xhigh",
+      "arcprize_model_display_name": "GPT-5.4 (xHigh)",
+      "provider": "OpenAI",
+      "generated_at": "2026-06-24T22:54:59.140Z",
+      "model_type": "CoT",
+      "model_group": "gpt-5-4",
+      "cost_per_task": 1.52
+    }
+  },
+  {
+    "model_id": "johan_land_gpt_5_2_refine",
+    "benchmark_id": "arc-agi-2",
+    "score": 0.729,
+    "config": "Semi-Private Eval, Refinement, cost/task $38.99",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v2",
+      "arcprize_dataset_id": "v2_Semi_Private",
+      "arcprize_model_id": "johan_land_gpt_5_2_refine",
+      "arcprize_model_display_name": "GPT-5.2 (Refine.)",
+      "provider": "Johan Land",
+      "generated_at": "2026-06-24T22:54:59.140Z",
+      "model_type": "Refinement",
+      "cost_per_task": 38.99
+    }
+  },
+  {
+    "model_id": "anthropic-opus-4-8-high",
+    "benchmark_id": "arc-agi-2",
+    "score": 0.7208,
+    "config": "Semi-Private Eval, CoT, cost/task $2.7425",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v2",
+      "arcprize_dataset_id": "v2_Semi_Private",
+      "arcprize_model_id": "anthropic-opus-4-8-high",
+      "arcprize_model_display_name": "Claude Opus 4.8 (High)",
+      "provider": "Anthropic",
+      "generated_at": "2026-06-24T22:54:59.140Z",
+      "model_type": "CoT",
+      "model_group": "anthropic-opus-4-8",
+      "cost_per_task": 2.7425
+    }
+  },
+  {
+    "model_id": "gemini-3-5-flash-high",
+    "benchmark_id": "arc-agi-2",
+    "score": 0.7208,
+    "config": "Semi-Private Eval, CoT, cost/task $0.8503",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v2",
+      "arcprize_dataset_id": "v2_Semi_Private",
+      "arcprize_model_id": "gemini-3-5-flash-high",
+      "arcprize_model_display_name": "Gemini 3.5 Flash (High)",
+      "provider": "Google",
+      "generated_at": "2026-06-24T22:54:59.140Z",
+      "model_type": "CoT",
+      "model_group": "gemini-3-5-flash",
+      "cost_per_task": 0.8503
+    }
+  },
+  {
+    "model_id": "anthropic-opus-4-8-medium",
+    "benchmark_id": "arc-agi-2",
+    "score": 0.7167,
+    "config": "Semi-Private Eval, CoT, cost/task $2.3896",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v2",
+      "arcprize_dataset_id": "v2_Semi_Private",
+      "arcprize_model_id": "anthropic-opus-4-8-medium",
+      "arcprize_model_display_name": "Claude Opus 4.8 (Medium)",
+      "provider": "Anthropic",
+      "generated_at": "2026-06-24T22:54:59.140Z",
+      "model_type": "CoT",
+      "model_group": "anthropic-opus-4-8",
+      "cost_per_task": 2.3896
+    }
+  },
+  {
+    "model_id": "gpt-5-5-2026-04-22-thinking-medium",
+    "benchmark_id": "arc-agi-2",
+    "score": 0.7042,
+    "config": "Semi-Private Eval, CoT, cost/task $0.86",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v2",
+      "arcprize_dataset_id": "v2_Semi_Private",
+      "arcprize_model_id": "gpt-5-5-2026-04-22-thinking-medium",
+      "arcprize_model_display_name": "GPT-5.5 (Medium)",
+      "provider": "OpenAI",
+      "generated_at": "2026-06-24T22:54:59.140Z",
+      "model_type": "CoT",
+      "model_group": "gpt-5-5-2026-04-22-thinking",
+      "cost_per_task": 0.86
+    }
+  },
+  {
+    "model_id": "claude-opus-4-6-thinking-120k-high",
+    "benchmark_id": "arc-agi-2",
+    "score": 0.6917,
+    "config": "Semi-Private Eval, CoT, cost/task $3.4719",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v2",
+      "arcprize_dataset_id": "v2_Semi_Private",
+      "arcprize_model_id": "claude-opus-4-6-thinking-120K-high",
+      "arcprize_model_display_name": "Claude Opus 4.6 (120K, High)",
+      "provider": "Anthropic",
+      "generated_at": "2026-06-24T22:54:59.140Z",
+      "model_type": "CoT",
+      "model_group": "claude-opus-4-6-thinking",
+      "cost_per_task": 3.4719
+    }
+  },
+  {
+    "model_id": "claude-opus-4-6-thinking-120k-max",
+    "benchmark_id": "arc-agi-2",
+    "score": 0.6875,
+    "config": "Semi-Private Eval, CoT, cost/task $3.641",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v2",
+      "arcprize_dataset_id": "v2_Semi_Private",
+      "arcprize_model_id": "claude-opus-4-6-thinking-120K-max",
+      "arcprize_model_display_name": "Claude Opus 4.6 (120K, Max)",
+      "provider": "Anthropic",
+      "generated_at": "2026-06-24T22:54:59.140Z",
+      "model_type": "CoT",
+      "model_group": "claude-opus-4-6-thinking",
+      "cost_per_task": 3.641
+    }
+  },
+  {
+    "model_id": "claude-4-7-high",
+    "benchmark_id": "arc-agi-2",
+    "score": 0.6833,
+    "config": "Semi-Private Eval, CoT, cost/task $3.17",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v2",
+      "arcprize_dataset_id": "v2_Semi_Private",
+      "arcprize_model_id": "claude-4-7-high",
+      "arcprize_model_display_name": "Claude 4.7 (High)",
+      "provider": "Anthropic",
+      "generated_at": "2026-06-24T22:54:59.140Z",
+      "model_type": "CoT",
+      "model_group": "claude-4-7",
+      "cost_per_task": 3.17
+    }
+  },
+  {
+    "model_id": "gpt-5-4-high",
+    "benchmark_id": "arc-agi-2",
+    "score": 0.675,
+    "config": "Semi-Private Eval, CoT, cost/task $1.02",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v2",
+      "arcprize_dataset_id": "v2_Semi_Private",
+      "arcprize_model_id": "gpt-5-4-high",
+      "arcprize_model_display_name": "GPT-5.4 (High)",
+      "provider": "OpenAI",
+      "generated_at": "2026-06-24T22:54:59.140Z",
+      "model_type": "CoT",
+      "model_group": "gpt-5-4",
+      "cost_per_task": 1.02
+    }
+  },
+  {
+    "model_id": "claude-4-7-medium",
+    "benchmark_id": "arc-agi-2",
+    "score": 0.675,
+    "config": "Semi-Private Eval, CoT, cost/task $2.96",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v2",
+      "arcprize_dataset_id": "v2_Semi_Private",
+      "arcprize_model_id": "claude-4-7-medium",
+      "arcprize_model_display_name": "Claude 4.7 (Medium)",
+      "provider": "Anthropic",
+      "generated_at": "2026-06-24T22:54:59.140Z",
+      "model_type": "CoT",
+      "model_group": "claude-4-7",
+      "cost_per_task": 2.96
+    }
+  },
+  {
+    "model_id": "claude-opus-4-6-thinking-120k-medium",
+    "benchmark_id": "arc-agi-2",
+    "score": 0.6625,
+    "config": "Semi-Private Eval, CoT, cost/task $2.7209",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v2",
+      "arcprize_dataset_id": "v2_Semi_Private",
+      "arcprize_model_id": "claude-opus-4-6-thinking-120K-medium",
+      "arcprize_model_display_name": "Claude Opus 4.6 (120K, Medium)",
+      "provider": "Anthropic",
+      "generated_at": "2026-06-24T22:54:59.140Z",
+      "model_type": "CoT",
+      "model_group": "claude-opus-4-6-thinking",
+      "cost_per_task": 2.7209
+    }
+  },
+  {
+    "model_id": "grok-4.20-beta-0309b-reasoning",
+    "benchmark_id": "arc-agi-2",
+    "score": 0.6514,
+    "config": "Semi-Private Eval, CoT, cost/task $0.92",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v2",
+      "arcprize_dataset_id": "v2_Semi_Private",
+      "arcprize_model_id": "grok-4.20-beta-0309b-reasoning",
+      "arcprize_model_display_name": "Grok 4.20 (Reasoning)",
+      "provider": "xAI",
+      "generated_at": "2026-06-24T22:54:59.140Z",
+      "model_type": "CoT",
+      "model_group": "grok-4.20-beta-0309b-reasoning",
+      "cost_per_task": 0.92
+    }
+  },
+  {
+    "model_id": "claude-opus-4-6-thinking-120k-low",
+    "benchmark_id": "arc-agi-2",
+    "score": 0.6458,
+    "config": "Semi-Private Eval, CoT, cost/task $2.2507",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v2",
+      "arcprize_dataset_id": "v2_Semi_Private",
+      "arcprize_model_id": "claude-opus-4-6-thinking-120K-low",
+      "arcprize_model_display_name": "Claude Opus 4.6 (120K, Low)",
+      "provider": "Anthropic",
+      "generated_at": "2026-06-24T22:54:59.140Z",
+      "model_type": "CoT",
+      "model_group": "claude-opus-4-6-thinking",
+      "cost_per_task": 2.2507
+    }
+  },
+  {
+    "model_id": "anthropic-opus-4-8-low",
+    "benchmark_id": "arc-agi-2",
+    "score": 0.6222,
+    "config": "Semi-Private Eval, CoT, cost/task $1.6818",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v2",
+      "arcprize_dataset_id": "v2_Semi_Private",
+      "arcprize_model_id": "anthropic-opus-4-8-low",
+      "arcprize_model_display_name": "Claude Opus 4.8 (Low)",
+      "provider": "Anthropic",
+      "generated_at": "2026-06-24T22:54:59.140Z",
+      "model_type": "CoT",
+      "model_group": "anthropic-opus-4-8",
+      "cost_per_task": 1.6818
+    }
+  },
+  {
+    "model_id": "claude-4-7-low",
+    "benchmark_id": "arc-agi-2",
+    "score": 0.6208,
+    "config": "Semi-Private Eval, CoT, cost/task $2.38",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v2",
+      "arcprize_dataset_id": "v2_Semi_Private",
+      "arcprize_model_id": "claude-4-7-low",
+      "arcprize_model_display_name": "Claude 4.7 (Low)",
+      "provider": "Anthropic",
+      "generated_at": "2026-06-24T22:54:59.140Z",
+      "model_type": "CoT",
+      "model_group": "claude-4-7",
+      "cost_per_task": 2.38
+    }
+  },
+  {
+    "model_id": "claude_sonnet_4_6_high",
+    "benchmark_id": "arc-agi-2",
+    "score": 0.6042,
+    "config": "Semi-Private Eval, CoT, cost/task $2.6966",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v2",
+      "arcprize_dataset_id": "v2_Semi_Private",
+      "arcprize_model_id": "claude_sonnet_4_6_high",
+      "arcprize_model_display_name": "Claude Sonnet 4.6 (High)",
+      "provider": "Anthropic",
+      "generated_at": "2026-06-24T22:54:59.140Z",
+      "model_type": "CoT",
+      "model_group": "claude-sonnet-4-6",
+      "cost_per_task": 2.6966
+    }
+  },
+  {
+    "model_id": "claude_sonnet_4_6_max",
+    "benchmark_id": "arc-agi-2",
+    "score": 0.5833,
+    "config": "Semi-Private Eval, CoT, cost/task $2.7179",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v2",
+      "arcprize_dataset_id": "v2_Semi_Private",
+      "arcprize_model_id": "claude_sonnet_4_6_max",
+      "arcprize_model_display_name": "Claude Sonnet 4.6 (Max)",
+      "provider": "Anthropic",
+      "generated_at": "2026-06-24T22:54:59.140Z",
+      "model_type": "CoT",
+      "model_group": "claude-sonnet-4-6",
+      "cost_per_task": 2.7179
+    }
+  },
+  {
+    "model_id": "gpt-5-4-medium",
+    "benchmark_id": "arc-agi-2",
+    "score": 0.5542,
+    "config": "Semi-Private Eval, CoT, cost/task $0.68",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v2",
+      "arcprize_dataset_id": "v2_Semi_Private",
+      "arcprize_model_id": "gpt-5-4-medium",
+      "arcprize_model_display_name": "GPT-5.4 (Medium)",
+      "provider": "OpenAI",
+      "generated_at": "2026-06-24T22:54:59.140Z",
+      "model_type": "CoT",
+      "model_group": "gpt-5-4",
+      "cost_per_task": 0.68
+    }
+  },
+  {
+    "model_id": "gpt-5-2-pro-2025-12-11-high",
+    "benchmark_id": "arc-agi-2",
+    "score": 0.5416,
+    "config": "Semi-Private Eval, CoT, cost/task $15.721",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v2",
+      "arcprize_dataset_id": "v2_Semi_Private",
+      "arcprize_model_id": "gpt-5-2-pro-2025-12-11-high",
+      "arcprize_model_display_name": "GPT-5.2 Pro (High)",
+      "provider": "OpenAI",
+      "generated_at": "2026-06-24T22:54:59.140Z",
+      "model_type": "CoT",
+      "model_group": "gpt-5-2-pro-2025-12-11-thinking",
+      "cost_per_task": 15.721
+    }
+  },
+  {
+    "model_id": "poetiq-arc-agi-gemini-3-d_v1",
+    "benchmark_id": "arc-agi-2",
+    "score": 0.54,
+    "config": "Semi-Private Eval, Refinement, cost/task $30.568",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v2",
+      "arcprize_dataset_id": "v2_Semi_Private",
+      "arcprize_model_id": "poetiq-arc-agi-gemini-3-d_v1",
+      "arcprize_model_display_name": "Gemini 3 Pro (Refine.)",
+      "provider": "Poetiq",
+      "generated_at": "2026-06-24T22:54:59.140Z",
+      "model_type": "Refinement",
+      "cost_per_task": 30.568
+    }
+  },
+  {
+    "model_id": "gpt-5-2-2025-12-11-thinking-xhigh",
+    "benchmark_id": "arc-agi-2",
+    "score": 0.5291,
+    "config": "Semi-Private Eval, CoT, cost/task $1.8982",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v2",
+      "arcprize_dataset_id": "v2_Semi_Private",
+      "arcprize_model_id": "gpt-5-2-2025-12-11-thinking-xhigh",
+      "arcprize_model_display_name": "GPT-5.2 (xHigh)",
+      "provider": "OpenAI",
+      "generated_at": "2026-06-24T22:54:59.140Z",
+      "model_type": "CoT",
+      "model_group": "gpt-5-2-2025-12-11-thinking",
+      "cost_per_task": 1.8982
+    }
+  },
+  {
+    "model_id": "gemini-3-deep-think-preview",
+    "benchmark_id": "arc-agi-2",
+    "score": 0.4514,
+    "config": "Semi-Private Eval, CoT, cost/task $77.16309638",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v2",
+      "arcprize_dataset_id": "v2_Semi_Private",
+      "arcprize_model_id": "gemini-3-deep-think-preview",
+      "arcprize_model_display_name": "Gemini 3 Deep Think (Preview) Â²",
+      "provider": "Google",
+      "generated_at": "2026-06-24T22:54:59.140Z",
+      "model_type": "CoT",
+      "model_group": "gemini-3-deep-think-preview",
+      "cost_per_task": 77.16309638
+    }
+  },
+  {
+    "model_id": "gpt-5-2-2025-12-11-thinking-high",
+    "benchmark_id": "arc-agi-2",
+    "score": 0.4333,
+    "config": "Semi-Private Eval, CoT, cost/task $1.393",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v2",
+      "arcprize_dataset_id": "v2_Semi_Private",
+      "arcprize_model_id": "gpt-5-2-2025-12-11-thinking-high",
+      "arcprize_model_display_name": "GPT-5.2 (High)",
+      "provider": "OpenAI",
+      "generated_at": "2026-06-24T22:54:59.140Z",
+      "model_type": "CoT",
+      "model_group": "gpt-5-2-2025-12-11-thinking",
+      "cost_per_task": 1.393
+    }
+  },
+  {
+    "model_id": "gpt-5-2-pro-2025-12-11-medium",
+    "benchmark_id": "arc-agi-2",
+    "score": 0.3847,
+    "config": "Semi-Private Eval, CoT, cost/task $8.9928",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v2",
+      "arcprize_dataset_id": "v2_Semi_Private",
+      "arcprize_model_id": "gpt-5-2-pro-2025-12-11-medium",
+      "arcprize_model_display_name": "GPT-5.2 Pro (Medium)",
+      "provider": "OpenAI",
+      "generated_at": "2026-06-24T22:54:59.140Z",
+      "model_type": "CoT",
+      "model_group": "gpt-5-2-pro-2025-12-11-thinking",
+      "cost_per_task": 8.9928
+    }
+  },
+  {
+    "model_id": "claude-opus-4-5-20251101-thinking-64k",
+    "benchmark_id": "arc-agi-2",
+    "score": 0.3764,
+    "config": "Semi-Private Eval, CoT, cost/task $2.4",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v2",
+      "arcprize_dataset_id": "v2_Semi_Private",
+      "arcprize_model_id": "claude-opus-4-5-20251101-thinking-64k",
+      "arcprize_model_display_name": "Opus 4.5 (Thinking, 64K)",
+      "provider": "Anthropic",
+      "generated_at": "2026-06-24T22:54:59.140Z",
+      "model_type": "CoT",
+      "model_group": "opus-4-5-thinking",
+      "cost_per_task": 2.4
+    }
+  },
+  {
+    "model_id": "gemini-3-flash-preview-thinking-high",
+    "benchmark_id": "arc-agi-2",
+    "score": 0.3361,
+    "config": "Semi-Private Eval, CoT, cost/task $0.2314",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v2",
+      "arcprize_dataset_id": "v2_Semi_Private",
+      "arcprize_model_id": "gemini-3-flash-preview-thinking-high",
+      "arcprize_model_display_name": "Gemini 3 Flash Preview (High)",
+      "provider": "Google",
+      "generated_at": "2026-06-24T22:54:59.140Z",
+      "model_type": "CoT",
+      "model_group": "gemini-3-flash-preview-thinking",
+      "cost_per_task": 0.2314
+    }
+  },
+  {
+    "model_id": "gpt-5-5-2026-04-22-thinking-low",
+    "benchmark_id": "arc-agi-2",
+    "score": 0.3333,
+    "config": "Semi-Private Eval, CoT, cost/task $0.35",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v2",
+      "arcprize_dataset_id": "v2_Semi_Private",
+      "arcprize_model_id": "gpt-5-5-2026-04-22-thinking-low",
+      "arcprize_model_display_name": "GPT-5.5 (Low)",
+      "provider": "OpenAI",
+      "generated_at": "2026-06-24T22:54:59.140Z",
+      "model_type": "CoT",
+      "model_group": "gpt-5-5-2026-04-22-thinking",
+      "cost_per_task": 0.35
+    }
+  },
+  {
+    "model_id": "gemini-3-pro-preview",
+    "benchmark_id": "arc-agi-2",
+    "score": 0.3111,
+    "config": "Semi-Private Eval, CoT, cost/task $0.8109",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v2",
+      "arcprize_dataset_id": "v2_Semi_Private",
+      "arcprize_model_id": "gemini-3-pro-preview",
+      "arcprize_model_display_name": "Gemini 3 Pro",
+      "provider": "Google",
+      "generated_at": "2026-06-24T22:54:59.140Z",
+      "model_type": "CoT",
+      "model_group": "gemini-3-pro",
+      "cost_per_task": 0.8109
+    }
+  },
+  {
+    "model_id": "jeremy_sept_2025",
+    "benchmark_id": "arc-agi-2",
+    "score": 0.2944,
+    "config": "Semi-Private Eval, Refinement, cost/task $30.4",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v2",
+      "arcprize_dataset_id": "v2_Semi_Private",
+      "arcprize_model_id": "jeremy_sept_2025",
+      "arcprize_model_display_name": "Grok 4 (Refine.)",
+      "provider": "J. Berman",
+      "generated_at": "2026-06-24T22:54:59.140Z",
+      "model_type": "Refinement",
+      "cost_per_task": 30.4
+    }
+  },
+  {
+    "model_id": "gpt-5-4-low",
+    "benchmark_id": "arc-agi-2",
+    "score": 0.2917,
+    "config": "Semi-Private Eval, CoT, cost/task $0.27",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v2",
+      "arcprize_dataset_id": "v2_Semi_Private",
+      "arcprize_model_id": "gpt-5-4-low",
+      "arcprize_model_display_name": "GPT-5.4 (Low)",
+      "provider": "OpenAI",
+      "generated_at": "2026-06-24T22:54:59.140Z",
+      "model_type": "CoT",
+      "model_group": "gpt-5-4",
+      "cost_per_task": 0.27
+    }
+  },
+  {
+    "model_id": "gpt-5-2-2025-12-11-thinking-medium",
+    "benchmark_id": "arc-agi-2",
+    "score": 0.2667,
+    "config": "Semi-Private Eval, CoT, cost/task $0.7594",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v2",
+      "arcprize_dataset_id": "v2_Semi_Private",
+      "arcprize_model_id": "gpt-5-2-2025-12-11-thinking-medium",
+      "arcprize_model_display_name": "GPT-5.2 (Medium)",
+      "provider": "OpenAI",
+      "generated_at": "2026-06-24T22:54:59.140Z",
+      "model_type": "CoT",
+      "model_group": "gpt-5-2-2025-12-11-thinking",
+      "cost_per_task": 0.7594
+    }
+  },
+  {
+    "model_id": "claude-opus-4-5-20251101-thinking-16k",
+    "benchmark_id": "arc-agi-2",
+    "score": 0.2278,
+    "config": "Semi-Private Eval, CoT, cost/task $0.79",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v2",
+      "arcprize_dataset_id": "v2_Semi_Private",
+      "arcprize_model_id": "claude-opus-4-5-20251101-thinking-16k",
+      "arcprize_model_display_name": "Opus 4.5 (Thinking, 16K)",
+      "provider": "Anthropic",
+      "generated_at": "2026-06-24T22:54:59.140Z",
+      "model_type": "CoT",
+      "model_group": "opus-4-5-thinking",
+      "cost_per_task": 0.79
+    }
+  },
+  {
+    "model_id": "glm-5.2",
+    "benchmark_id": "arc-agi-2",
+    "score": 0.22775,
+    "config": "Semi-Private Eval, CoT, cost/task $0.2501",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v2",
+      "arcprize_dataset_id": "v2_Semi_Private",
+      "arcprize_model_id": "glm-5.2",
+      "arcprize_model_display_name": "GLM-5.2",
+      "provider": "Z.ai",
+      "generated_at": "2026-06-24T22:54:59.140Z",
+      "model_type": "CoT",
+      "cost_per_task": 0.2501
+    }
+  },
+  {
+    "model_id": "gpt-5-4-mini-xhigh",
+    "benchmark_id": "arc-agi-2",
+    "score": 0.189,
+    "config": "Semi-Private Eval, CoT, cost/task $0.75",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v2",
+      "arcprize_dataset_id": "v2_Semi_Private",
+      "arcprize_model_id": "gpt-5-4-mini-xhigh",
+      "arcprize_model_display_name": "GPT-5.4 Mini (xHigh)",
+      "provider": "OpenAI",
+      "generated_at": "2026-06-24T22:54:59.140Z",
+      "model_type": "CoT",
+      "model_group": "gpt-5-4-mini-reasoning",
+      "cost_per_task": 0.75
+    }
+  },
+  {
+    "model_id": "gpt-5-pro-2025-10-06",
+    "benchmark_id": "arc-agi-2",
+    "score": 0.1833,
+    "config": "Semi-Private Eval, CoT, cost/task $7.1432",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v2",
+      "arcprize_dataset_id": "v2_Semi_Private",
+      "arcprize_model_id": "gpt-5-pro-2025-10-06",
+      "arcprize_model_display_name": "GPT-5 Pro",
+      "provider": "OpenAI",
+      "generated_at": "2026-06-24T22:54:59.140Z",
+      "model_type": "CoT",
+      "cost_per_task": 7.1432
+    }
+  },
+  {
+    "model_id": "gpt-5-1-2025-11-13-thinking-high",
+    "benchmark_id": "arc-agi-2",
+    "score": 0.1764,
+    "config": "Semi-Private Eval, CoT, cost/task $1.1704",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v2",
+      "arcprize_dataset_id": "v2_Semi_Private",
+      "arcprize_model_id": "gpt-5-1-2025-11-13-thinking-high",
+      "arcprize_model_display_name": "GPT-5.1 (Thinking, High)",
+      "provider": "OpenAI",
+      "generated_at": "2026-06-24T22:54:59.140Z",
+      "model_type": "CoT",
+      "model_group": "gpt-5-1-reasoning",
+      "cost_per_task": 1.1704
+    }
+  },
+  {
+    "model_id": "grok-4-0709",
+    "benchmark_id": "arc-agi-2",
+    "score": 0.15975,
+    "config": "Semi-Private Eval, CoT, cost/task $2.1659",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v2",
+      "arcprize_dataset_id": "v2_Semi_Private",
+      "arcprize_model_id": "grok-4-0709",
+      "arcprize_model_display_name": "Grok 4 (Thinking)",
+      "provider": "xAI",
+      "generated_at": "2026-06-24T22:54:59.140Z",
+      "model_type": "CoT",
+      "cost_per_task": 2.1659
+    }
+  },
+  {
+    "model_id": "claude-opus-4-5-20251101-thinking-8k",
+    "benchmark_id": "arc-agi-2",
+    "score": 0.1389,
+    "config": "Semi-Private Eval, CoT, cost/task $0.48",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v2",
+      "arcprize_dataset_id": "v2_Semi_Private",
+      "arcprize_model_id": "claude-opus-4-5-20251101-thinking-8k",
+      "arcprize_model_display_name": "Opus 4.5 (Thinking, 8K)",
+      "provider": "Anthropic",
+      "generated_at": "2026-06-24T22:54:59.140Z",
+      "model_type": "CoT",
+      "model_group": "opus-4-5-thinking",
+      "cost_per_task": 0.48
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4-5-20250929-thinking-32k",
+    "benchmark_id": "arc-agi-2",
+    "score": 0.1361,
+    "config": "Semi-Private Eval, CoT, cost/task $0.7589",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v2",
+      "arcprize_dataset_id": "v2_Semi_Private",
+      "arcprize_model_id": "claude-sonnet-4-5-20250929-thinking-32k",
+      "arcprize_model_display_name": "Claude Sonnet 4.5 (Thinking 32K)",
+      "provider": "Anthropic",
+      "generated_at": "2026-06-24T22:54:59.140Z",
+      "model_type": "CoT",
+      "model_group": "claude-sonnet-4-5-20250929",
+      "cost_per_task": 0.7589
+    }
+  },
+  {
+    "model_id": "gpt-5-4-mini-high",
+    "benchmark_id": "arc-agi-2",
+    "score": 0.1319,
+    "config": "Semi-Private Eval, CoT, cost/task $0.56",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v2",
+      "arcprize_dataset_id": "v2_Semi_Private",
+      "arcprize_model_id": "gpt-5-4-mini-high",
+      "arcprize_model_display_name": "GPT-5.4 Mini (High)",
+      "provider": "OpenAI",
+      "generated_at": "2026-06-24T22:54:59.140Z",
+      "model_type": "CoT",
+      "model_group": "gpt-5-4-mini-reasoning",
+      "cost_per_task": 0.56
+    }
+  },
+  {
+    "model_id": "gemini-3-flash-preview-thinking-medium",
+    "benchmark_id": "arc-agi-2",
+    "score": 0.1278,
+    "config": "Semi-Private Eval, CoT, cost/task $0.0824",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v2",
+      "arcprize_dataset_id": "v2_Semi_Private",
+      "arcprize_model_id": "gemini-3-flash-preview-thinking-medium",
+      "arcprize_model_display_name": "Gemini 3 Flash Preview (Medium)",
+      "provider": "Google",
+      "generated_at": "2026-06-24T22:54:59.140Z",
+      "model_type": "CoT",
+      "model_group": "gemini-3-flash-preview-thinking",
+      "cost_per_task": 0.0824
+    }
+  },
+  {
+    "model_id": "kimi-k2.5",
+    "benchmark_id": "arc-agi-2",
+    "score": 0.1181,
+    "config": "Semi-Private Eval, CoT, cost/task $0.28",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v2",
+      "arcprize_dataset_id": "v2_Semi_Private",
+      "arcprize_model_id": "kimi-k2.5",
+      "arcprize_model_display_name": "Kimi K2.5",
+      "provider": "Moonshot AI",
+      "generated_at": "2026-06-24T22:54:59.140Z",
+      "model_type": "CoT",
+      "cost_per_task": 0.28
+    }
+  },
+  {
+    "model_id": "gpt-5-2025-08-07-high",
+    "benchmark_id": "arc-agi-2",
+    "score": 0.0986,
+    "config": "Semi-Private Eval, CoT, cost/task $0.7302",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v2",
+      "arcprize_dataset_id": "v2_Semi_Private",
+      "arcprize_model_id": "gpt-5-2025-08-07-high",
+      "arcprize_model_display_name": "GPT-5 (High)",
+      "provider": "OpenAI",
+      "generated_at": "2026-06-24T22:54:59.140Z",
+      "model_type": "CoT",
+      "model_group": "gpt-5-reasoning",
+      "cost_per_task": 0.7302
+    }
+  },
+  {
+    "model_id": "gpt-5-2-2025-12-11-thinking-low",
+    "benchmark_id": "arc-agi-2",
+    "score": 0.0972,
+    "config": "Semi-Private Eval, CoT, cost/task $0.2642",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v2",
+      "arcprize_dataset_id": "v2_Semi_Private",
+      "arcprize_model_id": "gpt-5-2-2025-12-11-thinking-low",
+      "arcprize_model_display_name": "GPT-5.2 (Low)",
+      "provider": "OpenAI",
+      "generated_at": "2026-06-24T22:54:59.140Z",
+      "model_type": "CoT",
+      "model_group": "gpt-5-2-2025-12-11-thinking",
+      "cost_per_task": 0.2642
+    }
+  },
+  {
+    "model_id": "gemini-3-5-flash-minimal",
+    "benchmark_id": "arc-agi-2",
+    "score": 0.0889,
+    "config": "Semi-Private Eval, CoT, cost/task $0.1074",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v2",
+      "arcprize_dataset_id": "v2_Semi_Private",
+      "arcprize_model_id": "gemini-3-5-flash-minimal",
+      "arcprize_model_display_name": "Gemini 3.5 Flash (Minimal)",
+      "provider": "Google",
+      "generated_at": "2026-06-24T22:54:59.140Z",
+      "model_type": "CoT",
+      "model_group": "gemini-3-5-flash",
+      "cost_per_task": 0.1074
+    }
+  },
+  {
+    "model_id": "claude-opus-4-20250514-thinking-16k",
+    "benchmark_id": "arc-agi-2",
+    "score": 0.0861,
+    "config": "Semi-Private Eval, CoT, cost/task $1.9284",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v2",
+      "arcprize_dataset_id": "v2_Semi_Private",
+      "arcprize_model_id": "claude-opus-4-20250514-thinking-16k",
+      "arcprize_model_display_name": "Claude Opus 4 (Thinking 16K)",
+      "provider": "Anthropic",
+      "generated_at": "2026-06-24T22:54:59.140Z",
+      "model_type": "CoT",
+      "model_group": "claude-opus-4-20250514-thinking",
+      "cost_per_task": 1.9284
+    }
+  },
+  {
+    "model_id": "claude-opus-4-5-20251101-thinking-none",
+    "benchmark_id": "arc-agi-2",
+    "score": 0.0778,
+    "config": "Semi-Private Eval, CoT, cost/task $0.22",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v2",
+      "arcprize_dataset_id": "v2_Semi_Private",
+      "arcprize_model_id": "claude-opus-4-5-20251101-thinking-none",
+      "arcprize_model_display_name": "Opus 4.5 (Thinking, None)",
+      "provider": "Anthropic",
+      "generated_at": "2026-06-24T22:54:59.140Z",
+      "model_type": "CoT",
+      "model_group": "opus-4-5-thinking",
+      "cost_per_task": 0.22
+    }
+  },
+  {
+    "model_id": "gpt-5-2025-08-07-medium",
+    "benchmark_id": "arc-agi-2",
+    "score": 0.0749,
+    "config": "Semi-Private Eval, CoT, cost/task $0.4486",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v2",
+      "arcprize_dataset_id": "v2_Semi_Private",
+      "arcprize_model_id": "gpt-5-2025-08-07-medium",
+      "arcprize_model_display_name": "GPT-5 (Medium)",
+      "provider": "OpenAI",
+      "generated_at": "2026-06-24T22:54:59.140Z",
+      "model_type": "CoT",
+      "model_group": "gpt-5-reasoning",
+      "cost_per_task": 0.4486
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4-5-20250929-thinking-8k",
+    "benchmark_id": "arc-agi-2",
+    "score": 0.0694,
+    "config": "Semi-Private Eval, CoT, cost/task $0.2349",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v2",
+      "arcprize_dataset_id": "v2_Semi_Private",
+      "arcprize_model_id": "claude-sonnet-4-5-20250929-thinking-8k",
+      "arcprize_model_display_name": "Claude Sonnet 4.5 (Thinking 8K)",
+      "provider": "Anthropic",
+      "generated_at": "2026-06-24T22:54:59.140Z",
+      "model_type": "CoT",
+      "model_group": "claude-sonnet-4-5-20250929",
+      "cost_per_task": 0.2349
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4-5-20250929-thinking-16k",
+    "benchmark_id": "arc-agi-2",
+    "score": 0.0694,
+    "config": "Semi-Private Eval, CoT, cost/task $0.3499",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v2",
+      "arcprize_dataset_id": "v2_Semi_Private",
+      "arcprize_model_id": "claude-sonnet-4-5-20250929-thinking-16k",
+      "arcprize_model_display_name": "Claude Sonnet 4.5 (Thinking 16K)",
+      "provider": "Anthropic",
+      "generated_at": "2026-06-24T22:54:59.140Z",
+      "model_type": "CoT",
+      "model_group": "claude-sonnet-4-5-20250929",
+      "cost_per_task": 0.3499
+    }
+  },
+  {
+    "model_id": "o3-2025-04-16-high",
+    "benchmark_id": "arc-agi-2",
+    "score": 0.0653,
+    "config": "Semi-Private Eval, CoT, cost/task $0.8339",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v2",
+      "arcprize_dataset_id": "v2_Semi_Private",
+      "arcprize_model_id": "o3-2025-04-16-high",
+      "arcprize_model_display_name": "o3 (High)",
+      "provider": "OpenAI",
+      "generated_at": "2026-06-24T22:54:59.140Z",
+      "model_type": "CoT",
+      "model_group": "o3",
+      "cost_per_task": 0.8339
+    }
+  },
+  {
+    "model_id": "gpt-5-1-2025-11-13-thinking-medium",
+    "benchmark_id": "arc-agi-2",
+    "score": 0.0653,
+    "config": "Semi-Private Eval, CoT, cost/task $0.4206",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v2",
+      "arcprize_dataset_id": "v2_Semi_Private",
+      "arcprize_model_id": "gpt-5-1-2025-11-13-thinking-medium",
+      "arcprize_model_display_name": "GPT-5.1 (Thinking, Medium)",
+      "provider": "OpenAI",
+      "generated_at": "2026-06-24T22:54:59.140Z",
+      "model_type": "CoT",
+      "model_group": "gpt-5-1-reasoning",
+      "cost_per_task": 0.4206
+    }
+  },
+  {
+    "model_id": "trm-2025-10-07",
+    "benchmark_id": "arc-agi-2",
+    "score": 0.0625,
+    "config": "Semi-Private Eval, cost/task $2.1",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v2",
+      "arcprize_dataset_id": "v2_Semi_Private",
+      "arcprize_model_id": "trm-2025-10-07",
+      "arcprize_model_display_name": "Tiny Recursion Model (TRM)",
+      "provider": "Bespoke",
+      "generated_at": "2026-06-24T22:54:59.140Z",
+      "cost_per_task": 2.1
+    }
+  },
+  {
+    "model_id": "o4-mini-2025-04-16-high",
+    "benchmark_id": "arc-agi-2",
+    "score": 0.0611,
+    "config": "Semi-Private Eval, CoT, cost/task $0.856",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v2",
+      "arcprize_dataset_id": "v2_Semi_Private",
+      "arcprize_model_id": "o4-mini-2025-04-16-high",
+      "arcprize_model_display_name": "o4-mini (High)",
+      "provider": "OpenAI",
+      "generated_at": "2026-06-24T22:54:59.140Z",
+      "model_type": "CoT",
+      "model_group": "o4-mini",
+      "cost_per_task": 0.856
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4-20250514-thinking-16k-bedrock",
+    "benchmark_id": "arc-agi-2",
+    "score": 0.0593,
+    "config": "Semi-Private Eval, CoT, cost/task $0.4857",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v2",
+      "arcprize_dataset_id": "v2_Semi_Private",
+      "arcprize_model_id": "claude-sonnet-4-20250514-thinking-16k-bedrock",
+      "arcprize_model_display_name": "Claude Sonnet 4 (Thinking 16K)",
+      "provider": "Anthropic",
+      "generated_at": "2026-06-24T22:54:59.140Z",
+      "model_type": "CoT",
+      "model_group": "claude-sonnet-4-20250514-thinking",
+      "cost_per_task": 0.4857
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4-5-20250929-thinking-1k",
+    "benchmark_id": "arc-agi-2",
+    "score": 0.0583,
+    "config": "Semi-Private Eval, CoT, cost/task $0.1424",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v2",
+      "arcprize_dataset_id": "v2_Semi_Private",
+      "arcprize_model_id": "claude-sonnet-4-5-20250929-thinking-1k",
+      "arcprize_model_display_name": "Claude Sonnet 4.5 (Thinking 1K)",
+      "provider": "Anthropic",
+      "generated_at": "2026-06-24T22:54:59.140Z",
+      "model_type": "CoT",
+      "model_group": "claude-sonnet-4-5-20250929",
+      "cost_per_task": 0.1424
+    }
+  },
+  {
+    "model_id": "gpt-5-4-nano-xhigh",
+    "benchmark_id": "arc-agi-2",
+    "score": 0.0569,
+    "config": "Semi-Private Eval, CoT, cost/task $0.16",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v2",
+      "arcprize_dataset_id": "v2_Semi_Private",
+      "arcprize_model_id": "gpt-5-4-nano-xhigh",
+      "arcprize_model_display_name": "GPT-5.4 Nano (xHigh)",
+      "provider": "OpenAI",
+      "generated_at": "2026-06-24T22:54:59.140Z",
+      "model_type": "CoT",
+      "model_group": "gpt-5-4-nano-reasoning",
+      "cost_per_task": 0.16
+    }
+  },
+  {
+    "model_id": "grok-4-fast-reasoning",
+    "benchmark_id": "arc-agi-2",
+    "score": 0.0528,
+    "config": "Semi-Private Eval, CoT, cost/task $0.061",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v2",
+      "arcprize_dataset_id": "v2_Semi_Private",
+      "arcprize_model_id": "grok-4-fast-reasoning",
+      "arcprize_model_display_name": "Grok 4 (Fast Reasoning)",
+      "provider": "xAI",
+      "generated_at": "2026-06-24T22:54:59.140Z",
+      "model_type": "CoT",
+      "model_group": "grok-4-0709",
+      "cost_per_task": 0.061
+    }
+  },
+  {
+    "model_id": "o3-pro-2025-06-10-high",
+    "benchmark_id": "arc-agi-2",
+    "score": 0.0486,
+    "config": "Semi-Private Eval, CoT + Synthesis, cost/task $7.5516",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v2",
+      "arcprize_dataset_id": "v2_Semi_Private",
+      "arcprize_model_id": "o3-pro-2025-06-10-high",
+      "arcprize_model_display_name": "o3-Pro (High)",
+      "provider": "OpenAI",
+      "generated_at": "2026-06-24T22:54:59.140Z",
+      "model_type": "CoT + Synthesis",
+      "model_group": "o3-pro",
+      "cost_per_task": 7.5516
+    }
+  },
+  {
+    "model_id": "gemini-2-5-pro-2025-06-17-thinking-32k",
+    "benchmark_id": "arc-agi-2",
+    "score": 0.0486,
+    "config": "Semi-Private Eval, CoT, cost/task $0.757",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v2",
+      "arcprize_dataset_id": "v2_Semi_Private",
+      "arcprize_model_id": "gemini-2-5-pro-2025-06-17-thinking-32k",
+      "arcprize_model_display_name": "Gemini 2.5 Pro (Thinking 32K)",
+      "provider": "Google",
+      "generated_at": "2026-06-24T22:54:59.140Z",
+      "model_type": "CoT",
+      "model_group": "gemini-2-5-pro-2025-06-17-thinking",
+      "cost_per_task": 0.757
+    }
+  },
+  {
+    "model_id": "minimax-m2.5",
+    "benchmark_id": "arc-agi-2",
+    "score": 0.0486,
+    "config": "Semi-Private Eval, CoT, cost/task $0.17",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v2",
+      "arcprize_dataset_id": "v2_Semi_Private",
+      "arcprize_model_id": "minimax-m2.5",
+      "arcprize_model_display_name": "Minimax M2.5",
+      "provider": "Minimax",
+      "generated_at": "2026-06-24T22:54:59.140Z",
+      "model_type": "CoT",
+      "cost_per_task": 0.17
+    }
+  },
+  {
+    "model_id": "glm-5",
+    "benchmark_id": "arc-agi-2",
+    "score": 0.0486,
+    "config": "Semi-Private Eval, CoT, cost/task $0.27",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v2",
+      "arcprize_dataset_id": "v2_Semi_Private",
+      "arcprize_model_id": "glm-5",
+      "arcprize_model_display_name": "GLM-5",
+      "provider": "Z.ai",
+      "generated_at": "2026-06-24T22:54:59.140Z",
+      "model_type": "CoT",
+      "cost_per_task": 0.27
+    }
+  },
+  {
+    "model_id": "claude-opus-4-20250514-thinking-8k",
+    "benchmark_id": "arc-agi-2",
+    "score": 0.0452,
+    "config": "Semi-Private Eval, CoT, cost/task $1.1569",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v2",
+      "arcprize_dataset_id": "v2_Semi_Private",
+      "arcprize_model_id": "claude-opus-4-20250514-thinking-8k",
+      "arcprize_model_display_name": "Claude Opus 4 (Thinking 8K)",
+      "provider": "Anthropic",
+      "generated_at": "2026-06-24T22:54:59.140Z",
+      "model_type": "CoT",
+      "model_group": "claude-opus-4-20250514-thinking",
+      "cost_per_task": 1.1569
+    }
+  },
+  {
+    "model_id": "gpt-5-mini-2025-08-07-high",
+    "benchmark_id": "arc-agi-2",
+    "score": 0.0444,
+    "config": "Semi-Private Eval, CoT, cost/task $0.1977",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v2",
+      "arcprize_dataset_id": "v2_Semi_Private",
+      "arcprize_model_id": "gpt-5-mini-2025-08-07-high",
+      "arcprize_model_display_name": "GPT-5 Mini (High)",
+      "provider": "OpenAI",
+      "generated_at": "2026-06-24T22:54:59.140Z",
+      "model_type": "CoT",
+      "model_group": "gpt-5-mini-reasoning",
+      "cost_per_task": 0.1977
+    }
+  },
+  {
+    "model_id": "gpt-5-4-mini-medium",
+    "benchmark_id": "arc-agi-2",
+    "score": 0.0444,
+    "config": "Semi-Private Eval, CoT, cost/task $0.33",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v2",
+      "arcprize_dataset_id": "v2_Semi_Private",
+      "arcprize_model_id": "gpt-5-4-mini-medium",
+      "arcprize_model_display_name": "GPT-5.4 Mini (Medium)",
+      "provider": "OpenAI",
+      "generated_at": "2026-06-24T22:54:59.140Z",
+      "model_type": "CoT",
+      "model_group": "gpt-5-4-mini-reasoning",
+      "cost_per_task": 0.33
+    }
+  },
+  {
+    "model_id": "gemini-2-5-pro-2025-06-17-thinking-16k",
+    "benchmark_id": "arc-agi-2",
+    "score": 0.0403,
+    "config": "Semi-Private Eval, CoT, cost/task $0.7145",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v2",
+      "arcprize_dataset_id": "v2_Semi_Private",
+      "arcprize_model_id": "gemini-2-5-pro-2025-06-17-thinking-16k",
+      "arcprize_model_display_name": "Gemini 2.5 Pro (Thinking 16K)",
+      "provider": "Google",
+      "generated_at": "2026-06-24T22:54:59.140Z",
+      "model_type": "CoT",
+      "model_group": "gemini-2-5-pro-2025-06-17-thinking",
+      "cost_per_task": 0.7145
+    }
+  },
+  {
+    "model_id": "gpt-5-mini-2025-08-07-medium",
+    "benchmark_id": "arc-agi-2",
+    "score": 0.0403,
+    "config": "Semi-Private Eval, CoT, cost/task $0.0629",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v2",
+      "arcprize_dataset_id": "v2_Semi_Private",
+      "arcprize_model_id": "gpt-5-mini-2025-08-07-medium",
+      "arcprize_model_display_name": "GPT-5 Mini (Medium)",
+      "provider": "OpenAI",
+      "generated_at": "2026-06-24T22:54:59.140Z",
+      "model_type": "CoT",
+      "model_group": "gpt-5-mini-reasoning",
+      "cost_per_task": 0.0629
+    }
+  },
+  {
+    "model_id": "claude-haiku-4-5-20251001-thinking-32k",
+    "benchmark_id": "arc-agi-2",
+    "score": 0.0403,
+    "config": "Semi-Private Eval, CoT, cost/task $0.3766",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v2",
+      "arcprize_dataset_id": "v2_Semi_Private",
+      "arcprize_model_id": "claude-haiku-4-5-20251001-thinking-32k",
+      "arcprize_model_display_name": "Claude Haiku 4.5 (Thinking 32K)",
+      "provider": "Anthropic",
+      "generated_at": "2026-06-24T22:54:59.140Z",
+      "model_type": "CoT",
+      "model_group": "claude-haiku-4-5-20251001",
+      "cost_per_task": 0.3766
+    }
+  },
+  {
+    "model_id": "deepseek-v3.2",
+    "benchmark_id": "arc-agi-2",
+    "score": 0.0403,
+    "config": "Semi-Private Eval, Base LLM, cost/task $0.12",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v2",
+      "arcprize_dataset_id": "v2_Semi_Private",
+      "arcprize_model_id": "deepseek-v3.2",
+      "arcprize_model_display_name": "Deepseek V3.2",
+      "provider": "Deepseek",
+      "generated_at": "2026-06-24T22:54:59.140Z",
+      "model_type": "Base LLM",
+      "cost_per_task": 0.12
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4-5-20250929",
+    "benchmark_id": "arc-agi-2",
+    "score": 0.0375,
+    "config": "Semi-Private Eval, Base LLM, cost/task $0.1295",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v2",
+      "arcprize_dataset_id": "v2_Semi_Private",
+      "arcprize_model_id": "claude-sonnet-4-5-20250929",
+      "arcprize_model_display_name": "Claude Sonnet 4.5",
+      "provider": "Anthropic",
+      "generated_at": "2026-06-24T22:54:59.140Z",
+      "model_type": "Base LLM",
+      "model_group": "claude-sonnet-4-5-20250929",
+      "cost_per_task": 0.1295
+    }
+  },
+  {
+    "model_id": "gpt-5-4-nano-high",
+    "benchmark_id": "arc-agi-2",
+    "score": 0.0361,
+    "config": "Semi-Private Eval, CoT, cost/task $0.13",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v2",
+      "arcprize_dataset_id": "v2_Semi_Private",
+      "arcprize_model_id": "gpt-5-4-nano-high",
+      "arcprize_model_display_name": "GPT-5.4 Nano (High)",
+      "provider": "OpenAI",
+      "generated_at": "2026-06-24T22:54:59.140Z",
+      "model_type": "CoT",
+      "model_group": "gpt-5-4-nano-reasoning",
+      "cost_per_task": 0.13
+    }
+  },
+  {
+    "model_id": "gemini-3-flash-preview-thinking-minimal",
+    "benchmark_id": "arc-agi-2",
+    "score": 0.0333,
+    "config": "Semi-Private Eval, CoT, cost/task $0.0205",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v2",
+      "arcprize_dataset_id": "v2_Semi_Private",
+      "arcprize_model_id": "gemini-3-flash-preview-thinking-minimal",
+      "arcprize_model_display_name": "Gemini 3 Flash Preview (Minimal)",
+      "provider": "Google",
+      "generated_at": "2026-06-24T22:54:59.140Z",
+      "model_type": "CoT",
+      "model_group": "gemini-3-flash-preview-thinking",
+      "cost_per_task": 0.0205
+    }
+  },
+  {
+    "model_id": "o3-mini-2025-01-31-high",
+    "benchmark_id": "arc-agi-2",
+    "score": 0.0299,
+    "config": "Semi-Private Eval, CoT, cost/task $0.5472",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v2",
+      "arcprize_dataset_id": "v2_Semi_Private",
+      "arcprize_model_id": "o3-mini-2025-01-31-high",
+      "arcprize_model_display_name": "o3-mini (High)",
+      "provider": "OpenAI",
+      "generated_at": "2026-06-24T22:54:59.140Z",
+      "model_type": "CoT",
+      "model_group": "o3-mini",
+      "cost_per_task": 0.5472
+    }
+  },
+  {
+    "model_id": "o3-2025-04-16-medium",
+    "benchmark_id": "arc-agi-2",
+    "score": 0.0298,
+    "config": "Semi-Private Eval, CoT, cost/task $0.4787",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v2",
+      "arcprize_dataset_id": "v2_Semi_Private",
+      "arcprize_model_id": "o3-2025-04-16-medium",
+      "arcprize_model_display_name": "o3 (Medium)",
+      "provider": "OpenAI",
+      "generated_at": "2026-06-24T22:54:59.140Z",
+      "model_type": "CoT",
+      "model_group": "o3",
+      "cost_per_task": 0.4787
+    }
+  },
+  {
+    "model_id": "gemini-2-5-pro-2025-06-17-thinking-8k",
+    "benchmark_id": "arc-agi-2",
+    "score": 0.0292,
+    "config": "Semi-Private Eval, CoT, cost/task $0.4439",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v2",
+      "arcprize_dataset_id": "v2_Semi_Private",
+      "arcprize_model_id": "gemini-2-5-pro-2025-06-17-thinking-8k",
+      "arcprize_model_display_name": "Gemini 2.5 Pro (Thinking 8K)",
+      "provider": "Google",
+      "generated_at": "2026-06-24T22:54:59.140Z",
+      "model_type": "CoT",
+      "model_group": "gemini-2-5-pro-2025-06-17-thinking",
+      "cost_per_task": 0.4439
+    }
+  },
+  {
+    "model_id": "claude-haiku-4-5-20251001-thinking-16k",
+    "benchmark_id": "arc-agi-2",
+    "score": 0.0278,
+    "config": "Semi-Private Eval, CoT, cost/task $0.1392",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v2",
+      "arcprize_dataset_id": "v2_Semi_Private",
+      "arcprize_model_id": "claude-haiku-4-5-20251001-thinking-16k",
+      "arcprize_model_display_name": "Claude Haiku 4.5 (Thinking 16K)",
+      "provider": "Anthropic",
+      "generated_at": "2026-06-24T22:54:59.140Z",
+      "model_type": "CoT",
+      "model_group": "claude-haiku-4-5-20251001",
+      "cost_per_task": 0.1392
+    }
+  },
+  {
+    "model_id": "gpt-5-nano-2025-08-07-high",
+    "benchmark_id": "arc-agi-2",
+    "score": 0.0261,
+    "config": "Semi-Private Eval, CoT, cost/task $0.0295",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v2",
+      "arcprize_dataset_id": "v2_Semi_Private",
+      "arcprize_model_id": "gpt-5-nano-2025-08-07-high",
+      "arcprize_model_display_name": "GPT-5 Nano (High)",
+      "provider": "OpenAI",
+      "generated_at": "2026-06-24T22:54:59.140Z",
+      "model_type": "CoT",
+      "model_group": "gpt-5-nano-reasoning",
+      "cost_per_task": 0.0295
+    }
+  },
+  {
+    "model_id": "gemini-2-5-flash-preview-05-20-thinking-24k",
+    "benchmark_id": "arc-agi-2",
+    "score": 0.0254,
+    "config": "Semi-Private Eval, CoT, cost/task $0.3191",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v2",
+      "arcprize_dataset_id": "v2_Semi_Private",
+      "arcprize_model_id": "gemini-2-5-flash-preview-05-20-thinking-24k",
+      "arcprize_model_display_name": "Gemini 2.5 Flash (Preview) (Thinking 24K)",
+      "provider": "Google",
+      "generated_at": "2026-06-24T22:54:59.140Z",
+      "model_type": "CoT",
+      "model_group": "gemini-2-5-flash-preview-05-20-thinking",
+      "cost_per_task": 0.3191
+    }
+  },
+  {
+    "model_id": "o4-mini-2025-04-16-medium",
+    "benchmark_id": "arc-agi-2",
+    "score": 0.0236,
+    "config": "Semi-Private Eval, CoT, cost/task $0.2311",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v2",
+      "arcprize_dataset_id": "v2_Semi_Private",
+      "arcprize_model_id": "o4-mini-2025-04-16-medium",
+      "arcprize_model_display_name": "o4-mini (Medium)",
+      "provider": "OpenAI",
+      "generated_at": "2026-06-24T22:54:59.140Z",
+      "model_type": "CoT",
+      "model_group": "o4-mini",
+      "cost_per_task": 0.2311
+    }
+  },
+  {
+    "model_id": "gemini-2-5-flash-preview-05-20-thinking-1k",
+    "benchmark_id": "arc-agi-2",
+    "score": 0.0216,
+    "config": "Semi-Private Eval, CoT, cost/task $0.0302",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v2",
+      "arcprize_dataset_id": "v2_Semi_Private",
+      "arcprize_model_id": "gemini-2-5-flash-preview-05-20-thinking-1k",
+      "arcprize_model_display_name": "Gemini 2.5 Flash (Preview) (Thinking 1K)",
+      "provider": "Google",
+      "generated_at": "2026-06-24T22:54:59.140Z",
+      "model_type": "CoT",
+      "model_group": "gemini-2-5-flash-preview-05-20-thinking",
+      "cost_per_task": 0.0302
+    }
+  },
+  {
+    "model_id": "gemini-2-5-flash-preview-05-20-thinking-8k",
+    "benchmark_id": "arc-agi-2",
+    "score": 0.0212,
+    "config": "Semi-Private Eval, CoT, cost/task $0.1994",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v2",
+      "arcprize_dataset_id": "v2_Semi_Private",
+      "arcprize_model_id": "gemini-2-5-flash-preview-05-20-thinking-8k",
+      "arcprize_model_display_name": "Gemini 2.5 Flash (Preview) (Thinking 8K)",
+      "provider": "Google",
+      "generated_at": "2026-06-24T22:54:59.140Z",
+      "model_type": "CoT",
+      "model_group": "gemini-2-5-flash-preview-05-20-thinking",
+      "cost_per_task": 0.1994
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4-20250514-thinking-8k-bedrock",
+    "benchmark_id": "arc-agi-2",
+    "score": 0.0212,
+    "config": "Semi-Private Eval, CoT, cost/task $0.2654",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v2",
+      "arcprize_dataset_id": "v2_Semi_Private",
+      "arcprize_model_id": "claude-sonnet-4-20250514-thinking-8k-bedrock",
+      "arcprize_model_display_name": "Claude Sonnet 4 (Thinking 8K)",
+      "provider": "Anthropic",
+      "generated_at": "2026-06-24T22:54:59.140Z",
+      "model_type": "CoT",
+      "model_group": "claude-sonnet-4-20250514-thinking",
+      "cost_per_task": 0.2654
+    }
+  },
+  {
+    "model_id": "o3-mini-2025-01-31-medium",
+    "benchmark_id": "arc-agi-2",
+    "score": 0.0208,
+    "config": "Semi-Private Eval, CoT, cost/task $0.2843",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v2",
+      "arcprize_dataset_id": "v2_Semi_Private",
+      "arcprize_model_id": "o3-mini-2025-01-31-medium",
+      "arcprize_model_display_name": "o3-mini (Medium)",
+      "provider": "OpenAI",
+      "generated_at": "2026-06-24T22:54:59.140Z",
+      "model_type": "CoT",
+      "model_group": "o3-mini",
+      "cost_per_task": 0.2843
+    }
+  },
+  {
+    "model_id": "o3-pro-2025-06-10-low",
+    "benchmark_id": "arc-agi-2",
+    "score": 0.0205,
+    "config": "Semi-Private Eval, CoT + Synthesis, cost/task $2.2293",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v2",
+      "arcprize_dataset_id": "v2_Semi_Private",
+      "arcprize_model_id": "o3-pro-2025-06-10-low",
+      "arcprize_model_display_name": "o3-Pro (Low)",
+      "provider": "OpenAI",
+      "generated_at": "2026-06-24T22:54:59.140Z",
+      "model_type": "CoT + Synthesis",
+      "model_group": "o3-pro",
+      "cost_per_task": 2.2293
+    }
+  },
+  {
+    "model_id": "o3-2025-04-16-low",
+    "benchmark_id": "arc-agi-2",
+    "score": 0.0199,
+    "config": "Semi-Private Eval, CoT, cost/task $0.2343",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v2",
+      "arcprize_dataset_id": "v2_Semi_Private",
+      "arcprize_model_id": "o3-2025-04-16-low",
+      "arcprize_model_display_name": "o3 (Low)",
+      "provider": "OpenAI",
+      "generated_at": "2026-06-24T22:54:59.140Z",
+      "model_type": "CoT",
+      "model_group": "o3",
+      "cost_per_task": 0.2343
+    }
+  },
+  {
+    "model_id": "gemini-2-5-flash-preview-05-20-thinking-16k",
+    "benchmark_id": "arc-agi-2",
+    "score": 0.0198,
+    "config": "Semi-Private Eval, CoT, cost/task $0.3173",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v2",
+      "arcprize_dataset_id": "v2_Semi_Private",
+      "arcprize_model_id": "gemini-2-5-flash-preview-05-20-thinking-16k",
+      "arcprize_model_display_name": "Gemini 2.5 Flash (Preview) (Thinking 16K)",
+      "provider": "Google",
+      "generated_at": "2026-06-24T22:54:59.140Z",
+      "model_type": "CoT",
+      "model_group": "gemini-2-5-flash-preview-05-20-thinking",
+      "cost_per_task": 0.3173
+    }
+  },
+  {
+    "model_id": "o3-pro-2025-06-10-medium",
+    "benchmark_id": "arc-agi-2",
+    "score": 0.0194,
+    "config": "Semi-Private Eval, CoT + Synthesis, cost/task $4.7441",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v2",
+      "arcprize_dataset_id": "v2_Semi_Private",
+      "arcprize_model_id": "o3-pro-2025-06-10-medium",
+      "arcprize_model_display_name": "o3-Pro (Medium)",
+      "provider": "OpenAI",
+      "generated_at": "2026-06-24T22:54:59.140Z",
+      "model_type": "CoT + Synthesis",
+      "model_group": "o3-pro",
+      "cost_per_task": 4.7441
+    }
+  },
+  {
+    "model_id": "gpt-5-2025-08-07-low",
+    "benchmark_id": "arc-agi-2",
+    "score": 0.0194,
+    "config": "Semi-Private Eval, CoT, cost/task $0.1896",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v2",
+      "arcprize_dataset_id": "v2_Semi_Private",
+      "arcprize_model_id": "gpt-5-2025-08-07-low",
+      "arcprize_model_display_name": "GPT-5 (Low)",
+      "provider": "OpenAI",
+      "generated_at": "2026-06-24T22:54:59.140Z",
+      "model_type": "CoT",
+      "model_group": "gpt-5-reasoning",
+      "cost_per_task": 0.1896
+    }
+  },
+  {
+    "model_id": "gpt-5-1-2025-11-13-thinking-low",
+    "benchmark_id": "arc-agi-2",
+    "score": 0.0194,
+    "config": "Semi-Private Eval, CoT, cost/task $0.129",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v2",
+      "arcprize_dataset_id": "v2_Semi_Private",
+      "arcprize_model_id": "gpt-5-1-2025-11-13-thinking-low",
+      "arcprize_model_display_name": "GPT-5.1 (Thinking, Low)",
+      "provider": "OpenAI",
+      "generated_at": "2026-06-24T22:54:59.140Z",
+      "model_type": "CoT",
+      "model_group": "gpt-5-1-reasoning",
+      "cost_per_task": 0.129
+    }
+  },
+  {
+    "model_id": "gpt-5-4-nano-medium",
+    "benchmark_id": "arc-agi-2",
+    "score": 0.0194,
+    "config": "Semi-Private Eval, CoT, cost/task $0.06",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v2",
+      "arcprize_dataset_id": "v2_Semi_Private",
+      "arcprize_model_id": "gpt-5-4-nano-medium",
+      "arcprize_model_display_name": "GPT-5.4 Nano (Medium)",
+      "provider": "OpenAI",
+      "generated_at": "2026-06-24T22:54:59.140Z",
+      "model_type": "CoT",
+      "model_group": "gpt-5-4-nano-reasoning",
+      "cost_per_task": 0.06
+    }
+  },
+  {
+    "model_id": "gemini-2-5-flash-preview-05-20",
+    "benchmark_id": "arc-agi-2",
+    "score": 0.0169,
+    "config": "Semi-Private Eval, CoT, cost/task $0.057",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v2",
+      "arcprize_dataset_id": "v2_Semi_Private",
+      "arcprize_model_id": "gemini-2-5-flash-preview-05-20",
+      "arcprize_model_display_name": "Gemini 2.5 Flash (Preview)",
+      "provider": "Google",
+      "generated_at": "2026-06-24T22:54:59.140Z",
+      "model_type": "CoT",
+      "cost_per_task": 0.057
+    }
+  },
+  {
+    "model_id": "o4-mini-2025-04-16-low",
+    "benchmark_id": "arc-agi-2",
+    "score": 0.0167,
+    "config": "Semi-Private Eval, CoT, cost/task $0.05",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v2",
+      "arcprize_dataset_id": "v2_Semi_Private",
+      "arcprize_model_id": "o4-mini-2025-04-16-low",
+      "arcprize_model_display_name": "o4-mini (Low)",
+      "provider": "OpenAI",
+      "generated_at": "2026-06-24T22:54:59.140Z",
+      "model_type": "CoT",
+      "model_group": "o4-mini",
+      "cost_per_task": 0.05
+    }
+  },
+  {
+    "model_id": "gpt-5-mini-2025-08-07-minimal",
+    "benchmark_id": "arc-agi-2",
+    "score": 0.0167,
+    "config": "Semi-Private Eval, CoT, cost/task $0.0094",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v2",
+      "arcprize_dataset_id": "v2_Semi_Private",
+      "arcprize_model_id": "gpt-5-mini-2025-08-07-minimal",
+      "arcprize_model_display_name": "GPT-5 Mini (Minimal)",
+      "provider": "OpenAI",
+      "generated_at": "2026-06-24T22:54:59.140Z",
+      "model_type": "CoT",
+      "cost_per_task": 0.0094
+    }
+  },
+  {
+    "model_id": "claude-haiku-4-5-20251001-thinking-8k",
+    "benchmark_id": "arc-agi-2",
+    "score": 0.0167,
+    "config": "Semi-Private Eval, CoT, cost/task $0.0909",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v2",
+      "arcprize_dataset_id": "v2_Semi_Private",
+      "arcprize_model_id": "claude-haiku-4-5-20251001-thinking-8k",
+      "arcprize_model_display_name": "Claude Haiku 4.5 (Thinking 8K)",
+      "provider": "Anthropic",
+      "generated_at": "2026-06-24T22:54:59.140Z",
+      "model_type": "CoT",
+      "model_group": "claude-haiku-4-5-20251001",
+      "cost_per_task": 0.0909
+    }
+  },
+  {
+    "model_id": "gpt-5-4-nano-low",
+    "benchmark_id": "arc-agi-2",
+    "score": 0.0153,
+    "config": "Semi-Private Eval, CoT, cost/task $0.01",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v2",
+      "arcprize_dataset_id": "v2_Semi_Private",
+      "arcprize_model_id": "gpt-5-4-nano-low",
+      "arcprize_model_display_name": "GPT-5.4 Nano (Low)",
+      "provider": "OpenAI",
+      "generated_at": "2026-06-24T22:54:59.140Z",
+      "model_type": "CoT",
+      "model_group": "gpt-5-4-nano-reasoning",
+      "cost_per_task": 0.01
+    }
+  },
+  {
+    "model_id": "gemini-2.0-flash",
+    "benchmark_id": "arc-agi-2",
+    "score": 0.013,
+    "config": "Semi-Private Eval, Base LLM, cost/task $0.004",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v2",
+      "arcprize_dataset_id": "v2_Semi_Private",
+      "arcprize_model_id": "Gemini 2.0 Flash",
+      "arcprize_model_display_name": "Gemini 2.0 Flash",
+      "provider": "Google",
+      "generated_at": "2026-06-24T22:54:59.140Z",
+      "model_type": "Base LLM",
+      "cost_per_task": 0.004
+    }
+  },
+  {
+    "model_id": "r1",
+    "benchmark_id": "arc-agi-2",
+    "score": 0.013,
+    "config": "Semi-Private Eval, CoT, cost/task $0.08",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v2",
+      "arcprize_dataset_id": "v2_Semi_Private",
+      "arcprize_model_id": "R1",
+      "arcprize_model_display_name": "Deepseek R1",
+      "provider": "Deepseek",
+      "generated_at": "2026-06-24T22:54:59.140Z",
+      "model_type": "CoT",
+      "cost_per_task": 0.08
+    }
+  },
+  {
+    "model_id": "codex-mini-latest",
+    "benchmark_id": "arc-agi-2",
+    "score": 0.0127,
+    "config": "Semi-Private Eval, CoT, cost/task $0.23",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v2",
+      "arcprize_dataset_id": "v2_Semi_Private",
+      "arcprize_model_id": "codex-mini-latest",
+      "arcprize_model_display_name": "Codex Mini (Latest)",
+      "provider": "OpenAI",
+      "generated_at": "2026-06-24T22:54:59.140Z",
+      "model_type": "CoT",
+      "cost_per_task": 0.23
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4-20250514",
+    "benchmark_id": "arc-agi-2",
+    "score": 0.0127,
+    "config": "Semi-Private Eval, Base LLM, cost/task $0.1272",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v2",
+      "arcprize_dataset_id": "v2_Semi_Private",
+      "arcprize_model_id": "claude-sonnet-4-20250514",
+      "arcprize_model_display_name": "Claude Sonnet 4",
+      "provider": "Anthropic",
+      "generated_at": "2026-06-24T22:54:59.140Z",
+      "model_type": "Base LLM",
+      "cost_per_task": 0.1272
+    }
+  },
+  {
+    "model_id": "claude-opus-4-20250514",
+    "benchmark_id": "arc-agi-2",
+    "score": 0.0127,
+    "config": "Semi-Private Eval, CoT, cost/task $0.6388",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v2",
+      "arcprize_dataset_id": "v2_Semi_Private",
+      "arcprize_model_id": "claude-opus-4-20250514",
+      "arcprize_model_display_name": "Claude Opus 4",
+      "provider": "Anthropic",
+      "generated_at": "2026-06-24T22:54:59.140Z",
+      "model_type": "CoT",
+      "cost_per_task": 0.6388
+    }
+  },
+  {
+    "model_id": "qwen3-235b-a22b-instruct-2507",
+    "benchmark_id": "arc-agi-2",
+    "score": 0.0125,
+    "config": "Semi-Private Eval, Base LLM, cost/task $0.0044",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v2",
+      "arcprize_dataset_id": "v2_Semi_Private",
+      "arcprize_model_id": "qwen3-235b-a22b-instruct-2507",
+      "arcprize_model_display_name": "Qwen3-235b-a22b Instruct (25/07)",
+      "provider": "Alibaba",
+      "generated_at": "2026-06-24T22:54:59.140Z",
+      "model_type": "Base LLM",
+      "cost_per_task": 0.0044
+    }
+  },
+  {
+    "model_id": "claude-haiku-4-5-20251001",
+    "benchmark_id": "arc-agi-2",
+    "score": 0.0125,
+    "config": "Semi-Private Eval, Base LLM, cost/task $0.0426",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v2",
+      "arcprize_dataset_id": "v2_Semi_Private",
+      "arcprize_model_id": "claude-haiku-4-5-20251001",
+      "arcprize_model_display_name": "Claude Haiku 4.5",
+      "provider": "Anthropic",
+      "generated_at": "2026-06-24T22:54:59.140Z",
+      "model_type": "Base LLM",
+      "model_group": "claude-haiku-4-5-20251001",
+      "cost_per_task": 0.0426
+    }
+  },
+  {
+    "model_id": "claude-haiku-4-5-20251001-thinking-1k",
+    "benchmark_id": "arc-agi-2",
+    "score": 0.0125,
+    "config": "Semi-Private Eval, CoT, cost/task $0.0471",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v2",
+      "arcprize_dataset_id": "v2_Semi_Private",
+      "arcprize_model_id": "claude-haiku-4-5-20251001-thinking-1k",
+      "arcprize_model_display_name": "Claude Haiku 4.5 (Thinking 1K)",
+      "provider": "Anthropic",
+      "generated_at": "2026-06-24T22:54:59.140Z",
+      "model_type": "CoT",
+      "model_group": "claude-haiku-4-5-20251001",
+      "cost_per_task": 0.0471
+    }
+  },
+  {
+    "model_id": "gemini-3-flash-preview-thinking-low",
+    "benchmark_id": "arc-agi-2",
+    "score": 0.0125,
+    "config": "Semi-Private Eval, CoT, cost/task $0.0249",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v2",
+      "arcprize_dataset_id": "v2_Semi_Private",
+      "arcprize_model_id": "gemini-3-flash-preview-thinking-low",
+      "arcprize_model_display_name": "Gemini 3 Flash Preview (Low)",
+      "provider": "Google",
+      "generated_at": "2026-06-24T22:54:59.140Z",
+      "model_type": "CoT",
+      "model_group": "gemini-3-flash-preview-thinking",
+      "cost_per_task": 0.0249
+    }
+  },
+  {
+    "model_id": "deepseek_r1_0528-openrouter",
+    "benchmark_id": "arc-agi-2",
+    "score": 0.0112,
+    "config": "Semi-Private Eval, CoT, cost/task $0.0527",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v2",
+      "arcprize_dataset_id": "v2_Semi_Private",
+      "arcprize_model_id": "deepseek_r1_0528-openrouter",
+      "arcprize_model_display_name": "Deepseek R1 (05/28)",
+      "provider": "Deepseek",
+      "generated_at": "2026-06-24T22:54:59.140Z",
+      "model_type": "CoT",
+      "cost_per_task": 0.0527
+    }
+  },
+  {
+    "model_id": "gpt-5-4-mini-low",
+    "benchmark_id": "arc-agi-2",
+    "score": 0.0111,
+    "config": "Semi-Private Eval, CoT, cost/task $0.06",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v2",
+      "arcprize_dataset_id": "v2_Semi_Private",
+      "arcprize_model_id": "gpt-5-4-mini-low",
+      "arcprize_model_display_name": "GPT-5.4 Mini (Low)",
+      "provider": "OpenAI",
+      "generated_at": "2026-06-24T22:54:59.140Z",
+      "model_type": "CoT",
+      "model_group": "gpt-5-4-mini-reasoning",
+      "cost_per_task": 0.06
+    }
+  },
+  {
+    "model_id": "claude-3.7-thinking-8k",
+    "benchmark_id": "arc-agi-2",
+    "score": 0.009,
+    "config": "Semi-Private Eval, CoT, cost/task $0.36",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v2",
+      "arcprize_dataset_id": "v2_Semi_Private",
+      "arcprize_model_id": "Claude 3.7 Thinking 8K",
+      "arcprize_model_display_name": "Claude 3.7 (8K)",
+      "provider": "Anthropic",
+      "generated_at": "2026-06-24T22:54:59.140Z",
+      "model_type": "CoT",
+      "model_group": "Claude_3_7_thinking",
+      "cost_per_task": 0.36
+    }
+  },
+  {
+    "model_id": "gpt-5-nano-2025-08-07-medium",
+    "benchmark_id": "arc-agi-2",
+    "score": 0.0088,
+    "config": "Semi-Private Eval, CoT, cost/task $0.0137",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v2",
+      "arcprize_dataset_id": "v2_Semi_Private",
+      "arcprize_model_id": "gpt-5-nano-2025-08-07-medium",
+      "arcprize_model_display_name": "GPT-5 Nano (Medium)",
+      "provider": "OpenAI",
+      "generated_at": "2026-06-24T22:54:59.140Z",
+      "model_type": "CoT",
+      "model_group": "gpt-5-nano-reasoning",
+      "cost_per_task": 0.0137
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4-20250514-thinking-1k",
+    "benchmark_id": "arc-agi-2",
+    "score": 0.0085,
+    "config": "Semi-Private Eval, CoT, cost/task $0.1425",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v2",
+      "arcprize_dataset_id": "v2_Semi_Private",
+      "arcprize_model_id": "claude-sonnet-4-20250514-thinking-1k",
+      "arcprize_model_display_name": "Claude Sonnet 4 (Thinking 1K)",
+      "provider": "Anthropic",
+      "generated_at": "2026-06-24T22:54:59.140Z",
+      "model_type": "CoT",
+      "model_group": "claude-sonnet-4-20250514-thinking",
+      "cost_per_task": 0.1425
+    }
+  },
+  {
+    "model_id": "o1-mini-2024-09-12",
+    "benchmark_id": "arc-agi-2",
+    "score": 0.0083,
+    "config": "Semi-Private Eval, CoT, cost/task $0.1907",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v2",
+      "arcprize_dataset_id": "v2_Semi_Private",
+      "arcprize_model_id": "o1-mini-2024-09-12",
+      "arcprize_model_display_name": "o1-mini",
+      "provider": "OpenAI",
+      "generated_at": "2026-06-24T22:54:59.140Z",
+      "model_type": "CoT",
+      "model_group": "o1-mini",
+      "cost_per_task": 0.1907
+    }
+  },
+  {
+    "model_id": "gpt-5-mini-2025-08-07-low",
+    "benchmark_id": "arc-agi-2",
+    "score": 0.0083,
+    "config": "Semi-Private Eval, CoT, cost/task $0.0189",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v2",
+      "arcprize_dataset_id": "v2_Semi_Private",
+      "arcprize_model_id": "gpt-5-mini-2025-08-07-low",
+      "arcprize_model_display_name": "GPT-5 Mini (Low)",
+      "provider": "OpenAI",
+      "generated_at": "2026-06-24T22:54:59.140Z",
+      "model_type": "CoT",
+      "model_group": "gpt-5-mini-reasoning",
+      "cost_per_task": 0.0189
+    }
+  },
+  {
+    "model_id": "gpt-5-2-2025-12-11-thinking-none",
+    "benchmark_id": "arc-agi-2",
+    "score": 0.0083,
+    "config": "Semi-Private Eval, Base LLM, cost/task $0.0818",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v2",
+      "arcprize_dataset_id": "v2_Semi_Private",
+      "arcprize_model_id": "gpt-5-2-2025-12-11-thinking-none",
+      "arcprize_model_display_name": "GPT-5.2",
+      "provider": "OpenAI",
+      "generated_at": "2026-06-24T22:54:59.140Z",
+      "model_type": "Base LLM",
+      "cost_per_task": 0.0818
+    }
+  },
+  {
+    "model_id": "gemini-1.5-pro",
+    "benchmark_id": "arc-agi-2",
+    "score": 0.008,
+    "config": "Semi-Private Eval, Base LLM, cost/task $0.04",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v2",
+      "arcprize_dataset_id": "v2_Semi_Private",
+      "arcprize_model_id": "Gemini 1.5 Pro",
+      "arcprize_model_display_name": "Gemini 1.5 Pro",
+      "provider": "Google",
+      "generated_at": "2026-06-24T22:54:59.140Z",
+      "model_type": "Base LLM",
+      "cost_per_task": 0.04
+    }
+  },
+  {
+    "model_id": "gpt-4-5-2025-02-27",
+    "benchmark_id": "arc-agi-2",
+    "score": 0.008,
+    "config": "Semi-Private Eval, Base LLM, cost/task $2.1",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v2",
+      "arcprize_dataset_id": "v2_Semi_Private",
+      "arcprize_model_id": "gpt-4-5-2025-02-27",
+      "arcprize_model_display_name": "GPT-4.5",
+      "provider": "OpenAI",
+      "generated_at": "2026-06-24T22:54:59.140Z",
+      "model_type": "Base LLM",
+      "cost_per_task": 2.1
+    }
+  },
+  {
+    "model_id": "claude-3.7-thinking-16k",
+    "benchmark_id": "arc-agi-2",
+    "score": 0.007,
+    "config": "Semi-Private Eval, CoT, cost/task $0.51",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v2",
+      "arcprize_dataset_id": "v2_Semi_Private",
+      "arcprize_model_id": "Claude 3.7 Thinking 16K",
+      "arcprize_model_display_name": "Claude 3.7 (16K)",
+      "provider": "Anthropic",
+      "generated_at": "2026-06-24T22:54:59.140Z",
+      "model_type": "CoT",
+      "model_group": "Claude_3_7_thinking",
+      "cost_per_task": 0.51
+    }
+  },
+  {
+    "model_id": "gpt-4-1-2025-04-14",
+    "benchmark_id": "arc-agi-2",
+    "score": 0.0042,
+    "config": "Semi-Private Eval, Base LLM, cost/task $0.0691",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v2",
+      "arcprize_dataset_id": "v2_Semi_Private",
+      "arcprize_model_id": "gpt-4-1-2025-04-14",
+      "arcprize_model_display_name": "GPT-4.1",
+      "provider": "OpenAI",
+      "generated_at": "2026-06-24T22:54:59.140Z",
+      "model_type": "Base LLM",
+      "model_group": "gpt-4.1",
+      "cost_per_task": 0.0691
+    }
+  },
+  {
+    "model_id": "grok-3-mini-beta-low-openrouter",
+    "benchmark_id": "arc-agi-2",
+    "score": 0.0042,
+    "config": "Semi-Private Eval, CoT, cost/task $0.0131",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v2",
+      "arcprize_dataset_id": "v2_Semi_Private",
+      "arcprize_model_id": "grok-3-mini-beta-low-openrouter",
+      "arcprize_model_display_name": "Grok 3 Mini (Low)",
+      "provider": "xAI",
+      "generated_at": "2026-06-24T22:54:59.140Z",
+      "model_type": "CoT",
+      "cost_per_task": 0.0131
+    }
+  },
+  {
+    "model_id": "gpt-5-1-2025-11-13-thinking-none",
+    "benchmark_id": "arc-agi-2",
+    "score": 0.0042,
+    "config": "Semi-Private Eval, CoT, cost/task $0.0581",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v2",
+      "arcprize_dataset_id": "v2_Semi_Private",
+      "arcprize_model_id": "gpt-5-1-2025-11-13-thinking-none",
+      "arcprize_model_display_name": "GPT-5.1 (Thinking, None)",
+      "provider": "OpenAI",
+      "generated_at": "2026-06-24T22:54:59.140Z",
+      "model_type": "CoT",
+      "model_group": "gpt-5-1-reasoning",
+      "cost_per_task": 0.0581
+    }
+  },
+  {
+    "model_id": "claude-3.7-thinking-1k",
+    "benchmark_id": "arc-agi-2",
+    "score": 0.004,
+    "config": "Semi-Private Eval, CoT, cost/task $0.14",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v2",
+      "arcprize_dataset_id": "v2_Semi_Private",
+      "arcprize_model_id": "Claude 3.7 Thinking 1K",
+      "arcprize_model_display_name": "Claude 3.7 (1K)",
+      "provider": "Anthropic",
+      "generated_at": "2026-06-24T22:54:59.140Z",
+      "model_type": "CoT",
+      "model_group": "Claude_3_7_thinking",
+      "cost_per_task": 0.14
+    }
+  },
+  {
+    "model_id": "claude-3.7",
+    "benchmark_id": "arc-agi-2",
+    "score": 0,
+    "config": "Semi-Private Eval, Base LLM, cost/task $0.12",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v2",
+      "arcprize_dataset_id": "v2_Semi_Private",
+      "arcprize_model_id": "Claude 3.7",
+      "arcprize_model_display_name": "Claude 3.7",
+      "provider": "Anthropic",
+      "generated_at": "2026-06-24T22:54:59.140Z",
+      "model_type": "Base LLM",
+      "cost_per_task": 0.12
+    }
+  },
+  {
+    "model_id": "gpt-4o-2024-11-20",
+    "benchmark_id": "arc-agi-2",
+    "score": 0,
+    "config": "Semi-Private Eval, Base LLM, cost/task $0.08",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v2",
+      "arcprize_dataset_id": "v2_Semi_Private",
+      "arcprize_model_id": "gpt-4o-2024-11-20",
+      "arcprize_model_display_name": "GPT-4o",
+      "provider": "OpenAI",
+      "generated_at": "2026-06-24T22:54:59.140Z",
+      "model_type": "Base LLM",
+      "cost_per_task": 0.08
+    }
+  },
+  {
+    "model_id": "gpt-4o-mini-2024-07-18",
+    "benchmark_id": "arc-agi-2",
+    "score": 0,
+    "config": "Semi-Private Eval, Base LLM, cost/task $0.01",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v2",
+      "arcprize_dataset_id": "v2_Semi_Private",
+      "arcprize_model_id": "gpt-4o-mini-2024-07-18",
+      "arcprize_model_display_name": "GPT-4o-mini",
+      "provider": "OpenAI",
+      "generated_at": "2026-06-24T22:54:59.140Z",
+      "model_type": "Base LLM",
+      "cost_per_task": 0.01
+    }
+  },
+  {
+    "model_id": "llama-4-maverick-17b-128e-instruct-fp8-together",
+    "benchmark_id": "arc-agi-2",
+    "score": 0,
+    "config": "Semi-Private Eval, Base LLM, cost/task $0.0121",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v2",
+      "arcprize_dataset_id": "v2_Semi_Private",
+      "arcprize_model_id": "Llama-4-Maverick-17B-128E-Instruct-FP8-together",
+      "arcprize_model_display_name": "Llama 4 Maverick",
+      "provider": "Meta",
+      "generated_at": "2026-06-24T22:54:59.140Z",
+      "model_type": "Base LLM",
+      "model_group": "Llama 4",
+      "cost_per_task": 0.0121
+    }
+  },
+  {
+    "model_id": "llama-4-scout-17b-16e-instruct-together",
+    "benchmark_id": "arc-agi-2",
+    "score": 0,
+    "config": "Semi-Private Eval, Base LLM, cost/task $0.0062",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v2",
+      "arcprize_dataset_id": "v2_Semi_Private",
+      "arcprize_model_id": "Llama-4-Scout-17B-16E-Instruct-together",
+      "arcprize_model_display_name": "Llama 4 Scout",
+      "provider": "Meta",
+      "generated_at": "2026-06-24T22:54:59.140Z",
+      "model_type": "Base LLM",
+      "model_group": "Llama 4",
+      "cost_per_task": 0.0062
+    }
+  },
+  {
+    "model_id": "gpt-4-1-nano-2025-04-14",
+    "benchmark_id": "arc-agi-2",
+    "score": 0,
+    "config": "Semi-Private Eval, Base LLM, cost/task $0.0036",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v2",
+      "arcprize_dataset_id": "v2_Semi_Private",
+      "arcprize_model_id": "gpt-4-1-nano-2025-04-14",
+      "arcprize_model_display_name": "GPT-4.1-Nano",
+      "provider": "OpenAI",
+      "generated_at": "2026-06-24T22:54:59.140Z",
+      "model_type": "Base LLM",
+      "model_group": "gpt-4.1",
+      "cost_per_task": 0.0036
+    }
+  },
+  {
+    "model_id": "gpt-4-1-mini-2025-04-14",
+    "benchmark_id": "arc-agi-2",
+    "score": 0,
+    "config": "Semi-Private Eval, Base LLM, cost/task $0.0139",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v2",
+      "arcprize_dataset_id": "v2_Semi_Private",
+      "arcprize_model_id": "gpt-4-1-mini-2025-04-14",
+      "arcprize_model_display_name": "GPT-4.1-Mini",
+      "provider": "OpenAI",
+      "generated_at": "2026-06-24T22:54:59.140Z",
+      "model_type": "Base LLM",
+      "model_group": "gpt-4.1",
+      "cost_per_task": 0.0139
+    }
+  },
+  {
+    "model_id": "o3-mini-2025-01-31-low",
+    "benchmark_id": "arc-agi-2",
+    "score": 0,
+    "config": "Semi-Private Eval, CoT, cost/task $0.0623",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v2",
+      "arcprize_dataset_id": "v2_Semi_Private",
+      "arcprize_model_id": "o3-mini-2025-01-31-low",
+      "arcprize_model_display_name": "o3-mini (Low)",
+      "provider": "OpenAI",
+      "generated_at": "2026-06-24T22:54:59.140Z",
+      "model_type": "CoT",
+      "model_group": "o3-mini",
+      "cost_per_task": 0.0623
+    }
+  },
+  {
+    "model_id": "claude-opus-4-20250514-thinking-1k",
+    "benchmark_id": "arc-agi-2",
+    "score": 0,
+    "config": "Semi-Private Eval, CoT, cost/task $0.7503",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v2",
+      "arcprize_dataset_id": "v2_Semi_Private",
+      "arcprize_model_id": "claude-opus-4-20250514-thinking-1k",
+      "arcprize_model_display_name": "Claude Opus 4 (Thinking 1K)",
+      "provider": "Anthropic",
+      "generated_at": "2026-06-24T22:54:59.140Z",
+      "model_type": "CoT",
+      "model_group": "claude-opus-4-20250514-thinking",
+      "cost_per_task": 0.7503
+    }
+  },
+  {
+    "model_id": "grok-3-openrouter",
+    "benchmark_id": "arc-agi-2",
+    "score": 0,
+    "config": "Semi-Private Eval, Base LLM, cost/task $0.1421",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v2",
+      "arcprize_dataset_id": "v2_Semi_Private",
+      "arcprize_model_id": "grok-3-openrouter",
+      "arcprize_model_display_name": "Grok 3",
+      "provider": "xAI",
+      "generated_at": "2026-06-24T22:54:59.140Z",
+      "model_type": "Base LLM",
+      "cost_per_task": 0.1421
+    }
+  },
+  {
+    "model_id": "magistral-small-2506",
+    "benchmark_id": "arc-agi-2",
+    "score": 0,
+    "config": "Semi-Private Eval, CoT, cost/task $0.0488",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v2",
+      "arcprize_dataset_id": "v2_Semi_Private",
+      "arcprize_model_id": "magistral-small-2506",
+      "arcprize_model_display_name": "Magistral Small",
+      "provider": "Mistral",
+      "generated_at": "2026-06-24T22:54:59.140Z",
+      "model_type": "CoT",
+      "cost_per_task": 0.0488
+    }
+  },
+  {
+    "model_id": "magistral-medium-2506",
+    "benchmark_id": "arc-agi-2",
+    "score": 0,
+    "config": "Semi-Private Eval, CoT, cost/task $0.1079",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v2",
+      "arcprize_dataset_id": "v2_Semi_Private",
+      "arcprize_model_id": "magistral-medium-2506",
+      "arcprize_model_display_name": "Magistral Medium",
+      "provider": "Mistral",
+      "generated_at": "2026-06-24T22:54:59.140Z",
+      "model_type": "CoT",
+      "cost_per_task": 0.1079
+    }
+  },
+  {
+    "model_id": "magistral-medium-2506-thinking",
+    "benchmark_id": "arc-agi-2",
+    "score": 0,
+    "config": "Semi-Private Eval, CoT, cost/task $0.123",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v2",
+      "arcprize_dataset_id": "v2_Semi_Private",
+      "arcprize_model_id": "magistral-medium-2506-thinking",
+      "arcprize_model_display_name": "Magistral Medium (Thinking)",
+      "provider": "Mistral",
+      "generated_at": "2026-06-24T22:54:59.140Z",
+      "model_type": "CoT",
+      "cost_per_task": 0.123
+    }
+  },
+  {
+    "model_id": "gemini-2-5-pro-2025-06-17-thinking-1k",
+    "benchmark_id": "arc-agi-2",
+    "score": 0,
+    "config": "Semi-Private Eval, CoT, cost/task $0.0885",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v2",
+      "arcprize_dataset_id": "v2_Semi_Private",
+      "arcprize_model_id": "gemini-2-5-pro-2025-06-17-thinking-1k",
+      "arcprize_model_display_name": "Gemini 2.5 Pro (Thinking 1K)",
+      "provider": "Google",
+      "generated_at": "2026-06-24T22:54:59.140Z",
+      "model_type": "CoT",
+      "model_group": "gemini-2-5-pro-2025-06-17-thinking",
+      "cost_per_task": 0.0885
+    }
+  },
+  {
+    "model_id": "gpt-5-2025-08-07-minimal",
+    "benchmark_id": "arc-agi-2",
+    "score": 0,
+    "config": "Semi-Private Eval, Base LLM, cost/task $0.0562",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v2",
+      "arcprize_dataset_id": "v2_Semi_Private",
+      "arcprize_model_id": "gpt-5-2025-08-07-minimal",
+      "arcprize_model_display_name": "GPT-5 (Minimal)",
+      "provider": "OpenAI",
+      "generated_at": "2026-06-24T22:54:59.140Z",
+      "model_type": "Base LLM",
+      "cost_per_task": 0.0562
+    }
+  },
+  {
+    "model_id": "gpt-5-nano-2025-08-07-low",
+    "benchmark_id": "arc-agi-2",
+    "score": 0,
+    "config": "Semi-Private Eval, CoT, cost/task $0.0033",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v2",
+      "arcprize_dataset_id": "v2_Semi_Private",
+      "arcprize_model_id": "gpt-5-nano-2025-08-07-low",
+      "arcprize_model_display_name": "GPT-5 Nano (Low)",
+      "provider": "OpenAI",
+      "generated_at": "2026-06-24T22:54:59.140Z",
+      "model_type": "CoT",
+      "model_group": "gpt-5-nano-reasoning",
+      "cost_per_task": 0.0033
+    }
+  },
+  {
+    "model_id": "gpt-5-nano-2025-08-07-minimal",
+    "benchmark_id": "arc-agi-2",
+    "score": 0,
+    "config": "Semi-Private Eval, CoT, cost/task $0.0025",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v2",
+      "arcprize_dataset_id": "v2_Semi_Private",
+      "arcprize_model_id": "gpt-5-nano-2025-08-07-minimal",
+      "arcprize_model_display_name": "GPT-5 Nano (Minimal)",
+      "provider": "OpenAI",
+      "generated_at": "2026-06-24T22:54:59.140Z",
+      "model_type": "CoT",
+      "cost_per_task": 0.0025
+    }
+  },
+  {
+    "model_id": "anthropic-opus-4-8-high",
+    "benchmark_id": "arc-agi-3",
+    "score": 0.0152,
+    "config": "Semi-Private Eval, CoT",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v3",
+      "arcprize_dataset_id": "v3_Semi_Private",
+      "arcprize_model_id": "anthropic-opus-4-8-high",
+      "arcprize_model_display_name": "Claude Opus 4.8 (High)",
+      "provider": "Anthropic",
+      "generated_at": "2026-06-24T22:54:59.141Z",
+      "model_type": "CoT",
+      "model_group": "anthropic-opus-4-8"
+    }
+  },
+  {
+    "model_id": "anthropic-opus-4-6-max-effort",
+    "benchmark_id": "arc-agi-3",
+    "score": 0.0051,
+    "config": "Semi-Private Eval, CoT",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v3",
+      "arcprize_dataset_id": "v3_Semi_Private",
+      "arcprize_model_id": "anthropic-opus-4-6-max-effort",
+      "arcprize_model_display_name": "Anthropic Opus 4.6 (Max)",
+      "provider": "Anthropic",
+      "generated_at": "2026-06-24T22:54:59.141Z",
+      "model_type": "CoT",
+      "model_group": "anthropic-opus-4-6-max-effort"
+    }
+  },
+  {
+    "model_id": "openai-gpt-5-5-2026-04-23-high",
+    "benchmark_id": "arc-agi-3",
+    "score": 0.0043,
+    "config": "Semi-Private Eval, CoT",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v3",
+      "arcprize_dataset_id": "v3_Semi_Private",
+      "arcprize_model_id": "openai-gpt-5-5-2026-04-23-high",
+      "arcprize_model_display_name": "GPT-5.5 (High)",
+      "provider": "OpenAI",
+      "generated_at": "2026-06-24T22:54:59.141Z",
+      "model_type": "CoT",
+      "model_group": "openai-gpt-5-5-2026-04-23-thinking"
+    }
+  },
+  {
+    "model_id": "google-gemini-3-1-pro-preview",
+    "benchmark_id": "arc-agi-3",
+    "score": 0.0042,
+    "config": "Semi-Private Eval, CoT",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v3",
+      "arcprize_dataset_id": "v3_Semi_Private",
+      "arcprize_model_id": "google-gemini-3-1-pro-preview",
+      "arcprize_model_display_name": "Gemini 3.1 Pro (Preview)",
+      "provider": "Google",
+      "generated_at": "2026-06-24T22:54:59.141Z",
+      "model_type": "CoT",
+      "model_group": "google-gemini-3-1-pro-preview"
+    }
+  },
+  {
+    "model_id": "openai-gpt-5-4-2026-03-05-high",
+    "benchmark_id": "arc-agi-3",
+    "score": 0.0021,
+    "config": "Semi-Private Eval, CoT",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v3",
+      "arcprize_dataset_id": "v3_Semi_Private",
+      "arcprize_model_id": "openai-gpt-5-4-2026-03-05-high",
+      "arcprize_model_display_name": "GPT-5.4 (High)",
+      "provider": "OpenAI",
+      "generated_at": "2026-06-24T22:54:59.141Z",
+      "model_type": "CoT",
+      "model_group": "openai-gpt-5-4-2026-03-05-thinking"
+    }
+  },
+  {
+    "model_id": "anthropic-opus-4-7-high",
+    "benchmark_id": "arc-agi-3",
+    "score": 0.0018,
+    "config": "Semi-Private Eval, CoT",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v3",
+      "arcprize_dataset_id": "v3_Semi_Private",
+      "arcprize_model_id": "anthropic-opus-4-7-high",
+      "arcprize_model_display_name": "Opus 4.7 (High)",
+      "provider": "Anthropic",
+      "generated_at": "2026-06-24T22:54:59.141Z",
+      "model_type": "CoT",
+      "model_group": "anthropic-opus-4-7"
+    }
+  },
+  {
+    "model_id": "xai-grok-4-20-beta-0309-reasoning",
+    "benchmark_id": "arc-agi-3",
+    "score": 0.0009,
+    "config": "Semi-Private Eval, CoT",
+    "source": "arcprize",
+    "extra": {
+      "arcprize_version": "v3",
+      "arcprize_dataset_id": "v3_Semi_Private",
+      "arcprize_model_id": "xai-grok-4-20-beta-0309-reasoning",
+      "arcprize_model_display_name": "Grok 4.20 (Beta Reasoning)",
+      "provider": "xAI",
+      "generated_at": "2026-06-24T22:54:59.141Z",
+      "model_type": "CoT",
+      "model_group": "xai-grok-4-20-beta-0309-reasoning"
+    }
+  }
+]

@@ -1,0 +1,14 @@
+---
+import Page from "../../layouts/Page.astro";
+import CategoryTabs from "../../components/CategoryTabs.astro";
+import LeaderboardTable from "../../components/LeaderboardTable.tsx";
+import { buildView } from "../../lib/loadData.ts";
+import "../../styles/global.css";
+
+const view = await buildView("all");
+---
+
+<Page title="All benchmarks">
+  <CategoryTabs active="all" />
+  <LeaderboardTable client:load benchmarks={view.benchmarks} rows={view.rows} />
+</Page>

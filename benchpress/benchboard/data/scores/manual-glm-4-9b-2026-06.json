@@ -1,0 +1,80 @@
+[
+  {
+    "model_id": "glm-4-9b",
+    "benchmark_id": "c-eval",
+    "score": 75.6,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://github.com/THUDM/GLM-4",
+      "reported_by": "GLM-4 report (GLM-4-9B-Chat)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-06-05"
+    }
+  },
+  {
+    "model_id": "glm-4-9b",
+    "benchmark_id": "gsm8k",
+    "score": 79.6,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://github.com/THUDM/GLM-4",
+      "reported_by": "GLM-4 report (GLM-4-9B-Chat)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-06-05"
+    }
+  },
+  {
+    "model_id": "glm-4-9b",
+    "benchmark_id": "humaneval",
+    "score": 71.8,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://github.com/THUDM/GLM-4",
+      "reported_by": "GLM-4 report (GLM-4-9B-Chat)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-06-05"
+    }
+  },
+  {
+    "model_id": "glm-4-9b",
+    "benchmark_id": "ifeval",
+    "score": 69,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://github.com/THUDM/GLM-4",
+      "reported_by": "GLM-4 report (GLM-4-9B-Chat)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-06-05"
+    }
+  },
+  {
+    "model_id": "glm-4-9b",
+    "benchmark_id": "math",
+    "score": 50.6,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://github.com/THUDM/GLM-4",
+      "reported_by": "GLM-4 report (GLM-4-9B-Chat)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-06-05"
+    }
+  },
+  {
+    "model_id": "glm-4-9b",
+    "benchmark_id": "mmlu",
+    "score": 72.4,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://github.com/THUDM/GLM-4",
+      "reported_by": "GLM-4 report (GLM-4-9B-Chat)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-06-05"
+    }
+  }
+]

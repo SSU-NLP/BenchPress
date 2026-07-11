@@ -1,0 +1,509 @@
+{
+  "_source": "jiyoon113.github.io/Benchboard (data embedded in /coverage page) full resync 2026-06-23; 13-model x 20-bench main set. Supersedes prior 2026-06-16 pull + self-run/external-ref patches (values now match Benchboard within rounding).",
+  "AIME 2024": {
+    "DeepSeek-v3": 0.392,
+    "GPT-4o": 0.134,
+    "Qwen2.5-72B": 0.189,
+    "Qwen3-235B": 0.857,
+    "Claude-3.5-Sonnet": 0.167,
+    "GPT-oss-120b": 0.966,
+    "GPT-oss-20b": 0.96,
+    "Llama-3.1-8B": 0.067,
+    "Phi-4-Mini": 0.1,
+    "Claude-Sonnet-4": 0.434,
+    "Gemma-3-4B": 0.1,
+    "KIMI-K2": 0.696,
+    "GLM-4.7": 0.6
+  },
+  "AIME 2025": {
+    "DeepSeek-v3": 0.288,
+    "GPT-4o": 0.076,
+    "Qwen2.5-72B": 0.15,
+    "Qwen3-235B": 0.815,
+    "Claude-3.5-Sonnet": 0.157,
+    "GPT-oss-120b": 0.979,
+    "GPT-oss-20b": 0.987,
+    "Llama-3.1-8B": 0.0,
+    "Phi-4-Mini": 0.033,
+    "Claude-Sonnet-4": 0.331,
+    "Gemma-3-4B": 0.1,
+    "KIMI-K2": 0.495,
+    "GLM-4.7": 0.957
+  },
+  "ARC Challenge": {
+    "DeepSeek-v3": 0.953,
+    "GPT-4o": 0.967,
+    "Claude-3.5-Sonnet": 0.967,
+    "GPT-oss-120b": 0.943,
+    "GPT-oss-20b": 0.947,
+    "Llama-3.1-8B": 0.831,
+    "Phi-4-Mini": 0.837,
+    "Gemma-3-4B": 0.768,
+    "GLM-4.7": 0.975,
+    "Qwen3-235B": 0.947,
+    "Claude-Sonnet-4": 0.979,
+    "Qwen2.5-72B": 0.954
+  },
+  "BBH": {
+    "DeepSeek-v3": 0.875,
+    "Qwen2.5-72B": 0.863,
+    "Qwen3-235B": 0.889,
+    "Llama-3.1-8B": 0.634,
+    "Phi-4-Mini": 0.704,
+    "GLM-4.7": 0.884,
+    "GPT-oss-20b": 0.841,
+    "GPT-oss-120b": 0.821,
+    "KIMI-K2": 0.871,
+    "Gemma-3-4B": 0.665,
+    "Claude-Sonnet-4": 0.855,
+    "GPT-4o": 0.826
+  },
+  "Drop": {
+    "DeepSeek-v3": 0.89,
+    "GPT-4o": 0.834,
+    "Qwen2.5-72B": 0.767,
+    "Qwen3-235B": 0.843,
+    "Claude-3.5-Sonnet": 0.871,
+    "Llama-3.1-8B": 0.712,
+    "Phi-4-Mini": 0.595,
+    "Claude-Sonnet-4": 0.92,
+    "Gemma-3-4B": 0.731,
+    "KIMI-K2": 0.935,
+    "GPT-oss-20b": 0.845
+  },
+  "GPQA": {
+    "DeepSeek-v3": 0.591,
+    "GPT-4o": 0.536,
+    "Qwen2.5-72B": 0.49,
+    "Qwen3-235B": 0.711,
+    "Claude-3.5-Sonnet": 0.594,
+    "GPT-oss-120b": 0.809,
+    "GPT-oss-20b": 0.742,
+    "Llama-3.1-8B": 0.263,
+    "Phi-4-Mini": 0.369,
+    "Claude-Sonnet-4": 0.7,
+    "Gemma-3-4B": 0.15,
+    "KIMI-K2": 0.751,
+    "GLM-4.7": 0.857
+  },
+  "GSM8K": {
+    "DeepSeek-v3": 0.893,
+    "GPT-4o": 0.961,
+    "Qwen2.5-72B": 0.958,
+    "Qwen3-235B": 0.944,
+    "Claude-3.5-Sonnet": 0.964,
+    "GPT-oss-120b": 0.962,
+    "GPT-oss-20b": 0.932,
+    "Llama-3.1-8B": 0.824,
+    "Phi-4-Mini": 0.886,
+    "Gemma-3-4B": 0.384,
+    "GLM-4.7": 0.967,
+    "Claude-Sonnet-4": 0.957,
+    "KIMI-K2": 0.95
+  },
+  "HLE": {
+    "DeepSeek-v3": 0.052,
+    "GPT-4o": 0.027,
+    "Qwen2.5-72B": 0.045,
+    "Qwen3-235B": 0.057,
+    "Claude-3.5-Sonnet": 0.041,
+    "GPT-oss-120b": 0.19,
+    "GPT-oss-20b": 0.173,
+    "Claude-Sonnet-4": 0.058,
+    "KIMI-K2": 0.047,
+    "GLM-4.7": 0.428,
+    "Phi-4-Mini": 0.036,
+    "Gemma-3-4B": 0.102,
+    "Llama-3.1-8B": 0.044
+  },
+  "HMMT Feb 2025": {
+    "DeepSeek-v3": 0.275,
+    "Qwen3-235B": 0.119,
+    "GPT-oss-120b": 0.467,
+    "GPT-oss-20b": 0.233,
+    "Claude-Sonnet-4": 0.159,
+    "KIMI-K2": 0.388,
+    "GLM-4.7": 0.971,
+    "Llama-3.1-8B": 0.0,
+    "Gemma-3-4B": 0.0,
+    "Phi-4-Mini": 0.0,
+    "GPT-4o": 0.0583,
+    "Qwen2.5-72B": 0.033
+  },
+  "HumanEval": {
+    "DeepSeek-v3": 0.652,
+    "GPT-4o": 0.902,
+    "Qwen2.5-72B": 0.866,
+    "Claude-3.5-Sonnet": 0.92,
+    "Llama-3.1-8B": 0.665,
+    "Phi-4-Mini": 0.744,
+    "Gemma-3-4B": 0.36,
+    "Claude-Sonnet-4": 0.963,
+    "Qwen3-235B": 0.902,
+    "GPT-oss-20b": 0.73,
+    "GPT-oss-120b": 0.71,
+    "KIMI-K2": 0.933
+  },
+  "MATH": {
+    "DeepSeek-v3": 0.616,
+    "GPT-4o": 0.766,
+    "Qwen2.5-72B": 0.621,
+    "Qwen3-235B": 0.718,
+    "Claude-3.5-Sonnet": 0.711,
+    "GPT-oss-120b": 0.966,
+    "GPT-oss-20b": 0.931,
+    "Llama-3.1-8B": 0.476,
+    "Phi-4-Mini": 0.64,
+    "Gemma-3-4B": 0.242,
+    "Claude-Sonnet-4": 0.903,
+    "KIMI-K2": 0.573,
+    "GLM-4.7": 0.48
+  },
+  "MATH-500": {
+    "DeepSeek-v3": 0.902,
+    "GPT-4o": 0.772,
+    "Qwen2.5-72B": 0.836,
+    "Qwen3-235B": 0.98,
+    "Claude-3.5-Sonnet": 0.771,
+    "GPT-oss-120b": 0.966,
+    "GPT-oss-20b": 0.914,
+    "Llama-3.1-8B": 0.412,
+    "Phi-4-Mini": 0.718,
+    "Claude-Sonnet-4": 0.94,
+    "Gemma-3-4B": 0.294,
+    "KIMI-K2": 0.974,
+    "GLM-4.7": 0.956
+  },
+  "MBPP": {
+    "DeepSeek-v3": 0.754,
+    "GPT-4o": 0.862,
+    "Qwen2.5-72B": 0.882,
+    "Qwen3-235B": 0.814,
+    "Claude-3.5-Sonnet": 0.892,
+    "Llama-3.1-8B": 0.694,
+    "Phi-4-Mini": 0.653,
+    "Gemma-3-4B": 0.46,
+    "Claude-Sonnet-4": 0.858,
+    "GPT-oss-20b": 0.878
+  },
+  "MMLU": {
+    "DeepSeek-v3": 0.885,
+    "GPT-4o": 0.891,
+    "Qwen2.5-72B": 0.861,
+    "Qwen3-235B": 0.878,
+    "Claude-3.5-Sonnet": 0.899,
+    "GPT-oss-120b": 0.9,
+    "GPT-oss-20b": 0.853,
+    "Llama-3.1-8B": 0.681,
+    "Phi-4-Mini": 0.673,
+    "Claude-Sonnet-4": 0.915,
+    "Gemma-3-4B": 0.596,
+    "KIMI-K2": 0.895
+  },
+  "MMLU-Pro": {
+    "DeepSeek-v3": 0.759,
+    "GPT-4o": 0.74,
+    "Qwen2.5-72B": 0.711,
+    "Qwen3-235B": 0.682,
+    "Claude-3.5-Sonnet": 0.77,
+    "GPT-oss-120b": 0.807,
+    "GPT-oss-20b": 0.748,
+    "Llama-3.1-8B": 0.47,
+    "Phi-4-Mini": 0.528,
+    "Claude-Sonnet-4": 0.837,
+    "Gemma-3-4B": 0.292,
+    "KIMI-K2": 0.811,
+    "GLM-4.7": 0.843
+  },
+  "MMLU-Redux": {
+    "DeepSeek-v3": 0.891,
+    "GPT-4o": 0.87,
+    "Qwen2.5-72B": 0.868,
+    "Qwen3-235B": 0.927,
+    "Claude-3.5-Sonnet": 0.86,
+    "GPT-oss-120b": 0.893,
+    "GPT-oss-20b": 0.882,
+    "Llama-3.1-8B": 0.701,
+    "Phi-4-Mini": 0.665,
+    "Claude-Sonnet-4": 0.936,
+    "Gemma-3-4B": 0.608,
+    "KIMI-K2": 0.927,
+    "GLM-4.7": 0.94
+  },
+  "SimpleQA": {
+    "DeepSeek-v3": 0.277,
+    "GPT-4o": 0.52,
+    "Qwen2.5-72B": 0.102,
+    "Qwen3-235B": 0.132,
+    "GPT-oss-120b": 0.139,
+    "GPT-oss-20b": 0.067,
+    "Claude-Sonnet-4": 0.159,
+    "KIMI-K2": 0.31,
+    "GLM-4.7": 0.315,
+    "Phi-4-Mini": 0.107,
+    "Gemma-3-4B": 0.18,
+    "Llama-3.1-8B": 0.35
+  },
+  "SuperGPQA": {
+    "DeepSeek-v3": 0.537,
+    "GPT-4o": 0.416,
+    "Qwen2.5-72B": 0.408,
+    "Qwen3-235B": 0.441,
+    "Claude-3.5-Sonnet": 0.482,
+    "GPT-oss-120b": 0.492,
+    "GPT-oss-20b": 0.37,
+    "Llama-3.1-8B": 0.214,
+    "Phi-4-Mini": 0.202,
+    "Claude-Sonnet-4": 0.557,
+    "Gemma-3-4B": 0.201,
+    "KIMI-K2": 0.572
+  },
+  "SciCode": {
+    "DeepSeek-v3": 0.358,
+    "GPT-4o": 0.366,
+    "Qwen2.5-72B": 0.337,
+    "Qwen3-235B": 0.399,
+    "Claude-3.5-Sonnet": 0.366,
+    "GPT-oss-120b": 0.389,
+    "GPT-oss-20b": 0.344,
+    "Claude-Sonnet-4": 0.4,
+    "KIMI-K2": 0.424,
+    "GLM-4.7": 0.451,
+    "Phi-4-Mini": 0.045,
+    "Gemma-3-4B": 0.045,
+    "Llama-3.1-8B": 0.069
+  },
+  "LiveCodeBench": {
+    "DeepSeek-v3": 0.331,
+    "GPT-4o": 0.327,
+    "Qwen2.5-72B": 0.555,
+    "Qwen3-235B": 0.707,
+    "Claude-3.5-Sonnet": 0.541,
+    "GPT-oss-120b": 0.878,
+    "GPT-oss-20b": 0.777,
+    "Llama-3.1-8B": 0.215,
+    "Phi-4-Mini": 0.203,
+    "Claude-Sonnet-4": 0.66,
+    "KIMI-K2": 0.853,
+    "GLM-4.7": 0.894,
+    "Gemma-3-4B": 0.235
+  },
+  "_score_eval_gpt_oss_20b": {
+    "note": "GPT-oss-20b cells self-run via OpenRouter proxy (benchpress/score_eval.py), full test sets, temperature=0; NOT from public leaderboards.",
+    "date": "2026-06-16",
+    "runs": {
+      "GSM8K": {
+        "n": 1319,
+        "accuracy": 0.9318
+      },
+      "ARC Challenge": {
+        "n": 1172,
+        "accuracy": 0.9471
+      },
+      "SuperGPQA": {
+        "n": 26529,
+        "accuracy": 0.3695
+      },
+      "MATH-500": {
+        "n": 500,
+        "accuracy": 0.914
+      },
+      "MMLU-Redux": {
+        "n": 5330,
+        "accuracy": 0.8818
+      },
+      "HMMT Feb 2025": {
+        "n": 30,
+        "accuracy": 0.2333
+      },
+      "MATH": {
+        "n": 5000,
+        "accuracy": 0.9314
+      }
+    }
+  },
+  "_score_eval_gpt_oss_120b": {
+    "note": "GPT-oss-120b cells self-run via OpenRouter proxy (benchpress/score_eval.py), full test sets, temperature=0, max_tokens=16384; NOT from public leaderboards.",
+    "date": "2026-06-17",
+    "runs": {
+      "HMMT Feb 2025": {
+        "n": 30,
+        "accuracy": 0.4667
+      },
+      "MATH-500": {
+        "n": 500,
+        "accuracy": 0.966
+      },
+      "ARC Challenge": {
+        "n": 1172,
+        "accuracy": 0.9428
+      },
+      "GSM8K": {
+        "n": 1319,
+        "accuracy": 0.9621
+      },
+      "MATH": {
+        "n": 5000,
+        "accuracy": 0.966
+      },
+      "MMLU-Redux": {
+        "n": 5330,
+        "accuracy": 0.8932
+      },
+      "SuperGPQA": {
+        "n": 26529,
+        "accuracy": 0.4918
+      }
+    }
+  },
+  "_score_eval_glm_4_7": {
+    "note": "GLM-4.7 cells self-run via OpenRouter proxy (benchpress/score_eval.py), full test sets, temperature=0, max_tokens=16384; NOT from public leaderboards. AIME 2024 has 8/30 transient 504 errors counted as wrong. MMLU/SuperGPQA/MATH pending: proxy budget exhausted mid-run (2026-06-17).",
+    "date": "2026-06-17",
+    "runs": {
+      "AIME 2024": {
+        "n": 30,
+        "accuracy": 0.6
+      },
+      "ARC Challenge": {
+        "n": 1172,
+        "accuracy": 0.9753
+      },
+      "GSM8K": {
+        "n": 1319,
+        "accuracy": 0.9666
+      },
+      "MMLU-Redux": {
+        "n": 5330,
+        "accuracy": 0.9403
+      },
+      "MATH-500": {
+        "n": 500,
+        "accuracy": 0.956
+      }
+    }
+  },
+  "_score_refs_external": {
+    "note": "Cells sourced from published model/benchmark references (not Benchboard, not self-run). Percentages converted to 0-1 fractions.",
+    "date": "2026-06-17",
+    "cells": {
+      "SimpleQA/GPT-oss-20b": {
+        "score": 0.067,
+        "source": "OpenAI gpt-oss model card (arXiv:2508.10925)"
+      },
+      "SuperGPQA/GPT-4o": {
+        "score": 0.4164,
+        "source": "SuperGPQA paper (arXiv:2502.14739)"
+      },
+      "SuperGPQA/Qwen2.5-72B": {
+        "score": 0.4075,
+        "source": "SuperGPQA paper (arXiv:2502.14739)"
+      },
+      "SuperGPQA/Claude-3.5-Sonnet": {
+        "score": 0.4816,
+        "source": "SuperGPQA official leaderboard (GitHub)"
+      }
+    }
+  },
+  "_score_refs_new_roster_2026_06_23": {
+    "note": "Roster swap: removed Llama-3.1-405B, Gemini-3-Pro, GPT-5, Claude-Sonnet-4.6; added Llama-3.1-8B, Gemma-3-4B, Phi-4-Mini, Claude-Sonnet-4. Scores below are from official model cards/technical reports/launch blog, not Benchboard. Fractions are 0-1.",
+    "date": "2026-06-23",
+    "cells": {
+      "Llama-3.1-8B": {
+        "source": "Meta official model card (huggingface.co/meta-llama/Llama-3.1-8B-Instruct)",
+        "scores": {
+          "MMLU": 0.694,
+          "MMLU-Pro": 0.483,
+          "ARC Challenge": 0.834,
+          "GSM8K": 0.845,
+          "MATH": 0.519,
+          "HumanEval": 0.726,
+          "MBPP": 0.728,
+          "GPQA": 0.304
+        }
+      },
+      "Gemma-3-4B": {
+        "source": "Gemma 3 Technical Report, Table 18 (arXiv:2503.19786)",
+        "scores": {
+          "MMLU": 0.581,
+          "MMLU-Pro": 0.436,
+          "GPQA": 0.308,
+          "ARC Challenge": 0.562,
+          "GSM8K": 0.892,
+          "MATH": 0.756,
+          "HumanEval": 0.713,
+          "MBPP": 0.632,
+          "BBH": 0.722,
+          "Drop": 0.601
+        }
+      },
+      "Phi-4-Mini": {
+        "source": "Microsoft official model card (huggingface.co/microsoft/Phi-4-mini-instruct)",
+        "scores": {
+          "MMLU": 0.673,
+          "MMLU-Pro": 0.528,
+          "GPQA": 0.252,
+          "ARC Challenge": 0.837,
+          "GSM8K": 0.886,
+          "MATH": 0.64,
+          "BBH": 0.704
+        }
+      },
+      "Claude-Sonnet-4": {
+        "source": "Anthropic launch blog, extended thinking 64K (anthropic.com/news/claude-4)",
+        "scores": {
+          "MMLU": 0.854,
+          "GPQA": 0.7
+        }
+      }
+    }
+  },
+  "_score_eval_small_roster_2026_06_24": {
+    "note": "Llama-3.1-8B / Gemma-3-4B / Phi-4-Mini self-run; not from Benchboard or public leaderboards. LiveCodeBench (harness: lm-eval-custom-style, metric pass@1) supersedes prior Benchboard/model-card entries for Llama-3.1-8B and Phi-4-Mini and adds the missing Gemma-3-4B cell. HMMT Feb 2025 (harness: lm-eval-custom, metric exact_match) confirmed 0.0 for all three (no correct solutions on full 30-problem set). HLE (harness: openbench, metric acc, self-graded) and SciCode (harness: scicode-repo, metric sub_problem) added for all three. SimpleQA (metric f1) added for all three.",
+    "date": "2026-06-24",
+    "runs": {
+      "Phi-4-Mini": {
+        "LiveCodeBench": 0.203,
+        "HMMT Feb 2025": 0.0,
+        "HLE": 0.036,
+        "SciCode": 0.045,
+        "SimpleQA": 0.107
+      },
+      "Gemma-3-4B": {
+        "LiveCodeBench": 0.235,
+        "HMMT Feb 2025": 0.0,
+        "HLE": 0.102,
+        "SciCode": 0.045,
+        "SimpleQA": 0.18
+      },
+      "Llama-3.1-8B": {
+        "LiveCodeBench": 0.215,
+        "HMMT Feb 2025": 0.0,
+        "HLE": 0.044,
+        "SciCode": 0.069,
+        "SimpleQA": 0.35
+      }
+    }
+  },
+  "_score_refs_bbh_pricepertoken": {
+    "note": "BBH cells sourced from pricepertoken.com leaderboard (not Benchboard, not self-run). Percentages converted to 0-1 fractions.",
+    "source": "https://pricepertoken.com/leaderboards/benchmark/bbh",
+    "date": "2026-06-24",
+    "cells": {
+      "GLM-4.7": 0.884,
+      "GPT-oss-20b": 0.841,
+      "GPT-oss-120b": 0.821,
+      "KIMI-K2": 0.871
+    }
+  },
+  "_score_refs_benchboard_backfill_2026_06_30": {
+    "note": "Single missing cell copied from Benchboard score catalog. Percentages converted to 0-1 fractions.",
+    "date": "2026-06-30",
+    "cells": {
+      "HumanEval/KIMI-K2": {
+        "score": 0.933,
+        "source": "https://llm-stats.com/benchmarks/humaneval#kimi-k2-instruct",
+        "benchboard_file": "data/scores/manual-llm-stats-backfill-2026-06.json"
+      }
+    }
+  }
+}

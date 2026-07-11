@@ -1,0 +1,110 @@
+[
+  {
+    "model_id": "gemini-3-pro",
+    "benchmark_id": "cybersecurity-v1",
+    "score": 91.7,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gemini-3-pro__model-card.pdf",
+      "ref": "p.9",
+      "fetched_at": "2026-06-08T05:59:50.632Z"
+    }
+  },
+  {
+    "model_id": "gemini-3-pro",
+    "benchmark_id": "cybersecurity-v2",
+    "score": 0,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gemini-3-pro__model-card.pdf",
+      "ref": "p.9",
+      "fetched_at": "2026-06-08T05:59:50.632Z"
+    }
+  },
+  {
+    "model_id": "gemini-3-pro",
+    "benchmark_id": "image-to-text-safety",
+    "score": 3.1,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gemini-3-pro__model-card.pdf",
+      "ref": "p.7",
+      "fetched_at": "2026-06-08T05:59:50.632Z"
+    }
+  },
+  {
+    "model_id": "gemini-3-pro",
+    "benchmark_id": "misalignment-situational-awareness",
+    "score": 27.3,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gemini-3-pro__model-card.pdf",
+      "ref": "p.9",
+      "fetched_at": "2026-06-08T05:59:50.632Z"
+    }
+  },
+  {
+    "model_id": "gemini-3-pro",
+    "benchmark_id": "misalignment-stealth",
+    "score": 25,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gemini-3-pro__model-card.pdf",
+      "ref": "p.9",
+      "fetched_at": "2026-06-08T05:59:50.632Z"
+    }
+  },
+  {
+    "model_id": "gemini-3-pro",
+    "benchmark_id": "multilingual-safety",
+    "score": 0.2,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gemini-3-pro__model-card.pdf",
+      "ref": "p.7",
+      "fetched_at": "2026-06-08T05:59:50.632Z"
+    }
+  },
+  {
+    "model_id": "gemini-3-pro",
+    "benchmark_id": "text-to-text-safety",
+    "score": -10.4,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gemini-3-pro__model-card.pdf",
+      "ref": "p.7",
+      "fetched_at": "2026-06-08T05:59:50.632Z"
+    }
+  },
+  {
+    "model_id": "gemini-3-pro",
+    "benchmark_id": "tone",
+    "score": 7.9,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gemini-3-pro__model-card.pdf",
+      "ref": "p.7",
+      "fetched_at": "2026-06-08T05:59:50.632Z"
+    }
+  },
+  {
+    "model_id": "gemini-3-pro",
+    "benchmark_id": "unjustified-refusals",
+    "score": 3.7,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gemini-3-pro__model-card.pdf",
+      "ref": "p.7",
+      "fetched_at": "2026-06-08T05:59:50.632Z"
+    }
+  }
+]

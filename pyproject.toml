@@ -1,0 +1,42 @@
+[project]
+name = "benchpress-part2"
+version = "0.1.0"
+description = "BenchPress Part 2 benchmark tag-score alignment experiment"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "openai>=2.30.0",
+    "wandb>=0.19.0",
+    "weave>=0.51.0",
+    "plotly>=5.24.0",
+    "pdfminer-six>=20260107",
+    "pypdf>=6.9.2",
+    "python-dotenv>=1.2.2",
+    "requests>=2.33.1",
+    "numpy>=1.26.0",
+    "scipy>=1.12.0",
+    "huggingface-hub>=0.20.0",
+    "datasets>=4.8.4",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+
+[tool.pytest.ini_options]
+testpaths = ["autotagging_loop/experiment/tests", "autotagging_loop/runner/tests", "benchpress/benchpress_hub/tests"]
+
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[dependency-groups]
+dev = [
+    "pytest>=9.0.3",
+]
+
+# benchpress_hub is rooted under benchpress/ but stays importable as `benchpress_hub`
+# (public SDK name used in published dataset snippets). autotagging_loop is the
+# merged pipeline (experiment + runner + scripts).
+[tool.setuptools.packages.find]
+where = [".", "benchpress"]
+include = ["autotagging_loop*", "benchpress_hub*"]

@@ -1,0 +1,113 @@
+{
+  "meta": {
+    "mode": "vloop-axis-shortlist-derived",
+    "source": "benchboard/data/model_shortlist.json + benchmark_axis_weights.json",
+    "n_models": 5,
+    "n_tags": 11
+  },
+  "tags": [
+    "analogical_reasoning",
+    "commonsense_causal_reasoning",
+    "contextual_retrieval",
+    "external_knowledge_retrieval",
+    "formal_deduction",
+    "pattern_induction",
+    "numerical_computation",
+    "spatial_geometrical_reasoning",
+    "temporal_reasoning",
+    "procedural_planning",
+    "constraint_satisfaction"
+  ],
+  "models": [
+    {
+      "id": "gpt-5",
+      "name": "GPT-5",
+      "vendor": "OpenAI",
+      "profile": {
+        "analogical_reasoning": 0.813,
+        "commonsense_causal_reasoning": 0.82,
+        "contextual_retrieval": 0.861,
+        "external_knowledge_retrieval": 0.915,
+        "formal_deduction": 0.898,
+        "pattern_induction": 0.823,
+        "numerical_computation": 0.882,
+        "spatial_geometrical_reasoning": 0.841,
+        "temporal_reasoning": 0.823,
+        "procedural_planning": 0.865,
+        "constraint_satisfaction": 0.861
+      }
+    },
+    {
+      "id": "claude-sonnet-4.5",
+      "name": "Claude Sonnet 4.5",
+      "vendor": "Anthropic",
+      "profile": {
+        "analogical_reasoning": 0.793,
+        "commonsense_causal_reasoning": 0.799,
+        "contextual_retrieval": 0.84,
+        "external_knowledge_retrieval": 0.893,
+        "formal_deduction": 0.875,
+        "pattern_induction": 0.802,
+        "numerical_computation": 0.86,
+        "spatial_geometrical_reasoning": 0.819,
+        "temporal_reasoning": 0.802,
+        "procedural_planning": 0.843,
+        "constraint_satisfaction": 0.839
+      }
+    },
+    {
+      "id": "gemini-3-pro",
+      "name": "Gemini 3 Pro",
+      "vendor": "Google",
+      "profile": {
+        "analogical_reasoning": 0.779,
+        "commonsense_causal_reasoning": 0.786,
+        "contextual_retrieval": 0.826,
+        "external_knowledge_retrieval": 0.879,
+        "formal_deduction": 0.862,
+        "pattern_induction": 0.789,
+        "numerical_computation": 0.846,
+        "spatial_geometrical_reasoning": 0.806,
+        "temporal_reasoning": 0.789,
+        "procedural_planning": 0.83,
+        "constraint_satisfaction": 0.825
+      }
+    },
+    {
+      "id": "o4-mini",
+      "name": "o4-mini",
+      "vendor": "OpenAI",
+      "profile": {
+        "analogical_reasoning": 0.755,
+        "commonsense_causal_reasoning": 0.761,
+        "contextual_retrieval": 0.801,
+        "external_knowledge_retrieval": 0.852,
+        "formal_deduction": 0.835,
+        "pattern_induction": 0.764,
+        "numerical_computation": 0.82,
+        "spatial_geometrical_reasoning": 0.781,
+        "temporal_reasoning": 0.764,
+        "procedural_planning": 0.804,
+        "constraint_satisfaction": 0.8
+      }
+    },
+    {
+      "id": "deepseek-r1",
+      "name": "DeepSeek R1",
+      "vendor": "DeepSeek",
+      "profile": {
+        "analogical_reasoning": 0.73,
+        "commonsense_causal_reasoning": 0.735,
+        "contextual_retrieval": 0.774,
+        "external_knowledge_retrieval": 0.824,
+        "formal_deduction": 0.808,
+        "pattern_induction": 0.739,
+        "numerical_computation": 0.793,
+        "spatial_geometrical_reasoning": 0.755,
+        "temporal_reasoning": 0.738,
+        "procedural_planning": 0.777,
+        "constraint_satisfaction": 0.773
+      }
+    }
+  ]
+}

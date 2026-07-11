@@ -1,0 +1,254 @@
+[
+  {
+    "model_id": "gemini-2.0-flash",
+    "benchmark_id": "math",
+    "score": 92.47,
+    "config": "level-5, thinking",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2502.06453",
+      "reported_by": "MATH-Perturb paper Table 1",
+      "fetched_at": "2026-06-09T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "math",
+    "score": 87.81,
+    "config": "level-5, preview",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2502.06453",
+      "reported_by": "MATH-Perturb paper Table 1",
+      "fetched_at": "2026-06-09T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gemini-1.5-pro",
+    "benchmark_id": "math",
+    "score": 77.78,
+    "config": "level-5",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2502.06453",
+      "reported_by": "MATH-Perturb paper Table 1",
+      "fetched_at": "2026-06-09T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "math",
+    "score": 67.03,
+    "config": "level-5",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2502.06453",
+      "reported_by": "MATH-Perturb paper Table 1",
+      "fetched_at": "2026-06-09T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "claude-3.5-sonnet",
+    "benchmark_id": "math",
+    "score": 64.52,
+    "config": "level-5",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2502.06453",
+      "reported_by": "MATH-Perturb paper Table 1",
+      "fetched_at": "2026-06-09T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-4-turbo",
+    "benchmark_id": "math",
+    "score": 56.99,
+    "config": "level-5",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2502.06453",
+      "reported_by": "MATH-Perturb paper Table 1",
+      "fetched_at": "2026-06-09T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "claude-3-opus",
+    "benchmark_id": "math",
+    "score": 41.94,
+    "config": "level-5",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2502.06453",
+      "reported_by": "MATH-Perturb paper Table 1",
+      "fetched_at": "2026-06-09T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gemini-2.0-flash",
+    "benchmark_id": "math-p-hard",
+    "score": 78.14,
+    "config": "thinking",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2502.06453",
+      "reported_by": "MATH-Perturb paper Table 1",
+      "fetched_at": "2026-06-09T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "math-p-hard",
+    "score": 72.4,
+    "config": "preview",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2502.06453",
+      "reported_by": "MATH-Perturb paper Table 1",
+      "fetched_at": "2026-06-09T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gemini-1.5-pro",
+    "benchmark_id": "math-p-hard",
+    "score": 56.63,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2502.06453",
+      "reported_by": "MATH-Perturb paper Table 1",
+      "fetched_at": "2026-06-09T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "math-p-hard",
+    "score": 39.43,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2502.06453",
+      "reported_by": "MATH-Perturb paper Table 1",
+      "fetched_at": "2026-06-09T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "claude-3.5-sonnet",
+    "benchmark_id": "math-p-hard",
+    "score": 38.71,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2502.06453",
+      "reported_by": "MATH-Perturb paper Table 1",
+      "fetched_at": "2026-06-09T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-4-turbo",
+    "benchmark_id": "math-p-hard",
+    "score": 34.41,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2502.06453",
+      "reported_by": "MATH-Perturb paper Table 1",
+      "fetched_at": "2026-06-09T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "claude-3-opus",
+    "benchmark_id": "math-p-hard",
+    "score": 26.52,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2502.06453",
+      "reported_by": "MATH-Perturb paper Table 1",
+      "fetched_at": "2026-06-09T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gemini-2.0-flash",
+    "benchmark_id": "math-p-simple",
+    "score": 91.04,
+    "config": "thinking",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2502.06453",
+      "reported_by": "MATH-Perturb paper Table 1",
+      "fetched_at": "2026-06-09T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "math-p-simple",
+    "score": 87.81,
+    "config": "preview",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2502.06453",
+      "reported_by": "MATH-Perturb paper Table 1",
+      "fetched_at": "2026-06-09T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gemini-1.5-pro",
+    "benchmark_id": "math-p-simple",
+    "score": 77.42,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2502.06453",
+      "reported_by": "MATH-Perturb paper Table 1",
+      "fetched_at": "2026-06-09T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "math-p-simple",
+    "score": 62.01,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2502.06453",
+      "reported_by": "MATH-Perturb paper Table 1",
+      "fetched_at": "2026-06-09T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "claude-3.5-sonnet",
+    "benchmark_id": "math-p-simple",
+    "score": 58.42,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2502.06453",
+      "reported_by": "MATH-Perturb paper Table 1",
+      "fetched_at": "2026-06-09T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-4-turbo",
+    "benchmark_id": "math-p-simple",
+    "score": 55.2,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2502.06453",
+      "reported_by": "MATH-Perturb paper Table 1",
+      "fetched_at": "2026-06-09T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "claude-3-opus",
+    "benchmark_id": "math-p-simple",
+    "score": 41.94,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2502.06453",
+      "reported_by": "MATH-Perturb paper Table 1",
+      "fetched_at": "2026-06-09T00:00:00Z"
+    }
+  }
+]

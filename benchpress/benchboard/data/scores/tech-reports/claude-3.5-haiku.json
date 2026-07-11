@@ -1,0 +1,2285 @@
+[
+  {
+    "model_id": "claude-3.5-sonnet",
+    "benchmark_id": "ai2d",
+    "score": 94.7,
+    "config": "0-shot",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-3.5-haiku__model-card.pdf",
+      "ref": "p.5",
+      "reported_by": "claude-3.5-haiku",
+      "fetched_at": "2026-06-08T05:47:09.604Z"
+    }
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "ai2d",
+    "score": 94.2,
+    "config": "0-shot",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-3.5-haiku__model-card.pdf",
+      "ref": "p.5",
+      "reported_by": "claude-3.5-haiku",
+      "fetched_at": "2026-06-08T05:47:09.604Z"
+    }
+  },
+  {
+    "model_id": "claude-3-sonnet",
+    "benchmark_id": "ai2d",
+    "score": 88.7,
+    "config": "0-shot",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-3.5-haiku__model-card.pdf",
+      "ref": "p.5",
+      "reported_by": "claude-3.5-haiku",
+      "fetched_at": "2026-06-08T05:47:09.604Z"
+    }
+  },
+  {
+    "model_id": "claude-3-opus",
+    "benchmark_id": "ai2d",
+    "score": 88.1,
+    "config": "0-shot",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-3.5-haiku__model-card.pdf",
+      "ref": "p.5",
+      "reported_by": "claude-3.5-haiku",
+      "fetched_at": "2026-06-08T05:47:09.604Z"
+    }
+  },
+  {
+    "model_id": "claude-3.5-sonnet",
+    "benchmark_id": "aime-2024",
+    "score": 16.7,
+    "config": "Maj@64 0-shot CoT",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-3.5-haiku__model-card.pdf",
+      "ref": "p.6",
+      "reported_by": "claude-3.5-haiku",
+      "fetched_at": "2026-06-08T05:47:09.604Z"
+    },
+    "variants": [
+      {
+        "score": 9.6,
+        "config": "0-shot CoT",
+        "source": {
+          "kind": "tech_report",
+          "url": "claude-3.5-haiku__model-card.pdf",
+          "ref": "p.6",
+          "reported_by": "claude-3.5-haiku",
+          "fetched_at": "2026-06-08T05:47:09.604Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "aime-2024",
+    "score": 13.4,
+    "config": "Maj@64 0-shot CoT",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-3.5-haiku__model-card.pdf",
+      "ref": "p.6",
+      "reported_by": "claude-3.5-haiku",
+      "fetched_at": "2026-06-08T05:47:09.604Z"
+    },
+    "variants": [
+      {
+        "score": 9.3,
+        "config": "0-shot CoT",
+        "source": {
+          "kind": "tech_report",
+          "url": "claude-3.5-haiku__model-card.pdf",
+          "ref": "p.6",
+          "reported_by": "claude-3.5-haiku",
+          "fetched_at": "2026-06-08T05:47:09.604Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "claude-3-opus",
+    "benchmark_id": "aime-2024",
+    "score": 12.1,
+    "config": "Maj@64 0-shot CoT",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-3.5-haiku__model-card.pdf",
+      "ref": "p.6",
+      "reported_by": "claude-3.5-haiku",
+      "fetched_at": "2026-06-08T05:47:09.604Z"
+    },
+    "variants": [
+      {
+        "score": 7.9,
+        "config": "0-shot CoT",
+        "source": {
+          "kind": "tech_report",
+          "url": "claude-3.5-haiku__model-card.pdf",
+          "ref": "p.6",
+          "reported_by": "claude-3.5-haiku",
+          "fetched_at": "2026-06-08T05:47:09.604Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "claude-3.5-haiku",
+    "benchmark_id": "aime-2024",
+    "score": 10.1,
+    "config": "Maj@64 0-shot CoT",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-3.5-haiku__model-card.pdf",
+      "ref": "p.7",
+      "fetched_at": "2026-06-08T05:47:09.604Z"
+    },
+    "variants": [
+      {
+        "score": 5.3,
+        "config": "0-shot CoT",
+        "source": {
+          "kind": "tech_report",
+          "url": "claude-3.5-haiku__model-card.pdf",
+          "ref": "p.7",
+          "fetched_at": "2026-06-08T05:47:09.604Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "claude-3-sonnet",
+    "benchmark_id": "aime-2024",
+    "score": 1.8,
+    "config": "0-shot CoT",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-3.5-haiku__model-card.pdf",
+      "ref": "p.6",
+      "reported_by": "claude-3.5-haiku",
+      "fetched_at": "2026-06-08T05:47:09.604Z"
+    },
+    "variants": [
+      {
+        "score": 0.6,
+        "config": "Maj@64 0-shot CoT",
+        "source": {
+          "kind": "tech_report",
+          "url": "claude-3.5-haiku__model-card.pdf",
+          "ref": "p.6",
+          "reported_by": "claude-3.5-haiku",
+          "fetched_at": "2026-06-08T05:47:09.604Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "claude-3-haiku",
+    "benchmark_id": "aime-2024",
+    "score": 0.8,
+    "config": "0-shot CoT",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-3.5-haiku__model-card.pdf",
+      "ref": "p.7",
+      "reported_by": "claude-3.5-haiku",
+      "fetched_at": "2026-06-08T05:47:09.604Z"
+    },
+    "variants": [
+      {
+        "score": 0.4,
+        "config": "Maj@64 0-shot CoT",
+        "source": {
+          "kind": "tech_report",
+          "url": "claude-3.5-haiku__model-card.pdf",
+          "ref": "p.7",
+          "reported_by": "claude-3.5-haiku",
+          "fetched_at": "2026-06-08T05:47:09.604Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "claude-3.5-sonnet",
+    "benchmark_id": "big-bench-hard",
+    "score": 93.1,
+    "config": "3-shot CoT",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-3.5-haiku__model-card.pdf",
+      "ref": "p.6",
+      "reported_by": "claude-3.5-haiku",
+      "fetched_at": "2026-06-08T05:47:09.604Z"
+    }
+  },
+  {
+    "model_id": "claude-3-opus",
+    "benchmark_id": "big-bench-hard",
+    "score": 86.8,
+    "config": "3-shot CoT",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-3.5-haiku__model-card.pdf",
+      "ref": "p.6",
+      "reported_by": "claude-3.5-haiku",
+      "fetched_at": "2026-06-08T05:47:09.604Z"
+    }
+  },
+  {
+    "model_id": "claude-3.5-haiku",
+    "benchmark_id": "big-bench-hard",
+    "score": 86.6,
+    "config": "3-shot CoT",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-3.5-haiku__model-card.pdf",
+      "ref": "p.7",
+      "fetched_at": "2026-06-08T05:47:09.604Z"
+    }
+  },
+  {
+    "model_id": "claude-3-sonnet",
+    "benchmark_id": "big-bench-hard",
+    "score": 82.9,
+    "config": "3-shot CoT",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-3.5-haiku__model-card.pdf",
+      "ref": "p.6",
+      "reported_by": "claude-3.5-haiku",
+      "fetched_at": "2026-06-08T05:47:09.604Z"
+    }
+  },
+  {
+    "model_id": "claude-3-haiku",
+    "benchmark_id": "big-bench-hard",
+    "score": 73.7,
+    "config": "3-shot CoT",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-3.5-haiku__model-card.pdf",
+      "ref": "p.7",
+      "reported_by": "claude-3.5-haiku",
+      "fetched_at": "2026-06-08T05:47:09.604Z"
+    }
+  },
+  {
+    "model_id": "claude-3.5-sonnet",
+    "benchmark_id": "chartqa",
+    "score": 90.8,
+    "config": "0-shot CoT",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-3.5-haiku__model-card.pdf",
+      "ref": "p.5",
+      "reported_by": "claude-3.5-haiku",
+      "fetched_at": "2026-06-08T05:47:09.604Z"
+    }
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "chartqa",
+    "score": 85.7,
+    "config": "0-shot CoT",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-3.5-haiku__model-card.pdf",
+      "ref": "p.5",
+      "reported_by": "claude-3.5-haiku",
+      "fetched_at": "2026-06-08T05:47:09.604Z"
+    }
+  },
+  {
+    "model_id": "claude-3-sonnet",
+    "benchmark_id": "chartqa",
+    "score": 81.1,
+    "config": "0-shot CoT",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-3.5-haiku__model-card.pdf",
+      "ref": "p.5",
+      "reported_by": "claude-3.5-haiku",
+      "fetched_at": "2026-06-08T05:47:09.604Z"
+    }
+  },
+  {
+    "model_id": "claude-3-opus",
+    "benchmark_id": "chartqa",
+    "score": 80.8,
+    "config": "0-shot CoT",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-3.5-haiku__model-card.pdf",
+      "ref": "p.5",
+      "reported_by": "claude-3.5-haiku",
+      "fetched_at": "2026-06-08T05:47:09.604Z"
+    }
+  },
+  {
+    "model_id": "claude-3.5-sonnet",
+    "benchmark_id": "docvqa",
+    "score": 95.2,
+    "config": "0-shot",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-3.5-haiku__model-card.pdf",
+      "ref": "p.5",
+      "reported_by": "claude-3.5-haiku",
+      "fetched_at": "2026-06-08T05:47:09.604Z"
+    }
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "docvqa",
+    "score": 92.8,
+    "config": "0-shot",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-3.5-haiku__model-card.pdf",
+      "ref": "p.5",
+      "reported_by": "claude-3.5-haiku",
+      "fetched_at": "2026-06-08T05:47:09.604Z"
+    }
+  },
+  {
+    "model_id": "claude-3-sonnet",
+    "benchmark_id": "docvqa",
+    "score": 89.5,
+    "config": "0-shot",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-3.5-haiku__model-card.pdf",
+      "ref": "p.5",
+      "reported_by": "claude-3.5-haiku",
+      "fetched_at": "2026-06-08T05:47:09.604Z"
+    }
+  },
+  {
+    "model_id": "claude-3-opus",
+    "benchmark_id": "docvqa",
+    "score": 89.3,
+    "config": "0-shot",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-3.5-haiku__model-card.pdf",
+      "ref": "p.5",
+      "reported_by": "claude-3.5-haiku",
+      "fetched_at": "2026-06-08T05:47:09.604Z"
+    }
+  },
+  {
+    "model_id": "claude-3.5-sonnet",
+    "benchmark_id": "drop",
+    "score": 87.1,
+    "config": "3-shot",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-3.5-haiku__model-card.pdf",
+      "ref": "p.6",
+      "reported_by": "claude-3.5-haiku",
+      "fetched_at": "2026-06-08T05:47:09.604Z"
+    }
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "drop",
+    "score": 83.4,
+    "config": "3-shot",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-3.5-haiku__model-card.pdf",
+      "ref": "p.6",
+      "reported_by": "claude-3.5-haiku",
+      "fetched_at": "2026-06-08T05:47:09.604Z"
+    }
+  },
+  {
+    "model_id": "claude-3-opus",
+    "benchmark_id": "drop",
+    "score": 83.1,
+    "config": "3-shot",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-3.5-haiku__model-card.pdf",
+      "ref": "p.6",
+      "reported_by": "claude-3.5-haiku",
+      "fetched_at": "2026-06-08T05:47:09.604Z"
+    }
+  },
+  {
+    "model_id": "claude-3.5-haiku",
+    "benchmark_id": "drop",
+    "score": 83.1,
+    "config": "3-shot",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-3.5-haiku__model-card.pdf",
+      "ref": "p.7",
+      "fetched_at": "2026-06-08T05:47:09.604Z"
+    }
+  },
+  {
+    "model_id": "gpt-4o-mini",
+    "benchmark_id": "drop",
+    "score": 79.7,
+    "config": "3-shot",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-3.5-haiku__model-card.pdf",
+      "ref": "p.7",
+      "reported_by": "claude-3.5-haiku",
+      "fetched_at": "2026-06-08T05:47:09.604Z"
+    }
+  },
+  {
+    "model_id": "claude-3-sonnet",
+    "benchmark_id": "drop",
+    "score": 78.9,
+    "config": "3-shot",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-3.5-haiku__model-card.pdf",
+      "ref": "p.6",
+      "reported_by": "claude-3.5-haiku",
+      "fetched_at": "2026-06-08T05:47:09.604Z"
+    }
+  },
+  {
+    "model_id": "claude-3-haiku",
+    "benchmark_id": "drop",
+    "score": 78.4,
+    "config": "3-shot",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-3.5-haiku__model-card.pdf",
+      "ref": "p.7",
+      "reported_by": "claude-3.5-haiku",
+      "fetched_at": "2026-06-08T05:47:09.604Z"
+    }
+  },
+  {
+    "model_id": "claude-3.5-sonnet",
+    "benchmark_id": "gpqa",
+    "score": 59.4,
+    "config": "0-shot CoT, Diamond",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-3.5-haiku__model-card.pdf",
+      "ref": "p.6",
+      "reported_by": "claude-3.5-haiku",
+      "fetched_at": "2026-06-08T05:47:09.604Z"
+    }
+  },
+  {
+    "model_id": "gemini-1.5-pro",
+    "benchmark_id": "gpqa",
+    "score": 59.1,
+    "config": "0-shot CoT, Diamond",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-3.5-haiku__model-card.pdf",
+      "ref": "p.6",
+      "reported_by": "claude-3.5-haiku",
+      "fetched_at": "2026-06-08T05:47:09.604Z"
+    }
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "gpqa",
+    "score": 53.6,
+    "config": "0-shot CoT, Diamond",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-3.5-haiku__model-card.pdf",
+      "ref": "p.6",
+      "reported_by": "claude-3.5-haiku",
+      "fetched_at": "2026-06-08T05:47:09.604Z"
+    }
+  },
+  {
+    "model_id": "llama-3.1-405b",
+    "benchmark_id": "gpqa",
+    "score": 51.1,
+    "config": "0-shot CoT, Diamond",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-3.5-haiku__model-card.pdf",
+      "ref": "p.6",
+      "reported_by": "claude-3.5-haiku",
+      "fetched_at": "2026-06-08T05:47:09.604Z"
+    }
+  },
+  {
+    "model_id": "claude-3-opus",
+    "benchmark_id": "gpqa",
+    "score": 50.4,
+    "config": "0-shot CoT, Diamond",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-3.5-haiku__model-card.pdf",
+      "ref": "p.6",
+      "reported_by": "claude-3.5-haiku",
+      "fetched_at": "2026-06-08T05:47:09.604Z"
+    }
+  },
+  {
+    "model_id": "claude-3.5-haiku",
+    "benchmark_id": "gpqa",
+    "score": 41.6,
+    "config": "0-shot CoT, Diamond",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-3.5-haiku__model-card.pdf",
+      "ref": "p.7",
+      "fetched_at": "2026-06-08T05:47:09.604Z"
+    }
+  },
+  {
+    "model_id": "claude-3-sonnet",
+    "benchmark_id": "gpqa",
+    "score": 40.4,
+    "config": "0-shot CoT, Diamond",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-3.5-haiku__model-card.pdf",
+      "ref": "p.6",
+      "reported_by": "claude-3.5-haiku",
+      "fetched_at": "2026-06-08T05:47:09.604Z"
+    }
+  },
+  {
+    "model_id": "gpt-4o-mini",
+    "benchmark_id": "gpqa",
+    "score": 40.2,
+    "config": "0-shot CoT, Diamond",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-3.5-haiku__model-card.pdf",
+      "ref": "p.7",
+      "reported_by": "claude-3.5-haiku",
+      "fetched_at": "2026-06-08T05:47:09.604Z"
+    }
+  },
+  {
+    "model_id": "claude-3-haiku",
+    "benchmark_id": "gpqa",
+    "score": 33.3,
+    "config": "0-shot CoT, Diamond",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-3.5-haiku__model-card.pdf",
+      "ref": "p.7",
+      "reported_by": "claude-3.5-haiku",
+      "fetched_at": "2026-06-08T05:47:09.604Z"
+    }
+  },
+  {
+    "model_id": "claude-3.5-haiku",
+    "benchmark_id": "human-feedback",
+    "score": 57,
+    "config": "Documents, Win Rate",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-3.5-haiku__model-card.pdf",
+      "ref": "p.8",
+      "fetched_at": "2026-06-08T05:47:09.604Z"
+    },
+    "variants": [
+      {
+        "score": 50,
+        "config": "Vision Instruction-Following, Win Rate",
+        "source": {
+          "kind": "tech_report",
+          "url": "claude-3.5-haiku__model-card.pdf",
+          "ref": "p.8",
+          "fetched_at": "2026-06-08T05:47:09.604Z"
+        }
+      },
+      {
+        "score": 46,
+        "config": "Creative Writing, Win Rate",
+        "source": {
+          "kind": "tech_report",
+          "url": "claude-3.5-haiku__model-card.pdf",
+          "ref": "p.8",
+          "fetched_at": "2026-06-08T05:47:09.604Z"
+        }
+      },
+      {
+        "score": 45,
+        "config": "Coding, Win Rate",
+        "source": {
+          "kind": "tech_report",
+          "url": "claude-3.5-haiku__model-card.pdf",
+          "ref": "p.8",
+          "fetched_at": "2026-06-08T05:47:09.604Z"
+        }
+      },
+      {
+        "score": 43,
+        "config": "Harmlessness, Win Rate",
+        "source": {
+          "kind": "tech_report",
+          "url": "claude-3.5-haiku__model-card.pdf",
+          "ref": "p.8",
+          "fetched_at": "2026-06-08T05:47:09.604Z"
+        }
+      },
+      {
+        "score": 42,
+        "config": "Honesty, Win Rate",
+        "source": {
+          "kind": "tech_report",
+          "url": "claude-3.5-haiku__model-card.pdf",
+          "ref": "p.8",
+          "fetched_at": "2026-06-08T05:47:09.604Z"
+        }
+      },
+      {
+        "score": 40,
+        "config": "Instruction-Following, Win Rate",
+        "source": {
+          "kind": "tech_report",
+          "url": "claude-3.5-haiku__model-card.pdf",
+          "ref": "p.8",
+          "fetched_at": "2026-06-08T05:47:09.604Z"
+        }
+      },
+      {
+        "score": 30,
+        "config": "Multilingual, Win Rate",
+        "source": {
+          "kind": "tech_report",
+          "url": "claude-3.5-haiku__model-card.pdf",
+          "ref": "p.8",
+          "fetched_at": "2026-06-08T05:47:09.604Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "claude-3.5-sonnet",
+    "benchmark_id": "human-feedback",
+    "score": 50,
+    "config": "Coding, Win Rate",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-3.5-haiku__model-card.pdf",
+      "ref": "p.8",
+      "reported_by": "claude-3.5-haiku",
+      "fetched_at": "2026-06-08T05:47:09.604Z"
+    },
+    "variants": [
+      {
+        "score": 50,
+        "config": "Documents, Win Rate",
+        "source": {
+          "kind": "tech_report",
+          "url": "claude-3.5-haiku__model-card.pdf",
+          "ref": "p.8",
+          "reported_by": "claude-3.5-haiku",
+          "fetched_at": "2026-06-08T05:47:09.604Z"
+        }
+      },
+      {
+        "score": 50,
+        "config": "Instruction-Following, Win Rate",
+        "source": {
+          "kind": "tech_report",
+          "url": "claude-3.5-haiku__model-card.pdf",
+          "ref": "p.8",
+          "reported_by": "claude-3.5-haiku",
+          "fetched_at": "2026-06-08T05:47:09.604Z"
+        }
+      },
+      {
+        "score": 50,
+        "config": "Creative Writing, Win Rate",
+        "source": {
+          "kind": "tech_report",
+          "url": "claude-3.5-haiku__model-card.pdf",
+          "ref": "p.8",
+          "reported_by": "claude-3.5-haiku",
+          "fetched_at": "2026-06-08T05:47:09.604Z"
+        }
+      },
+      {
+        "score": 50,
+        "config": "Multilingual, Win Rate",
+        "source": {
+          "kind": "tech_report",
+          "url": "claude-3.5-haiku__model-card.pdf",
+          "ref": "p.8",
+          "reported_by": "claude-3.5-haiku",
+          "fetched_at": "2026-06-08T05:47:09.604Z"
+        }
+      },
+      {
+        "score": 50,
+        "config": "Honesty, Win Rate",
+        "source": {
+          "kind": "tech_report",
+          "url": "claude-3.5-haiku__model-card.pdf",
+          "ref": "p.8",
+          "reported_by": "claude-3.5-haiku",
+          "fetched_at": "2026-06-08T05:47:09.604Z"
+        }
+      },
+      {
+        "score": 50,
+        "config": "Harmlessness, Win Rate",
+        "source": {
+          "kind": "tech_report",
+          "url": "claude-3.5-haiku__model-card.pdf",
+          "ref": "p.8",
+          "reported_by": "claude-3.5-haiku",
+          "fetched_at": "2026-06-08T05:47:09.604Z"
+        }
+      },
+      {
+        "score": 34,
+        "config": "Vision Instruction-Following, Win Rate",
+        "source": {
+          "kind": "tech_report",
+          "url": "claude-3.5-haiku__model-card.pdf",
+          "ref": "p.8",
+          "reported_by": "claude-3.5-haiku",
+          "fetched_at": "2026-06-08T05:47:09.604Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "claude-3-sonnet",
+    "benchmark_id": "human-feedback",
+    "score": 49,
+    "config": "Harmlessness, Win Rate",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-3.5-haiku__model-card.pdf",
+      "ref": "p.8",
+      "reported_by": "claude-3.5-haiku",
+      "fetched_at": "2026-06-08T05:47:09.604Z"
+    },
+    "variants": [
+      {
+        "score": 38,
+        "config": "Documents, Win Rate",
+        "source": {
+          "kind": "tech_report",
+          "url": "claude-3.5-haiku__model-card.pdf",
+          "ref": "p.8",
+          "reported_by": "claude-3.5-haiku",
+          "fetched_at": "2026-06-08T05:47:09.604Z"
+        }
+      },
+      {
+        "score": 36,
+        "config": "Creative Writing, Win Rate",
+        "source": {
+          "kind": "tech_report",
+          "url": "claude-3.5-haiku__model-card.pdf",
+          "ref": "p.8",
+          "reported_by": "claude-3.5-haiku",
+          "fetched_at": "2026-06-08T05:47:09.604Z"
+        }
+      },
+      {
+        "score": 35,
+        "config": "Multilingual, Win Rate",
+        "source": {
+          "kind": "tech_report",
+          "url": "claude-3.5-haiku__model-card.pdf",
+          "ref": "p.8",
+          "reported_by": "claude-3.5-haiku",
+          "fetched_at": "2026-06-08T05:47:09.604Z"
+        }
+      },
+      {
+        "score": 33,
+        "config": "Coding, Win Rate",
+        "source": {
+          "kind": "tech_report",
+          "url": "claude-3.5-haiku__model-card.pdf",
+          "ref": "p.8",
+          "reported_by": "claude-3.5-haiku",
+          "fetched_at": "2026-06-08T05:47:09.604Z"
+        }
+      },
+      {
+        "score": 33,
+        "config": "Instruction-Following, Win Rate",
+        "source": {
+          "kind": "tech_report",
+          "url": "claude-3.5-haiku__model-card.pdf",
+          "ref": "p.8",
+          "reported_by": "claude-3.5-haiku",
+          "fetched_at": "2026-06-08T05:47:09.604Z"
+        }
+      },
+      {
+        "score": 32,
+        "config": "Honesty, Win Rate",
+        "source": {
+          "kind": "tech_report",
+          "url": "claude-3.5-haiku__model-card.pdf",
+          "ref": "p.8",
+          "reported_by": "claude-3.5-haiku",
+          "fetched_at": "2026-06-08T05:47:09.604Z"
+        }
+      },
+      {
+        "score": 25,
+        "config": "Vision Instruction-Following, Win Rate",
+        "source": {
+          "kind": "tech_report",
+          "url": "claude-3.5-haiku__model-card.pdf",
+          "ref": "p.8",
+          "reported_by": "claude-3.5-haiku",
+          "fetched_at": "2026-06-08T05:47:09.604Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "claude-3-haiku",
+    "benchmark_id": "human-feedback",
+    "score": 49,
+    "config": "Harmlessness, Win Rate",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-3.5-haiku__model-card.pdf",
+      "ref": "p.8",
+      "reported_by": "claude-3.5-haiku",
+      "fetched_at": "2026-06-08T05:47:09.604Z"
+    },
+    "variants": [
+      {
+        "score": 35,
+        "config": "Documents, Win Rate",
+        "source": {
+          "kind": "tech_report",
+          "url": "claude-3.5-haiku__model-card.pdf",
+          "ref": "p.8",
+          "reported_by": "claude-3.5-haiku",
+          "fetched_at": "2026-06-08T05:47:09.604Z"
+        }
+      },
+      {
+        "score": 33,
+        "config": "Multilingual, Win Rate",
+        "source": {
+          "kind": "tech_report",
+          "url": "claude-3.5-haiku__model-card.pdf",
+          "ref": "p.8",
+          "reported_by": "claude-3.5-haiku",
+          "fetched_at": "2026-06-08T05:47:09.604Z"
+        }
+      },
+      {
+        "score": 31,
+        "config": "Creative Writing, Win Rate",
+        "source": {
+          "kind": "tech_report",
+          "url": "claude-3.5-haiku__model-card.pdf",
+          "ref": "p.8",
+          "reported_by": "claude-3.5-haiku",
+          "fetched_at": "2026-06-08T05:47:09.604Z"
+        }
+      },
+      {
+        "score": 30,
+        "config": "Coding, Win Rate",
+        "source": {
+          "kind": "tech_report",
+          "url": "claude-3.5-haiku__model-card.pdf",
+          "ref": "p.8",
+          "reported_by": "claude-3.5-haiku",
+          "fetched_at": "2026-06-08T05:47:09.604Z"
+        }
+      },
+      {
+        "score": 30,
+        "config": "Honesty, Win Rate",
+        "source": {
+          "kind": "tech_report",
+          "url": "claude-3.5-haiku__model-card.pdf",
+          "ref": "p.8",
+          "reported_by": "claude-3.5-haiku",
+          "fetched_at": "2026-06-08T05:47:09.604Z"
+        }
+      },
+      {
+        "score": 26,
+        "config": "Instruction-Following, Win Rate",
+        "source": {
+          "kind": "tech_report",
+          "url": "claude-3.5-haiku__model-card.pdf",
+          "ref": "p.8",
+          "reported_by": "claude-3.5-haiku",
+          "fetched_at": "2026-06-08T05:47:09.604Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "claude-3-opus",
+    "benchmark_id": "human-feedback",
+    "score": 47,
+    "config": "Harmlessness, Win Rate",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-3.5-haiku__model-card.pdf",
+      "ref": "p.8",
+      "reported_by": "claude-3.5-haiku",
+      "fetched_at": "2026-06-08T05:47:09.604Z"
+    },
+    "variants": [
+      {
+        "score": 46,
+        "config": "Instruction-Following, Win Rate",
+        "source": {
+          "kind": "tech_report",
+          "url": "claude-3.5-haiku__model-card.pdf",
+          "ref": "p.8",
+          "reported_by": "claude-3.5-haiku",
+          "fetched_at": "2026-06-08T05:47:09.604Z"
+        }
+      },
+      {
+        "score": 44,
+        "config": "Multilingual, Win Rate",
+        "source": {
+          "kind": "tech_report",
+          "url": "claude-3.5-haiku__model-card.pdf",
+          "ref": "p.8",
+          "reported_by": "claude-3.5-haiku",
+          "fetched_at": "2026-06-08T05:47:09.604Z"
+        }
+      },
+      {
+        "score": 42,
+        "config": "Documents, Win Rate",
+        "source": {
+          "kind": "tech_report",
+          "url": "claude-3.5-haiku__model-card.pdf",
+          "ref": "p.8",
+          "reported_by": "claude-3.5-haiku",
+          "fetched_at": "2026-06-08T05:47:09.604Z"
+        }
+      },
+      {
+        "score": 42,
+        "config": "Honesty, Win Rate",
+        "source": {
+          "kind": "tech_report",
+          "url": "claude-3.5-haiku__model-card.pdf",
+          "ref": "p.8",
+          "reported_by": "claude-3.5-haiku",
+          "fetched_at": "2026-06-08T05:47:09.604Z"
+        }
+      },
+      {
+        "score": 41,
+        "config": "Creative Writing, Win Rate",
+        "source": {
+          "kind": "tech_report",
+          "url": "claude-3.5-haiku__model-card.pdf",
+          "ref": "p.8",
+          "reported_by": "claude-3.5-haiku",
+          "fetched_at": "2026-06-08T05:47:09.604Z"
+        }
+      },
+      {
+        "score": 39,
+        "config": "Coding, Win Rate",
+        "source": {
+          "kind": "tech_report",
+          "url": "claude-3.5-haiku__model-card.pdf",
+          "ref": "p.8",
+          "reported_by": "claude-3.5-haiku",
+          "fetched_at": "2026-06-08T05:47:09.604Z"
+        }
+      },
+      {
+        "score": 30,
+        "config": "Vision Instruction-Following, Win Rate",
+        "source": {
+          "kind": "tech_report",
+          "url": "claude-3.5-haiku__model-card.pdf",
+          "ref": "p.8",
+          "reported_by": "claude-3.5-haiku",
+          "fetched_at": "2026-06-08T05:47:09.604Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "claude-3.5-sonnet",
+    "benchmark_id": "humaneval",
+    "score": 92,
+    "config": "0-shot",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-3.5-haiku__model-card.pdf",
+      "ref": "p.6",
+      "reported_by": "claude-3.5-haiku",
+      "fetched_at": "2026-06-08T05:47:09.604Z"
+    }
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "humaneval",
+    "score": 90.2,
+    "config": "0-shot",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-3.5-haiku__model-card.pdf",
+      "ref": "p.6",
+      "reported_by": "claude-3.5-haiku",
+      "fetched_at": "2026-06-08T05:47:09.604Z"
+    }
+  },
+  {
+    "model_id": "llama-3.1-405b",
+    "benchmark_id": "humaneval",
+    "score": 89,
+    "config": "0-shot",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-3.5-haiku__model-card.pdf",
+      "ref": "p.6",
+      "reported_by": "claude-3.5-haiku",
+      "fetched_at": "2026-06-08T05:47:09.604Z"
+    }
+  },
+  {
+    "model_id": "claude-3.5-haiku",
+    "benchmark_id": "humaneval",
+    "score": 88.1,
+    "config": "0-shot",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-3.5-haiku__model-card.pdf",
+      "ref": "p.7",
+      "fetched_at": "2026-06-08T05:47:09.604Z"
+    }
+  },
+  {
+    "model_id": "gpt-4o-mini",
+    "benchmark_id": "humaneval",
+    "score": 87.2,
+    "config": "0-shot",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-3.5-haiku__model-card.pdf",
+      "ref": "p.7",
+      "reported_by": "claude-3.5-haiku",
+      "fetched_at": "2026-06-08T05:47:09.604Z"
+    }
+  },
+  {
+    "model_id": "claude-3-opus",
+    "benchmark_id": "humaneval",
+    "score": 84.9,
+    "config": "0-shot",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-3.5-haiku__model-card.pdf",
+      "ref": "p.6",
+      "reported_by": "claude-3.5-haiku",
+      "fetched_at": "2026-06-08T05:47:09.604Z"
+    }
+  },
+  {
+    "model_id": "claude-3-haiku",
+    "benchmark_id": "humaneval",
+    "score": 75.9,
+    "config": "0-shot",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-3.5-haiku__model-card.pdf",
+      "ref": "p.7",
+      "reported_by": "claude-3.5-haiku",
+      "fetched_at": "2026-06-08T05:47:09.604Z"
+    }
+  },
+  {
+    "model_id": "claude-3-sonnet",
+    "benchmark_id": "humaneval",
+    "score": 73,
+    "config": "0-shot",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-3.5-haiku__model-card.pdf",
+      "ref": "p.6",
+      "reported_by": "claude-3.5-haiku",
+      "fetched_at": "2026-06-08T05:47:09.604Z"
+    }
+  },
+  {
+    "model_id": "llama-3.1-405b",
+    "benchmark_id": "ifeval",
+    "score": 88.6,
+    "config": "Instruction following",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-3.5-haiku__model-card.pdf",
+      "ref": "p.6",
+      "reported_by": "claude-3.5-haiku",
+      "fetched_at": "2026-06-08T05:47:09.604Z"
+    }
+  },
+  {
+    "model_id": "claude-3.5-sonnet",
+    "benchmark_id": "ifeval",
+    "score": 87.8,
+    "config": "Instruction following",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-3.5-haiku__model-card.pdf",
+      "ref": "p.6",
+      "reported_by": "claude-3.5-haiku",
+      "fetched_at": "2026-06-08T05:47:09.604Z"
+    }
+  },
+  {
+    "model_id": "claude-3-opus",
+    "benchmark_id": "ifeval",
+    "score": 86.7,
+    "config": "Instruction following",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-3.5-haiku__model-card.pdf",
+      "ref": "p.6",
+      "reported_by": "claude-3.5-haiku",
+      "fetched_at": "2026-06-08T05:47:09.604Z"
+    }
+  },
+  {
+    "model_id": "claude-3.5-haiku",
+    "benchmark_id": "ifeval",
+    "score": 85.9,
+    "config": "Instruction following",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-3.5-haiku__model-card.pdf",
+      "ref": "p.7",
+      "fetched_at": "2026-06-08T05:47:09.604Z"
+    }
+  },
+  {
+    "model_id": "claude-3-sonnet",
+    "benchmark_id": "ifeval",
+    "score": 81.1,
+    "config": "Instruction following",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-3.5-haiku__model-card.pdf",
+      "ref": "p.6",
+      "reported_by": "claude-3.5-haiku",
+      "fetched_at": "2026-06-08T05:47:09.604Z"
+    }
+  },
+  {
+    "model_id": "claude-3-haiku",
+    "benchmark_id": "ifeval",
+    "score": 77.2,
+    "config": "Instruction following",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-3.5-haiku__model-card.pdf",
+      "ref": "p.7",
+      "reported_by": "claude-3.5-haiku",
+      "fetched_at": "2026-06-08T05:47:09.604Z"
+    }
+  },
+  {
+    "model_id": "claude-3.5-haiku",
+    "benchmark_id": "internal-agentic-coding-evaluation",
+    "score": 74,
+    "config": "pass@1",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-3.5-haiku__model-card.pdf",
+      "ref": "p.4",
+      "fetched_at": "2026-06-08T05:47:09.604Z"
+    }
+  },
+  {
+    "model_id": "claude-3.5-sonnet",
+    "benchmark_id": "internal-agentic-coding-evaluation",
+    "score": 64,
+    "config": "pass@1",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-3.5-haiku__model-card.pdf",
+      "ref": "p.4",
+      "reported_by": "claude-3.5-haiku",
+      "fetched_at": "2026-06-08T05:47:09.604Z"
+    }
+  },
+  {
+    "model_id": "claude-3-opus",
+    "benchmark_id": "internal-agentic-coding-evaluation",
+    "score": 38,
+    "config": "pass@1",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-3.5-haiku__model-card.pdf",
+      "ref": "p.4",
+      "reported_by": "claude-3.5-haiku",
+      "fetched_at": "2026-06-08T05:47:09.604Z"
+    }
+  },
+  {
+    "model_id": "claude-3-sonnet",
+    "benchmark_id": "internal-agentic-coding-evaluation",
+    "score": 21,
+    "config": "pass@1",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-3.5-haiku__model-card.pdf",
+      "ref": "p.4",
+      "reported_by": "claude-3.5-haiku",
+      "fetched_at": "2026-06-08T05:47:09.604Z"
+    }
+  },
+  {
+    "model_id": "claude-3-haiku",
+    "benchmark_id": "internal-agentic-coding-evaluation",
+    "score": 17,
+    "config": "pass@1",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-3.5-haiku__model-card.pdf",
+      "ref": "p.4",
+      "reported_by": "claude-3.5-haiku",
+      "fetched_at": "2026-06-08T05:47:09.604Z"
+    }
+  },
+  {
+    "model_id": "gemini-1.5-pro",
+    "benchmark_id": "math",
+    "score": 86.5,
+    "config": "4-shot CoT",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-3.5-haiku__model-card.pdf",
+      "ref": "p.6",
+      "reported_by": "claude-3.5-haiku",
+      "fetched_at": "2026-06-08T05:47:09.604Z"
+    }
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "math",
+    "score": 76.6,
+    "config": "0-shot CoT",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-3.5-haiku__model-card.pdf",
+      "ref": "p.6",
+      "reported_by": "claude-3.5-haiku",
+      "fetched_at": "2026-06-08T05:47:09.604Z"
+    }
+  },
+  {
+    "model_id": "llama-3.1-405b",
+    "benchmark_id": "math",
+    "score": 73.8,
+    "config": "0-shot CoT",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-3.5-haiku__model-card.pdf",
+      "ref": "p.6",
+      "reported_by": "claude-3.5-haiku",
+      "fetched_at": "2026-06-08T05:47:09.604Z"
+    }
+  },
+  {
+    "model_id": "claude-3.5-sonnet",
+    "benchmark_id": "math",
+    "score": 71.1,
+    "config": "0-shot CoT",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-3.5-haiku__model-card.pdf",
+      "ref": "p.6",
+      "reported_by": "claude-3.5-haiku",
+      "fetched_at": "2026-06-08T05:47:09.604Z"
+    }
+  },
+  {
+    "model_id": "gpt-4o-mini",
+    "benchmark_id": "math",
+    "score": 70.2,
+    "config": "0-shot CoT",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-3.5-haiku__model-card.pdf",
+      "ref": "p.7",
+      "reported_by": "claude-3.5-haiku",
+      "fetched_at": "2026-06-08T05:47:09.604Z"
+    }
+  },
+  {
+    "model_id": "claude-3.5-haiku",
+    "benchmark_id": "math",
+    "score": 69.2,
+    "config": "0-shot CoT",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-3.5-haiku__model-card.pdf",
+      "ref": "p.7",
+      "fetched_at": "2026-06-08T05:47:09.604Z"
+    }
+  },
+  {
+    "model_id": "claude-3-opus",
+    "benchmark_id": "math",
+    "score": 60.1,
+    "config": "0-shot CoT",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-3.5-haiku__model-card.pdf",
+      "ref": "p.6",
+      "reported_by": "claude-3.5-haiku",
+      "fetched_at": "2026-06-08T05:47:09.604Z"
+    }
+  },
+  {
+    "model_id": "claude-3-sonnet",
+    "benchmark_id": "math",
+    "score": 43.1,
+    "config": "0-shot CoT",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-3.5-haiku__model-card.pdf",
+      "ref": "p.6",
+      "reported_by": "claude-3.5-haiku",
+      "fetched_at": "2026-06-08T05:47:09.604Z"
+    }
+  },
+  {
+    "model_id": "claude-3-haiku",
+    "benchmark_id": "math",
+    "score": 38.9,
+    "config": "0-shot CoT",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-3.5-haiku__model-card.pdf",
+      "ref": "p.7",
+      "reported_by": "claude-3.5-haiku",
+      "fetched_at": "2026-06-08T05:47:09.604Z"
+    }
+  },
+  {
+    "model_id": "gemini-1.5-pro",
+    "benchmark_id": "mathvista",
+    "score": 68.1,
+    "config": "0-shot CoT",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-3.5-haiku__model-card.pdf",
+      "ref": "p.5",
+      "reported_by": "claude-3.5-haiku",
+      "fetched_at": "2026-06-08T05:47:09.604Z"
+    }
+  },
+  {
+    "model_id": "claude-3.5-sonnet",
+    "benchmark_id": "mathvista",
+    "score": 67.7,
+    "config": "0-shot CoT",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-3.5-haiku__model-card.pdf",
+      "ref": "p.5",
+      "reported_by": "claude-3.5-haiku",
+      "fetched_at": "2026-06-08T05:47:09.604Z"
+    }
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "mathvista",
+    "score": 63.8,
+    "config": "0-shot CoT",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-3.5-haiku__model-card.pdf",
+      "ref": "p.5",
+      "reported_by": "claude-3.5-haiku",
+      "fetched_at": "2026-06-08T05:47:09.604Z"
+    }
+  },
+  {
+    "model_id": "claude-3-opus",
+    "benchmark_id": "mathvista",
+    "score": 50.5,
+    "config": "0-shot CoT",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-3.5-haiku__model-card.pdf",
+      "ref": "p.5",
+      "reported_by": "claude-3.5-haiku",
+      "fetched_at": "2026-06-08T05:47:09.604Z"
+    }
+  },
+  {
+    "model_id": "claude-3-sonnet",
+    "benchmark_id": "mathvista",
+    "score": 47.9,
+    "config": "0-shot CoT",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-3.5-haiku__model-card.pdf",
+      "ref": "p.5",
+      "reported_by": "claude-3.5-haiku",
+      "fetched_at": "2026-06-08T05:47:09.604Z"
+    }
+  },
+  {
+    "model_id": "claude-3.5-sonnet",
+    "benchmark_id": "mgsm",
+    "score": 91.6,
+    "config": "0-shot CoT",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-3.5-haiku__model-card.pdf",
+      "ref": "p.6",
+      "reported_by": "claude-3.5-haiku",
+      "fetched_at": "2026-06-08T05:47:09.604Z"
+    }
+  },
+  {
+    "model_id": "llama-3.1-405b",
+    "benchmark_id": "mgsm",
+    "score": 91.6,
+    "config": "0-shot CoT",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-3.5-haiku__model-card.pdf",
+      "ref": "p.6",
+      "reported_by": "claude-3.5-haiku",
+      "fetched_at": "2026-06-08T05:47:09.604Z"
+    }
+  },
+  {
+    "model_id": "claude-3-opus",
+    "benchmark_id": "mgsm",
+    "score": 90.7,
+    "config": "0-shot CoT",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-3.5-haiku__model-card.pdf",
+      "ref": "p.6",
+      "reported_by": "claude-3.5-haiku",
+      "fetched_at": "2026-06-08T05:47:09.604Z"
+    }
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "mgsm",
+    "score": 90.5,
+    "config": "0-shot CoT",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-3.5-haiku__model-card.pdf",
+      "ref": "p.6",
+      "reported_by": "claude-3.5-haiku",
+      "fetched_at": "2026-06-08T05:47:09.604Z"
+    }
+  },
+  {
+    "model_id": "gpt-4o-mini",
+    "benchmark_id": "mgsm",
+    "score": 87,
+    "config": "0-shot CoT",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-3.5-haiku__model-card.pdf",
+      "ref": "p.7",
+      "reported_by": "claude-3.5-haiku",
+      "fetched_at": "2026-06-08T05:47:09.604Z"
+    }
+  },
+  {
+    "model_id": "claude-3.5-haiku",
+    "benchmark_id": "mgsm",
+    "score": 85.6,
+    "config": "0-shot CoT",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-3.5-haiku__model-card.pdf",
+      "ref": "p.7",
+      "fetched_at": "2026-06-08T05:47:09.604Z"
+    }
+  },
+  {
+    "model_id": "claude-3-sonnet",
+    "benchmark_id": "mgsm",
+    "score": 83.5,
+    "config": "0-shot CoT",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-3.5-haiku__model-card.pdf",
+      "ref": "p.6",
+      "reported_by": "claude-3.5-haiku",
+      "fetched_at": "2026-06-08T05:47:09.604Z"
+    }
+  },
+  {
+    "model_id": "claude-3-haiku",
+    "benchmark_id": "mgsm",
+    "score": 75.1,
+    "config": "0-shot CoT",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-3.5-haiku__model-card.pdf",
+      "ref": "p.7",
+      "reported_by": "claude-3.5-haiku",
+      "fetched_at": "2026-06-08T05:47:09.604Z"
+    }
+  },
+  {
+    "model_id": "claude-3.5-sonnet",
+    "benchmark_id": "mmlu",
+    "score": 90.4,
+    "config": "5-shot CoT",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-3.5-haiku__model-card.pdf",
+      "ref": "p.6",
+      "reported_by": "claude-3.5-haiku",
+      "fetched_at": "2026-06-08T05:47:09.604Z"
+    },
+    "variants": [
+      {
+        "score": 88.7,
+        "config": "5-shot",
+        "source": {
+          "kind": "tech_report",
+          "url": "claude-3.5-haiku__model-card.pdf",
+          "ref": "p.6",
+          "reported_by": "claude-3.5-haiku",
+          "fetched_at": "2026-06-08T05:47:09.604Z"
+        }
+      },
+      {
+        "score": 88.3,
+        "config": "0-shot CoT",
+        "source": {
+          "kind": "tech_report",
+          "url": "claude-3.5-haiku__model-card.pdf",
+          "ref": "p.6",
+          "reported_by": "claude-3.5-haiku",
+          "fetched_at": "2026-06-08T05:47:09.604Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "mmlu",
+    "score": 88.7,
+    "config": "0-shot CoT",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-3.5-haiku__model-card.pdf",
+      "ref": "p.6",
+      "reported_by": "claude-3.5-haiku",
+      "fetched_at": "2026-06-08T05:47:09.604Z"
+    }
+  },
+  {
+    "model_id": "llama-3.1-405b",
+    "benchmark_id": "mmlu",
+    "score": 88.6,
+    "config": "0-shot CoT",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-3.5-haiku__model-card.pdf",
+      "ref": "p.6",
+      "reported_by": "claude-3.5-haiku",
+      "fetched_at": "2026-06-08T05:47:09.604Z"
+    },
+    "variants": [
+      {
+        "score": 87.3,
+        "config": "5-shot",
+        "source": {
+          "kind": "tech_report",
+          "url": "claude-3.5-haiku__model-card.pdf",
+          "ref": "p.6",
+          "reported_by": "claude-3.5-haiku",
+          "fetched_at": "2026-06-08T05:47:09.604Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "claude-3-opus",
+    "benchmark_id": "mmlu",
+    "score": 88.2,
+    "config": "5-shot CoT",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-3.5-haiku__model-card.pdf",
+      "ref": "p.6",
+      "reported_by": "claude-3.5-haiku",
+      "fetched_at": "2026-06-08T05:47:09.604Z"
+    },
+    "variants": [
+      {
+        "score": 86.8,
+        "config": "5-shot",
+        "source": {
+          "kind": "tech_report",
+          "url": "claude-3.5-haiku__model-card.pdf",
+          "ref": "p.6",
+          "reported_by": "claude-3.5-haiku",
+          "fetched_at": "2026-06-08T05:47:09.604Z"
+        }
+      },
+      {
+        "score": 85.7,
+        "config": "0-shot CoT",
+        "source": {
+          "kind": "tech_report",
+          "url": "claude-3.5-haiku__model-card.pdf",
+          "ref": "p.6",
+          "reported_by": "claude-3.5-haiku",
+          "fetched_at": "2026-06-08T05:47:09.604Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "gpt-4o-mini",
+    "benchmark_id": "mmlu",
+    "score": 82,
+    "config": "0-shot CoT",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-3.5-haiku__model-card.pdf",
+      "ref": "p.7",
+      "reported_by": "claude-3.5-haiku",
+      "fetched_at": "2026-06-08T05:47:09.604Z"
+    }
+  },
+  {
+    "model_id": "claude-3-sonnet",
+    "benchmark_id": "mmlu",
+    "score": 81.5,
+    "config": "5-shot CoT",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-3.5-haiku__model-card.pdf",
+      "ref": "p.6",
+      "reported_by": "claude-3.5-haiku",
+      "fetched_at": "2026-06-08T05:47:09.604Z"
+    },
+    "variants": [
+      {
+        "score": 78.3,
+        "config": "5-shot",
+        "source": {
+          "kind": "tech_report",
+          "url": "claude-3.5-haiku__model-card.pdf",
+          "ref": "p.6",
+          "reported_by": "claude-3.5-haiku",
+          "fetched_at": "2026-06-08T05:47:09.604Z"
+        }
+      },
+      {
+        "score": 77.1,
+        "config": "0-shot CoT",
+        "source": {
+          "kind": "tech_report",
+          "url": "claude-3.5-haiku__model-card.pdf",
+          "ref": "p.6",
+          "reported_by": "claude-3.5-haiku",
+          "fetched_at": "2026-06-08T05:47:09.604Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "claude-3.5-haiku",
+    "benchmark_id": "mmlu",
+    "score": 80.9,
+    "config": "5-shot CoT",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-3.5-haiku__model-card.pdf",
+      "ref": "p.7",
+      "fetched_at": "2026-06-08T05:47:09.604Z"
+    },
+    "variants": [
+      {
+        "score": 80.3,
+        "config": "0-shot CoT",
+        "source": {
+          "kind": "tech_report",
+          "url": "claude-3.5-haiku__model-card.pdf",
+          "ref": "p.7",
+          "fetched_at": "2026-06-08T05:47:09.604Z"
+        }
+      },
+      {
+        "score": 77.6,
+        "config": "5-shot",
+        "source": {
+          "kind": "tech_report",
+          "url": "claude-3.5-haiku__model-card.pdf",
+          "ref": "p.7",
+          "fetched_at": "2026-06-08T05:47:09.604Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "claude-3-haiku",
+    "benchmark_id": "mmlu",
+    "score": 76.7,
+    "config": "5-shot CoT",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-3.5-haiku__model-card.pdf",
+      "ref": "p.7",
+      "reported_by": "claude-3.5-haiku",
+      "fetched_at": "2026-06-08T05:47:09.604Z"
+    },
+    "variants": [
+      {
+        "score": 75.2,
+        "config": "5-shot",
+        "source": {
+          "kind": "tech_report",
+          "url": "claude-3.5-haiku__model-card.pdf",
+          "ref": "p.7",
+          "reported_by": "claude-3.5-haiku",
+          "fetched_at": "2026-06-08T05:47:09.604Z"
+        }
+      },
+      {
+        "score": 74,
+        "config": "0-shot CoT",
+        "source": {
+          "kind": "tech_report",
+          "url": "claude-3.5-haiku__model-card.pdf",
+          "ref": "p.7",
+          "reported_by": "claude-3.5-haiku",
+          "fetched_at": "2026-06-08T05:47:09.604Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "gemini-1.5-pro",
+    "benchmark_id": "mmlu-pro",
+    "score": 75.8,
+    "config": "0-shot CoT",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-3.5-haiku__model-card.pdf",
+      "ref": "p.6",
+      "reported_by": "claude-3.5-haiku",
+      "fetched_at": "2026-06-08T05:47:09.604Z"
+    }
+  },
+  {
+    "model_id": "claude-3.5-sonnet",
+    "benchmark_id": "mmlu-pro",
+    "score": 75.1,
+    "config": "0-shot CoT",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-3.5-haiku__model-card.pdf",
+      "ref": "p.6",
+      "reported_by": "claude-3.5-haiku",
+      "fetched_at": "2026-06-08T05:47:09.604Z"
+    }
+  },
+  {
+    "model_id": "llama-3.1-405b",
+    "benchmark_id": "mmlu-pro",
+    "score": 73.3,
+    "config": "0-shot CoT",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-3.5-haiku__model-card.pdf",
+      "ref": "p.6",
+      "reported_by": "claude-3.5-haiku",
+      "fetched_at": "2026-06-08T05:47:09.604Z"
+    }
+  },
+  {
+    "model_id": "claude-3-opus",
+    "benchmark_id": "mmlu-pro",
+    "score": 67.9,
+    "config": "0-shot CoT",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-3.5-haiku__model-card.pdf",
+      "ref": "p.6",
+      "reported_by": "claude-3.5-haiku",
+      "fetched_at": "2026-06-08T05:47:09.604Z"
+    }
+  },
+  {
+    "model_id": "claude-3.5-haiku",
+    "benchmark_id": "mmlu-pro",
+    "score": 65,
+    "config": "0-shot CoT",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-3.5-haiku__model-card.pdf",
+      "ref": "p.7",
+      "fetched_at": "2026-06-08T05:47:09.604Z"
+    }
+  },
+  {
+    "model_id": "claude-3-sonnet",
+    "benchmark_id": "mmlu-pro",
+    "score": 54.9,
+    "config": "0-shot CoT",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-3.5-haiku__model-card.pdf",
+      "ref": "p.6",
+      "reported_by": "claude-3.5-haiku",
+      "fetched_at": "2026-06-08T05:47:09.604Z"
+    }
+  },
+  {
+    "model_id": "claude-3-haiku",
+    "benchmark_id": "mmlu-pro",
+    "score": 49,
+    "config": "0-shot CoT",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-3.5-haiku__model-card.pdf",
+      "ref": "p.7",
+      "reported_by": "claude-3.5-haiku",
+      "fetched_at": "2026-06-08T05:47:09.604Z"
+    }
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "mmmu",
+    "score": 69.1,
+    "config": "0-shot CoT",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-3.5-haiku__model-card.pdf",
+      "ref": "p.5",
+      "reported_by": "claude-3.5-haiku",
+      "fetched_at": "2026-06-08T05:47:09.604Z"
+    }
+  },
+  {
+    "model_id": "claude-3.5-sonnet",
+    "benchmark_id": "mmmu",
+    "score": 68.3,
+    "config": "0-shot CoT",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-3.5-haiku__model-card.pdf",
+      "ref": "p.5",
+      "reported_by": "claude-3.5-haiku",
+      "fetched_at": "2026-06-08T05:47:09.604Z"
+    }
+  },
+  {
+    "model_id": "gemini-1.5-pro",
+    "benchmark_id": "mmmu",
+    "score": 65.9,
+    "config": "0-shot CoT",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-3.5-haiku__model-card.pdf",
+      "ref": "p.5",
+      "reported_by": "claude-3.5-haiku",
+      "fetched_at": "2026-06-08T05:47:09.604Z"
+    }
+  },
+  {
+    "model_id": "claude-3-opus",
+    "benchmark_id": "mmmu",
+    "score": 59.4,
+    "config": "0-shot CoT",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-3.5-haiku__model-card.pdf",
+      "ref": "p.5",
+      "reported_by": "claude-3.5-haiku",
+      "fetched_at": "2026-06-08T05:47:09.604Z"
+    }
+  },
+  {
+    "model_id": "claude-3-sonnet",
+    "benchmark_id": "mmmu",
+    "score": 53.1,
+    "config": "0-shot CoT",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-3.5-haiku__model-card.pdf",
+      "ref": "p.5",
+      "reported_by": "claude-3.5-haiku",
+      "fetched_at": "2026-06-08T05:47:09.604Z"
+    }
+  },
+  {
+    "model_id": "claude-3.5-haiku",
+    "benchmark_id": "swe-bench-verified",
+    "score": 40.6,
+    "config": "pass@1",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-3.5-haiku__model-card.pdf",
+      "ref": "p.3",
+      "fetched_at": "2026-06-08T05:47:09.604Z"
+    }
+  },
+  {
+    "model_id": "claude-3.5-sonnet",
+    "benchmark_id": "swe-bench-verified",
+    "score": 33.4,
+    "config": "pass@1",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-3.5-haiku__model-card.pdf",
+      "ref": "p.3",
+      "reported_by": "claude-3.5-haiku",
+      "fetched_at": "2026-06-08T05:47:09.604Z"
+    }
+  },
+  {
+    "model_id": "claude-3-opus",
+    "benchmark_id": "swe-bench-verified",
+    "score": 22.2,
+    "config": "pass@1",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-3.5-haiku__model-card.pdf",
+      "ref": "p.3",
+      "reported_by": "claude-3.5-haiku",
+      "fetched_at": "2026-06-08T05:47:09.604Z"
+    }
+  },
+  {
+    "model_id": "claude-3-haiku",
+    "benchmark_id": "swe-bench-verified",
+    "score": 7.2,
+    "config": "pass@1",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-3.5-haiku__model-card.pdf",
+      "ref": "p.3",
+      "reported_by": "claude-3.5-haiku",
+      "fetched_at": "2026-06-08T05:47:09.604Z"
+    }
+  },
+  {
+    "model_id": "claude-3.5-sonnet",
+    "benchmark_id": "tau-bench",
+    "score": 62.6,
+    "config": "pass^1 (Retail)",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-3.5-haiku__model-card.pdf",
+      "ref": "p.3",
+      "reported_by": "claude-3.5-haiku",
+      "fetched_at": "2026-06-08T05:47:09.604Z"
+    },
+    "variants": [
+      {
+        "score": 36,
+        "config": "pass^1 (Airline)",
+        "source": {
+          "kind": "tech_report",
+          "url": "claude-3.5-haiku__model-card.pdf",
+          "ref": "p.3",
+          "reported_by": "claude-3.5-haiku",
+          "fetched_at": "2026-06-08T05:47:09.604Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "claude-3.5-haiku",
+    "benchmark_id": "tau-bench",
+    "score": 51,
+    "config": "pass^1 (Retail)",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-3.5-haiku__model-card.pdf",
+      "ref": "p.3",
+      "fetched_at": "2026-06-08T05:47:09.604Z"
+    },
+    "variants": [
+      {
+        "score": 22.8,
+        "config": "pass^1 (Airline)",
+        "source": {
+          "kind": "tech_report",
+          "url": "claude-3.5-haiku__model-card.pdf",
+          "ref": "p.3",
+          "fetched_at": "2026-06-08T05:47:09.604Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "claude-3-opus",
+    "benchmark_id": "tau-bench",
+    "score": 45.1,
+    "config": "pass^1 (Retail)",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-3.5-haiku__model-card.pdf",
+      "ref": "p.3",
+      "reported_by": "claude-3.5-haiku",
+      "fetched_at": "2026-06-08T05:47:09.604Z"
+    },
+    "variants": [
+      {
+        "score": 34.5,
+        "config": "pass^1 (Airline)",
+        "source": {
+          "kind": "tech_report",
+          "url": "claude-3.5-haiku__model-card.pdf",
+          "ref": "p.3",
+          "reported_by": "claude-3.5-haiku",
+          "fetched_at": "2026-06-08T05:47:09.604Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "claude-3-haiku",
+    "benchmark_id": "tau-bench",
+    "score": 18.2,
+    "config": "pass^1 (Retail)",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-3.5-haiku__model-card.pdf",
+      "ref": "p.3",
+      "reported_by": "claude-3.5-haiku",
+      "fetched_at": "2026-06-08T05:47:09.604Z"
+    },
+    "variants": [
+      {
+        "score": 16,
+        "config": "pass^1 (Airline)",
+        "source": {
+          "kind": "tech_report",
+          "url": "claude-3.5-haiku__model-card.pdf",
+          "ref": "p.3",
+          "reported_by": "claude-3.5-haiku",
+          "fetched_at": "2026-06-08T05:47:09.604Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "claude-3-opus",
+    "benchmark_id": "wildchat-non-toxic",
+    "score": 11.9,
+    "config": "Incorrect refusals",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-3.5-haiku__model-card.pdf",
+      "ref": "p.5",
+      "reported_by": "claude-3.5-haiku",
+      "fetched_at": "2026-06-08T05:47:09.604Z"
+    }
+  },
+  {
+    "model_id": "claude-3.5-sonnet",
+    "benchmark_id": "wildchat-non-toxic",
+    "score": 11,
+    "config": "Incorrect refusals",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-3.5-haiku__model-card.pdf",
+      "ref": "p.5",
+      "reported_by": "claude-3.5-haiku",
+      "fetched_at": "2026-06-08T05:47:09.604Z"
+    }
+  },
+  {
+    "model_id": "claude-3-sonnet",
+    "benchmark_id": "wildchat-non-toxic",
+    "score": 8.8,
+    "config": "Incorrect refusals",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-3.5-haiku__model-card.pdf",
+      "ref": "p.5",
+      "reported_by": "claude-3.5-haiku",
+      "fetched_at": "2026-06-08T05:47:09.604Z"
+    }
+  },
+  {
+    "model_id": "claude-3-haiku",
+    "benchmark_id": "wildchat-non-toxic",
+    "score": 6.6,
+    "config": "Incorrect refusals",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-3.5-haiku__model-card.pdf",
+      "ref": "p.5",
+      "reported_by": "claude-3.5-haiku",
+      "fetched_at": "2026-06-08T05:47:09.604Z"
+    }
+  },
+  {
+    "model_id": "claude-3.5-haiku",
+    "benchmark_id": "wildchat-non-toxic",
+    "score": 4.8,
+    "config": "Incorrect refusals",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-3.5-haiku__model-card.pdf",
+      "ref": "p.5",
+      "fetched_at": "2026-06-08T05:47:09.604Z"
+    }
+  },
+  {
+    "model_id": "claude-3.5-sonnet",
+    "benchmark_id": "wildchat-toxic",
+    "score": 96.4,
+    "config": "Correct refusals",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-3.5-haiku__model-card.pdf",
+      "ref": "p.5",
+      "reported_by": "claude-3.5-haiku",
+      "fetched_at": "2026-06-08T05:47:09.604Z"
+    }
+  },
+  {
+    "model_id": "claude-3-sonnet",
+    "benchmark_id": "wildchat-toxic",
+    "score": 93.6,
+    "config": "Correct refusals",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-3.5-haiku__model-card.pdf",
+      "ref": "p.5",
+      "reported_by": "claude-3.5-haiku",
+      "fetched_at": "2026-06-08T05:47:09.604Z"
+    }
+  },
+  {
+    "model_id": "claude-3-opus",
+    "benchmark_id": "wildchat-toxic",
+    "score": 92,
+    "config": "Correct refusals",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-3.5-haiku__model-card.pdf",
+      "ref": "p.5",
+      "reported_by": "claude-3.5-haiku",
+      "fetched_at": "2026-06-08T05:47:09.604Z"
+    }
+  },
+  {
+    "model_id": "claude-3-haiku",
+    "benchmark_id": "wildchat-toxic",
+    "score": 90,
+    "config": "Correct refusals",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-3.5-haiku__model-card.pdf",
+      "ref": "p.5",
+      "reported_by": "claude-3.5-haiku",
+      "fetched_at": "2026-06-08T05:47:09.604Z"
+    }
+  },
+  {
+    "model_id": "claude-3.5-haiku",
+    "benchmark_id": "wildchat-toxic",
+    "score": 88,
+    "config": "Correct refusals",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-3.5-haiku__model-card.pdf",
+      "ref": "p.5",
+      "fetched_at": "2026-06-08T05:47:09.604Z"
+    }
+  },
+  {
+    "model_id": "claude-3-sonnet",
+    "benchmark_id": "xstest",
+    "score": 36.6,
+    "config": "Incorrect refusals",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-3.5-haiku__model-card.pdf",
+      "ref": "p.5",
+      "reported_by": "claude-3.5-haiku",
+      "fetched_at": "2026-06-08T05:47:09.604Z"
+    }
+  },
+  {
+    "model_id": "claude-3-haiku",
+    "benchmark_id": "xstest",
+    "score": 33.1,
+    "config": "Incorrect refusals",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-3.5-haiku__model-card.pdf",
+      "ref": "p.5",
+      "reported_by": "claude-3.5-haiku",
+      "fetched_at": "2026-06-08T05:47:09.604Z"
+    }
+  },
+  {
+    "model_id": "claude-3-opus",
+    "benchmark_id": "xstest",
+    "score": 8.3,
+    "config": "Incorrect refusals",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-3.5-haiku__model-card.pdf",
+      "ref": "p.5",
+      "reported_by": "claude-3.5-haiku",
+      "fetched_at": "2026-06-08T05:47:09.604Z"
+    }
+  },
+  {
+    "model_id": "claude-3.5-haiku",
+    "benchmark_id": "xstest",
+    "score": 2,
+    "config": "Incorrect refusals",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-3.5-haiku__model-card.pdf",
+      "ref": "p.5",
+      "fetched_at": "2026-06-08T05:47:09.604Z"
+    }
+  },
+  {
+    "model_id": "claude-3.5-sonnet",
+    "benchmark_id": "xstest",
+    "score": 1.7,
+    "config": "Incorrect refusals",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-3.5-haiku__model-card.pdf",
+      "ref": "p.5",
+      "reported_by": "claude-3.5-haiku",
+      "fetched_at": "2026-06-08T05:47:09.604Z"
+    }
+  }
+]

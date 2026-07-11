@@ -1,0 +1,29 @@
+---
+import Page from "../../layouts/Page.astro";
+import CategoryTabs from "../../components/CategoryTabs.astro";
+import LeaderboardTable from "../../components/LeaderboardTable.tsx";
+import CurationNote from "../../components/CurationNote.astro";
+import { buildView } from "../../lib/loadData.ts";
+import "../../styles/global.css";
+
+const view = await buildView("nd_agent");
+---
+
+<Page title="비결정적 — Agent">
+  <CategoryTabs active="nd-agent" />
+  <p class="text-sm text-neutral-500 mb-1">
+    LLM 에이전트 시뮬레이션 기반 평가 — LLM이 사용자 역할을 맡아 매 실행마다 결과가 달라집니다: τ²-bench 등.
+  </p>
+  <p class="text-xs text-neutral-400 mb-4 max-w-2xl leading-relaxed">
+    config 표기는 <code>&lt;reasoning effort&gt;, &lt;agent scaffold&gt;</code> 순입니다.
+    Terminal-Bench의 <code>vix</code>·<code>Codex</code>·<code>Capy</code> 등은 모델을 구동한 에이전트 하네스 이름이고,
+    <code>unknown</code>은 출처에서 reasoning effort를 명시하지 않은 run이라는 뜻입니다.
+    source <code>aggregator_api</code>는 Epoch AI 일일 zip을 통해 받아온 점수임을 나타냅니다.
+  </p>
+  <CurationNote hidden={view.hiddenBenchmarks} allHref="/non-deterministic" />
+  <LeaderboardTable
+    client:load
+    benchmarks={view.benchmarks}
+    rows={view.rows}
+  />
+</Page>

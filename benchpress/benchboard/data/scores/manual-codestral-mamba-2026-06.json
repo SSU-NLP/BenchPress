@@ -1,0 +1,100 @@
+[
+  {
+    "model_id": "codestral-mamba-7b",
+    "benchmark_id": "cruxeval",
+    "score": 57.8,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://mistral.ai/news/codestral-mamba/",
+      "reported_by": "Mistral Codestral Mamba announcement (benchmarks table)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-07-16"
+    }
+  },
+  {
+    "model_id": "codestral-mamba-7b",
+    "benchmark_id": "humaneval",
+    "score": 75,
+    "config": "pass@1",
+    "source": {
+      "kind": "manual",
+      "url": "https://mistral.ai/news/codestral-mamba/",
+      "reported_by": "Mistral Codestral Mamba announcement (benchmarks table)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-07-16"
+    },
+    "variants": [
+      {
+        "score": 61.5,
+        "config": "JavaScript",
+        "source": {
+          "kind": "manual",
+          "url": "https://mistral.ai/news/codestral-mamba/",
+          "reported_by": "Mistral Codestral Mamba announcement (benchmarks table)",
+          "fetched_at": "2026-06-22T00:00:00Z",
+          "published": "2024-07-16"
+        }
+      },
+      {
+        "score": 59.8,
+        "config": "C++",
+        "source": {
+          "kind": "manual",
+          "url": "https://mistral.ai/news/codestral-mamba/",
+          "reported_by": "Mistral Codestral Mamba announcement (benchmarks table)",
+          "fetched_at": "2026-06-22T00:00:00Z",
+          "published": "2024-07-16"
+        }
+      },
+      {
+        "score": 57,
+        "config": "Java",
+        "source": {
+          "kind": "manual",
+          "url": "https://mistral.ai/news/codestral-mamba/",
+          "reported_by": "Mistral Codestral Mamba announcement (benchmarks table)",
+          "fetched_at": "2026-06-22T00:00:00Z",
+          "published": "2024-07-16"
+        }
+      },
+      {
+        "score": 31.1,
+        "config": "Bash",
+        "source": {
+          "kind": "manual",
+          "url": "https://mistral.ai/news/codestral-mamba/",
+          "reported_by": "Mistral Codestral Mamba announcement (benchmarks table)",
+          "fetched_at": "2026-06-22T00:00:00Z",
+          "published": "2024-07-16"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "codestral-mamba-7b",
+    "benchmark_id": "mbpp",
+    "score": 68.5,
+    "config": "pass@1",
+    "source": {
+      "kind": "manual",
+      "url": "https://mistral.ai/news/codestral-mamba/",
+      "reported_by": "Mistral Codestral Mamba announcement (benchmarks table)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-07-16"
+    }
+  },
+  {
+    "model_id": "codestral-mamba-7b",
+    "benchmark_id": "spider",
+    "score": 58.8,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://mistral.ai/news/codestral-mamba/",
+      "reported_by": "Mistral Codestral Mamba announcement (benchmarks table)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-07-16"
+    }
+  }
+]

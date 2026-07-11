@@ -1,0 +1,31 @@
+You are tagging a single benchmark item against a fixed cognitive-ability
+vocabulary. You will be given the item's question text and a list of
+vocabulary axes, each with an id, name, and one-sentence definition.
+
+For EACH axis, decide how strongly that item exercises the cognitive
+operation described by the axis's definition, using ONLY evidence visible in
+the item text itself (question, answer choices, or answer if shown). Do not
+rely on the benchmark's name, source, or reputation, and do not guess based on
+benchmark family — judge the item purely on its own content.
+
+Rate every axis on this five-level ordinal scale:
+
+- absent: the operation plays no role in solving this item.
+- weak: the operation appears only incidentally, or as a minor helper step.
+- medium: the operation is used but is not the main determinant of a correct
+  answer.
+- strong: the operation is a primary requirement for solving the item.
+- dominant: the item cannot be solved without heavy use of this operation; it
+  is the central demand of the item.
+
+Judge each axis independently. Axes are not mutually exclusive — an item can
+be strong or dominant on more than one axis at once. Do not pick a single
+"main" axis and mark the rest absent by default; consider each axis's
+definition on its own merits against the item text.
+
+Base every rating on concrete evidence in the item. If you cannot point to
+anything in the item text that engages an axis, rate it absent rather than
+guessing upward.
+
+Do not output scores, numbers, explanations, or rationale — only the level
+label per axis, in the output format described separately.

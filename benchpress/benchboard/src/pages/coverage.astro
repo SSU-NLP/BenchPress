@@ -1,0 +1,290 @@
+---
+import Page from "../layouts/Page.astro";
+import { withBase } from "../lib/url";
+import { loadAllScores, loadModels } from "../lib/loadData";
+import { sizeClass, sizeLabel } from "../lib/modelSize";
+
+// Curated coverage matrix. Each row is one target model; each column is one
+// target benchmark, so coverage stays scoped to the current review set.
+const BENCH: Array<[string, string]> = [
+  ["aime-2024", "AIME 2024"],
+  ["aime-2025", "AIME 2025"],
+  ["arc-challenge", "ARC Challenge"],
+  ["bbh", "BBH"],
+  ["drop", "Drop"],
+  ["gpqa", "GPQA"],
+  ["gsm8k", "GSM8K"],
+  ["hle", "HLE"],
+  ["hmmt-feb-2025", "HMMT Feb 2025"],
+  ["humaneval", "HumanEval"],
+  ["math", "MATH"],
+  ["math-500", "MATH-500"],
+  ["mbpp", "MBPP"],
+  ["mmlu", "MMLU"],
+  ["mmlu-pro", "MMLU-Pro"],
+  ["mmlu-redux", "MMLU-Redux"],
+  ["simpleqa", "SimpleQA"],
+  ["supergpqa", "SuperGPQA"],
+  ["scicode", "SciCode"],
+  ["livecodebench", "LiveCodeBench"],
+];
+const TARGET_MODELS = [
+  "claude-3.5-sonnet",
+  "claude-sonnet-4",
+  "claude-sonnet-4.5",
+  "deepseek-v3",
+  "gemini-2.5-flash",
+  "gemini-3-pro",
+  "gemma-3-4b",
+  "glm-4.6",
+  "glm-4.7",
+  "gpt-4o",
+  "gpt-5.1",
+  "gpt-oss-120b",
+  "gpt-oss-20b",
+  "grok-4",
+  "kimi-k2.5",
+  "kimi-k2",
+  "llama-3.1-405b",
+  "llama-3.1-70b",
+  "llama-3.1-8b",
+  "nova-pro",
+  "phi-4",
+  "phi-4-mini",
+  "qwen-2.5-72b",
+  "qwen3-235b",
+];
+const ids = BENCH.map((b) => b[0]);
+const targetIds = new Set(TARGET_MODELS);
+
+const [scores, models] = await Promise.all([loadAllScores(), loadModels()]);
+const meta = new Map(models.map((m) => [m.id, m]));
+const byModel = new Map<string, Record<string, number>>();
+for (const r of scores) {
+  if (!ids.includes(r.benchmark_id)) continue;
+  if (!targetIds.has(r.model_id)) continue;
+  if (!byModel.has(r.model_id)) byModel.set(r.model_id, {});
+  byModel.get(r.model_id)![r.benchmark_id] = r.score;
+}
+
+interface Row {
+  id: string;
+  name: string;
+  vendor: string;
+  size: string;
+  sizeLabel: string;
+  n: number;
+  scores: (number | null)[];
+}
+const rows: Row[] = [];
+for (const mid of TARGET_MODELS) {
+  const m = meta.get(mid);
+  if (!m) continue;
+  const sc = byModel.get(mid) ?? {};
+  const arr = ids.map((id) =>
+    id in sc ? Math.round(sc[id] * 10) / 10 : null,
+  );
+  rows.push({
+    id: mid,
+    name: m.name,
+    vendor: m.vendor,
+    size: sizeClass(m).key,
+    sizeLabel: sizeLabel(m) ?? "",
+    n: arr.filter((x) => x != null).length,
+    scores: arr,
+  });
+}
+
+// Per-column min/max for heatmap normalisation.
+const colMin = ids.map(() => Infinity);
+const colMax = ids.map(() => -Infinity);
+for (const r of rows)
+  r.scores.forEach((v, i) => {
+    if (v == null) return;
+    if (v < colMin[i]) colMin[i] = v;
+    if (v > colMax[i]) colMax[i] = v;
+  });
+
+const payload = {
+  benches: BENCH.map((b) => b[1]),
+  rows,
+  colMin,
+  colMax,
+  total: rows.length,
+};
+const base = withBase("/models/");
+---
+
+<Page title="Coverage">
+  <div class="mb-4">
+    <h1 class="text-xl font-semibold tracking-tight">Benchmark coverage</h1>
+    <p class="text-sm text-neutral-600 mt-1">
+      {rows.length} target models across these {BENCH.length} key benchmarks.
+      Heatmap is per-column (relative to that benchmark's range). Click a column header to sort.
+    </p>
+  </div>
+
+  <div class="flex flex-wrap items-center gap-x-5 gap-y-2 mb-3 text-sm">
+    <div class="flex items-center gap-1" id="size-filter">
+      <span class="text-neutral-500 mr-1">Size</span>
+      <button data-size="all" class="sz px-2 py-0.5 rounded border border-neutral-300">All</button>
+      <button data-size="small" class="sz px-2 py-0.5 rounded border border-neutral-200 text-neutral-600">Small</button>
+      <button data-size="medium" class="sz px-2 py-0.5 rounded border border-neutral-200 text-neutral-600">Medium</button>
+      <button data-size="large" class="sz px-2 py-0.5 rounded border border-neutral-200 text-neutral-600">Large</button>
+    </div>
+    <label class="flex items-center gap-2">
+      <span class="text-neutral-500">Min filled</span>
+      <input type="range" id="minN" min="0" max={BENCH.length} value="0" class="w-32" />
+      <span id="minN-out" class="tabular-nums w-6 text-neutral-700">0</span>
+    </label>
+    <input
+      id="search"
+      type="text"
+      placeholder="filter model / vendor…"
+      class="px-2 py-1 border border-neutral-300 rounded text-sm w-48"
+    />
+    <span id="count" class="text-neutral-500 ml-auto tabular-nums"></span>
+  </div>
+
+  <div class="overflow-x-auto border border-neutral-200 rounded">
+    <table class="text-xs border-collapse" id="grid" style="min-width:100%">
+      <thead id="head"></thead>
+      <tbody id="body"></tbody>
+    </table>
+  </div>
+
+  <script is:inline define:vars={{ payload, base }}>
+    const { benches, rows, colMin, colMax } = payload;
+    const state = { size: "all", minN: 0, q: "", sort: -1, dir: -1 };
+
+    function heat(v, i) {
+      if (v == null) return "";
+      const lo = colMin[i],
+        hi = colMax[i];
+      const t = hi > lo ? (v - lo) / (hi - lo) : 1;
+      const a = (0.07 + 0.5 * t).toFixed(3);
+      return `background:rgba(22,163,74,${a})`;
+    }
+
+    const head = document.getElementById("head");
+    const body = document.getElementById("body");
+    const countEl = document.getElementById("count");
+
+    function renderHead() {
+      const cells = benches
+        .map((label, i) => {
+          const arrow = state.sort === i ? (state.dir < 0 ? " ▼" : " ▲") : "";
+          return `<th data-col="${i}" class="sortable px-1.5 py-2 font-medium text-neutral-500 whitespace-nowrap cursor-pointer hover:text-black" style="text-align:right">${label}${arrow}</th>`;
+        })
+        .join("");
+      const nArrow = state.sort === -1 ? (state.dir < 0 ? " ▼" : " ▲") : "";
+      head.innerHTML =
+        `<tr class="border-b border-neutral-200 bg-neutral-50">` +
+        `<th class="mname px-3 py-2 font-medium text-neutral-500" style="text-align:left">Model</th>` +
+        `<th data-col="-1" class="sortable ncol px-2 py-2 font-medium text-neutral-500 cursor-pointer hover:text-black" style="text-align:right">n${nArrow}</th>` +
+        cells +
+        `</tr>`;
+      head.querySelectorAll(".sortable").forEach((th) =>
+        th.addEventListener("click", () => {
+          const c = +th.dataset.col;
+          if (state.sort === c) state.dir = -state.dir;
+          else {
+            state.sort = c;
+            state.dir = -1;
+          }
+          render();
+        }),
+      );
+    }
+
+    function visible() {
+      let r = rows.filter(
+        (x) =>
+          (state.size === "all" || x.size === state.size) &&
+          x.n >= state.minN &&
+          (state.q === "" ||
+            x.name.toLowerCase().includes(state.q) ||
+            x.vendor.toLowerCase().includes(state.q)),
+      );
+      const s = state.sort,
+        d = state.dir;
+      r = r.slice().sort((a, b) => {
+        const av = s === -1 ? a.n : a.scores[s];
+        const bv = s === -1 ? b.n : b.scores[s];
+        if (av == null && bv == null) return a.name.localeCompare(b.name);
+        if (av == null) return 1;
+        if (bv == null) return -1;
+        return -d * (bv - av) || a.name.localeCompare(b.name);
+      });
+      return r;
+    }
+
+    function render() {
+      renderHead();
+      const r = visible();
+      body.innerHTML = r
+        .map((x) => {
+          const cells = x.scores
+            .map((v, i) => {
+              if (v == null)
+                return `<td class="px-1.5 py-1 text-neutral-300" style="text-align:right">·</td>`;
+              return `<td class="px-1.5 py-1 tabular-nums text-neutral-800" style="text-align:right;${heat(v, i)}">${v}</td>`;
+            })
+            .join("");
+          const chip = x.sizeLabel
+            ? `<span class="ml-1.5 rounded bg-neutral-200/70 px-1 text-[10px] tabular-nums text-neutral-600">${x.sizeLabel}</span>`
+            : "";
+          return (
+            `<tr class="border-b border-neutral-100 hover:bg-neutral-50">` +
+            `<td class="mname px-3 py-1 whitespace-nowrap"><a href="${base}${x.id}" class="font-medium text-neutral-900 hover:underline">${x.name}</a>${chip}<span class="block text-[10px] text-neutral-400">${x.vendor}</span></td>` +
+            `<td class="ncol px-2 py-1 tabular-nums text-neutral-500" style="text-align:right">${x.n}</td>` +
+            cells +
+            `</tr>`
+          );
+        })
+        .join("");
+      countEl.textContent = `${r.length} shown`;
+    }
+
+    document.querySelectorAll("#size-filter .sz").forEach((b) =>
+      b.addEventListener("click", () => {
+        state.size = b.dataset.size;
+        document.querySelectorAll("#size-filter .sz").forEach((o) => {
+          const on = o === b;
+          o.classList.toggle("border-neutral-300", on);
+          o.classList.toggle("border-neutral-200", !on);
+          o.classList.toggle("text-neutral-600", !on);
+          o.classList.toggle("font-medium", on);
+        });
+        render();
+      }),
+    );
+    const minN = document.getElementById("minN");
+    const minNOut = document.getElementById("minN-out");
+    minN.addEventListener("input", () => {
+      state.minN = +minN.value;
+      minNOut.textContent = minN.value;
+      render();
+    });
+    const search = document.getElementById("search");
+    search.addEventListener("input", () => {
+      state.q = search.value.trim().toLowerCase();
+      render();
+    });
+
+    render();
+  </script>
+
+  <style>
+    #grid .mname {
+      position: sticky;
+      left: 0;
+      background: #fff;
+      z-index: 1;
+    }
+    #grid thead .mname {
+      background: #fafafa;
+      z-index: 2;
+    }
+  </style>
+</Page>

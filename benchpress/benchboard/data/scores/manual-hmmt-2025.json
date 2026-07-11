@@ -1,0 +1,26 @@
+[
+  {
+    "model_id": "glm-4.7",
+    "benchmark_id": "hmmt-feb-2025",
+    "score": 97.1,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/zai-org/GLM-4.7",
+      "ref": "GLM-4.7 model card (HMMT Feb. 2025)",
+      "fetched_at": "2026-06-16T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "glm-4.7",
+    "benchmark_id": "hmmt-nov-2025",
+    "score": 93.5,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/zai-org/GLM-4.7",
+      "ref": "GLM-4.7 model card (HMMT Nov. 2025)",
+      "fetched_at": "2026-06-16T00:00:00Z"
+    }
+  }
+]

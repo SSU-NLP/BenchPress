@@ -1,0 +1,908 @@
+[
+  {
+    "model_id": "gpt-5",
+    "benchmark_id": "attack-planning-red-teaming",
+    "score": 65.1,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5__system-card.pdf",
+      "ref": "p.21",
+      "fetched_at": "2026-06-07T10:05:45.906Z"
+    }
+  },
+  {
+    "model_id": "o3",
+    "benchmark_id": "attack-planning-red-teaming",
+    "score": 34.9,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5__system-card.pdf",
+      "ref": "p.21",
+      "reported_by": "gpt-5",
+      "fetched_at": "2026-06-07T10:05:45.906Z"
+    }
+  },
+  {
+    "model_id": "gpt-5",
+    "benchmark_id": "bbq",
+    "score": 95,
+    "config": "with web search",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5__system-card.pdf",
+      "ref": "p.19",
+      "fetched_at": "2026-06-07T10:05:45.906Z"
+    },
+    "variants": [
+      {
+        "score": 93,
+        "config": "without web search",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-5__system-card.pdf",
+          "ref": "p.19",
+          "fetched_at": "2026-06-07T10:05:45.906Z"
+        }
+      },
+      {
+        "score": 93,
+        "config": "without browse",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-5__system-card.pdf",
+          "ref": "p.19",
+          "fetched_at": "2026-06-07T10:05:45.906Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "o3",
+    "benchmark_id": "bbq",
+    "score": 94,
+    "config": "with web search",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5__system-card.pdf",
+      "ref": "p.19",
+      "reported_by": "gpt-5",
+      "fetched_at": "2026-06-07T10:05:45.906Z"
+    }
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "bbq",
+    "score": 88,
+    "config": "without browse",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5__system-card.pdf",
+      "ref": "p.19",
+      "reported_by": "gpt-5",
+      "fetched_at": "2026-06-07T10:05:45.906Z"
+    }
+  },
+  {
+    "model_id": "o3",
+    "benchmark_id": "deception-evaluations",
+    "score": 0.87,
+    "config": "CharXiv Missing Image",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5__system-card.pdf",
+      "ref": "p.14",
+      "reported_by": "gpt-5",
+      "fetched_at": "2026-06-07T10:05:45.906Z"
+    },
+    "variants": [
+      {
+        "score": 0.61,
+        "config": "Browsing Broken Tools",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-5__system-card.pdf",
+          "ref": "p.14",
+          "reported_by": "gpt-5",
+          "fetched_at": "2026-06-07T10:05:45.906Z"
+        }
+      },
+      {
+        "score": 0.47,
+        "config": "Coding Deception",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-5__system-card.pdf",
+          "ref": "p.14",
+          "reported_by": "gpt-5",
+          "fetched_at": "2026-06-07T10:05:45.906Z"
+        }
+      },
+      {
+        "score": 0.44,
+        "config": "AbstentionBench Recall",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-5__system-card.pdf",
+          "ref": "p.14",
+          "reported_by": "gpt-5",
+          "fetched_at": "2026-06-07T10:05:45.906Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "gpt-5",
+    "benchmark_id": "deception-evaluations",
+    "score": 0.53,
+    "config": "AbstentionBench Recall",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5__system-card.pdf",
+      "ref": "p.14",
+      "fetched_at": "2026-06-07T10:05:45.906Z"
+    },
+    "variants": [
+      {
+        "score": 0.17,
+        "config": "Coding Deception",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-5__system-card.pdf",
+          "ref": "p.14",
+          "fetched_at": "2026-06-07T10:05:45.906Z"
+        }
+      },
+      {
+        "score": 0.11,
+        "config": "Browsing Broken Tools",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-5__system-card.pdf",
+          "ref": "p.14",
+          "fetched_at": "2026-06-07T10:05:45.906Z"
+        }
+      },
+      {
+        "score": 0.09,
+        "config": "CharXiv Missing Image",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-5__system-card.pdf",
+          "ref": "p.14",
+          "fetched_at": "2026-06-07T10:05:45.906Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "gpt-5",
+    "benchmark_id": "evasion-challenges",
+    "score": 51,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5__system-card.pdf",
+      "ref": "p.34",
+      "fetched_at": "2026-06-07T10:05:45.906Z"
+    }
+  },
+  {
+    "model_id": "o3",
+    "benchmark_id": "healthbench",
+    "score": 59.8,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5__system-card.pdf",
+      "ref": "p.17",
+      "reported_by": "gpt-5",
+      "fetched_at": "2026-06-07T10:05:45.906Z"
+    }
+  },
+  {
+    "model_id": "o4-mini",
+    "benchmark_id": "healthbench",
+    "score": 50.1,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5__system-card.pdf",
+      "ref": "p.17",
+      "reported_by": "gpt-5",
+      "fetched_at": "2026-06-07T10:05:45.906Z"
+    }
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "healthbench",
+    "score": 41.8,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5__system-card.pdf",
+      "ref": "p.17",
+      "reported_by": "gpt-5",
+      "fetched_at": "2026-06-07T10:05:45.906Z"
+    }
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "healthbench",
+    "score": 32,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5__system-card.pdf",
+      "ref": "p.17",
+      "reported_by": "gpt-5",
+      "fetched_at": "2026-06-07T10:05:45.906Z"
+    }
+  },
+  {
+    "model_id": "o3",
+    "benchmark_id": "healthbench-consensus",
+    "score": 92.8,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5__system-card.pdf",
+      "ref": "p.17",
+      "reported_by": "gpt-5",
+      "fetched_at": "2026-06-07T10:05:45.906Z"
+    }
+  },
+  {
+    "model_id": "o4-mini",
+    "benchmark_id": "healthbench-consensus",
+    "score": 91.8,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5__system-card.pdf",
+      "ref": "p.17",
+      "reported_by": "gpt-5",
+      "fetched_at": "2026-06-07T10:05:45.906Z"
+    }
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "healthbench-consensus",
+    "score": 91.5,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5__system-card.pdf",
+      "ref": "p.17",
+      "reported_by": "gpt-5",
+      "fetched_at": "2026-06-07T10:05:45.906Z"
+    }
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "healthbench-consensus",
+    "score": 88.7,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5__system-card.pdf",
+      "ref": "p.17",
+      "reported_by": "gpt-5",
+      "fetched_at": "2026-06-07T10:05:45.906Z"
+    }
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "healthbench-consensus-global-health",
+    "score": 13.7,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5__system-card.pdf",
+      "ref": "p.18",
+      "reported_by": "gpt-5",
+      "fetched_at": "2026-06-07T10:05:45.906Z"
+    }
+  },
+  {
+    "model_id": "o4-mini",
+    "benchmark_id": "healthbench-consensus-global-health",
+    "score": 10.3,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5__system-card.pdf",
+      "ref": "p.18",
+      "reported_by": "gpt-5",
+      "fetched_at": "2026-06-07T10:05:45.906Z"
+    }
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "healthbench-consensus-global-health",
+    "score": 7.1,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5__system-card.pdf",
+      "ref": "p.18",
+      "reported_by": "gpt-5",
+      "fetched_at": "2026-06-07T10:05:45.906Z"
+    }
+  },
+  {
+    "model_id": "o3",
+    "benchmark_id": "healthbench-consensus-global-health",
+    "score": 6.2,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5__system-card.pdf",
+      "ref": "p.18",
+      "reported_by": "gpt-5",
+      "fetched_at": "2026-06-07T10:05:45.906Z"
+    }
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "healthbench-consensus-urgent",
+    "score": 20.6,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5__system-card.pdf",
+      "ref": "p.18",
+      "reported_by": "gpt-5",
+      "fetched_at": "2026-06-07T10:05:45.906Z"
+    }
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "healthbench-consensus-urgent",
+    "score": 18.5,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5__system-card.pdf",
+      "ref": "p.18",
+      "reported_by": "gpt-5",
+      "fetched_at": "2026-06-07T10:05:45.906Z"
+    }
+  },
+  {
+    "model_id": "o4-mini",
+    "benchmark_id": "healthbench-consensus-urgent",
+    "score": 11.2,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5__system-card.pdf",
+      "ref": "p.18",
+      "reported_by": "gpt-5",
+      "fetched_at": "2026-06-07T10:05:45.906Z"
+    }
+  },
+  {
+    "model_id": "o3",
+    "benchmark_id": "healthbench-consensus-urgent",
+    "score": 3.4,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5__system-card.pdf",
+      "ref": "p.18",
+      "reported_by": "gpt-5",
+      "fetched_at": "2026-06-07T10:05:45.906Z"
+    }
+  },
+  {
+    "model_id": "o3",
+    "benchmark_id": "healthbench-hard",
+    "score": 31.6,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5__system-card.pdf",
+      "ref": "p.17",
+      "reported_by": "gpt-5",
+      "fetched_at": "2026-06-07T10:05:45.906Z"
+    }
+  },
+  {
+    "model_id": "o4-mini",
+    "benchmark_id": "healthbench-hard",
+    "score": 17.5,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5__system-card.pdf",
+      "ref": "p.17",
+      "reported_by": "gpt-5",
+      "fetched_at": "2026-06-07T10:05:45.906Z"
+    }
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "healthbench-hard",
+    "score": 7.9,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5__system-card.pdf",
+      "ref": "p.17",
+      "reported_by": "gpt-5",
+      "fetched_at": "2026-06-07T10:05:45.906Z"
+    }
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "healthbench-hard",
+    "score": 0,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5__system-card.pdf",
+      "ref": "p.17",
+      "reported_by": "gpt-5",
+      "fetched_at": "2026-06-07T10:05:45.906Z"
+    }
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "healthbench-hard-hallucinations",
+    "score": 15.8,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5__system-card.pdf",
+      "ref": "p.18",
+      "reported_by": "gpt-5",
+      "fetched_at": "2026-06-07T10:05:45.906Z"
+    }
+  },
+  {
+    "model_id": "o3",
+    "benchmark_id": "healthbench-hard-hallucinations",
+    "score": 12.9,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5__system-card.pdf",
+      "ref": "p.18",
+      "reported_by": "gpt-5",
+      "fetched_at": "2026-06-07T10:05:45.906Z"
+    }
+  },
+  {
+    "model_id": "o4-mini",
+    "benchmark_id": "healthbench-hard-hallucinations",
+    "score": 11.9,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5__system-card.pdf",
+      "ref": "p.18",
+      "reported_by": "gpt-5",
+      "fetched_at": "2026-06-07T10:05:45.906Z"
+    }
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "healthbench-hard-hallucinations",
+    "score": 11.1,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5__system-card.pdf",
+      "ref": "p.18",
+      "reported_by": "gpt-5",
+      "fetched_at": "2026-06-07T10:05:45.906Z"
+    }
+  },
+  {
+    "model_id": "grok-4",
+    "benchmark_id": "human-pathogen-capabilities-test",
+    "score": 51.4,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5__system-card.pdf",
+      "ref": "p.29",
+      "reported_by": "gpt-5",
+      "fetched_at": "2026-06-07T10:05:45.906Z"
+    }
+  },
+  {
+    "model_id": "gpt-5",
+    "benchmark_id": "image-input-evaluations",
+    "score": 0.997,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5__system-card.pdf",
+      "ref": "p.16",
+      "fetched_at": "2026-06-07T10:05:45.906Z"
+    }
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "image-input-evaluations",
+    "score": 0.995,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5__system-card.pdf",
+      "ref": "p.16",
+      "reported_by": "gpt-5",
+      "fetched_at": "2026-06-07T10:05:45.906Z"
+    }
+  },
+  {
+    "model_id": "o3",
+    "benchmark_id": "image-input-evaluations",
+    "score": 0.987,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5__system-card.pdf",
+      "ref": "p.16",
+      "reported_by": "gpt-5",
+      "fetched_at": "2026-06-07T10:05:45.906Z"
+    }
+  },
+  {
+    "model_id": "o3",
+    "benchmark_id": "instruction-hierarchy-evaluations",
+    "score": 0.997,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5__system-card.pdf",
+      "ref": "p.10",
+      "reported_by": "gpt-5",
+      "fetched_at": "2026-06-07T10:05:45.906Z"
+    }
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "instruction-hierarchy-evaluations",
+    "score": 0.885,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5__system-card.pdf",
+      "ref": "p.10",
+      "reported_by": "gpt-5",
+      "fetched_at": "2026-06-07T10:05:45.906Z"
+    }
+  },
+  {
+    "model_id": "gpt-5",
+    "benchmark_id": "jailbreak-evaluations",
+    "score": 0.999,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5__system-card.pdf",
+      "ref": "p.9",
+      "fetched_at": "2026-06-07T10:05:45.906Z"
+    }
+  },
+  {
+    "model_id": "o3",
+    "benchmark_id": "jailbreak-evaluations",
+    "score": 0.995,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5__system-card.pdf",
+      "ref": "p.9",
+      "reported_by": "gpt-5",
+      "fetched_at": "2026-06-07T10:05:45.906Z"
+    }
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "jailbreak-evaluations",
+    "score": 0.981,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5__system-card.pdf",
+      "ref": "p.9",
+      "reported_by": "gpt-5",
+      "fetched_at": "2026-06-07T10:05:45.906Z"
+    }
+  },
+  {
+    "model_id": "o3",
+    "benchmark_id": "mmlu-language",
+    "score": 0.912,
+    "config": "0-shot",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5__system-card.pdf",
+      "ref": "p.19",
+      "reported_by": "gpt-5",
+      "fetched_at": "2026-06-07T10:05:45.906Z"
+    }
+  },
+  {
+    "model_id": "gpt-5",
+    "benchmark_id": "mmlu-language",
+    "score": 0.909,
+    "config": "0-shot",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5__system-card.pdf",
+      "ref": "p.19",
+      "fetched_at": "2026-06-07T10:05:45.906Z"
+    }
+  },
+  {
+    "model_id": "grok-4",
+    "benchmark_id": "molecular-biology-capabilities-test",
+    "score": 51.7,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5__system-card.pdf",
+      "ref": "p.29",
+      "reported_by": "gpt-5",
+      "fetched_at": "2026-06-07T10:05:45.906Z"
+    }
+  },
+  {
+    "model_id": "gpt-5",
+    "benchmark_id": "molecular-biology-capabilities-test",
+    "score": 48.2,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5__system-card.pdf",
+      "ref": "p.29",
+      "fetched_at": "2026-06-07T10:05:45.906Z"
+    }
+  },
+  {
+    "model_id": "gpt-5",
+    "benchmark_id": "network-attack-simulation-challenges",
+    "score": 49,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5__system-card.pdf",
+      "ref": "p.34",
+      "fetched_at": "2026-06-07T10:05:45.906Z"
+    }
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "production-benchmarks",
+    "score": 0.967,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5__system-card.pdf",
+      "ref": "p.7",
+      "reported_by": "gpt-5",
+      "fetched_at": "2026-06-07T10:05:45.906Z"
+    }
+  },
+  {
+    "model_id": "gpt-5",
+    "benchmark_id": "production-benchmarks",
+    "score": 0.958,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5__system-card.pdf",
+      "ref": "p.7",
+      "fetched_at": "2026-06-07T10:05:45.906Z"
+    }
+  },
+  {
+    "model_id": "o3",
+    "benchmark_id": "production-benchmarks",
+    "score": 0.957,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5__system-card.pdf",
+      "ref": "p.7",
+      "reported_by": "gpt-5",
+      "fetched_at": "2026-06-07T10:05:45.906Z"
+    }
+  },
+  {
+    "model_id": "gpt-5",
+    "benchmark_id": "prompt-injection-evaluations",
+    "score": 0.99,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5__system-card.pdf",
+      "ref": "p.11",
+      "fetched_at": "2026-06-07T10:05:45.906Z"
+    }
+  },
+  {
+    "model_id": "o3",
+    "benchmark_id": "prompt-injection-evaluations",
+    "score": 0.94,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5__system-card.pdf",
+      "ref": "p.11",
+      "reported_by": "gpt-5",
+      "fetched_at": "2026-06-07T10:05:45.906Z"
+    }
+  },
+  {
+    "model_id": "gpt-5",
+    "benchmark_id": "simpleqa",
+    "score": 55,
+    "config": "no web",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5__system-card.pdf",
+      "ref": "p.13",
+      "fetched_at": "2026-06-07T10:05:45.906Z"
+    }
+  },
+  {
+    "model_id": "o3",
+    "benchmark_id": "simpleqa",
+    "score": 54,
+    "config": "no web",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5__system-card.pdf",
+      "ref": "p.13",
+      "reported_by": "gpt-5",
+      "fetched_at": "2026-06-07T10:05:45.906Z"
+    }
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "simpleqa",
+    "score": 52,
+    "config": "no web",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5__system-card.pdf",
+      "ref": "p.13",
+      "reported_by": "gpt-5",
+      "fetched_at": "2026-06-07T10:05:45.906Z"
+    }
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "standard-disallowed-content-evaluation",
+    "score": 0.996,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5__system-card.pdf",
+      "ref": "p.6",
+      "reported_by": "gpt-5",
+      "fetched_at": "2026-06-07T10:05:45.906Z"
+    }
+  },
+  {
+    "model_id": "gpt-5",
+    "benchmark_id": "standard-disallowed-content-evaluation",
+    "score": 0.992,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5__system-card.pdf",
+      "ref": "p.6",
+      "fetched_at": "2026-06-07T10:05:45.906Z"
+    }
+  },
+  {
+    "model_id": "o3",
+    "benchmark_id": "standard-disallowed-content-evaluation",
+    "score": 0.992,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5__system-card.pdf",
+      "ref": "p.6",
+      "reported_by": "gpt-5",
+      "fetched_at": "2026-06-07T10:05:45.906Z"
+    }
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "sycophancy-evaluation",
+    "score": 0.145,
+    "config": "Offline evaluation",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5__system-card.pdf",
+      "ref": "p.8",
+      "reported_by": "gpt-5",
+      "fetched_at": "2026-06-07T10:05:45.906Z"
+    }
+  },
+  {
+    "model_id": "gpt-5",
+    "benchmark_id": "sycophancy-evaluation",
+    "score": 0.052,
+    "config": "Offline evaluation",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5__system-card.pdf",
+      "ref": "p.8",
+      "fetched_at": "2026-06-07T10:05:45.906Z"
+    }
+  },
+  {
+    "model_id": "grok-4",
+    "benchmark_id": "virology-capabilities-test",
+    "score": 45.8,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5__system-card.pdf",
+      "ref": "p.29",
+      "reported_by": "gpt-5",
+      "fetched_at": "2026-06-07T10:05:45.906Z"
+    }
+  },
+  {
+    "model_id": "o3",
+    "benchmark_id": "virology-capabilities-test",
+    "score": 42,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5__system-card.pdf",
+      "ref": "p.29",
+      "reported_by": "gpt-5",
+      "fetched_at": "2026-06-07T10:05:45.906Z"
+    }
+  },
+  {
+    "model_id": "grok-4",
+    "benchmark_id": "virology-capabilities-test-text-only",
+    "score": 45.8,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5__system-card.pdf",
+      "ref": "p.29",
+      "reported_by": "gpt-5",
+      "fetched_at": "2026-06-07T10:05:45.906Z"
+    }
+  },
+  {
+    "model_id": "gpt-5",
+    "benchmark_id": "vulnerability-discovery-and-exploitation-challenges",
+    "score": 35,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5__system-card.pdf",
+      "ref": "p.34",
+      "fetched_at": "2026-06-07T10:05:45.906Z"
+    }
+  },
+  {
+    "model_id": "grok-4",
+    "benchmark_id": "world-class-biology",
+    "score": 37.4,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5__system-card.pdf",
+      "ref": "p.29",
+      "reported_by": "gpt-5",
+      "fetched_at": "2026-06-07T10:05:45.906Z"
+    }
+  }
+]

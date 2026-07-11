@@ -1,0 +1,548 @@
+[
+  {
+    "model_id": "mixtral-8x22b",
+    "benchmark_id": "alpacaeval-2.0",
+    "score": 30.9,
+    "config": "Chat",
+    "source": {
+      "kind": "manual",
+      "url": "https://github.com/01-ai/Yi-1.5",
+      "reported_by": "Yi-1.5 blog (chat models, English/Chinese benchmarks)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-05-12"
+    }
+  },
+  {
+    "model_id": "yi-1.5-9b",
+    "benchmark_id": "alpacaeval-2.0",
+    "score": 22.9,
+    "config": "Chat",
+    "source": {
+      "kind": "manual",
+      "url": "https://github.com/01-ai/Yi-1.5",
+      "reported_by": "Yi-1.5 blog (chat models, English/Chinese benchmarks)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-05-12"
+    }
+  },
+  {
+    "model_id": "llama-3-8b",
+    "benchmark_id": "alpacaeval-2.0",
+    "score": 22.9,
+    "config": "Chat",
+    "source": {
+      "kind": "manual",
+      "url": "https://github.com/01-ai/Yi-1.5",
+      "reported_by": "Yi-1.5 blog (chat models, English/Chinese benchmarks)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-05-12"
+    }
+  },
+  {
+    "model_id": "mistral-7b",
+    "benchmark_id": "alpacaeval-2.0",
+    "score": 17.1,
+    "config": "Chat",
+    "source": {
+      "kind": "manual",
+      "url": "https://github.com/01-ai/Yi-1.5",
+      "reported_by": "Yi-1.5 blog (chat models, English/Chinese benchmarks)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-05-12"
+    }
+  },
+  {
+    "model_id": "yi-1.5-6b",
+    "benchmark_id": "alpacaeval-2.0",
+    "score": 15.7,
+    "config": "Chat",
+    "source": {
+      "kind": "manual",
+      "url": "https://github.com/01-ai/Yi-1.5",
+      "reported_by": "Yi-1.5 blog (chat models, English/Chinese benchmarks)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-05-12"
+    }
+  },
+  {
+    "model_id": "gemma-7b",
+    "benchmark_id": "alpacaeval-2.0",
+    "score": 10.4,
+    "config": "Chat",
+    "source": {
+      "kind": "manual",
+      "url": "https://github.com/01-ai/Yi-1.5",
+      "reported_by": "Yi-1.5 blog (chat models, English/Chinese benchmarks)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-05-12"
+    }
+  },
+  {
+    "model_id": "mixtral-8x22b",
+    "benchmark_id": "arena-hard",
+    "score": 36.4,
+    "config": "Chat",
+    "source": {
+      "kind": "manual",
+      "url": "https://github.com/01-ai/Yi-1.5",
+      "reported_by": "Yi-1.5 blog (chat models, English/Chinese benchmarks)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-05-12"
+    }
+  },
+  {
+    "model_id": "yi-1.5-9b",
+    "benchmark_id": "arena-hard",
+    "score": 34.4,
+    "config": "Chat",
+    "source": {
+      "kind": "manual",
+      "url": "https://github.com/01-ai/Yi-1.5",
+      "reported_by": "Yi-1.5 blog (chat models, English/Chinese benchmarks)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-05-12"
+    }
+  },
+  {
+    "model_id": "llama-3-8b",
+    "benchmark_id": "arena-hard",
+    "score": 20.6,
+    "config": "Chat",
+    "source": {
+      "kind": "manual",
+      "url": "https://github.com/01-ai/Yi-1.5",
+      "reported_by": "Yi-1.5 blog (chat models, English/Chinese benchmarks)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-05-12"
+    }
+  },
+  {
+    "model_id": "yi-1.5-6b",
+    "benchmark_id": "arena-hard",
+    "score": 17.9,
+    "config": "Chat",
+    "source": {
+      "kind": "manual",
+      "url": "https://github.com/01-ai/Yi-1.5",
+      "reported_by": "Yi-1.5 blog (chat models, English/Chinese benchmarks)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-05-12"
+    }
+  },
+  {
+    "model_id": "mistral-7b",
+    "benchmark_id": "arena-hard",
+    "score": 12.6,
+    "config": "Chat",
+    "source": {
+      "kind": "manual",
+      "url": "https://github.com/01-ai/Yi-1.5",
+      "reported_by": "Yi-1.5 blog (chat models, English/Chinese benchmarks)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-05-12"
+    }
+  },
+  {
+    "model_id": "gemma-7b",
+    "benchmark_id": "arena-hard",
+    "score": 7.5,
+    "config": "Chat",
+    "source": {
+      "kind": "manual",
+      "url": "https://github.com/01-ai/Yi-1.5",
+      "reported_by": "Yi-1.5 blog (chat models, English/Chinese benchmarks)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-05-12"
+    }
+  },
+  {
+    "model_id": "yi-1.5-9b",
+    "benchmark_id": "gsm8k",
+    "score": 84.8,
+    "config": "Chat",
+    "source": {
+      "kind": "manual",
+      "url": "https://github.com/01-ai/Yi-1.5",
+      "reported_by": "Yi-1.5 blog (chat models, English/Chinese benchmarks)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-05-12"
+    }
+  },
+  {
+    "model_id": "mixtral-8x22b",
+    "benchmark_id": "gsm8k",
+    "score": 84,
+    "config": "Chat",
+    "source": {
+      "kind": "manual",
+      "url": "https://github.com/01-ai/Yi-1.5",
+      "reported_by": "Yi-1.5 blog (chat models, English/Chinese benchmarks)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-05-12"
+    }
+  },
+  {
+    "model_id": "yi-1.5-6b",
+    "benchmark_id": "gsm8k",
+    "score": 78.9,
+    "config": "Chat",
+    "source": {
+      "kind": "manual",
+      "url": "https://github.com/01-ai/Yi-1.5",
+      "reported_by": "Yi-1.5 blog (chat models, English/Chinese benchmarks)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-05-12"
+    }
+  },
+  {
+    "model_id": "gemma-7b",
+    "benchmark_id": "gsm8k",
+    "score": 57.5,
+    "config": "Chat",
+    "source": {
+      "kind": "manual",
+      "url": "https://github.com/01-ai/Yi-1.5",
+      "reported_by": "Yi-1.5 blog (chat models, English/Chinese benchmarks)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-05-12"
+    }
+  },
+  {
+    "model_id": "llama-3-8b",
+    "benchmark_id": "gsm8k",
+    "score": 54.7,
+    "config": "Chat",
+    "source": {
+      "kind": "manual",
+      "url": "https://github.com/01-ai/Yi-1.5",
+      "reported_by": "Yi-1.5 blog (chat models, English/Chinese benchmarks)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-05-12"
+    }
+  },
+  {
+    "model_id": "mistral-7b",
+    "benchmark_id": "gsm8k",
+    "score": 49.2,
+    "config": "Chat",
+    "source": {
+      "kind": "manual",
+      "url": "https://github.com/01-ai/Yi-1.5",
+      "reported_by": "Yi-1.5 blog (chat models, English/Chinese benchmarks)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-05-12"
+    }
+  },
+  {
+    "model_id": "mixtral-8x22b",
+    "benchmark_id": "humaneval",
+    "score": 76.2,
+    "config": "Chat",
+    "source": {
+      "kind": "manual",
+      "url": "https://github.com/01-ai/Yi-1.5",
+      "reported_by": "Yi-1.5 blog (chat models, English/Chinese benchmarks)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-05-12"
+    }
+  },
+  {
+    "model_id": "yi-1.5-9b",
+    "benchmark_id": "humaneval",
+    "score": 66.5,
+    "config": "Chat",
+    "source": {
+      "kind": "manual",
+      "url": "https://github.com/01-ai/Yi-1.5",
+      "reported_by": "Yi-1.5 blog (chat models, English/Chinese benchmarks)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-05-12"
+    }
+  },
+  {
+    "model_id": "yi-1.5-6b",
+    "benchmark_id": "humaneval",
+    "score": 64,
+    "config": "Chat",
+    "source": {
+      "kind": "manual",
+      "url": "https://github.com/01-ai/Yi-1.5",
+      "reported_by": "Yi-1.5 blog (chat models, English/Chinese benchmarks)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-05-12"
+    }
+  },
+  {
+    "model_id": "llama-3-8b",
+    "benchmark_id": "humaneval",
+    "score": 61.6,
+    "config": "Chat",
+    "source": {
+      "kind": "manual",
+      "url": "https://github.com/01-ai/Yi-1.5",
+      "reported_by": "Yi-1.5 blog (chat models, English/Chinese benchmarks)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-05-12"
+    }
+  },
+  {
+    "model_id": "gemma-7b",
+    "benchmark_id": "humaneval",
+    "score": 61.5,
+    "config": "Chat",
+    "source": {
+      "kind": "manual",
+      "url": "https://github.com/01-ai/Yi-1.5",
+      "reported_by": "Yi-1.5 blog (chat models, English/Chinese benchmarks)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-05-12"
+    }
+  },
+  {
+    "model_id": "mistral-7b",
+    "benchmark_id": "humaneval",
+    "score": 23.8,
+    "config": "Chat",
+    "source": {
+      "kind": "manual",
+      "url": "https://github.com/01-ai/Yi-1.5",
+      "reported_by": "Yi-1.5 blog (chat models, English/Chinese benchmarks)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-05-12"
+    }
+  },
+  {
+    "model_id": "yi-1.5-9b",
+    "benchmark_id": "math",
+    "score": 47.7,
+    "config": "Chat",
+    "source": {
+      "kind": "manual",
+      "url": "https://github.com/01-ai/Yi-1.5",
+      "reported_by": "Yi-1.5 blog (chat models, English/Chinese benchmarks)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-05-12"
+    }
+  },
+  {
+    "model_id": "mixtral-8x22b",
+    "benchmark_id": "math",
+    "score": 41.1,
+    "config": "Chat",
+    "source": {
+      "kind": "manual",
+      "url": "https://github.com/01-ai/Yi-1.5",
+      "reported_by": "Yi-1.5 blog (chat models, English/Chinese benchmarks)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-05-12"
+    }
+  },
+  {
+    "model_id": "yi-1.5-6b",
+    "benchmark_id": "math",
+    "score": 40.5,
+    "config": "Chat",
+    "source": {
+      "kind": "manual",
+      "url": "https://github.com/01-ai/Yi-1.5",
+      "reported_by": "Yi-1.5 blog (chat models, English/Chinese benchmarks)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-05-12"
+    }
+  },
+  {
+    "model_id": "gemma-7b",
+    "benchmark_id": "math",
+    "score": 24.2,
+    "config": "Chat",
+    "source": {
+      "kind": "manual",
+      "url": "https://github.com/01-ai/Yi-1.5",
+      "reported_by": "Yi-1.5 blog (chat models, English/Chinese benchmarks)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-05-12"
+    }
+  },
+  {
+    "model_id": "llama-3-8b",
+    "benchmark_id": "math",
+    "score": 21.2,
+    "config": "Chat",
+    "source": {
+      "kind": "manual",
+      "url": "https://github.com/01-ai/Yi-1.5",
+      "reported_by": "Yi-1.5 blog (chat models, English/Chinese benchmarks)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-05-12"
+    }
+  },
+  {
+    "model_id": "mistral-7b",
+    "benchmark_id": "math",
+    "score": 13.4,
+    "config": "Chat",
+    "source": {
+      "kind": "manual",
+      "url": "https://github.com/01-ai/Yi-1.5",
+      "reported_by": "Yi-1.5 blog (chat models, English/Chinese benchmarks)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-05-12"
+    }
+  },
+  {
+    "model_id": "yi-1.5-9b",
+    "benchmark_id": "mbpp",
+    "score": 78.8,
+    "config": "Chat",
+    "source": {
+      "kind": "manual",
+      "url": "https://github.com/01-ai/Yi-1.5",
+      "reported_by": "Yi-1.5 blog (chat models, English/Chinese benchmarks)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-05-12"
+    }
+  },
+  {
+    "model_id": "mixtral-8x22b",
+    "benchmark_id": "mbpp",
+    "score": 73.8,
+    "config": "Chat",
+    "source": {
+      "kind": "manual",
+      "url": "https://github.com/01-ai/Yi-1.5",
+      "reported_by": "Yi-1.5 blog (chat models, English/Chinese benchmarks)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-05-12"
+    }
+  },
+  {
+    "model_id": "yi-1.5-6b",
+    "benchmark_id": "mbpp",
+    "score": 70.9,
+    "config": "Chat",
+    "source": {
+      "kind": "manual",
+      "url": "https://github.com/01-ai/Yi-1.5",
+      "reported_by": "Yi-1.5 blog (chat models, English/Chinese benchmarks)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-05-12"
+    }
+  },
+  {
+    "model_id": "llama-3-8b",
+    "benchmark_id": "mbpp",
+    "score": 61.4,
+    "config": "Chat",
+    "source": {
+      "kind": "manual",
+      "url": "https://github.com/01-ai/Yi-1.5",
+      "reported_by": "Yi-1.5 blog (chat models, English/Chinese benchmarks)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-05-12"
+    }
+  },
+  {
+    "model_id": "gemma-7b",
+    "benchmark_id": "mbpp",
+    "score": 55.6,
+    "config": "Chat",
+    "source": {
+      "kind": "manual",
+      "url": "https://github.com/01-ai/Yi-1.5",
+      "reported_by": "Yi-1.5 blog (chat models, English/Chinese benchmarks)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-05-12"
+    }
+  },
+  {
+    "model_id": "mistral-7b",
+    "benchmark_id": "mbpp",
+    "score": 36.5,
+    "config": "Chat",
+    "source": {
+      "kind": "manual",
+      "url": "https://github.com/01-ai/Yi-1.5",
+      "reported_by": "Yi-1.5 blog (chat models, English/Chinese benchmarks)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-05-12"
+    }
+  },
+  {
+    "model_id": "mixtral-8x22b",
+    "benchmark_id": "mmlu",
+    "score": 77.7,
+    "config": "Chat",
+    "source": {
+      "kind": "manual",
+      "url": "https://github.com/01-ai/Yi-1.5",
+      "reported_by": "Yi-1.5 blog (chat models, English/Chinese benchmarks)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-05-12"
+    }
+  },
+  {
+    "model_id": "yi-1.5-9b",
+    "benchmark_id": "mmlu",
+    "score": 69.5,
+    "config": "Chat",
+    "source": {
+      "kind": "manual",
+      "url": "https://github.com/01-ai/Yi-1.5",
+      "reported_by": "Yi-1.5 blog (chat models, English/Chinese benchmarks)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-05-12"
+    }
+  },
+  {
+    "model_id": "llama-3-8b",
+    "benchmark_id": "mmlu",
+    "score": 65.8,
+    "config": "Chat",
+    "source": {
+      "kind": "manual",
+      "url": "https://github.com/01-ai/Yi-1.5",
+      "reported_by": "Yi-1.5 blog (chat models, English/Chinese benchmarks)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-05-12"
+    }
+  },
+  {
+    "model_id": "yi-1.5-6b",
+    "benchmark_id": "mmlu",
+    "score": 62.8,
+    "config": "Chat",
+    "source": {
+      "kind": "manual",
+      "url": "https://github.com/01-ai/Yi-1.5",
+      "reported_by": "Yi-1.5 blog (chat models, English/Chinese benchmarks)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-05-12"
+    }
+  },
+  {
+    "model_id": "gemma-7b",
+    "benchmark_id": "mmlu",
+    "score": 60.9,
+    "config": "Chat",
+    "source": {
+      "kind": "manual",
+      "url": "https://github.com/01-ai/Yi-1.5",
+      "reported_by": "Yi-1.5 blog (chat models, English/Chinese benchmarks)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-05-12"
+    }
+  },
+  {
+    "model_id": "mistral-7b",
+    "benchmark_id": "mmlu",
+    "score": 59.2,
+    "config": "Chat",
+    "source": {
+      "kind": "manual",
+      "url": "https://github.com/01-ai/Yi-1.5",
+      "reported_by": "Yi-1.5 blog (chat models, English/Chinese benchmarks)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-05-12"
+    }
+  }
+]

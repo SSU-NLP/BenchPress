@@ -1,0 +1,837 @@
+[
+  {
+    "model_id": "claude-sonnet-4.5",
+    "benchmark_id": "agentic-coding",
+    "score": 98.7,
+    "config": "without safeguards",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-sonnet-4.5__system-card.pdf",
+      "ref": "p.25",
+      "fetched_at": "2026-06-07T09:50:33.068Z"
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4",
+    "benchmark_id": "agentic-coding",
+    "score": 89.3,
+    "config": "without safeguards",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-sonnet-4.5__system-card.pdf",
+      "ref": "p.25",
+      "reported_by": "claude-sonnet-4.5",
+      "fetched_at": "2026-06-07T09:50:33.068Z"
+    }
+  },
+  {
+    "model_id": "claude-opus-4",
+    "benchmark_id": "bbq",
+    "score": 99.8,
+    "config": "Ambiguous accuracy, BBQ",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-sonnet-4.5__system-card.pdf",
+      "ref": "p.19",
+      "reported_by": "claude-sonnet-4.5",
+      "fetched_at": "2026-06-07T09:50:33.068Z"
+    },
+    "variants": [
+      {
+        "score": 91.1,
+        "config": "Disambiguated accuracy, BBQ",
+        "source": {
+          "kind": "tech_report",
+          "url": "claude-sonnet-4.5__system-card.pdf",
+          "ref": "p.19",
+          "reported_by": "claude-sonnet-4.5",
+          "fetched_at": "2026-06-07T09:50:33.068Z"
+        }
+      },
+      {
+        "score": 0.21,
+        "config": "Ambiguous bias, BBQ",
+        "source": {
+          "kind": "tech_report",
+          "url": "claude-sonnet-4.5__system-card.pdf",
+          "ref": "p.18",
+          "reported_by": "claude-sonnet-4.5",
+          "fetched_at": "2026-06-07T09:50:33.068Z"
+        }
+      },
+      {
+        "score": -0.6,
+        "config": "Disambiguated bias, BBQ",
+        "source": {
+          "kind": "tech_report",
+          "url": "claude-sonnet-4.5__system-card.pdf",
+          "ref": "p.18",
+          "reported_by": "claude-sonnet-4.5",
+          "fetched_at": "2026-06-07T09:50:33.068Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "claude-sonnet-4.5",
+    "benchmark_id": "bbq",
+    "score": 99.7,
+    "config": "Ambiguous accuracy, BBQ",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-sonnet-4.5__system-card.pdf",
+      "ref": "p.19",
+      "fetched_at": "2026-06-07T09:50:33.068Z"
+    },
+    "variants": [
+      {
+        "score": 82.2,
+        "config": "Disambiguated accuracy, BBQ",
+        "source": {
+          "kind": "tech_report",
+          "url": "claude-sonnet-4.5__system-card.pdf",
+          "ref": "p.19",
+          "fetched_at": "2026-06-07T09:50:33.068Z"
+        }
+      },
+      {
+        "score": 0.25,
+        "config": "Ambiguous bias, BBQ",
+        "source": {
+          "kind": "tech_report",
+          "url": "claude-sonnet-4.5__system-card.pdf",
+          "ref": "p.18",
+          "fetched_at": "2026-06-07T09:50:33.068Z"
+        }
+      },
+      {
+        "score": -2.21,
+        "config": "Disambiguated bias, BBQ",
+        "source": {
+          "kind": "tech_report",
+          "url": "claude-sonnet-4.5__system-card.pdf",
+          "ref": "p.18",
+          "fetched_at": "2026-06-07T09:50:33.068Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "claude-sonnet-4",
+    "benchmark_id": "bbq",
+    "score": 99.4,
+    "config": "Ambiguous accuracy, BBQ",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-sonnet-4.5__system-card.pdf",
+      "ref": "p.19",
+      "reported_by": "claude-sonnet-4.5",
+      "fetched_at": "2026-06-07T09:50:33.068Z"
+    },
+    "variants": [
+      {
+        "score": 86.3,
+        "config": "Disambiguated accuracy, BBQ",
+        "source": {
+          "kind": "tech_report",
+          "url": "claude-sonnet-4.5__system-card.pdf",
+          "ref": "p.19",
+          "reported_by": "claude-sonnet-4.5",
+          "fetched_at": "2026-06-07T09:50:33.068Z"
+        }
+      },
+      {
+        "score": 0.61,
+        "config": "Ambiguous bias, BBQ",
+        "source": {
+          "kind": "tech_report",
+          "url": "claude-sonnet-4.5__system-card.pdf",
+          "ref": "p.18",
+          "reported_by": "claude-sonnet-4.5",
+          "fetched_at": "2026-06-07T09:50:33.068Z"
+        }
+      },
+      {
+        "score": -1.16,
+        "config": "Disambiguated bias, BBQ",
+        "source": {
+          "kind": "tech_report",
+          "url": "claude-sonnet-4.5__system-card.pdf",
+          "ref": "p.18",
+          "reported_by": "claude-sonnet-4.5",
+          "fetched_at": "2026-06-07T09:50:33.068Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "claude-opus-4",
+    "benchmark_id": "classifier-hack-rate",
+    "score": 30,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-sonnet-4.5__system-card.pdf",
+      "ref": "p.48",
+      "reported_by": "claude-sonnet-4.5",
+      "fetched_at": "2026-06-07T09:50:33.068Z"
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4",
+    "benchmark_id": "classifier-hack-rate",
+    "score": 28,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-sonnet-4.5__system-card.pdf",
+      "ref": "p.48",
+      "reported_by": "claude-sonnet-4.5",
+      "fetched_at": "2026-06-07T09:50:33.068Z"
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4.5",
+    "benchmark_id": "classifier-hack-rate",
+    "score": 20,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-sonnet-4.5__system-card.pdf",
+      "ref": "p.48",
+      "fetched_at": "2026-06-07T09:50:33.068Z"
+    }
+  },
+  {
+    "model_id": "claude-opus-4",
+    "benchmark_id": "classifier-hack-rate-environ-1",
+    "score": 15,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-sonnet-4.5__system-card.pdf",
+      "ref": "p.48",
+      "reported_by": "claude-sonnet-4.5",
+      "fetched_at": "2026-06-07T09:50:33.068Z"
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4",
+    "benchmark_id": "classifier-hack-rate-environ-1",
+    "score": 13,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-sonnet-4.5__system-card.pdf",
+      "ref": "p.48",
+      "reported_by": "claude-sonnet-4.5",
+      "fetched_at": "2026-06-07T09:50:33.068Z"
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4.5",
+    "benchmark_id": "classifier-hack-rate-environ-1",
+    "score": 2,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-sonnet-4.5__system-card.pdf",
+      "ref": "p.48",
+      "fetched_at": "2026-06-07T09:50:33.068Z"
+    }
+  },
+  {
+    "model_id": "claude-opus-4",
+    "benchmark_id": "classifier-hack-rate-with-anti-hack-prompt",
+    "score": 15,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-sonnet-4.5__system-card.pdf",
+      "ref": "p.48",
+      "reported_by": "claude-sonnet-4.5",
+      "fetched_at": "2026-06-07T09:50:33.068Z"
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4",
+    "benchmark_id": "classifier-hack-rate-with-anti-hack-prompt",
+    "score": 13,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-sonnet-4.5__system-card.pdf",
+      "ref": "p.48",
+      "reported_by": "claude-sonnet-4.5",
+      "fetched_at": "2026-06-07T09:50:33.068Z"
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4.5",
+    "benchmark_id": "classifier-hack-rate-with-anti-hack-prompt",
+    "score": 2,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-sonnet-4.5__system-card.pdf",
+      "ref": "p.48",
+      "fetched_at": "2026-06-07T09:50:33.068Z"
+    }
+  },
+  {
+    "model_id": "claude-opus-4",
+    "benchmark_id": "classifier-hack-rate-with-no-prompt",
+    "score": 15,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-sonnet-4.5__system-card.pdf",
+      "ref": "p.48",
+      "reported_by": "claude-sonnet-4.5",
+      "fetched_at": "2026-06-07T09:50:33.068Z"
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4",
+    "benchmark_id": "classifier-hack-rate-with-no-prompt",
+    "score": 13,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-sonnet-4.5__system-card.pdf",
+      "ref": "p.48",
+      "reported_by": "claude-sonnet-4.5",
+      "fetched_at": "2026-06-07T09:50:33.068Z"
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4.5",
+    "benchmark_id": "classifier-hack-rate-with-no-prompt",
+    "score": 2,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-sonnet-4.5__system-card.pdf",
+      "ref": "p.48",
+      "fetched_at": "2026-06-07T09:50:33.068Z"
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4.5",
+    "benchmark_id": "computer-use-evaluation",
+    "score": 82.6,
+    "config": "with safeguards",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-sonnet-4.5__system-card.pdf",
+      "ref": "p.30",
+      "fetched_at": "2026-06-07T09:50:33.068Z"
+    },
+    "variants": [
+      {
+        "score": 78,
+        "config": "without safeguards",
+        "source": {
+          "kind": "tech_report",
+          "url": "claude-sonnet-4.5__system-card.pdf",
+          "ref": "p.30",
+          "fetched_at": "2026-06-07T09:50:33.068Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "claude-sonnet-4",
+    "benchmark_id": "computer-use-evaluation",
+    "score": 82.6,
+    "config": "with safeguards",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-sonnet-4.5__system-card.pdf",
+      "ref": "p.30",
+      "reported_by": "claude-sonnet-4.5",
+      "fetched_at": "2026-06-07T09:50:33.068Z"
+    },
+    "variants": [
+      {
+        "score": 74.3,
+        "config": "without safeguards",
+        "source": {
+          "kind": "tech_report",
+          "url": "claude-sonnet-4.5__system-card.pdf",
+          "ref": "p.30",
+          "reported_by": "claude-sonnet-4.5",
+          "fetched_at": "2026-06-07T09:50:33.068Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "claude-opus-4",
+    "benchmark_id": "hidden-test-hack-rate",
+    "score": 15,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-sonnet-4.5__system-card.pdf",
+      "ref": "p.48",
+      "reported_by": "claude-sonnet-4.5",
+      "fetched_at": "2026-06-07T09:50:33.068Z"
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4",
+    "benchmark_id": "hidden-test-hack-rate",
+    "score": 13,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-sonnet-4.5__system-card.pdf",
+      "ref": "p.48",
+      "reported_by": "claude-sonnet-4.5",
+      "fetched_at": "2026-06-07T09:50:33.068Z"
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4.5",
+    "benchmark_id": "hidden-test-hack-rate",
+    "score": 2,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-sonnet-4.5__system-card.pdf",
+      "ref": "p.48",
+      "fetched_at": "2026-06-07T09:50:33.068Z"
+    }
+  },
+  {
+    "model_id": "claude-opus-4",
+    "benchmark_id": "impossible-tasks",
+    "score": 6,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-sonnet-4.5__system-card.pdf",
+      "ref": "p.48",
+      "reported_by": "claude-sonnet-4.5",
+      "fetched_at": "2026-06-07T09:50:33.068Z"
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4",
+    "benchmark_id": "impossible-tasks",
+    "score": 5,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-sonnet-4.5__system-card.pdf",
+      "ref": "p.48",
+      "reported_by": "claude-sonnet-4.5",
+      "fetched_at": "2026-06-07T09:50:33.068Z"
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4.5",
+    "benchmark_id": "impossible-tasks",
+    "score": 1,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-sonnet-4.5__system-card.pdf",
+      "ref": "p.48",
+      "fetched_at": "2026-06-07T09:50:33.068Z"
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4.5",
+    "benchmark_id": "model-context-protocol-mcp-evaluation",
+    "score": 94,
+    "config": "with safeguards",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-sonnet-4.5__system-card.pdf",
+      "ref": "p.29",
+      "fetched_at": "2026-06-07T09:50:33.068Z"
+    },
+    "variants": [
+      {
+        "score": 92,
+        "config": "without safeguards",
+        "source": {
+          "kind": "tech_report",
+          "url": "claude-sonnet-4.5__system-card.pdf",
+          "ref": "p.29",
+          "fetched_at": "2026-06-07T09:50:33.068Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "claude-sonnet-4",
+    "benchmark_id": "model-context-protocol-mcp-evaluation",
+    "score": 92.9,
+    "config": "with safeguards",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-sonnet-4.5__system-card.pdf",
+      "ref": "p.29",
+      "reported_by": "claude-sonnet-4.5",
+      "fetched_at": "2026-06-07T09:50:33.068Z"
+    },
+    "variants": [
+      {
+        "score": 91.1,
+        "config": "without safeguards",
+        "source": {
+          "kind": "tech_report",
+          "url": "claude-sonnet-4.5__system-card.pdf",
+          "ref": "p.29",
+          "reported_by": "claude-sonnet-4.5",
+          "fetched_at": "2026-06-07T09:50:33.068Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "claude-opus-4",
+    "benchmark_id": "reward-hack-prone-coding-tasks-v2",
+    "score": 16,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-sonnet-4.5__system-card.pdf",
+      "ref": "p.48",
+      "reported_by": "claude-sonnet-4.5",
+      "fetched_at": "2026-06-07T09:50:33.068Z"
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4",
+    "benchmark_id": "reward-hack-prone-coding-tasks-v2",
+    "score": 14,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-sonnet-4.5__system-card.pdf",
+      "ref": "p.48",
+      "reported_by": "claude-sonnet-4.5",
+      "fetched_at": "2026-06-07T09:50:33.068Z"
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4.5",
+    "benchmark_id": "reward-hack-prone-coding-tasks-v2",
+    "score": 1,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-sonnet-4.5__system-card.pdf",
+      "ref": "p.48",
+      "fetched_at": "2026-06-07T09:50:33.068Z"
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4",
+    "benchmark_id": "single-turn-benign-request-evaluation",
+    "score": 0.28,
+    "config": "standard thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-sonnet-4.5__system-card.pdf",
+      "ref": "p.12",
+      "reported_by": "claude-sonnet-4.5",
+      "fetched_at": "2026-06-07T09:50:33.068Z"
+    },
+    "variants": [
+      {
+        "score": 0.15,
+        "config": "default",
+        "source": {
+          "kind": "tech_report",
+          "url": "claude-sonnet-4.5__system-card.pdf",
+          "ref": "p.12",
+          "reported_by": "claude-sonnet-4.5",
+          "fetched_at": "2026-06-07T09:50:33.068Z"
+        }
+      },
+      {
+        "score": 0.01,
+        "config": "extended thinking",
+        "source": {
+          "kind": "tech_report",
+          "url": "claude-sonnet-4.5__system-card.pdf",
+          "ref": "p.12",
+          "reported_by": "claude-sonnet-4.5",
+          "fetched_at": "2026-06-07T09:50:33.068Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "claude-opus-4",
+    "benchmark_id": "single-turn-benign-request-evaluation",
+    "score": 0.09,
+    "config": "standard thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-sonnet-4.5__system-card.pdf",
+      "ref": "p.12",
+      "reported_by": "claude-sonnet-4.5",
+      "fetched_at": "2026-06-07T09:50:33.068Z"
+    },
+    "variants": [
+      {
+        "score": 0.05,
+        "config": "default",
+        "source": {
+          "kind": "tech_report",
+          "url": "claude-sonnet-4.5__system-card.pdf",
+          "ref": "p.12",
+          "reported_by": "claude-sonnet-4.5",
+          "fetched_at": "2026-06-07T09:50:33.068Z"
+        }
+      },
+      {
+        "score": 0.01,
+        "config": "extended thinking",
+        "source": {
+          "kind": "tech_report",
+          "url": "claude-sonnet-4.5__system-card.pdf",
+          "ref": "p.12",
+          "reported_by": "claude-sonnet-4.5",
+          "fetched_at": "2026-06-07T09:50:33.068Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "claude-sonnet-4.5",
+    "benchmark_id": "single-turn-benign-request-evaluation",
+    "score": 0.05,
+    "config": "standard thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-sonnet-4.5__system-card.pdf",
+      "ref": "p.12",
+      "fetched_at": "2026-06-07T09:50:33.068Z"
+    },
+    "variants": [
+      {
+        "score": 0.02,
+        "config": "default",
+        "source": {
+          "kind": "tech_report",
+          "url": "claude-sonnet-4.5__system-card.pdf",
+          "ref": "p.12",
+          "fetched_at": "2026-06-07T09:50:33.068Z"
+        }
+      },
+      {
+        "score": 0,
+        "config": "extended thinking",
+        "source": {
+          "kind": "tech_report",
+          "url": "claude-sonnet-4.5__system-card.pdf",
+          "ref": "p.12",
+          "fetched_at": "2026-06-07T09:50:33.068Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "claude-sonnet-4.5",
+    "benchmark_id": "single-turn-violative-request-evaluation",
+    "score": 99.43,
+    "config": "extended thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-sonnet-4.5__system-card.pdf",
+      "ref": "p.12",
+      "fetched_at": "2026-06-07T09:50:33.068Z"
+    },
+    "variants": [
+      {
+        "score": 99.29,
+        "config": "default",
+        "source": {
+          "kind": "tech_report",
+          "url": "claude-sonnet-4.5__system-card.pdf",
+          "ref": "p.12",
+          "fetched_at": "2026-06-07T09:50:33.068Z"
+        }
+      },
+      {
+        "score": 99.16,
+        "config": "standard thinking",
+        "source": {
+          "kind": "tech_report",
+          "url": "claude-sonnet-4.5__system-card.pdf",
+          "ref": "p.12",
+          "fetched_at": "2026-06-07T09:50:33.068Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "claude-sonnet-4",
+    "benchmark_id": "single-turn-violative-request-evaluation",
+    "score": 98.97,
+    "config": "extended thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-sonnet-4.5__system-card.pdf",
+      "ref": "p.12",
+      "reported_by": "claude-sonnet-4.5",
+      "fetched_at": "2026-06-07T09:50:33.068Z"
+    },
+    "variants": [
+      {
+        "score": 98.22,
+        "config": "default",
+        "source": {
+          "kind": "tech_report",
+          "url": "claude-sonnet-4.5__system-card.pdf",
+          "ref": "p.12",
+          "reported_by": "claude-sonnet-4.5",
+          "fetched_at": "2026-06-07T09:50:33.068Z"
+        }
+      },
+      {
+        "score": 97.46,
+        "config": "standard thinking",
+        "source": {
+          "kind": "tech_report",
+          "url": "claude-sonnet-4.5__system-card.pdf",
+          "ref": "p.12",
+          "reported_by": "claude-sonnet-4.5",
+          "fetched_at": "2026-06-07T09:50:33.068Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "claude-opus-4",
+    "benchmark_id": "single-turn-violative-request-evaluation",
+    "score": 97.67,
+    "config": "extended thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-sonnet-4.5__system-card.pdf",
+      "ref": "p.12",
+      "reported_by": "claude-sonnet-4.5",
+      "fetched_at": "2026-06-07T09:50:33.068Z"
+    },
+    "variants": [
+      {
+        "score": 97.27,
+        "config": "default",
+        "source": {
+          "kind": "tech_report",
+          "url": "claude-sonnet-4.5__system-card.pdf",
+          "ref": "p.12",
+          "reported_by": "claude-sonnet-4.5",
+          "fetched_at": "2026-06-07T09:50:33.068Z"
+        }
+      },
+      {
+        "score": 96.88,
+        "config": "standard thinking",
+        "source": {
+          "kind": "tech_report",
+          "url": "claude-sonnet-4.5__system-card.pdf",
+          "ref": "p.12",
+          "reported_by": "claude-sonnet-4.5",
+          "fetched_at": "2026-06-07T09:50:33.068Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "claude-sonnet-4.5",
+    "benchmark_id": "tool-use-evaluation",
+    "score": 99.4,
+    "config": "with safeguards",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-sonnet-4.5__system-card.pdf",
+      "ref": "p.30",
+      "fetched_at": "2026-06-07T09:50:33.068Z"
+    },
+    "variants": [
+      {
+        "score": 96,
+        "config": "without safeguards",
+        "source": {
+          "kind": "tech_report",
+          "url": "claude-sonnet-4.5__system-card.pdf",
+          "ref": "p.30",
+          "fetched_at": "2026-06-07T09:50:33.068Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "claude-sonnet-4",
+    "benchmark_id": "tool-use-evaluation",
+    "score": 99.2,
+    "config": "with safeguards",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-sonnet-4.5__system-card.pdf",
+      "ref": "p.30",
+      "reported_by": "claude-sonnet-4.5",
+      "fetched_at": "2026-06-07T09:50:33.068Z"
+    },
+    "variants": [
+      {
+        "score": 90.6,
+        "config": "without safeguards",
+        "source": {
+          "kind": "tech_report",
+          "url": "claude-sonnet-4.5__system-card.pdf",
+          "ref": "p.30",
+          "reported_by": "claude-sonnet-4.5",
+          "fetched_at": "2026-06-07T09:50:33.068Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "claude-opus-4",
+    "benchmark_id": "training-distribution",
+    "score": 85,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-sonnet-4.5__system-card.pdf",
+      "ref": "p.48",
+      "reported_by": "claude-sonnet-4.5",
+      "fetched_at": "2026-06-07T09:50:33.068Z"
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4",
+    "benchmark_id": "training-distribution",
+    "score": 70,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-sonnet-4.5__system-card.pdf",
+      "ref": "p.48",
+      "reported_by": "claude-sonnet-4.5",
+      "fetched_at": "2026-06-07T09:50:33.068Z"
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4.5",
+    "benchmark_id": "training-distribution",
+    "score": 53,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-sonnet-4.5__system-card.pdf",
+      "ref": "p.48",
+      "fetched_at": "2026-06-07T09:50:33.068Z"
+    }
+  }
+]

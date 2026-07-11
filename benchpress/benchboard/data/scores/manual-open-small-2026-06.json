@@ -1,0 +1,535 @@
+[
+  {
+    "model_id": "deepseek-r1-distill-qwen-14b",
+    "benchmark_id": "aime-2024",
+    "score": 69.7,
+    "config": "pass@1",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2501.12948",
+      "reported_by": "DeepSeek-R1 report (arXiv:2501.12948), distilled models (Table 5)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-01-22"
+    }
+  },
+  {
+    "model_id": "deepseek-r1-distill-qwen-7b",
+    "benchmark_id": "aime-2024",
+    "score": 55.5,
+    "config": "pass@1",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2501.12948",
+      "reported_by": "DeepSeek-R1 report (arXiv:2501.12948), distilled models (Table 5)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-01-22"
+    }
+  },
+  {
+    "model_id": "deepseek-r1-distill-llama-8b",
+    "benchmark_id": "aime-2024",
+    "score": 50.4,
+    "config": "pass@1",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2501.12948",
+      "reported_by": "DeepSeek-R1 report (arXiv:2501.12948), distilled models (Table 5)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-01-22"
+    }
+  },
+  {
+    "model_id": "deepseek-r1-distill-qwen-1.5b",
+    "benchmark_id": "aime-2024",
+    "score": 28.9,
+    "config": "pass@1",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2501.12948",
+      "reported_by": "DeepSeek-R1 report (arXiv:2501.12948), distilled models (Table 5)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-01-22"
+    }
+  },
+  {
+    "model_id": "gemma-2-9b",
+    "benchmark_id": "arc-challenge",
+    "score": 68.4,
+    "config": "25-shot",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2408.00118",
+      "reported_by": "Gemma 2 Technical Report (arXiv:2408.00118), 9B pretrained",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-07-31"
+    }
+  },
+  {
+    "model_id": "gemma-2-2b",
+    "benchmark_id": "arc-challenge",
+    "score": 55.7,
+    "config": "25-shot",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2408.00118",
+      "reported_by": "Gemma 2 Technical Report (arXiv:2408.00118), 2B pretrained",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-07-31"
+    }
+  },
+  {
+    "model_id": "exaone-3.5-7.8b",
+    "benchmark_id": "arena-hard",
+    "score": 68.7,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2412.04862",
+      "reported_by": "EXAONE 3.5 Technical Report (arXiv:2412.04862), Instruct 7.8B (Table 8)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-12-09"
+    }
+  },
+  {
+    "model_id": "exaone-3.5-2.4b",
+    "benchmark_id": "arena-hard",
+    "score": 48.2,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2412.04862",
+      "reported_by": "EXAONE 3.5 Technical Report (arXiv:2412.04862), Instruct 2.4B (Table 8)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-12-09"
+    }
+  },
+  {
+    "model_id": "exaone-3.5-7.8b",
+    "benchmark_id": "bbh",
+    "score": 69.7,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2412.04862",
+      "reported_by": "EXAONE 3.5 Technical Report (arXiv:2412.04862), Instruct 7.8B (Table 8)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-12-09"
+    }
+  },
+  {
+    "model_id": "gemma-2-9b",
+    "benchmark_id": "bbh",
+    "score": 68.2,
+    "config": "3-shot, CoT",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2408.00118",
+      "reported_by": "Gemma 2 Technical Report (arXiv:2408.00118), 9B pretrained",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-07-31"
+    }
+  },
+  {
+    "model_id": "exaone-3.5-2.4b",
+    "benchmark_id": "bbh",
+    "score": 62.9,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2412.04862",
+      "reported_by": "EXAONE 3.5 Technical Report (arXiv:2412.04862), Instruct 2.4B (Table 8)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-12-09"
+    }
+  },
+  {
+    "model_id": "gemma-2-2b",
+    "benchmark_id": "bbh",
+    "score": 41.9,
+    "config": "3-shot, CoT",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2408.00118",
+      "reported_by": "Gemma 2 Technical Report (arXiv:2408.00118), 2B pretrained",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-07-31"
+    }
+  },
+  {
+    "model_id": "exaone-3.5-7.8b",
+    "benchmark_id": "gpqa",
+    "score": 32.5,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2412.04862",
+      "reported_by": "EXAONE 3.5 Technical Report (arXiv:2412.04862), Instruct 7.8B (Table 8)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-12-09"
+    }
+  },
+  {
+    "model_id": "exaone-3.5-2.4b",
+    "benchmark_id": "gpqa",
+    "score": 28.4,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2412.04862",
+      "reported_by": "EXAONE 3.5 Technical Report (arXiv:2412.04862), Instruct 2.4B (Table 8)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-12-09"
+    }
+  },
+  {
+    "model_id": "exaone-3.5-7.8b",
+    "benchmark_id": "gsm8k",
+    "score": 87.6,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2412.04862",
+      "reported_by": "EXAONE 3.5 Technical Report (arXiv:2412.04862), Instruct 7.8B (Table 8)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-12-09"
+    }
+  },
+  {
+    "model_id": "exaone-3.5-2.4b",
+    "benchmark_id": "gsm8k",
+    "score": 82.5,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2412.04862",
+      "reported_by": "EXAONE 3.5 Technical Report (arXiv:2412.04862), Instruct 2.4B (Table 8)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-12-09"
+    }
+  },
+  {
+    "model_id": "gemma-2-9b",
+    "benchmark_id": "gsm8k",
+    "score": 68.6,
+    "config": "5-shot",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2408.00118",
+      "reported_by": "Gemma 2 Technical Report (arXiv:2408.00118), 9B pretrained",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-07-31"
+    }
+  },
+  {
+    "model_id": "gemma-2-2b",
+    "benchmark_id": "gsm8k",
+    "score": 24.3,
+    "config": "5-shot",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2408.00118",
+      "reported_by": "Gemma 2 Technical Report (arXiv:2408.00118), 2B pretrained",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-07-31"
+    }
+  },
+  {
+    "model_id": "exaone-3.5-7.8b",
+    "benchmark_id": "humaneval",
+    "score": 84.2,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2412.04862",
+      "reported_by": "EXAONE 3.5 Technical Report (arXiv:2412.04862), Instruct 7.8B (Table 8)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-12-09"
+    }
+  },
+  {
+    "model_id": "exaone-3.5-2.4b",
+    "benchmark_id": "humaneval",
+    "score": 76.2,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2412.04862",
+      "reported_by": "EXAONE 3.5 Technical Report (arXiv:2412.04862), Instruct 2.4B (Table 8)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-12-09"
+    }
+  },
+  {
+    "model_id": "gemma-2-9b",
+    "benchmark_id": "humaneval",
+    "score": 40.2,
+    "config": "pass@1",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2408.00118",
+      "reported_by": "Gemma 2 Technical Report (arXiv:2408.00118), 9B pretrained",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-07-31"
+    }
+  },
+  {
+    "model_id": "gemma-2-2b",
+    "benchmark_id": "humaneval",
+    "score": 20.1,
+    "config": "pass@1",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2408.00118",
+      "reported_by": "Gemma 2 Technical Report (arXiv:2408.00118), 2B pretrained",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-07-31"
+    }
+  },
+  {
+    "model_id": "exaone-3.5-7.8b",
+    "benchmark_id": "ifeval",
+    "score": 78.9,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2412.04862",
+      "reported_by": "EXAONE 3.5 Technical Report (arXiv:2412.04862), Instruct 7.8B (Table 8)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-12-09"
+    }
+  },
+  {
+    "model_id": "exaone-3.5-2.4b",
+    "benchmark_id": "ifeval",
+    "score": 73.6,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2412.04862",
+      "reported_by": "EXAONE 3.5 Technical Report (arXiv:2412.04862), Instruct 2.4B (Table 8)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-12-09"
+    }
+  },
+  {
+    "model_id": "exaone-3.5-7.8b",
+    "benchmark_id": "math",
+    "score": 69.8,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2412.04862",
+      "reported_by": "EXAONE 3.5 Technical Report (arXiv:2412.04862), Instruct 7.8B (Table 8)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-12-09"
+    }
+  },
+  {
+    "model_id": "exaone-3.5-2.4b",
+    "benchmark_id": "math",
+    "score": 60.2,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2412.04862",
+      "reported_by": "EXAONE 3.5 Technical Report (arXiv:2412.04862), Instruct 2.4B (Table 8)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-12-09"
+    }
+  },
+  {
+    "model_id": "gemma-2-9b",
+    "benchmark_id": "math",
+    "score": 36.6,
+    "config": "4-shot",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2408.00118",
+      "reported_by": "Gemma 2 Technical Report (arXiv:2408.00118), 9B pretrained",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-07-31"
+    }
+  },
+  {
+    "model_id": "gemma-2-2b",
+    "benchmark_id": "math",
+    "score": 16,
+    "config": "4-shot",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2408.00118",
+      "reported_by": "Gemma 2 Technical Report (arXiv:2408.00118), 2B pretrained",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-07-31"
+    }
+  },
+  {
+    "model_id": "deepseek-r1-distill-qwen-14b",
+    "benchmark_id": "math-500",
+    "score": 93.9,
+    "config": "pass@1",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2501.12948",
+      "reported_by": "DeepSeek-R1 report (arXiv:2501.12948), distilled models (Table 5)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-01-22"
+    }
+  },
+  {
+    "model_id": "deepseek-r1-distill-qwen-7b",
+    "benchmark_id": "math-500",
+    "score": 92.8,
+    "config": "pass@1",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2501.12948",
+      "reported_by": "DeepSeek-R1 report (arXiv:2501.12948), distilled models (Table 5)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-01-22"
+    }
+  },
+  {
+    "model_id": "deepseek-r1-distill-llama-8b",
+    "benchmark_id": "math-500",
+    "score": 89.1,
+    "config": "pass@1",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2501.12948",
+      "reported_by": "DeepSeek-R1 report (arXiv:2501.12948), distilled models (Table 5)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-01-22"
+    }
+  },
+  {
+    "model_id": "deepseek-r1-distill-qwen-1.5b",
+    "benchmark_id": "math-500",
+    "score": 83.9,
+    "config": "pass@1",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2501.12948",
+      "reported_by": "DeepSeek-R1 report (arXiv:2501.12948), distilled models (Table 5)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-01-22"
+    }
+  },
+  {
+    "model_id": "exaone-3.5-7.8b",
+    "benchmark_id": "mbpp",
+    "score": 79.4,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2412.04862",
+      "reported_by": "EXAONE 3.5 Technical Report (arXiv:2412.04862), Instruct 7.8B (Table 8)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-12-09"
+    }
+  },
+  {
+    "model_id": "exaone-3.5-2.4b",
+    "benchmark_id": "mbpp",
+    "score": 74.3,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2412.04862",
+      "reported_by": "EXAONE 3.5 Technical Report (arXiv:2412.04862), Instruct 2.4B (Table 8)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-12-09"
+    }
+  },
+  {
+    "model_id": "gemma-2-9b",
+    "benchmark_id": "mbpp",
+    "score": 52.4,
+    "config": "3-shot",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2408.00118",
+      "reported_by": "Gemma 2 Technical Report (arXiv:2408.00118), 9B pretrained",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-07-31"
+    }
+  },
+  {
+    "model_id": "gemma-2-2b",
+    "benchmark_id": "mbpp",
+    "score": 30.2,
+    "config": "3-shot",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2408.00118",
+      "reported_by": "Gemma 2 Technical Report (arXiv:2408.00118), 2B pretrained",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-07-31"
+    }
+  },
+  {
+    "model_id": "gemma-2-9b",
+    "benchmark_id": "mmlu",
+    "score": 71.3,
+    "config": "5-shot",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2408.00118",
+      "reported_by": "Gemma 2 Technical Report (arXiv:2408.00118), 9B pretrained",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-07-31"
+    }
+  },
+  {
+    "model_id": "exaone-3.5-7.8b",
+    "benchmark_id": "mmlu",
+    "score": 69,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2412.04862",
+      "reported_by": "EXAONE 3.5 Technical Report (arXiv:2412.04862), Instruct 7.8B (Table 8)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-12-09"
+    }
+  },
+  {
+    "model_id": "exaone-3.5-2.4b",
+    "benchmark_id": "mmlu",
+    "score": 60.4,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2412.04862",
+      "reported_by": "EXAONE 3.5 Technical Report (arXiv:2412.04862), Instruct 2.4B (Table 8)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-12-09"
+    }
+  },
+  {
+    "model_id": "gemma-2-2b",
+    "benchmark_id": "mmlu",
+    "score": 52.2,
+    "config": "5-shot",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2408.00118",
+      "reported_by": "Gemma 2 Technical Report (arXiv:2408.00118), 2B pretrained",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-07-31"
+    }
+  },
+  {
+    "model_id": "yi-1.5-9b",
+    "benchmark_id": "mmlu-pro",
+    "score": 45.95,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/01-ai/Yi-1.5-9B-Chat",
+      "reported_by": "Yi-1.5-9B-Chat model card",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-05-12"
+    }
+  }
+]

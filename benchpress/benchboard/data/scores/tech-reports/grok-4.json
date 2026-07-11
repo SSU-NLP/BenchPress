@@ -1,0 +1,158 @@
+[
+  {
+    "model_id": "grok-4",
+    "benchmark_id": "agentdojo",
+    "score": 2,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "grok-4__model-card.pdf",
+      "ref": "p.3",
+      "fetched_at": "2026-06-07T10:06:56.105Z",
+      "reported_by": "Grok 4 model card (rescaled 0-100)"
+    }
+  },
+  {
+    "model_id": "grok-4",
+    "benchmark_id": "agentharm",
+    "score": 14,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "grok-4__model-card.pdf",
+      "ref": "p.3",
+      "fetched_at": "2026-06-07T10:06:56.105Z",
+      "reported_by": "Grok 4 model card (rescaled 0-100)"
+    }
+  },
+  {
+    "model_id": "grok-4",
+    "benchmark_id": "biolp-bench",
+    "score": 47,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "grok-4__model-card.pdf",
+      "ref": "p.6",
+      "fetched_at": "2026-06-07T10:06:56.105Z",
+      "reported_by": "Grok 4 model card (rescaled 0-100)"
+    }
+  },
+  {
+    "model_id": "grok-4",
+    "benchmark_id": "cybench",
+    "score": 43,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "grok-4__model-card.pdf",
+      "ref": "p.6",
+      "fetched_at": "2026-06-07T10:06:56.105Z",
+      "reported_by": "Grok 4 model card (rescaled 0-100)"
+    }
+  },
+  {
+    "model_id": "grok-4",
+    "benchmark_id": "makemesay",
+    "score": 12,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "grok-4__model-card.pdf",
+      "ref": "p.6",
+      "fetched_at": "2026-06-07T10:06:56.105Z",
+      "reported_by": "Grok 4 model card (rescaled 0-100)"
+    }
+  },
+  {
+    "model_id": "grok-4",
+    "benchmark_id": "refusal-dataset",
+    "score": 1,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "grok-4__model-card.pdf",
+      "ref": "p.3",
+      "fetched_at": "2026-06-07T10:06:56.105Z",
+      "reported_by": "Grok 4 model card (rescaled 0-100)"
+    }
+  },
+  {
+    "model_id": "grok-4",
+    "benchmark_id": "soft-bias-internal",
+    "score": 36,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "grok-4__model-card.pdf",
+      "ref": "p.5",
+      "fetched_at": "2026-06-07T10:06:56.105Z",
+      "reported_by": "Grok 4 model card (rescaled 0-100)"
+    }
+  },
+  {
+    "model_id": "grok-4",
+    "benchmark_id": "sycophancy",
+    "score": 7,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "grok-4__model-card.pdf",
+      "ref": "p.5",
+      "fetched_at": "2026-06-07T10:06:56.105Z",
+      "reported_by": "Grok 4 model card (rescaled 0-100)"
+    }
+  },
+  {
+    "model_id": "grok-4",
+    "benchmark_id": "vct",
+    "score": 60,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "grok-4__model-card.pdf",
+      "ref": "p.6",
+      "fetched_at": "2026-06-07T10:06:56.105Z",
+      "reported_by": "Grok 4 model card (API column; rescaled 0-100)"
+    }
+  },
+  {
+    "model_id": "grok-4",
+    "benchmark_id": "wmdp-bio",
+    "score": 87,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "grok-4__model-card.pdf",
+      "ref": "p.6",
+      "fetched_at": "2026-06-07T10:06:56.105Z",
+      "reported_by": "Grok 4 model card (API column; rescaled 0-100)"
+    }
+  },
+  {
+    "model_id": "grok-4",
+    "benchmark_id": "wmdp-chem",
+    "score": 83,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "grok-4__model-card.pdf",
+      "ref": "p.6",
+      "fetched_at": "2026-06-07T10:06:56.105Z",
+      "reported_by": "Grok 4 model card (API column; rescaled 0-100)"
+    }
+  },
+  {
+    "model_id": "grok-4",
+    "benchmark_id": "wmdp-cyber",
+    "score": 79,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "grok-4__model-card.pdf",
+      "ref": "p.6",
+      "fetched_at": "2026-06-07T10:06:56.105Z",
+      "reported_by": "Grok 4 model card (rescaled 0-100)"
+    }
+  }
+]

@@ -1,0 +1,77 @@
+scope,benchmark,model
+seen,AIME 2024,Claude-Sonnet-4.6
+seen,AIME 2024,GLM-5
+seen,AIME 2024,GPT-5
+seen,AIME 2025,GLM-5
+seen,ARC Challenge,Claude-Sonnet-4.6
+seen,ARC Challenge,GLM-5
+seen,ARC Challenge,GPT-5
+seen,ARC Challenge,GPT-oss-120b
+seen,ARC Challenge,GPT-oss-20b
+seen,BBH,Claude-Sonnet-4.6
+seen,BBH,GLM-5
+seen,BBH,GPT-5
+seen,BBH,GPT-oss-120b
+seen,BBH,GPT-oss-20b
+seen,GSM8K,Claude-Sonnet-4.6
+seen,GSM8K,GLM-5
+seen,GSM8K,GPT-5
+seen,GSM8K,GPT-oss-120b
+seen,GSM8K,GPT-oss-20b
+seen,HellaSwag,Claude-Sonnet-4.6
+seen,HellaSwag,GLM-5
+seen,HellaSwag,GPT-5
+seen,HellaSwag,GPT-oss-120b
+seen,HellaSwag,GPT-oss-20b
+seen,HumanEval,Claude-Sonnet-4.6
+seen,HumanEval,GLM-5
+seen,HumanEval,GPT-oss-120b
+seen,HumanEval,GPT-oss-20b
+seen,HumanEval,KIMI-K2-Instruct
+seen,MATH,Claude-Sonnet-4.6
+seen,MATH,GLM-5
+seen,MATH,GPT-oss-120b
+seen,MATH,GPT-oss-20b
+seen,MATH-500,Claude-Sonnet-4.6
+seen,MATH-500,GLM-5
+seen,MATH-500,GPT-5
+seen,MATH-500,GPT-oss-120b
+seen,MATH-500,GPT-oss-20b
+seen,MATH-500,KIMI-K2-Instruct
+seen,MBPP,Claude-Sonnet-4.6
+seen,MBPP,GLM-5
+seen,MBPP,GPT-5
+seen,MBPP,GPT-oss-120b
+seen,MBPP,GPT-oss-20b
+seen,MBPP,KIMI-K2-Instruct
+seen,MMLU,Claude-Sonnet-4.6
+seen,MMLU,GLM-5
+seen,MMLU-Pro,GLM-5
+seen,MMLU-Pro,GPT-5
+seen,MMLU-Pro,GPT-oss-120b
+seen,MMLU-Pro,GPT-oss-20b
+seen,MMLU-Redux,Claude-Sonnet-4.6
+seen,MMLU-Redux,GLM-5
+seen,MMLU-Redux,GPT-5
+seen,MMLU-Redux,GPT-oss-120b
+seen,MMLU-Redux,GPT-oss-20b
+seen,SimpleQA,GLM-5
+seen,SimpleQA,GPT-5
+seen,SuperGPQA,Claude-Sonnet-4.6
+seen,SuperGPQA,GLM-5
+seen,SuperGPQA,GPT-5
+seen,SuperGPQA,GPT-oss-120b
+seen,SuperGPQA,GPT-oss-20b
+seen,WinoGrande,Claude-Sonnet-4.6
+seen,WinoGrande,GLM-5
+seen,WinoGrande,GPT-5
+seen,WinoGrande,GPT-oss-120b
+seen,WinoGrande,GPT-oss-20b
+seen,WinoGrande,KIMI-K2-Instruct
+held,AIME 2025,Claude-3.5-Sonnet
+held,AIME 2025,GPT-4o
+held,AIME 2025,Llama-3.1-405B
+held,AIME 2025,Llama-3.1-70B
+held,AIME 2025,Qwen2.5-72B
+held,SimpleQA,Llama-3.1-70B
+held,SuperGPQA,Llama-3.1-405B

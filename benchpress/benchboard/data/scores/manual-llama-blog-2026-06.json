@@ -1,0 +1,1913 @@
+[
+  {
+    "model_id": "llama-3.2-90b",
+    "benchmark_id": "ai2d",
+    "score": 92.3,
+    "config": "test",
+    "source": {
+      "kind": "manual",
+      "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+      "reported_by": "Meta Llama model cards (Llama 3.1 / 3.2 instruct)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-25"
+    }
+  },
+  {
+    "model_id": "llama-3.2-11b",
+    "benchmark_id": "ai2d",
+    "score": 91.1,
+    "config": "test",
+    "source": {
+      "kind": "manual",
+      "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+      "reported_by": "Meta Llama model cards (Llama 3.1 / 3.2 instruct)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-25"
+    }
+  },
+  {
+    "model_id": "claude-3-haiku",
+    "benchmark_id": "ai2d",
+    "score": 86.7,
+    "config": "test",
+    "source": {
+      "kind": "manual",
+      "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+      "reported_by": "Meta Llama model cards (Llama 3.1 / 3.2 instruct)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-25"
+    }
+  },
+  {
+    "model_id": "llama-3.1-405b",
+    "benchmark_id": "arc-challenge",
+    "score": 96.9,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+      "reported_by": "Meta Llama model cards (Llama 3.1 / 3.2 instruct)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-25"
+    }
+  },
+  {
+    "model_id": "llama-3.1-70b",
+    "benchmark_id": "arc-challenge",
+    "score": 94.8,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+      "reported_by": "Meta Llama model cards (Llama 3.1 / 3.2 instruct)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-25"
+    }
+  },
+  {
+    "model_id": "llama-3-70b",
+    "benchmark_id": "arc-challenge",
+    "score": 94.4,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+      "reported_by": "Meta Llama model cards (Llama 3.1 / 3.2 instruct)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-25"
+    }
+  },
+  {
+    "model_id": "phi-3.5-mini",
+    "benchmark_id": "arc-challenge",
+    "score": 87.4,
+    "config": "0-shot",
+    "source": {
+      "kind": "manual",
+      "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+      "reported_by": "Meta Llama model cards (Llama 3.1 / 3.2 instruct)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-25"
+    }
+  },
+  {
+    "model_id": "llama-3.1-8b",
+    "benchmark_id": "arc-challenge",
+    "score": 83.4,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+      "reported_by": "Meta Llama model cards (Llama 3.1 / 3.2 instruct)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-25"
+    }
+  },
+  {
+    "model_id": "llama-3-8b",
+    "benchmark_id": "arc-challenge",
+    "score": 82.4,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+      "reported_by": "Meta Llama model cards (Llama 3.1 / 3.2 instruct)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-25"
+    }
+  },
+  {
+    "model_id": "llama-3.2-3b",
+    "benchmark_id": "arc-challenge",
+    "score": 78.6,
+    "config": "0-shot",
+    "source": {
+      "kind": "manual",
+      "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+      "reported_by": "Meta Llama model cards (Llama 3.1 / 3.2 instruct)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-25"
+    }
+  },
+  {
+    "model_id": "gemma-2-2b",
+    "benchmark_id": "arc-challenge",
+    "score": 76.7,
+    "config": "0-shot",
+    "source": {
+      "kind": "manual",
+      "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+      "reported_by": "Meta Llama model cards (Llama 3.1 / 3.2 instruct)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-25"
+    }
+  },
+  {
+    "model_id": "llama-3.2-1b",
+    "benchmark_id": "arc-challenge",
+    "score": 59.4,
+    "config": "0-shot",
+    "source": {
+      "kind": "manual",
+      "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+      "reported_by": "Meta Llama model cards (Llama 3.1 / 3.2 instruct)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-25"
+    }
+  },
+  {
+    "model_id": "llama-3.1-405b",
+    "benchmark_id": "bfcl",
+    "score": 88.5,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+      "reported_by": "Meta Llama model cards (Llama 3.1 / 3.2 instruct)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-25"
+    }
+  },
+  {
+    "model_id": "llama-3.1-70b",
+    "benchmark_id": "bfcl",
+    "score": 84.8,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+      "reported_by": "Meta Llama model cards (Llama 3.1 / 3.2 instruct)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-25"
+    }
+  },
+  {
+    "model_id": "llama-3-70b",
+    "benchmark_id": "bfcl",
+    "score": 83,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+      "reported_by": "Meta Llama model cards (Llama 3.1 / 3.2 instruct)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-25"
+    }
+  },
+  {
+    "model_id": "llama-3.1-8b",
+    "benchmark_id": "bfcl",
+    "score": 76.1,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+      "reported_by": "Meta Llama model cards (Llama 3.1 / 3.2 instruct)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-25"
+    }
+  },
+  {
+    "model_id": "llama-3.2-3b",
+    "benchmark_id": "bfcl",
+    "score": 67,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+      "reported_by": "Meta Llama model cards (Llama 3.1 / 3.2 instruct)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-25"
+    }
+  },
+  {
+    "model_id": "llama-3-8b",
+    "benchmark_id": "bfcl",
+    "score": 60.3,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+      "reported_by": "Meta Llama model cards (Llama 3.1 / 3.2 instruct)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-25"
+    }
+  },
+  {
+    "model_id": "phi-3.5-mini",
+    "benchmark_id": "bfcl",
+    "score": 58.4,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+      "reported_by": "Meta Llama model cards (Llama 3.1 / 3.2 instruct)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-25"
+    }
+  },
+  {
+    "model_id": "gemma-2-2b",
+    "benchmark_id": "bfcl",
+    "score": 27.4,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+      "reported_by": "Meta Llama model cards (Llama 3.1 / 3.2 instruct)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-25"
+    }
+  },
+  {
+    "model_id": "llama-3.2-1b",
+    "benchmark_id": "bfcl",
+    "score": 25.7,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+      "reported_by": "Meta Llama model cards (Llama 3.1 / 3.2 instruct)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-25"
+    }
+  },
+  {
+    "model_id": "llama-3.2-90b",
+    "benchmark_id": "chartqa",
+    "score": 85.5,
+    "config": "test",
+    "source": {
+      "kind": "manual",
+      "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+      "reported_by": "Meta Llama model cards (Llama 3.1 / 3.2 instruct)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-25"
+    }
+  },
+  {
+    "model_id": "llama-3.2-11b",
+    "benchmark_id": "chartqa",
+    "score": 83.4,
+    "config": "test",
+    "source": {
+      "kind": "manual",
+      "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+      "reported_by": "Meta Llama model cards (Llama 3.1 / 3.2 instruct)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-25"
+    }
+  },
+  {
+    "model_id": "claude-3-haiku",
+    "benchmark_id": "chartqa",
+    "score": 81.7,
+    "config": "test",
+    "source": {
+      "kind": "manual",
+      "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+      "reported_by": "Meta Llama model cards (Llama 3.1 / 3.2 instruct)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-25"
+    }
+  },
+  {
+    "model_id": "llama-3.2-90b",
+    "benchmark_id": "docvqa",
+    "score": 90.1,
+    "config": "test",
+    "source": {
+      "kind": "manual",
+      "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+      "reported_by": "Meta Llama model cards (Llama 3.1 / 3.2 instruct)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-25"
+    }
+  },
+  {
+    "model_id": "claude-3-haiku",
+    "benchmark_id": "docvqa",
+    "score": 88.8,
+    "config": "test",
+    "source": {
+      "kind": "manual",
+      "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+      "reported_by": "Meta Llama model cards (Llama 3.1 / 3.2 instruct)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-25"
+    }
+  },
+  {
+    "model_id": "llama-3.2-11b",
+    "benchmark_id": "docvqa",
+    "score": 88.4,
+    "config": "test",
+    "source": {
+      "kind": "manual",
+      "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+      "reported_by": "Meta Llama model cards (Llama 3.1 / 3.2 instruct)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-25"
+    }
+  },
+  {
+    "model_id": "llama-3.1-405b",
+    "benchmark_id": "gpqa",
+    "score": 50.7,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+      "reported_by": "Meta Llama model cards (Llama 3.1 / 3.2 instruct)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-25"
+    }
+  },
+  {
+    "model_id": "llama-3.1-70b",
+    "benchmark_id": "gpqa",
+    "score": 46.7,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+      "reported_by": "Meta Llama model cards (Llama 3.1 / 3.2 instruct)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-25"
+    }
+  },
+  {
+    "model_id": "llama-3.2-90b",
+    "benchmark_id": "gpqa",
+    "score": 46.7,
+    "config": "0-shot, CoT",
+    "source": {
+      "kind": "manual",
+      "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+      "reported_by": "Meta Llama model cards (Llama 3.1 / 3.2 instruct)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-25"
+    }
+  },
+  {
+    "model_id": "gpt-4o-mini",
+    "benchmark_id": "gpqa",
+    "score": 40.2,
+    "config": "0-shot, CoT",
+    "source": {
+      "kind": "manual",
+      "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+      "reported_by": "Meta Llama model cards (Llama 3.1 / 3.2 instruct)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-25"
+    }
+  },
+  {
+    "model_id": "llama-3-70b",
+    "benchmark_id": "gpqa",
+    "score": 39.5,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+      "reported_by": "Meta Llama model cards (Llama 3.1 / 3.2 instruct)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-25"
+    }
+  },
+  {
+    "model_id": "llama-3-8b",
+    "benchmark_id": "gpqa",
+    "score": 34.6,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+      "reported_by": "Meta Llama model cards (Llama 3.1 / 3.2 instruct)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-25"
+    }
+  },
+  {
+    "model_id": "claude-3-haiku",
+    "benchmark_id": "gpqa",
+    "score": 33.3,
+    "config": "0-shot, CoT",
+    "source": {
+      "kind": "manual",
+      "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+      "reported_by": "Meta Llama model cards (Llama 3.1 / 3.2 instruct)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-25"
+    }
+  },
+  {
+    "model_id": "llama-3.2-11b",
+    "benchmark_id": "gpqa",
+    "score": 32.8,
+    "config": "0-shot, CoT",
+    "source": {
+      "kind": "manual",
+      "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+      "reported_by": "Meta Llama model cards (Llama 3.1 / 3.2 instruct)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-25"
+    }
+  },
+  {
+    "model_id": "llama-3.2-3b",
+    "benchmark_id": "gpqa",
+    "score": 32.8,
+    "config": "0-shot",
+    "source": {
+      "kind": "manual",
+      "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+      "reported_by": "Meta Llama model cards (Llama 3.1 / 3.2 instruct)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-25"
+    }
+  },
+  {
+    "model_id": "phi-3.5-mini",
+    "benchmark_id": "gpqa",
+    "score": 31.9,
+    "config": "0-shot",
+    "source": {
+      "kind": "manual",
+      "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+      "reported_by": "Meta Llama model cards (Llama 3.1 / 3.2 instruct)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-25"
+    }
+  },
+  {
+    "model_id": "llama-3.1-8b",
+    "benchmark_id": "gpqa",
+    "score": 30.4,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+      "reported_by": "Meta Llama model cards (Llama 3.1 / 3.2 instruct)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-25"
+    }
+  },
+  {
+    "model_id": "gemma-2-2b",
+    "benchmark_id": "gpqa",
+    "score": 27.5,
+    "config": "0-shot",
+    "source": {
+      "kind": "manual",
+      "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+      "reported_by": "Meta Llama model cards (Llama 3.1 / 3.2 instruct)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-25"
+    }
+  },
+  {
+    "model_id": "llama-3.2-1b",
+    "benchmark_id": "gpqa",
+    "score": 27.2,
+    "config": "0-shot",
+    "source": {
+      "kind": "manual",
+      "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+      "reported_by": "Meta Llama model cards (Llama 3.1 / 3.2 instruct)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-25"
+    }
+  },
+  {
+    "model_id": "llama-3.1-405b",
+    "benchmark_id": "gsm8k",
+    "score": 96.8,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+      "reported_by": "Meta Llama model cards (Llama 3.1 / 3.2 instruct)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-25"
+    }
+  },
+  {
+    "model_id": "llama-3.1-70b",
+    "benchmark_id": "gsm8k",
+    "score": 95.1,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+      "reported_by": "Meta Llama model cards (Llama 3.1 / 3.2 instruct)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-25"
+    }
+  },
+  {
+    "model_id": "llama-3-70b",
+    "benchmark_id": "gsm8k",
+    "score": 93,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+      "reported_by": "Meta Llama model cards (Llama 3.1 / 3.2 instruct)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-25"
+    }
+  },
+  {
+    "model_id": "phi-3.5-mini",
+    "benchmark_id": "gsm8k",
+    "score": 86.2,
+    "config": "8-shot, CoT",
+    "source": {
+      "kind": "manual",
+      "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+      "reported_by": "Meta Llama model cards (Llama 3.1 / 3.2 instruct)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-25"
+    }
+  },
+  {
+    "model_id": "llama-3.1-8b",
+    "benchmark_id": "gsm8k",
+    "score": 84.5,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+      "reported_by": "Meta Llama model cards (Llama 3.1 / 3.2 instruct)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-25"
+    }
+  },
+  {
+    "model_id": "llama-3-8b",
+    "benchmark_id": "gsm8k",
+    "score": 80.6,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+      "reported_by": "Meta Llama model cards (Llama 3.1 / 3.2 instruct)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-25"
+    }
+  },
+  {
+    "model_id": "llama-3.2-3b",
+    "benchmark_id": "gsm8k",
+    "score": 77.7,
+    "config": "8-shot, CoT",
+    "source": {
+      "kind": "manual",
+      "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+      "reported_by": "Meta Llama model cards (Llama 3.1 / 3.2 instruct)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-25"
+    }
+  },
+  {
+    "model_id": "gemma-2-2b",
+    "benchmark_id": "gsm8k",
+    "score": 62.5,
+    "config": "8-shot, CoT",
+    "source": {
+      "kind": "manual",
+      "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+      "reported_by": "Meta Llama model cards (Llama 3.1 / 3.2 instruct)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-25"
+    }
+  },
+  {
+    "model_id": "llama-3.2-1b",
+    "benchmark_id": "gsm8k",
+    "score": 44.4,
+    "config": "8-shot, CoT",
+    "source": {
+      "kind": "manual",
+      "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+      "reported_by": "Meta Llama model cards (Llama 3.1 / 3.2 instruct)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-25"
+    }
+  },
+  {
+    "model_id": "llama-3.1-405b",
+    "benchmark_id": "humaneval",
+    "score": 89,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+      "reported_by": "Meta Llama model cards (Llama 3.1 / 3.2 instruct)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-25"
+    }
+  },
+  {
+    "model_id": "llama-3-70b",
+    "benchmark_id": "humaneval",
+    "score": 81.7,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+      "reported_by": "Meta Llama model cards (Llama 3.1 / 3.2 instruct)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-25"
+    }
+  },
+  {
+    "model_id": "llama-3.1-70b",
+    "benchmark_id": "humaneval",
+    "score": 80.5,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+      "reported_by": "Meta Llama model cards (Llama 3.1 / 3.2 instruct)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-25"
+    }
+  },
+  {
+    "model_id": "llama-3.1-8b",
+    "benchmark_id": "humaneval",
+    "score": 72.6,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+      "reported_by": "Meta Llama model cards (Llama 3.1 / 3.2 instruct)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-25"
+    }
+  },
+  {
+    "model_id": "llama-3-8b",
+    "benchmark_id": "humaneval",
+    "score": 60.4,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+      "reported_by": "Meta Llama model cards (Llama 3.1 / 3.2 instruct)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-25"
+    }
+  },
+  {
+    "model_id": "llama-3.1-405b",
+    "benchmark_id": "ifeval",
+    "score": 88.6,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+      "reported_by": "Meta Llama model cards (Llama 3.1 / 3.2 instruct)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-25"
+    }
+  },
+  {
+    "model_id": "llama-3.1-70b",
+    "benchmark_id": "ifeval",
+    "score": 87.5,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+      "reported_by": "Meta Llama model cards (Llama 3.1 / 3.2 instruct)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-25"
+    }
+  },
+  {
+    "model_id": "llama-3-70b",
+    "benchmark_id": "ifeval",
+    "score": 82.9,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+      "reported_by": "Meta Llama model cards (Llama 3.1 / 3.2 instruct)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-25"
+    }
+  },
+  {
+    "model_id": "llama-3.1-8b",
+    "benchmark_id": "ifeval",
+    "score": 80.4,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+      "reported_by": "Meta Llama model cards (Llama 3.1 / 3.2 instruct)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-25"
+    }
+  },
+  {
+    "model_id": "llama-3.2-3b",
+    "benchmark_id": "ifeval",
+    "score": 77.4,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+      "reported_by": "Meta Llama model cards (Llama 3.1 / 3.2 instruct)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-25"
+    }
+  },
+  {
+    "model_id": "llama-3-8b",
+    "benchmark_id": "ifeval",
+    "score": 76.8,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+      "reported_by": "Meta Llama model cards (Llama 3.1 / 3.2 instruct)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-25"
+    }
+  },
+  {
+    "model_id": "gemma-2-2b",
+    "benchmark_id": "ifeval",
+    "score": 61.9,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+      "reported_by": "Meta Llama model cards (Llama 3.1 / 3.2 instruct)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-25"
+    }
+  },
+  {
+    "model_id": "llama-3.2-1b",
+    "benchmark_id": "ifeval",
+    "score": 59.5,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+      "reported_by": "Meta Llama model cards (Llama 3.1 / 3.2 instruct)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-25"
+    }
+  },
+  {
+    "model_id": "phi-3.5-mini",
+    "benchmark_id": "ifeval",
+    "score": 59.2,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+      "reported_by": "Meta Llama model cards (Llama 3.1 / 3.2 instruct)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-25"
+    }
+  },
+  {
+    "model_id": "llama-3.1-405b",
+    "benchmark_id": "math",
+    "score": 73.8,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+      "reported_by": "Meta Llama model cards (Llama 3.1 / 3.2 instruct)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-25"
+    }
+  },
+  {
+    "model_id": "gpt-4o-mini",
+    "benchmark_id": "math",
+    "score": 70.2,
+    "config": "0-shot, CoT",
+    "source": {
+      "kind": "manual",
+      "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+      "reported_by": "Meta Llama model cards (Llama 3.1 / 3.2 instruct)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-25"
+    }
+  },
+  {
+    "model_id": "llama-3.1-70b",
+    "benchmark_id": "math",
+    "score": 68,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+      "reported_by": "Meta Llama model cards (Llama 3.1 / 3.2 instruct)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-25"
+    }
+  },
+  {
+    "model_id": "llama-3.2-90b",
+    "benchmark_id": "math",
+    "score": 68,
+    "config": "0-shot, CoT",
+    "source": {
+      "kind": "manual",
+      "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+      "reported_by": "Meta Llama model cards (Llama 3.1 / 3.2 instruct)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-25"
+    }
+  },
+  {
+    "model_id": "llama-3.1-8b",
+    "benchmark_id": "math",
+    "score": 51.9,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+      "reported_by": "Meta Llama model cards (Llama 3.1 / 3.2 instruct)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-25"
+    }
+  },
+  {
+    "model_id": "llama-3.2-11b",
+    "benchmark_id": "math",
+    "score": 51.9,
+    "config": "0-shot, CoT",
+    "source": {
+      "kind": "manual",
+      "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+      "reported_by": "Meta Llama model cards (Llama 3.1 / 3.2 instruct)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-25"
+    }
+  },
+  {
+    "model_id": "llama-3-70b",
+    "benchmark_id": "math",
+    "score": 51,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+      "reported_by": "Meta Llama model cards (Llama 3.1 / 3.2 instruct)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-25"
+    }
+  },
+  {
+    "model_id": "llama-3.2-3b",
+    "benchmark_id": "math",
+    "score": 48,
+    "config": "0-shot, CoT",
+    "source": {
+      "kind": "manual",
+      "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+      "reported_by": "Meta Llama model cards (Llama 3.1 / 3.2 instruct)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-25"
+    }
+  },
+  {
+    "model_id": "phi-3.5-mini",
+    "benchmark_id": "math",
+    "score": 44.2,
+    "config": "0-shot, CoT",
+    "source": {
+      "kind": "manual",
+      "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+      "reported_by": "Meta Llama model cards (Llama 3.1 / 3.2 instruct)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-25"
+    }
+  },
+  {
+    "model_id": "claude-3-haiku",
+    "benchmark_id": "math",
+    "score": 38.9,
+    "config": "0-shot, CoT",
+    "source": {
+      "kind": "manual",
+      "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+      "reported_by": "Meta Llama model cards (Llama 3.1 / 3.2 instruct)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-25"
+    }
+  },
+  {
+    "model_id": "llama-3.2-1b",
+    "benchmark_id": "math",
+    "score": 30.6,
+    "config": "0-shot, CoT",
+    "source": {
+      "kind": "manual",
+      "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+      "reported_by": "Meta Llama model cards (Llama 3.1 / 3.2 instruct)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-25"
+    }
+  },
+  {
+    "model_id": "llama-3-8b",
+    "benchmark_id": "math",
+    "score": 29.1,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+      "reported_by": "Meta Llama model cards (Llama 3.1 / 3.2 instruct)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-25"
+    }
+  },
+  {
+    "model_id": "gemma-2-2b",
+    "benchmark_id": "math",
+    "score": 23.8,
+    "config": "0-shot, CoT",
+    "source": {
+      "kind": "manual",
+      "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+      "reported_by": "Meta Llama model cards (Llama 3.1 / 3.2 instruct)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-25"
+    }
+  },
+  {
+    "model_id": "llama-3.2-90b",
+    "benchmark_id": "mathvista",
+    "score": 57.3,
+    "config": "testmini",
+    "source": {
+      "kind": "manual",
+      "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+      "reported_by": "Meta Llama model cards (Llama 3.1 / 3.2 instruct)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-25"
+    }
+  },
+  {
+    "model_id": "gpt-4o-mini",
+    "benchmark_id": "mathvista",
+    "score": 56.7,
+    "config": "testmini",
+    "source": {
+      "kind": "manual",
+      "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+      "reported_by": "Meta Llama model cards (Llama 3.1 / 3.2 instruct)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-25"
+    }
+  },
+  {
+    "model_id": "llama-3.2-11b",
+    "benchmark_id": "mathvista",
+    "score": 51.5,
+    "config": "testmini",
+    "source": {
+      "kind": "manual",
+      "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+      "reported_by": "Meta Llama model cards (Llama 3.1 / 3.2 instruct)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-25"
+    }
+  },
+  {
+    "model_id": "claude-3-haiku",
+    "benchmark_id": "mathvista",
+    "score": 46.4,
+    "config": "testmini",
+    "source": {
+      "kind": "manual",
+      "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+      "reported_by": "Meta Llama model cards (Llama 3.1 / 3.2 instruct)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-25"
+    }
+  },
+  {
+    "model_id": "llama-3.1-405b",
+    "benchmark_id": "mbpp",
+    "score": 88.6,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+      "reported_by": "Meta Llama model cards (Llama 3.1 / 3.2 instruct)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-25"
+    }
+  },
+  {
+    "model_id": "llama-3.1-70b",
+    "benchmark_id": "mbpp",
+    "score": 86,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+      "reported_by": "Meta Llama model cards (Llama 3.1 / 3.2 instruct)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-25"
+    }
+  },
+  {
+    "model_id": "llama-3-70b",
+    "benchmark_id": "mbpp",
+    "score": 82.5,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+      "reported_by": "Meta Llama model cards (Llama 3.1 / 3.2 instruct)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-25"
+    }
+  },
+  {
+    "model_id": "llama-3.1-8b",
+    "benchmark_id": "mbpp",
+    "score": 72.8,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+      "reported_by": "Meta Llama model cards (Llama 3.1 / 3.2 instruct)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-25"
+    }
+  },
+  {
+    "model_id": "llama-3-8b",
+    "benchmark_id": "mbpp",
+    "score": 70.6,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+      "reported_by": "Meta Llama model cards (Llama 3.1 / 3.2 instruct)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-25"
+    }
+  },
+  {
+    "model_id": "llama-3.1-405b",
+    "benchmark_id": "mgsm",
+    "score": 91.6,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+      "reported_by": "Meta Llama model cards (Llama 3.1 / 3.2 instruct)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-25"
+    }
+  },
+  {
+    "model_id": "gpt-4o-mini",
+    "benchmark_id": "mgsm",
+    "score": 87,
+    "config": "0-shot, CoT",
+    "source": {
+      "kind": "manual",
+      "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+      "reported_by": "Meta Llama model cards (Llama 3.1 / 3.2 instruct)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-25"
+    }
+  },
+  {
+    "model_id": "llama-3.1-70b",
+    "benchmark_id": "mgsm",
+    "score": 86.9,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+      "reported_by": "Meta Llama model cards (Llama 3.1 / 3.2 instruct)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-25"
+    }
+  },
+  {
+    "model_id": "llama-3.2-90b",
+    "benchmark_id": "mgsm",
+    "score": 86.9,
+    "config": "0-shot, CoT",
+    "source": {
+      "kind": "manual",
+      "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+      "reported_by": "Meta Llama model cards (Llama 3.1 / 3.2 instruct)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-25"
+    }
+  },
+  {
+    "model_id": "claude-3-haiku",
+    "benchmark_id": "mgsm",
+    "score": 75.1,
+    "config": "0-shot, CoT",
+    "source": {
+      "kind": "manual",
+      "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+      "reported_by": "Meta Llama model cards (Llama 3.1 / 3.2 instruct)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-25"
+    }
+  },
+  {
+    "model_id": "llama-3.1-8b",
+    "benchmark_id": "mgsm",
+    "score": 68.9,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+      "reported_by": "Meta Llama model cards (Llama 3.1 / 3.2 instruct)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-25"
+    }
+  },
+  {
+    "model_id": "llama-3.2-11b",
+    "benchmark_id": "mgsm",
+    "score": 68.9,
+    "config": "0-shot, CoT",
+    "source": {
+      "kind": "manual",
+      "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+      "reported_by": "Meta Llama model cards (Llama 3.1 / 3.2 instruct)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-25"
+    }
+  },
+  {
+    "model_id": "llama-3.2-3b",
+    "benchmark_id": "mgsm",
+    "score": 58.2,
+    "config": "0-shot, CoT",
+    "source": {
+      "kind": "manual",
+      "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+      "reported_by": "Meta Llama model cards (Llama 3.1 / 3.2 instruct)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-25"
+    }
+  },
+  {
+    "model_id": "phi-3.5-mini",
+    "benchmark_id": "mgsm",
+    "score": 49.8,
+    "config": "0-shot, CoT",
+    "source": {
+      "kind": "manual",
+      "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+      "reported_by": "Meta Llama model cards (Llama 3.1 / 3.2 instruct)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-25"
+    }
+  },
+  {
+    "model_id": "gemma-2-2b",
+    "benchmark_id": "mgsm",
+    "score": 40.2,
+    "config": "0-shot, CoT",
+    "source": {
+      "kind": "manual",
+      "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+      "reported_by": "Meta Llama model cards (Llama 3.1 / 3.2 instruct)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-25"
+    }
+  },
+  {
+    "model_id": "llama-3.2-1b",
+    "benchmark_id": "mgsm",
+    "score": 24.5,
+    "config": "0-shot, CoT",
+    "source": {
+      "kind": "manual",
+      "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+      "reported_by": "Meta Llama model cards (Llama 3.1 / 3.2 instruct)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-25"
+    }
+  },
+  {
+    "model_id": "llama-3.1-405b",
+    "benchmark_id": "mmlu",
+    "score": 87.3,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+      "reported_by": "Meta Llama model cards (Llama 3.1 / 3.2 instruct)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-25"
+    }
+  },
+  {
+    "model_id": "llama-3.2-90b",
+    "benchmark_id": "mmlu",
+    "score": 86,
+    "config": "0-shot, CoT",
+    "source": {
+      "kind": "manual",
+      "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+      "reported_by": "Meta Llama model cards (Llama 3.1 / 3.2 instruct)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-25"
+    }
+  },
+  {
+    "model_id": "llama-3.1-70b",
+    "benchmark_id": "mmlu",
+    "score": 83.6,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+      "reported_by": "Meta Llama model cards (Llama 3.1 / 3.2 instruct)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-25"
+    }
+  },
+  {
+    "model_id": "llama-3-70b",
+    "benchmark_id": "mmlu",
+    "score": 82,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+      "reported_by": "Meta Llama model cards (Llama 3.1 / 3.2 instruct)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-25"
+    }
+  },
+  {
+    "model_id": "gpt-4o-mini",
+    "benchmark_id": "mmlu",
+    "score": 82,
+    "config": "0-shot, CoT",
+    "source": {
+      "kind": "manual",
+      "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+      "reported_by": "Meta Llama model cards (Llama 3.1 / 3.2 instruct)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-25"
+    }
+  },
+  {
+    "model_id": "claude-3-haiku",
+    "benchmark_id": "mmlu",
+    "score": 75.2,
+    "config": "0-shot, CoT",
+    "source": {
+      "kind": "manual",
+      "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+      "reported_by": "Meta Llama model cards (Llama 3.1 / 3.2 instruct)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-25"
+    }
+  },
+  {
+    "model_id": "llama-3.2-11b",
+    "benchmark_id": "mmlu",
+    "score": 73,
+    "config": "0-shot, CoT",
+    "source": {
+      "kind": "manual",
+      "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+      "reported_by": "Meta Llama model cards (Llama 3.1 / 3.2 instruct)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-25"
+    }
+  },
+  {
+    "model_id": "llama-3.1-8b",
+    "benchmark_id": "mmlu",
+    "score": 69.4,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+      "reported_by": "Meta Llama model cards (Llama 3.1 / 3.2 instruct)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-25"
+    }
+  },
+  {
+    "model_id": "phi-3.5-mini",
+    "benchmark_id": "mmlu",
+    "score": 69,
+    "config": "5-shot",
+    "source": {
+      "kind": "manual",
+      "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+      "reported_by": "Meta Llama model cards (Llama 3.1 / 3.2 instruct)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-25"
+    }
+  },
+  {
+    "model_id": "llama-3-8b",
+    "benchmark_id": "mmlu",
+    "score": 68.5,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+      "reported_by": "Meta Llama model cards (Llama 3.1 / 3.2 instruct)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-25"
+    }
+  },
+  {
+    "model_id": "llama-3.2-3b",
+    "benchmark_id": "mmlu",
+    "score": 63.4,
+    "config": "5-shot",
+    "source": {
+      "kind": "manual",
+      "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+      "reported_by": "Meta Llama model cards (Llama 3.1 / 3.2 instruct)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-25"
+    }
+  },
+  {
+    "model_id": "gemma-2-2b",
+    "benchmark_id": "mmlu",
+    "score": 57.8,
+    "config": "5-shot",
+    "source": {
+      "kind": "manual",
+      "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+      "reported_by": "Meta Llama model cards (Llama 3.1 / 3.2 instruct)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-25"
+    }
+  },
+  {
+    "model_id": "llama-3.2-1b",
+    "benchmark_id": "mmlu",
+    "score": 49.3,
+    "config": "5-shot",
+    "source": {
+      "kind": "manual",
+      "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+      "reported_by": "Meta Llama model cards (Llama 3.1 / 3.2 instruct)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-25"
+    }
+  },
+  {
+    "model_id": "llama-3.1-405b",
+    "benchmark_id": "mmlu-language-french",
+    "score": 84.66,
+    "config": "5-shot",
+    "source": {
+      "kind": "manual",
+      "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+      "reported_by": "Meta Llama model cards (Llama 3.1 / 3.2 instruct)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-25"
+    }
+  },
+  {
+    "model_id": "llama-3.1-70b",
+    "benchmark_id": "mmlu-language-french",
+    "score": 79.82,
+    "config": "5-shot",
+    "source": {
+      "kind": "manual",
+      "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+      "reported_by": "Meta Llama model cards (Llama 3.1 / 3.2 instruct)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-25"
+    }
+  },
+  {
+    "model_id": "llama-3.1-8b",
+    "benchmark_id": "mmlu-language-french",
+    "score": 62.34,
+    "config": "5-shot",
+    "source": {
+      "kind": "manual",
+      "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+      "reported_by": "Meta Llama model cards (Llama 3.1 / 3.2 instruct)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-25"
+    }
+  },
+  {
+    "model_id": "llama-3.1-405b",
+    "benchmark_id": "mmlu-language-german",
+    "score": 84.36,
+    "config": "5-shot",
+    "source": {
+      "kind": "manual",
+      "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+      "reported_by": "Meta Llama model cards (Llama 3.1 / 3.2 instruct)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-25"
+    }
+  },
+  {
+    "model_id": "llama-3.1-70b",
+    "benchmark_id": "mmlu-language-german",
+    "score": 79.27,
+    "config": "5-shot",
+    "source": {
+      "kind": "manual",
+      "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+      "reported_by": "Meta Llama model cards (Llama 3.1 / 3.2 instruct)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-25"
+    }
+  },
+  {
+    "model_id": "llama-3.1-8b",
+    "benchmark_id": "mmlu-language-german",
+    "score": 60.59,
+    "config": "5-shot",
+    "source": {
+      "kind": "manual",
+      "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+      "reported_by": "Meta Llama model cards (Llama 3.1 / 3.2 instruct)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-25"
+    }
+  },
+  {
+    "model_id": "llama-3.1-405b",
+    "benchmark_id": "mmlu-language-hindi",
+    "score": 80.31,
+    "config": "5-shot",
+    "source": {
+      "kind": "manual",
+      "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+      "reported_by": "Meta Llama model cards (Llama 3.1 / 3.2 instruct)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-25"
+    }
+  },
+  {
+    "model_id": "llama-3.1-70b",
+    "benchmark_id": "mmlu-language-hindi",
+    "score": 74.52,
+    "config": "5-shot",
+    "source": {
+      "kind": "manual",
+      "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+      "reported_by": "Meta Llama model cards (Llama 3.1 / 3.2 instruct)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-25"
+    }
+  },
+  {
+    "model_id": "llama-3.1-8b",
+    "benchmark_id": "mmlu-language-hindi",
+    "score": 50.88,
+    "config": "5-shot",
+    "source": {
+      "kind": "manual",
+      "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+      "reported_by": "Meta Llama model cards (Llama 3.1 / 3.2 instruct)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-25"
+    }
+  },
+  {
+    "model_id": "llama-3.1-405b",
+    "benchmark_id": "mmlu-language-italian",
+    "score": 85.04,
+    "config": "5-shot",
+    "source": {
+      "kind": "manual",
+      "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+      "reported_by": "Meta Llama model cards (Llama 3.1 / 3.2 instruct)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-25"
+    }
+  },
+  {
+    "model_id": "llama-3.1-70b",
+    "benchmark_id": "mmlu-language-italian",
+    "score": 80.4,
+    "config": "5-shot",
+    "source": {
+      "kind": "manual",
+      "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+      "reported_by": "Meta Llama model cards (Llama 3.1 / 3.2 instruct)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-25"
+    }
+  },
+  {
+    "model_id": "llama-3.1-8b",
+    "benchmark_id": "mmlu-language-italian",
+    "score": 61.63,
+    "config": "5-shot",
+    "source": {
+      "kind": "manual",
+      "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+      "reported_by": "Meta Llama model cards (Llama 3.1 / 3.2 instruct)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-25"
+    }
+  },
+  {
+    "model_id": "llama-3.1-405b",
+    "benchmark_id": "mmlu-language-portuguese",
+    "score": 84.95,
+    "config": "5-shot",
+    "source": {
+      "kind": "manual",
+      "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+      "reported_by": "Meta Llama model cards (Llama 3.1 / 3.2 instruct)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-25"
+    }
+  },
+  {
+    "model_id": "llama-3.1-70b",
+    "benchmark_id": "mmlu-language-portuguese",
+    "score": 80.13,
+    "config": "5-shot",
+    "source": {
+      "kind": "manual",
+      "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+      "reported_by": "Meta Llama model cards (Llama 3.1 / 3.2 instruct)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-25"
+    }
+  },
+  {
+    "model_id": "llama-3.1-8b",
+    "benchmark_id": "mmlu-language-portuguese",
+    "score": 62.12,
+    "config": "5-shot",
+    "source": {
+      "kind": "manual",
+      "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+      "reported_by": "Meta Llama model cards (Llama 3.1 / 3.2 instruct)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-25"
+    }
+  },
+  {
+    "model_id": "llama-3.1-405b",
+    "benchmark_id": "mmlu-language-spanish",
+    "score": 85.08,
+    "config": "5-shot",
+    "source": {
+      "kind": "manual",
+      "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+      "reported_by": "Meta Llama model cards (Llama 3.1 / 3.2 instruct)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-25"
+    }
+  },
+  {
+    "model_id": "llama-3.1-70b",
+    "benchmark_id": "mmlu-language-spanish",
+    "score": 80.05,
+    "config": "5-shot",
+    "source": {
+      "kind": "manual",
+      "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+      "reported_by": "Meta Llama model cards (Llama 3.1 / 3.2 instruct)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-25"
+    }
+  },
+  {
+    "model_id": "llama-3.1-8b",
+    "benchmark_id": "mmlu-language-spanish",
+    "score": 62.45,
+    "config": "5-shot",
+    "source": {
+      "kind": "manual",
+      "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+      "reported_by": "Meta Llama model cards (Llama 3.1 / 3.2 instruct)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-25"
+    }
+  },
+  {
+    "model_id": "llama-3.1-405b",
+    "benchmark_id": "mmlu-pro",
+    "score": 73.3,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+      "reported_by": "Meta Llama model cards (Llama 3.1 / 3.2 instruct)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-25"
+    }
+  },
+  {
+    "model_id": "llama-3.1-70b",
+    "benchmark_id": "mmlu-pro",
+    "score": 66.4,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+      "reported_by": "Meta Llama model cards (Llama 3.1 / 3.2 instruct)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-25"
+    }
+  },
+  {
+    "model_id": "llama-3-70b",
+    "benchmark_id": "mmlu-pro",
+    "score": 63.4,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+      "reported_by": "Meta Llama model cards (Llama 3.1 / 3.2 instruct)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-25"
+    }
+  },
+  {
+    "model_id": "llama-3.1-8b",
+    "benchmark_id": "mmlu-pro",
+    "score": 48.3,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+      "reported_by": "Meta Llama model cards (Llama 3.1 / 3.2 instruct)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-25"
+    }
+  },
+  {
+    "model_id": "llama-3-8b",
+    "benchmark_id": "mmlu-pro",
+    "score": 45.5,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+      "reported_by": "Meta Llama model cards (Llama 3.1 / 3.2 instruct)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-25"
+    }
+  },
+  {
+    "model_id": "llama-3.2-90b",
+    "benchmark_id": "mmmu",
+    "score": 60.3,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+      "reported_by": "Meta Llama model cards (Llama 3.1 / 3.2 instruct)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-25"
+    }
+  },
+  {
+    "model_id": "gpt-4o-mini",
+    "benchmark_id": "mmmu",
+    "score": 59.4,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+      "reported_by": "Meta Llama model cards (Llama 3.1 / 3.2 instruct)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-25"
+    }
+  },
+  {
+    "model_id": "llama-3.2-11b",
+    "benchmark_id": "mmmu",
+    "score": 50.7,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+      "reported_by": "Meta Llama model cards (Llama 3.1 / 3.2 instruct)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-25"
+    }
+  },
+  {
+    "model_id": "claude-3-haiku",
+    "benchmark_id": "mmmu",
+    "score": 50.2,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+      "reported_by": "Meta Llama model cards (Llama 3.1 / 3.2 instruct)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-25"
+    }
+  },
+  {
+    "model_id": "llama-3.2-90b",
+    "benchmark_id": "mmmu-pro",
+    "score": 45.2,
+    "config": "Standard",
+    "source": {
+      "kind": "manual",
+      "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+      "reported_by": "Meta Llama model cards (Llama 3.1 / 3.2 instruct)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-25"
+    },
+    "variants": [
+      {
+        "score": 33.8,
+        "config": "Vision",
+        "source": {
+          "kind": "manual",
+          "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+          "reported_by": "Meta Llama model cards (Llama 3.1 / 3.2 instruct)",
+          "fetched_at": "2026-06-22T00:00:00Z",
+          "published": "2024-09-25"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "gpt-4o-mini",
+    "benchmark_id": "mmmu-pro",
+    "score": 42.3,
+    "config": "Standard",
+    "source": {
+      "kind": "manual",
+      "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+      "reported_by": "Meta Llama model cards (Llama 3.1 / 3.2 instruct)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-25"
+    },
+    "variants": [
+      {
+        "score": 36.5,
+        "config": "Vision",
+        "source": {
+          "kind": "manual",
+          "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+          "reported_by": "Meta Llama model cards (Llama 3.1 / 3.2 instruct)",
+          "fetched_at": "2026-06-22T00:00:00Z",
+          "published": "2024-09-25"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "llama-3.2-11b",
+    "benchmark_id": "mmmu-pro",
+    "score": 33,
+    "config": "Standard",
+    "source": {
+      "kind": "manual",
+      "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+      "reported_by": "Meta Llama model cards (Llama 3.1 / 3.2 instruct)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-25"
+    },
+    "variants": [
+      {
+        "score": 23.7,
+        "config": "Vision",
+        "source": {
+          "kind": "manual",
+          "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+          "reported_by": "Meta Llama model cards (Llama 3.1 / 3.2 instruct)",
+          "fetched_at": "2026-06-22T00:00:00Z",
+          "published": "2024-09-25"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "claude-3-haiku",
+    "benchmark_id": "mmmu-pro",
+    "score": 27.3,
+    "config": "Standard",
+    "source": {
+      "kind": "manual",
+      "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+      "reported_by": "Meta Llama model cards (Llama 3.1 / 3.2 instruct)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-25"
+    },
+    "variants": [
+      {
+        "score": 20.1,
+        "config": "Vision",
+        "source": {
+          "kind": "manual",
+          "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+          "reported_by": "Meta Llama model cards (Llama 3.1 / 3.2 instruct)",
+          "fetched_at": "2026-06-22T00:00:00Z",
+          "published": "2024-09-25"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "llama-3.1-405b",
+    "benchmark_id": "multipl-e",
+    "score": 75.2,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+      "reported_by": "Meta Llama model cards (Llama 3.1 / 3.2 instruct)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-25"
+    }
+  },
+  {
+    "model_id": "llama-3.1-70b",
+    "benchmark_id": "multipl-e",
+    "score": 65.5,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+      "reported_by": "Meta Llama model cards (Llama 3.1 / 3.2 instruct)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-25"
+    }
+  },
+  {
+    "model_id": "llama-3.1-8b",
+    "benchmark_id": "multipl-e",
+    "score": 50.8,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+      "reported_by": "Meta Llama model cards (Llama 3.1 / 3.2 instruct)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-25"
+    }
+  }
+]

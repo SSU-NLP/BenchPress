@@ -1,0 +1,776 @@
+[
+  {
+    "model_id": "claude-sonnet-4.5",
+    "benchmark_id": "benign-request-evaluation",
+    "score": 0.05,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-haiku-4.5__system-card.pdf",
+      "ref": "p.9",
+      "reported_by": "claude-haiku-4.5",
+      "fetched_at": "2026-06-08T05:52:20.759Z"
+    },
+    "variants": [
+      {
+        "score": 0.02,
+        "config": "Overall",
+        "source": {
+          "kind": "tech_report",
+          "url": "claude-haiku-4.5__system-card.pdf",
+          "ref": "p.9",
+          "reported_by": "claude-haiku-4.5",
+          "fetched_at": "2026-06-08T05:52:20.759Z"
+        }
+      },
+      {
+        "score": 0,
+        "config": "extended thinking",
+        "source": {
+          "kind": "tech_report",
+          "url": "claude-haiku-4.5__system-card.pdf",
+          "ref": "p.9",
+          "reported_by": "claude-haiku-4.5",
+          "fetched_at": "2026-06-08T05:52:20.759Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "claude-haiku-4.5",
+    "benchmark_id": "benign-request-evaluation",
+    "score": 0.04,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-haiku-4.5__system-card.pdf",
+      "ref": "p.9",
+      "fetched_at": "2026-06-08T05:52:20.759Z"
+    },
+    "variants": [
+      {
+        "score": 0.02,
+        "config": "Overall",
+        "source": {
+          "kind": "tech_report",
+          "url": "claude-haiku-4.5__system-card.pdf",
+          "ref": "p.9",
+          "fetched_at": "2026-06-08T05:52:20.759Z"
+        }
+      },
+      {
+        "score": 0.01,
+        "config": "extended thinking",
+        "source": {
+          "kind": "tech_report",
+          "url": "claude-haiku-4.5__system-card.pdf",
+          "ref": "p.9",
+          "fetched_at": "2026-06-08T05:52:20.759Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "claude-opus-4",
+    "benchmark_id": "classifier-hack-rate-with-no-prompt",
+    "score": 30,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-haiku-4.5__system-card.pdf",
+      "ref": "p.34",
+      "reported_by": "claude-haiku-4.5",
+      "fetched_at": "2026-06-08T05:52:20.759Z"
+    }
+  },
+  {
+    "model_id": "claude-haiku-4.5",
+    "benchmark_id": "classifier-hack-rate-with-no-prompt",
+    "score": 23,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-haiku-4.5__system-card.pdf",
+      "ref": "p.34",
+      "fetched_at": "2026-06-08T05:52:20.759Z"
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4.5",
+    "benchmark_id": "classifier-hack-rate-with-no-prompt",
+    "score": 20,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-haiku-4.5__system-card.pdf",
+      "ref": "p.34",
+      "reported_by": "claude-haiku-4.5",
+      "fetched_at": "2026-06-08T05:52:20.759Z"
+    }
+  },
+  {
+    "model_id": "claude-haiku-4.5",
+    "benchmark_id": "claude-code-evaluation",
+    "score": 100,
+    "config": "without safeguards",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-haiku-4.5__system-card.pdf",
+      "ref": "p.15",
+      "fetched_at": "2026-06-08T05:52:20.759Z"
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4.5",
+    "benchmark_id": "claude-code-evaluation",
+    "score": 98.7,
+    "config": "without safeguards",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-haiku-4.5__system-card.pdf",
+      "ref": "p.15",
+      "reported_by": "claude-haiku-4.5",
+      "fetched_at": "2026-06-08T05:52:20.759Z"
+    }
+  },
+  {
+    "model_id": "claude-haiku-4.5",
+    "benchmark_id": "computer-use-evaluation",
+    "score": 92.4,
+    "config": "with safeguards",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-haiku-4.5__system-card.pdf",
+      "ref": "p.19",
+      "fetched_at": "2026-06-08T05:52:20.759Z"
+    },
+    "variants": [
+      {
+        "score": 72.2,
+        "config": "without safeguards",
+        "source": {
+          "kind": "tech_report",
+          "url": "claude-haiku-4.5__system-card.pdf",
+          "ref": "p.19",
+          "fetched_at": "2026-06-08T05:52:20.759Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "claude-sonnet-4.5",
+    "benchmark_id": "computer-use-evaluation",
+    "score": 82.6,
+    "config": "with safeguards",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-haiku-4.5__system-card.pdf",
+      "ref": "p.19",
+      "reported_by": "claude-haiku-4.5",
+      "fetched_at": "2026-06-08T05:52:20.759Z"
+    },
+    "variants": [
+      {
+        "score": 78,
+        "config": "without safeguards",
+        "source": {
+          "kind": "tech_report",
+          "url": "claude-haiku-4.5__system-card.pdf",
+          "ref": "p.19",
+          "reported_by": "claude-haiku-4.5",
+          "fetched_at": "2026-06-08T05:52:20.759Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "claude-sonnet-4",
+    "benchmark_id": "computer-use-evaluation",
+    "score": 82.6,
+    "config": "with safeguards",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-haiku-4.5__system-card.pdf",
+      "ref": "p.19",
+      "reported_by": "claude-haiku-4.5",
+      "fetched_at": "2026-06-08T05:52:20.759Z"
+    },
+    "variants": [
+      {
+        "score": 74.3,
+        "config": "without safeguards",
+        "source": {
+          "kind": "tech_report",
+          "url": "claude-haiku-4.5__system-card.pdf",
+          "ref": "p.19",
+          "reported_by": "claude-haiku-4.5",
+          "fetched_at": "2026-06-08T05:52:20.759Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "claude-sonnet-4",
+    "benchmark_id": "cybench",
+    "score": 68.75,
+    "config": "30 attempts",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-haiku-4.5__system-card.pdf",
+      "ref": "p.39",
+      "reported_by": "claude-haiku-4.5",
+      "fetched_at": "2026-06-08T05:52:20.759Z"
+    }
+  },
+  {
+    "model_id": "claude-haiku-4.5",
+    "benchmark_id": "cybench",
+    "score": 46.875,
+    "config": "30 attempts",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-haiku-4.5__system-card.pdf",
+      "ref": "p.39",
+      "fetched_at": "2026-06-08T05:52:20.759Z"
+    }
+  },
+  {
+    "model_id": "claude-opus-4",
+    "benchmark_id": "hidden-test-hack-rate",
+    "score": 85,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-haiku-4.5__system-card.pdf",
+      "ref": "p.34",
+      "reported_by": "claude-haiku-4.5",
+      "fetched_at": "2026-06-08T05:52:20.759Z"
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4.5",
+    "benchmark_id": "hidden-test-hack-rate",
+    "score": 53,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-haiku-4.5__system-card.pdf",
+      "ref": "p.34",
+      "reported_by": "claude-haiku-4.5",
+      "fetched_at": "2026-06-08T05:52:20.759Z"
+    }
+  },
+  {
+    "model_id": "claude-haiku-4.5",
+    "benchmark_id": "hidden-test-hack-rate",
+    "score": 30,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-haiku-4.5__system-card.pdf",
+      "ref": "p.34",
+      "fetched_at": "2026-06-08T05:52:20.759Z"
+    }
+  },
+  {
+    "model_id": "claude-opus-4",
+    "benchmark_id": "impossible-tasks",
+    "score": 6,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-haiku-4.5__system-card.pdf",
+      "ref": "p.34",
+      "reported_by": "claude-haiku-4.5",
+      "fetched_at": "2026-06-08T05:52:20.759Z"
+    }
+  },
+  {
+    "model_id": "claude-haiku-4.5",
+    "benchmark_id": "impossible-tasks",
+    "score": 3,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-haiku-4.5__system-card.pdf",
+      "ref": "p.34",
+      "fetched_at": "2026-06-08T05:52:20.759Z"
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4.5",
+    "benchmark_id": "impossible-tasks",
+    "score": 1,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-haiku-4.5__system-card.pdf",
+      "ref": "p.34",
+      "reported_by": "claude-haiku-4.5",
+      "fetched_at": "2026-06-08T05:52:20.759Z"
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4",
+    "benchmark_id": "lab-bench-subset",
+    "score": 0.74,
+    "config": "k-shots=10, ProtocolQA",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-haiku-4.5__system-card.pdf",
+      "ref": "p.37",
+      "reported_by": "claude-haiku-4.5",
+      "fetched_at": "2026-06-08T05:52:20.759Z"
+    },
+    "variants": [
+      {
+        "score": 0.68,
+        "config": "k-shots=10, SeqQA",
+        "source": {
+          "kind": "tech_report",
+          "url": "claude-haiku-4.5__system-card.pdf",
+          "ref": "p.37",
+          "reported_by": "claude-haiku-4.5",
+          "fetched_at": "2026-06-08T05:52:20.759Z"
+        }
+      },
+      {
+        "score": 0.49,
+        "config": "k-shots=10, Cloning Scenarios",
+        "source": {
+          "kind": "tech_report",
+          "url": "claude-haiku-4.5__system-card.pdf",
+          "ref": "p.37",
+          "reported_by": "claude-haiku-4.5",
+          "fetched_at": "2026-06-08T05:52:20.759Z"
+        }
+      },
+      {
+        "score": 0.4,
+        "config": "k-shots=10, FigQA",
+        "source": {
+          "kind": "tech_report",
+          "url": "claude-haiku-4.5__system-card.pdf",
+          "ref": "p.37",
+          "reported_by": "claude-haiku-4.5",
+          "fetched_at": "2026-06-08T05:52:20.759Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "claude-haiku-4.5",
+    "benchmark_id": "lab-bench-subset",
+    "score": 0.69,
+    "config": "k-shots=10, ProtocolQA",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-haiku-4.5__system-card.pdf",
+      "ref": "p.37",
+      "fetched_at": "2026-06-08T05:52:20.759Z"
+    },
+    "variants": [
+      {
+        "score": 0.66,
+        "config": "k-shots=10, SeqQA",
+        "source": {
+          "kind": "tech_report",
+          "url": "claude-haiku-4.5__system-card.pdf",
+          "ref": "p.37",
+          "fetched_at": "2026-06-08T05:52:20.759Z"
+        }
+      },
+      {
+        "score": 0.49,
+        "config": "k-shots=10, FigQA",
+        "source": {
+          "kind": "tech_report",
+          "url": "claude-haiku-4.5__system-card.pdf",
+          "ref": "p.37",
+          "fetched_at": "2026-06-08T05:52:20.759Z"
+        }
+      },
+      {
+        "score": 0.45,
+        "config": "k-shots=10, Cloning Scenarios",
+        "source": {
+          "kind": "tech_report",
+          "url": "claude-haiku-4.5__system-card.pdf",
+          "ref": "p.37",
+          "fetched_at": "2026-06-08T05:52:20.759Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "claude-haiku-4.5",
+    "benchmark_id": "long-form-virology-task-1",
+    "score": 0.76,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-haiku-4.5__system-card.pdf",
+      "ref": "p.37",
+      "fetched_at": "2026-06-08T05:52:20.759Z"
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4",
+    "benchmark_id": "long-form-virology-task-1",
+    "score": 0.6,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-haiku-4.5__system-card.pdf",
+      "ref": "p.37",
+      "reported_by": "claude-haiku-4.5",
+      "fetched_at": "2026-06-08T05:52:20.759Z"
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4",
+    "benchmark_id": "long-form-virology-task-2",
+    "score": 0.58,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-haiku-4.5__system-card.pdf",
+      "ref": "p.37",
+      "reported_by": "claude-haiku-4.5",
+      "fetched_at": "2026-06-08T05:52:20.759Z"
+    }
+  },
+  {
+    "model_id": "claude-haiku-4.5",
+    "benchmark_id": "long-form-virology-task-2",
+    "score": 0.17,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-haiku-4.5__system-card.pdf",
+      "ref": "p.37",
+      "fetched_at": "2026-06-08T05:52:20.759Z"
+    }
+  },
+  {
+    "model_id": "claude-haiku-4.5",
+    "benchmark_id": "model-context-mcp-evaluation",
+    "score": 92.5,
+    "config": "without safeguards",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-haiku-4.5__system-card.pdf",
+      "ref": "p.19",
+      "fetched_at": "2026-06-08T05:52:20.759Z"
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4.5",
+    "benchmark_id": "model-context-mcp-evaluation",
+    "score": 92,
+    "config": "without safeguards",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-haiku-4.5__system-card.pdf",
+      "ref": "p.19",
+      "reported_by": "claude-haiku-4.5",
+      "fetched_at": "2026-06-08T05:52:20.759Z"
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4",
+    "benchmark_id": "model-context-mcp-evaluation",
+    "score": 91.1,
+    "config": "without safeguards",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-haiku-4.5__system-card.pdf",
+      "ref": "p.19",
+      "reported_by": "claude-haiku-4.5",
+      "fetched_at": "2026-06-08T05:52:20.759Z"
+    }
+  },
+  {
+    "model_id": "claude-opus-4",
+    "benchmark_id": "reward-hack-prone-coding-tasks-v2",
+    "score": 16,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-haiku-4.5__system-card.pdf",
+      "ref": "p.34",
+      "reported_by": "claude-haiku-4.5",
+      "fetched_at": "2026-06-08T05:52:20.759Z"
+    }
+  },
+  {
+    "model_id": "claude-haiku-4.5",
+    "benchmark_id": "reward-hack-prone-coding-tasks-v2",
+    "score": 6,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-haiku-4.5__system-card.pdf",
+      "ref": "p.34",
+      "fetched_at": "2026-06-08T05:52:20.759Z"
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4.5",
+    "benchmark_id": "reward-hack-prone-coding-tasks-v2",
+    "score": 1,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-haiku-4.5__system-card.pdf",
+      "ref": "p.34",
+      "reported_by": "claude-haiku-4.5",
+      "fetched_at": "2026-06-08T05:52:20.759Z"
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4",
+    "benchmark_id": "swe-bench-verified",
+    "score": 36.7,
+    "config": "pass@1",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-haiku-4.5__system-card.pdf",
+      "ref": "p.38",
+      "reported_by": "claude-haiku-4.5",
+      "fetched_at": "2026-06-08T05:52:20.759Z"
+    }
+  },
+  {
+    "model_id": "claude-haiku-4.5",
+    "benchmark_id": "swe-bench-verified",
+    "score": 36.6,
+    "config": "pass@1",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-haiku-4.5__system-card.pdf",
+      "ref": "p.38",
+      "fetched_at": "2026-06-08T05:52:20.759Z"
+    }
+  },
+  {
+    "model_id": "claude-haiku-4.5",
+    "benchmark_id": "synthesis-screening-evasion",
+    "score": 1,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-haiku-4.5__system-card.pdf",
+      "ref": "p.37",
+      "fetched_at": "2026-06-08T05:52:20.759Z"
+    },
+    "variants": [
+      {
+        "score": 0.94,
+        "config": "Criterion 3",
+        "source": {
+          "kind": "tech_report",
+          "url": "claude-haiku-4.5__system-card.pdf",
+          "ref": "p.37",
+          "fetched_at": "2026-06-08T05:52:20.759Z"
+        }
+      },
+      {
+        "score": 0.5,
+        "config": "Criterion 4",
+        "source": {
+          "kind": "tech_report",
+          "url": "claude-haiku-4.5__system-card.pdf",
+          "ref": "p.37",
+          "fetched_at": "2026-06-08T05:52:20.759Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "claude-sonnet-4",
+    "benchmark_id": "synthesis-screening-evasion",
+    "score": 1,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-haiku-4.5__system-card.pdf",
+      "ref": "p.37",
+      "reported_by": "claude-haiku-4.5",
+      "fetched_at": "2026-06-08T05:52:20.759Z"
+    },
+    "variants": [
+      {
+        "score": 0.84,
+        "config": "Criterion 3",
+        "source": {
+          "kind": "tech_report",
+          "url": "claude-haiku-4.5__system-card.pdf",
+          "ref": "p.37",
+          "reported_by": "claude-haiku-4.5",
+          "fetched_at": "2026-06-08T05:52:20.759Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "claude-sonnet-4.5",
+    "benchmark_id": "synthesis-screening-evasion",
+    "score": 0.97,
+    "config": "Criterion 3",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-haiku-4.5__system-card.pdf",
+      "ref": "p.37",
+      "reported_by": "claude-haiku-4.5",
+      "fetched_at": "2026-06-08T05:52:20.759Z"
+    },
+    "variants": [
+      {
+        "score": 0.42,
+        "config": "Criterion 4",
+        "source": {
+          "kind": "tech_report",
+          "url": "claude-haiku-4.5__system-card.pdf",
+          "ref": "p.37",
+          "reported_by": "claude-haiku-4.5",
+          "fetched_at": "2026-06-08T05:52:20.759Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "claude-sonnet-4.5",
+    "benchmark_id": "tool-use-evaluation",
+    "score": 96,
+    "config": "without safeguards",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-haiku-4.5__system-card.pdf",
+      "ref": "p.20",
+      "reported_by": "claude-haiku-4.5",
+      "fetched_at": "2026-06-08T05:52:20.759Z"
+    }
+  },
+  {
+    "model_id": "claude-haiku-4.5",
+    "benchmark_id": "tool-use-evaluation",
+    "score": 93.4,
+    "config": "without safeguards",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-haiku-4.5__system-card.pdf",
+      "ref": "p.20",
+      "fetched_at": "2026-06-08T05:52:20.759Z"
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4",
+    "benchmark_id": "tool-use-evaluation",
+    "score": 90.6,
+    "config": "without safeguards",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-haiku-4.5__system-card.pdf",
+      "ref": "p.20",
+      "reported_by": "claude-haiku-4.5",
+      "fetched_at": "2026-06-08T05:52:20.759Z"
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4.5",
+    "benchmark_id": "violative-request-evaluation",
+    "score": 99.43,
+    "config": "extended thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-haiku-4.5__system-card.pdf",
+      "ref": "p.8",
+      "reported_by": "claude-haiku-4.5",
+      "fetched_at": "2026-06-08T05:52:20.759Z"
+    },
+    "variants": [
+      {
+        "score": 99.29,
+        "config": "Overall",
+        "source": {
+          "kind": "tech_report",
+          "url": "claude-haiku-4.5__system-card.pdf",
+          "ref": "p.8",
+          "reported_by": "claude-haiku-4.5",
+          "fetched_at": "2026-06-08T05:52:20.759Z"
+        }
+      },
+      {
+        "score": 99.16,
+        "config": "default",
+        "source": {
+          "kind": "tech_report",
+          "url": "claude-haiku-4.5__system-card.pdf",
+          "ref": "p.8",
+          "reported_by": "claude-haiku-4.5",
+          "fetched_at": "2026-06-08T05:52:20.759Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "claude-haiku-4.5",
+    "benchmark_id": "violative-request-evaluation",
+    "score": 99.4,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-haiku-4.5__system-card.pdf",
+      "ref": "p.8",
+      "fetched_at": "2026-06-08T05:52:20.759Z"
+    },
+    "variants": [
+      {
+        "score": 99.38,
+        "config": "Overall",
+        "source": {
+          "kind": "tech_report",
+          "url": "claude-haiku-4.5__system-card.pdf",
+          "ref": "p.8",
+          "fetched_at": "2026-06-08T05:52:20.759Z"
+        }
+      },
+      {
+        "score": 99.36,
+        "config": "extended thinking",
+        "source": {
+          "kind": "tech_report",
+          "url": "claude-haiku-4.5__system-card.pdf",
+          "ref": "p.8",
+          "fetched_at": "2026-06-08T05:52:20.759Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "claude-sonnet-4",
+    "benchmark_id": "vmqa-vct",
+    "score": 0.36,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-haiku-4.5__system-card.pdf",
+      "ref": "p.37",
+      "reported_by": "claude-haiku-4.5",
+      "fetched_at": "2026-06-08T05:52:20.759Z"
+    }
+  },
+  {
+    "model_id": "claude-haiku-4.5",
+    "benchmark_id": "vmqa-vct",
+    "score": 0.32,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-haiku-4.5__system-card.pdf",
+      "ref": "p.37",
+      "fetched_at": "2026-06-08T05:52:20.759Z"
+    }
+  }
+]

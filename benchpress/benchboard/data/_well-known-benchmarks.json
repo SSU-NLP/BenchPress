@@ -1,0 +1,1224 @@
+[
+    {
+        "id":  "acebench",
+        "name":  "AceBench",
+        "category":  "agent",
+        "type":  "deterministic"
+    },
+    {
+        "id":  "aegis",
+        "name":  "Aegis",
+        "category":  "safety",
+        "type":  "deterministic",
+        "description":  "NVIDIA Aegis content-safety classification benchmark (reported as F1-score)."
+    },
+    {
+        "id":  "agieval-english",
+        "name":  "AGIEval English",
+        "category":  "general",
+        "type":  "deterministic",
+        "description":  "English subset/average of AGIEval."
+    },
+    {
+        "id":  "aime-2025",
+        "name":  "AIME 2025",
+        "category":  "math",
+        "type":  "deterministic",
+        "description":  "American Invitational Mathematics Examination 2025."
+    },
+    {
+        "id":  "aime-2026",
+        "name":  "AIME 2026",
+        "category":  "math",
+        "type":  "deterministic",
+        "description":  "American Invitational Mathematics Examination 2026."
+    },
+    {
+        "id":  "alpacaeval-2",
+        "name":  "AlpacaEval 2.0",
+        "category":  "preference",
+        "type":  "non_deterministic",
+        "source_url":  "https://github.com/tatsu-lab/alpaca_eval",
+        "description":  "Length-controlled win rate vs GPT-4-Preview, judged by GPT-4-turbo."
+    },
+    {
+        "id":  "androidworld",
+        "name":  "AndroidWorld",
+        "category":  "agent",
+        "type":  "deterministic",
+        "description":  "Android GUI agent benchmark."
+    },
+    {
+        "id":  "apex",
+        "name":  "Apex",
+        "category":  "math",
+        "type":  "deterministic",
+        "description":  "Hard math-reasoning benchmark."
+    },
+    {
+        "id":  "api-bank",
+        "name":  "API-Bank",
+        "category":  "agent",
+        "type":  "deterministic",
+        "description":  "Tool-use benchmark ??API call planning and invocation."
+    },
+    {
+        "id":  "arc-agi",
+        "name":  "ARC-AGI",
+        "category":  "general",
+        "type":  "deterministic",
+        "source_url":  "https://arcprize.org",
+        "description":  "Abstract visual grid transformation tasks requiring general fluid reasoning."
+    },
+    {
+        "id":  "arc-agi-1",
+        "name":  "ARC-AGI-1",
+        "category":  "general",
+        "type":  "deterministic",
+        "source_url":  "https://arcprize.org/leaderboard",
+        "description":  "ARC Prize semi-private ARC-AGI-1 leaderboard."
+    },
+    {
+        "id":  "arc-agi-2",
+        "name":  "ARC-AGI-2",
+        "category":  "general",
+        "type":  "deterministic",
+        "source_url":  "https://arcprize.org/leaderboard",
+        "description":  "ARC Prize semi-private ARC-AGI-2 leaderboard."
+    },
+    {
+        "id":  "arc-agi-3",
+        "name":  "ARC-AGI-3",
+        "category":  "agent",
+        "type":  "deterministic",
+        "source_url":  "https://arcprize.org/leaderboard",
+        "description":  "ARC Prize interactive ARC-AGI-3 leaderboard."
+    },
+    {
+        "id":  "arena-hard",
+        "name":  "Arena-Hard",
+        "category":  "preference",
+        "type":  "non_deterministic",
+        "source_url":  "https://github.com/lmarena/arena-hard-auto",
+        "description":  "Auto LLM-as-judge benchmark on 500 hard prompts vs GPT-4."
+    },
+    {
+        "id":  "arena-hard-v2-creative",
+        "name":  "Arena Hard v2.0 (Creative Writing)",
+        "category":  "preference",
+        "type":  "deterministic",
+        "description":  "Arena-Hard v2.0 creative-writing win rate."
+    },
+    {
+        "id":  "arena-hard-v2-hard",
+        "name":  "Arena Hard v2.0 (Hard Prompt)",
+        "category":  "preference",
+        "type":  "deterministic",
+        "description":  "Arena-Hard v2.0 hard-prompt win rate."
+    },
+    {
+        "id":  "automationbench",
+        "name":  "AutomationBench",
+        "category":  "agent",
+        "type":  "deterministic",
+        "source_url":  "https://www.anthropic.com/news/claude-fable-5-mythos-5",
+        "description":  "Tool-use / workflow-automation agent benchmark."
+    },
+    {
+        "id":  "babyvision",
+        "name":  "BabyVision",
+        "category":  "vision",
+        "type":  "deterministic",
+        "description":  "Vision reasoning benchmark (BabyVision)."
+    },
+    {
+        "id":  "bbq-bias-score",
+        "name":  "BBQ Bias Score",
+        "category":  "safety",
+        "type":  "deterministic",
+        "description":  "BBQ ambiguous-context bias score (Anthropic system-card metric, lower = less biased; reported in percentage points). Separate from BBQ accuracy."
+    },
+    {
+        "id":  "bfcl",
+        "name":  "BFCL",
+        "category":  "agent",
+        "type":  "deterministic",
+        "description":  "Berkeley Function-Calling Leaderboard ??original."
+    },
+    {
+        "id":  "bfcl-v2",
+        "name":  "BFCL v2",
+        "category":  "agent",
+        "type":  "deterministic",
+        "description":  "Berkeley Function-Calling Leaderboard V2 (Aug 2024) ??adds live/enterprise function-calling, less contamination."
+    },
+    {
+        "id":  "bfcl-v3",
+        "name":  "BFCL v3",
+        "category":  "agent",
+        "type":  "deterministic",
+        "description":  "Berkeley Function-Calling Leaderboard v3 ??function-calling correctness."
+    },
+    {
+        "id":  "bfcl-v4",
+        "name":  "BFCL v4",
+        "category":  "agent",
+        "type":  "deterministic",
+        "description":  "Berkeley Function-Calling Leaderboard v4 ??function-calling / agentic tool-use correctness."
+    },
+    {
+        "id":  "bigcodebench-complete",
+        "name":  "BigCodeBench Complete",
+        "category":  "coding",
+        "type":  "deterministic",
+        "source_url":  "https://bigcode-bench.github.io/",
+        "description":  "1140 code-completion tasks with complex library calls. Pass@1."
+    },
+    {
+        "id":  "bigcodebench-instruct",
+        "name":  "BigCodeBench Instruct",
+        "category":  "coding",
+        "type":  "deterministic",
+        "source_url":  "https://bigcode-bench.github.io/",
+        "description":  "1140 instruction-following code tasks. Pass@1."
+    },
+    {
+        "id":  "blueprint-bench-2",
+        "name":  "Blueprint Bench 2",
+        "category":  "vision",
+        "type":  "deterministic",
+        "source_url":  "https://www.anthropic.com/news/claude-fable-5-mythos-5",
+        "description":  "Spatial-reasoning benchmark over blueprints/diagrams."
+    },
+    {
+        "id":  "boolq",
+        "name":  "BoolQ",
+        "category":  "general",
+        "type":  "deterministic",
+        "description":  "Yes/no reading-comprehension questions."
+    },
+    {
+        "id":  "browsecomp",
+        "name":  "BrowseComp",
+        "category":  "agent",
+        "type":  "deterministic",
+        "description":  "Open-web browsing agent eval."
+    },
+    {
+        "id":  "browsecomp-zh",
+        "name":  "BrowseComp-zh",
+        "category":  "agent",
+        "type":  "deterministic",
+        "description":  "Chinese web-browsing agent benchmark."
+    },
+    {
+        "id":  "cc-ocr",
+        "name":  "CC-OCR",
+        "category":  "vision",
+        "type":  "deterministic",
+        "description":  "OCR benchmark (CC-OCR)."
+    },
+    {
+        "id":  "chatbot-arena",
+        "name":  "Chatbot Arena",
+        "category":  "preference",
+        "type":  "non_deterministic",
+        "source_url":  "https://lmarena.ai",
+        "description":  "ELO from anonymous human pairwise preference battles."
+    },
+    {
+        "id":  "claweval",
+        "name":  "ClawEval",
+        "category":  "agent",
+        "type":  "deterministic",
+        "description":  "Real-world agent benchmark."
+    },
+    {
+        "id":  "claw-eval",
+        "name":  "Claw-Eval",
+        "category":  "agent",
+        "type":  "deterministic",
+        "description":  "Real-world agent benchmark (Avg / Pass^3)."
+    },
+    {
+        "id":  "click",
+        "name":  "CLiCK",
+        "category":  "korean",
+        "type":  "deterministic",
+        "language":  "ko"
+    },
+    {
+        "id":  "commonsenseqa",
+        "name":  "CommonSenseQA",
+        "category":  "general",
+        "type":  "deterministic",
+        "description":  "Commonsense reasoning multiple-choice QA."
+    },
+    {
+        "id":  "countbench",
+        "name":  "CountBench",
+        "category":  "vision",
+        "type":  "deterministic",
+        "description":  "Visual counting benchmark."
+    },
+    {
+        "id":  "coworkbench",
+        "name":  "CoWorkBench",
+        "category":  "agent",
+        "type":  "deterministic",
+        "description":  "Long-horizon cowork agent benchmark across CS, finance, law, medical and other productivity domains."
+    },
+    {
+        "id":  "crag",
+        "name":  "CRAG",
+        "category":  "factuality",
+        "type":  "deterministic",
+        "description":  "Comprehensive RAG benchmark ??retrieval-augmented factual QA."
+    },
+    {
+        "id":  "critpt",
+        "name":  "CritPT",
+        "category":  "math",
+        "type":  "deterministic",
+        "description":  "Hard physics/reasoning benchmark."
+    },
+    {
+        "id":  "crux-i",
+        "name":  "CRUX-I",
+        "category":  "coding",
+        "type":  "deterministic",
+        "description":  "CRUXEval input-prediction (code reasoning)."
+    },
+    {
+        "id":  "cybench",
+        "name":  "Cybench",
+        "category":  "agent",
+        "type":  "deterministic"
+    },
+    {
+        "id":  "deepplanning",
+        "name":  "DeepPlanning",
+        "category":  "agent",
+        "type":  "deterministic",
+        "description":  "Long-horizon planning agent benchmark."
+    },
+    {
+        "id":  "dynamath",
+        "name":  "DynaMath",
+        "category":  "vision",
+        "type":  "deterministic",
+        "description":  "Dynamic visual math robustness."
+    },
+    {
+        "id":  "egoschema",
+        "name":  "EgoSchema",
+        "category":  "video",
+        "type":  "deterministic",
+        "description":  "Long-form egocentric video question answering."
+    },
+    {
+        "id":  "embspatialbench",
+        "name":  "EmbSpatialBench",
+        "category":  "vision",
+        "type":  "deterministic",
+        "description":  "Embodied spatial reasoning."
+    },
+    {
+        "id":  "exploitbench",
+        "name":  "ExploitBench",
+        "category":  "safety",
+        "type":  "deterministic",
+        "source_url":  "https://www.anthropic.com/news/claude-fable-5-mythos-5",
+        "description":  "Capture-the-flag style cybersecurity exploitation benchmark (Cap-F)."
+    },
+    {
+        "id":  "finqa",
+        "name":  "FinQA",
+        "category":  "other",
+        "type":  "deterministic",
+        "description":  "Numerical reasoning over financial reports."
+    },
+    {
+        "id":  "fortress",
+        "name":  "Fortress",
+        "category":  "safety",
+        "type":  "non_deterministic",
+        "source_url":  "https://labs.scale.com/leaderboard/fortress",
+        "description":  "Scale SEAL frontier-risk safety eval. Score is risk rate ??lower is safer."
+    },
+    {
+        "id":  "frontiercode",
+        "name":  "FrontierCode",
+        "category":  "coding",
+        "type":  "deterministic",
+        "source_url":  "https://www.anthropic.com/news/claude-fable-5-mythos-5",
+        "description":  "Cognition FrontierCode agentic coding eval (Diamond subset). Reported at medium/high effort."
+    },
+    {
+        "id":  "global-piqa",
+        "name":  "Global PIQA",
+        "category":  "multilinguality",
+        "type":  "deterministic",
+        "description":  "Multilingual physical commonsense reasoning."
+    },
+    {
+        "id":  "gorilla",
+        "name":  "Gorilla API Bench",
+        "category":  "agent",
+        "type":  "deterministic",
+        "description":  "Gorilla benchmark for API/function calling accuracy."
+    },
+    {
+        "id":  "gray-swan-arena",
+        "name":  "Gray Swan Arena",
+        "category":  "safety",
+        "type":  "non_deterministic",
+        "description":  "Adversarial safety evaluation with LLM/human judging."
+    },
+    {
+        "id":  "groundui-1k",
+        "name":  "GroundUI-1K",
+        "category":  "agent",
+        "type":  "deterministic",
+        "description":  "GUI element grounding ??predict the 2D location of a described UI element."
+    },
+    {
+        "id":  "gsm8k-platinum",
+        "name":  "GSM8k-platinum",
+        "category":  "math",
+        "type":  "deterministic",
+        "description":  "Cleaned/relabeled GSM8K (platinum)."
+    },
+    {
+        "id":  "hae-rae-v1.1",
+        "name":  "HAE-RAE v1.1",
+        "category":  "korean",
+        "type":  "deterministic",
+        "language":  "ko"
+    },
+    {
+        "id":  "hallusionbench",
+        "name":  "HallusionBench",
+        "category":  "multimodal",
+        "type":  "deterministic",
+        "description":  "Visual hallucination benchmark."
+    },
+    {
+        "id":  "healthbench-professional",
+        "name":  "HealthBench Professional",
+        "category":  "health",
+        "type":  "deterministic",
+        "source_url":  "https://www.anthropic.com/news/claude-fable-5-mythos-5",
+        "description":  "Professional-tier HealthBench medical evaluation."
+    },
+    {
+        "id":  "hle",
+        "name":  "Humanity\u0027s Last Exam",
+        "category":  "general",
+        "type":  "deterministic",
+        "source_url":  "https://lastexam.ai",
+        "description":  "2500+ expert-level questions across 100+ disciplines. Near-zero scores for most models at launch."
+    },
+    {
+        "id":  "hle-tool",
+        "name":  "HLE w/ tool",
+        "category":  "agent",
+        "type":  "deterministic",
+        "description":  "Humanity\u0027s Last Exam with tool use (search agent)."
+    },
+    {
+        "id":  "hle-verified",
+        "name":  "HLE-Verified",
+        "category":  "general",
+        "type":  "deterministic",
+        "description":  "Verified/revised Humanity\u0027s Last Exam with component-wise verification. https://huggingface.co/datasets/skylenage/HLE-Verified"
+    },
+    {
+        "id":  "hmmt-feb-2025",
+        "name":  "HMMT Feb 2025",
+        "category":  "math",
+        "type":  "deterministic",
+        "description":  "Harvard-MIT Math Tournament, February 2025."
+    },
+    {
+        "id":  "hmmt-feb-2026",
+        "name":  "HMMT Feb 2026",
+        "category":  "math",
+        "type":  "deterministic",
+        "description":  "Harvard-MIT Math Tournament, February 2026."
+    },
+    {
+        "id":  "hmmt-nov-2025",
+        "name":  "HMMT Nov 2025",
+        "category":  "math",
+        "type":  "deterministic",
+        "description":  "Harvard-MIT Math Tournament, November 2025."
+    },
+    {
+        "id":  "hrm8k",
+        "name":  "HRM8K",
+        "category":  "korean",
+        "type":  "deterministic",
+        "language":  "ko"
+    },
+    {
+        "id":  "humaneval-plus",
+        "name":  "HumanEval+",
+        "category":  "coding",
+        "type":  "deterministic",
+        "source_url":  "https://evalplus.github.io/leaderboard.html",
+        "description":  "HumanEval with 80??more test cases. Pass@1."
+    },
+    {
+        "id":  "hypersim",
+        "name":  "Hypersim",
+        "category":  "vision",
+        "type":  "deterministic",
+        "description":  "3D/spatial understanding (Hypersim)."
+    },
+    {
+        "id":  "ifeval",
+        "name":  "IFEval",
+        "category":  "instruction",
+        "type":  "deterministic",
+        "description":  "Instruction-following evaluation ??verifiable constraints (e.g. word count, format)."
+    },
+    {
+        "id":  "jigsaw",
+        "name":  "Jigsaw",
+        "category":  "safety",
+        "type":  "deterministic",
+        "description":  "Jigsaw toxicity classification benchmark (reported as F1-score)."
+    },
+    {
+        "id":  "kmmlu",
+        "name":  "KMMLU",
+        "category":  "korean",
+        "type":  "deterministic",
+        "language":  "ko"
+    },
+    {
+        "id":  "kmmlu-pro",
+        "name":  "KMMLU-Pro",
+        "category":  "korean",
+        "type":  "deterministic",
+        "language":  "ko"
+    },
+    {
+        "id":  "kmmlu-redux",
+        "name":  "KMMLU-Redux",
+        "category":  "korean",
+        "type":  "deterministic",
+        "language":  "ko",
+        "description":  "Cleaned variant of KMMLU."
+    },
+    {
+        "id":  "kobalt",
+        "name":  "KoBALT",
+        "category":  "korean",
+        "type":  "deterministic",
+        "language":  "ko"
+    },
+    {
+        "id":  "ko-ifeval",
+        "name":  "Ko-IFEval",
+        "category":  "korean",
+        "type":  "deterministic",
+        "language":  "ko"
+    },
+    {
+        "id":  "ko-longbench",
+        "name":  "Ko-LongBench",
+        "category":  "korean",
+        "type":  "deterministic",
+        "language":  "ko"
+    },
+    {
+        "id":  "komt-bench",
+        "name":  "KoMT-Bench",
+        "category":  "korean",
+        "type":  "non_deterministic",
+        "language":  "ko"
+    },
+    {
+        "id":  "ko-mt-bench",
+        "name":  "Ko-MT-Bench",
+        "category":  "korean",
+        "type":  "non_deterministic",
+        "language":  "ko",
+        "description":  "Korean translation of MT-Bench. LLM-as-judge."
+    },
+    {
+        "id":  "korbench",
+        "name":  "KoRBench",
+        "category":  "general",
+        "type":  "deterministic",
+        "description":  "Knowledge-orthogonal reasoning benchmark."
+    },
+    {
+        "id":  "legal-agent-benchmark",
+        "name":  "Legal Agent Benchmark",
+        "category":  "other",
+        "type":  "deterministic",
+        "source_url":  "https://www.anthropic.com/news/claude-fable-5-mythos-5",
+        "description":  "Agentic legal task benchmark."
+    },
+    {
+        "id":  "lingoqa",
+        "name":  "LingoQA",
+        "category":  "vision",
+        "type":  "deterministic",
+        "description":  "Driving visual QA."
+    },
+    {
+        "id":  "livebench",
+        "name":  "LiveBench",
+        "category":  "general",
+        "type":  "deterministic",
+        "source_url":  "https://livebench.ai",
+        "description":  "Contamination-resistant monthly-refresh benchmark. Verifiable answers across Reasoning/Math/Coding/Language/IF."
+    },
+    {
+        "id":  "livecodebench",
+        "name":  "LiveCodeBench",
+        "category":  "coding",
+        "type":  "deterministic",
+        "source_url":  "https://livecodebench.github.io",
+        "description":  "Contamination-free coding benchmark from live competitive programming contests."
+    },
+    {
+        "id":  "logickor",
+        "name":  "LogicKor",
+        "category":  "korean",
+        "type":  "deterministic"
+    },
+    {
+        "id":  "longbench-v2",
+        "name":  "LongBench v2",
+        "category":  "long",
+        "type":  "deterministic",
+        "description":  "Long-context understanding benchmark, v2."
+    },
+    {
+        "id":  "lvbench",
+        "name":  "LVBench",
+        "category":  "video",
+        "type":  "deterministic",
+        "description":  "Long-video understanding QA over YouTube videos."
+    },
+    {
+        "id":  "math-perturb-hard",
+        "name":  "MATH-P-Hard",
+        "category":  "math",
+        "type":  "deterministic",
+        "source_url":  "https://math-perturb.github.io",
+        "description":  "MATH level-5 ??쒖굣?????쒖굣???곌랜梨룟퐲???꾩룆?????hard perturbation ??⑤챷?? ??貫????븐럥??vs ??怨쀫틮??븐뼔彛??怨뺣?餓???띠럾???????띠룆踰ㅹ뇡???? ??frontier 嶺뚮ㅄ維???10-25%p ??濡?뎅 (arxiv 2502.06453, ICML 2025)."
+    },
+    {
+        "id":  "math-perturb-simple",
+        "name":  "MATH-P-Simple",
+        "category":  "math",
+        "type":  "deterministic",
+        "source_url":  "https://math-perturb.github.io",
+        "description":  "MATH level-5 ??쒖굣?????????곌랜????濡ル츎 ?띠럾??뺢퀣????곌떠???simple perturbation) ??⑤챷?? ??? MATH?? ????????????브퀗?쀦뤃?"
+    },
+    {
+        "id":  "mathvision",
+        "name":  "MathVision",
+        "category":  "vision",
+        "type":  "deterministic",
+        "description":  "Visual math reasoning."
+    },
+    {
+        "id":  "maxife",
+        "name":  "MAXIFE",
+        "category":  "multilinguality",
+        "type":  "deterministic",
+        "description":  "Multilingual instruction-following; English + multilingual original prompts (23 settings)."
+    },
+    {
+        "id":  "mbpp+",
+        "name":  "MBPP+",
+        "category":  "coding",
+        "type":  "deterministic",
+        "source_url":  "https://evalplus.github.io/leaderboard.html",
+        "description":  "MBPP with stricter test suite. Pass@1."
+    },
+    {
+        "id":  "mcp-atlas",
+        "name":  "MCP Atlas",
+        "category":  "agent",
+        "type":  "deterministic",
+        "description":  "Tool-use benchmark over MCP server tasks. Lab tech-reports commonly include it."
+    },
+    {
+        "id":  "mcp-mark",
+        "name":  "MCP-Mark",
+        "category":  "agent",
+        "type":  "deterministic",
+        "description":  "MCP server tool-use benchmark."
+    },
+    {
+        "id":  "medxpertqa-mm",
+        "name":  "MedXpertQA-MM",
+        "category":  "health",
+        "type":  "deterministic",
+        "description":  "Expert medical multimodal QA."
+    },
+    {
+        "id":  "mlvu",
+        "name":  "MLVU",
+        "category":  "video",
+        "type":  "deterministic",
+        "description":  "Multi-task long video understanding (M-Avg)."
+    },
+    {
+        "id":  "mmbench-en-dev-v1.1",
+        "name":  "MMBench-EN-DEV-v1.1",
+        "category":  "multimodal",
+        "type":  "deterministic",
+        "description":  "MMBench English dev v1.1."
+    },
+    {
+        "id":  "mmlongbench-doc",
+        "name":  "MMLongBench-Doc",
+        "category":  "vision",
+        "type":  "deterministic",
+        "description":  "Long-document multimodal understanding."
+    },
+    {
+        "id":  "mmlu-language-thai",
+        "name":  "MMLU Language - Thai",
+        "category":  "general",
+        "type":  "deterministic",
+        "description":  "MMLU translated to Thai (5-shot)."
+    },
+    {
+        "id":  "mmlu-prox",
+        "name":  "MMLU-ProX",
+        "category":  "multilinguality",
+        "type":  "deterministic",
+        "description":  "Multilingual MMLU-Pro; averaged accuracy over 29 languages."
+    },
+    {
+        "id":  "mm-mind2web",
+        "name":  "MM-Mind2Web",
+        "category":  "agent",
+        "type":  "deterministic",
+        "description":  "Multimodal web agent benchmark; per-step action accuracy on Mind2Web."
+    },
+    {
+        "id":  "mmstar",
+        "name":  "MMStar",
+        "category":  "multimodal",
+        "type":  "deterministic",
+        "description":  "Multimodal benchmark (MMStar)."
+    },
+    {
+        "id":  "mmvu",
+        "name":  "MMVU",
+        "category":  "video",
+        "type":  "deterministic",
+        "description":  "Multi-discipline video understanding."
+    },
+    {
+        "id":  "mrcr",
+        "name":  "MRCR",
+        "category":  "long",
+        "type":  "deterministic",
+        "description":  "Multi-round co-reference long-context retrieval."
+    },
+    {
+        "id":  "mt-bench",
+        "name":  "MT-Bench",
+        "category":  "preference",
+        "type":  "non_deterministic",
+        "source_url":  "https://github.com/lm-sys/FastChat",
+        "description":  "80 multi-turn questions scored 1??0 by GPT-4."
+    },
+    {
+        "id":  "multichallenge",
+        "name":  "MultiChallenge",
+        "category":  "agent",
+        "type":  "non_deterministic",
+        "source_url":  "https://labs.scale.com/leaderboard/multichallenge",
+        "description":  "Scale SEAL multi-turn instruction-following eval, LLM-judge."
+    },
+    {
+        "id":  "multiif",
+        "name":  "MultiIF",
+        "category":  "multilinguality",
+        "type":  "deterministic",
+        "description":  "Multilingual instruction-following benchmark (8 languages)."
+    },
+    {
+        "id":  "multinrc",
+        "name":  "MultiNRC",
+        "category":  "multilinguality",
+        "type":  "non_deterministic",
+        "source_url":  "https://labs.scale.com/leaderboard/multinrc",
+        "description":  "Scale SEAL Multilingual Non-English Reasoning Challenge. LLM-judge."
+    },
+    {
+        "id":  "multipl-e-humaneval",
+        "name":  "MultiPL-E HumanEval",
+        "category":  "coding",
+        "type":  "deterministic",
+        "description":  "MultiPL-E HumanEval multilingual code generation benchmark."
+    },
+    {
+        "id":  "multipl-e-mbpp",
+        "name":  "MultiPL-E MBPP",
+        "category":  "coding",
+        "type":  "deterministic",
+        "description":  "MultiPL-E MBPP multilingual code generation benchmark."
+    },
+    {
+        "id":  "musr",
+        "name":  "MuSR",
+        "category":  "general",
+        "type":  "deterministic",
+        "description":  "Multistep Soft Reasoning ??long narrative reasoning (Open LLM Leaderboard v2)."
+    },
+    {
+        "id":  "mvbench",
+        "name":  "MVBench",
+        "category":  "video",
+        "type":  "deterministic",
+        "description":  "Video understanding benchmark."
+    },
+    {
+        "id":  "nexus",
+        "name":  "Nexus",
+        "category":  "agent",
+        "type":  "deterministic"
+    },
+    {
+        "id":  "nl2repo",
+        "name":  "NL2Repo",
+        "category":  "coding",
+        "type":  "deterministic",
+        "description":  "Long-horizon natural-language-to-repository coding."
+    },
+    {
+        "id":  "nova-63",
+        "name":  "NOVA-63",
+        "category":  "multilinguality",
+        "type":  "deterministic",
+        "description":  "Multilingual knowledge benchmark (Nova, ~63 languages)."
+    },
+    {
+        "id":  "nuscene",
+        "name":  "Nuscene",
+        "category":  "vision",
+        "type":  "deterministic",
+        "description":  "Autonomous-driving 3D understanding (nuScenes)."
+    },
+    {
+        "id":  "ocrbench",
+        "name":  "OCRBench",
+        "category":  "vision",
+        "type":  "deterministic",
+        "description":  "OCR benchmark."
+    },
+    {
+        "id":  "odinw13",
+        "name":  "ODInW13",
+        "category":  "vision",
+        "type":  "deterministic",
+        "description":  "Object detection in the wild (13 datasets)."
+    },
+    {
+        "id":  "openrca",
+        "name":  "OpenRCA",
+        "category":  "agent",
+        "type":  "deterministic"
+    },
+    {
+        "id":  "osworld-verified",
+        "name":  "OSWorld Verified",
+        "category":  "agent",
+        "type":  "deterministic",
+        "description":  "Real desktop environment agent eval."
+    },
+    {
+        "id":  "pmc-vqa",
+        "name":  "PMC-VQA",
+        "category":  "health",
+        "type":  "deterministic",
+        "description":  "Medical visual QA (PMC-VQA)."
+    },
+    {
+        "id":  "propensitybench",
+        "name":  "PropensityBench",
+        "category":  "safety",
+        "type":  "non_deterministic",
+        "source_url":  "https://labs.scale.com/leaderboard/propensitybench",
+        "description":  "Scale SEAL eval of model propensity for harmful agentic behaviors. Lower is safer."
+    },
+    {
+        "id":  "quac",
+        "name":  "QuAC",
+        "category":  "general",
+        "type":  "deterministic",
+        "description":  "Question Answering in Context ??conversational reading comprehension (F1)."
+    },
+    {
+        "id":  "qwenclaw",
+        "name":  "Qwenclaw",
+        "category":  "agent",
+        "type":  "deterministic",
+        "description":  "Real-user-distribution Claw agent benchmark (QwenClawBench). https://github.com/SKYLENAGE-AI/QwenClawBench"
+    },
+    {
+        "id":  "qwenclawbench",
+        "name":  "QwenClawBench",
+        "category":  "agent",
+        "type":  "deterministic",
+        "description":  "Real-user-distribution Claw agent benchmark."
+    },
+    {
+        "id":  "qwenwebbench",
+        "name":  "QwenWebBench",
+        "category":  "coding",
+        "type":  "deterministic",
+        "description":  "Internal front-end code-generation benchmark; bilingual, 7 categories; auto-render + multimodal judge; BT/Elo rating."
+    },
+    {
+        "id":  "qwenworldbench",
+        "name":  "QwenWorldBench",
+        "category":  "agent",
+        "type":  "deterministic",
+        "description":  "Evaluates LLMs as world models for simulating agentic environments across 7 domains."
+    },
+    {
+        "id":  "realworldqa",
+        "name":  "RealWorldQA",
+        "category":  "multimodal",
+        "type":  "deterministic",
+        "description":  "Real-world visual QA."
+    },
+    {
+        "id":  "refcoco",
+        "name":  "RefCOCO (avg)",
+        "category":  "vision",
+        "type":  "deterministic",
+        "description":  "Referring expression grounding (RefCOCO average)."
+    },
+    {
+        "id":  "refspatialbench",
+        "name":  "RefSpatialBench",
+        "category":  "vision",
+        "type":  "deterministic",
+        "description":  "Referring spatial reasoning."
+    },
+    {
+        "id":  "scicode",
+        "name":  "SciCode",
+        "category":  "coding",
+        "type":  "deterministic",
+        "source_url":  "https://scicode-bench.github.io",
+        "description":  "Scientific code-generation benchmark drawn from real research problems."
+    },
+    {
+        "id":  "screenspot-pro",
+        "name":  "ScreenSpot Pro",
+        "category":  "agent",
+        "type":  "deterministic",
+        "description":  "GUI grounding / visual agent benchmark."
+    },
+    {
+        "id":  "seal-0",
+        "name":  "Seal-0",
+        "category":  "agent",
+        "type":  "deterministic",
+        "description":  "Search agent benchmark."
+    },
+    {
+        "id":  "seal-korean",
+        "name":  "Coding Korean",
+        "category":  "korean",
+        "type":  "non_deterministic",
+        "language":  "ko",
+        "source_url":  "https://labs.scale.com/leaderboard/korean",
+        "description":  "Scale Labs Legacy ?洹먮맧??솻洹?獄??\u0027Coding\u0027 ?獄????熬곣뫁???熬곣뫚???Korean ??? ????蹂λ윟?????삵렱??????嶺뚮ㅄ維????얜Ŧ堉????????琉우꽑????怨멥궛??????? ?筌먐쇰꼪????쒕샍驪??嶺뚋뀀룱???濡ル츎嶺뚯솘?????????ㅻ쾴?????닿뎄?????녽뜮??紐껊퉵?? (Scale?????2025-03 deprecated, ??λ닁??????양춯??곌랜???"
+    },
+    {
+        "id":  "seccodebench",
+        "name":  "SecCodeBench",
+        "category":  "coding",
+        "type":  "deterministic",
+        "description":  "Secure-coding benchmark."
+    },
+    {
+        "id":  "simpleqa-hallucination-rate",
+        "name":  "SimpleQA Hallucination Rate",
+        "category":  "factuality",
+        "type":  "deterministic",
+        "description":  "SimpleQA hallucination / incorrect-attempt rate (lower = better). Separate column from SimpleQA accuracy."
+    },
+    {
+        "id":  "simplevqa",
+        "name":  "SimpleVQA",
+        "category":  "multimodal",
+        "type":  "deterministic",
+        "description":  "Simple visual QA factuality."
+    },
+    {
+        "id":  "skillsbench",
+        "name":  "SkillsBench",
+        "category":  "agent",
+        "type":  "deterministic",
+        "description":  "Agent-skills benchmark (evaluated via OpenCode, 78-task self-contained subset)."
+    },
+    {
+        "id":  "slake",
+        "name":  "SLAKE",
+        "category":  "health",
+        "type":  "deterministic",
+        "description":  "Medical visual QA (SLAKE)."
+    },
+    {
+        "id":  "spider",
+        "name":  "Spider",
+        "category":  "coding",
+        "type":  "deterministic",
+        "description":  "Text-to-SQL benchmark ??generate SQL queries from natural-language questions over databases."
+    },
+    {
+        "id":  "squad",
+        "name":  "SQuAD",
+        "category":  "general",
+        "type":  "deterministic",
+        "description":  "Reading comprehension ??extractive QA over Wikipedia passages."
+    },
+    {
+        "id":  "squality",
+        "name":  "SQuALITY",
+        "category":  "long",
+        "type":  "deterministic",
+        "description":  "Long-document question-focused summarization (ROUGE-L)."
+    },
+    {
+        "id":  "sunrgbd",
+        "name":  "SUNRGBD",
+        "category":  "vision",
+        "type":  "deterministic",
+        "description":  "3D scene understanding (SUN RGB-D)."
+    },
+    {
+        "id":  "swe-agentless",
+        "name":  "SWE-agentless",
+        "category":  "coding",
+        "type":  "deterministic",
+        "description":  "SWE-bench agentless resolution rate."
+    },
+    {
+        "id":  "swe-bench-verified",
+        "name":  "SWE-Bench Verified",
+        "category":  "coding",
+        "type":  "deterministic",
+        "source_url":  "https://www.swebench.com",
+        "description":  "?熬곣뫕??SWE-bench(2,294??쒖굣?????????????롪틵?嶺뚯빘鍮쒒뇡?500??쒖굣???遊붋?釉뚯뫒壤?? ???깆젷 GitHub ??怨룸??????吏????裕?????깅쭊?筌뤾퍔夷???館???筌먲퐢堉??????嶺???? ???熬곣뫕??SWE-bench???????섎??뺢껸??洹⑥춹??꾩씩(?遊붋?釉뚯뫒壤????",
+        "note":  "OpenAI??2026-02 SWE-bench Verified ??????곌랜???紐?繞벿살탮????곕????덈펲. ??怨?: (1) ???裕????댟??怨룸츩 ?롪퍒?ч뇡????띠룆흮亦??????????쒖굣???59.4%?띠럾? ?リ옇????⑤챷紐드슖?????紐???館???濾곌쑨??(?釉띾쐡???됀????뚮뿭寃??筌?????냱怡?쾬?롮굡筌???リ옇?????띠룆踰??; (2) ???덈? ??⑥щ턄?????곗삓 ????쒖굣?節낆쾸? ???덊깯???裕??洹먮뿫竊???????瑜곸뗄???熬곣뫁???⑥レ꽑 嶺뚮ㅄ維????筌먲퐢堉???ｋ걞????잙갭梨?????????????깅쾳; (3) ?곌떠??곌랙?????⑤챶堉??????????쒏묾?????깆젷 ?袁⑤????縕?怨꾪돦?????뺢껸??洹⑥춹??꾩씩 ?筌뤾쑵???筌먲퐢利???꾩룇瑗?? OpenAI???????깅さ??SWE-bench Pro ?곌랜???紐?雅?굝????紐껊퉵?? ?怨쀫츋?? https://openai.com/index/why-we-no-longer-evaluate-swe-bench-verified/ (???????嶺뚣끉裕??嶺뚮ㅄ維??? ????롫맩??????얏뤆?쎛 ???닷젆????깅굵 ?????깅쾳 ???熬곣뫁逾???熬곣뫀鍮????濡レ┣??亦껋꼶梨??┑?."
+    },
+    {
+        "id":  "tau2-airline",
+        "name":  "Tau2 Airline",
+        "category":  "agent",
+        "type":  "deterministic",
+        "description":  "tau2-bench airline domain (Avg@4); evaluated with Claude Opus 4.5 system-card fixes."
+    },
+    {
+        "id":  "tau2-airline",
+        "name":  "?筌?bench Airline",
+        "category":  "agent",
+        "type":  "non_deterministic",
+        "source_url":  "https://github.com/sierra-research/tau2-bench"
+    },
+    {
+        "id":  "tau2-bench",
+        "name":  "TAU2-Bench",
+        "category":  "agent",
+        "type":  "deterministic",
+        "description":  "Tool-agent benchmark; airline domain evaluated with Claude Opus 4.5 system-card fixes."
+    },
+    {
+        "id":  "tau2-bench-micro-average",
+        "name":  "?筌?bench (micro avg)",
+        "category":  "agent",
+        "type":  "non_deterministic",
+        "source_url":  "https://github.com/sierra-research/tau2-bench",
+        "description":  "LLM-simulated user interactions across airline/retail/telecom domains. Non-deterministic due to LLM user model."
+    },
+    {
+        "id":  "tau2-retail",
+        "name":  "Tau2 Retail",
+        "category":  "agent",
+        "type":  "deterministic",
+        "description":  "tau2-bench retail domain (Avg@4)."
+    },
+    {
+        "id":  "tau2-retail",
+        "name":  "?筌?bench Retail",
+        "category":  "agent",
+        "type":  "non_deterministic",
+        "source_url":  "https://github.com/sierra-research/tau2-bench"
+    },
+    {
+        "id":  "tau2-telecom",
+        "name":  "?筌?bench Telecom",
+        "category":  "agent",
+        "type":  "non_deterministic",
+        "source_url":  "https://github.com/sierra-research/tau2-bench"
+    },
+    {
+        "id":  "tau2-telecom",
+        "name":  "Tau2 Telecom",
+        "category":  "agent",
+        "type":  "deterministic",
+        "description":  "tau2-bench telecom domain (Avg@4)."
+    },
+    {
+        "id":  "tau-bench",
+        "name":  "tau-Bench",
+        "category":  "agent",
+        "type":  "deterministic"
+    },
+    {
+        "id":  "terminal-bench",
+        "name":  "Terminal-Bench",
+        "category":  "agent",
+        "type":  "non_deterministic",
+        "source_url":  "https://www.tbench.ai",
+        "description":  "End-to-end terminal/CLI agent tasks scored by automated checks. Score depends on the agent harness driving the model, so the harness is recorded in the config."
+    },
+    {
+        "id":  "terminal-bench-2.1",
+        "name":  "Terminal-Bench 2.1",
+        "category":  "agent",
+        "type":  "deterministic",
+        "source_url":  "https://www.anthropic.com/news/claude-fable-5-mythos-5",
+        "description":  "End-to-end terminal/CLI agent tasks. Score depends on the agent harness, recorded in config."
+    },
+    {
+        "id":  "terminal-bench-hard",
+        "name":  "Terminal Bench Hard",
+        "category":  "agent",
+        "type":  "deterministic",
+        "description":  "Hard split of Terminal-Bench ??agentic command-line task completion."
+    },
+    {
+        "id":  "textvqa",
+        "name":  "TextVQA",
+        "category":  "vision",
+        "type":  "deterministic",
+        "description":  "Visual question answering that requires reading text within images."
+    },
+    {
+        "id":  "tool-decathlon",
+        "name":  "Tool Decathlon",
+        "category":  "agent",
+        "type":  "deterministic",
+        "description":  "Multi-task tool-use agent benchmark."
+    },
+    {
+        "id":  "triviaqa-wiki",
+        "name":  "TriviaQA-Wiki",
+        "category":  "knowledge",
+        "type":  "deterministic",
+        "description":  "TriviaQA Wikipedia setting."
+    },
+    {
+        "id":  "vatex",
+        "name":  "VATEX",
+        "category":  "video",
+        "type":  "deterministic",
+        "description":  "Video captioning benchmark (CIDEr metric)."
+    },
+    {
+        "id":  "vending-bench-2",
+        "name":  "Vending-Bench 2",
+        "category":  "agent",
+        "type":  "deterministic",
+        "description":  "Long-horizon agentic vending-machine simulation."
+    },
+    {
+        "id":  "video-mme",
+        "name":  "Video-MME",
+        "category":  "video",
+        "type":  "deterministic",
+        "description":  "Video multimodal evaluation ??video understanding/reasoning (reported with subtitles)."
+    },
+    {
+        "id":  "visualwebbench",
+        "name":  "VisualWebBench",
+        "category":  "agent",
+        "type":  "deterministic",
+        "description":  "Multimodal web-browsing tasks (captioning, QA, OCR, grounding)."
+    },
+    {
+        "id":  "vitabench",
+        "name":  "Vitabench",
+        "category":  "agent",
+        "type":  "deterministic",
+        "description":  "Agent benchmark; avg of subdomain scores."
+    },
+    {
+        "id":  "vita-bench",
+        "name":  "VITA-Bench",
+        "category":  "agent",
+        "type":  "deterministic",
+        "description":  "Versatile agentic interaction benchmark."
+    },
+    {
+        "id":  "vlmsareblind",
+        "name":  "VlmsAreBlind",
+        "category":  "vision",
+        "type":  "deterministic",
+        "description":  "Visual-perception robustness benchmark (VLMs Are Blind)."
+    },
+    {
+        "id":  "vstar",
+        "name":  "V-Star",
+        "category":  "vision",
+        "type":  "deterministic",
+        "description":  "Visual search benchmark (V*)."
+    },
+    {
+        "id":  "we-math",
+        "name":  "We-Math",
+        "category":  "vision",
+        "type":  "deterministic",
+        "description":  "Visual math reasoning (We-Math)."
+    },
+    {
+        "id":  "widesearch",
+        "name":  "WideSearch",
+        "category":  "agent",
+        "type":  "deterministic",
+        "description":  "Broad web-search agent benchmark (256k context)."
+    },
+    {
+        "id":  "wildbench",
+        "name":  "WildBench",
+        "category":  "preference",
+        "type":  "non_deterministic",
+        "source_url":  "https://huggingface.co/spaces/allenai/WildBench",
+        "description":  "1024 real user prompts, WB-Score / WB-Reward via GPT-4."
+    },
+    {
+        "id":  "wildguard",
+        "name":  "WildGuard",
+        "category":  "safety",
+        "type":  "deterministic",
+        "description":  "WildGuard content-moderation classification benchmark (reported as F1-score)."
+    },
+    {
+        "id":  "zerobench-sub",
+        "name":  "ZEROBench_sub",
+        "category":  "vision",
+        "type":  "deterministic",
+        "description":  "ZeroBench sub-question accuracy."
+    }
+]

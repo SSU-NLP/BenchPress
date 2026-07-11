@@ -1,0 +1,582 @@
+[
+  {
+    "model_id": "o1",
+    "benchmark_id": "alphafold",
+    "score": 0,
+    "config": "pass@10",
+    "source": {
+      "kind": "tech_report",
+      "url": "o1__system-card.pdf",
+      "ref": "p.23",
+      "fetched_at": "2026-06-08T03:59:49.219Z"
+    }
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "apollo-research-scheming",
+    "score": 0.99,
+    "config": "Deceived on follow-up",
+    "source": {
+      "kind": "tech_report",
+      "url": "o1__system-card.pdf",
+      "ref": "p.14",
+      "fetched_at": "2026-06-08T03:59:49.219Z"
+    },
+    "variants": [
+      {
+        "score": 0.19,
+        "config": "Covertly manipulated data",
+        "source": {
+          "kind": "tech_report",
+          "url": "o1__system-card.pdf",
+          "ref": "p.14",
+          "fetched_at": "2026-06-08T03:59:49.219Z"
+        }
+      },
+      {
+        "score": 0.05,
+        "config": "Deactivated oversight",
+        "source": {
+          "kind": "tech_report",
+          "url": "o1__system-card.pdf",
+          "ref": "p.14",
+          "fetched_at": "2026-06-08T03:59:49.219Z"
+        }
+      },
+      {
+        "score": 0.02,
+        "config": "Self-exfiltration",
+        "source": {
+          "kind": "tech_report",
+          "url": "o1__system-card.pdf",
+          "ref": "p.14",
+          "fetched_at": "2026-06-08T03:59:49.219Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "bbq",
+    "score": 96,
+    "config": "Ambiguous Questions accuracy",
+    "source": {
+      "kind": "tech_report",
+      "url": "o1__system-card.pdf",
+      "ref": "p.6",
+      "fetched_at": "2026-06-08T03:59:49.219Z"
+    },
+    "variants": [
+      {
+        "score": 93,
+        "config": "Unambiguous Questions accuracy",
+        "source": {
+          "kind": "tech_report",
+          "url": "o1__system-card.pdf",
+          "ref": "p.6",
+          "fetched_at": "2026-06-08T03:59:49.219Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "biolp-bench",
+    "score": 33.5,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "o1__system-card.pdf",
+      "ref": "p.25",
+      "fetched_at": "2026-06-08T03:59:49.219Z"
+    }
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "challenging-refusal-evaluation",
+    "score": 0.92,
+    "config": "not_unsafe",
+    "source": {
+      "kind": "tech_report",
+      "url": "o1__system-card.pdf",
+      "ref": "p.3",
+      "fetched_at": "2026-06-08T03:59:49.219Z"
+    }
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "collegiate-ctfs",
+    "score": 13,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "o1__system-card.pdf",
+      "ref": "p.18",
+      "fetched_at": "2026-06-08T03:59:49.219Z"
+    }
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "deception-monitor",
+    "score": 0.17,
+    "config": "Total deceptive",
+    "source": {
+      "kind": "tech_report",
+      "url": "o1__system-card.pdf",
+      "ref": "p.8",
+      "fetched_at": "2026-06-08T03:59:49.219Z"
+    },
+    "variants": [
+      {
+        "score": 0.09,
+        "config": "Hallucinated policies",
+        "source": {
+          "kind": "tech_report",
+          "url": "o1__system-card.pdf",
+          "ref": "p.8",
+          "fetched_at": "2026-06-08T03:59:49.219Z"
+        }
+      },
+      {
+        "score": 0.04,
+        "config": "Intentional hallucinations",
+        "source": {
+          "kind": "tech_report",
+          "url": "o1__system-card.pdf",
+          "ref": "p.8",
+          "fetched_at": "2026-06-08T03:59:49.219Z"
+        }
+      },
+      {
+        "score": 0.04,
+        "config": "Other",
+        "source": {
+          "kind": "tech_report",
+          "url": "o1__system-card.pdf",
+          "ref": "p.8",
+          "fetched_at": "2026-06-08T03:59:49.219Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "ebola-fasta-file",
+    "score": 83,
+    "config": "pass@10",
+    "source": {
+      "kind": "tech_report",
+      "url": "o1__system-card.pdf",
+      "ref": "p.23",
+      "fetched_at": "2026-06-08T03:59:49.219Z"
+    }
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "gray-swan-arena",
+    "score": 6,
+    "config": "harmful text",
+    "source": {
+      "kind": "tech_report",
+      "url": "o1__system-card.pdf",
+      "ref": "p.12",
+      "fetched_at": "2026-06-08T03:59:49.219Z"
+    },
+    "variants": [
+      {
+        "score": 5,
+        "config": "harmful image-text",
+        "source": {
+          "kind": "tech_report",
+          "url": "o1__system-card.pdf",
+          "ref": "p.12",
+          "fetched_at": "2026-06-08T03:59:49.219Z"
+        }
+      },
+      {
+        "score": 5,
+        "config": "malicious code",
+        "source": {
+          "kind": "tech_report",
+          "url": "o1__system-card.pdf",
+          "ref": "p.12",
+          "fetched_at": "2026-06-08T03:59:49.219Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "high-school-ctfs",
+    "score": 46,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "o1__system-card.pdf",
+      "ref": "p.18",
+      "fetched_at": "2026-06-08T03:59:49.219Z"
+    }
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "instruction-hierarchy-evaluation-conflicts-between-message-types",
+    "score": 0.8,
+    "config": "System <> Developer message conflict",
+    "source": {
+      "kind": "tech_report",
+      "url": "o1__system-card.pdf",
+      "ref": "p.7",
+      "fetched_at": "2026-06-08T03:59:49.219Z"
+    },
+    "variants": [
+      {
+        "score": 0.78,
+        "config": "Developer <> User message conflict",
+        "source": {
+          "kind": "tech_report",
+          "url": "o1__system-card.pdf",
+          "ref": "p.7",
+          "fetched_at": "2026-06-08T03:59:49.219Z"
+        }
+      },
+      {
+        "score": 0.78,
+        "config": "System <> User message conflict",
+        "source": {
+          "kind": "tech_report",
+          "url": "o1__system-card.pdf",
+          "ref": "p.7",
+          "fetched_at": "2026-06-08T03:59:49.219Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "instruction-hierarchy-evaluation-phrase-and-password-protection",
+    "score": 1,
+    "config": "Password protection - user message",
+    "source": {
+      "kind": "tech_report",
+      "url": "o1__system-card.pdf",
+      "ref": "p.7",
+      "fetched_at": "2026-06-08T03:59:49.219Z"
+    },
+    "variants": [
+      {
+        "score": 0.96,
+        "config": "Password protection - developer message",
+        "source": {
+          "kind": "tech_report",
+          "url": "o1__system-card.pdf",
+          "ref": "p.7",
+          "fetched_at": "2026-06-08T03:59:49.219Z"
+        }
+      },
+      {
+        "score": 0.91,
+        "config": "Phrase protection - user message",
+        "source": {
+          "kind": "tech_report",
+          "url": "o1__system-card.pdf",
+          "ref": "p.7",
+          "fetched_at": "2026-06-08T03:59:49.219Z"
+        }
+      },
+      {
+        "score": 0.7,
+        "config": "Phrase protection - developer message",
+        "source": {
+          "kind": "tech_report",
+          "url": "o1__system-card.pdf",
+          "ref": "p.7",
+          "fetched_at": "2026-06-08T03:59:49.219Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "instruction-hierarchy-evaluation-tutor-jailbreaks",
+    "score": 0.95,
+    "config": "Tutor jailbreak - system message",
+    "source": {
+      "kind": "tech_report",
+      "url": "o1__system-card.pdf",
+      "ref": "p.7",
+      "fetched_at": "2026-06-08T03:59:49.219Z"
+    },
+    "variants": [
+      {
+        "score": 0.92,
+        "config": "Tutor jailbreak - developer message",
+        "source": {
+          "kind": "tech_report",
+          "url": "o1__system-card.pdf",
+          "ref": "p.7",
+          "fetched_at": "2026-06-08T03:59:49.219Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "makemepay",
+    "score": 27,
+    "config": "% of Times Con-Artist Model Received Payment",
+    "source": {
+      "kind": "tech_report",
+      "url": "o1__system-card.pdf",
+      "ref": "p.33",
+      "fetched_at": "2026-06-08T03:59:49.219Z"
+    },
+    "variants": [
+      {
+        "score": 4,
+        "config": "% Dollar Extraction Rate of Con-Artist Model",
+        "source": {
+          "kind": "tech_report",
+          "url": "o1__system-card.pdf",
+          "ref": "p.33",
+          "fetched_at": "2026-06-08T03:59:49.219Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "multimodal-refusal-evaluation",
+    "score": 0.96,
+    "config": "not_unsafe",
+    "source": {
+      "kind": "tech_report",
+      "url": "o1__system-card.pdf",
+      "ref": "p.4",
+      "fetched_at": "2026-06-08T03:59:49.219Z"
+    },
+    "variants": [
+      {
+        "score": 0.96,
+        "config": "not_overrefuse",
+        "source": {
+          "kind": "tech_report",
+          "url": "o1__system-card.pdf",
+          "ref": "p.4",
+          "fetched_at": "2026-06-08T03:59:49.219Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "multimodal-troubleshooting-virology",
+    "score": 59,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "o1__system-card.pdf",
+      "ref": "p.24",
+      "fetched_at": "2026-06-08T03:59:49.219Z"
+    }
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "pairwise-safety-comparison",
+    "score": 59.75,
+    "config": "o1 rated safer",
+    "source": {
+      "kind": "tech_report",
+      "url": "o1__system-card.pdf",
+      "ref": "p.12",
+      "fetched_at": "2026-06-08T03:59:49.219Z"
+    },
+    "variants": [
+      {
+        "score": 28.48,
+        "config": "GPT-4o rated safer",
+        "source": {
+          "kind": "tech_report",
+          "url": "o1__system-card.pdf",
+          "ref": "p.12",
+          "fetched_at": "2026-06-08T03:59:49.219Z"
+        }
+      },
+      {
+        "score": 11.76,
+        "config": "Tie Rate",
+        "source": {
+          "kind": "tech_report",
+          "url": "o1__system-card.pdf",
+          "ref": "p.12",
+          "fetched_at": "2026-06-08T03:59:49.219Z"
+        }
+      },
+      {
+        "score": 0.319,
+        "config": "Cohen's h",
+        "source": {
+          "kind": "tech_report",
+          "url": "o1__system-card.pdf",
+          "ref": "p.12",
+          "fetched_at": "2026-06-08T03:59:49.219Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "personqa",
+    "score": 0.55,
+    "config": "accuracy",
+    "source": {
+      "kind": "tech_report",
+      "url": "o1__system-card.pdf",
+      "ref": "p.5",
+      "fetched_at": "2026-06-08T03:59:49.219Z"
+    },
+    "variants": [
+      {
+        "score": 0.2,
+        "config": "hallucination rate",
+        "source": {
+          "kind": "tech_report",
+          "url": "o1__system-card.pdf",
+          "ref": "p.5",
+          "fetched_at": "2026-06-08T03:59:49.219Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "persuasion-parallel-generation",
+    "score": 47.1,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "o1__system-card.pdf",
+      "ref": "p.32",
+      "fetched_at": "2026-06-08T03:59:49.219Z"
+    }
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "professional-ctfs",
+    "score": 13,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "o1__system-card.pdf",
+      "ref": "p.18",
+      "fetched_at": "2026-06-08T03:59:49.219Z"
+    }
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "radiological-and-nuclear-expert-knowledge",
+    "score": 70,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "o1__system-card.pdf",
+      "ref": "p.28",
+      "fetched_at": "2026-06-08T03:59:49.219Z"
+    }
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "simpleqa",
+    "score": 47,
+    "config": "accuracy",
+    "source": {
+      "kind": "tech_report",
+      "url": "o1__system-card.pdf",
+      "ref": "p.5",
+      "fetched_at": "2026-06-08T03:59:49.219Z"
+    }
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "simpleqa-hallucination-rate",
+    "score": 44,
+    "config": "hallucination rate",
+    "source": {
+      "kind": "tech_report",
+      "url": "o1__system-card.pdf",
+      "ref": "p.5",
+      "fetched_at": "2026-06-08T03:59:49.219Z"
+    }
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "standard-refusal-evaluation",
+    "score": 1,
+    "config": "not_unsafe",
+    "source": {
+      "kind": "tech_report",
+      "url": "o1__system-card.pdf",
+      "ref": "p.3",
+      "fetched_at": "2026-06-08T03:59:49.219Z"
+    },
+    "variants": [
+      {
+        "score": 0.93,
+        "config": "not_overrefuse",
+        "source": {
+          "kind": "tech_report",
+          "url": "o1__system-card.pdf",
+          "ref": "p.3",
+          "fetched_at": "2026-06-08T03:59:49.219Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "swe-bench-verified",
+    "score": 40.9,
+    "config": "pass@1",
+    "source": {
+      "kind": "tech_report",
+      "url": "o1__system-card.pdf",
+      "ref": "p.37",
+      "fetched_at": "2026-06-08T03:59:49.219Z"
+    }
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "twist-dna-order",
+    "score": 0,
+    "config": "pass@10",
+    "source": {
+      "kind": "tech_report",
+      "url": "o1__system-card.pdf",
+      "ref": "p.23",
+      "fetched_at": "2026-06-08T03:59:49.219Z"
+    }
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "wildchat",
+    "score": 0.98,
+    "config": "not_unsafe",
+    "source": {
+      "kind": "tech_report",
+      "url": "o1__system-card.pdf",
+      "ref": "p.3",
+      "fetched_at": "2026-06-08T03:59:49.219Z"
+    }
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "xstest",
+    "score": 94,
+    "config": "not_overrefuse",
+    "source": {
+      "kind": "tech_report",
+      "url": "o1__system-card.pdf",
+      "ref": "p.3",
+      "fetched_at": "2026-06-08T03:59:49.219Z"
+    }
+  }
+]

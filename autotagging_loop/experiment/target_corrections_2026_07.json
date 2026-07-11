@@ -1,0 +1,19 @@
+{
+  "_policy": "reasoning-preferred: models with a reasoning/thinking mode are scored in that mode; models without one at their default config. Confirmed 2026-07-09 config audit (AA aggregator snapshot feat/v4, fetched 2026-06-25).",
+  "_source": "artificialanalysis.ai API snapshot in feat/v4:benchboard/data/scores/artificial-analysis.json; config labels verified per cell. llm-stats HLE column rejected (tools-inflated).",
+  "_note": "raw scores in [0,1]. Applied as an overlay on data/leaderboard_scores.json by build_target_matrix.py — data/ stays untouched.",
+  "corrections": [
+    {"benchmark": "HLE", "model": "GLM-4.7", "old": 0.428, "new": 0.251,
+     "reason": "old value = llm-stats 42.8 (tools-assisted config); AA reasoning = 25.1"},
+    {"benchmark": "HLE", "model": "KIMI-K2", "old": 0.047, "new": 0.223,
+     "reason": "old value = non-thinking config; AA thinking = 22.3"},
+    {"benchmark": "HLE", "model": "Qwen3-235B", "old": 0.057, "new": 0.117,
+     "reason": "old value matches AA non-reasoning 4.7; AA reasoning = 11.7"},
+    {"benchmark": "HLE", "model": "Claude-Sonnet-4", "old": 0.058, "new": 0.096,
+     "reason": "old value matches AA non-thinking 4.0; AA thinking = 9.6"},
+    {"benchmark": "MMLU-Pro", "model": "KIMI-K2", "old": 0.811, "new": 0.848,
+     "reason": "old value matches AA non-thinking 82.4; AA thinking = 84.8"},
+    {"benchmark": "MMLU-Pro", "model": "Qwen3-235B", "old": 0.682, "new": 0.828,
+     "reason": "old value matches neither AA config (stale); AA reasoning = 82.8"}
+  ]
+}

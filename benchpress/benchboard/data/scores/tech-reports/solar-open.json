@@ -1,0 +1,362 @@
+[
+  {
+    "model_id": "solar-open",
+    "benchmark_id": "aa-lcr",
+    "score": 35,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "solar-open__paper.pdf",
+      "ref": "p.22",
+      "fetched_at": "2026-06-08T04:07:36.976Z"
+    }
+  },
+  {
+    "model_id": "solar-open",
+    "benchmark_id": "aime-2024",
+    "score": 91.7,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "solar-open__paper.pdf",
+      "ref": "p.22",
+      "fetched_at": "2026-06-08T04:07:36.976Z"
+    }
+  },
+  {
+    "model_id": "solar-open",
+    "benchmark_id": "aime-2025",
+    "score": 84.3,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "solar-open__paper.pdf",
+      "ref": "p.22",
+      "fetched_at": "2026-06-08T04:07:36.976Z"
+    }
+  },
+  {
+    "model_id": "solar-open",
+    "benchmark_id": "arena-hard-v2",
+    "score": 74.8,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "solar-open__paper.pdf",
+      "ref": "p.22",
+      "fetched_at": "2026-06-08T04:07:36.976Z"
+    }
+  },
+  {
+    "model_id": "solar-open",
+    "benchmark_id": "bench-airline",
+    "score": 52.4,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "solar-open__paper.pdf",
+      "ref": "p.22",
+      "fetched_at": "2026-06-08T04:07:36.976Z"
+    }
+  },
+  {
+    "model_id": "solar-open",
+    "benchmark_id": "bench-retail",
+    "score": 59.3,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "solar-open__paper.pdf",
+      "ref": "p.22",
+      "fetched_at": "2026-06-08T04:07:36.976Z"
+    }
+  },
+  {
+    "model_id": "solar-open",
+    "benchmark_id": "bench-telecom",
+    "score": 55.6,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "solar-open__paper.pdf",
+      "ref": "p.22",
+      "fetched_at": "2026-06-08T04:07:36.976Z"
+    }
+  },
+  {
+    "model_id": "solar-open",
+    "benchmark_id": "click",
+    "score": 78.9,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "solar-open__paper.pdf",
+      "ref": "p.21",
+      "fetched_at": "2026-06-08T04:07:36.976Z"
+    }
+  },
+  {
+    "model_id": "solar-open",
+    "benchmark_id": "gpqa",
+    "score": 68.1,
+    "config": "Diamond",
+    "source": {
+      "kind": "tech_report",
+      "url": "solar-open__paper.pdf",
+      "ref": "p.22",
+      "fetched_at": "2026-06-08T04:07:36.976Z"
+    }
+  },
+  {
+    "model_id": "solar-open",
+    "benchmark_id": "hae-rae-v1.1",
+    "score": 73.3,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "solar-open__paper.pdf",
+      "ref": "p.21",
+      "fetched_at": "2026-06-08T04:07:36.976Z"
+    }
+  },
+  {
+    "model_id": "solar-open",
+    "benchmark_id": "hle",
+    "score": 10.5,
+    "config": "text only",
+    "source": {
+      "kind": "tech_report",
+      "url": "solar-open__paper.pdf",
+      "ref": "p.22",
+      "fetched_at": "2026-06-08T04:07:36.976Z"
+    }
+  },
+  {
+    "model_id": "solar-open",
+    "benchmark_id": "hmmt-nov-2025",
+    "score": 80,
+    "config": "Nov",
+    "source": {
+      "kind": "tech_report",
+      "url": "solar-open__paper.pdf",
+      "ref": "p.22",
+      "fetched_at": "2026-06-08T04:07:36.976Z"
+    },
+    "variants": [
+      {
+        "score": 73.3,
+        "config": "Feb",
+        "source": {
+          "kind": "tech_report",
+          "url": "solar-open__paper.pdf",
+          "ref": "p.22",
+          "fetched_at": "2026-06-08T04:07:36.976Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "solar-open",
+    "benchmark_id": "hrm8k",
+    "score": 87.6,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "solar-open__paper.pdf",
+      "ref": "p.21",
+      "fetched_at": "2026-06-08T04:07:36.976Z"
+    }
+  },
+  {
+    "model_id": "solar-open",
+    "benchmark_id": "ifbench",
+    "score": 53.7,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "solar-open__paper.pdf",
+      "ref": "p.22",
+      "fetched_at": "2026-06-08T04:07:36.976Z"
+    }
+  },
+  {
+    "model_id": "solar-open",
+    "benchmark_id": "ifeval",
+    "score": 88,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "solar-open__paper.pdf",
+      "ref": "p.22",
+      "fetched_at": "2026-06-08T04:07:36.976Z"
+    }
+  },
+  {
+    "model_id": "solar-open",
+    "benchmark_id": "kbankmmlu",
+    "score": 65.5,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "solar-open__paper.pdf",
+      "ref": "p.21",
+      "fetched_at": "2026-06-08T04:07:36.976Z"
+    }
+  },
+  {
+    "model_id": "solar-open",
+    "benchmark_id": "kbl",
+    "score": 65.5,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "solar-open__paper.pdf",
+      "ref": "p.21",
+      "fetched_at": "2026-06-08T04:07:36.976Z"
+    }
+  },
+  {
+    "model_id": "solar-open",
+    "benchmark_id": "kmmlu",
+    "score": 73,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "solar-open__paper.pdf",
+      "ref": "p.21",
+      "fetched_at": "2026-06-08T04:07:36.976Z"
+    }
+  },
+  {
+    "model_id": "solar-open",
+    "benchmark_id": "kmmlu-pro",
+    "score": 64,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "solar-open__paper.pdf",
+      "ref": "p.21",
+      "fetched_at": "2026-06-08T04:07:36.976Z"
+    }
+  },
+  {
+    "model_id": "solar-open",
+    "benchmark_id": "ko-aime-2024",
+    "score": 80.3,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "solar-open__paper.pdf",
+      "ref": "p.21",
+      "fetched_at": "2026-06-08T04:07:36.976Z"
+    }
+  },
+  {
+    "model_id": "solar-open",
+    "benchmark_id": "ko-aime-2025",
+    "score": 80,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "solar-open__paper.pdf",
+      "ref": "p.21",
+      "fetched_at": "2026-06-08T04:07:36.976Z"
+    }
+  },
+  {
+    "model_id": "solar-open",
+    "benchmark_id": "ko-arena-hard-v2",
+    "score": 79.9,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "solar-open__paper.pdf",
+      "ref": "p.21",
+      "fetched_at": "2026-06-08T04:07:36.976Z"
+    }
+  },
+  {
+    "model_id": "solar-open",
+    "benchmark_id": "ko-ifeval",
+    "score": 87.5,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "solar-open__paper.pdf",
+      "ref": "p.21",
+      "fetched_at": "2026-06-08T04:07:36.976Z"
+    }
+  },
+  {
+    "model_id": "solar-open",
+    "benchmark_id": "kobalt",
+    "score": 44.3,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "solar-open__paper.pdf",
+      "ref": "p.21",
+      "fetched_at": "2026-06-08T04:07:36.976Z"
+    }
+  },
+  {
+    "model_id": "solar-open",
+    "benchmark_id": "kormedmcqa",
+    "score": 84.4,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "solar-open__paper.pdf",
+      "ref": "p.21",
+      "fetched_at": "2026-06-08T04:07:36.976Z"
+    }
+  },
+  {
+    "model_id": "solar-open",
+    "benchmark_id": "livecodebench",
+    "score": 74.2,
+    "config": "v1–v6 cumul",
+    "source": {
+      "kind": "tech_report",
+      "url": "solar-open__paper.pdf",
+      "ref": "p.22",
+      "fetched_at": "2026-06-08T04:07:36.976Z"
+    }
+  },
+  {
+    "model_id": "solar-open",
+    "benchmark_id": "mmlu",
+    "score": 88.2,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "solar-open__paper.pdf",
+      "ref": "p.22",
+      "fetched_at": "2026-06-08T04:07:36.976Z"
+    }
+  },
+  {
+    "model_id": "solar-open",
+    "benchmark_id": "mmlu-pro",
+    "score": 80.4,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "solar-open__paper.pdf",
+      "ref": "p.22",
+      "fetched_at": "2026-06-08T04:07:36.976Z"
+    }
+  },
+  {
+    "model_id": "solar-open",
+    "benchmark_id": "writing-bench",
+    "score": 7.51,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "solar-open__paper.pdf",
+      "ref": "p.22",
+      "fetched_at": "2026-06-08T04:07:36.976Z"
+    }
+  }
+]

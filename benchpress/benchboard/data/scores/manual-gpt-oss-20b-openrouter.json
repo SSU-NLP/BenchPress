@@ -1,0 +1,114 @@
+[
+  {
+    "model_id": "gpt-oss-20b",
+    "benchmark_id": "arc-challenge",
+    "score": 94.71,
+    "config": "temp=0, full set",
+    "source": {
+      "kind": "manual",
+      "url": "https://openrouter.ai/openai/gpt-oss-20b",
+      "reported_by": "self-run via OpenRouter",
+      "fetched_at": "2026-06-16T00:00:00Z",
+      "published": "2026-06-16"
+    },
+    "extra": {
+      "n": 1172
+    }
+  },
+  {
+    "model_id": "gpt-oss-20b",
+    "benchmark_id": "gsm8k",
+    "score": 93.18,
+    "config": "temp=0, full set",
+    "source": {
+      "kind": "manual",
+      "url": "https://openrouter.ai/openai/gpt-oss-20b",
+      "reported_by": "self-run via OpenRouter",
+      "fetched_at": "2026-06-16T00:00:00Z",
+      "published": "2026-06-16"
+    },
+    "extra": {
+      "n": 1319
+    }
+  },
+  {
+    "model_id": "gpt-oss-20b",
+    "benchmark_id": "hmmt-feb-2025",
+    "score": 23.33,
+    "config": "temp=0, full set",
+    "source": {
+      "kind": "manual",
+      "url": "https://openrouter.ai/openai/gpt-oss-20b",
+      "reported_by": "self-run via OpenRouter",
+      "fetched_at": "2026-06-16T00:00:00Z",
+      "published": "2026-06-16"
+    },
+    "extra": {
+      "n": 30
+    }
+  },
+  {
+    "model_id": "gpt-oss-20b",
+    "benchmark_id": "math",
+    "score": 93.14,
+    "config": "temp=0, full set",
+    "source": {
+      "kind": "manual",
+      "url": "https://openrouter.ai/openai/gpt-oss-20b",
+      "reported_by": "self-run via OpenRouter",
+      "fetched_at": "2026-06-16T00:00:00Z",
+      "published": "2026-06-16"
+    },
+    "extra": {
+      "n": 5000
+    }
+  },
+  {
+    "model_id": "gpt-oss-20b",
+    "benchmark_id": "math-500",
+    "score": 91.4,
+    "config": "temp=0, full set",
+    "source": {
+      "kind": "manual",
+      "url": "https://openrouter.ai/openai/gpt-oss-20b",
+      "reported_by": "self-run via OpenRouter",
+      "fetched_at": "2026-06-16T00:00:00Z",
+      "published": "2026-06-16"
+    },
+    "extra": {
+      "n": 500
+    }
+  },
+  {
+    "model_id": "gpt-oss-20b",
+    "benchmark_id": "mmlu-redux",
+    "score": 88.18,
+    "config": "temp=0, full set",
+    "source": {
+      "kind": "manual",
+      "url": "https://openrouter.ai/openai/gpt-oss-20b",
+      "reported_by": "self-run via OpenRouter",
+      "fetched_at": "2026-06-16T00:00:00Z",
+      "published": "2026-06-16"
+    },
+    "extra": {
+      "n": 5330
+    }
+  },
+  {
+    "model_id": "gpt-oss-20b",
+    "benchmark_id": "supergpqa",
+    "score": 36.95,
+    "config": "temp=0, full set",
+    "source": {
+      "kind": "manual",
+      "url": "https://openrouter.ai/openai/gpt-oss-20b",
+      "reported_by": "self-run via OpenRouter",
+      "fetched_at": "2026-06-16T00:00:00Z",
+      "published": "2026-06-16"
+    },
+    "extra": {
+      "n": 26529
+    }
+  }
+]

@@ -1,0 +1,14 @@
+[
+  {
+    "model_id": "exaone",
+    "benchmark_id": "summarization",
+    "score": 23.1,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone__paper.pdf",
+      "ref": "p.19",
+      "fetched_at": "2026-06-08T03:24:40.751Z"
+    }
+  }
+]

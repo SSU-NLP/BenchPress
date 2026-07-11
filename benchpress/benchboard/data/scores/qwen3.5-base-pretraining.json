@@ -1,0 +1,1154 @@
+[
+  {
+    "model_id": "qwen3.5-base",
+    "benchmark_id": "bbh",
+    "score": 90.98,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwen.ai/blog?id=qwen3.5",
+      "ref": "Qwen3.5 blog — base model comparison (pretraining)",
+      "fetched_at": "2026-06-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "kimi-k2-base",
+    "benchmark_id": "bbh",
+    "score": 89.11,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwen.ai/blog?id=qwen3.5",
+      "ref": "Qwen3.5 blog — base model comparison (pretraining)",
+      "reported_by": "qwen3.5-base",
+      "fetched_at": "2026-06-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "qwen3-235b-base",
+    "benchmark_id": "bbh",
+    "score": 87.95,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwen.ai/blog?id=qwen3.5",
+      "ref": "Qwen3.5 blog — base model comparison (pretraining)",
+      "reported_by": "qwen3.5-base",
+      "fetched_at": "2026-06-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "glm-4.5-base",
+    "benchmark_id": "bbh",
+    "score": 87.68,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwen.ai/blog?id=qwen3.5",
+      "ref": "Qwen3.5 blog — base model comparison (pretraining)",
+      "reported_by": "qwen3.5-base",
+      "fetched_at": "2026-06-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3.2-base",
+    "benchmark_id": "bbh",
+    "score": 86.03,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwen.ai/blog?id=qwen3.5",
+      "ref": "Qwen3.5 blog — base model comparison (pretraining)",
+      "reported_by": "qwen3.5-base",
+      "fetched_at": "2026-06-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "qwen3-235b-base",
+    "benchmark_id": "c-eval",
+    "score": 91.82,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwen.ai/blog?id=qwen3.5",
+      "ref": "Qwen3.5 blog — base model comparison (pretraining)",
+      "reported_by": "qwen3.5-base",
+      "fetched_at": "2026-06-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "kimi-k2-base",
+    "benchmark_id": "c-eval",
+    "score": 91.82,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwen.ai/blog?id=qwen3.5",
+      "ref": "Qwen3.5 blog — base model comparison (pretraining)",
+      "reported_by": "qwen3.5-base",
+      "fetched_at": "2026-06-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "qwen3.5-base",
+    "benchmark_id": "c-eval",
+    "score": 91.82,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwen.ai/blog?id=qwen3.5",
+      "ref": "Qwen3.5 blog — base model comparison (pretraining)",
+      "fetched_at": "2026-06-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3.2-base",
+    "benchmark_id": "c-eval",
+    "score": 90.48,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwen.ai/blog?id=qwen3.5",
+      "ref": "Qwen3.5 blog — base model comparison (pretraining)",
+      "reported_by": "qwen3.5-base",
+      "fetched_at": "2026-06-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "glm-4.5-base",
+    "benchmark_id": "c-eval",
+    "score": 85.5,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwen.ai/blog?id=qwen3.5",
+      "ref": "Qwen3.5 blog — base model comparison (pretraining)",
+      "reported_by": "qwen3.5-base",
+      "fetched_at": "2026-06-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "qwen3.5-base",
+    "benchmark_id": "crux-i",
+    "score": 71.13,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwen.ai/blog?id=qwen3.5",
+      "ref": "Qwen3.5 blog — base model comparison (pretraining)",
+      "fetched_at": "2026-06-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "kimi-k2-base",
+    "benchmark_id": "crux-i",
+    "score": 70.5,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwen.ai/blog?id=qwen3.5",
+      "ref": "Qwen3.5 blog — base model comparison (pretraining)",
+      "reported_by": "qwen3.5-base",
+      "fetched_at": "2026-06-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "glm-4.5-base",
+    "benchmark_id": "crux-i",
+    "score": 67.63,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwen.ai/blog?id=qwen3.5",
+      "ref": "Qwen3.5 blog — base model comparison (pretraining)",
+      "reported_by": "qwen3.5-base",
+      "fetched_at": "2026-06-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "qwen3-235b-base",
+    "benchmark_id": "crux-i",
+    "score": 64.25,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwen.ai/blog?id=qwen3.5",
+      "ref": "Qwen3.5 blog — base model comparison (pretraining)",
+      "reported_by": "qwen3.5-base",
+      "fetched_at": "2026-06-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3.2-base",
+    "benchmark_id": "crux-i",
+    "score": 63.25,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwen.ai/blog?id=qwen3.5",
+      "ref": "Qwen3.5 blog — base model comparison (pretraining)",
+      "reported_by": "qwen3.5-base",
+      "fetched_at": "2026-06-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "qwen3.5-base",
+    "benchmark_id": "crux-o",
+    "score": 82.38,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwen.ai/blog?id=qwen3.5",
+      "ref": "Qwen3.5 blog — base model comparison (pretraining)",
+      "fetched_at": "2026-06-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "qwen3-235b-base",
+    "benchmark_id": "crux-o",
+    "score": 78.88,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwen.ai/blog?id=qwen3.5",
+      "ref": "Qwen3.5 blog — base model comparison (pretraining)",
+      "reported_by": "qwen3.5-base",
+      "fetched_at": "2026-06-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "glm-4.5-base",
+    "benchmark_id": "crux-o",
+    "score": 77.13,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwen.ai/blog?id=qwen3.5",
+      "ref": "Qwen3.5 blog — base model comparison (pretraining)",
+      "reported_by": "qwen3.5-base",
+      "fetched_at": "2026-06-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "kimi-k2-base",
+    "benchmark_id": "crux-o",
+    "score": 77.13,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwen.ai/blog?id=qwen3.5",
+      "ref": "Qwen3.5 blog — base model comparison (pretraining)",
+      "reported_by": "qwen3.5-base",
+      "fetched_at": "2026-06-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3.2-base",
+    "benchmark_id": "crux-o",
+    "score": 73.88,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwen.ai/blog?id=qwen3.5",
+      "ref": "Qwen3.5 blog — base model comparison (pretraining)",
+      "reported_by": "qwen3.5-base",
+      "fetched_at": "2026-06-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "qwen3.5-base",
+    "benchmark_id": "evalplus",
+    "score": 79.32,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwen.ai/blog?id=qwen3.5",
+      "ref": "Qwen3.5 blog — base model comparison (pretraining)",
+      "fetched_at": "2026-06-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "qwen3-235b-base",
+    "benchmark_id": "evalplus",
+    "score": 77.6,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwen.ai/blog?id=qwen3.5",
+      "ref": "Qwen3.5 blog — base model comparison (pretraining)",
+      "reported_by": "qwen3.5-base",
+      "fetched_at": "2026-06-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "kimi-k2-base",
+    "benchmark_id": "evalplus",
+    "score": 71.77,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwen.ai/blog?id=qwen3.5",
+      "ref": "Qwen3.5 blog — base model comparison (pretraining)",
+      "reported_by": "qwen3.5-base",
+      "fetched_at": "2026-06-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "glm-4.5-base",
+    "benchmark_id": "evalplus",
+    "score": 69.49,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwen.ai/blog?id=qwen3.5",
+      "ref": "Qwen3.5 blog — base model comparison (pretraining)",
+      "reported_by": "qwen3.5-base",
+      "fetched_at": "2026-06-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3.2-base",
+    "benchmark_id": "evalplus",
+    "score": 62.68,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwen.ai/blog?id=qwen3.5",
+      "ref": "Qwen3.5 blog — base model comparison (pretraining)",
+      "reported_by": "qwen3.5-base",
+      "fetched_at": "2026-06-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "qwen3.5-base",
+    "benchmark_id": "gpqa",
+    "score": 54.64,
+    "config": "Diamond",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwen.ai/blog?id=qwen3.5",
+      "ref": "Qwen3.5 blog — base model comparison (pretraining)",
+      "fetched_at": "2026-06-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "qwen3-235b-base",
+    "benchmark_id": "gpqa",
+    "score": 47.47,
+    "config": "Diamond",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwen.ai/blog?id=qwen3.5",
+      "ref": "Qwen3.5 blog — base model comparison (pretraining)",
+      "reported_by": "qwen3.5-base",
+      "fetched_at": "2026-06-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "kimi-k2-base",
+    "benchmark_id": "gpqa",
+    "score": 46.78,
+    "config": "Diamond",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwen.ai/blog?id=qwen3.5",
+      "ref": "Qwen3.5 blog — base model comparison (pretraining)",
+      "reported_by": "qwen3.5-base",
+      "fetched_at": "2026-06-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "glm-4.5-base",
+    "benchmark_id": "gpqa",
+    "score": 44.63,
+    "config": "Diamond",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwen.ai/blog?id=qwen3.5",
+      "ref": "Qwen3.5 blog — base model comparison (pretraining)",
+      "reported_by": "qwen3.5-base",
+      "fetched_at": "2026-06-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3.2-base",
+    "benchmark_id": "gpqa",
+    "score": 44.16,
+    "config": "Diamond",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwen.ai/blog?id=qwen3.5",
+      "ref": "Qwen3.5 blog — base model comparison (pretraining)",
+      "reported_by": "qwen3.5-base",
+      "fetched_at": "2026-06-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "qwen3.5-base",
+    "benchmark_id": "gsm8k",
+    "score": 93.71,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwen.ai/blog?id=qwen3.5",
+      "ref": "Qwen3.5 blog — base model comparison (pretraining)",
+      "fetched_at": "2026-06-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "kimi-k2-base",
+    "benchmark_id": "gsm8k",
+    "score": 92.12,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwen.ai/blog?id=qwen3.5",
+      "ref": "Qwen3.5 blog — base model comparison (pretraining)",
+      "reported_by": "qwen3.5-base",
+      "fetched_at": "2026-06-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "qwen3-235b-base",
+    "benchmark_id": "gsm8k",
+    "score": 91.17,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwen.ai/blog?id=qwen3.5",
+      "ref": "Qwen3.5 blog — base model comparison (pretraining)",
+      "reported_by": "qwen3.5-base",
+      "fetched_at": "2026-06-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "glm-4.5-base",
+    "benchmark_id": "gsm8k",
+    "score": 89.31,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwen.ai/blog?id=qwen3.5",
+      "ref": "Qwen3.5 blog — base model comparison (pretraining)",
+      "reported_by": "qwen3.5-base",
+      "fetched_at": "2026-06-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3.2-base",
+    "benchmark_id": "gsm8k",
+    "score": 89.12,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwen.ai/blog?id=qwen3.5",
+      "ref": "Qwen3.5 blog — base model comparison (pretraining)",
+      "reported_by": "qwen3.5-base",
+      "fetched_at": "2026-06-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "qwen3.5-base",
+    "benchmark_id": "include",
+    "score": 79.27,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwen.ai/blog?id=qwen3.5",
+      "ref": "Qwen3.5 blog — base model comparison (pretraining)",
+      "fetched_at": "2026-06-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3.2-base",
+    "benchmark_id": "include",
+    "score": 76.52,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwen.ai/blog?id=qwen3.5",
+      "ref": "Qwen3.5 blog — base model comparison (pretraining)",
+      "reported_by": "qwen3.5-base",
+      "fetched_at": "2026-06-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "qwen3-235b-base",
+    "benchmark_id": "include",
+    "score": 75.26,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwen.ai/blog?id=qwen3.5",
+      "ref": "Qwen3.5 blog — base model comparison (pretraining)",
+      "reported_by": "qwen3.5-base",
+      "fetched_at": "2026-06-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "glm-4.5-base",
+    "benchmark_id": "include",
+    "score": 73.41,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwen.ai/blog?id=qwen3.5",
+      "ref": "Qwen3.5 blog — base model comparison (pretraining)",
+      "reported_by": "qwen3.5-base",
+      "fetched_at": "2026-06-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "kimi-k2-base",
+    "benchmark_id": "include",
+    "score": 72.05,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwen.ai/blog?id=qwen3.5",
+      "ref": "Qwen3.5 blog — base model comparison (pretraining)",
+      "reported_by": "qwen3.5-base",
+      "fetched_at": "2026-06-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "qwen3.5-base",
+    "benchmark_id": "korbench",
+    "score": 54.08,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwen.ai/blog?id=qwen3.5",
+      "ref": "Qwen3.5 blog — base model comparison (pretraining)",
+      "fetched_at": "2026-06-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3.2-base",
+    "benchmark_id": "korbench",
+    "score": 54,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwen.ai/blog?id=qwen3.5",
+      "ref": "Qwen3.5 blog — base model comparison (pretraining)",
+      "reported_by": "qwen3.5-base",
+      "fetched_at": "2026-06-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "kimi-k2-base",
+    "benchmark_id": "korbench",
+    "score": 53.84,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwen.ai/blog?id=qwen3.5",
+      "ref": "Qwen3.5 blog — base model comparison (pretraining)",
+      "reported_by": "qwen3.5-base",
+      "fetched_at": "2026-06-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "glm-4.5-base",
+    "benchmark_id": "korbench",
+    "score": 52.8,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwen.ai/blog?id=qwen3.5",
+      "ref": "Qwen3.5 blog — base model comparison (pretraining)",
+      "reported_by": "qwen3.5-base",
+      "fetched_at": "2026-06-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "qwen3-235b-base",
+    "benchmark_id": "korbench",
+    "score": 50.8,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwen.ai/blog?id=qwen3.5",
+      "ref": "Qwen3.5 blog — base model comparison (pretraining)",
+      "reported_by": "qwen3.5-base",
+      "fetched_at": "2026-06-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "qwen3.5-base",
+    "benchmark_id": "math",
+    "score": 74.14,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwen.ai/blog?id=qwen3.5",
+      "ref": "Qwen3.5 blog — base model comparison (pretraining)",
+      "fetched_at": "2026-06-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "qwen3-235b-base",
+    "benchmark_id": "math",
+    "score": 71.84,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwen.ai/blog?id=qwen3.5",
+      "ref": "Qwen3.5 blog — base model comparison (pretraining)",
+      "reported_by": "qwen3.5-base",
+      "fetched_at": "2026-06-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "kimi-k2-base",
+    "benchmark_id": "math",
+    "score": 71.5,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwen.ai/blog?id=qwen3.5",
+      "ref": "Qwen3.5 blog — base model comparison (pretraining)",
+      "reported_by": "qwen3.5-base",
+      "fetched_at": "2026-06-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3.2-base",
+    "benchmark_id": "math",
+    "score": 64.4,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwen.ai/blog?id=qwen3.5",
+      "ref": "Qwen3.5 blog — base model comparison (pretraining)",
+      "reported_by": "qwen3.5-base",
+      "fetched_at": "2026-06-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "glm-4.5-base",
+    "benchmark_id": "math",
+    "score": 61.84,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwen.ai/blog?id=qwen3.5",
+      "ref": "Qwen3.5 blog — base model comparison (pretraining)",
+      "reported_by": "qwen3.5-base",
+      "fetched_at": "2026-06-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "qwen3.5-base",
+    "benchmark_id": "mmlu",
+    "score": 88.61,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwen.ai/blog?id=qwen3.5",
+      "ref": "Qwen3.5 blog — base model comparison (pretraining)",
+      "fetched_at": "2026-06-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3.2-base",
+    "benchmark_id": "mmlu",
+    "score": 88.11,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwen.ai/blog?id=qwen3.5",
+      "ref": "Qwen3.5 blog — base model comparison (pretraining)",
+      "reported_by": "qwen3.5-base",
+      "fetched_at": "2026-06-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "kimi-k2-base",
+    "benchmark_id": "mmlu",
+    "score": 87.38,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwen.ai/blog?id=qwen3.5",
+      "ref": "Qwen3.5 blog — base model comparison (pretraining)",
+      "reported_by": "qwen3.5-base",
+      "fetched_at": "2026-06-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "qwen3-235b-base",
+    "benchmark_id": "mmlu",
+    "score": 87.33,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwen.ai/blog?id=qwen3.5",
+      "ref": "Qwen3.5 blog — base model comparison (pretraining)",
+      "reported_by": "qwen3.5-base",
+      "fetched_at": "2026-06-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "glm-4.5-base",
+    "benchmark_id": "mmlu",
+    "score": 86.56,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwen.ai/blog?id=qwen3.5",
+      "ref": "Qwen3.5 blog — base model comparison (pretraining)",
+      "reported_by": "qwen3.5-base",
+      "fetched_at": "2026-06-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "qwen3.5-base",
+    "benchmark_id": "mmlu-pro",
+    "score": 76.01,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwen.ai/blog?id=qwen3.5",
+      "ref": "Qwen3.5 blog — base model comparison (pretraining)",
+      "fetched_at": "2026-06-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "qwen3-235b-base",
+    "benchmark_id": "mmlu-pro",
+    "score": 67.73,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwen.ai/blog?id=qwen3.5",
+      "ref": "Qwen3.5 blog — base model comparison (pretraining)",
+      "reported_by": "qwen3.5-base",
+      "fetched_at": "2026-06-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "kimi-k2-base",
+    "benchmark_id": "mmlu-pro",
+    "score": 67.64,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwen.ai/blog?id=qwen3.5",
+      "ref": "Qwen3.5 blog — base model comparison (pretraining)",
+      "reported_by": "qwen3.5-base",
+      "fetched_at": "2026-06-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "glm-4.5-base",
+    "benchmark_id": "mmlu-pro",
+    "score": 65,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwen.ai/blog?id=qwen3.5",
+      "ref": "Qwen3.5 blog — base model comparison (pretraining)",
+      "reported_by": "qwen3.5-base",
+      "fetched_at": "2026-06-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3.2-base",
+    "benchmark_id": "mmlu-pro",
+    "score": 62.82,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwen.ai/blog?id=qwen3.5",
+      "ref": "Qwen3.5 blog — base model comparison (pretraining)",
+      "reported_by": "qwen3.5-base",
+      "fetched_at": "2026-06-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "qwen3.5-base",
+    "benchmark_id": "mmlu-redux",
+    "score": 89.09,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwen.ai/blog?id=qwen3.5",
+      "ref": "Qwen3.5 blog — base model comparison (pretraining)",
+      "fetched_at": "2026-06-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "qwen3-235b-base",
+    "benchmark_id": "mmlu-redux",
+    "score": 87.44,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwen.ai/blog?id=qwen3.5",
+      "ref": "Qwen3.5 blog — base model comparison (pretraining)",
+      "reported_by": "qwen3.5-base",
+      "fetched_at": "2026-06-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3.2-base",
+    "benchmark_id": "mmlu-redux",
+    "score": 87.29,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwen.ai/blog?id=qwen3.5",
+      "ref": "Qwen3.5 blog — base model comparison (pretraining)",
+      "reported_by": "qwen3.5-base",
+      "fetched_at": "2026-06-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "glm-4.5-base",
+    "benchmark_id": "mmlu-redux",
+    "score": 86.86,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwen.ai/blog?id=qwen3.5",
+      "ref": "Qwen3.5 blog — base model comparison (pretraining)",
+      "reported_by": "qwen3.5-base",
+      "fetched_at": "2026-06-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "kimi-k2-base",
+    "benchmark_id": "mmlu-redux",
+    "score": 86.65,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwen.ai/blog?id=qwen3.5",
+      "ref": "Qwen3.5 blog — base model comparison (pretraining)",
+      "reported_by": "qwen3.5-base",
+      "fetched_at": "2026-06-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "qwen3.5-base",
+    "benchmark_id": "mmmlu",
+    "score": 85.82,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwen.ai/blog?id=qwen3.5",
+      "ref": "Qwen3.5 blog — base model comparison (pretraining)",
+      "fetched_at": "2026-06-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3.2-base",
+    "benchmark_id": "mmmlu",
+    "score": 83.2,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwen.ai/blog?id=qwen3.5",
+      "ref": "Qwen3.5 blog — base model comparison (pretraining)",
+      "reported_by": "qwen3.5-base",
+      "fetched_at": "2026-06-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "glm-4.5-base",
+    "benchmark_id": "mmmlu",
+    "score": 82.26,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwen.ai/blog?id=qwen3.5",
+      "ref": "Qwen3.5 blog — base model comparison (pretraining)",
+      "reported_by": "qwen3.5-base",
+      "fetched_at": "2026-06-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "kimi-k2-base",
+    "benchmark_id": "mmmlu",
+    "score": 82.26,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwen.ai/blog?id=qwen3.5",
+      "ref": "Qwen3.5 blog — base model comparison (pretraining)",
+      "reported_by": "qwen3.5-base",
+      "fetched_at": "2026-06-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "qwen3-235b-base",
+    "benchmark_id": "mmmlu",
+    "score": 81.27,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwen.ai/blog?id=qwen3.5",
+      "ref": "Qwen3.5 blog — base model comparison (pretraining)",
+      "reported_by": "qwen3.5-base",
+      "fetched_at": "2026-06-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "qwen3.5-base",
+    "benchmark_id": "multipl-e",
+    "score": 79.39,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwen.ai/blog?id=qwen3.5",
+      "ref": "Qwen3.5 blog — base model comparison (pretraining)",
+      "fetched_at": "2026-06-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "kimi-k2-base",
+    "benchmark_id": "multipl-e",
+    "score": 70.64,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwen.ai/blog?id=qwen3.5",
+      "ref": "Qwen3.5 blog — base model comparison (pretraining)",
+      "reported_by": "qwen3.5-base",
+      "fetched_at": "2026-06-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "qwen3-235b-base",
+    "benchmark_id": "multipl-e",
+    "score": 65.94,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwen.ai/blog?id=qwen3.5",
+      "ref": "Qwen3.5 blog — base model comparison (pretraining)",
+      "reported_by": "qwen3.5-base",
+      "fetched_at": "2026-06-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "glm-4.5-base",
+    "benchmark_id": "multipl-e",
+    "score": 62.51,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwen.ai/blog?id=qwen3.5",
+      "ref": "Qwen3.5 blog — base model comparison (pretraining)",
+      "reported_by": "qwen3.5-base",
+      "fetched_at": "2026-06-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3.2-base",
+    "benchmark_id": "multipl-e",
+    "score": 61.88,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwen.ai/blog?id=qwen3.5",
+      "ref": "Qwen3.5 blog — base model comparison (pretraining)",
+      "reported_by": "qwen3.5-base",
+      "fetched_at": "2026-06-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "qwen3.5-base",
+    "benchmark_id": "nova-63",
+    "score": 67.55,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwen.ai/blog?id=qwen3.5",
+      "ref": "Qwen3.5 blog — base model comparison (pretraining)",
+      "fetched_at": "2026-06-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "qwen3-235b-base",
+    "benchmark_id": "nova-63",
+    "score": 66.52,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwen.ai/blog?id=qwen3.5",
+      "ref": "Qwen3.5 blog — base model comparison (pretraining)",
+      "reported_by": "qwen3.5-base",
+      "fetched_at": "2026-06-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "kimi-k2-base",
+    "benchmark_id": "nova-63",
+    "score": 61.44,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwen.ai/blog?id=qwen3.5",
+      "ref": "Qwen3.5 blog — base model comparison (pretraining)",
+      "reported_by": "qwen3.5-base",
+      "fetched_at": "2026-06-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "glm-4.5-base",
+    "benchmark_id": "nova-63",
+    "score": 60.96,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwen.ai/blog?id=qwen3.5",
+      "ref": "Qwen3.5 blog — base model comparison (pretraining)",
+      "reported_by": "qwen3.5-base",
+      "fetched_at": "2026-06-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3.2-base",
+    "benchmark_id": "nova-63",
+    "score": 60.4,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwen.ai/blog?id=qwen3.5",
+      "ref": "Qwen3.5 blog — base model comparison (pretraining)",
+      "reported_by": "qwen3.5-base",
+      "fetched_at": "2026-06-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "qwen3.5-base",
+    "benchmark_id": "supergpqa",
+    "score": 57.96,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwen.ai/blog?id=qwen3.5",
+      "ref": "Qwen3.5 blog — base model comparison (pretraining)",
+      "fetched_at": "2026-06-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "kimi-k2-base",
+    "benchmark_id": "supergpqa",
+    "score": 44.86,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwen.ai/blog?id=qwen3.5",
+      "ref": "Qwen3.5 blog — base model comparison (pretraining)",
+      "reported_by": "qwen3.5-base",
+      "fetched_at": "2026-06-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "glm-4.5-base",
+    "benchmark_id": "supergpqa",
+    "score": 44.56,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwen.ai/blog?id=qwen3.5",
+      "ref": "Qwen3.5 blog — base model comparison (pretraining)",
+      "reported_by": "qwen3.5-base",
+      "fetched_at": "2026-06-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3.2-base",
+    "benchmark_id": "supergpqa",
+    "score": 43.46,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwen.ai/blog?id=qwen3.5",
+      "ref": "Qwen3.5 blog — base model comparison (pretraining)",
+      "reported_by": "qwen3.5-base",
+      "fetched_at": "2026-06-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "qwen3-235b-base",
+    "benchmark_id": "supergpqa",
+    "score": 42.84,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwen.ai/blog?id=qwen3.5",
+      "ref": "Qwen3.5 blog — base model comparison (pretraining)",
+      "reported_by": "qwen3.5-base",
+      "fetched_at": "2026-06-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "qwen3.5-base",
+    "benchmark_id": "swe-agentless",
+    "score": 43.26,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwen.ai/blog?id=qwen3.5",
+      "ref": "Qwen3.5 blog — base model comparison (pretraining)",
+      "fetched_at": "2026-06-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3.2-base",
+    "benchmark_id": "swe-agentless",
+    "score": 34.67,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwen.ai/blog?id=qwen3.5",
+      "ref": "Qwen3.5 blog — base model comparison (pretraining)",
+      "reported_by": "qwen3.5-base",
+      "fetched_at": "2026-06-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "qwen3-235b-base",
+    "benchmark_id": "swe-agentless",
+    "score": 31.77,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwen.ai/blog?id=qwen3.5",
+      "ref": "Qwen3.5 blog — base model comparison (pretraining)",
+      "reported_by": "qwen3.5-base",
+      "fetched_at": "2026-06-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "glm-4.5-base",
+    "benchmark_id": "swe-agentless",
+    "score": 29.23,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwen.ai/blog?id=qwen3.5",
+      "ref": "Qwen3.5 blog — base model comparison (pretraining)",
+      "reported_by": "qwen3.5-base",
+      "fetched_at": "2026-06-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "kimi-k2-base",
+    "benchmark_id": "swe-agentless",
+    "score": 28.54,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwen.ai/blog?id=qwen3.5",
+      "ref": "Qwen3.5 blog — base model comparison (pretraining)",
+      "reported_by": "qwen3.5-base",
+      "fetched_at": "2026-06-15T00:00:00Z"
+    }
+  }
+]

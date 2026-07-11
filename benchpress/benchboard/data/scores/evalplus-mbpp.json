@@ -1,0 +1,35 @@
+[
+  {
+    "model_id": "gemini-1.5-pro",
+    "benchmark_id": "mbpp+",
+    "score": 74.6,
+    "config": "MBPP+",
+    "source": {
+      "kind": "github_repo",
+      "url": "https://evalplus.github.io/results.json",
+      "fetched_at": "2026-06-11T08:36:18.927Z"
+    }
+  },
+  {
+    "model_id": "llama-3-70b",
+    "benchmark_id": "mbpp+",
+    "score": 69,
+    "config": "MBPP+",
+    "source": {
+      "kind": "github_repo",
+      "url": "https://evalplus.github.io/results.json",
+      "fetched_at": "2026-06-11T08:36:18.927Z"
+    }
+  },
+  {
+    "model_id": "llama-3-8b",
+    "benchmark_id": "mbpp+",
+    "score": 54.8,
+    "config": "MBPP+",
+    "source": {
+      "kind": "github_repo",
+      "url": "https://evalplus.github.io/results.json",
+      "fetched_at": "2026-06-11T08:36:18.927Z"
+    }
+  }
+]

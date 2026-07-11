@@ -1,0 +1,20 @@
+[
+  {
+    "title": "math-reasoning-mix",
+    "repo_id": "seonghyeon0408/math-reasoning-mix",
+    "description": "GSM8K 200 + MATH-500 150 + AIME 2024 30",
+    "snippet": "from benchpress_hub import load_composition\nc = load_composition(\"seonghyeon0408/math-reasoning-mix\")\nprint(len(c))"
+  },
+  {
+    "title": "coding-mix",
+    "repo_id": "seonghyeon0408/coding-mix",
+    "description": "HumanEval 100 + MBPP 150 + LiveCodeBench 100",
+    "snippet": "from benchpress_hub import load_composition\nc = load_composition(\"seonghyeon0408/coding-mix\")\nprint(len(c))"
+  },
+  {
+    "title": "knowledge-commonsense-mix",
+    "repo_id": "seonghyeon0408/knowledge-commonsense-mix",
+    "description": "MMLU 100 + ARC Challenge 150 + HellaSwag 100",
+    "snippet": "from benchpress_hub import load_composition\nc = load_composition(\"seonghyeon0408/knowledge-commonsense-mix\")\nprint(len(c))"
+  }
+]

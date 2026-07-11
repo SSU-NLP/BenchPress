@@ -1,0 +1,132 @@
+[
+  {
+    "model_id": "llama-3-70b",
+    "benchmark_id": "gpqa",
+    "score": 39.5,
+    "config": "0-shot",
+    "source": {
+      "kind": "manual",
+      "url": "https://www.llama.com/models/llama-3/",
+      "reported_by": "Meta Llama 3 model card (instruction tuned)",
+      "fetched_at": "2026-06-10T00:00:00Z",
+      "published": "2024-04-18"
+    }
+  },
+  {
+    "model_id": "llama-3-8b",
+    "benchmark_id": "gpqa",
+    "score": 34.2,
+    "config": "0-shot",
+    "source": {
+      "kind": "manual",
+      "url": "https://www.llama.com/models/llama-3/",
+      "reported_by": "Meta Llama 3 model card (instruction tuned)",
+      "fetched_at": "2026-06-10T00:00:00Z",
+      "published": "2024-04-18"
+    }
+  },
+  {
+    "model_id": "llama-3-70b",
+    "benchmark_id": "gsm8k",
+    "score": 93,
+    "config": "8-shot, CoT",
+    "source": {
+      "kind": "manual",
+      "url": "https://www.llama.com/models/llama-3/",
+      "reported_by": "Meta Llama 3 model card (instruction tuned)",
+      "fetched_at": "2026-06-10T00:00:00Z",
+      "published": "2024-04-18"
+    }
+  },
+  {
+    "model_id": "llama-3-8b",
+    "benchmark_id": "gsm8k",
+    "score": 79.6,
+    "config": "8-shot, CoT",
+    "source": {
+      "kind": "manual",
+      "url": "https://www.llama.com/models/llama-3/",
+      "reported_by": "Meta Llama 3 model card (instruction tuned)",
+      "fetched_at": "2026-06-10T00:00:00Z",
+      "published": "2024-04-18"
+    }
+  },
+  {
+    "model_id": "llama-3-70b",
+    "benchmark_id": "humaneval",
+    "score": 81.7,
+    "config": "0-shot",
+    "source": {
+      "kind": "manual",
+      "url": "https://www.llama.com/models/llama-3/",
+      "reported_by": "Meta Llama 3 model card (instruction tuned)",
+      "fetched_at": "2026-06-10T00:00:00Z",
+      "published": "2024-04-18"
+    }
+  },
+  {
+    "model_id": "llama-3-8b",
+    "benchmark_id": "humaneval",
+    "score": 62.2,
+    "config": "0-shot",
+    "source": {
+      "kind": "manual",
+      "url": "https://www.llama.com/models/llama-3/",
+      "reported_by": "Meta Llama 3 model card (instruction tuned)",
+      "fetched_at": "2026-06-10T00:00:00Z",
+      "published": "2024-04-18"
+    }
+  },
+  {
+    "model_id": "llama-3-70b",
+    "benchmark_id": "math",
+    "score": 50.4,
+    "config": "4-shot, CoT",
+    "source": {
+      "kind": "manual",
+      "url": "https://www.llama.com/models/llama-3/",
+      "reported_by": "Meta Llama 3 model card (instruction tuned)",
+      "fetched_at": "2026-06-10T00:00:00Z",
+      "published": "2024-04-18"
+    }
+  },
+  {
+    "model_id": "llama-3-8b",
+    "benchmark_id": "math",
+    "score": 30,
+    "config": "4-shot, CoT",
+    "source": {
+      "kind": "manual",
+      "url": "https://www.llama.com/models/llama-3/",
+      "reported_by": "Meta Llama 3 model card (instruction tuned)",
+      "fetched_at": "2026-06-10T00:00:00Z",
+      "published": "2024-04-18"
+    }
+  },
+  {
+    "model_id": "llama-3-70b",
+    "benchmark_id": "mmlu",
+    "score": 82,
+    "config": "5-shot",
+    "source": {
+      "kind": "manual",
+      "url": "https://www.llama.com/models/llama-3/",
+      "reported_by": "Meta Llama 3 model card (instruction tuned)",
+      "fetched_at": "2026-06-10T00:00:00Z",
+      "published": "2024-04-18"
+    }
+  },
+  {
+    "model_id": "llama-3-8b",
+    "benchmark_id": "mmlu",
+    "score": 68.4,
+    "config": "5-shot",
+    "source": {
+      "kind": "manual",
+      "url": "https://www.llama.com/models/llama-3/",
+      "reported_by": "Meta Llama 3 model card (instruction tuned)",
+      "fetched_at": "2026-06-10T00:00:00Z",
+      "published": "2024-04-18"
+    }
+  }
+]

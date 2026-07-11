@@ -1,0 +1,2134 @@
+[
+  {
+    "model_id": "qwen-2.5-72b-base",
+    "benchmark_id": "arc-challenge",
+    "score": 72.4,
+    "config": "base",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "mixtral-8x22b",
+    "benchmark_id": "arc-challenge",
+    "score": 70.7,
+    "config": "base",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "llama-3-70b",
+    "benchmark_id": "arc-challenge",
+    "score": 68.8,
+    "config": "base",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "qwen-2.5-72b",
+    "benchmark_id": "arena-hard",
+    "score": 81.2,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "claude-3.5-sonnet",
+    "benchmark_id": "arena-hard",
+    "score": 79.3,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "arena-hard",
+    "score": 77.9,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "deepseek-v2.5",
+    "benchmark_id": "arena-hard",
+    "score": 76.2,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "gpt-4o-mini",
+    "benchmark_id": "arena-hard",
+    "score": 74.9,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "qwen2.5-32b",
+    "benchmark_id": "arena-hard",
+    "score": 74.5,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "mistral-large",
+    "benchmark_id": "arena-hard",
+    "score": 73.1,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "llama-3.1-405b",
+    "benchmark_id": "arena-hard",
+    "score": 69.3,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "qwen2.5-14b",
+    "benchmark_id": "arena-hard",
+    "score": 68.3,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "gemma-2-27b",
+    "benchmark_id": "arena-hard",
+    "score": 57.5,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "llama-3.1-70b",
+    "benchmark_id": "arena-hard",
+    "score": 55.7,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "qwen-2.5-72b-base",
+    "benchmark_id": "bbh",
+    "score": 86.3,
+    "config": "base",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "llama-3-70b",
+    "benchmark_id": "bbh",
+    "score": 81,
+    "config": "base",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "mixtral-8x22b",
+    "benchmark_id": "bbh",
+    "score": 78.9,
+    "config": "base",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "claude-3.5-sonnet",
+    "benchmark_id": "gpqa",
+    "score": 59.4,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "gpqa",
+    "score": 53.6,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "mistral-large",
+    "benchmark_id": "gpqa",
+    "score": 52,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "llama-3.1-405b",
+    "benchmark_id": "gpqa",
+    "score": 51.1,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "qwen2.5-32b",
+    "benchmark_id": "gpqa",
+    "score": 49.5,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "qwen-2.5-72b",
+    "benchmark_id": "gpqa",
+    "score": 49,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "llama-3.1-70b",
+    "benchmark_id": "gpqa",
+    "score": 46.7,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "qwen-2.5-72b-base",
+    "benchmark_id": "gpqa",
+    "score": 45.9,
+    "config": "base",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "deepseek-v2.5",
+    "benchmark_id": "gpqa",
+    "score": 45.5,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "qwen2.5-14b",
+    "benchmark_id": "gpqa",
+    "score": 45.5,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "gpt-4o-mini",
+    "benchmark_id": "gpqa",
+    "score": 40.2,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "gemma-2-27b",
+    "benchmark_id": "gpqa",
+    "score": 38.4,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "llama-3-70b",
+    "benchmark_id": "gpqa",
+    "score": 36.3,
+    "config": "base",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "mixtral-8x22b",
+    "benchmark_id": "gpqa",
+    "score": 34.3,
+    "config": "base",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "llama-3.1-405b",
+    "benchmark_id": "gsm8k",
+    "score": 96.8,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "claude-3.5-sonnet",
+    "benchmark_id": "gsm8k",
+    "score": 96.4,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "gsm8k",
+    "score": 96.1,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "qwen2.5-32b",
+    "benchmark_id": "gsm8k",
+    "score": 95.9,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "qwen-2.5-72b",
+    "benchmark_id": "gsm8k",
+    "score": 95.8,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "llama-3.1-70b",
+    "benchmark_id": "gsm8k",
+    "score": 95.1,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "deepseek-v2.5",
+    "benchmark_id": "gsm8k",
+    "score": 95.1,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "qwen2.5-14b",
+    "benchmark_id": "gsm8k",
+    "score": 94.8,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "gpt-4o-mini",
+    "benchmark_id": "gsm8k",
+    "score": 93.2,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "mistral-large",
+    "benchmark_id": "gsm8k",
+    "score": 92.7,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "qwen-2.5-72b-base",
+    "benchmark_id": "gsm8k",
+    "score": 91.5,
+    "config": "base",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "gemma-2-27b",
+    "benchmark_id": "gsm8k",
+    "score": 90.4,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "mixtral-8x22b",
+    "benchmark_id": "gsm8k",
+    "score": 83.7,
+    "config": "base",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "llama-3-70b",
+    "benchmark_id": "gsm8k",
+    "score": 77.6,
+    "config": "base",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "mistral-large",
+    "benchmark_id": "humaneval",
+    "score": 92.1,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "claude-3.5-sonnet",
+    "benchmark_id": "humaneval",
+    "score": 92,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "humaneval",
+    "score": 91.5,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "llama-3.1-405b",
+    "benchmark_id": "humaneval",
+    "score": 89,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "deepseek-v2.5",
+    "benchmark_id": "humaneval",
+    "score": 89,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "qwen2.5-32b",
+    "benchmark_id": "humaneval",
+    "score": 88.4,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "gpt-4o-mini",
+    "benchmark_id": "humaneval",
+    "score": 88.4,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "qwen-2.5-72b",
+    "benchmark_id": "humaneval",
+    "score": 86.6,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "qwen2.5-14b",
+    "benchmark_id": "humaneval",
+    "score": 83.5,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "llama-3.1-70b",
+    "benchmark_id": "humaneval",
+    "score": 80.5,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "gemma-2-27b",
+    "benchmark_id": "humaneval",
+    "score": 78.7,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "qwen-2.5-72b-base",
+    "benchmark_id": "humaneval",
+    "score": 59.1,
+    "config": "base",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "llama-3-70b",
+    "benchmark_id": "humaneval",
+    "score": 48.2,
+    "config": "base",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "mixtral-8x22b",
+    "benchmark_id": "humaneval",
+    "score": 46.3,
+    "config": "base",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "llama-3.1-405b",
+    "benchmark_id": "ifeval",
+    "score": 86,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "ifeval",
+    "score": 84.3,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "qwen-2.5-72b",
+    "benchmark_id": "ifeval",
+    "score": 84.1,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "llama-3.1-70b",
+    "benchmark_id": "ifeval",
+    "score": 83.6,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "claude-3.5-sonnet",
+    "benchmark_id": "ifeval",
+    "score": 82.6,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "qwen2.5-14b",
+    "benchmark_id": "ifeval",
+    "score": 81,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "gpt-4o-mini",
+    "benchmark_id": "ifeval",
+    "score": 80.4,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "qwen2.5-32b",
+    "benchmark_id": "ifeval",
+    "score": 79.5,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "gemma-2-27b",
+    "benchmark_id": "ifeval",
+    "score": 77.1,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "deepseek-v2.5",
+    "benchmark_id": "ifeval",
+    "score": 73.9,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "mistral-large",
+    "benchmark_id": "ifeval",
+    "score": 64.1,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "claude-3.5-sonnet",
+    "benchmark_id": "livebench",
+    "score": 59.8,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "livebench",
+    "score": 56,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "llama-3.1-405b",
+    "benchmark_id": "livebench",
+    "score": 53.2,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "qwen-2.5-72b",
+    "benchmark_id": "livebench",
+    "score": 52.3,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "qwen2.5-32b",
+    "benchmark_id": "livebench",
+    "score": 50.7,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "mistral-large",
+    "benchmark_id": "livebench",
+    "score": 48.5,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "deepseek-v2.5",
+    "benchmark_id": "livebench",
+    "score": 47.3,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "llama-3.1-70b",
+    "benchmark_id": "livebench",
+    "score": 46.6,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "qwen2.5-14b",
+    "benchmark_id": "livebench",
+    "score": 44.4,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "gpt-4o-mini",
+    "benchmark_id": "livebench",
+    "score": 43.3,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "gemma-2-27b",
+    "benchmark_id": "livebench",
+    "score": 39.6,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "qwen-2.5-72b",
+    "benchmark_id": "livecodebench",
+    "score": 55.5,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "claude-3.5-sonnet",
+    "benchmark_id": "livecodebench",
+    "score": 54.1,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "qwen2.5-32b",
+    "benchmark_id": "livecodebench",
+    "score": 51.2,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "deepseek-v2.5",
+    "benchmark_id": "livecodebench",
+    "score": 49.4,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "livecodebench",
+    "score": 48,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "qwen2.5-14b",
+    "benchmark_id": "livecodebench",
+    "score": 42.6,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "mistral-large",
+    "benchmark_id": "livecodebench",
+    "score": 42.2,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "llama-3.1-405b",
+    "benchmark_id": "livecodebench",
+    "score": 41.6,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "gpt-4o-mini",
+    "benchmark_id": "livecodebench",
+    "score": 40.7,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "llama-3.1-70b",
+    "benchmark_id": "livecodebench",
+    "score": 32.1,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "qwen-2.5-72b",
+    "benchmark_id": "math",
+    "score": 83.1,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "qwen2.5-32b",
+    "benchmark_id": "math",
+    "score": 83.1,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "qwen2.5-14b",
+    "benchmark_id": "math",
+    "score": 80,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "math",
+    "score": 76.6,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "deepseek-v2.5",
+    "benchmark_id": "math",
+    "score": 74.7,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "llama-3.1-405b",
+    "benchmark_id": "math",
+    "score": 73.8,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "claude-3.5-sonnet",
+    "benchmark_id": "math",
+    "score": 71.1,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "gpt-4o-mini",
+    "benchmark_id": "math",
+    "score": 70.2,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "mistral-large",
+    "benchmark_id": "math",
+    "score": 69.9,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "llama-3.1-70b",
+    "benchmark_id": "math",
+    "score": 68,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "qwen-2.5-72b-base",
+    "benchmark_id": "math",
+    "score": 62.1,
+    "config": "base",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "gemma-2-27b",
+    "benchmark_id": "math",
+    "score": 54.4,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "llama-3-70b",
+    "benchmark_id": "math",
+    "score": 42.5,
+    "config": "base",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "mixtral-8x22b",
+    "benchmark_id": "math",
+    "score": 41.7,
+    "config": "base",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "claude-3.5-sonnet",
+    "benchmark_id": "mbpp",
+    "score": 89.2,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "qwen-2.5-72b",
+    "benchmark_id": "mbpp",
+    "score": 88.2,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "mbpp",
+    "score": 86.2,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "gpt-4o-mini",
+    "benchmark_id": "mbpp",
+    "score": 85.7,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "deepseek-v2.5",
+    "benchmark_id": "mbpp",
+    "score": 85.2,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "qwen-2.5-72b-base",
+    "benchmark_id": "mbpp",
+    "score": 84.7,
+    "config": "base",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "llama-3.1-405b",
+    "benchmark_id": "mbpp",
+    "score": 84.5,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "llama-3.1-70b",
+    "benchmark_id": "mbpp",
+    "score": 84.2,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "qwen2.5-32b",
+    "benchmark_id": "mbpp",
+    "score": 84,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "qwen2.5-14b",
+    "benchmark_id": "mbpp",
+    "score": 82,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "gemma-2-27b",
+    "benchmark_id": "mbpp",
+    "score": 81,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "mistral-large",
+    "benchmark_id": "mbpp",
+    "score": 80,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "mixtral-8x22b",
+    "benchmark_id": "mbpp",
+    "score": 71.7,
+    "config": "base",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "llama-3-70b",
+    "benchmark_id": "mbpp",
+    "score": 70.4,
+    "config": "base",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "qwen-2.5-72b-base",
+    "benchmark_id": "mmlu",
+    "score": 86.1,
+    "config": "base",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "llama-3-70b",
+    "benchmark_id": "mmlu",
+    "score": 79.5,
+    "config": "base",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "mixtral-8x22b",
+    "benchmark_id": "mmlu",
+    "score": 77.8,
+    "config": "base",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "mmlu-pro",
+    "score": 77,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "claude-3.5-sonnet",
+    "benchmark_id": "mmlu-pro",
+    "score": 76.1,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "llama-3.1-405b",
+    "benchmark_id": "mmlu-pro",
+    "score": 73.3,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "qwen-2.5-72b",
+    "benchmark_id": "mmlu-pro",
+    "score": 71.1,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "mistral-large",
+    "benchmark_id": "mmlu-pro",
+    "score": 69.4,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "qwen2.5-32b",
+    "benchmark_id": "mmlu-pro",
+    "score": 69,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "llama-3.1-70b",
+    "benchmark_id": "mmlu-pro",
+    "score": 66.4,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "deepseek-v2.5",
+    "benchmark_id": "mmlu-pro",
+    "score": 65.8,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "qwen2.5-14b",
+    "benchmark_id": "mmlu-pro",
+    "score": 63.7,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "gpt-4o-mini",
+    "benchmark_id": "mmlu-pro",
+    "score": 63.1,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "qwen-2.5-72b-base",
+    "benchmark_id": "mmlu-pro",
+    "score": 58.1,
+    "config": "base",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "gemma-2-27b",
+    "benchmark_id": "mmlu-pro",
+    "score": 55.5,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "llama-3-70b",
+    "benchmark_id": "mmlu-pro",
+    "score": 52.8,
+    "config": "base",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "mixtral-8x22b",
+    "benchmark_id": "mmlu-pro",
+    "score": 51.6,
+    "config": "base",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "mmlu-redux",
+    "score": 88.3,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "qwen-2.5-72b",
+    "benchmark_id": "mmlu-redux",
+    "score": 86.8,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "llama-3.1-405b",
+    "benchmark_id": "mmlu-redux",
+    "score": 86.2,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "claude-3.5-sonnet",
+    "benchmark_id": "mmlu-redux",
+    "score": 86,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "qwen2.5-32b",
+    "benchmark_id": "mmlu-redux",
+    "score": 83.9,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "qwen-2.5-72b-base",
+    "benchmark_id": "mmlu-redux",
+    "score": 83.9,
+    "config": "base",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "mistral-large",
+    "benchmark_id": "mmlu-redux",
+    "score": 83,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "llama-3.1-70b",
+    "benchmark_id": "mmlu-redux",
+    "score": 83,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "gpt-4o-mini",
+    "benchmark_id": "mmlu-redux",
+    "score": 81.5,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "deepseek-v2.5",
+    "benchmark_id": "mmlu-redux",
+    "score": 80.4,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "qwen2.5-14b",
+    "benchmark_id": "mmlu-redux",
+    "score": 80,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "gemma-2-27b",
+    "benchmark_id": "mmlu-redux",
+    "score": 75.7,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "llama-3-70b",
+    "benchmark_id": "mmlu-redux",
+    "score": 75,
+    "config": "base",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "mixtral-8x22b",
+    "benchmark_id": "mmlu-redux",
+    "score": 72.9,
+    "config": "base",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "claude-3.5-sonnet",
+    "benchmark_id": "multipl-e",
+    "score": 80,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "mistral-large",
+    "benchmark_id": "multipl-e",
+    "score": 76.9,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "qwen2.5-32b",
+    "benchmark_id": "multipl-e",
+    "score": 75.4,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "qwen-2.5-72b",
+    "benchmark_id": "multipl-e",
+    "score": 75.1,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "multipl-e",
+    "score": 75.1,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "gpt-4o-mini",
+    "benchmark_id": "multipl-e",
+    "score": 75,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "llama-3.1-405b",
+    "benchmark_id": "multipl-e",
+    "score": 73.5,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "deepseek-v2.5",
+    "benchmark_id": "multipl-e",
+    "score": 73.5,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "qwen2.5-14b",
+    "benchmark_id": "multipl-e",
+    "score": 72.8,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "llama-3.1-70b",
+    "benchmark_id": "multipl-e",
+    "score": 68.2,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "gemma-2-27b",
+    "benchmark_id": "multipl-e",
+    "score": 67.4,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "qwen-2.5-72b-base",
+    "benchmark_id": "multipl-e",
+    "score": 60.5,
+    "config": "base",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "mixtral-8x22b",
+    "benchmark_id": "multipl-e",
+    "score": 46.7,
+    "config": "base",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  },
+  {
+    "model_id": "llama-3-70b",
+    "benchmark_id": "multipl-e",
+    "score": 46.3,
+    "config": "base",
+    "source": {
+      "kind": "manual",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "reported_by": "Qwen2.5 blog (comparison tables)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-09-19"
+    }
+  }
+]

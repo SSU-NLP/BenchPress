@@ -1,0 +1,168 @@
+[
+  {
+    "model_id": "claude-3.7-sonnet",
+    "benchmark_id": "bbq",
+    "score": 98.8,
+    "config": "standard thinking mode, Ambig Accuracy",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-3.7-sonnet__system-card.pdf",
+      "ref": "p.11",
+      "fetched_at": "2026-06-08T05:49:55.351Z"
+    },
+    "variants": [
+      {
+        "score": 84,
+        "config": "standard thinking mode, Disambig Accuracy",
+        "source": {
+          "kind": "tech_report",
+          "url": "claude-3.7-sonnet__system-card.pdf",
+          "ref": "p.11",
+          "fetched_at": "2026-06-08T05:49:55.351Z"
+        }
+      },
+      {
+        "score": 0.89,
+        "config": "standard thinking mode, Ambig Bias",
+        "source": {
+          "kind": "tech_report",
+          "url": "claude-3.7-sonnet__system-card.pdf",
+          "ref": "p.11",
+          "fetched_at": "2026-06-08T05:49:55.351Z"
+        }
+      },
+      {
+        "score": -0.98,
+        "config": "standard thinking mode, Disambig Bias",
+        "source": {
+          "kind": "tech_report",
+          "url": "claude-3.7-sonnet__system-card.pdf",
+          "ref": "p.11",
+          "fetched_at": "2026-06-08T05:49:55.351Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "claude-3-opus",
+    "benchmark_id": "bbq",
+    "score": 98.6,
+    "config": "standard thinking mode, Ambig Accuracy",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-3.7-sonnet__system-card.pdf",
+      "ref": "p.11",
+      "reported_by": "claude-3.7-sonnet",
+      "fetched_at": "2026-06-08T05:49:55.351Z"
+    },
+    "variants": [
+      {
+        "score": 79,
+        "config": "standard thinking mode, Disambig Accuracy",
+        "source": {
+          "kind": "tech_report",
+          "url": "claude-3.7-sonnet__system-card.pdf",
+          "ref": "p.11",
+          "reported_by": "claude-3.7-sonnet",
+          "fetched_at": "2026-06-08T05:49:55.351Z"
+        }
+      },
+      {
+        "score": 1.21,
+        "config": "standard thinking mode, Ambig Bias",
+        "source": {
+          "kind": "tech_report",
+          "url": "claude-3.7-sonnet__system-card.pdf",
+          "ref": "p.11",
+          "reported_by": "claude-3.7-sonnet",
+          "fetched_at": "2026-06-08T05:49:55.351Z"
+        }
+      },
+      {
+        "score": 0.77,
+        "config": "standard thinking mode, Disambig Bias",
+        "source": {
+          "kind": "tech_report",
+          "url": "claude-3.7-sonnet__system-card.pdf",
+          "ref": "p.11",
+          "reported_by": "claude-3.7-sonnet",
+          "fetched_at": "2026-06-08T05:49:55.351Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "claude-3-sonnet",
+    "benchmark_id": "bbq",
+    "score": 93.6,
+    "config": "standard thinking mode, Ambig Accuracy",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-3.7-sonnet__system-card.pdf",
+      "ref": "p.11",
+      "reported_by": "claude-3.7-sonnet",
+      "fetched_at": "2026-06-08T05:49:55.351Z"
+    },
+    "variants": [
+      {
+        "score": 90.4,
+        "config": "standard thinking mode, Disambig Accuracy",
+        "source": {
+          "kind": "tech_report",
+          "url": "claude-3.7-sonnet__system-card.pdf",
+          "ref": "p.11",
+          "reported_by": "claude-3.7-sonnet",
+          "fetched_at": "2026-06-08T05:49:55.351Z"
+        }
+      },
+      {
+        "score": 4.95,
+        "config": "standard thinking mode, Ambig Bias",
+        "source": {
+          "kind": "tech_report",
+          "url": "claude-3.7-sonnet__system-card.pdf",
+          "ref": "p.11",
+          "reported_by": "claude-3.7-sonnet",
+          "fetched_at": "2026-06-08T05:49:55.351Z"
+        }
+      },
+      {
+        "score": 1.22,
+        "config": "standard thinking mode, Disambig Bias",
+        "source": {
+          "kind": "tech_report",
+          "url": "claude-3.7-sonnet__system-card.pdf",
+          "ref": "p.11",
+          "reported_by": "claude-3.7-sonnet",
+          "fetched_at": "2026-06-08T05:49:55.351Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "claude-3.7-sonnet",
+    "benchmark_id": "gpqa",
+    "score": 84.8,
+    "config": "Diamond, extended thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-3.7-sonnet__system-card.pdf",
+      "ref": "p.17",
+      "fetched_at": "2026-06-08T05:49:55.351Z",
+      "published": "2025-02"
+    },
+    "variants": [
+      {
+        "score": 68,
+        "config": "Diamond, no extended thinking",
+        "source": {
+          "kind": "tech_report",
+          "url": "claude-3.7-sonnet__system-card.pdf",
+          "ref": "p.17",
+          "fetched_at": "2026-06-08T05:49:55.351Z",
+          "published": "2025-02"
+        }
+      }
+    ]
+  }
+]

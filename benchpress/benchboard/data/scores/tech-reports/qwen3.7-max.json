@@ -1,0 +1,2888 @@
+[
+  {
+    "model_id": "qwen3.7-max",
+    "benchmark_id": "apex",
+    "score": 44.5,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v4-pro",
+    "benchmark_id": "apex",
+    "score": 38.3,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "claude-opus-4.6",
+    "benchmark_id": "apex",
+    "score": 34.5,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "kimi-k2.6",
+    "benchmark_id": "apex",
+    "score": 24,
+    "config": "thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "glm-5.1",
+    "benchmark_id": "apex",
+    "score": 11.5,
+    "config": "thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "qwen3.6-plus",
+    "benchmark_id": "apex",
+    "score": 8.8,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "claude-opus-4.6",
+    "benchmark_id": "bfcl-v4",
+    "score": 76.7,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "qwen3.7-max",
+    "benchmark_id": "bfcl-v4",
+    "score": 75,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "kimi-k2.6",
+    "benchmark_id": "bfcl-v4",
+    "score": 71.3,
+    "config": "thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "glm-5.1",
+    "benchmark_id": "bfcl-v4",
+    "score": 70.9,
+    "config": "thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v4-pro",
+    "benchmark_id": "bfcl-v4",
+    "score": 70.6,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "qwen3.6-plus",
+    "benchmark_id": "bfcl-v4",
+    "score": 68.9,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "claude-opus-4.6",
+    "benchmark_id": "claweval",
+    "score": 70.4,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "qwen3.7-max",
+    "benchmark_id": "claweval",
+    "score": 65.2,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "glm-5.1",
+    "benchmark_id": "claweval",
+    "score": 62.7,
+    "config": "thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "kimi-k2.6",
+    "benchmark_id": "claweval",
+    "score": 61.5,
+    "config": "thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v4-pro",
+    "benchmark_id": "claweval",
+    "score": 58.4,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "qwen3.6-plus",
+    "benchmark_id": "claweval",
+    "score": 57.1,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "claude-opus-4.6",
+    "benchmark_id": "coworkbench",
+    "score": 68.2,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "qwen3.7-max",
+    "benchmark_id": "coworkbench",
+    "score": 67.2,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v4-pro",
+    "benchmark_id": "coworkbench",
+    "score": 66.3,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "glm-5.1",
+    "benchmark_id": "coworkbench",
+    "score": 66,
+    "config": "thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "qwen3.6-plus",
+    "benchmark_id": "coworkbench",
+    "score": 64.5,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "kimi-k2.6",
+    "benchmark_id": "coworkbench",
+    "score": 58.2,
+    "config": "thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v4-pro",
+    "benchmark_id": "critpt",
+    "score": 12.9,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "claude-opus-4.6",
+    "benchmark_id": "critpt",
+    "score": 12.6,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "qwen3.7-max",
+    "benchmark_id": "critpt",
+    "score": 11.4,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "kimi-k2.6",
+    "benchmark_id": "critpt",
+    "score": 8,
+    "config": "thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "glm-5.1",
+    "benchmark_id": "critpt",
+    "score": 4.6,
+    "config": "thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "qwen3.6-plus",
+    "benchmark_id": "critpt",
+    "score": 2.9,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "qwen3.7-max",
+    "benchmark_id": "global-piqa",
+    "score": 91.4,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "claude-opus-4.6",
+    "benchmark_id": "global-piqa",
+    "score": 91.2,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v4-pro",
+    "benchmark_id": "global-piqa",
+    "score": 90.5,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "qwen3.6-plus",
+    "benchmark_id": "global-piqa",
+    "score": 89.8,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "glm-5.1",
+    "benchmark_id": "global-piqa",
+    "score": 89.5,
+    "config": "thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "kimi-k2.6",
+    "benchmark_id": "global-piqa",
+    "score": 89.2,
+    "config": "thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "qwen3.7-max",
+    "benchmark_id": "gpqa",
+    "score": 92.4,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "claude-opus-4.6",
+    "benchmark_id": "gpqa",
+    "score": 91.3,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "kimi-k2.6",
+    "benchmark_id": "gpqa",
+    "score": 90.5,
+    "config": "thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "qwen3.6-plus",
+    "benchmark_id": "gpqa",
+    "score": 90.4,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v4-pro",
+    "benchmark_id": "gpqa",
+    "score": 90.1,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "glm-5.1",
+    "benchmark_id": "gpqa",
+    "score": 86.2,
+    "config": "thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "qwen3.7-max",
+    "benchmark_id": "hle",
+    "score": 41.4,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "claude-opus-4.6",
+    "benchmark_id": "hle",
+    "score": 40,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v4-pro",
+    "benchmark_id": "hle",
+    "score": 37.7,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "kimi-k2.6",
+    "benchmark_id": "hle",
+    "score": 36.4,
+    "config": "thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "glm-5.1",
+    "benchmark_id": "hle",
+    "score": 34.7,
+    "config": "thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "qwen3.6-plus",
+    "benchmark_id": "hle",
+    "score": 28.8,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "kimi-k2.6",
+    "benchmark_id": "hle-w-tool",
+    "score": 54,
+    "config": "thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "qwen3.7-max",
+    "benchmark_id": "hle-w-tool",
+    "score": 53.5,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "claude-opus-4.6",
+    "benchmark_id": "hle-w-tool",
+    "score": 53,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "glm-5.1",
+    "benchmark_id": "hle-w-tool",
+    "score": 52.3,
+    "config": "thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "qwen3.6-plus",
+    "benchmark_id": "hle-w-tool",
+    "score": 50.2,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v4-pro",
+    "benchmark_id": "hle-w-tool",
+    "score": 48.2,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "qwen3.7-max",
+    "benchmark_id": "hmmt-feb-2026",
+    "score": 97.1,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "claude-opus-4.6",
+    "benchmark_id": "hmmt-feb-2026",
+    "score": 96.2,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v4-pro",
+    "benchmark_id": "hmmt-feb-2026",
+    "score": 95.2,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "kimi-k2.6",
+    "benchmark_id": "hmmt-feb-2026",
+    "score": 92.7,
+    "config": "thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "glm-5.1",
+    "benchmark_id": "hmmt-feb-2026",
+    "score": 89.4,
+    "config": "thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "qwen3.6-plus",
+    "benchmark_id": "hmmt-feb-2026",
+    "score": 87.8,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "qwen3.7-max",
+    "benchmark_id": "ifbench",
+    "score": 79.1,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v4-pro",
+    "benchmark_id": "ifbench",
+    "score": 77,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "kimi-k2.6",
+    "benchmark_id": "ifbench",
+    "score": 76,
+    "config": "thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "glm-5.1",
+    "benchmark_id": "ifbench",
+    "score": 76,
+    "config": "thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "qwen3.6-plus",
+    "benchmark_id": "ifbench",
+    "score": 74.2,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "claude-opus-4.6",
+    "benchmark_id": "ifbench",
+    "score": 62.5,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "kimi-k2.6",
+    "benchmark_id": "ifeval",
+    "score": 94.5,
+    "config": "thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "glm-5.1",
+    "benchmark_id": "ifeval",
+    "score": 94.5,
+    "config": "thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "qwen3.6-plus",
+    "benchmark_id": "ifeval",
+    "score": 94.3,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "qwen3.7-max",
+    "benchmark_id": "ifeval",
+    "score": 94.3,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "claude-opus-4.6",
+    "benchmark_id": "ifeval",
+    "score": 91.9,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v4-pro",
+    "benchmark_id": "ifeval",
+    "score": 91.9,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "qwen3.7-max",
+    "benchmark_id": "imo-answerbench",
+    "score": 90,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v4-pro",
+    "benchmark_id": "imo-answerbench",
+    "score": 89.8,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "kimi-k2.6",
+    "benchmark_id": "imo-answerbench",
+    "score": 86,
+    "config": "thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "glm-5.1",
+    "benchmark_id": "imo-answerbench",
+    "score": 83.8,
+    "config": "thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "qwen3.6-plus",
+    "benchmark_id": "imo-answerbench",
+    "score": 83.8,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "claude-opus-4.6",
+    "benchmark_id": "imo-answerbench",
+    "score": 75.3,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "claude-opus-4.6",
+    "benchmark_id": "include",
+    "score": 87.4,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "qwen3.7-max",
+    "benchmark_id": "include",
+    "score": 86.2,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v4-pro",
+    "benchmark_id": "include",
+    "score": 86.1,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "qwen3.6-plus",
+    "benchmark_id": "include",
+    "score": 85.1,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "glm-5.1",
+    "benchmark_id": "include",
+    "score": 84.3,
+    "config": "thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "kimi-k2.6",
+    "benchmark_id": "include",
+    "score": 84.2,
+    "config": "thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v4-pro",
+    "benchmark_id": "livecodebench",
+    "score": 93.5,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "qwen3.7-max",
+    "benchmark_id": "livecodebench",
+    "score": 91.6,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "kimi-k2.6",
+    "benchmark_id": "livecodebench",
+    "score": 89.6,
+    "config": "thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "claude-opus-4.6",
+    "benchmark_id": "livecodebench",
+    "score": 88.8,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "qwen3.6-plus",
+    "benchmark_id": "livecodebench",
+    "score": 87.1,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "qwen3.7-max",
+    "benchmark_id": "maxife",
+    "score": 89.2,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v4-pro",
+    "benchmark_id": "maxife",
+    "score": 88.9,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "qwen3.6-plus",
+    "benchmark_id": "maxife",
+    "score": 88.2,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "kimi-k2.6",
+    "benchmark_id": "maxife",
+    "score": 87.7,
+    "config": "thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "glm-5.1",
+    "benchmark_id": "maxife",
+    "score": 87.7,
+    "config": "thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "claude-opus-4.6",
+    "benchmark_id": "maxife",
+    "score": 81.3,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "qwen3.7-max",
+    "benchmark_id": "mcp-atlas",
+    "score": 76.4,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "claude-opus-4.6",
+    "benchmark_id": "mcp-atlas",
+    "score": 75.8,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "qwen3.6-plus",
+    "benchmark_id": "mcp-atlas",
+    "score": 74.1,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v4-pro",
+    "benchmark_id": "mcp-atlas",
+    "score": 73.6,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "glm-5.1",
+    "benchmark_id": "mcp-atlas",
+    "score": 71.8,
+    "config": "thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "kimi-k2.6",
+    "benchmark_id": "mcp-atlas",
+    "score": 66.6,
+    "config": "thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "qwen3.7-max",
+    "benchmark_id": "mcp-mark",
+    "score": 60.8,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "glm-5.1",
+    "benchmark_id": "mcp-mark",
+    "score": 57.5,
+    "config": "thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v4-pro",
+    "benchmark_id": "mcp-mark",
+    "score": 57.1,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "claude-opus-4.6",
+    "benchmark_id": "mcp-mark",
+    "score": 56.7,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "kimi-k2.6",
+    "benchmark_id": "mcp-mark",
+    "score": 55.9,
+    "config": "thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "qwen3.6-plus",
+    "benchmark_id": "mcp-mark",
+    "score": 48.2,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "claude-opus-4.6",
+    "benchmark_id": "mmlu-pro",
+    "score": 89.7,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "qwen3.7-max",
+    "benchmark_id": "mmlu-pro",
+    "score": 89.6,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "qwen3.6-plus",
+    "benchmark_id": "mmlu-pro",
+    "score": 88.5,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v4-pro",
+    "benchmark_id": "mmlu-pro",
+    "score": 87.5,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "kimi-k2.6",
+    "benchmark_id": "mmlu-pro",
+    "score": 87.1,
+    "config": "thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "glm-5.1",
+    "benchmark_id": "mmlu-pro",
+    "score": 86.3,
+    "config": "thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "qwen3.7-max",
+    "benchmark_id": "mmlu-prox",
+    "score": 87,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "claude-opus-4.6",
+    "benchmark_id": "mmlu-prox",
+    "score": 86.1,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "qwen3.6-plus",
+    "benchmark_id": "mmlu-prox",
+    "score": 84.7,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "glm-5.1",
+    "benchmark_id": "mmlu-prox",
+    "score": 83.9,
+    "config": "thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v4-pro",
+    "benchmark_id": "mmlu-prox",
+    "score": 83.9,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "kimi-k2.6",
+    "benchmark_id": "mmlu-prox",
+    "score": 83.7,
+    "config": "thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "kimi-k2.6",
+    "benchmark_id": "mmlu-redux",
+    "score": 95.3,
+    "config": "thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "claude-opus-4.6",
+    "benchmark_id": "mmlu-redux",
+    "score": 95.2,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "qwen3.7-max",
+    "benchmark_id": "mmlu-redux",
+    "score": 95,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v4-pro",
+    "benchmark_id": "mmlu-redux",
+    "score": 94.8,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "qwen3.6-plus",
+    "benchmark_id": "mmlu-redux",
+    "score": 94.5,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "glm-5.1",
+    "benchmark_id": "mmlu-redux",
+    "score": 94.3,
+    "config": "thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "claude-opus-4.6",
+    "benchmark_id": "mmmlu",
+    "score": 90.6,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "qwen3.7-max",
+    "benchmark_id": "mmmlu",
+    "score": 90.3,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "qwen3.6-plus",
+    "benchmark_id": "mmmlu",
+    "score": 89.5,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v4-pro",
+    "benchmark_id": "mmmlu",
+    "score": 87.9,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "kimi-k2.6",
+    "benchmark_id": "mmmlu",
+    "score": 87.5,
+    "config": "thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "glm-5.1",
+    "benchmark_id": "mmmlu",
+    "score": 87.2,
+    "config": "thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "qwen3.7-max",
+    "benchmark_id": "mrcr-v2-128k",
+    "score": 90.4,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "qwen3.6-plus",
+    "benchmark_id": "mrcr-v2-128k",
+    "score": 85.9,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "claude-opus-4.6",
+    "benchmark_id": "mrcr-v2-128k",
+    "score": 84,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v4-pro",
+    "benchmark_id": "mrcr-v2-128k",
+    "score": 74.4,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "kimi-k2.6",
+    "benchmark_id": "mrcr-v2-128k",
+    "score": 63.1,
+    "config": "thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "glm-5.1",
+    "benchmark_id": "mrcr-v2-128k",
+    "score": 62,
+    "config": "thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "claude-opus-4.6",
+    "benchmark_id": "nl2repo",
+    "score": 47.6,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "qwen3.7-max",
+    "benchmark_id": "nl2repo",
+    "score": 47.2,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "kimi-k2.6",
+    "benchmark_id": "nl2repo",
+    "score": 42.8,
+    "config": "thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "glm-5.1",
+    "benchmark_id": "nl2repo",
+    "score": 41,
+    "config": "thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v4-pro",
+    "benchmark_id": "nl2repo",
+    "score": 35.5,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "qwen3.6-plus",
+    "benchmark_id": "nl2repo",
+    "score": 34.4,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "claude-opus-4.6",
+    "benchmark_id": "nova-63",
+    "score": 59.1,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "qwen3.7-max",
+    "benchmark_id": "nova-63",
+    "score": 59,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "qwen3.6-plus",
+    "benchmark_id": "nova-63",
+    "score": 57.9,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "kimi-k2.6",
+    "benchmark_id": "nova-63",
+    "score": 56.7,
+    "config": "thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "glm-5.1",
+    "benchmark_id": "nova-63",
+    "score": 54.6,
+    "config": "thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v4-pro",
+    "benchmark_id": "nova-63",
+    "score": 52.8,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "qwen3.7-max",
+    "benchmark_id": "polymath",
+    "score": 86.5,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "kimi-k2.6",
+    "benchmark_id": "polymath",
+    "score": 82.7,
+    "config": "thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "claude-opus-4.6",
+    "benchmark_id": "polymath",
+    "score": 80.2,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "qwen3.6-plus",
+    "benchmark_id": "polymath",
+    "score": 77.4,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v4-pro",
+    "benchmark_id": "polymath",
+    "score": 72,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "glm-5.1",
+    "benchmark_id": "polymath",
+    "score": 67.6,
+    "config": "thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "claude-opus-4.6",
+    "benchmark_id": "qwenclaw",
+    "score": 65.5,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "qwen3.7-max",
+    "benchmark_id": "qwenclaw",
+    "score": 64.3,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v4-pro",
+    "benchmark_id": "qwenclaw",
+    "score": 59.2,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "glm-5.1",
+    "benchmark_id": "qwenclaw",
+    "score": 58.7,
+    "config": "thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "qwen3.6-plus",
+    "benchmark_id": "qwenclaw",
+    "score": 57.2,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "kimi-k2.6",
+    "benchmark_id": "qwenclaw",
+    "score": 54.7,
+    "config": "thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "qwen3.7-max",
+    "benchmark_id": "qwenworldbench",
+    "score": 57.3,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "claude-opus-4.6",
+    "benchmark_id": "qwenworldbench",
+    "score": 56.1,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v4-pro",
+    "benchmark_id": "qwenworldbench",
+    "score": 52.3,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "kimi-k2.6",
+    "benchmark_id": "qwenworldbench",
+    "score": 50.9,
+    "config": "thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "glm-5.1",
+    "benchmark_id": "qwenworldbench",
+    "score": 50.2,
+    "config": "thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "qwen3.6-plus",
+    "benchmark_id": "qwenworldbench",
+    "score": 47.6,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "qwen3.7-max",
+    "benchmark_id": "scicode",
+    "score": 53.5,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "kimi-k2.6",
+    "benchmark_id": "scicode",
+    "score": 52.2,
+    "config": "thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "claude-opus-4.6",
+    "benchmark_id": "scicode",
+    "score": 51.9,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "glm-5.1",
+    "benchmark_id": "scicode",
+    "score": 45.1,
+    "config": "thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "qwen3.6-plus",
+    "benchmark_id": "scicode",
+    "score": 41.4,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "qwen3.7-max",
+    "benchmark_id": "skillsbench",
+    "score": 59.2,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "kimi-k2.6",
+    "benchmark_id": "skillsbench",
+    "score": 56.2,
+    "config": "thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "glm-5.1",
+    "benchmark_id": "skillsbench",
+    "score": 53.1,
+    "config": "thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v4-pro",
+    "benchmark_id": "skillsbench",
+    "score": 52.3,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "qwen3.6-plus",
+    "benchmark_id": "skillsbench",
+    "score": 45.7,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "claude-opus-4.6",
+    "benchmark_id": "spreadsheetbench",
+    "score": 89.3,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "qwen3.7-max",
+    "benchmark_id": "spreadsheetbench",
+    "score": 87,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "glm-5.1",
+    "benchmark_id": "spreadsheetbench",
+    "score": 85.2,
+    "config": "thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v4-pro",
+    "benchmark_id": "spreadsheetbench",
+    "score": 84.9,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "kimi-k2.6",
+    "benchmark_id": "spreadsheetbench",
+    "score": 84.5,
+    "config": "thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "qwen3.6-plus",
+    "benchmark_id": "spreadsheetbench",
+    "score": 80.2,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "qwen3.7-max",
+    "benchmark_id": "supergpqa",
+    "score": 73.6,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "claude-opus-4.6",
+    "benchmark_id": "supergpqa",
+    "score": 72.5,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "qwen3.6-plus",
+    "benchmark_id": "supergpqa",
+    "score": 71.6,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "kimi-k2.6",
+    "benchmark_id": "supergpqa",
+    "score": 71.3,
+    "config": "thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v4-pro",
+    "benchmark_id": "supergpqa",
+    "score": 69.9,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "glm-5.1",
+    "benchmark_id": "supergpqa",
+    "score": 68,
+    "config": "thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "qwen3.7-max",
+    "benchmark_id": "swe-bench-multilingual",
+    "score": 78.3,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "claude-opus-4.6",
+    "benchmark_id": "swe-bench-multilingual",
+    "score": 77.5,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "kimi-k2.6",
+    "benchmark_id": "swe-bench-multilingual",
+    "score": 76.7,
+    "config": "thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v4-pro",
+    "benchmark_id": "swe-bench-multilingual",
+    "score": 76.2,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "qwen3.6-plus",
+    "benchmark_id": "swe-bench-multilingual",
+    "score": 73.8,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "qwen3.7-max",
+    "benchmark_id": "swe-bench-pro",
+    "score": 60.6,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "kimi-k2.6",
+    "benchmark_id": "swe-bench-pro",
+    "score": 59.5,
+    "config": "thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v4-pro",
+    "benchmark_id": "swe-bench-pro",
+    "score": 59,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "glm-5.1",
+    "benchmark_id": "swe-bench-pro",
+    "score": 58.8,
+    "config": "thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "claude-opus-4.6",
+    "benchmark_id": "swe-bench-pro",
+    "score": 57.3,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "qwen3.6-plus",
+    "benchmark_id": "swe-bench-pro",
+    "score": 56.6,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "claude-opus-4.6",
+    "benchmark_id": "swe-bench-verified",
+    "score": 80.8,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v4-pro",
+    "benchmark_id": "swe-bench-verified",
+    "score": 80.6,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "qwen3.7-max",
+    "benchmark_id": "swe-bench-verified",
+    "score": 80.4,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "kimi-k2.6",
+    "benchmark_id": "swe-bench-verified",
+    "score": 80.2,
+    "config": "thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "qwen3.6-plus",
+    "benchmark_id": "swe-bench-verified",
+    "score": 78.8,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "qwen3.7-max",
+    "benchmark_id": "terminal-bench-2.0",
+    "score": 69.7,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v4-pro",
+    "benchmark_id": "terminal-bench-2.0",
+    "score": 67.9,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "kimi-k2.6",
+    "benchmark_id": "terminal-bench-2.0",
+    "score": 66.7,
+    "config": "thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "claude-opus-4.6",
+    "benchmark_id": "terminal-bench-2.0",
+    "score": 65.4,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "glm-5.1",
+    "benchmark_id": "terminal-bench-2.0",
+    "score": 63.5,
+    "config": "thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "qwen3.6-plus",
+    "benchmark_id": "terminal-bench-2.0",
+    "score": 61.6,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v4-pro",
+    "benchmark_id": "vitabench",
+    "score": 51.9,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "qwen3.7-max",
+    "benchmark_id": "vitabench",
+    "score": 47.9,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "glm-5.1",
+    "benchmark_id": "vitabench",
+    "score": 45.1,
+    "config": "thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "qwen3.6-plus",
+    "benchmark_id": "vitabench",
+    "score": 42.8,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "kimi-k2.6",
+    "benchmark_id": "vitabench",
+    "score": 39.1,
+    "config": "thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "qwen3.7-max",
+    "benchmark_id": "wmt24++",
+    "score": 85.8,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "qwen3.6-plus",
+    "benchmark_id": "wmt24++",
+    "score": 84.3,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "claude-opus-4.6",
+    "benchmark_id": "wmt24++",
+    "score": 82.7,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v4-pro",
+    "benchmark_id": "wmt24++",
+    "score": 82.2,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "glm-5.1",
+    "benchmark_id": "wmt24++",
+    "score": 81.8,
+    "config": "thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  },
+  {
+    "model_id": "kimi-k2.6",
+    "benchmark_id": "wmt24++",
+    "score": 81.6,
+    "config": "thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "qwen3.7-max__release-blog",
+      "ref": "Performance table",
+      "reported_by": "qwen3.7-max",
+      "fetched_at": "2026-06-19T08:19:38.829Z"
+    }
+  }
+]

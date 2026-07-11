@@ -1,0 +1,132 @@
+[
+  {
+    "model_id": "llama-3.1-8b",
+    "benchmark_id": "arc-challenge",
+    "score": 83.4,
+    "config": "0-shot",
+    "source": {
+      "kind": "manual",
+      "url": "https://github.com/meta-llama/llama-models/blob/main/models/llama3_1/MODEL_CARD.md",
+      "reported_by": "Meta Llama 3.1 model card (instruction tuned)",
+      "fetched_at": "2026-06-17T00:00:00Z",
+      "published": "2024-07-23"
+    }
+  },
+  {
+    "model_id": "llama-3.1-8b",
+    "benchmark_id": "gpqa",
+    "score": 30.4,
+    "config": "0-shot, CoT",
+    "source": {
+      "kind": "manual",
+      "url": "https://github.com/meta-llama/llama-models/blob/main/models/llama3_1/MODEL_CARD.md",
+      "reported_by": "Meta Llama 3.1 model card (instruction tuned)",
+      "fetched_at": "2026-06-17T00:00:00Z",
+      "published": "2024-07-23"
+    }
+  },
+  {
+    "model_id": "llama-3.1-8b",
+    "benchmark_id": "gsm8k",
+    "score": 84.5,
+    "config": "8-shot, CoT",
+    "source": {
+      "kind": "manual",
+      "url": "https://github.com/meta-llama/llama-models/blob/main/models/llama3_1/MODEL_CARD.md",
+      "reported_by": "Meta Llama 3.1 model card (instruction tuned)",
+      "fetched_at": "2026-06-17T00:00:00Z",
+      "published": "2024-07-23"
+    }
+  },
+  {
+    "model_id": "llama-3.1-8b",
+    "benchmark_id": "humaneval",
+    "score": 72.6,
+    "config": "0-shot",
+    "source": {
+      "kind": "manual",
+      "url": "https://github.com/meta-llama/llama-models/blob/main/models/llama3_1/MODEL_CARD.md",
+      "reported_by": "Meta Llama 3.1 model card (instruction tuned)",
+      "fetched_at": "2026-06-17T00:00:00Z",
+      "published": "2024-07-23"
+    }
+  },
+  {
+    "model_id": "llama-3.1-8b",
+    "benchmark_id": "ifeval",
+    "score": 80.4,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://github.com/meta-llama/llama-models/blob/main/models/llama3_1/MODEL_CARD.md",
+      "reported_by": "Meta Llama 3.1 model card (instruction tuned)",
+      "fetched_at": "2026-06-17T00:00:00Z",
+      "published": "2024-07-23"
+    }
+  },
+  {
+    "model_id": "llama-3.1-8b",
+    "benchmark_id": "math",
+    "score": 51.9,
+    "config": "0-shot, CoT",
+    "source": {
+      "kind": "manual",
+      "url": "https://github.com/meta-llama/llama-models/blob/main/models/llama3_1/MODEL_CARD.md",
+      "reported_by": "Meta Llama 3.1 model card (instruction tuned)",
+      "fetched_at": "2026-06-17T00:00:00Z",
+      "published": "2024-07-23"
+    }
+  },
+  {
+    "model_id": "llama-3.1-8b",
+    "benchmark_id": "mbpp+",
+    "score": 72.8,
+    "config": "base, 0-shot",
+    "source": {
+      "kind": "manual",
+      "url": "https://github.com/meta-llama/llama-models/blob/main/models/llama3_1/MODEL_CARD.md",
+      "reported_by": "Meta Llama 3.1 model card (instruction tuned)",
+      "fetched_at": "2026-06-17T00:00:00Z",
+      "published": "2024-07-23"
+    }
+  },
+  {
+    "model_id": "llama-3.1-8b",
+    "benchmark_id": "mmlu",
+    "score": 73,
+    "config": "0-shot, CoT",
+    "source": {
+      "kind": "manual",
+      "url": "https://github.com/meta-llama/llama-models/blob/main/models/llama3_1/MODEL_CARD.md",
+      "reported_by": "Meta Llama 3.1 model card (instruction tuned)",
+      "fetched_at": "2026-06-17T00:00:00Z",
+      "published": "2024-07-23"
+    },
+    "variants": [
+      {
+        "score": 69.4,
+        "config": "5-shot",
+        "source": {
+          "kind": "manual",
+          "url": "https://github.com/meta-llama/llama-models/blob/main/models/llama3_1/MODEL_CARD.md",
+          "reported_by": "Meta Llama 3.1 model card (instruction tuned)",
+          "fetched_at": "2026-06-17T00:00:00Z",
+          "published": "2024-07-23"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "llama-3.1-8b",
+    "benchmark_id": "mmlu-pro",
+    "score": 48.3,
+    "config": "5-shot, CoT",
+    "source": {
+      "kind": "manual",
+      "url": "https://github.com/meta-llama/llama-models/blob/main/models/llama3_1/MODEL_CARD.md",
+      "reported_by": "Meta Llama 3.1 model card (instruction tuned)",
+      "fetched_at": "2026-06-17T00:00:00Z",
+      "published": "2024-07-23"
+    }
+  }
+]

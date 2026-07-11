@@ -1,0 +1,37 @@
+[
+  {
+    "model_id": "glm-4.7",
+    "benchmark_id": "math",
+    "score": 95,
+    "config": "thinking",
+    "source": {
+      "kind": "manual",
+      "url": "local://user-provided/glm-4.7-math-thinking-2026-07-09",
+      "ref": "User-provided correction: GLM-4.7 thinking model MATH score",
+      "reported_by": "user",
+      "fetched_at": "2026-07-09T00:00:00Z"
+    },
+    "extra": {
+      "mode": "thinking",
+      "user_correction": true
+    }
+  },
+  {
+    "model_id": "kimi-k2",
+    "benchmark_id": "gpqa",
+    "score": 76.6,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/gpqa#kimi-k2-0711",
+      "ref": "PricePerToken benchmark leaderboard: Kimi K2 0711",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-07-09T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Kimi",
+      "pricepertoken_model": "Kimi K2 0711",
+      "user_correction": true
+    }
+  }
+]

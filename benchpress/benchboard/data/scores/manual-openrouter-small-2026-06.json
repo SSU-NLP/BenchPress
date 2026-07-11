@@ -1,0 +1,1094 @@
+[
+  {
+    "model_id": "qwen2.5-vl-3b",
+    "benchmark_id": "ai2d",
+    "score": 81.5,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/Qwen/Qwen2.5-VL-3B-Instruct",
+      "reported_by": "Qwen2.5-VL-3B-Instruct model card",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-01"
+    }
+  },
+  {
+    "model_id": "phi-3-medium",
+    "benchmark_id": "arc-challenge",
+    "score": 91.6,
+    "config": "10-shot",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2404.14219",
+      "reported_by": "Phi-3 Technical Report (arXiv:2404.14219)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-04-22"
+    }
+  },
+  {
+    "model_id": "phi-3-small",
+    "benchmark_id": "arc-challenge",
+    "score": 90.7,
+    "config": "10-shot",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2404.14219",
+      "reported_by": "Phi-3 Technical Report (arXiv:2404.14219)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-04-22"
+    }
+  },
+  {
+    "model_id": "phi-3-mini",
+    "benchmark_id": "arc-challenge",
+    "score": 84.9,
+    "config": "10-shot",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2404.14219",
+      "reported_by": "Phi-3 Technical Report (arXiv:2404.14219)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-04-22"
+    }
+  },
+  {
+    "model_id": "phi-3-medium",
+    "benchmark_id": "bbh",
+    "score": 81.4,
+    "config": "3-shot, CoT",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2404.14219",
+      "reported_by": "Phi-3 Technical Report (arXiv:2404.14219)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-04-22"
+    }
+  },
+  {
+    "model_id": "phi-3-small",
+    "benchmark_id": "bbh",
+    "score": 79.1,
+    "config": "3-shot, CoT",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2404.14219",
+      "reported_by": "Phi-3 Technical Report (arXiv:2404.14219)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-04-22"
+    }
+  },
+  {
+    "model_id": "phi-3-mini",
+    "benchmark_id": "bbh",
+    "score": 71.7,
+    "config": "3-shot, CoT",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2404.14219",
+      "reported_by": "Phi-3 Technical Report (arXiv:2404.14219)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-04-22"
+    }
+  },
+  {
+    "model_id": "qwen2.5-coder-14b",
+    "benchmark_id": "bigcodebench-instruct",
+    "score": 48.4,
+    "config": "Full",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2409.12186",
+      "reported_by": "Qwen2.5-Coder Technical Report (arXiv:2409.12186), Instruct",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-11-12"
+    }
+  },
+  {
+    "model_id": "qwen2.5-coder-7b",
+    "benchmark_id": "bigcodebench-instruct",
+    "score": 41,
+    "config": "Full",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2409.12186",
+      "reported_by": "Qwen2.5-Coder Technical Report (arXiv:2409.12186), Instruct",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-11-12"
+    }
+  },
+  {
+    "model_id": "qwen2.5-coder-3b",
+    "benchmark_id": "bigcodebench-instruct",
+    "score": 35.8,
+    "config": "Full",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2409.12186",
+      "reported_by": "Qwen2.5-Coder Technical Report (arXiv:2409.12186), Instruct",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-11-12"
+    }
+  },
+  {
+    "model_id": "qwen2.5-coder-1.5b",
+    "benchmark_id": "bigcodebench-instruct",
+    "score": 32.5,
+    "config": "Full",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2409.12186",
+      "reported_by": "Qwen2.5-Coder Technical Report (arXiv:2409.12186), Instruct",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-11-12"
+    }
+  },
+  {
+    "model_id": "qwen2.5-coder-0.5b",
+    "benchmark_id": "bigcodebench-instruct",
+    "score": 11.1,
+    "config": "Full",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2409.12186",
+      "reported_by": "Qwen2.5-Coder Technical Report (arXiv:2409.12186), Instruct",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-11-12"
+    }
+  },
+  {
+    "model_id": "qwen2.5-vl-7b",
+    "benchmark_id": "chartqa",
+    "score": 87.3,
+    "config": "test",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/Qwen/Qwen2.5-VL-7B-Instruct",
+      "reported_by": "Qwen2.5-VL-7B-Instruct model card",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-01"
+    }
+  },
+  {
+    "model_id": "qwen2.5-coder-14b",
+    "benchmark_id": "cruxeval-i",
+    "score": 69.5,
+    "config": "Input-CoT",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2409.12186",
+      "reported_by": "Qwen2.5-Coder Technical Report (arXiv:2409.12186), Instruct",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-11-12"
+    }
+  },
+  {
+    "model_id": "qwen2.5-coder-7b",
+    "benchmark_id": "cruxeval-i",
+    "score": 65.8,
+    "config": "Input-CoT",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2409.12186",
+      "reported_by": "Qwen2.5-Coder Technical Report (arXiv:2409.12186), Instruct",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-11-12"
+    }
+  },
+  {
+    "model_id": "qwen2.5-coder-3b",
+    "benchmark_id": "cruxeval-i",
+    "score": 53.2,
+    "config": "Input-CoT",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2409.12186",
+      "reported_by": "Qwen2.5-Coder Technical Report (arXiv:2409.12186), Instruct",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-11-12"
+    }
+  },
+  {
+    "model_id": "qwen2.5-coder-1.5b",
+    "benchmark_id": "cruxeval-i",
+    "score": 45.4,
+    "config": "Input-CoT",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2409.12186",
+      "reported_by": "Qwen2.5-Coder Technical Report (arXiv:2409.12186), Instruct",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-11-12"
+    }
+  },
+  {
+    "model_id": "qwen2.5-coder-0.5b",
+    "benchmark_id": "cruxeval-i",
+    "score": 33.9,
+    "config": "Input-CoT",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2409.12186",
+      "reported_by": "Qwen2.5-Coder Technical Report (arXiv:2409.12186), Instruct",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-11-12"
+    }
+  },
+  {
+    "model_id": "qwen2.5-coder-14b",
+    "benchmark_id": "cruxeval-o",
+    "score": 79.5,
+    "config": "Output-CoT",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2409.12186",
+      "reported_by": "Qwen2.5-Coder Technical Report (arXiv:2409.12186), Instruct",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-11-12"
+    }
+  },
+  {
+    "model_id": "qwen2.5-coder-7b",
+    "benchmark_id": "cruxeval-o",
+    "score": 65.9,
+    "config": "Output-CoT",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2409.12186",
+      "reported_by": "Qwen2.5-Coder Technical Report (arXiv:2409.12186), Instruct",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-11-12"
+    }
+  },
+  {
+    "model_id": "qwen2.5-coder-3b",
+    "benchmark_id": "cruxeval-o",
+    "score": 56,
+    "config": "Output-CoT",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2409.12186",
+      "reported_by": "Qwen2.5-Coder Technical Report (arXiv:2409.12186), Instruct",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-11-12"
+    }
+  },
+  {
+    "model_id": "qwen2.5-coder-1.5b",
+    "benchmark_id": "cruxeval-o",
+    "score": 37.5,
+    "config": "Output-CoT",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2409.12186",
+      "reported_by": "Qwen2.5-Coder Technical Report (arXiv:2409.12186), Instruct",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-11-12"
+    }
+  },
+  {
+    "model_id": "qwen2.5-coder-0.5b",
+    "benchmark_id": "cruxeval-o",
+    "score": 27.8,
+    "config": "Output-CoT",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2409.12186",
+      "reported_by": "Qwen2.5-Coder Technical Report (arXiv:2409.12186), Instruct",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-11-12"
+    }
+  },
+  {
+    "model_id": "qwen2.5-vl-7b",
+    "benchmark_id": "docvqa",
+    "score": 95.7,
+    "config": "test",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/Qwen/Qwen2.5-VL-7B-Instruct",
+      "reported_by": "Qwen2.5-VL-7B-Instruct model card",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-01"
+    }
+  },
+  {
+    "model_id": "qwen2.5-vl-3b",
+    "benchmark_id": "docvqa",
+    "score": 93.9,
+    "config": "test",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/Qwen/Qwen2.5-VL-3B-Instruct",
+      "reported_by": "Qwen2.5-VL-3B-Instruct model card",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-01"
+    }
+  },
+  {
+    "model_id": "phi-3-small",
+    "benchmark_id": "gpqa",
+    "score": 34.3,
+    "config": "2-shot, CoT",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2404.14219",
+      "reported_by": "Phi-3 Technical Report (arXiv:2404.14219)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-04-22"
+    }
+  },
+  {
+    "model_id": "phi-3-mini",
+    "benchmark_id": "gpqa",
+    "score": 32.8,
+    "config": "2-shot, CoT",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2404.14219",
+      "reported_by": "Phi-3 Technical Report (arXiv:2404.14219)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-04-22"
+    }
+  },
+  {
+    "model_id": "phi-3-medium",
+    "benchmark_id": "gsm8k",
+    "score": 91,
+    "config": "8-shot, CoT",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2404.14219",
+      "reported_by": "Phi-3 Technical Report (arXiv:2404.14219)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-04-22"
+    }
+  },
+  {
+    "model_id": "phi-3-small",
+    "benchmark_id": "gsm8k",
+    "score": 89.6,
+    "config": "8-shot, CoT",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2404.14219",
+      "reported_by": "Phi-3 Technical Report (arXiv:2404.14219)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-04-22"
+    }
+  },
+  {
+    "model_id": "phi-3-mini",
+    "benchmark_id": "gsm8k",
+    "score": 82.5,
+    "config": "8-shot, CoT",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2404.14219",
+      "reported_by": "Phi-3 Technical Report (arXiv:2404.14219)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-04-22"
+    }
+  },
+  {
+    "model_id": "qwen2.5-coder-14b",
+    "benchmark_id": "humaneval",
+    "score": 89.6,
+    "config": "pass@1",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2409.12186",
+      "reported_by": "Qwen2.5-Coder Technical Report (arXiv:2409.12186), Instruct",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-11-12"
+    }
+  },
+  {
+    "model_id": "qwen2.5-coder-7b",
+    "benchmark_id": "humaneval",
+    "score": 88.4,
+    "config": "pass@1",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2409.12186",
+      "reported_by": "Qwen2.5-Coder Technical Report (arXiv:2409.12186), Instruct",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-11-12"
+    }
+  },
+  {
+    "model_id": "qwen2.5-coder-3b",
+    "benchmark_id": "humaneval",
+    "score": 84.1,
+    "config": "pass@1",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2409.12186",
+      "reported_by": "Qwen2.5-Coder Technical Report (arXiv:2409.12186), Instruct",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-11-12"
+    }
+  },
+  {
+    "model_id": "qwen2.5-coder-1.5b",
+    "benchmark_id": "humaneval",
+    "score": 70.7,
+    "config": "pass@1",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2409.12186",
+      "reported_by": "Qwen2.5-Coder Technical Report (arXiv:2409.12186), Instruct",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-11-12"
+    }
+  },
+  {
+    "model_id": "phi-3-medium",
+    "benchmark_id": "humaneval",
+    "score": 62.2,
+    "config": "0-shot",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2404.14219",
+      "reported_by": "Phi-3 Technical Report (arXiv:2404.14219)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-04-22"
+    }
+  },
+  {
+    "model_id": "qwen2.5-coder-0.5b",
+    "benchmark_id": "humaneval",
+    "score": 61.6,
+    "config": "pass@1",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2409.12186",
+      "reported_by": "Qwen2.5-Coder Technical Report (arXiv:2409.12186), Instruct",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-11-12"
+    }
+  },
+  {
+    "model_id": "phi-3-small",
+    "benchmark_id": "humaneval",
+    "score": 61,
+    "config": "0-shot",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2404.14219",
+      "reported_by": "Phi-3 Technical Report (arXiv:2404.14219)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-04-22"
+    }
+  },
+  {
+    "model_id": "phi-3-mini",
+    "benchmark_id": "humaneval",
+    "score": 58.5,
+    "config": "0-shot",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2404.14219",
+      "reported_by": "Phi-3 Technical Report (arXiv:2404.14219)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-04-22"
+    }
+  },
+  {
+    "model_id": "qwen2.5-coder-14b",
+    "benchmark_id": "humaneval+",
+    "score": 87.2,
+    "config": "pass@1",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2409.12186",
+      "reported_by": "Qwen2.5-Coder Technical Report (arXiv:2409.12186), Instruct",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-11-12"
+    }
+  },
+  {
+    "model_id": "qwen2.5-coder-7b",
+    "benchmark_id": "humaneval+",
+    "score": 84.1,
+    "config": "pass@1",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2409.12186",
+      "reported_by": "Qwen2.5-Coder Technical Report (arXiv:2409.12186), Instruct",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-11-12"
+    }
+  },
+  {
+    "model_id": "qwen2.5-coder-3b",
+    "benchmark_id": "humaneval+",
+    "score": 80.5,
+    "config": "pass@1",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2409.12186",
+      "reported_by": "Qwen2.5-Coder Technical Report (arXiv:2409.12186), Instruct",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-11-12"
+    }
+  },
+  {
+    "model_id": "qwen2.5-coder-1.5b",
+    "benchmark_id": "humaneval+",
+    "score": 66.5,
+    "config": "pass@1",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2409.12186",
+      "reported_by": "Qwen2.5-Coder Technical Report (arXiv:2409.12186), Instruct",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-11-12"
+    }
+  },
+  {
+    "model_id": "qwen2.5-coder-0.5b",
+    "benchmark_id": "humaneval+",
+    "score": 57.3,
+    "config": "pass@1",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2409.12186",
+      "reported_by": "Qwen2.5-Coder Technical Report (arXiv:2409.12186), Instruct",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-11-12"
+    }
+  },
+  {
+    "model_id": "qwen2.5-coder-14b",
+    "benchmark_id": "livecodebench",
+    "score": 23.4,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2409.12186",
+      "reported_by": "Qwen2.5-Coder Technical Report (arXiv:2409.12186), Instruct",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-11-12"
+    }
+  },
+  {
+    "model_id": "qwen2.5-coder-7b",
+    "benchmark_id": "livecodebench",
+    "score": 18.2,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2409.12186",
+      "reported_by": "Qwen2.5-Coder Technical Report (arXiv:2409.12186), Instruct",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-11-12"
+    }
+  },
+  {
+    "model_id": "qwen2.5-coder-3b",
+    "benchmark_id": "livecodebench",
+    "score": 10.8,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2409.12186",
+      "reported_by": "Qwen2.5-Coder Technical Report (arXiv:2409.12186), Instruct",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-11-12"
+    }
+  },
+  {
+    "model_id": "qwen2.5-coder-1.5b",
+    "benchmark_id": "livecodebench",
+    "score": 6.1,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2409.12186",
+      "reported_by": "Qwen2.5-Coder Technical Report (arXiv:2409.12186), Instruct",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-11-12"
+    }
+  },
+  {
+    "model_id": "qwen2.5-coder-0.5b",
+    "benchmark_id": "livecodebench",
+    "score": 2,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2409.12186",
+      "reported_by": "Qwen2.5-Coder Technical Report (arXiv:2409.12186), Instruct",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-11-12"
+    }
+  },
+  {
+    "model_id": "phi-3-medium",
+    "benchmark_id": "math",
+    "score": 53.1,
+    "config": "0-shot, CoT",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2404.14219",
+      "reported_by": "Phi-3 Technical Report (arXiv:2404.14219)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-04-22"
+    }
+  },
+  {
+    "model_id": "phi-3-mini",
+    "benchmark_id": "math",
+    "score": 41.3,
+    "config": "0-shot, CoT",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2404.14219",
+      "reported_by": "Phi-3 Technical Report (arXiv:2404.14219)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-04-22"
+    }
+  },
+  {
+    "model_id": "phi-3-small",
+    "benchmark_id": "math",
+    "score": 34.6,
+    "config": "0-shot, CoT",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2404.14219",
+      "reported_by": "Phi-3 Technical Report (arXiv:2404.14219)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-04-22"
+    }
+  },
+  {
+    "model_id": "qwen2.5-vl-7b",
+    "benchmark_id": "mathvision",
+    "score": 25.07,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/Qwen/Qwen2.5-VL-7B-Instruct",
+      "reported_by": "Qwen2.5-VL-7B-Instruct model card",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-01"
+    }
+  },
+  {
+    "model_id": "qwen2.5-vl-3b",
+    "benchmark_id": "mathvision",
+    "score": 21.2,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/Qwen/Qwen2.5-VL-3B-Instruct",
+      "reported_by": "Qwen2.5-VL-3B-Instruct model card",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-01"
+    }
+  },
+  {
+    "model_id": "qwen2.5-vl-7b",
+    "benchmark_id": "mathvista",
+    "score": 68.2,
+    "config": "testmini",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/Qwen/Qwen2.5-VL-7B-Instruct",
+      "reported_by": "Qwen2.5-VL-7B-Instruct model card",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-01"
+    }
+  },
+  {
+    "model_id": "qwen2.5-vl-3b",
+    "benchmark_id": "mathvista",
+    "score": 62.3,
+    "config": "testmini",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/Qwen/Qwen2.5-VL-3B-Instruct",
+      "reported_by": "Qwen2.5-VL-3B-Instruct model card",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-01"
+    }
+  },
+  {
+    "model_id": "qwen2.5-coder-14b",
+    "benchmark_id": "mbpp",
+    "score": 86.2,
+    "config": "pass@1",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2409.12186",
+      "reported_by": "Qwen2.5-Coder Technical Report (arXiv:2409.12186), Instruct",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-11-12"
+    }
+  },
+  {
+    "model_id": "qwen2.5-coder-7b",
+    "benchmark_id": "mbpp",
+    "score": 83.5,
+    "config": "pass@1",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2409.12186",
+      "reported_by": "Qwen2.5-Coder Technical Report (arXiv:2409.12186), Instruct",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-11-12"
+    }
+  },
+  {
+    "model_id": "phi-3-medium",
+    "benchmark_id": "mbpp",
+    "score": 75.2,
+    "config": "3-shot",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2404.14219",
+      "reported_by": "Phi-3 Technical Report (arXiv:2404.14219)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-04-22"
+    }
+  },
+  {
+    "model_id": "qwen2.5-coder-3b",
+    "benchmark_id": "mbpp",
+    "score": 73.6,
+    "config": "pass@1",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2409.12186",
+      "reported_by": "Qwen2.5-Coder Technical Report (arXiv:2409.12186), Instruct",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-11-12"
+    }
+  },
+  {
+    "model_id": "phi-3-small",
+    "benchmark_id": "mbpp",
+    "score": 71.7,
+    "config": "3-shot",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2404.14219",
+      "reported_by": "Phi-3 Technical Report (arXiv:2404.14219)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-04-22"
+    }
+  },
+  {
+    "model_id": "phi-3-mini",
+    "benchmark_id": "mbpp",
+    "score": 70,
+    "config": "3-shot",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2404.14219",
+      "reported_by": "Phi-3 Technical Report (arXiv:2404.14219)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-04-22"
+    }
+  },
+  {
+    "model_id": "qwen2.5-coder-1.5b",
+    "benchmark_id": "mbpp",
+    "score": 69.2,
+    "config": "pass@1",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2409.12186",
+      "reported_by": "Qwen2.5-Coder Technical Report (arXiv:2409.12186), Instruct",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-11-12"
+    }
+  },
+  {
+    "model_id": "qwen2.5-coder-0.5b",
+    "benchmark_id": "mbpp",
+    "score": 52.4,
+    "config": "pass@1",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2409.12186",
+      "reported_by": "Qwen2.5-Coder Technical Report (arXiv:2409.12186), Instruct",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-11-12"
+    }
+  },
+  {
+    "model_id": "qwen2.5-coder-14b",
+    "benchmark_id": "mbpp+",
+    "score": 72.8,
+    "config": "pass@1",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2409.12186",
+      "reported_by": "Qwen2.5-Coder Technical Report (arXiv:2409.12186), Instruct",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-11-12"
+    }
+  },
+  {
+    "model_id": "qwen2.5-coder-7b",
+    "benchmark_id": "mbpp+",
+    "score": 71.7,
+    "config": "pass@1",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2409.12186",
+      "reported_by": "Qwen2.5-Coder Technical Report (arXiv:2409.12186), Instruct",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-11-12"
+    }
+  },
+  {
+    "model_id": "qwen2.5-coder-3b",
+    "benchmark_id": "mbpp+",
+    "score": 62.4,
+    "config": "pass@1",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2409.12186",
+      "reported_by": "Qwen2.5-Coder Technical Report (arXiv:2409.12186), Instruct",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-11-12"
+    }
+  },
+  {
+    "model_id": "qwen2.5-coder-1.5b",
+    "benchmark_id": "mbpp+",
+    "score": 59.4,
+    "config": "pass@1",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2409.12186",
+      "reported_by": "Qwen2.5-Coder Technical Report (arXiv:2409.12186), Instruct",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-11-12"
+    }
+  },
+  {
+    "model_id": "qwen2.5-coder-0.5b",
+    "benchmark_id": "mbpp+",
+    "score": 43.7,
+    "config": "pass@1",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2409.12186",
+      "reported_by": "Qwen2.5-Coder Technical Report (arXiv:2409.12186), Instruct",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-11-12"
+    }
+  },
+  {
+    "model_id": "phi-3-medium",
+    "benchmark_id": "mmlu",
+    "score": 78,
+    "config": "5-shot",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2404.14219",
+      "reported_by": "Phi-3 Technical Report (arXiv:2404.14219)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-04-22"
+    }
+  },
+  {
+    "model_id": "phi-3-small",
+    "benchmark_id": "mmlu",
+    "score": 75.7,
+    "config": "5-shot",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2404.14219",
+      "reported_by": "Phi-3 Technical Report (arXiv:2404.14219)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-04-22"
+    }
+  },
+  {
+    "model_id": "qwen2.5-coder-14b",
+    "benchmark_id": "mmlu",
+    "score": 75.2,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2409.12186",
+      "reported_by": "Qwen2.5-Coder Technical Report (arXiv:2409.12186), Instruct",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-11-12"
+    }
+  },
+  {
+    "model_id": "phi-3-mini",
+    "benchmark_id": "mmlu",
+    "score": 68.8,
+    "config": "5-shot",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2404.14219",
+      "reported_by": "Phi-3 Technical Report (arXiv:2404.14219)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-04-22"
+    }
+  },
+  {
+    "model_id": "qwen2.5-coder-7b",
+    "benchmark_id": "mmlu",
+    "score": 68,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2409.12186",
+      "reported_by": "Qwen2.5-Coder Technical Report (arXiv:2409.12186), Instruct",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-11-12"
+    }
+  },
+  {
+    "model_id": "qwen2.5-vl-7b",
+    "benchmark_id": "mmmu",
+    "score": 58.6,
+    "config": "val",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/Qwen/Qwen2.5-VL-7B-Instruct",
+      "reported_by": "Qwen2.5-VL-7B-Instruct model card",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-01"
+    }
+  },
+  {
+    "model_id": "qwen2.5-vl-3b",
+    "benchmark_id": "mmmu",
+    "score": 53.1,
+    "config": "val",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/Qwen/Qwen2.5-VL-3B-Instruct",
+      "reported_by": "Qwen2.5-VL-3B-Instruct model card",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-01"
+    }
+  },
+  {
+    "model_id": "qwen2.5-vl-7b",
+    "benchmark_id": "mmmu-pro",
+    "score": 41,
+    "config": "val",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/Qwen/Qwen2.5-VL-7B-Instruct",
+      "reported_by": "Qwen2.5-VL-7B-Instruct model card",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-01"
+    }
+  },
+  {
+    "model_id": "qwen2.5-vl-3b",
+    "benchmark_id": "mmmu-pro",
+    "score": 31.6,
+    "config": "val",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/Qwen/Qwen2.5-VL-3B-Instruct",
+      "reported_by": "Qwen2.5-VL-3B-Instruct model card",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-01"
+    }
+  },
+  {
+    "model_id": "qwen2.5-vl-7b",
+    "benchmark_id": "mmstar",
+    "score": 63.9,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/Qwen/Qwen2.5-VL-7B-Instruct",
+      "reported_by": "Qwen2.5-VL-7B-Instruct model card",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-01"
+    }
+  },
+  {
+    "model_id": "qwen2.5-vl-3b",
+    "benchmark_id": "mmstar",
+    "score": 55.9,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/Qwen/Qwen2.5-VL-3B-Instruct",
+      "reported_by": "Qwen2.5-VL-3B-Instruct model card",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-01"
+    }
+  },
+  {
+    "model_id": "qwen2.5-coder-14b",
+    "benchmark_id": "multipl-e",
+    "score": 79.6,
+    "config": "pass@1, avg",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2409.12186",
+      "reported_by": "Qwen2.5-Coder Technical Report (arXiv:2409.12186), Instruct",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-11-12"
+    }
+  },
+  {
+    "model_id": "qwen2.5-coder-7b",
+    "benchmark_id": "multipl-e",
+    "score": 76.5,
+    "config": "pass@1, avg",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2409.12186",
+      "reported_by": "Qwen2.5-Coder Technical Report (arXiv:2409.12186), Instruct",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-11-12"
+    }
+  },
+  {
+    "model_id": "qwen2.5-coder-3b",
+    "benchmark_id": "multipl-e",
+    "score": 72.1,
+    "config": "pass@1, avg",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2409.12186",
+      "reported_by": "Qwen2.5-Coder Technical Report (arXiv:2409.12186), Instruct",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-11-12"
+    }
+  },
+  {
+    "model_id": "qwen2.5-coder-1.5b",
+    "benchmark_id": "multipl-e",
+    "score": 56.7,
+    "config": "pass@1, avg",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2409.12186",
+      "reported_by": "Qwen2.5-Coder Technical Report (arXiv:2409.12186), Instruct",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-11-12"
+    }
+  },
+  {
+    "model_id": "qwen2.5-coder-0.5b",
+    "benchmark_id": "multipl-e",
+    "score": 49.6,
+    "config": "pass@1, avg",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2409.12186",
+      "reported_by": "Qwen2.5-Coder Technical Report (arXiv:2409.12186), Instruct",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-11-12"
+    }
+  }
+]

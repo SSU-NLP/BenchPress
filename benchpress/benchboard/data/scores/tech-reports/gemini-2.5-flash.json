@@ -1,0 +1,427 @@
+[
+  {
+    "model_id": "o4-mini",
+    "benchmark_id": "aider-polyglot",
+    "score": 68.9,
+    "config": "whole",
+    "source": {
+      "kind": "tech_report",
+      "url": "gemini-2.5-flash__model-card.pdf",
+      "ref": "p.4",
+      "reported_by": "gemini-2.5-flash",
+      "fetched_at": "2026-06-08T05:57:43.529Z"
+    },
+    "variants": [
+      {
+        "score": 58.2,
+        "config": "diff",
+        "source": {
+          "kind": "tech_report",
+          "url": "gemini-2.5-flash__model-card.pdf",
+          "ref": "p.4",
+          "reported_by": "gemini-2.5-flash",
+          "fetched_at": "2026-06-08T05:57:43.529Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "claude-3.7-sonnet",
+    "benchmark_id": "aider-polyglot",
+    "score": 64.9,
+    "config": "diff",
+    "source": {
+      "kind": "tech_report",
+      "url": "gemini-2.5-flash__model-card.pdf",
+      "ref": "p.4",
+      "reported_by": "gemini-2.5-flash",
+      "fetched_at": "2026-06-08T05:57:43.529Z"
+    }
+  },
+  {
+    "model_id": "o4-mini",
+    "benchmark_id": "aime-2025-single-attempt",
+    "score": 92.7,
+    "config": "pass@1",
+    "source": {
+      "kind": "tech_report",
+      "url": "gemini-2.5-flash__model-card.pdf",
+      "ref": "p.4",
+      "reported_by": "gemini-2.5-flash",
+      "fetched_at": "2026-06-08T05:57:43.529Z"
+    }
+  },
+  {
+    "model_id": "claude-3.7-sonnet",
+    "benchmark_id": "aime-2025-single-attempt",
+    "score": 49.5,
+    "config": "pass@1",
+    "source": {
+      "kind": "tech_report",
+      "url": "gemini-2.5-flash__model-card.pdf",
+      "ref": "p.4",
+      "reported_by": "gemini-2.5-flash",
+      "fetched_at": "2026-06-08T05:57:43.529Z"
+    }
+  },
+  {
+    "model_id": "claude-3.7-sonnet",
+    "benchmark_id": "facts-grounding",
+    "score": 78.8,
+    "config": "pass@1",
+    "source": {
+      "kind": "tech_report",
+      "url": "gemini-2.5-flash__model-card.pdf",
+      "ref": "p.4",
+      "reported_by": "gemini-2.5-flash",
+      "fetched_at": "2026-06-08T05:57:43.529Z"
+    }
+  },
+  {
+    "model_id": "o4-mini",
+    "benchmark_id": "facts-grounding",
+    "score": 62.1,
+    "config": "pass@1",
+    "source": {
+      "kind": "tech_report",
+      "url": "gemini-2.5-flash__model-card.pdf",
+      "ref": "p.4",
+      "reported_by": "gemini-2.5-flash",
+      "fetched_at": "2026-06-08T05:57:43.529Z"
+    }
+  },
+  {
+    "model_id": "gemini-2.5-flash",
+    "benchmark_id": "global-mmlu",
+    "score": 88.4,
+    "config": "pass@1, Lite",
+    "source": {
+      "kind": "tech_report",
+      "url": "gemini-2.5-flash__model-card.pdf",
+      "ref": "p.5",
+      "fetched_at": "2026-06-08T05:57:43.529Z"
+    }
+  },
+  {
+    "model_id": "claude-3.7-sonnet",
+    "benchmark_id": "gpqa-diamond-multiple-attempts",
+    "score": 84.8,
+    "config": "multiple attempts",
+    "source": {
+      "kind": "tech_report",
+      "url": "gemini-2.5-flash__model-card.pdf",
+      "ref": "p.4",
+      "reported_by": "gemini-2.5-flash",
+      "fetched_at": "2026-06-08T05:57:43.529Z"
+    }
+  },
+  {
+    "model_id": "o4-mini",
+    "benchmark_id": "gpqa-diamond-single-attempt",
+    "score": 81.4,
+    "config": "pass@1",
+    "source": {
+      "kind": "tech_report",
+      "url": "gemini-2.5-flash__model-card.pdf",
+      "ref": "p.4",
+      "reported_by": "gemini-2.5-flash",
+      "fetched_at": "2026-06-08T05:57:43.529Z"
+    }
+  },
+  {
+    "model_id": "claude-3.7-sonnet",
+    "benchmark_id": "gpqa-diamond-single-attempt",
+    "score": 78.2,
+    "config": "pass@1",
+    "source": {
+      "kind": "tech_report",
+      "url": "gemini-2.5-flash__model-card.pdf",
+      "ref": "p.4",
+      "reported_by": "gemini-2.5-flash",
+      "fetched_at": "2026-06-08T05:57:43.529Z"
+    }
+  },
+  {
+    "model_id": "o4-mini",
+    "benchmark_id": "hle",
+    "score": 14.3,
+    "config": "pass@1, no tools",
+    "source": {
+      "kind": "tech_report",
+      "url": "gemini-2.5-flash__model-card.pdf",
+      "ref": "p.4",
+      "reported_by": "gemini-2.5-flash",
+      "fetched_at": "2026-06-08T05:57:43.529Z"
+    }
+  },
+  {
+    "model_id": "claude-3.7-sonnet",
+    "benchmark_id": "hle",
+    "score": 8.9,
+    "config": "pass@1, no tools",
+    "source": {
+      "kind": "tech_report",
+      "url": "gemini-2.5-flash__model-card.pdf",
+      "ref": "p.4",
+      "reported_by": "gemini-2.5-flash",
+      "fetched_at": "2026-06-08T05:57:43.529Z"
+    }
+  },
+  {
+    "model_id": "gemini-2.5-flash",
+    "benchmark_id": "image-editing-character",
+    "score": 1170,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gemini-2.5-flash__model-card.pdf",
+      "ref": "p.6",
+      "fetched_at": "2026-06-08T05:57:43.529Z"
+    }
+  },
+  {
+    "model_id": "gemini-2.5-flash",
+    "benchmark_id": "image-editing-creative",
+    "score": 1112,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gemini-2.5-flash__model-card.pdf",
+      "ref": "p.6",
+      "fetched_at": "2026-06-08T05:57:43.529Z"
+    }
+  },
+  {
+    "model_id": "gemini-2.5-flash",
+    "benchmark_id": "image-editing-infographics",
+    "score": 1067,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gemini-2.5-flash__model-card.pdf",
+      "ref": "p.6",
+      "fetched_at": "2026-06-08T05:57:43.529Z"
+    }
+  },
+  {
+    "model_id": "gemini-2.5-flash",
+    "benchmark_id": "image-editing-object-environment",
+    "score": 1064,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gemini-2.5-flash__model-card.pdf",
+      "ref": "p.6",
+      "fetched_at": "2026-06-08T05:57:43.529Z"
+    }
+  },
+  {
+    "model_id": "gemini-2.5-flash",
+    "benchmark_id": "image-editing-overall-preference",
+    "score": 1362,
+    "config": "LMArena",
+    "source": {
+      "kind": "tech_report",
+      "url": "gemini-2.5-flash__model-card.pdf",
+      "ref": "p.6",
+      "fetched_at": "2026-06-08T05:57:43.529Z"
+    }
+  },
+  {
+    "model_id": "gemini-2.5-flash",
+    "benchmark_id": "image-editing-product-recontextualization",
+    "score": 1128,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gemini-2.5-flash__model-card.pdf",
+      "ref": "p.6",
+      "fetched_at": "2026-06-08T05:57:43.529Z"
+    }
+  },
+  {
+    "model_id": "gemini-2.5-flash",
+    "benchmark_id": "image-editing-stylization",
+    "score": 1062,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gemini-2.5-flash__model-card.pdf",
+      "ref": "p.6",
+      "fetched_at": "2026-06-08T05:57:43.529Z"
+    }
+  },
+  {
+    "model_id": "o4-mini",
+    "benchmark_id": "mmmu-single-attempt",
+    "score": 81.6,
+    "config": "pass@1",
+    "source": {
+      "kind": "tech_report",
+      "url": "gemini-2.5-flash__model-card.pdf",
+      "ref": "p.4",
+      "reported_by": "gemini-2.5-flash",
+      "fetched_at": "2026-06-08T05:57:43.529Z"
+    }
+  },
+  {
+    "model_id": "claude-3.7-sonnet",
+    "benchmark_id": "mmmu-single-attempt",
+    "score": 75,
+    "config": "pass@1",
+    "source": {
+      "kind": "tech_report",
+      "url": "gemini-2.5-flash__model-card.pdf",
+      "ref": "p.4",
+      "reported_by": "gemini-2.5-flash",
+      "fetched_at": "2026-06-08T05:57:43.529Z"
+    }
+  },
+  {
+    "model_id": "gemini-2.5-flash",
+    "benchmark_id": "mrcr-v2",
+    "score": 52.4,
+    "config": "128k, 8-needle)* 128k (average",
+    "source": {
+      "kind": "tech_report",
+      "url": "gemini-2.5-flash__model-card.pdf",
+      "ref": "p.5",
+      "fetched_at": "2026-06-08T05:57:43.529Z"
+    },
+    "variants": [
+      {
+        "score": 16.3,
+        "config": "1M, 8-needle)* 1M (pointwise",
+        "source": {
+          "kind": "tech_report",
+          "url": "gemini-2.5-flash__model-card.pdf",
+          "ref": "p.5",
+          "fetched_at": "2026-06-08T05:57:43.529Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "gemini-2.5-flash",
+    "benchmark_id": "mrcr-v2-128k",
+    "score": 74,
+    "config": "128k, average",
+    "source": {
+      "kind": "tech_report",
+      "url": "gemini-2.5-flash__model-card.pdf",
+      "ref": "p.5",
+      "fetched_at": "2026-06-08T05:57:43.529Z"
+    }
+  },
+  {
+    "model_id": "o4-mini",
+    "benchmark_id": "mrcr-v2-128k",
+    "score": 49,
+    "config": "128k, average",
+    "source": {
+      "kind": "tech_report",
+      "url": "gemini-2.5-flash__model-card.pdf",
+      "ref": "p.5",
+      "reported_by": "gemini-2.5-flash",
+      "fetched_at": "2026-06-08T05:57:43.529Z"
+    }
+  },
+  {
+    "model_id": "gemini-2.5-flash",
+    "benchmark_id": "mrcr-v2-1m",
+    "score": 32,
+    "config": "1M, pointwise",
+    "source": {
+      "kind": "tech_report",
+      "url": "gemini-2.5-flash__model-card.pdf",
+      "ref": "p.5",
+      "fetched_at": "2026-06-08T05:57:43.529Z"
+    }
+  },
+  {
+    "model_id": "gemini-2.5-flash",
+    "benchmark_id": "multilingual-safety",
+    "score": 11.9,
+    "config": "thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "gemini-2.5-flash__model-card.pdf",
+      "ref": "p.9",
+      "fetched_at": "2026-06-08T05:57:43.529Z"
+    }
+  },
+  {
+    "model_id": "gemini-2.5-flash",
+    "benchmark_id": "overall-preference",
+    "score": 1147,
+    "config": "LMArena",
+    "source": {
+      "kind": "tech_report",
+      "url": "gemini-2.5-flash__model-card.pdf",
+      "ref": "p.6",
+      "fetched_at": "2026-06-08T05:57:43.529Z"
+    }
+  },
+  {
+    "model_id": "gemini-2.5-flash",
+    "benchmark_id": "simpleqa-verified",
+    "score": 27.8,
+    "config": "pass@1",
+    "source": {
+      "kind": "tech_report",
+      "url": "gemini-2.5-flash__model-card.pdf",
+      "ref": "p.4",
+      "fetched_at": "2026-06-08T05:57:43.529Z"
+    }
+  },
+  {
+    "model_id": "claude-3.7-sonnet",
+    "benchmark_id": "swe-bench-verified",
+    "score": 70.3,
+    "config": "pass@1",
+    "source": {
+      "kind": "tech_report",
+      "url": "gemini-2.5-flash__model-card.pdf",
+      "ref": "p.4",
+      "reported_by": "gemini-2.5-flash",
+      "fetched_at": "2026-06-08T05:57:43.529Z"
+    }
+  },
+  {
+    "model_id": "o4-mini",
+    "benchmark_id": "swe-bench-verified",
+    "score": 68.1,
+    "config": "pass@1",
+    "source": {
+      "kind": "tech_report",
+      "url": "gemini-2.5-flash__model-card.pdf",
+      "ref": "p.4",
+      "reported_by": "gemini-2.5-flash",
+      "fetched_at": "2026-06-08T05:57:43.529Z"
+    }
+  },
+  {
+    "model_id": "gemini-2.5-flash",
+    "benchmark_id": "text-to-image-alignment",
+    "score": 1042,
+    "config": "GenAI-Bench",
+    "source": {
+      "kind": "tech_report",
+      "url": "gemini-2.5-flash__model-card.pdf",
+      "ref": "p.6",
+      "fetched_at": "2026-06-08T05:57:43.529Z"
+    }
+  },
+  {
+    "model_id": "gemini-2.5-flash",
+    "benchmark_id": "visual-quality",
+    "score": 1103,
+    "config": "GenAI-Bench",
+    "source": {
+      "kind": "tech_report",
+      "url": "gemini-2.5-flash__model-card.pdf",
+      "ref": "p.6",
+      "fetched_at": "2026-06-08T05:57:43.529Z"
+    }
+  }
+]

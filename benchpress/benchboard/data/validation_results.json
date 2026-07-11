@@ -1,0 +1,62 @@
+{
+  "run_id": "vloop_main/main_001",
+  "target_capability": "Capability-targeted evaluation",
+  "metrics": [
+    {
+      "method_id": "benchboard-selected",
+      "label": "Benchboard selected",
+      "spearman": 0.86,
+      "kendall_tau": 0.72,
+      "ndcg_at_5": 0.93,
+      "top_k_overlap": 0.8,
+      "regret": 0.018
+    },
+    {
+      "method_id": "random",
+      "label": "Random",
+      "spearman": 0.41,
+      "kendall_tau": 0.29,
+      "ndcg_at_5": 0.62,
+      "top_k_overlap": 0.35,
+      "regret": 0.091
+    },
+    {
+      "method_id": "stratified-random",
+      "label": "Stratified random",
+      "spearman": 0.55,
+      "kendall_tau": 0.38,
+      "ndcg_at_5": 0.71,
+      "top_k_overlap": 0.45,
+      "regret": 0.064
+    },
+    {
+      "method_id": "correlation-only",
+      "label": "Correlation only",
+      "spearman": 0.73,
+      "kendall_tau": 0.56,
+      "ndcg_at_5": 0.84,
+      "top_k_overlap": 0.65,
+      "regret": 0.043
+    },
+    {
+      "method_id": "max-coverage",
+      "label": "Max coverage",
+      "spearman": 0.69,
+      "kendall_tau": 0.51,
+      "ndcg_at_5": 0.81,
+      "top_k_overlap": 0.6,
+      "regret": 0.052
+    }
+  ],
+  "held_out_prediction": {
+    "spearman": 0.82,
+    "top_k_overlap": 0.75,
+    "held_out_benchmarks": [
+      "bbh",
+      "livecodebench",
+      "humaneval",
+      "mmlu-pro",
+      "math-500"
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+---
+import Page from "../../layouts/Page.astro";
+import CategoryTabs from "../../components/CategoryTabs.astro";
+import LeaderboardTable from "../../components/LeaderboardTable.tsx";
+import CurationNote from "../../components/CurationNote.astro";
+import { buildView } from "../../lib/loadData.ts";
+import "../../styles/global.css";
+
+const view = await buildView("nd_multilinguality");
+---
+
+<Page title="비결정적 — Multilinguality">
+  <CategoryTabs active="nd-multilinguality" />
+  <p class="text-sm text-neutral-500 mb-4">
+    LLM 심판 기반 다국어 추론·이해 평가 — 매 실행마다 결과가 달라집니다: MultiNRC 등.
+  </p>
+  <CurationNote hidden={view.hiddenBenchmarks} allHref="/non-deterministic" />
+  <LeaderboardTable
+    client:load
+    benchmarks={view.benchmarks}
+    rows={view.rows}
+  />
+</Page>

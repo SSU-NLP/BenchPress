@@ -1,0 +1,389 @@
+[
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "alpacaeval-2.0",
+    "score": 57.5,
+    "config": "length-controlled",
+    "source": {
+      "kind": "hf_dataset",
+      "url": "https://huggingface.co/spaces/allenai/WildBench/raw/main/data_dir/all_stat_wildbench.json",
+      "reported_by": "wildbench",
+      "fetched_at": "2026-06-11T08:36:14.980Z"
+    }
+  },
+  {
+    "model_id": "gpt-4-turbo",
+    "benchmark_id": "alpacaeval-2.0",
+    "score": 55,
+    "config": "length-controlled",
+    "source": {
+      "kind": "hf_dataset",
+      "url": "https://huggingface.co/spaces/allenai/WildBench/raw/main/data_dir/all_stat_wildbench.json",
+      "reported_by": "wildbench",
+      "fetched_at": "2026-06-11T08:36:14.980Z"
+    }
+  },
+  {
+    "model_id": "claude-3-opus",
+    "benchmark_id": "alpacaeval-2.0",
+    "score": 40.5,
+    "config": "length-controlled",
+    "source": {
+      "kind": "hf_dataset",
+      "url": "https://huggingface.co/spaces/allenai/WildBench/raw/main/data_dir/all_stat_wildbench.json",
+      "reported_by": "wildbench",
+      "fetched_at": "2026-06-11T08:36:14.980Z"
+    }
+  },
+  {
+    "model_id": "claude-3-sonnet",
+    "benchmark_id": "alpacaeval-2.0",
+    "score": 34.9,
+    "config": "length-controlled",
+    "source": {
+      "kind": "hf_dataset",
+      "url": "https://huggingface.co/spaces/allenai/WildBench/raw/main/data_dir/all_stat_wildbench.json",
+      "reported_by": "wildbench",
+      "fetched_at": "2026-06-11T08:36:14.980Z"
+    }
+  },
+  {
+    "model_id": "llama-3-70b",
+    "benchmark_id": "alpacaeval-2.0",
+    "score": 34.4,
+    "config": "length-controlled",
+    "source": {
+      "kind": "hf_dataset",
+      "url": "https://huggingface.co/spaces/allenai/WildBench/raw/main/data_dir/all_stat_wildbench.json",
+      "reported_by": "wildbench",
+      "fetched_at": "2026-06-11T08:36:14.980Z"
+    }
+  },
+  {
+    "model_id": "mistral-large",
+    "benchmark_id": "alpacaeval-2.0",
+    "score": 32.7,
+    "config": "length-controlled",
+    "source": {
+      "kind": "hf_dataset",
+      "url": "https://huggingface.co/spaces/allenai/WildBench/raw/main/data_dir/all_stat_wildbench.json",
+      "reported_by": "wildbench",
+      "fetched_at": "2026-06-11T08:36:14.980Z"
+    }
+  },
+  {
+    "model_id": "llama-3-8b",
+    "benchmark_id": "alpacaeval-2.0",
+    "score": 22.9,
+    "config": "length-controlled",
+    "source": {
+      "kind": "hf_dataset",
+      "url": "https://huggingface.co/spaces/allenai/WildBench/raw/main/data_dir/all_stat_wildbench.json",
+      "reported_by": "wildbench",
+      "fetched_at": "2026-06-11T08:36:14.980Z"
+    }
+  },
+  {
+    "model_id": "gpt-4-turbo",
+    "benchmark_id": "arena-hard",
+    "score": 82.6,
+    "config": "default",
+    "source": {
+      "kind": "hf_dataset",
+      "url": "https://huggingface.co/spaces/allenai/WildBench/raw/main/data_dir/all_stat_wildbench.json",
+      "reported_by": "wildbench",
+      "fetched_at": "2026-06-11T08:36:14.980Z"
+    }
+  },
+  {
+    "model_id": "gpt-4",
+    "benchmark_id": "arena-hard",
+    "score": 78,
+    "config": "default",
+    "source": {
+      "kind": "hf_dataset",
+      "url": "https://huggingface.co/spaces/allenai/WildBench/raw/main/data_dir/all_stat_wildbench.json",
+      "reported_by": "wildbench",
+      "fetched_at": "2026-06-11T08:36:14.980Z"
+    }
+  },
+  {
+    "model_id": "claude-3-opus",
+    "benchmark_id": "arena-hard",
+    "score": 60.4,
+    "config": "default",
+    "source": {
+      "kind": "hf_dataset",
+      "url": "https://huggingface.co/spaces/allenai/WildBench/raw/main/data_dir/all_stat_wildbench.json",
+      "reported_by": "wildbench",
+      "fetched_at": "2026-06-11T08:36:14.980Z"
+    }
+  },
+  {
+    "model_id": "claude-3-sonnet",
+    "benchmark_id": "arena-hard",
+    "score": 46.8,
+    "config": "default",
+    "source": {
+      "kind": "hf_dataset",
+      "url": "https://huggingface.co/spaces/allenai/WildBench/raw/main/data_dir/all_stat_wildbench.json",
+      "reported_by": "wildbench",
+      "fetched_at": "2026-06-11T08:36:14.980Z"
+    }
+  },
+  {
+    "model_id": "claude-3-haiku",
+    "benchmark_id": "arena-hard",
+    "score": 41.5,
+    "config": "default",
+    "source": {
+      "kind": "hf_dataset",
+      "url": "https://huggingface.co/spaces/allenai/WildBench/raw/main/data_dir/all_stat_wildbench.json",
+      "reported_by": "wildbench",
+      "fetched_at": "2026-06-11T08:36:14.980Z"
+    }
+  },
+  {
+    "model_id": "llama-3-70b",
+    "benchmark_id": "arena-hard",
+    "score": 41.1,
+    "config": "default",
+    "source": {
+      "kind": "hf_dataset",
+      "url": "https://huggingface.co/spaces/allenai/WildBench/raw/main/data_dir/all_stat_wildbench.json",
+      "reported_by": "wildbench",
+      "fetched_at": "2026-06-11T08:36:14.980Z"
+    }
+  },
+  {
+    "model_id": "mistral-large",
+    "benchmark_id": "arena-hard",
+    "score": 37.7,
+    "config": "default",
+    "source": {
+      "kind": "hf_dataset",
+      "url": "https://huggingface.co/spaces/allenai/WildBench/raw/main/data_dir/all_stat_wildbench.json",
+      "reported_by": "wildbench",
+      "fetched_at": "2026-06-11T08:36:14.980Z"
+    }
+  },
+  {
+    "model_id": "llama-3-8b",
+    "benchmark_id": "arena-hard",
+    "score": 20.6,
+    "config": "default",
+    "source": {
+      "kind": "hf_dataset",
+      "url": "https://huggingface.co/spaces/allenai/WildBench/raw/main/data_dir/all_stat_wildbench.json",
+      "reported_by": "wildbench",
+      "fetched_at": "2026-06-11T08:36:14.980Z"
+    }
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "chatbot-arena",
+    "score": 1293,
+    "config": "default",
+    "source": {
+      "kind": "hf_dataset",
+      "url": "https://huggingface.co/spaces/allenai/WildBench/raw/main/data_dir/all_stat_wildbench.json",
+      "reported_by": "wildbench",
+      "fetched_at": "2026-06-11T08:36:14.980Z"
+    }
+  },
+  {
+    "model_id": "gpt-4-turbo",
+    "benchmark_id": "chatbot-arena",
+    "score": 1251,
+    "config": "default",
+    "source": {
+      "kind": "hf_dataset",
+      "url": "https://huggingface.co/spaces/allenai/WildBench/raw/main/data_dir/all_stat_wildbench.json",
+      "reported_by": "wildbench",
+      "fetched_at": "2026-06-11T08:36:14.980Z"
+    }
+  },
+  {
+    "model_id": "gpt-4",
+    "benchmark_id": "chatbot-arena",
+    "score": 1239,
+    "config": "default",
+    "source": {
+      "kind": "hf_dataset",
+      "url": "https://huggingface.co/spaces/allenai/WildBench/raw/main/data_dir/all_stat_wildbench.json",
+      "reported_by": "wildbench",
+      "fetched_at": "2026-06-11T08:36:14.980Z"
+    }
+  },
+  {
+    "model_id": "claude-3-opus",
+    "benchmark_id": "chatbot-arena",
+    "score": 1232,
+    "config": "default",
+    "source": {
+      "kind": "hf_dataset",
+      "url": "https://huggingface.co/spaces/allenai/WildBench/raw/main/data_dir/all_stat_wildbench.json",
+      "reported_by": "wildbench",
+      "fetched_at": "2026-06-11T08:36:14.980Z"
+    }
+  },
+  {
+    "model_id": "llama-3-70b",
+    "benchmark_id": "chatbot-arena",
+    "score": 1213,
+    "config": "default",
+    "source": {
+      "kind": "hf_dataset",
+      "url": "https://huggingface.co/spaces/allenai/WildBench/raw/main/data_dir/all_stat_wildbench.json",
+      "reported_by": "wildbench",
+      "fetched_at": "2026-06-11T08:36:14.980Z"
+    }
+  },
+  {
+    "model_id": "claude-3-sonnet",
+    "benchmark_id": "chatbot-arena",
+    "score": 1187,
+    "config": "default",
+    "source": {
+      "kind": "hf_dataset",
+      "url": "https://huggingface.co/spaces/allenai/WildBench/raw/main/data_dir/all_stat_wildbench.json",
+      "reported_by": "wildbench",
+      "fetched_at": "2026-06-11T08:36:14.980Z"
+    }
+  },
+  {
+    "model_id": "claude-3-haiku",
+    "benchmark_id": "chatbot-arena",
+    "score": 1169,
+    "config": "default",
+    "source": {
+      "kind": "hf_dataset",
+      "url": "https://huggingface.co/spaces/allenai/WildBench/raw/main/data_dir/all_stat_wildbench.json",
+      "reported_by": "wildbench",
+      "fetched_at": "2026-06-11T08:36:14.980Z"
+    }
+  },
+  {
+    "model_id": "mistral-large",
+    "benchmark_id": "chatbot-arena",
+    "score": 1158,
+    "config": "default",
+    "source": {
+      "kind": "hf_dataset",
+      "url": "https://huggingface.co/spaces/allenai/WildBench/raw/main/data_dir/all_stat_wildbench.json",
+      "reported_by": "wildbench",
+      "fetched_at": "2026-06-11T08:36:14.980Z"
+    }
+  },
+  {
+    "model_id": "llama-3-8b",
+    "benchmark_id": "chatbot-arena",
+    "score": 1144,
+    "config": "default",
+    "source": {
+      "kind": "hf_dataset",
+      "url": "https://huggingface.co/spaces/allenai/WildBench/raw/main/data_dir/all_stat_wildbench.json",
+      "reported_by": "wildbench",
+      "fetched_at": "2026-06-11T08:36:14.980Z"
+    }
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "wildbench",
+    "score": 82.646484375,
+    "config": "WB-Score",
+    "source": {
+      "kind": "hf_dataset",
+      "url": "https://huggingface.co/spaces/allenai/WildBench/raw/main/data_dir/all_stat_wildbench.json",
+      "fetched_at": "2026-06-11T08:36:14.980Z"
+    }
+  },
+  {
+    "model_id": "gpt-4-turbo",
+    "benchmark_id": "wildbench",
+    "score": 82.36328125,
+    "config": "WB-Score",
+    "source": {
+      "kind": "hf_dataset",
+      "url": "https://huggingface.co/spaces/allenai/WildBench/raw/main/data_dir/all_stat_wildbench.json",
+      "fetched_at": "2026-06-11T08:36:14.980Z"
+    }
+  },
+  {
+    "model_id": "gpt-4",
+    "benchmark_id": "wildbench",
+    "score": 81.67318982387476,
+    "config": "WB-Score",
+    "source": {
+      "kind": "hf_dataset",
+      "url": "https://huggingface.co/spaces/allenai/WildBench/raw/main/data_dir/all_stat_wildbench.json",
+      "fetched_at": "2026-06-11T08:36:14.980Z"
+    }
+  },
+  {
+    "model_id": "claude-3-opus",
+    "benchmark_id": "wildbench",
+    "score": 81.54296875,
+    "config": "WB-Score",
+    "source": {
+      "kind": "hf_dataset",
+      "url": "https://huggingface.co/spaces/allenai/WildBench/raw/main/data_dir/all_stat_wildbench.json",
+      "fetched_at": "2026-06-11T08:36:14.980Z"
+    }
+  },
+  {
+    "model_id": "llama-3-70b",
+    "benchmark_id": "wildbench",
+    "score": 80.22482893450636,
+    "config": "WB-Score",
+    "source": {
+      "kind": "hf_dataset",
+      "url": "https://huggingface.co/spaces/allenai/WildBench/raw/main/data_dir/all_stat_wildbench.json",
+      "fetched_at": "2026-06-11T08:36:14.980Z"
+    }
+  },
+  {
+    "model_id": "claude-3-sonnet",
+    "benchmark_id": "wildbench",
+    "score": 77.763671875,
+    "config": "WB-Score",
+    "source": {
+      "kind": "hf_dataset",
+      "url": "https://huggingface.co/spaces/allenai/WildBench/raw/main/data_dir/all_stat_wildbench.json",
+      "fetched_at": "2026-06-11T08:36:14.980Z"
+    }
+  },
+  {
+    "model_id": "mistral-large",
+    "benchmark_id": "wildbench",
+    "score": 77.099609375,
+    "config": "WB-Score",
+    "source": {
+      "kind": "hf_dataset",
+      "url": "https://huggingface.co/spaces/allenai/WildBench/raw/main/data_dir/all_stat_wildbench.json",
+      "fetched_at": "2026-06-11T08:36:14.980Z"
+    }
+  },
+  {
+    "model_id": "claude-3-haiku",
+    "benchmark_id": "wildbench",
+    "score": 75.185546875,
+    "config": "WB-Score",
+    "source": {
+      "kind": "hf_dataset",
+      "url": "https://huggingface.co/spaces/allenai/WildBench/raw/main/data_dir/all_stat_wildbench.json",
+      "fetched_at": "2026-06-11T08:36:14.980Z"
+    }
+  },
+  {
+    "model_id": "llama-3-8b",
+    "benchmark_id": "wildbench",
+    "score": 72.83203125,
+    "config": "WB-Score",
+    "source": {
+      "kind": "hf_dataset",
+      "url": "https://huggingface.co/spaces/allenai/WildBench/raw/main/data_dir/all_stat_wildbench.json",
+      "fetched_at": "2026-06-11T08:36:14.980Z"
+    }
+  }
+]

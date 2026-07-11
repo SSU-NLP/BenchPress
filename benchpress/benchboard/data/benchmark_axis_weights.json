@@ -1,0 +1,691 @@
+{
+  "run_id": "vloop_main/main_001",
+  "source_result": "results/vloop_main/main_001",
+  "best_iter": 1,
+  "level_scale": {
+    "absent": 0,
+    "weak": 0.25,
+    "medium": 0.5,
+    "strong": 0.75,
+    "dominant": 1
+  },
+  "tag_stats": {
+    "aime-2024": {
+      "valid": 30,
+      "total": 30,
+      "bad": 0
+    },
+    "aime-2025": {
+      "valid": 30,
+      "total": 30,
+      "bad": 0
+    },
+    "arc-challenge": {
+      "valid": 1172,
+      "total": 2344,
+      "bad": 0
+    },
+    "bbh": {
+      "valid": 200,
+      "total": 200,
+      "bad": 0
+    },
+    "drop": {
+      "valid": 200,
+      "total": 200,
+      "bad": 0
+    },
+    "gpqa": {
+      "valid": 198,
+      "total": 199,
+      "bad": 0
+    },
+    "gsm8k": {
+      "valid": 1319,
+      "total": 2639,
+      "bad": 0
+    },
+    "hle": {
+      "valid": 200,
+      "total": 200,
+      "bad": 0
+    },
+    "hmmt-feb-2025": {
+      "valid": 30,
+      "total": 30,
+      "bad": 0
+    },
+    "humaneval": {
+      "valid": 164,
+      "total": 164,
+      "bad": 0
+    },
+    "livecodebench": {
+      "valid": 121,
+      "total": 121,
+      "bad": 0
+    },
+    "math-500": {
+      "valid": 200,
+      "total": 200,
+      "bad": 0
+    },
+    "mbpp": {
+      "valid": 200,
+      "total": 200,
+      "bad": 0
+    },
+    "mmlu": {
+      "valid": 100,
+      "total": 100,
+      "bad": 0
+    },
+    "mmlu-pro": {
+      "valid": 12032,
+      "total": 24076,
+      "bad": 0
+    },
+    "mmlu-redux": {
+      "valid": 100,
+      "total": 100,
+      "bad": 0
+    },
+    "scicode": {
+      "valid": 60,
+      "total": 77,
+      "bad": 0
+    },
+    "simpleqa": {
+      "valid": 200,
+      "total": 200,
+      "bad": 0
+    },
+    "supergpqa": {
+      "valid": 26443,
+      "total": 53066,
+      "bad": 0
+    }
+  },
+  "axes": [
+    {
+      "id": "analogical_reasoning",
+      "name": "Analogical Reasoning",
+      "description": "Mapping an underlying relation from one pair or structure to another.",
+      "source": "learned",
+      "stability": 0.85,
+      "confidence": 0.9,
+      "lineage_status": "new",
+      "related_benchmarks": [
+        "arc-challenge",
+        "hle",
+        "mmlu",
+        "mmlu-pro",
+        "supergpqa",
+        "gpqa"
+      ],
+      "high_performing_models": []
+    },
+    {
+      "id": "commonsense_causal_reasoning",
+      "name": "Commonsense & Causal Reasoning",
+      "description": "Using everyday plausibility to infer causes, effects, or likely next events.",
+      "source": "learned",
+      "stability": 0.85,
+      "confidence": 0.9,
+      "lineage_status": "new",
+      "related_benchmarks": [
+        "arc-challenge",
+        "mmlu",
+        "mmlu-pro",
+        "supergpqa",
+        "gsm8k",
+        "gpqa"
+      ],
+      "high_performing_models": []
+    },
+    {
+      "id": "contextual_retrieval",
+      "name": "Contextual Retrieval",
+      "description": "Locating and extracting explicit information provided within the prompt.",
+      "source": "learned",
+      "stability": 0.85,
+      "confidence": 0.9,
+      "lineage_status": "new",
+      "related_benchmarks": [
+        "gsm8k",
+        "humaneval",
+        "livecodebench",
+        "scicode",
+        "gpqa",
+        "drop"
+      ],
+      "high_performing_models": []
+    },
+    {
+      "id": "external_knowledge_retrieval",
+      "name": "External Knowledge Retrieval",
+      "description": "Accessing specific facts, terminology, or data not contained in the prompt.",
+      "source": "learned",
+      "stability": 0.85,
+      "confidence": 0.9,
+      "lineage_status": "new",
+      "related_benchmarks": [
+        "simpleqa",
+        "gpqa",
+        "mmlu",
+        "mmlu-redux",
+        "supergpqa",
+        "scicode"
+      ],
+      "high_performing_models": []
+    },
+    {
+      "id": "formal_deduction",
+      "name": "Formal Deduction",
+      "description": "Deriving conclusions that are logically entailed by explicit premises or rules.",
+      "source": "learned",
+      "stability": 0.85,
+      "confidence": 0.9,
+      "lineage_status": "new",
+      "related_benchmarks": [
+        "bbh",
+        "aime-2024",
+        "hmmt-feb-2025",
+        "aime-2025",
+        "math-500",
+        "mmlu-redux"
+      ],
+      "high_performing_models": []
+    },
+    {
+      "id": "pattern_induction",
+      "name": "Pattern Induction",
+      "description": "Identifying underlying rules or trends from specific examples to generalize.",
+      "source": "learned",
+      "stability": 0.85,
+      "confidence": 0.9,
+      "lineage_status": "new",
+      "related_benchmarks": [
+        "aime-2025",
+        "humaneval",
+        "hmmt-feb-2025",
+        "aime-2024",
+        "livecodebench",
+        "math-500"
+      ],
+      "high_performing_models": []
+    },
+    {
+      "id": "numerical_computation",
+      "name": "Numerical Computation",
+      "description": "Performing arithmetic, algebraic, or statistical calculations.",
+      "source": "learned",
+      "stability": 0.85,
+      "confidence": 0.9,
+      "lineage_status": "new",
+      "related_benchmarks": [
+        "gsm8k",
+        "math-500",
+        "aime-2024",
+        "hmmt-feb-2025",
+        "scicode",
+        "aime-2025"
+      ],
+      "high_performing_models": []
+    },
+    {
+      "id": "spatial_geometrical_reasoning",
+      "name": "Spatial & Geometrical Reasoning",
+      "description": "Reasoning about layouts, shapes, positions, directions, distances, or geometry.",
+      "source": "learned",
+      "stability": 0.85,
+      "confidence": 0.9,
+      "lineage_status": "new",
+      "related_benchmarks": [
+        "aime-2025",
+        "hmmt-feb-2025",
+        "aime-2024",
+        "gpqa",
+        "scicode",
+        "hle"
+      ],
+      "high_performing_models": []
+    },
+    {
+      "id": "temporal_reasoning",
+      "name": "Temporal Reasoning",
+      "description": "Reasoning about ordering, simultaneity, duration, dates, or time markers.",
+      "source": "learned",
+      "stability": 0.85,
+      "confidence": 0.9,
+      "lineage_status": "new",
+      "related_benchmarks": [
+        "simpleqa",
+        "gsm8k",
+        "drop",
+        "livecodebench",
+        "scicode",
+        "mmlu-pro"
+      ],
+      "high_performing_models": []
+    },
+    {
+      "id": "procedural_planning",
+      "name": "Procedural Planning",
+      "description": "Decomposing a complex goal into a sequence of ordered steps or sub-tasks.",
+      "source": "learned",
+      "stability": 0.85,
+      "confidence": 0.9,
+      "lineage_status": "new",
+      "related_benchmarks": [
+        "livecodebench",
+        "mbpp",
+        "humaneval",
+        "scicode",
+        "aime-2024",
+        "aime-2025"
+      ],
+      "high_performing_models": []
+    },
+    {
+      "id": "constraint_satisfaction",
+      "name": "Constraint Satisfaction",
+      "description": "Identifying and adhering to explicit restrictions, boundary conditions, or format requirements.",
+      "source": "learned",
+      "stability": 0.85,
+      "confidence": 0.9,
+      "lineage_status": "new",
+      "related_benchmarks": [
+        "livecodebench",
+        "humaneval",
+        "aime-2025",
+        "aime-2024",
+        "hmmt-feb-2025",
+        "mbpp"
+      ],
+      "high_performing_models": []
+    }
+  ],
+  "benchmarks": [
+    {
+      "id": "aime-2024",
+      "name": "AIME 2024",
+      "cost": 1.5,
+      "time_minutes": 20,
+      "weights": {
+        "analogical_reasoning": 0,
+        "commonsense_causal_reasoning": 0,
+        "contextual_retrieval": 0.3083,
+        "external_knowledge_retrieval": 0.3833,
+        "formal_deduction": 0.8,
+        "pattern_induction": 0.1667,
+        "numerical_computation": 0.7,
+        "spatial_geometrical_reasoning": 0.5,
+        "temporal_reasoning": 0.0167,
+        "procedural_planning": 0.5083,
+        "constraint_satisfaction": 0.5167
+      },
+      "rationale": "Mean item-level V-loop tag strength from 30/30 valid tagged items in results/vloop_main/main_001/final/best."
+    },
+    {
+      "id": "aime-2025",
+      "name": "AIME 2025",
+      "cost": 1.5,
+      "time_minutes": 15,
+      "weights": {
+        "analogical_reasoning": 0,
+        "commonsense_causal_reasoning": 0,
+        "contextual_retrieval": 0.3333,
+        "external_knowledge_retrieval": 0.425,
+        "formal_deduction": 0.75,
+        "pattern_induction": 0.225,
+        "numerical_computation": 0.6917,
+        "spatial_geometrical_reasoning": 0.55,
+        "temporal_reasoning": 0,
+        "procedural_planning": 0.5,
+        "constraint_satisfaction": 0.5333
+      },
+      "rationale": "Mean item-level V-loop tag strength from 30/30 valid tagged items in results/vloop_main/main_001/final/best."
+    },
+    {
+      "id": "arc-challenge",
+      "name": "ARC Challenge",
+      "cost": 1.5,
+      "time_minutes": 15,
+      "weights": {
+        "analogical_reasoning": 0.0137,
+        "commonsense_causal_reasoning": 0.4164,
+        "contextual_retrieval": 0.1,
+        "external_knowledge_retrieval": 0.8443,
+        "formal_deduction": 0.196,
+        "pattern_induction": 0.0021,
+        "numerical_computation": 0.0356,
+        "spatial_geometrical_reasoning": 0.0512,
+        "temporal_reasoning": 0.064,
+        "procedural_planning": 0.016,
+        "constraint_satisfaction": 0.023
+      },
+      "rationale": "Mean item-level V-loop tag strength from 1172/2344 valid tagged items in results/vloop_main/main_001/final/best."
+    },
+    {
+      "id": "bbh",
+      "name": "BBH",
+      "cost": 1.8,
+      "time_minutes": 24,
+      "weights": {
+        "analogical_reasoning": 0,
+        "commonsense_causal_reasoning": 0,
+        "contextual_retrieval": 0.0037,
+        "external_knowledge_retrieval": 0.34,
+        "formal_deduction": 0.9087,
+        "pattern_induction": 0.005,
+        "numerical_computation": 0,
+        "spatial_geometrical_reasoning": 0,
+        "temporal_reasoning": 0,
+        "procedural_planning": 0.0163,
+        "constraint_satisfaction": 0.0175
+      },
+      "rationale": "Mean item-level V-loop tag strength from 200/200 valid tagged items in results/vloop_main/main_001/final/best."
+    },
+    {
+      "id": "drop",
+      "name": "Drop",
+      "cost": 1.5,
+      "time_minutes": 15,
+      "weights": {
+        "analogical_reasoning": 0,
+        "commonsense_causal_reasoning": 0,
+        "contextual_retrieval": 0.3663,
+        "external_knowledge_retrieval": 0.5787,
+        "formal_deduction": 0.0288,
+        "pattern_induction": 0,
+        "numerical_computation": 0.2325,
+        "spatial_geometrical_reasoning": 0,
+        "temporal_reasoning": 0.1412,
+        "procedural_planning": 0.005,
+        "constraint_satisfaction": 0.2137
+      },
+      "rationale": "Mean item-level V-loop tag strength from 200/200 valid tagged items in results/vloop_main/main_001/final/best."
+    },
+    {
+      "id": "gpqa",
+      "name": "GPQA",
+      "cost": 1.5,
+      "time_minutes": 15,
+      "weights": {
+        "analogical_reasoning": 0.0013,
+        "commonsense_causal_reasoning": 0.0303,
+        "contextual_retrieval": 0.3851,
+        "external_knowledge_retrieval": 0.8977,
+        "formal_deduction": 0.6136,
+        "pattern_induction": 0.0354,
+        "numerical_computation": 0.3396,
+        "spatial_geometrical_reasoning": 0.2942,
+        "temporal_reasoning": 0.0391,
+        "procedural_planning": 0.2828,
+        "constraint_satisfaction": 0.1818
+      },
+      "rationale": "Mean item-level V-loop tag strength from 198/199 valid tagged items in results/vloop_main/main_001/final/best."
+    },
+    {
+      "id": "gsm8k",
+      "name": "GSM8K",
+      "cost": 1.5,
+      "time_minutes": 15,
+      "weights": {
+        "analogical_reasoning": 0,
+        "commonsense_causal_reasoning": 0.0335,
+        "contextual_retrieval": 0.6806,
+        "external_knowledge_retrieval": 0.0534,
+        "formal_deduction": 0.4695,
+        "pattern_induction": 0.0027,
+        "numerical_computation": 0.9888,
+        "spatial_geometrical_reasoning": 0.0167,
+        "temporal_reasoning": 0.1567,
+        "procedural_planning": 0.3923,
+        "constraint_satisfaction": 0.0861
+      },
+      "rationale": "Mean item-level V-loop tag strength from 1319/2639 valid tagged items in results/vloop_main/main_001/final/best."
+    },
+    {
+      "id": "hle",
+      "name": "HLE",
+      "cost": 1.5,
+      "time_minutes": 15,
+      "weights": {
+        "analogical_reasoning": 0.01,
+        "commonsense_causal_reasoning": 0.0288,
+        "contextual_retrieval": 0.3275,
+        "external_knowledge_retrieval": 0.8313,
+        "formal_deduction": 0.5275,
+        "pattern_induction": 0.0712,
+        "numerical_computation": 0.2838,
+        "spatial_geometrical_reasoning": 0.2313,
+        "temporal_reasoning": 0.0512,
+        "procedural_planning": 0.2188,
+        "constraint_satisfaction": 0.2938
+      },
+      "rationale": "Mean item-level V-loop tag strength from 200/200 valid tagged items in results/vloop_main/main_001/final/best."
+    },
+    {
+      "id": "hmmt-feb-2025",
+      "name": "HMMT Feb 2025",
+      "cost": 1.7,
+      "time_minutes": 22,
+      "weights": {
+        "analogical_reasoning": 0,
+        "commonsense_causal_reasoning": 0,
+        "contextual_retrieval": 0.3,
+        "external_knowledge_retrieval": 0.45,
+        "formal_deduction": 0.7833,
+        "pattern_induction": 0.1833,
+        "numerical_computation": 0.7,
+        "spatial_geometrical_reasoning": 0.5417,
+        "temporal_reasoning": 0.0333,
+        "procedural_planning": 0.5,
+        "constraint_satisfaction": 0.5167
+      },
+      "rationale": "Mean item-level V-loop tag strength from 30/30 valid tagged items in results/vloop_main/main_001/final/best."
+    },
+    {
+      "id": "humaneval",
+      "name": "HumanEval",
+      "cost": 1,
+      "time_minutes": 8,
+      "weights": {
+        "analogical_reasoning": 0,
+        "commonsense_causal_reasoning": 0.003,
+        "contextual_retrieval": 0.5595,
+        "external_knowledge_retrieval": 0.3628,
+        "formal_deduction": 0.564,
+        "pattern_induction": 0.2088,
+        "numerical_computation": 0.4695,
+        "spatial_geometrical_reasoning": 0.0229,
+        "temporal_reasoning": 0.0076,
+        "procedural_planning": 0.6631,
+        "constraint_satisfaction": 0.6601
+      },
+      "rationale": "Mean item-level V-loop tag strength from 164/164 valid tagged items in results/vloop_main/main_001/final/best."
+    },
+    {
+      "id": "livecodebench",
+      "name": "LiveCodeBench",
+      "cost": 2.4,
+      "time_minutes": 35,
+      "weights": {
+        "analogical_reasoning": 0,
+        "commonsense_causal_reasoning": 0.0021,
+        "contextual_retrieval": 0.5579,
+        "external_knowledge_retrieval": 0.2169,
+        "formal_deduction": 0.6384,
+        "pattern_induction": 0.0764,
+        "numerical_computation": 0.4897,
+        "spatial_geometrical_reasoning": 0.1983,
+        "temporal_reasoning": 0.1302,
+        "procedural_planning": 0.6921,
+        "constraint_satisfaction": 0.688
+      },
+      "rationale": "Mean item-level V-loop tag strength from 121/121 valid tagged items in results/vloop_main/main_001/final/best."
+    },
+    {
+      "id": "math-500",
+      "name": "MATH-500",
+      "cost": 1.4,
+      "time_minutes": 18,
+      "weights": {
+        "analogical_reasoning": 0,
+        "commonsense_causal_reasoning": 0,
+        "contextual_retrieval": 0.2562,
+        "external_knowledge_retrieval": 0.4075,
+        "formal_deduction": 0.7137,
+        "pattern_induction": 0.0725,
+        "numerical_computation": 0.7762,
+        "spatial_geometrical_reasoning": 0.1925,
+        "temporal_reasoning": 0.0175,
+        "procedural_planning": 0.3638,
+        "constraint_satisfaction": 0.3125
+      },
+      "rationale": "Mean item-level V-loop tag strength from 200/200 valid tagged items in results/vloop_main/main_001/final/best."
+    },
+    {
+      "id": "mbpp",
+      "name": "MBPP",
+      "cost": 1.1,
+      "time_minutes": 10,
+      "weights": {
+        "analogical_reasoning": 0,
+        "commonsense_causal_reasoning": 0.0013,
+        "contextual_retrieval": 0.0963,
+        "external_knowledge_retrieval": 0.5587,
+        "formal_deduction": 0.3887,
+        "pattern_induction": 0.0675,
+        "numerical_computation": 0.37,
+        "spatial_geometrical_reasoning": 0.0712,
+        "temporal_reasoning": 0.0125,
+        "procedural_planning": 0.6787,
+        "constraint_satisfaction": 0.4888
+      },
+      "rationale": "Mean item-level V-loop tag strength from 200/200 valid tagged items in results/vloop_main/main_001/final/best."
+    },
+    {
+      "id": "mmlu",
+      "name": "MMLU",
+      "cost": 1.5,
+      "time_minutes": 15,
+      "weights": {
+        "analogical_reasoning": 0.01,
+        "commonsense_causal_reasoning": 0.1275,
+        "contextual_retrieval": 0.1975,
+        "external_knowledge_retrieval": 0.8975,
+        "formal_deduction": 0.305,
+        "pattern_induction": 0,
+        "numerical_computation": 0.11,
+        "spatial_geometrical_reasoning": 0.045,
+        "temporal_reasoning": 0.0575,
+        "procedural_planning": 0.0325,
+        "constraint_satisfaction": 0.0775
+      },
+      "rationale": "Mean item-level V-loop tag strength from 100/100 valid tagged items in results/vloop_main/main_001/final/best."
+    },
+    {
+      "id": "mmlu-pro",
+      "name": "MMLU-Pro",
+      "cost": 1.3,
+      "time_minutes": 18,
+      "weights": {
+        "analogical_reasoning": 0.0044,
+        "commonsense_causal_reasoning": 0.0761,
+        "contextual_retrieval": 0.302,
+        "external_knowledge_retrieval": 0.8224,
+        "formal_deduction": 0.4001,
+        "pattern_induction": 0.0081,
+        "numerical_computation": 0.3774,
+        "spatial_geometrical_reasoning": 0.0592,
+        "temporal_reasoning": 0.0753,
+        "procedural_planning": 0.1448,
+        "constraint_satisfaction": 0.125
+      },
+      "rationale": "Mean item-level V-loop tag strength from 12032/24076 valid tagged items in results/vloop_main/main_001/final/best."
+    },
+    {
+      "id": "mmlu-redux",
+      "name": "MMLU-Redux",
+      "cost": 1.5,
+      "time_minutes": 15,
+      "weights": {
+        "analogical_reasoning": 0,
+        "commonsense_causal_reasoning": 0,
+        "contextual_retrieval": 0.0675,
+        "external_knowledge_retrieval": 0.89,
+        "formal_deduction": 0.7025,
+        "pattern_induction": 0.01,
+        "numerical_computation": 0.2725,
+        "spatial_geometrical_reasoning": 0.0025,
+        "temporal_reasoning": 0,
+        "procedural_planning": 0.105,
+        "constraint_satisfaction": 0.105
+      },
+      "rationale": "Mean item-level V-loop tag strength from 100/100 valid tagged items in results/vloop_main/main_001/final/best."
+    },
+    {
+      "id": "scicode",
+      "name": "SciCode",
+      "cost": 2,
+      "time_minutes": 28,
+      "weights": {
+        "analogical_reasoning": 0,
+        "commonsense_causal_reasoning": 0.0042,
+        "contextual_retrieval": 0.45,
+        "external_knowledge_retrieval": 0.8542,
+        "formal_deduction": 0.5417,
+        "pattern_induction": 0,
+        "numerical_computation": 0.6958,
+        "spatial_geometrical_reasoning": 0.2833,
+        "temporal_reasoning": 0.1083,
+        "procedural_planning": 0.6458,
+        "constraint_satisfaction": 0.4417
+      },
+      "rationale": "Mean item-level V-loop tag strength from 60/77 valid tagged items in results/vloop_main/main_001/final/best."
+    },
+    {
+      "id": "simpleqa",
+      "name": "SimpleQA",
+      "cost": 0.9,
+      "time_minutes": 9,
+      "weights": {
+        "analogical_reasoning": 0,
+        "commonsense_causal_reasoning": 0,
+        "contextual_retrieval": 0,
+        "external_knowledge_retrieval": 1,
+        "formal_deduction": 0,
+        "pattern_induction": 0,
+        "numerical_computation": 0.005,
+        "spatial_geometrical_reasoning": 0,
+        "temporal_reasoning": 0.16,
+        "procedural_planning": 0,
+        "constraint_satisfaction": 0.0325
+      },
+      "rationale": "Mean item-level V-loop tag strength from 200/200 valid tagged items in results/vloop_main/main_001/final/best."
+    },
+    {
+      "id": "supergpqa",
+      "name": "SuperGPQA",
+      "cost": 1.5,
+      "time_minutes": 15,
+      "weights": {
+        "analogical_reasoning": 0.0023,
+        "commonsense_causal_reasoning": 0.036,
+        "contextual_retrieval": 0.2256,
+        "external_knowledge_retrieval": 0.8723,
+        "formal_deduction": 0.3431,
+        "pattern_induction": 0.0158,
+        "numerical_computation": 0.3531,
+        "spatial_geometrical_reasoning": 0.1009,
+        "temporal_reasoning": 0.0552,
+        "procedural_planning": 0.1729,
+        "constraint_satisfaction": 0.1171
+      },
+      "rationale": "Mean item-level V-loop tag strength from 26443/53066 valid tagged items in results/vloop_main/main_001/final/best."
+    }
+  ]
+}

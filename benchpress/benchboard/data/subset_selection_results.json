@@ -1,0 +1,51 @@
+{
+  "run_id": "vloop_main/main_001",
+  "target_capability": "Capability-targeted evaluation",
+  "default_request": {
+    "target_axes": [
+      {
+        "axis_id": "formal_deduction",
+        "weight": 0.5
+      },
+      {
+        "axis_id": "procedural_planning",
+        "weight": 0.5
+      }
+    ],
+    "benchmark_count": 5,
+    "cost_penalty": 0.25
+  },
+  "results": [
+    {
+      "source_id": "dynamic-vloop",
+      "benchmark_count": 5,
+      "selected_benchmarks": [
+        "bbh",
+        "livecodebench",
+        "humaneval",
+        "mmlu-pro",
+        "math-500"
+      ],
+      "coverage_score": 0.86,
+      "expected_predictive_utility": 0.81,
+      "utility_components": {
+        "relevance": 0.83,
+        "redundancy_reduction": 0.76,
+        "predictive_gain": 0.81,
+        "cost_efficiency": 0.72
+      },
+      "selection_reasons": [
+        "bbh covers the vloop target axes while preserving benchmark diversity.",
+        "livecodebench covers the vloop target axes while preserving benchmark diversity.",
+        "humaneval covers the vloop target axes while preserving benchmark diversity.",
+        "mmlu-pro covers the vloop target axes while preserving benchmark diversity.",
+        "math-500 covers the vloop target axes while preserving benchmark diversity."
+      ],
+      "duplicate_notes": [
+        "MATH was removed from the public planning pool; MATH-500 remains available."
+      ],
+      "reject_reasons": [],
+      "baseline_subsets": {}
+    }
+  ]
+}

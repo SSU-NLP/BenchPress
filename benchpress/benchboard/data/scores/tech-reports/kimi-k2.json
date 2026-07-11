@@ -1,0 +1,1963 @@
+[
+  {
+    "model_id": "qwen3-235b",
+    "benchmark_id": "acebench",
+    "score": 80.1,
+    "config": "non-thinking, en",
+    "source": {
+      "kind": "tech_report",
+      "url": "kimi-k2.pdf",
+      "ref": "p.1",
+      "reported_by": "kimi-k2",
+      "fetched_at": "2026-06-07T06:47:26.220Z"
+    },
+    "variants": [
+      {
+        "score": 70.5,
+        "config": "Acc.",
+        "source": {
+          "kind": "tech_report",
+          "url": "kimi-k2.pdf",
+          "ref": "p.16",
+          "reported_by": "kimi-k2",
+          "fetched_at": "2026-06-07T06:47:26.220Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "kimi-k2",
+    "benchmark_id": "acebench",
+    "score": 76.5,
+    "config": "non-thinking, en",
+    "source": {
+      "kind": "tech_report",
+      "url": "kimi-k2.pdf",
+      "ref": "p.1",
+      "fetched_at": "2026-06-07T06:47:26.220Z"
+    },
+    "variants": [
+      {
+        "score": 76.5,
+        "config": "Acc.",
+        "source": {
+          "kind": "tech_report",
+          "url": "kimi-k2.pdf",
+          "ref": "p.16",
+          "fetched_at": "2026-06-07T06:47:26.220Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "deepseek-v3",
+    "benchmark_id": "acebench",
+    "score": 75.6,
+    "config": "non-thinking, en",
+    "source": {
+      "kind": "tech_report",
+      "url": "kimi-k2.pdf",
+      "ref": "p.1",
+      "reported_by": "kimi-k2",
+      "fetched_at": "2026-06-07T06:47:26.220Z"
+    },
+    "variants": [
+      {
+        "score": 72.7,
+        "config": "Acc.",
+        "source": {
+          "kind": "tech_report",
+          "url": "kimi-k2.pdf",
+          "ref": "p.16",
+          "reported_by": "kimi-k2",
+          "fetched_at": "2026-06-07T06:47:26.220Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "claude-opus-4",
+    "benchmark_id": "acebench",
+    "score": 75.6,
+    "config": "Acc.",
+    "source": {
+      "kind": "tech_report",
+      "url": "kimi-k2.pdf",
+      "ref": "p.16",
+      "reported_by": "kimi-k2",
+      "fetched_at": "2026-06-07T06:47:26.220Z"
+    },
+    "variants": [
+      {
+        "score": 72.7,
+        "config": "non-thinking, en",
+        "source": {
+          "kind": "tech_report",
+          "url": "kimi-k2.pdf",
+          "ref": "p.1",
+          "reported_by": "kimi-k2",
+          "fetched_at": "2026-06-07T06:47:26.220Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "claude-opus-4",
+    "benchmark_id": "aider-polyglot",
+    "score": 70.7,
+    "config": "Acc.",
+    "source": {
+      "kind": "tech_report",
+      "url": "kimi-k2.pdf",
+      "ref": "p.16",
+      "reported_by": "kimi-k2",
+      "fetched_at": "2026-06-07T06:47:26.220Z"
+    }
+  },
+  {
+    "model_id": "qwen3-235b",
+    "benchmark_id": "aider-polyglot",
+    "score": 61.8,
+    "config": "Acc.",
+    "source": {
+      "kind": "tech_report",
+      "url": "kimi-k2.pdf",
+      "ref": "p.16",
+      "reported_by": "kimi-k2",
+      "fetched_at": "2026-06-07T06:47:26.220Z"
+    }
+  },
+  {
+    "model_id": "kimi-k2",
+    "benchmark_id": "aider-polyglot",
+    "score": 60,
+    "config": "Acc.",
+    "source": {
+      "kind": "tech_report",
+      "url": "kimi-k2.pdf",
+      "ref": "p.16",
+      "fetched_at": "2026-06-07T06:47:26.220Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3",
+    "benchmark_id": "aider-polyglot",
+    "score": 55.1,
+    "config": "Acc.",
+    "source": {
+      "kind": "tech_report",
+      "url": "kimi-k2.pdf",
+      "ref": "p.16",
+      "reported_by": "kimi-k2",
+      "fetched_at": "2026-06-07T06:47:26.220Z"
+    }
+  },
+  {
+    "model_id": "kimi-k2",
+    "benchmark_id": "aime-2024",
+    "score": 69.6,
+    "config": "Avg@64",
+    "source": {
+      "kind": "tech_report",
+      "url": "kimi-k2.pdf",
+      "ref": "p.16",
+      "fetched_at": "2026-06-07T06:47:26.220Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3",
+    "benchmark_id": "aime-2024",
+    "score": 59.4,
+    "config": "Avg@64",
+    "source": {
+      "kind": "tech_report",
+      "url": "kimi-k2.pdf",
+      "ref": "p.16",
+      "reported_by": "kimi-k2",
+      "fetched_at": "2026-06-07T06:47:26.220Z"
+    }
+  },
+  {
+    "model_id": "claude-opus-4",
+    "benchmark_id": "aime-2024",
+    "score": 48.2,
+    "config": "Avg@64",
+    "source": {
+      "kind": "tech_report",
+      "url": "kimi-k2.pdf",
+      "ref": "p.16",
+      "reported_by": "kimi-k2",
+      "fetched_at": "2026-06-07T06:47:26.220Z"
+    }
+  },
+  {
+    "model_id": "qwen3-235b",
+    "benchmark_id": "aime-2024",
+    "score": 40.1,
+    "config": "Avg@64",
+    "source": {
+      "kind": "tech_report",
+      "url": "kimi-k2.pdf",
+      "ref": "p.16",
+      "reported_by": "kimi-k2",
+      "fetched_at": "2026-06-07T06:47:26.220Z"
+    }
+  },
+  {
+    "model_id": "kimi-k2",
+    "benchmark_id": "aime-2025",
+    "score": 49.5,
+    "config": "non-thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "kimi-k2.pdf",
+      "ref": "p.1",
+      "fetched_at": "2026-06-07T06:47:26.220Z"
+    },
+    "variants": [
+      {
+        "score": 49.5,
+        "config": "Avg@64",
+        "source": {
+          "kind": "tech_report",
+          "url": "kimi-k2.pdf",
+          "ref": "p.16",
+          "fetched_at": "2026-06-07T06:47:26.220Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "deepseek-v3",
+    "benchmark_id": "aime-2025",
+    "score": 46.7,
+    "config": "non-thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "kimi-k2.pdf",
+      "ref": "p.1",
+      "reported_by": "kimi-k2",
+      "fetched_at": "2026-06-07T06:47:26.220Z"
+    },
+    "variants": [
+      {
+        "score": 46.7,
+        "config": "Avg@64",
+        "source": {
+          "kind": "tech_report",
+          "url": "kimi-k2.pdf",
+          "ref": "p.16",
+          "reported_by": "kimi-k2",
+          "fetched_at": "2026-06-07T06:47:26.220Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "claude-opus-4",
+    "benchmark_id": "aime-2025",
+    "score": 37,
+    "config": "non-thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "kimi-k2.pdf",
+      "ref": "p.1",
+      "reported_by": "kimi-k2",
+      "fetched_at": "2026-06-07T06:47:26.220Z"
+    },
+    "variants": [
+      {
+        "score": 33.9,
+        "config": "Avg@64",
+        "source": {
+          "kind": "tech_report",
+          "url": "kimi-k2.pdf",
+          "ref": "p.16",
+          "reported_by": "kimi-k2",
+          "fetched_at": "2026-06-07T06:47:26.220Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "qwen3-235b",
+    "benchmark_id": "aime-2025",
+    "score": 33.9,
+    "config": "non-thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "kimi-k2.pdf",
+      "ref": "p.1",
+      "reported_by": "kimi-k2",
+      "fetched_at": "2026-06-07T06:47:26.220Z"
+    },
+    "variants": [
+      {
+        "score": 24.7,
+        "config": "Avg@64",
+        "source": {
+          "kind": "tech_report",
+          "url": "kimi-k2.pdf",
+          "ref": "p.16",
+          "reported_by": "kimi-k2",
+          "fetched_at": "2026-06-07T06:47:26.220Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "kimi-k2",
+    "benchmark_id": "autologi",
+    "score": 89.5,
+    "config": "Acc.",
+    "source": {
+      "kind": "tech_report",
+      "url": "kimi-k2.pdf",
+      "ref": "p.16",
+      "fetched_at": "2026-06-07T06:47:26.220Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3",
+    "benchmark_id": "autologi",
+    "score": 88.9,
+    "config": "Acc.",
+    "source": {
+      "kind": "tech_report",
+      "url": "kimi-k2.pdf",
+      "ref": "p.16",
+      "reported_by": "kimi-k2",
+      "fetched_at": "2026-06-07T06:47:26.220Z"
+    }
+  },
+  {
+    "model_id": "claude-opus-4",
+    "benchmark_id": "autologi",
+    "score": 86.1,
+    "config": "Acc.",
+    "source": {
+      "kind": "tech_report",
+      "url": "kimi-k2.pdf",
+      "ref": "p.16",
+      "reported_by": "kimi-k2",
+      "fetched_at": "2026-06-07T06:47:26.220Z"
+    }
+  },
+  {
+    "model_id": "qwen3-235b",
+    "benchmark_id": "autologi",
+    "score": 83.3,
+    "config": "Acc.",
+    "source": {
+      "kind": "tech_report",
+      "url": "kimi-k2.pdf",
+      "ref": "p.16",
+      "reported_by": "kimi-k2",
+      "fetched_at": "2026-06-07T06:47:26.220Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3",
+    "benchmark_id": "bench",
+    "score": 67.6,
+    "config": "non-thinking, micro avg",
+    "source": {
+      "kind": "tech_report",
+      "url": "kimi-k2.pdf",
+      "ref": "p.1",
+      "reported_by": "kimi-k2",
+      "fetched_at": "2026-06-07T06:47:26.220Z"
+    }
+  },
+  {
+    "model_id": "kimi-k2",
+    "benchmark_id": "bench",
+    "score": 66.1,
+    "config": "non-thinking, micro avg",
+    "source": {
+      "kind": "tech_report",
+      "url": "kimi-k2.pdf",
+      "ref": "p.1",
+      "fetched_at": "2026-06-07T06:47:26.220Z"
+    }
+  },
+  {
+    "model_id": "qwen3-235b",
+    "benchmark_id": "bench",
+    "score": 54.4,
+    "config": "non-thinking, micro avg",
+    "source": {
+      "kind": "tech_report",
+      "url": "kimi-k2.pdf",
+      "ref": "p.1",
+      "reported_by": "kimi-k2",
+      "fetched_at": "2026-06-07T06:47:26.220Z"
+    }
+  },
+  {
+    "model_id": "claude-opus-4",
+    "benchmark_id": "bench",
+    "score": 48.8,
+    "config": "non-thinking, micro avg",
+    "source": {
+      "kind": "tech_report",
+      "url": "kimi-k2.pdf",
+      "ref": "p.1",
+      "reported_by": "kimi-k2",
+      "fetched_at": "2026-06-07T06:47:26.220Z"
+    }
+  },
+  {
+    "model_id": "claude-opus-4",
+    "benchmark_id": "bench-airline",
+    "score": 60,
+    "config": "Avg@4",
+    "source": {
+      "kind": "tech_report",
+      "url": "kimi-k2.pdf",
+      "ref": "p.16",
+      "reported_by": "kimi-k2",
+      "fetched_at": "2026-06-07T06:47:26.220Z"
+    }
+  },
+  {
+    "model_id": "kimi-k2",
+    "benchmark_id": "bench-airline",
+    "score": 56.5,
+    "config": "Avg@4",
+    "source": {
+      "kind": "tech_report",
+      "url": "kimi-k2.pdf",
+      "ref": "p.16",
+      "fetched_at": "2026-06-07T06:47:26.220Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3",
+    "benchmark_id": "bench-airline",
+    "score": 39,
+    "config": "Avg@4",
+    "source": {
+      "kind": "tech_report",
+      "url": "kimi-k2.pdf",
+      "ref": "p.16",
+      "reported_by": "kimi-k2",
+      "fetched_at": "2026-06-07T06:47:26.220Z"
+    }
+  },
+  {
+    "model_id": "qwen3-235b",
+    "benchmark_id": "bench-airline",
+    "score": 26.5,
+    "config": "Avg@4",
+    "source": {
+      "kind": "tech_report",
+      "url": "kimi-k2.pdf",
+      "ref": "p.16",
+      "reported_by": "kimi-k2",
+      "fetched_at": "2026-06-07T06:47:26.220Z"
+    }
+  },
+  {
+    "model_id": "claude-opus-4",
+    "benchmark_id": "bench-retail",
+    "score": 81.8,
+    "config": "Avg@4",
+    "source": {
+      "kind": "tech_report",
+      "url": "kimi-k2.pdf",
+      "ref": "p.16",
+      "reported_by": "kimi-k2",
+      "fetched_at": "2026-06-07T06:47:26.220Z"
+    }
+  },
+  {
+    "model_id": "kimi-k2",
+    "benchmark_id": "bench-retail",
+    "score": 70.6,
+    "config": "Avg@4",
+    "source": {
+      "kind": "tech_report",
+      "url": "kimi-k2.pdf",
+      "ref": "p.16",
+      "fetched_at": "2026-06-07T06:47:26.220Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3",
+    "benchmark_id": "bench-retail",
+    "score": 69.1,
+    "config": "Avg@4",
+    "source": {
+      "kind": "tech_report",
+      "url": "kimi-k2.pdf",
+      "ref": "p.16",
+      "reported_by": "kimi-k2",
+      "fetched_at": "2026-06-07T06:47:26.220Z"
+    }
+  },
+  {
+    "model_id": "qwen3-235b",
+    "benchmark_id": "bench-retail",
+    "score": 57,
+    "config": "Avg@4",
+    "source": {
+      "kind": "tech_report",
+      "url": "kimi-k2.pdf",
+      "ref": "p.16",
+      "reported_by": "kimi-k2",
+      "fetched_at": "2026-06-07T06:47:26.220Z"
+    }
+  },
+  {
+    "model_id": "kimi-k2",
+    "benchmark_id": "bench-telecom",
+    "score": 65.8,
+    "config": "Avg@4",
+    "source": {
+      "kind": "tech_report",
+      "url": "kimi-k2.pdf",
+      "ref": "p.16",
+      "fetched_at": "2026-06-07T06:47:26.220Z"
+    }
+  },
+  {
+    "model_id": "claude-opus-4",
+    "benchmark_id": "bench-telecom",
+    "score": 57,
+    "config": "Avg@4",
+    "source": {
+      "kind": "tech_report",
+      "url": "kimi-k2.pdf",
+      "ref": "p.16",
+      "reported_by": "kimi-k2",
+      "fetched_at": "2026-06-07T06:47:26.220Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3",
+    "benchmark_id": "bench-telecom",
+    "score": 32.5,
+    "config": "Avg@4",
+    "source": {
+      "kind": "tech_report",
+      "url": "kimi-k2.pdf",
+      "ref": "p.16",
+      "reported_by": "kimi-k2",
+      "fetched_at": "2026-06-07T06:47:26.220Z"
+    }
+  },
+  {
+    "model_id": "qwen3-235b",
+    "benchmark_id": "bench-telecom",
+    "score": 22.1,
+    "config": "Avg@4",
+    "source": {
+      "kind": "tech_report",
+      "url": "kimi-k2.pdf",
+      "ref": "p.16",
+      "reported_by": "kimi-k2",
+      "fetched_at": "2026-06-07T06:47:26.220Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3",
+    "benchmark_id": "cnmo-2024",
+    "score": 74.7,
+    "config": "Avg@16",
+    "source": {
+      "kind": "tech_report",
+      "url": "kimi-k2.pdf",
+      "ref": "p.16",
+      "reported_by": "kimi-k2",
+      "fetched_at": "2026-06-07T06:47:26.220Z"
+    }
+  },
+  {
+    "model_id": "kimi-k2",
+    "benchmark_id": "cnmo-2024",
+    "score": 74.3,
+    "config": "Avg@16",
+    "source": {
+      "kind": "tech_report",
+      "url": "kimi-k2.pdf",
+      "ref": "p.16",
+      "fetched_at": "2026-06-07T06:47:26.220Z"
+    }
+  },
+  {
+    "model_id": "claude-opus-4",
+    "benchmark_id": "cnmo-2024",
+    "score": 57.6,
+    "config": "Avg@16",
+    "source": {
+      "kind": "tech_report",
+      "url": "kimi-k2.pdf",
+      "ref": "p.16",
+      "reported_by": "kimi-k2",
+      "fetched_at": "2026-06-07T06:47:26.220Z"
+    }
+  },
+  {
+    "model_id": "qwen3-235b",
+    "benchmark_id": "cnmo-2024",
+    "score": 48.6,
+    "config": "Avg@16",
+    "source": {
+      "kind": "tech_report",
+      "url": "kimi-k2.pdf",
+      "ref": "p.16",
+      "reported_by": "kimi-k2",
+      "fetched_at": "2026-06-07T06:47:26.220Z"
+    }
+  },
+  {
+    "model_id": "kimi-k2",
+    "benchmark_id": "gpqa",
+    "score": 75.1,
+    "config": "non-thinking, Diamond",
+    "source": {
+      "kind": "tech_report",
+      "url": "kimi-k2.pdf",
+      "ref": "p.1",
+      "fetched_at": "2026-06-07T06:47:26.220Z"
+    },
+    "variants": [
+      {
+        "score": 75.1,
+        "config": "Avg@8, Diamond",
+        "source": {
+          "kind": "tech_report",
+          "url": "kimi-k2.pdf",
+          "ref": "p.16",
+          "fetched_at": "2026-06-07T06:47:26.220Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "deepseek-v3",
+    "benchmark_id": "gpqa",
+    "score": 74.9,
+    "config": "non-thinking, Diamond",
+    "source": {
+      "kind": "tech_report",
+      "url": "kimi-k2.pdf",
+      "ref": "p.1",
+      "reported_by": "kimi-k2",
+      "fetched_at": "2026-06-07T06:47:26.220Z"
+    },
+    "variants": [
+      {
+        "score": 68.4,
+        "config": "Avg@8, Diamond",
+        "source": {
+          "kind": "tech_report",
+          "url": "kimi-k2.pdf",
+          "ref": "p.16",
+          "reported_by": "kimi-k2",
+          "fetched_at": "2026-06-07T06:47:26.220Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "claude-opus-4",
+    "benchmark_id": "gpqa",
+    "score": 74.9,
+    "config": "Avg@8, Diamond",
+    "source": {
+      "kind": "tech_report",
+      "url": "kimi-k2.pdf",
+      "ref": "p.16",
+      "reported_by": "kimi-k2",
+      "fetched_at": "2026-06-07T06:47:26.220Z"
+    },
+    "variants": [
+      {
+        "score": 68.4,
+        "config": "non-thinking, Diamond",
+        "source": {
+          "kind": "tech_report",
+          "url": "kimi-k2.pdf",
+          "ref": "p.1",
+          "reported_by": "kimi-k2",
+          "fetched_at": "2026-06-07T06:47:26.220Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "qwen3-235b",
+    "benchmark_id": "gpqa",
+    "score": 66.3,
+    "config": "non-thinking, Diamond",
+    "source": {
+      "kind": "tech_report",
+      "url": "kimi-k2.pdf",
+      "ref": "p.1",
+      "reported_by": "kimi-k2",
+      "fetched_at": "2026-06-07T06:47:26.220Z"
+    },
+    "variants": [
+      {
+        "score": 62.9,
+        "config": "Avg@8, Diamond",
+        "source": {
+          "kind": "tech_report",
+          "url": "kimi-k2.pdf",
+          "ref": "p.16",
+          "reported_by": "kimi-k2",
+          "fetched_at": "2026-06-07T06:47:26.220Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "claude-opus-4",
+    "benchmark_id": "hle",
+    "score": 7.1,
+    "config": "Acc.",
+    "source": {
+      "kind": "tech_report",
+      "url": "kimi-k2.pdf",
+      "ref": "p.16",
+      "reported_by": "kimi-k2",
+      "fetched_at": "2026-06-07T06:47:26.220Z"
+    }
+  },
+  {
+    "model_id": "qwen3-235b",
+    "benchmark_id": "hle",
+    "score": 5.7,
+    "config": "Acc.",
+    "source": {
+      "kind": "tech_report",
+      "url": "kimi-k2.pdf",
+      "ref": "p.16",
+      "reported_by": "kimi-k2",
+      "fetched_at": "2026-06-07T06:47:26.220Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3",
+    "benchmark_id": "hle",
+    "score": 5.2,
+    "config": "Acc.",
+    "source": {
+      "kind": "tech_report",
+      "url": "kimi-k2.pdf",
+      "ref": "p.16",
+      "reported_by": "kimi-k2",
+      "fetched_at": "2026-06-07T06:47:26.220Z"
+    }
+  },
+  {
+    "model_id": "kimi-k2",
+    "benchmark_id": "hle",
+    "score": 4.7,
+    "config": "Acc.",
+    "source": {
+      "kind": "tech_report",
+      "url": "kimi-k2.pdf",
+      "ref": "p.16",
+      "fetched_at": "2026-06-07T06:47:26.220Z"
+    }
+  },
+  {
+    "model_id": "kimi-k2",
+    "benchmark_id": "hmmt-feb-2025",
+    "score": 38.8,
+    "config": "Avg@32",
+    "source": {
+      "kind": "tech_report",
+      "url": "kimi-k2.pdf",
+      "ref": "p.16",
+      "fetched_at": "2026-06-07T06:47:26.220Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3",
+    "benchmark_id": "hmmt-feb-2025",
+    "score": 27.5,
+    "config": "Avg@32",
+    "source": {
+      "kind": "tech_report",
+      "url": "kimi-k2.pdf",
+      "ref": "p.16",
+      "reported_by": "kimi-k2",
+      "fetched_at": "2026-06-07T06:47:26.220Z"
+    }
+  },
+  {
+    "model_id": "claude-opus-4",
+    "benchmark_id": "hmmt-feb-2025",
+    "score": 15.9,
+    "config": "Avg@32",
+    "source": {
+      "kind": "tech_report",
+      "url": "kimi-k2.pdf",
+      "ref": "p.16",
+      "reported_by": "kimi-k2",
+      "fetched_at": "2026-06-07T06:47:26.220Z"
+    }
+  },
+  {
+    "model_id": "qwen3-235b",
+    "benchmark_id": "hmmt-feb-2025",
+    "score": 11.9,
+    "config": "Avg@32",
+    "source": {
+      "kind": "tech_report",
+      "url": "kimi-k2.pdf",
+      "ref": "p.16",
+      "reported_by": "kimi-k2",
+      "fetched_at": "2026-06-07T06:47:26.220Z"
+    }
+  },
+  {
+    "model_id": "kimi-k2",
+    "benchmark_id": "ifeval",
+    "score": 89.8,
+    "config": "Prompt Strict",
+    "source": {
+      "kind": "tech_report",
+      "url": "kimi-k2.pdf",
+      "ref": "p.16",
+      "fetched_at": "2026-06-07T06:47:26.220Z"
+    }
+  },
+  {
+    "model_id": "claude-opus-4",
+    "benchmark_id": "ifeval",
+    "score": 87.4,
+    "config": "Prompt Strict",
+    "source": {
+      "kind": "tech_report",
+      "url": "kimi-k2.pdf",
+      "ref": "p.16",
+      "reported_by": "kimi-k2",
+      "fetched_at": "2026-06-07T06:47:26.220Z"
+    }
+  },
+  {
+    "model_id": "qwen3-235b",
+    "benchmark_id": "ifeval",
+    "score": 83.2,
+    "config": "Prompt Strict",
+    "source": {
+      "kind": "tech_report",
+      "url": "kimi-k2.pdf",
+      "ref": "p.16",
+      "reported_by": "kimi-k2",
+      "fetched_at": "2026-06-07T06:47:26.220Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3",
+    "benchmark_id": "ifeval",
+    "score": 81.1,
+    "config": "Prompt Strict",
+    "source": {
+      "kind": "tech_report",
+      "url": "kimi-k2.pdf",
+      "ref": "p.16",
+      "reported_by": "kimi-k2",
+      "fetched_at": "2026-06-07T06:47:26.220Z"
+    }
+  },
+  {
+    "model_id": "kimi-k2",
+    "benchmark_id": "livecodebench-v6",
+    "score": 53.7,
+    "config": "non-thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "kimi-k2.pdf",
+      "ref": "p.1",
+      "fetched_at": "2026-06-07T06:47:26.220Z"
+    },
+    "variants": [
+      {
+        "score": 53.7,
+        "config": "pass@1",
+        "source": {
+          "kind": "tech_report",
+          "url": "kimi-k2.pdf",
+          "ref": "p.16",
+          "fetched_at": "2026-06-07T06:47:26.220Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "claude-opus-4",
+    "benchmark_id": "livecodebench-v6",
+    "score": 47.4,
+    "config": "non-thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "kimi-k2.pdf",
+      "ref": "p.1",
+      "reported_by": "kimi-k2",
+      "fetched_at": "2026-06-07T06:47:26.220Z"
+    },
+    "variants": [
+      {
+        "score": 47.4,
+        "config": "pass@1",
+        "source": {
+          "kind": "tech_report",
+          "url": "kimi-k2.pdf",
+          "ref": "p.16",
+          "reported_by": "kimi-k2",
+          "fetched_at": "2026-06-07T06:47:26.220Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "deepseek-v3",
+    "benchmark_id": "livecodebench-v6",
+    "score": 46.9,
+    "config": "non-thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "kimi-k2.pdf",
+      "ref": "p.1",
+      "reported_by": "kimi-k2",
+      "fetched_at": "2026-06-07T06:47:26.220Z"
+    },
+    "variants": [
+      {
+        "score": 46.9,
+        "config": "pass@1",
+        "source": {
+          "kind": "tech_report",
+          "url": "kimi-k2.pdf",
+          "ref": "p.16",
+          "reported_by": "kimi-k2",
+          "fetched_at": "2026-06-07T06:47:26.220Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "qwen3-235b",
+    "benchmark_id": "livecodebench-v6",
+    "score": 37,
+    "config": "non-thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "kimi-k2.pdf",
+      "ref": "p.1",
+      "reported_by": "kimi-k2",
+      "fetched_at": "2026-06-07T06:47:26.220Z"
+    },
+    "variants": [
+      {
+        "score": 37,
+        "config": "pass@1",
+        "source": {
+          "kind": "tech_report",
+          "url": "kimi-k2.pdf",
+          "ref": "p.16",
+          "reported_by": "kimi-k2",
+          "fetched_at": "2026-06-07T06:47:26.220Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "kimi-k2",
+    "benchmark_id": "math-500",
+    "score": 97.4,
+    "config": "Acc.",
+    "source": {
+      "kind": "tech_report",
+      "url": "kimi-k2.pdf",
+      "ref": "p.16",
+      "fetched_at": "2026-06-07T06:47:26.220Z"
+    }
+  },
+  {
+    "model_id": "claude-opus-4",
+    "benchmark_id": "math-500",
+    "score": 94.4,
+    "config": "Acc.",
+    "source": {
+      "kind": "tech_report",
+      "url": "kimi-k2.pdf",
+      "ref": "p.16",
+      "reported_by": "kimi-k2",
+      "fetched_at": "2026-06-07T06:47:26.220Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3",
+    "benchmark_id": "math-500",
+    "score": 94,
+    "config": "Acc.",
+    "source": {
+      "kind": "tech_report",
+      "url": "kimi-k2.pdf",
+      "ref": "p.16",
+      "reported_by": "kimi-k2",
+      "fetched_at": "2026-06-07T06:47:26.220Z"
+    }
+  },
+  {
+    "model_id": "qwen3-235b",
+    "benchmark_id": "math-500",
+    "score": 91.2,
+    "config": "Acc.",
+    "source": {
+      "kind": "tech_report",
+      "url": "kimi-k2.pdf",
+      "ref": "p.16",
+      "reported_by": "kimi-k2",
+      "fetched_at": "2026-06-07T06:47:26.220Z"
+    }
+  },
+  {
+    "model_id": "claude-opus-4",
+    "benchmark_id": "mmlu",
+    "score": 92.9,
+    "config": "EM",
+    "source": {
+      "kind": "tech_report",
+      "url": "kimi-k2.pdf",
+      "ref": "p.16",
+      "reported_by": "kimi-k2",
+      "fetched_at": "2026-06-07T06:47:26.220Z"
+    }
+  },
+  {
+    "model_id": "kimi-k2",
+    "benchmark_id": "mmlu",
+    "score": 89.5,
+    "config": "EM",
+    "source": {
+      "kind": "tech_report",
+      "url": "kimi-k2.pdf",
+      "ref": "p.16",
+      "fetched_at": "2026-06-07T06:47:26.220Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3",
+    "benchmark_id": "mmlu",
+    "score": 89.4,
+    "config": "EM",
+    "source": {
+      "kind": "tech_report",
+      "url": "kimi-k2.pdf",
+      "ref": "p.16",
+      "reported_by": "kimi-k2",
+      "fetched_at": "2026-06-07T06:47:26.220Z"
+    }
+  },
+  {
+    "model_id": "qwen3-235b",
+    "benchmark_id": "mmlu",
+    "score": 87,
+    "config": "EM",
+    "source": {
+      "kind": "tech_report",
+      "url": "kimi-k2.pdf",
+      "ref": "p.16",
+      "reported_by": "kimi-k2",
+      "fetched_at": "2026-06-07T06:47:26.220Z"
+    }
+  },
+  {
+    "model_id": "claude-opus-4",
+    "benchmark_id": "mmlu-pro",
+    "score": 86.6,
+    "config": "EM",
+    "source": {
+      "kind": "tech_report",
+      "url": "kimi-k2.pdf",
+      "ref": "p.16",
+      "reported_by": "kimi-k2",
+      "fetched_at": "2026-06-07T06:47:26.220Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3",
+    "benchmark_id": "mmlu-pro",
+    "score": 81.2,
+    "config": "EM",
+    "source": {
+      "kind": "tech_report",
+      "url": "kimi-k2.pdf",
+      "ref": "p.16",
+      "reported_by": "kimi-k2",
+      "fetched_at": "2026-06-07T06:47:26.220Z"
+    }
+  },
+  {
+    "model_id": "kimi-k2",
+    "benchmark_id": "mmlu-pro",
+    "score": 81.1,
+    "config": "EM",
+    "source": {
+      "kind": "tech_report",
+      "url": "kimi-k2.pdf",
+      "ref": "p.16",
+      "fetched_at": "2026-06-07T06:47:26.220Z"
+    }
+  },
+  {
+    "model_id": "qwen3-235b",
+    "benchmark_id": "mmlu-pro",
+    "score": 77.3,
+    "config": "EM",
+    "source": {
+      "kind": "tech_report",
+      "url": "kimi-k2.pdf",
+      "ref": "p.16",
+      "reported_by": "kimi-k2",
+      "fetched_at": "2026-06-07T06:47:26.220Z"
+    }
+  },
+  {
+    "model_id": "claude-opus-4",
+    "benchmark_id": "mmlu-redux",
+    "score": 94.2,
+    "config": "EM",
+    "source": {
+      "kind": "tech_report",
+      "url": "kimi-k2.pdf",
+      "ref": "p.16",
+      "reported_by": "kimi-k2",
+      "fetched_at": "2026-06-07T06:47:26.220Z"
+    }
+  },
+  {
+    "model_id": "kimi-k2",
+    "benchmark_id": "mmlu-redux",
+    "score": 92.7,
+    "config": "EM",
+    "source": {
+      "kind": "tech_report",
+      "url": "kimi-k2.pdf",
+      "ref": "p.16",
+      "fetched_at": "2026-06-07T06:47:26.220Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3",
+    "benchmark_id": "mmlu-redux",
+    "score": 90.5,
+    "config": "EM",
+    "source": {
+      "kind": "tech_report",
+      "url": "kimi-k2.pdf",
+      "ref": "p.16",
+      "reported_by": "kimi-k2",
+      "fetched_at": "2026-06-07T06:47:26.220Z"
+    }
+  },
+  {
+    "model_id": "qwen3-235b",
+    "benchmark_id": "mmlu-redux",
+    "score": 89.2,
+    "config": "EM",
+    "source": {
+      "kind": "tech_report",
+      "url": "kimi-k2.pdf",
+      "ref": "p.16",
+      "reported_by": "kimi-k2",
+      "fetched_at": "2026-06-07T06:47:26.220Z"
+    }
+  },
+  {
+    "model_id": "kimi-k2",
+    "benchmark_id": "multi-challenge",
+    "score": 54.1,
+    "config": "Acc.",
+    "source": {
+      "kind": "tech_report",
+      "url": "kimi-k2.pdf",
+      "ref": "p.16",
+      "fetched_at": "2026-06-07T06:47:26.220Z"
+    }
+  },
+  {
+    "model_id": "claude-opus-4",
+    "benchmark_id": "multi-challenge",
+    "score": 49,
+    "config": "Acc.",
+    "source": {
+      "kind": "tech_report",
+      "url": "kimi-k2.pdf",
+      "ref": "p.16",
+      "reported_by": "kimi-k2",
+      "fetched_at": "2026-06-07T06:47:26.220Z"
+    }
+  },
+  {
+    "model_id": "qwen3-235b",
+    "benchmark_id": "multi-challenge",
+    "score": 34,
+    "config": "Acc.",
+    "source": {
+      "kind": "tech_report",
+      "url": "kimi-k2.pdf",
+      "ref": "p.16",
+      "reported_by": "kimi-k2",
+      "fetched_at": "2026-06-07T06:47:26.220Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3",
+    "benchmark_id": "multi-challenge",
+    "score": 31.4,
+    "config": "Acc.",
+    "source": {
+      "kind": "tech_report",
+      "url": "kimi-k2.pdf",
+      "ref": "p.16",
+      "reported_by": "kimi-k2",
+      "fetched_at": "2026-06-07T06:47:26.220Z"
+    }
+  },
+  {
+    "model_id": "kimi-k2",
+    "benchmark_id": "multi-swe-bench",
+    "score": 18.3,
+    "config": "pass@1",
+    "source": {
+      "kind": "tech_report",
+      "url": "kimi-k2.pdf",
+      "ref": "p.16",
+      "fetched_at": "2026-06-07T06:47:26.220Z"
+    }
+  },
+  {
+    "model_id": "qwen3-235b",
+    "benchmark_id": "multi-swe-bench",
+    "score": 9,
+    "config": "pass@1",
+    "source": {
+      "kind": "tech_report",
+      "url": "kimi-k2.pdf",
+      "ref": "p.16",
+      "reported_by": "kimi-k2",
+      "fetched_at": "2026-06-07T06:47:26.220Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3",
+    "benchmark_id": "multi-swe-bench",
+    "score": 8,
+    "config": "pass@1",
+    "source": {
+      "kind": "tech_report",
+      "url": "kimi-k2.pdf",
+      "ref": "p.16",
+      "reported_by": "kimi-k2",
+      "fetched_at": "2026-06-07T06:47:26.220Z"
+    }
+  },
+  {
+    "model_id": "claude-opus-4",
+    "benchmark_id": "multipl-e",
+    "score": 89.6,
+    "config": "pass@1",
+    "source": {
+      "kind": "tech_report",
+      "url": "kimi-k2.pdf",
+      "ref": "p.16",
+      "reported_by": "kimi-k2",
+      "fetched_at": "2026-06-07T06:47:26.220Z"
+    }
+  },
+  {
+    "model_id": "kimi-k2",
+    "benchmark_id": "multipl-e",
+    "score": 85.7,
+    "config": "pass@1",
+    "source": {
+      "kind": "tech_report",
+      "url": "kimi-k2.pdf",
+      "ref": "p.16",
+      "fetched_at": "2026-06-07T06:47:26.220Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3",
+    "benchmark_id": "multipl-e",
+    "score": 83.1,
+    "config": "pass@1",
+    "source": {
+      "kind": "tech_report",
+      "url": "kimi-k2.pdf",
+      "ref": "p.16",
+      "reported_by": "kimi-k2",
+      "fetched_at": "2026-06-07T06:47:26.220Z"
+    }
+  },
+  {
+    "model_id": "qwen3-235b",
+    "benchmark_id": "multipl-e",
+    "score": 78.2,
+    "config": "pass@1",
+    "source": {
+      "kind": "tech_report",
+      "url": "kimi-k2.pdf",
+      "ref": "p.16",
+      "reported_by": "kimi-k2",
+      "fetched_at": "2026-06-07T06:47:26.220Z"
+    }
+  },
+  {
+    "model_id": "kimi-k2",
+    "benchmark_id": "ojbench",
+    "score": 27.1,
+    "config": "non-thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "kimi-k2.pdf",
+      "ref": "p.1",
+      "fetched_at": "2026-06-07T06:47:26.220Z"
+    },
+    "variants": [
+      {
+        "score": 27.1,
+        "config": "pass@1",
+        "source": {
+          "kind": "tech_report",
+          "url": "kimi-k2.pdf",
+          "ref": "p.16",
+          "fetched_at": "2026-06-07T06:47:26.220Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "deepseek-v3",
+    "benchmark_id": "ojbench",
+    "score": 24,
+    "config": "non-thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "kimi-k2.pdf",
+      "ref": "p.1",
+      "reported_by": "kimi-k2",
+      "fetched_at": "2026-06-07T06:47:26.220Z"
+    },
+    "variants": [
+      {
+        "score": 24,
+        "config": "pass@1",
+        "source": {
+          "kind": "tech_report",
+          "url": "kimi-k2.pdf",
+          "ref": "p.16",
+          "reported_by": "kimi-k2",
+          "fetched_at": "2026-06-07T06:47:26.220Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "claude-opus-4",
+    "benchmark_id": "ojbench",
+    "score": 19.6,
+    "config": "non-thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "kimi-k2.pdf",
+      "ref": "p.1",
+      "reported_by": "kimi-k2",
+      "fetched_at": "2026-06-07T06:47:26.220Z"
+    },
+    "variants": [
+      {
+        "score": 19.6,
+        "config": "pass@1",
+        "source": {
+          "kind": "tech_report",
+          "url": "kimi-k2.pdf",
+          "ref": "p.16",
+          "reported_by": "kimi-k2",
+          "fetched_at": "2026-06-07T06:47:26.220Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "qwen3-235b",
+    "benchmark_id": "ojbench",
+    "score": 11.3,
+    "config": "non-thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "kimi-k2.pdf",
+      "ref": "p.1",
+      "reported_by": "kimi-k2",
+      "fetched_at": "2026-06-07T06:47:26.220Z"
+    },
+    "variants": [
+      {
+        "score": 11.3,
+        "config": "pass@1",
+        "source": {
+          "kind": "tech_report",
+          "url": "kimi-k2.pdf",
+          "ref": "p.16",
+          "reported_by": "kimi-k2",
+          "fetched_at": "2026-06-07T06:47:26.220Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "kimi-k2",
+    "benchmark_id": "paper-bench-code-dev",
+    "score": 27.8,
+    "config": "Acc.",
+    "source": {
+      "kind": "tech_report",
+      "url": "kimi-k2.pdf",
+      "ref": "p.16",
+      "fetched_at": "2026-06-07T06:47:26.220Z"
+    }
+  },
+  {
+    "model_id": "qwen3-235b",
+    "benchmark_id": "paper-bench-code-dev",
+    "score": 13.2,
+    "config": "Acc.",
+    "source": {
+      "kind": "tech_report",
+      "url": "kimi-k2.pdf",
+      "ref": "p.16",
+      "reported_by": "kimi-k2",
+      "fetched_at": "2026-06-07T06:47:26.220Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3",
+    "benchmark_id": "paper-bench-code-dev",
+    "score": 12.2,
+    "config": "Acc.",
+    "source": {
+      "kind": "tech_report",
+      "url": "kimi-k2.pdf",
+      "ref": "p.16",
+      "reported_by": "kimi-k2",
+      "fetched_at": "2026-06-07T06:47:26.220Z"
+    }
+  },
+  {
+    "model_id": "kimi-k2",
+    "benchmark_id": "polymath-en",
+    "score": 65.1,
+    "config": "Avg@4",
+    "source": {
+      "kind": "tech_report",
+      "url": "kimi-k2.pdf",
+      "ref": "p.16",
+      "fetched_at": "2026-06-07T06:47:26.220Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3",
+    "benchmark_id": "polymath-en",
+    "score": 59.5,
+    "config": "Avg@4",
+    "source": {
+      "kind": "tech_report",
+      "url": "kimi-k2.pdf",
+      "ref": "p.16",
+      "reported_by": "kimi-k2",
+      "fetched_at": "2026-06-07T06:47:26.220Z"
+    }
+  },
+  {
+    "model_id": "qwen3-235b",
+    "benchmark_id": "polymath-en",
+    "score": 51.9,
+    "config": "Avg@4",
+    "source": {
+      "kind": "tech_report",
+      "url": "kimi-k2.pdf",
+      "ref": "p.16",
+      "reported_by": "kimi-k2",
+      "fetched_at": "2026-06-07T06:47:26.220Z"
+    }
+  },
+  {
+    "model_id": "claude-opus-4",
+    "benchmark_id": "polymath-en",
+    "score": 49.8,
+    "config": "Avg@4",
+    "source": {
+      "kind": "tech_report",
+      "url": "kimi-k2.pdf",
+      "ref": "p.16",
+      "reported_by": "kimi-k2",
+      "fetched_at": "2026-06-07T06:47:26.220Z"
+    }
+  },
+  {
+    "model_id": "kimi-k2",
+    "benchmark_id": "supergpqa",
+    "score": 57.2,
+    "config": "Acc.",
+    "source": {
+      "kind": "tech_report",
+      "url": "kimi-k2.pdf",
+      "ref": "p.16",
+      "fetched_at": "2026-06-07T06:47:26.220Z"
+    }
+  },
+  {
+    "model_id": "claude-opus-4",
+    "benchmark_id": "supergpqa",
+    "score": 56.5,
+    "config": "Acc.",
+    "source": {
+      "kind": "tech_report",
+      "url": "kimi-k2.pdf",
+      "ref": "p.16",
+      "reported_by": "kimi-k2",
+      "fetched_at": "2026-06-07T06:47:26.220Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3",
+    "benchmark_id": "supergpqa",
+    "score": 53.7,
+    "config": "Acc.",
+    "source": {
+      "kind": "tech_report",
+      "url": "kimi-k2.pdf",
+      "ref": "p.16",
+      "reported_by": "kimi-k2",
+      "fetched_at": "2026-06-07T06:47:26.220Z"
+    }
+  },
+  {
+    "model_id": "qwen3-235b",
+    "benchmark_id": "supergpqa",
+    "score": 50.2,
+    "config": "Acc.",
+    "source": {
+      "kind": "tech_report",
+      "url": "kimi-k2.pdf",
+      "ref": "p.16",
+      "reported_by": "kimi-k2",
+      "fetched_at": "2026-06-07T06:47:26.220Z"
+    }
+  },
+  {
+    "model_id": "kimi-k2",
+    "benchmark_id": "swe-bench-multilingual",
+    "score": 47.3,
+    "config": "non-thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "kimi-k2.pdf",
+      "ref": "p.1",
+      "fetched_at": "2026-06-07T06:47:26.220Z"
+    },
+    "variants": [
+      {
+        "score": 47.3,
+        "config": "pass@1",
+        "source": {
+          "kind": "tech_report",
+          "url": "kimi-k2.pdf",
+          "ref": "p.16",
+          "fetched_at": "2026-06-07T06:47:26.220Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "deepseek-v3",
+    "benchmark_id": "swe-bench-multilingual",
+    "score": 31.5,
+    "config": "non-thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "kimi-k2.pdf",
+      "ref": "p.1",
+      "reported_by": "kimi-k2",
+      "fetched_at": "2026-06-07T06:47:26.220Z"
+    },
+    "variants": [
+      {
+        "score": 25.8,
+        "config": "pass@1",
+        "source": {
+          "kind": "tech_report",
+          "url": "kimi-k2.pdf",
+          "ref": "p.16",
+          "reported_by": "kimi-k2",
+          "fetched_at": "2026-06-07T06:47:26.220Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "qwen3-235b",
+    "benchmark_id": "swe-bench-multilingual",
+    "score": 20.9,
+    "config": "non-thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "kimi-k2.pdf",
+      "ref": "p.1",
+      "reported_by": "kimi-k2",
+      "fetched_at": "2026-06-07T06:47:26.220Z"
+    },
+    "variants": [
+      {
+        "score": 20.9,
+        "config": "pass@1",
+        "source": {
+          "kind": "tech_report",
+          "url": "kimi-k2.pdf",
+          "ref": "p.16",
+          "reported_by": "kimi-k2",
+          "fetched_at": "2026-06-07T06:47:26.220Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "claude-opus-4",
+    "benchmark_id": "swe-bench-verified",
+    "score": 72.5,
+    "config": "non-thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "kimi-k2.pdf",
+      "ref": "p.1",
+      "reported_by": "kimi-k2",
+      "fetched_at": "2026-06-07T06:47:26.220Z"
+    }
+  },
+  {
+    "model_id": "kimi-k2",
+    "benchmark_id": "swe-bench-verified",
+    "score": 65.8,
+    "config": "non-thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "kimi-k2.pdf",
+      "ref": "p.1",
+      "fetched_at": "2026-06-07T06:47:26.220Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3",
+    "benchmark_id": "swe-bench-verified",
+    "score": 54.6,
+    "config": "non-thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "kimi-k2.pdf",
+      "ref": "p.1",
+      "reported_by": "kimi-k2",
+      "fetched_at": "2026-06-07T06:47:26.220Z"
+    }
+  },
+  {
+    "model_id": "qwen3-235b",
+    "benchmark_id": "swe-bench-verified",
+    "score": 34.4,
+    "config": "non-thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "kimi-k2.pdf",
+      "ref": "p.1",
+      "reported_by": "kimi-k2",
+      "fetched_at": "2026-06-07T06:47:26.220Z"
+    }
+  },
+  {
+    "model_id": "claude-opus-4",
+    "benchmark_id": "swe-bench-verified-agentic-multi-attempt",
+    "score": 79.4,
+    "config": "pass@1",
+    "source": {
+      "kind": "tech_report",
+      "url": "kimi-k2.pdf",
+      "ref": "p.16",
+      "reported_by": "kimi-k2",
+      "fetched_at": "2026-06-07T06:47:26.220Z"
+    }
+  },
+  {
+    "model_id": "kimi-k2",
+    "benchmark_id": "swe-bench-verified-agentic-multi-attempt",
+    "score": 71.6,
+    "config": "pass@1",
+    "source": {
+      "kind": "tech_report",
+      "url": "kimi-k2.pdf",
+      "ref": "p.16",
+      "fetched_at": "2026-06-07T06:47:26.220Z"
+    }
+  },
+  {
+    "model_id": "claude-opus-4",
+    "benchmark_id": "swe-bench-verified-agentic-single-attempt",
+    "score": 72.5,
+    "config": "pass@1",
+    "source": {
+      "kind": "tech_report",
+      "url": "kimi-k2.pdf",
+      "ref": "p.16",
+      "reported_by": "kimi-k2",
+      "fetched_at": "2026-06-07T06:47:26.220Z"
+    }
+  },
+  {
+    "model_id": "kimi-k2",
+    "benchmark_id": "swe-bench-verified-agentic-single-attempt",
+    "score": 65.8,
+    "config": "pass@1",
+    "source": {
+      "kind": "tech_report",
+      "url": "kimi-k2.pdf",
+      "ref": "p.16",
+      "fetched_at": "2026-06-07T06:47:26.220Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3",
+    "benchmark_id": "swe-bench-verified-agentic-single-attempt",
+    "score": 38.8,
+    "config": "pass@1",
+    "source": {
+      "kind": "tech_report",
+      "url": "kimi-k2.pdf",
+      "ref": "p.16",
+      "reported_by": "kimi-k2",
+      "fetched_at": "2026-06-07T06:47:26.220Z"
+    }
+  },
+  {
+    "model_id": "qwen3-235b",
+    "benchmark_id": "swe-bench-verified-agentic-single-attempt",
+    "score": 34.4,
+    "config": "pass@1",
+    "source": {
+      "kind": "tech_report",
+      "url": "kimi-k2.pdf",
+      "ref": "p.16",
+      "reported_by": "kimi-k2",
+      "fetched_at": "2026-06-07T06:47:26.220Z"
+    }
+  },
+  {
+    "model_id": "claude-opus-4",
+    "benchmark_id": "swe-bench-verified-agentless-single-patch",
+    "score": 53,
+    "config": "pass@1",
+    "source": {
+      "kind": "tech_report",
+      "url": "kimi-k2.pdf",
+      "ref": "p.16",
+      "reported_by": "kimi-k2",
+      "fetched_at": "2026-06-07T06:47:26.220Z"
+    }
+  },
+  {
+    "model_id": "kimi-k2",
+    "benchmark_id": "swe-bench-verified-agentless-single-patch",
+    "score": 51.8,
+    "config": "pass@1",
+    "source": {
+      "kind": "tech_report",
+      "url": "kimi-k2.pdf",
+      "ref": "p.16",
+      "fetched_at": "2026-06-07T06:47:26.220Z"
+    }
+  },
+  {
+    "model_id": "qwen3-235b",
+    "benchmark_id": "swe-bench-verified-agentless-single-patch",
+    "score": 39.4,
+    "config": "pass@1",
+    "source": {
+      "kind": "tech_report",
+      "url": "kimi-k2.pdf",
+      "ref": "p.16",
+      "reported_by": "kimi-k2",
+      "fetched_at": "2026-06-07T06:47:26.220Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3",
+    "benchmark_id": "swe-bench-verified-agentless-single-patch",
+    "score": 36.6,
+    "config": "pass@1",
+    "source": {
+      "kind": "tech_report",
+      "url": "kimi-k2.pdf",
+      "ref": "p.16",
+      "reported_by": "kimi-k2",
+      "fetched_at": "2026-06-07T06:47:26.220Z"
+    }
+  },
+  {
+    "model_id": "kimi-k2",
+    "benchmark_id": "swe-lancer",
+    "score": 39.1,
+    "config": "pass@1",
+    "source": {
+      "kind": "tech_report",
+      "url": "kimi-k2.pdf",
+      "ref": "p.16",
+      "fetched_at": "2026-06-07T06:47:26.220Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3",
+    "benchmark_id": "swe-lancer",
+    "score": 30.5,
+    "config": "pass@1",
+    "source": {
+      "kind": "tech_report",
+      "url": "kimi-k2.pdf",
+      "ref": "p.16",
+      "reported_by": "kimi-k2",
+      "fetched_at": "2026-06-07T06:47:26.220Z"
+    }
+  },
+  {
+    "model_id": "qwen3-235b",
+    "benchmark_id": "swe-lancer",
+    "score": 24.1,
+    "config": "pass@1",
+    "source": {
+      "kind": "tech_report",
+      "url": "kimi-k2.pdf",
+      "ref": "p.16",
+      "reported_by": "kimi-k2",
+      "fetched_at": "2026-06-07T06:47:26.220Z"
+    }
+  },
+  {
+    "model_id": "claude-opus-4",
+    "benchmark_id": "terminal-bench-in-house",
+    "score": 43.2,
+    "config": "Acc.",
+    "source": {
+      "kind": "tech_report",
+      "url": "kimi-k2.pdf",
+      "ref": "p.16",
+      "reported_by": "kimi-k2",
+      "fetched_at": "2026-06-07T06:47:26.220Z"
+    }
+  },
+  {
+    "model_id": "kimi-k2",
+    "benchmark_id": "terminal-bench-in-house",
+    "score": 30,
+    "config": "Acc.",
+    "source": {
+      "kind": "tech_report",
+      "url": "kimi-k2.pdf",
+      "ref": "p.16",
+      "fetched_at": "2026-06-07T06:47:26.220Z"
+    }
+  },
+  {
+    "model_id": "kimi-k2",
+    "benchmark_id": "terminal-bench-terminus",
+    "score": 25,
+    "config": "Acc.",
+    "source": {
+      "kind": "tech_report",
+      "url": "kimi-k2.pdf",
+      "ref": "p.16",
+      "fetched_at": "2026-06-07T06:47:26.220Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3",
+    "benchmark_id": "terminal-bench-terminus",
+    "score": 16.3,
+    "config": "Acc.",
+    "source": {
+      "kind": "tech_report",
+      "url": "kimi-k2.pdf",
+      "ref": "p.16",
+      "reported_by": "kimi-k2",
+      "fetched_at": "2026-06-07T06:47:26.220Z"
+    }
+  },
+  {
+    "model_id": "qwen3-235b",
+    "benchmark_id": "terminal-bench-terminus",
+    "score": 6.6,
+    "config": "Acc.",
+    "source": {
+      "kind": "tech_report",
+      "url": "kimi-k2.pdf",
+      "ref": "p.16",
+      "reported_by": "kimi-k2",
+      "fetched_at": "2026-06-07T06:47:26.220Z"
+    }
+  },
+  {
+    "model_id": "kimi-k2",
+    "benchmark_id": "zebralogic",
+    "score": 89,
+    "config": "Acc.",
+    "source": {
+      "kind": "tech_report",
+      "url": "kimi-k2.pdf",
+      "ref": "p.16",
+      "fetched_at": "2026-06-07T06:47:26.220Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3",
+    "benchmark_id": "zebralogic",
+    "score": 84,
+    "config": "Acc.",
+    "source": {
+      "kind": "tech_report",
+      "url": "kimi-k2.pdf",
+      "ref": "p.16",
+      "reported_by": "kimi-k2",
+      "fetched_at": "2026-06-07T06:47:26.220Z"
+    }
+  },
+  {
+    "model_id": "claude-opus-4",
+    "benchmark_id": "zebralogic",
+    "score": 59.3,
+    "config": "Acc.",
+    "source": {
+      "kind": "tech_report",
+      "url": "kimi-k2.pdf",
+      "ref": "p.16",
+      "reported_by": "kimi-k2",
+      "fetched_at": "2026-06-07T06:47:26.220Z"
+    }
+  },
+  {
+    "model_id": "qwen3-235b",
+    "benchmark_id": "zebralogic",
+    "score": 37.7,
+    "config": "Acc.",
+    "source": {
+      "kind": "tech_report",
+      "url": "kimi-k2.pdf",
+      "ref": "p.16",
+      "reported_by": "kimi-k2",
+      "fetched_at": "2026-06-07T06:47:26.220Z"
+    }
+  }
+]

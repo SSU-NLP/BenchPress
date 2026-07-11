@@ -1,0 +1,62 @@
+[
+  {
+    "id": "analogical_reasoning",
+    "abbr": "Ana",
+    "name": "Analogical Reasoning",
+    "definition": "Mapping an underlying relation from one pair or structure to another."
+  },
+  {
+    "id": "commonsense_causal_reasoning",
+    "abbr": "Com",
+    "name": "Commonsense & Causal Reasoning",
+    "definition": "Using everyday plausibility to infer causes, effects, or likely next events."
+  },
+  {
+    "id": "contextual_recall",
+    "abbr": "Cxt",
+    "name": "Contextual Recall",
+    "definition": "Recovering details supplied in the local context without requiring new inference."
+  },
+  {
+    "id": "deductive_reasoning",
+    "abbr": "Ded",
+    "name": "Deductive Reasoning",
+    "definition": "Applying explicit premises or rules to reach a logically entailed conclusion."
+  },
+  {
+    "id": "inductive_reasoning",
+    "abbr": "Ind",
+    "name": "Inductive Reasoning",
+    "definition": "Inferring a rule or pattern from examples and extrapolating it."
+  },
+  {
+    "id": "long_term_knowledge_recall",
+    "abbr": "LTK",
+    "name": "Long-Term Knowledge Recall",
+    "definition": "Retrieving stored factual knowledge not provided in the prompt."
+  },
+  {
+    "id": "quantitative_reasoning",
+    "abbr": "Quant",
+    "name": "Quantitative Reasoning",
+    "definition": "Solving problems that require arithmetic, counting, or numerical comparison."
+  },
+  {
+    "id": "semantic_relationship_comprehension",
+    "abbr": "Sem",
+    "name": "Semantic Relationship Comprehension",
+    "definition": "Understanding roles, links, and relations among entities or concepts in text."
+  },
+  {
+    "id": "spatial_geometrical_reasoning",
+    "abbr": "Spat",
+    "name": "Spatial & Geometrical Reasoning",
+    "definition": "Reasoning about layouts, shapes, positions, directions, distances, or geometry."
+  },
+  {
+    "id": "temporal_reasoning",
+    "abbr": "Temp",
+    "name": "Temporal Reasoning",
+    "definition": "Reasoning about ordering, simultaneity, duration, dates, or time markers."
+  }
+]

@@ -1,0 +1,419 @@
+[
+  {
+    "model_id": "qwen3-235b",
+    "benchmark_id": "mbpp+",
+    "score": 66.2,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/mbppplus#qwen3-235b-a22b",
+      "ref": "PricePerToken MBPP+ benchmark leaderboard: Qwen3 235B A22B",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Alibaba",
+      "pricepertoken_model": "Qwen3 235B A22B"
+    },
+    "variants": [
+      {
+        "score": 62.7,
+        "config": "default",
+        "source": {
+          "kind": "manual",
+          "url": "https://pricepertoken.com/leaderboards/benchmark/mbppplus#qwen3-235b-a22b-instruct-2507",
+          "ref": "PricePerToken MBPP+ benchmark leaderboard: Qwen3 235B A22B Instruct 2507",
+          "reported_by": "PricePerToken",
+          "fetched_at": "2026-06-25T00:00:00Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "deepseek-r1",
+    "benchmark_id": "mbpp+",
+    "score": 64.7,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/mbppplus#r1",
+      "ref": "PricePerToken MBPP+ benchmark leaderboard: R1",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "DeepSeek",
+      "pricepertoken_model": "R1"
+    }
+  },
+  {
+    "model_id": "o4-mini",
+    "benchmark_id": "mbpp+",
+    "score": 64.3,
+    "config": "high",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/mbppplus#o4-mini-high",
+      "ref": "PricePerToken MBPP+ benchmark leaderboard: o4 Mini High",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "OpenAI",
+      "pricepertoken_model": "o4 Mini High"
+    }
+  },
+  {
+    "model_id": "claude-opus-4",
+    "benchmark_id": "mbpp+",
+    "score": 63.4,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/mbppplus#claude-opus-4",
+      "ref": "PricePerToken MBPP+ benchmark leaderboard: Claude Opus 4",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Anthropic",
+      "pricepertoken_model": "Claude Opus 4"
+    }
+  },
+  {
+    "model_id": "qwen3-32b",
+    "benchmark_id": "mbpp+",
+    "score": 63.4,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/mbppplus#qwen3-32b",
+      "ref": "PricePerToken MBPP+ benchmark leaderboard: Qwen3 32B",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Alibaba",
+      "pricepertoken_model": "Qwen3 32B"
+    }
+  },
+  {
+    "model_id": "o3-mini",
+    "benchmark_id": "mbpp+",
+    "score": 63.2,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/mbppplus#o3-mini",
+      "ref": "PricePerToken MBPP+ benchmark leaderboard: o3 Mini",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "OpenAI",
+      "pricepertoken_model": "o3 Mini"
+    }
+  },
+  {
+    "model_id": "qwen3-next-80b-a3b",
+    "benchmark_id": "mbpp+",
+    "score": 63.2,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/mbppplus#qwen3-next-80b-a3b-instruct",
+      "ref": "PricePerToken MBPP+ benchmark leaderboard: Qwen3 Next 80B A3B Instruct",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Alibaba",
+      "pricepertoken_model": "Qwen3 Next 80B A3B Instruct"
+    }
+  },
+  {
+    "model_id": "gemini-2.5-pro",
+    "benchmark_id": "mbpp+",
+    "score": 63,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/mbppplus#gemini-2-5-pro-preview-05-06",
+      "ref": "PricePerToken MBPP+ benchmark leaderboard: Gemini 2.5 Pro Preview 05-06",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Google",
+      "pricepertoken_model": "Gemini 2.5 Pro Preview 05-06"
+    },
+    "variants": [
+      {
+        "score": 63,
+        "config": "default",
+        "source": {
+          "kind": "manual",
+          "url": "https://pricepertoken.com/leaderboards/benchmark/mbppplus#gemini-2-5-pro",
+          "ref": "PricePerToken MBPP+ benchmark leaderboard: Gemini 2.5 Pro",
+          "reported_by": "PricePerToken",
+          "fetched_at": "2026-06-25T00:00:00Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "gpt-4.1",
+    "benchmark_id": "mbpp+",
+    "score": 63,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/mbppplus#gpt-4-1",
+      "ref": "PricePerToken MBPP+ benchmark leaderboard: GPT-4.1",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "OpenAI",
+      "pricepertoken_model": "GPT-4.1"
+    }
+  },
+  {
+    "model_id": "qwen3-30b-a3b",
+    "benchmark_id": "mbpp+",
+    "score": 62.6,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/mbppplus#qwen3-30b-a3b",
+      "ref": "PricePerToken MBPP+ benchmark leaderboard: Qwen3 30B A3B",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Alibaba",
+      "pricepertoken_model": "Qwen3 30B A3B"
+    }
+  },
+  {
+    "model_id": "minimax-m1",
+    "benchmark_id": "mbpp+",
+    "score": 61.9,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/mbppplus#minimax-m1",
+      "ref": "PricePerToken MBPP+ benchmark leaderboard: MiniMax M1",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "MiniMax",
+      "pricepertoken_model": "MiniMax M1"
+    }
+  },
+  {
+    "model_id": "o3",
+    "benchmark_id": "mbpp+",
+    "score": 61.6,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/mbppplus#o3",
+      "ref": "PricePerToken MBPP+ benchmark leaderboard: o3",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "OpenAI",
+      "pricepertoken_model": "o3"
+    }
+  },
+  {
+    "model_id": "llama-4-maverick",
+    "benchmark_id": "mbpp+",
+    "score": 60.1,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/mbppplus#llama-4-maverick",
+      "ref": "PricePerToken MBPP+ benchmark leaderboard: Llama 4 Maverick",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Meta",
+      "pricepertoken_model": "Llama 4 Maverick"
+    }
+  },
+  {
+    "model_id": "gemma-3-27b",
+    "benchmark_id": "mbpp+",
+    "score": 59.8,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/mbppplus#gemma-3-27b",
+      "ref": "PricePerToken MBPP+ benchmark leaderboard: Gemma 3 27B",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Google",
+      "pricepertoken_model": "Gemma 3 27B"
+    }
+  },
+  {
+    "model_id": "gemini-2.5-flash",
+    "benchmark_id": "mbpp+",
+    "score": 57.7,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/mbppplus#gemini-2-5-flash",
+      "ref": "PricePerToken MBPP+ benchmark leaderboard: Gemini 2.5 Flash",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Google",
+      "pricepertoken_model": "Gemini 2.5 Flash"
+    }
+  },
+  {
+    "model_id": "mistral-small-3.2",
+    "benchmark_id": "mbpp+",
+    "score": 56.6,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/mbppplus#mistral-small-3-2-24b",
+      "ref": "PricePerToken MBPP+ benchmark leaderboard: Mistral Small 3.2 24B",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Mistral",
+      "pricepertoken_model": "Mistral Small 3.2 24B"
+    }
+  },
+  {
+    "model_id": "phi-4",
+    "benchmark_id": "mbpp+",
+    "score": 55,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/mbppplus#phi-4",
+      "ref": "PricePerToken MBPP+ benchmark leaderboard: Phi 4",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Microsoft",
+      "pricepertoken_model": "Phi 4"
+    }
+  },
+  {
+    "model_id": "llama-4-scout",
+    "benchmark_id": "mbpp+",
+    "score": 54,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/mbppplus#llama-4-scout",
+      "ref": "PricePerToken MBPP+ benchmark leaderboard: Llama 4 Scout",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Meta",
+      "pricepertoken_model": "Llama 4 Scout"
+    }
+  },
+  {
+    "model_id": "claude-haiku-4.5",
+    "benchmark_id": "mbpp+",
+    "score": 53.4,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/mbppplus#claude-haiku-4-5",
+      "ref": "PricePerToken MBPP+ benchmark leaderboard: Claude Haiku 4.5",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Anthropic",
+      "pricepertoken_model": "Claude Haiku 4.5"
+    }
+  },
+  {
+    "model_id": "deepseek-v3",
+    "benchmark_id": "mbpp+",
+    "score": 51.1,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/mbppplus#deepseek-v3",
+      "ref": "PricePerToken MBPP+ benchmark leaderboard: DeepSeek V3",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Deepseek",
+      "pricepertoken_model": "DeepSeek V3"
+    }
+  },
+  {
+    "model_id": "nova-lite",
+    "benchmark_id": "mbpp+",
+    "score": 50.8,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/mbppplus#nova-lite-1-0",
+      "ref": "PricePerToken MBPP+ benchmark leaderboard: Nova Lite 1.0",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Amazon",
+      "pricepertoken_model": "Nova Lite 1.0"
+    }
+  },
+  {
+    "model_id": "nova-pro",
+    "benchmark_id": "mbpp+",
+    "score": 49.2,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/mbppplus#nova-pro-1-0",
+      "ref": "PricePerToken MBPP+ benchmark leaderboard: Nova Pro 1.0",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Amazon",
+      "pricepertoken_model": "Nova Pro 1.0"
+    }
+  },
+  {
+    "model_id": "nova-micro",
+    "benchmark_id": "mbpp+",
+    "score": 47.9,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/mbppplus#nova-micro-1-0",
+      "ref": "PricePerToken MBPP+ benchmark leaderboard: Nova Micro 1.0",
+      "reported_by": "PricePerToken",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    },
+    "extra": {
+      "provider": "Amazon",
+      "pricepertoken_model": "Nova Micro 1.0"
+    }
+  }
+]

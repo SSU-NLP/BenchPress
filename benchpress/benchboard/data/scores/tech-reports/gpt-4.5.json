@@ -1,0 +1,3015 @@
+[
+  {
+    "model_id": "gpt-4.5",
+    "benchmark_id": "agentic-tasks",
+    "score": 40,
+    "config": "post-mitigation",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-4.5__system-card.pdf",
+      "ref": "p.21",
+      "fetched_at": "2026-06-08T06:08:11.064Z"
+    },
+    "variants": [
+      {
+        "score": 25,
+        "config": "pre-mitigation",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.21",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "bbq",
+    "score": 97,
+    "config": "Ambiguous Questions accuracy",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-4.5__system-card.pdf",
+      "ref": "p.4",
+      "reported_by": "gpt-4.5",
+      "fetched_at": "2026-06-08T06:08:11.064Z"
+    },
+    "variants": [
+      {
+        "score": 72,
+        "config": "Unambiguous Questions accuracy",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.4",
+          "reported_by": "gpt-4.5",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "bbq",
+    "score": 96,
+    "config": "Ambiguous Questions accuracy",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-4.5__system-card.pdf",
+      "ref": "p.4",
+      "reported_by": "gpt-4.5",
+      "fetched_at": "2026-06-08T06:08:11.064Z"
+    },
+    "variants": [
+      {
+        "score": 93,
+        "config": "Unambiguous Questions accuracy",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.4",
+          "reported_by": "gpt-4.5",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "gpt-4.5",
+    "benchmark_id": "bbq",
+    "score": 95,
+    "config": "Ambiguous Questions accuracy",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-4.5__system-card.pdf",
+      "ref": "p.4",
+      "fetched_at": "2026-06-08T06:08:11.064Z"
+    },
+    "variants": [
+      {
+        "score": 74,
+        "config": "Unambiguous Questions accuracy",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.4",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "gpt-4.5",
+    "benchmark_id": "biolp-bench",
+    "score": 29,
+    "config": "post-mitigation",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-4.5__system-card.pdf",
+      "ref": "p.12",
+      "fetched_at": "2026-06-08T06:08:11.064Z"
+    }
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "challenging-red-teaming-evaluation-1",
+    "score": 0.63,
+    "config": "not_unsafe",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-4.5__system-card.pdf",
+      "ref": "p.6",
+      "reported_by": "gpt-4.5",
+      "fetched_at": "2026-06-08T06:08:11.064Z"
+    }
+  },
+  {
+    "model_id": "gpt-4.5",
+    "benchmark_id": "challenging-red-teaming-evaluation-1",
+    "score": 0.51,
+    "config": "not_unsafe",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-4.5__system-card.pdf",
+      "ref": "p.6",
+      "fetched_at": "2026-06-08T06:08:11.064Z"
+    }
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "challenging-red-teaming-evaluation-1",
+    "score": 0.5,
+    "config": "not_unsafe",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-4.5__system-card.pdf",
+      "ref": "p.6",
+      "reported_by": "gpt-4.5",
+      "fetched_at": "2026-06-08T06:08:11.064Z"
+    }
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "challenging-red-teaming-evaluation-2",
+    "score": 0.68,
+    "config": "not_unsafe",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-4.5__system-card.pdf",
+      "ref": "p.6",
+      "reported_by": "gpt-4.5",
+      "fetched_at": "2026-06-08T06:08:11.064Z"
+    }
+  },
+  {
+    "model_id": "gpt-4.5",
+    "benchmark_id": "challenging-red-teaming-evaluation-2",
+    "score": 0.46,
+    "config": "not_unsafe",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-4.5__system-card.pdf",
+      "ref": "p.6",
+      "fetched_at": "2026-06-08T06:08:11.064Z"
+    }
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "challenging-red-teaming-evaluation-2",
+    "score": 0.4,
+    "config": "not_unsafe",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-4.5__system-card.pdf",
+      "ref": "p.6",
+      "reported_by": "gpt-4.5",
+      "fetched_at": "2026-06-08T06:08:11.064Z"
+    }
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "challenging-refusal-evaluation",
+    "score": 0.96,
+    "config": "Detailed, illicit/violent",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-4.5__system-card.pdf",
+      "ref": "p.28",
+      "reported_by": "gpt-4.5",
+      "fetched_at": "2026-06-08T06:08:11.064Z"
+    },
+    "variants": [
+      {
+        "score": 0.95,
+        "config": "Detailed, sexual/exploitative",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.28",
+          "reported_by": "gpt-4.5",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      },
+      {
+        "score": 0.92,
+        "config": "not_unsafe",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.2",
+          "reported_by": "gpt-4.5",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      },
+      {
+        "score": 0.92,
+        "config": "Detailed, illicit/non-violent",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.28",
+          "reported_by": "gpt-4.5",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      },
+      {
+        "score": 0.91,
+        "config": "Detailed, hate/threatening",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.28",
+          "reported_by": "gpt-4.5",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      },
+      {
+        "score": 0.9,
+        "config": "Detailed, harassment/threatening",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.28",
+          "reported_by": "gpt-4.5",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      },
+      {
+        "score": 0.9,
+        "config": "Detailed, sexual/minors",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.28",
+          "reported_by": "gpt-4.5",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      },
+      {
+        "score": 0.85,
+        "config": "Detailed, self-harm/instructions",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.28",
+          "reported_by": "gpt-4.5",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "challenging-refusal-evaluation",
+    "score": 0.92,
+    "config": "Detailed, self-harm/instructions",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-4.5__system-card.pdf",
+      "ref": "p.28",
+      "reported_by": "gpt-4.5",
+      "fetched_at": "2026-06-08T06:08:11.064Z"
+    },
+    "variants": [
+      {
+        "score": 0.91,
+        "config": "Detailed, sexual/minors",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.28",
+          "reported_by": "gpt-4.5",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      },
+      {
+        "score": 0.91,
+        "config": "Detailed, hate/threatening",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.28",
+          "reported_by": "gpt-4.5",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      },
+      {
+        "score": 0.87,
+        "config": "Detailed, harassment/threatening",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.28",
+          "reported_by": "gpt-4.5",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      },
+      {
+        "score": 0.83,
+        "config": "not_unsafe",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.2",
+          "reported_by": "gpt-4.5",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      },
+      {
+        "score": 0.81,
+        "config": "Detailed, illicit/violent",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.28",
+          "reported_by": "gpt-4.5",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      },
+      {
+        "score": 0.77,
+        "config": "Detailed, illicit/non-violent",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.28",
+          "reported_by": "gpt-4.5",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      },
+      {
+        "score": 0.76,
+        "config": "Detailed, sexual/exploitative",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.28",
+          "reported_by": "gpt-4.5",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "gpt-4.5",
+    "benchmark_id": "challenging-refusal-evaluation",
+    "score": 0.9,
+    "config": "Detailed, sexual/minors",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-4.5__system-card.pdf",
+      "ref": "p.28",
+      "fetched_at": "2026-06-08T06:08:11.064Z"
+    },
+    "variants": [
+      {
+        "score": 0.89,
+        "config": "Detailed, harassment/threatening",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.28",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      },
+      {
+        "score": 0.88,
+        "config": "Detailed, sexual/exploitative",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.28",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      },
+      {
+        "score": 0.85,
+        "config": "not_unsafe",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.2",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      },
+      {
+        "score": 0.85,
+        "config": "Detailed, self-harm/instructions",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.28",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      },
+      {
+        "score": 0.82,
+        "config": "Detailed, hate/threatening",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.28",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      },
+      {
+        "score": 0.78,
+        "config": "Detailed, illicit/violent",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.28",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      },
+      {
+        "score": 0.73,
+        "config": "Detailed, illicit/non-violent",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.28",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "gpt-4.5",
+    "benchmark_id": "collegiate-ctfs",
+    "score": 16,
+    "config": "pass@12",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-4.5__system-card.pdf",
+      "ref": "p.9",
+      "fetched_at": "2026-06-08T06:08:11.064Z"
+    }
+  },
+  {
+    "model_id": "gpt-4.5",
+    "benchmark_id": "hallucination-evaluations",
+    "score": 0.78,
+    "config": "PersonQA accuracy",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-4.5__system-card.pdf",
+      "ref": "p.4",
+      "fetched_at": "2026-06-08T06:08:11.064Z"
+    },
+    "variants": [
+      {
+        "score": 0.19,
+        "config": "PersonQA hallucination rate",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.4",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "hallucination-evaluations",
+    "score": 0.55,
+    "config": "PersonQA accuracy",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-4.5__system-card.pdf",
+      "ref": "p.4",
+      "reported_by": "gpt-4.5",
+      "fetched_at": "2026-06-08T06:08:11.064Z"
+    },
+    "variants": [
+      {
+        "score": 0.2,
+        "config": "PersonQA hallucination rate",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.4",
+          "reported_by": "gpt-4.5",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "hallucination-evaluations",
+    "score": 0.5,
+    "config": "PersonQA accuracy",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-4.5__system-card.pdf",
+      "ref": "p.4",
+      "reported_by": "gpt-4.5",
+      "fetched_at": "2026-06-08T06:08:11.064Z"
+    },
+    "variants": [
+      {
+        "score": 0.3,
+        "config": "PersonQA hallucination rate",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.4",
+          "reported_by": "gpt-4.5",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "gpt-4.5",
+    "benchmark_id": "high-school-ctfs",
+    "score": 53,
+    "config": "pass@12",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-4.5__system-card.pdf",
+      "ref": "p.9",
+      "fetched_at": "2026-06-08T06:08:11.064Z"
+    }
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "instruction-hierarchy-evaluation",
+    "score": 1,
+    "config": "Phrase and Password, Password protection - user message",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-4.5__system-card.pdf",
+      "ref": "p.5",
+      "reported_by": "gpt-4.5",
+      "fetched_at": "2026-06-08T06:08:11.064Z"
+    },
+    "variants": [
+      {
+        "score": 0.95,
+        "config": "Tutor Jailbreaks, Tutor jailbreak - system message",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.5",
+          "reported_by": "gpt-4.5",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      },
+      {
+        "score": 0.91,
+        "config": "Phrase and Password, Phrase protection - user message",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.5",
+          "reported_by": "gpt-4.5",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      },
+      {
+        "score": 0.78,
+        "config": "Conflicts, System <> User message conflict",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.5",
+          "reported_by": "gpt-4.5",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "gpt-4.5",
+    "benchmark_id": "instruction-hierarchy-evaluation",
+    "score": 0.92,
+    "config": "Phrase and Password, Password protection - user message",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-4.5__system-card.pdf",
+      "ref": "p.5",
+      "fetched_at": "2026-06-08T06:08:11.064Z"
+    },
+    "variants": [
+      {
+        "score": 0.86,
+        "config": "Phrase and Password, Phrase protection - user message",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.5",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      },
+      {
+        "score": 0.77,
+        "config": "Tutor Jailbreaks, Tutor jailbreak - system message",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.5",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      },
+      {
+        "score": 0.76,
+        "config": "Conflicts, System <> User message conflict",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.5",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "instruction-hierarchy-evaluation",
+    "score": 0.85,
+    "config": "Phrase and Password, Password protection - user message",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-4.5__system-card.pdf",
+      "ref": "p.5",
+      "reported_by": "gpt-4.5",
+      "fetched_at": "2026-06-08T06:08:11.064Z"
+    },
+    "variants": [
+      {
+        "score": 0.74,
+        "config": "Phrase and Password, Phrase protection - user message",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.5",
+          "reported_by": "gpt-4.5",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      },
+      {
+        "score": 0.68,
+        "config": "Conflicts, System <> User message conflict",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.5",
+          "reported_by": "gpt-4.5",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      },
+      {
+        "score": 0.33,
+        "config": "Tutor Jailbreaks, Tutor jailbreak - system message",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.5",
+          "reported_by": "gpt-4.5",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "jailbreak-evaluations",
+    "score": 0.87,
+    "config": "StrongReject goodness@0.1",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-4.5__system-card.pdf",
+      "ref": "p.3",
+      "reported_by": "gpt-4.5",
+      "fetched_at": "2026-06-08T06:08:11.064Z"
+    }
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "jailbreak-evaluations",
+    "score": 0.37,
+    "config": "StrongReject goodness@0.1",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-4.5__system-card.pdf",
+      "ref": "p.3",
+      "reported_by": "gpt-4.5",
+      "fetched_at": "2026-06-08T06:08:11.064Z"
+    }
+  },
+  {
+    "model_id": "gpt-4.5",
+    "benchmark_id": "jailbreak-evaluations",
+    "score": 0.34,
+    "config": "StrongReject goodness@0.1",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-4.5__system-card.pdf",
+      "ref": "p.3",
+      "fetched_at": "2026-06-08T06:08:11.064Z"
+    }
+  },
+  {
+    "model_id": "gpt-4.5",
+    "benchmark_id": "jailbreak-evaluations-human-sourced-jailbreaks",
+    "score": 0.99,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-4.5__system-card.pdf",
+      "ref": "p.3",
+      "fetched_at": "2026-06-08T06:08:11.064Z"
+    }
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "jailbreak-evaluations-human-sourced-jailbreaks",
+    "score": 0.97,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-4.5__system-card.pdf",
+      "ref": "p.3",
+      "reported_by": "gpt-4.5",
+      "fetched_at": "2026-06-08T06:08:11.064Z"
+    }
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "jailbreak-evaluations-human-sourced-jailbreaks",
+    "score": 0.97,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-4.5__system-card.pdf",
+      "ref": "p.3",
+      "reported_by": "gpt-4.5",
+      "fetched_at": "2026-06-08T06:08:11.064Z"
+    }
+  },
+  {
+    "model_id": "gpt-4.5",
+    "benchmark_id": "long-form-biorisk-questions",
+    "score": 59,
+    "config": "pre-mitigation, Magnification",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-4.5__system-card.pdf",
+      "ref": "p.11",
+      "fetched_at": "2026-06-08T06:08:11.064Z"
+    },
+    "variants": [
+      {
+        "score": 28,
+        "config": "pre-mitigation, Acquisition",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.11",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      },
+      {
+        "score": 25,
+        "config": "pre-mitigation, Ideation",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.11",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      },
+      {
+        "score": 19,
+        "config": "pre-mitigation, Release",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.11",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      },
+      {
+        "score": 0,
+        "config": "pre-mitigation, Formulation",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.11",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      },
+      {
+        "score": 0,
+        "config": "post-mitigation, Ideation",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.11",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      },
+      {
+        "score": 0,
+        "config": "post-mitigation, Acquisition",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.11",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      },
+      {
+        "score": 0,
+        "config": "post-mitigation, Magnification",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.11",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      },
+      {
+        "score": 0,
+        "config": "post-mitigation, Formulation",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.11",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      },
+      {
+        "score": 0,
+        "config": "post-mitigation, Release",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.11",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "gpt-4.5",
+    "benchmark_id": "makemepay",
+    "score": 57,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-4.5__system-card.pdf",
+      "ref": "p.17",
+      "fetched_at": "2026-06-08T06:08:11.064Z"
+    }
+  },
+  {
+    "model_id": "gpt-4.5",
+    "benchmark_id": "makemesay",
+    "score": 72,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-4.5__system-card.pdf",
+      "ref": "p.17",
+      "fetched_at": "2026-06-08T06:08:11.064Z"
+    }
+  },
+  {
+    "model_id": "gpt-4.5",
+    "benchmark_id": "mle-bench",
+    "score": 11,
+    "config": "pass@1",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-4.5__system-card.pdf",
+      "ref": "p.22",
+      "fetched_at": "2026-06-08T06:08:11.064Z"
+    }
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "mmlu-language",
+    "score": 0.923,
+    "config": "0-shot, English (not translated)",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-4.5__system-card.pdf",
+      "ref": "p.25",
+      "reported_by": "gpt-4.5",
+      "fetched_at": "2026-06-08T06:08:11.064Z"
+    },
+    "variants": [
+      {
+        "score": 0.8952,
+        "config": "0-shot, Portuguese (Brazil)",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.25",
+          "reported_by": "gpt-4.5",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      },
+      {
+        "score": 0.8892,
+        "config": "0-shot, Chinese (Simplified)",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.25",
+          "reported_by": "gpt-4.5",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "gpt-4.5",
+    "benchmark_id": "mmlu-language",
+    "score": 0.896,
+    "config": "0-shot, English (not translated)",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-4.5__system-card.pdf",
+      "ref": "p.25",
+      "fetched_at": "2026-06-08T06:08:11.064Z"
+    },
+    "variants": [
+      {
+        "score": 0.8789,
+        "config": "0-shot, Portuguese (Brazil)",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.25",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      },
+      {
+        "score": 0.8695,
+        "config": "0-shot, Chinese (Simplified)",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.25",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "mmlu-language",
+    "score": 0.887,
+    "config": "0-shot, English (not translated)",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-4.5__system-card.pdf",
+      "ref": "p.25",
+      "reported_by": "gpt-4.5",
+      "fetched_at": "2026-06-08T06:08:11.064Z"
+    },
+    "variants": [
+      {
+        "score": 0.8418,
+        "config": "0-shot, Chinese (Simplified)",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.25",
+          "reported_by": "gpt-4.5",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      },
+      {
+        "score": 0.836,
+        "config": "0-shot, Portuguese (Brazil)",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.25",
+          "reported_by": "gpt-4.5",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "mmlu-language-arabic",
+    "score": 0.89,
+    "config": "0-shot",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-4.5__system-card.pdf",
+      "ref": "p.25",
+      "reported_by": "gpt-4.5",
+      "fetched_at": "2026-06-08T06:08:11.064Z"
+    }
+  },
+  {
+    "model_id": "gpt-4.5",
+    "benchmark_id": "mmlu-language-arabic",
+    "score": 0.8598,
+    "config": "0-shot",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-4.5__system-card.pdf",
+      "ref": "p.25",
+      "fetched_at": "2026-06-08T06:08:11.064Z"
+    }
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "mmlu-language-arabic",
+    "score": 0.8311,
+    "config": "0-shot",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-4.5__system-card.pdf",
+      "ref": "p.25",
+      "reported_by": "gpt-4.5",
+      "fetched_at": "2026-06-08T06:08:11.064Z"
+    }
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "mmlu-language-bengali",
+    "score": 0.8734,
+    "config": "0-shot",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-4.5__system-card.pdf",
+      "ref": "p.25",
+      "reported_by": "gpt-4.5",
+      "fetched_at": "2026-06-08T06:08:11.064Z"
+    }
+  },
+  {
+    "model_id": "gpt-4.5",
+    "benchmark_id": "mmlu-language-bengali",
+    "score": 0.8477,
+    "config": "0-shot",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-4.5__system-card.pdf",
+      "ref": "p.25",
+      "fetched_at": "2026-06-08T06:08:11.064Z"
+    }
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "mmlu-language-bengali",
+    "score": 0.8014,
+    "config": "0-shot",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-4.5__system-card.pdf",
+      "ref": "p.25",
+      "reported_by": "gpt-4.5",
+      "fetched_at": "2026-06-08T06:08:11.064Z"
+    }
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "mmlu-language-french",
+    "score": 0.8932,
+    "config": "0-shot",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-4.5__system-card.pdf",
+      "ref": "p.25",
+      "reported_by": "gpt-4.5",
+      "fetched_at": "2026-06-08T06:08:11.064Z"
+    }
+  },
+  {
+    "model_id": "gpt-4.5",
+    "benchmark_id": "mmlu-language-french",
+    "score": 0.8782,
+    "config": "0-shot",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-4.5__system-card.pdf",
+      "ref": "p.25",
+      "fetched_at": "2026-06-08T06:08:11.064Z"
+    }
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "mmlu-language-french",
+    "score": 0.8461,
+    "config": "0-shot",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-4.5__system-card.pdf",
+      "ref": "p.25",
+      "reported_by": "gpt-4.5",
+      "fetched_at": "2026-06-08T06:08:11.064Z"
+    }
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "mmlu-language-german",
+    "score": 0.8904,
+    "config": "0-shot",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-4.5__system-card.pdf",
+      "ref": "p.25",
+      "reported_by": "gpt-4.5",
+      "fetched_at": "2026-06-08T06:08:11.064Z"
+    }
+  },
+  {
+    "model_id": "gpt-4.5",
+    "benchmark_id": "mmlu-language-german",
+    "score": 0.8532,
+    "config": "0-shot",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-4.5__system-card.pdf",
+      "ref": "p.25",
+      "fetched_at": "2026-06-08T06:08:11.064Z"
+    }
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "mmlu-language-german",
+    "score": 0.8363,
+    "config": "0-shot",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-4.5__system-card.pdf",
+      "ref": "p.25",
+      "reported_by": "gpt-4.5",
+      "fetched_at": "2026-06-08T06:08:11.064Z"
+    }
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "mmlu-language-hindi",
+    "score": 0.8833,
+    "config": "0-shot",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-4.5__system-card.pdf",
+      "ref": "p.25",
+      "reported_by": "gpt-4.5",
+      "fetched_at": "2026-06-08T06:08:11.064Z"
+    }
+  },
+  {
+    "model_id": "gpt-4.5",
+    "benchmark_id": "mmlu-language-hindi",
+    "score": 0.8583,
+    "config": "0-shot",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-4.5__system-card.pdf",
+      "ref": "p.25",
+      "fetched_at": "2026-06-08T06:08:11.064Z"
+    }
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "mmlu-language-hindi",
+    "score": 0.8191,
+    "config": "0-shot",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-4.5__system-card.pdf",
+      "ref": "p.25",
+      "reported_by": "gpt-4.5",
+      "fetched_at": "2026-06-08T06:08:11.064Z"
+    }
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "mmlu-language-indonesian",
+    "score": 0.8861,
+    "config": "0-shot",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-4.5__system-card.pdf",
+      "ref": "p.25",
+      "reported_by": "gpt-4.5",
+      "fetched_at": "2026-06-08T06:08:11.064Z"
+    }
+  },
+  {
+    "model_id": "gpt-4.5",
+    "benchmark_id": "mmlu-language-indonesian",
+    "score": 0.8722,
+    "config": "0-shot",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-4.5__system-card.pdf",
+      "ref": "p.25",
+      "fetched_at": "2026-06-08T06:08:11.064Z"
+    }
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "mmlu-language-indonesian",
+    "score": 0.8397,
+    "config": "0-shot",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-4.5__system-card.pdf",
+      "ref": "p.25",
+      "reported_by": "gpt-4.5",
+      "fetched_at": "2026-06-08T06:08:11.064Z"
+    }
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "mmlu-language-italian",
+    "score": 0.897,
+    "config": "0-shot",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-4.5__system-card.pdf",
+      "ref": "p.25",
+      "reported_by": "gpt-4.5",
+      "fetched_at": "2026-06-08T06:08:11.064Z"
+    }
+  },
+  {
+    "model_id": "gpt-4.5",
+    "benchmark_id": "mmlu-language-italian",
+    "score": 0.8777,
+    "config": "0-shot",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-4.5__system-card.pdf",
+      "ref": "p.25",
+      "fetched_at": "2026-06-08T06:08:11.064Z"
+    }
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "mmlu-language-italian",
+    "score": 0.8448,
+    "config": "0-shot",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-4.5__system-card.pdf",
+      "ref": "p.25",
+      "reported_by": "gpt-4.5",
+      "fetched_at": "2026-06-08T06:08:11.064Z"
+    }
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "mmlu-language-japanese",
+    "score": 0.8887,
+    "config": "0-shot",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-4.5__system-card.pdf",
+      "ref": "p.25",
+      "reported_by": "gpt-4.5",
+      "fetched_at": "2026-06-08T06:08:11.064Z"
+    }
+  },
+  {
+    "model_id": "gpt-4.5",
+    "benchmark_id": "mmlu-language-japanese",
+    "score": 0.8693,
+    "config": "0-shot",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-4.5__system-card.pdf",
+      "ref": "p.25",
+      "fetched_at": "2026-06-08T06:08:11.064Z"
+    }
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "mmlu-language-japanese",
+    "score": 0.8349,
+    "config": "0-shot",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-4.5__system-card.pdf",
+      "ref": "p.25",
+      "reported_by": "gpt-4.5",
+      "fetched_at": "2026-06-08T06:08:11.064Z"
+    }
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "mmlu-language-korean",
+    "score": 0.8824,
+    "config": "0-shot",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-4.5__system-card.pdf",
+      "ref": "p.25",
+      "reported_by": "gpt-4.5",
+      "fetched_at": "2026-06-08T06:08:11.064Z"
+    }
+  },
+  {
+    "model_id": "gpt-4.5",
+    "benchmark_id": "mmlu-language-korean",
+    "score": 0.8603,
+    "config": "0-shot",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-4.5__system-card.pdf",
+      "ref": "p.25",
+      "fetched_at": "2026-06-08T06:08:11.064Z"
+    }
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "mmlu-language-korean",
+    "score": 0.8289,
+    "config": "0-shot",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-4.5__system-card.pdf",
+      "ref": "p.25",
+      "reported_by": "gpt-4.5",
+      "fetched_at": "2026-06-08T06:08:11.064Z"
+    }
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "mmlu-language-spanish",
+    "score": 0.8992,
+    "config": "0-shot",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-4.5__system-card.pdf",
+      "ref": "p.25",
+      "reported_by": "gpt-4.5",
+      "fetched_at": "2026-06-08T06:08:11.064Z"
+    }
+  },
+  {
+    "model_id": "gpt-4.5",
+    "benchmark_id": "mmlu-language-spanish",
+    "score": 0.884,
+    "config": "0-shot",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-4.5__system-card.pdf",
+      "ref": "p.25",
+      "fetched_at": "2026-06-08T06:08:11.064Z"
+    }
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "mmlu-language-spanish",
+    "score": 0.843,
+    "config": "0-shot",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-4.5__system-card.pdf",
+      "ref": "p.25",
+      "reported_by": "gpt-4.5",
+      "fetched_at": "2026-06-08T06:08:11.064Z"
+    }
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "mmlu-language-swahili",
+    "score": 0.854,
+    "config": "0-shot",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-4.5__system-card.pdf",
+      "ref": "p.25",
+      "reported_by": "gpt-4.5",
+      "fetched_at": "2026-06-08T06:08:11.064Z"
+    }
+  },
+  {
+    "model_id": "gpt-4.5",
+    "benchmark_id": "mmlu-language-swahili",
+    "score": 0.8199,
+    "config": "0-shot",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-4.5__system-card.pdf",
+      "ref": "p.25",
+      "fetched_at": "2026-06-08T06:08:11.064Z"
+    }
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "mmlu-language-swahili",
+    "score": 0.7786,
+    "config": "0-shot",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-4.5__system-card.pdf",
+      "ref": "p.25",
+      "reported_by": "gpt-4.5",
+      "fetched_at": "2026-06-08T06:08:11.064Z"
+    }
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "mmlu-language-yoruba",
+    "score": 0.7538,
+    "config": "0-shot",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-4.5__system-card.pdf",
+      "ref": "p.25",
+      "reported_by": "gpt-4.5",
+      "fetched_at": "2026-06-08T06:08:11.064Z"
+    }
+  },
+  {
+    "model_id": "gpt-4.5",
+    "benchmark_id": "mmlu-language-yoruba",
+    "score": 0.6818,
+    "config": "0-shot",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-4.5__system-card.pdf",
+      "ref": "p.25",
+      "fetched_at": "2026-06-08T06:08:11.064Z"
+    }
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "mmlu-language-yoruba",
+    "score": 0.6208,
+    "config": "0-shot",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-4.5__system-card.pdf",
+      "ref": "p.25",
+      "reported_by": "gpt-4.5",
+      "fetched_at": "2026-06-08T06:08:11.064Z"
+    }
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "multimodal-refusal-evaluation",
+    "score": 1,
+    "config": "Detailed, sexual/exploitative",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-4.5__system-card.pdf",
+      "ref": "p.29",
+      "reported_by": "gpt-4.5",
+      "fetched_at": "2026-06-08T06:08:11.064Z"
+    },
+    "variants": [
+      {
+        "score": 0.99,
+        "config": "not_unsafe",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.3",
+          "reported_by": "gpt-4.5",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      },
+      {
+        "score": 0.986,
+        "config": "Detailed, self-harm/intent",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.29",
+          "reported_by": "gpt-4.5",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      },
+      {
+        "score": 0.48,
+        "config": "not_overrefuse",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.3",
+          "reported_by": "gpt-4.5",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "gpt-4.5",
+    "benchmark_id": "multimodal-refusal-evaluation",
+    "score": 1,
+    "config": "Detailed, sexual/exploitative",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-4.5__system-card.pdf",
+      "ref": "p.29",
+      "fetched_at": "2026-06-08T06:08:11.064Z"
+    },
+    "variants": [
+      {
+        "score": 0.99,
+        "config": "not_unsafe",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.3",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      },
+      {
+        "score": 0.31,
+        "config": "not_overrefuse",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.3",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "multimodal-refusal-evaluation",
+    "score": 0.969,
+    "config": "Detailed, sexual/exploitative",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-4.5__system-card.pdf",
+      "ref": "p.29",
+      "reported_by": "gpt-4.5",
+      "fetched_at": "2026-06-08T06:08:11.064Z"
+    },
+    "variants": [
+      {
+        "score": 0.96,
+        "config": "not_unsafe",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.3",
+          "reported_by": "gpt-4.5",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      },
+      {
+        "score": 0.96,
+        "config": "not_overrefuse",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.3",
+          "reported_by": "gpt-4.5",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "gpt-4.5",
+    "benchmark_id": "multimodal-troubleshooting-virology",
+    "score": 56,
+    "config": "post-mitigation",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-4.5__system-card.pdf",
+      "ref": "p.12",
+      "fetched_at": "2026-06-08T06:08:11.064Z"
+    }
+  },
+  {
+    "model_id": "gpt-4.5",
+    "benchmark_id": "openai-research-engineer-interview",
+    "score": 80,
+    "config": "pre-mitigation, Multiple Choice",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-4.5__system-card.pdf",
+      "ref": "p.19",
+      "fetched_at": "2026-06-08T06:08:11.064Z"
+    },
+    "variants": [
+      {
+        "score": 80,
+        "config": "post-mitigation, Multiple Choice",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.19",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      },
+      {
+        "score": 79,
+        "config": "Coding",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.19",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "gpt-4.5",
+    "benchmark_id": "professional-ctfs",
+    "score": 2,
+    "config": "pass@12",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-4.5__system-card.pdf",
+      "ref": "p.9",
+      "fetched_at": "2026-06-08T06:08:11.064Z"
+    }
+  },
+  {
+    "model_id": "gpt-4.5",
+    "benchmark_id": "protocolqa-open-ended",
+    "score": 18,
+    "config": "pre-mitigation",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-4.5__system-card.pdf",
+      "ref": "p.13",
+      "fetched_at": "2026-06-08T06:08:11.064Z"
+    },
+    "variants": [
+      {
+        "score": 18,
+        "config": "post-mitigation",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.13",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "standard-refusal-evaluation",
+    "score": 1,
+    "config": "Detailed, sexual/exploitative",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-4.5__system-card.pdf",
+      "ref": "p.28",
+      "reported_by": "gpt-4.5",
+      "fetched_at": "2026-06-08T06:08:11.064Z"
+    },
+    "variants": [
+      {
+        "score": 1,
+        "config": "Detailed, sexual/minors",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.28",
+          "reported_by": "gpt-4.5",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      },
+      {
+        "score": 1,
+        "config": "Detailed, extremist/propaganda",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.28",
+          "reported_by": "gpt-4.5",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      },
+      {
+        "score": 1,
+        "config": "Detailed, hate",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.28",
+          "reported_by": "gpt-4.5",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      },
+      {
+        "score": 1,
+        "config": "Detailed, hate/threatening",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.28",
+          "reported_by": "gpt-4.5",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      },
+      {
+        "score": 1,
+        "config": "Detailed, illicit/non-violent",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.28",
+          "reported_by": "gpt-4.5",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      },
+      {
+        "score": 1,
+        "config": "Detailed, illicit/violent",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.28",
+          "reported_by": "gpt-4.5",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      },
+      {
+        "score": 1,
+        "config": "Detailed, regulated-advice",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.28",
+          "reported_by": "gpt-4.5",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      },
+      {
+        "score": 1,
+        "config": "Detailed, self-harm/intent",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.28",
+          "reported_by": "gpt-4.5",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      },
+      {
+        "score": 1,
+        "config": "Detailed, self-harm/instructions",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.28",
+          "reported_by": "gpt-4.5",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      },
+      {
+        "score": 0.99,
+        "config": "not_unsafe",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.2",
+          "reported_by": "gpt-4.5",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      },
+      {
+        "score": 0.99,
+        "config": "Detailed, harassment/threatening",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.28",
+          "reported_by": "gpt-4.5",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      },
+      {
+        "score": 0.99,
+        "config": "Detailed, personal-data/extremely-sensitive",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.28",
+          "reported_by": "gpt-4.5",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      },
+      {
+        "score": 0.96,
+        "config": "Detailed, personal-data/highly-sensitive",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.28",
+          "reported_by": "gpt-4.5",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      },
+      {
+        "score": 0.79,
+        "config": "not_overrefuse",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.2",
+          "reported_by": "gpt-4.5",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "gpt-4.5",
+    "benchmark_id": "standard-refusal-evaluation",
+    "score": 1,
+    "config": "Detailed, extremist/propaganda",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-4.5__system-card.pdf",
+      "ref": "p.28",
+      "fetched_at": "2026-06-08T06:08:11.064Z"
+    },
+    "variants": [
+      {
+        "score": 1,
+        "config": "Detailed, hate",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.28",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      },
+      {
+        "score": 1,
+        "config": "Detailed, illicit/non-violent",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.28",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      },
+      {
+        "score": 1,
+        "config": "Detailed, illicit/violent",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.28",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      },
+      {
+        "score": 1,
+        "config": "Detailed, regulated-advice",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.28",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      },
+      {
+        "score": 1,
+        "config": "Detailed, self-harm/intent",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.28",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      },
+      {
+        "score": 1,
+        "config": "Detailed, self-harm/instructions",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.28",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      },
+      {
+        "score": 0.99,
+        "config": "not_unsafe",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.2",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      },
+      {
+        "score": 0.99,
+        "config": "Detailed, harassment/threatening",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.28",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      },
+      {
+        "score": 0.99,
+        "config": "Detailed, hate/threatening",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.28",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      },
+      {
+        "score": 0.99,
+        "config": "Detailed, personal-data/extremely-sensitive",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.28",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      },
+      {
+        "score": 0.98,
+        "config": "Detailed, sexual/minors",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.28",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      },
+      {
+        "score": 0.96,
+        "config": "Detailed, sexual/exploitative",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.28",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      },
+      {
+        "score": 0.91,
+        "config": "Detailed, personal-data/highly-sensitive",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.28",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      },
+      {
+        "score": 0.71,
+        "config": "not_overrefuse",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.2",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "standard-refusal-evaluation",
+    "score": 1,
+    "config": "Detailed, harassment/threatening",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-4.5__system-card.pdf",
+      "ref": "p.28",
+      "reported_by": "gpt-4.5",
+      "fetched_at": "2026-06-08T06:08:11.064Z"
+    },
+    "variants": [
+      {
+        "score": 1,
+        "config": "Detailed, sexual/minors",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.28",
+          "reported_by": "gpt-4.5",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      },
+      {
+        "score": 1,
+        "config": "Detailed, extremist/propaganda",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.28",
+          "reported_by": "gpt-4.5",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      },
+      {
+        "score": 1,
+        "config": "Detailed, hate",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.28",
+          "reported_by": "gpt-4.5",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      },
+      {
+        "score": 1,
+        "config": "Detailed, regulated-advice",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.28",
+          "reported_by": "gpt-4.5",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      },
+      {
+        "score": 1,
+        "config": "Detailed, self-harm/intent",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.28",
+          "reported_by": "gpt-4.5",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      },
+      {
+        "score": 0.99,
+        "config": "Detailed, illicit/non-violent",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.28",
+          "reported_by": "gpt-4.5",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      },
+      {
+        "score": 0.99,
+        "config": "Detailed, illicit/violent",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.28",
+          "reported_by": "gpt-4.5",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      },
+      {
+        "score": 0.99,
+        "config": "Detailed, personal-data/extremely-sensitive",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.28",
+          "reported_by": "gpt-4.5",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      },
+      {
+        "score": 0.99,
+        "config": "Detailed, self-harm/instructions",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.28",
+          "reported_by": "gpt-4.5",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      },
+      {
+        "score": 0.98,
+        "config": "not_unsafe",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.2",
+          "reported_by": "gpt-4.5",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      },
+      {
+        "score": 0.98,
+        "config": "Detailed, hate/threatening",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.28",
+          "reported_by": "gpt-4.5",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      },
+      {
+        "score": 0.97,
+        "config": "Detailed, sexual/exploitative",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.28",
+          "reported_by": "gpt-4.5",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      },
+      {
+        "score": 0.94,
+        "config": "Detailed, personal-data/highly-sensitive",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.28",
+          "reported_by": "gpt-4.5",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      },
+      {
+        "score": 0.71,
+        "config": "not_overrefuse",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.2",
+          "reported_by": "gpt-4.5",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "gpt-4.5",
+    "benchmark_id": "swe-bench-verified",
+    "score": 38,
+    "config": "post-mitigation",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-4.5__system-card.pdf",
+      "ref": "p.20",
+      "fetched_at": "2026-06-08T06:08:11.064Z"
+    },
+    "variants": [
+      {
+        "score": 35,
+        "config": "pre-mitigation",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.20",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "gpt-4.5",
+    "benchmark_id": "swe-lancer",
+    "score": 44,
+    "config": "pass@1, SWE Manager",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-4.5__system-card.pdf",
+      "ref": "p.24",
+      "fetched_at": "2026-06-08T06:08:11.064Z"
+    }
+  },
+  {
+    "model_id": "gpt-4.5",
+    "benchmark_id": "swe-lancer-ic-swe",
+    "score": 20,
+    "config": "pass@1",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-4.5__system-card.pdf",
+      "ref": "p.24",
+      "fetched_at": "2026-06-08T06:08:11.064Z"
+    }
+  },
+  {
+    "model_id": "gpt-4.5",
+    "benchmark_id": "tacit-knowledge-and-troubleshooting",
+    "score": 72,
+    "config": "post-mitigation",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-4.5__system-card.pdf",
+      "ref": "p.13",
+      "fetched_at": "2026-06-08T06:08:11.064Z"
+    }
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "wildchat",
+    "score": 0.995,
+    "config": "Detailed, harassment/threatening",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-4.5__system-card.pdf",
+      "ref": "p.29",
+      "reported_by": "gpt-4.5",
+      "fetched_at": "2026-06-08T06:08:11.064Z"
+    },
+    "variants": [
+      {
+        "score": 0.995,
+        "config": "Detailed, self-harm/instructions",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.29",
+          "reported_by": "gpt-4.5",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      },
+      {
+        "score": 0.99,
+        "config": "Detailed, harassment",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.29",
+          "reported_by": "gpt-4.5",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      },
+      {
+        "score": 0.99,
+        "config": "Detailed, self-harm/intent",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.29",
+          "reported_by": "gpt-4.5",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      },
+      {
+        "score": 0.99,
+        "config": "Detailed, violence/graphic",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.29",
+          "reported_by": "gpt-4.5",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      },
+      {
+        "score": 0.98,
+        "config": "not_unsafe",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.2",
+          "reported_by": "gpt-4.5",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      },
+      {
+        "score": 0.98,
+        "config": "Detailed, hate/threatening",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.29",
+          "reported_by": "gpt-4.5",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      },
+      {
+        "score": 0.98,
+        "config": "Detailed, violence",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.29",
+          "reported_by": "gpt-4.5",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      },
+      {
+        "score": 0.97,
+        "config": "Detailed, sexual/minors",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.29",
+          "reported_by": "gpt-4.5",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      },
+      {
+        "score": 0.965,
+        "config": "Detailed, hate",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.29",
+          "reported_by": "gpt-4.5",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      },
+      {
+        "score": 0.965,
+        "config": "Detailed, self-harm",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.29",
+          "reported_by": "gpt-4.5",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      },
+      {
+        "score": 0.945,
+        "config": "Detailed, sexual",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.29",
+          "reported_by": "gpt-4.5",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "gpt-4.5",
+    "benchmark_id": "wildchat",
+    "score": 0.995,
+    "config": "Detailed, self-harm/instructions",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-4.5__system-card.pdf",
+      "ref": "p.29",
+      "fetched_at": "2026-06-08T06:08:11.064Z"
+    },
+    "variants": [
+      {
+        "score": 0.99,
+        "config": "Detailed, harassment",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.29",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      },
+      {
+        "score": 0.99,
+        "config": "Detailed, harassment/threatening",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.29",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      },
+      {
+        "score": 0.99,
+        "config": "Detailed, hate",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.29",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      },
+      {
+        "score": 0.99,
+        "config": "Detailed, self-harm/intent",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.29",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      },
+      {
+        "score": 0.985,
+        "config": "Detailed, self-harm",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.29",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      },
+      {
+        "score": 0.985,
+        "config": "Detailed, violence/graphic",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.29",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      },
+      {
+        "score": 0.98,
+        "config": "not_unsafe",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.2",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      },
+      {
+        "score": 0.98,
+        "config": "Detailed, hate/threatening",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.29",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      },
+      {
+        "score": 0.98,
+        "config": "Detailed, violence",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.29",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      },
+      {
+        "score": 0.96,
+        "config": "Detailed, sexual",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.29",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      },
+      {
+        "score": 0.95,
+        "config": "Detailed, sexual/minors",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.29",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "wildchat",
+    "score": 0.995,
+    "config": "Detailed, harassment/threatening",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-4.5__system-card.pdf",
+      "ref": "p.29",
+      "reported_by": "gpt-4.5",
+      "fetched_at": "2026-06-08T06:08:11.064Z"
+    },
+    "variants": [
+      {
+        "score": 0.985,
+        "config": "Detailed, harassment",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.29",
+          "reported_by": "gpt-4.5",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      },
+      {
+        "score": 0.985,
+        "config": "Detailed, self-harm/intent",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.29",
+          "reported_by": "gpt-4.5",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      },
+      {
+        "score": 0.975,
+        "config": "Detailed, hate/threatening",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.29",
+          "reported_by": "gpt-4.5",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      },
+      {
+        "score": 0.95,
+        "config": "Detailed, self-harm/instructions",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.29",
+          "reported_by": "gpt-4.5",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      },
+      {
+        "score": 0.945,
+        "config": "not_unsafe",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.2",
+          "reported_by": "gpt-4.5",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      },
+      {
+        "score": 0.945,
+        "config": "Detailed, hate",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.29",
+          "reported_by": "gpt-4.5",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      },
+      {
+        "score": 0.945,
+        "config": "Detailed, self-harm",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.29",
+          "reported_by": "gpt-4.5",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      },
+      {
+        "score": 0.945,
+        "config": "Detailed, violence",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.29",
+          "reported_by": "gpt-4.5",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      },
+      {
+        "score": 0.91,
+        "config": "Detailed, violence/graphic",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.29",
+          "reported_by": "gpt-4.5",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      },
+      {
+        "score": 0.9,
+        "config": "Detailed, sexual/minors",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.29",
+          "reported_by": "gpt-4.5",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      },
+      {
+        "score": 0.865,
+        "config": "Detailed, sexual",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.29",
+          "reported_by": "gpt-4.5",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "gpt-4.5",
+    "benchmark_id": "wmdp-biology",
+    "score": 85,
+    "config": "post-mitigation",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-4.5__system-card.pdf",
+      "ref": "p.14",
+      "fetched_at": "2026-06-08T06:08:11.064Z"
+    },
+    "variants": [
+      {
+        "score": 83,
+        "config": "pre-mitigation",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.14",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "xstest",
+    "score": 100,
+    "config": "Detailed, Definitions",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-4.5__system-card.pdf",
+      "ref": "p.29",
+      "reported_by": "gpt-4.5",
+      "fetched_at": "2026-06-08T06:08:11.064Z"
+    },
+    "variants": [
+      {
+        "score": 100,
+        "config": "Detailed, Figurative Language",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.29",
+          "reported_by": "gpt-4.5",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      },
+      {
+        "score": 100,
+        "config": "Detailed, Historical Events",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.29",
+          "reported_by": "gpt-4.5",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      },
+      {
+        "score": 100,
+        "config": "Detailed, Homonyms",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.29",
+          "reported_by": "gpt-4.5",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      },
+      {
+        "score": 100,
+        "config": "Detailed, Privacy: public",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.29",
+          "reported_by": "gpt-4.5",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      },
+      {
+        "score": 100,
+        "config": "Detailed, Safe Targets",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.29",
+          "reported_by": "gpt-4.5",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      },
+      {
+        "score": 96,
+        "config": "Detailed, Safe Contexts",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.29",
+          "reported_by": "gpt-4.5",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      },
+      {
+        "score": 92,
+        "config": "not_overrefuse",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.2",
+          "reported_by": "gpt-4.5",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      },
+      {
+        "score": 84,
+        "config": "Detailed, Discr: Nonsense group",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.29",
+          "reported_by": "gpt-4.5",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      },
+      {
+        "score": 84,
+        "config": "Detailed, Discr: Nonsense context",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.29",
+          "reported_by": "gpt-4.5",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      },
+      {
+        "score": 60,
+        "config": "Detailed, Privacy: fictional",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.29",
+          "reported_by": "gpt-4.5",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "xstest",
+    "score": 100,
+    "config": "Detailed, Definitions",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-4.5__system-card.pdf",
+      "ref": "p.29",
+      "reported_by": "gpt-4.5",
+      "fetched_at": "2026-06-08T06:08:11.064Z"
+    },
+    "variants": [
+      {
+        "score": 100,
+        "config": "Detailed, Figurative Language",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.29",
+          "reported_by": "gpt-4.5",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      },
+      {
+        "score": 100,
+        "config": "Detailed, Historical Events",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.29",
+          "reported_by": "gpt-4.5",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      },
+      {
+        "score": 100,
+        "config": "Detailed, Privacy: public",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.29",
+          "reported_by": "gpt-4.5",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      },
+      {
+        "score": 96,
+        "config": "Detailed, Homonyms",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.29",
+          "reported_by": "gpt-4.5",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      },
+      {
+        "score": 92,
+        "config": "Detailed, Discr: Nonsense context",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.29",
+          "reported_by": "gpt-4.5",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      },
+      {
+        "score": 89,
+        "config": "not_overrefuse",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.2",
+          "reported_by": "gpt-4.5",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      },
+      {
+        "score": 88,
+        "config": "Detailed, Safe Targets",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.29",
+          "reported_by": "gpt-4.5",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      },
+      {
+        "score": 84,
+        "config": "Detailed, Discr: Nonsense group",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.29",
+          "reported_by": "gpt-4.5",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      },
+      {
+        "score": 68,
+        "config": "Detailed, Safe Contexts",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.29",
+          "reported_by": "gpt-4.5",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      },
+      {
+        "score": 60,
+        "config": "Detailed, Privacy: fictional",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.29",
+          "reported_by": "gpt-4.5",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "gpt-4.5",
+    "benchmark_id": "xstest",
+    "score": 100,
+    "config": "Detailed, Definitions",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-4.5__system-card.pdf",
+      "ref": "p.29",
+      "fetched_at": "2026-06-08T06:08:11.064Z"
+    },
+    "variants": [
+      {
+        "score": 100,
+        "config": "Detailed, Privacy: public",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.29",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      },
+      {
+        "score": 96,
+        "config": "Detailed, Homonyms",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.29",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      },
+      {
+        "score": 92,
+        "config": "Detailed, Figurative Language",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.29",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      },
+      {
+        "score": 92,
+        "config": "Detailed, Historical Events",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.29",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      },
+      {
+        "score": 88,
+        "config": "Detailed, Discr: Nonsense context",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.29",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      },
+      {
+        "score": 85,
+        "config": "not_overrefuse",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.2",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      },
+      {
+        "score": 84,
+        "config": "Detailed, Safe Targets",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.29",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      },
+      {
+        "score": 72,
+        "config": "Detailed, Discr: Nonsense group",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.29",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      },
+      {
+        "score": 68,
+        "config": "Detailed, Privacy: fictional",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.29",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      },
+      {
+        "score": 56,
+        "config": "Detailed, Safe Contexts",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.29",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      }
+    ]
+  }
+]

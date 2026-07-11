@@ -1,0 +1,30 @@
+[
+  {
+    "model_id": "glm-4.7",
+    "benchmark_id": "bbh",
+    "score": 0.9045,
+    "config": "3-shot, Exact Match",
+    "source": "manual"
+  },
+  {
+    "model_id": "glm-4.7",
+    "benchmark_id": "drop",
+    "score": 0.1148,
+    "config": "0-shot, F1",
+    "source": "manual",
+    "variants": [
+      {
+        "score": 0.0103,
+        "config": "0-shot, EM",
+        "source": "manual"
+      }
+    ]
+  },
+  {
+    "model_id": "glm-4.7",
+    "benchmark_id": "mbpp",
+    "score": 0.728,
+    "config": "3-shot, pass@1",
+    "source": "manual"
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "model_id": "llama-3.1-405b",
+    "benchmark_id": "mmlu-redux",
+    "score": 86.2,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2412.15115",
+      "ref": "Qwen2.5 Technical Report, Table 6, Performance of the 70B+ Instruct models and Qwen2.5-Plus, MMLU-redux row",
+      "reported_by": "Qwen",
+      "fetched_at": "2026-06-25T00:00:00Z",
+      "published": "2024-12-19"
+    }
+  },
+  {
+    "model_id": "llama-3.1-70b",
+    "benchmark_id": "mmlu-redux",
+    "score": 83,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2412.15115",
+      "ref": "Qwen2.5 Technical Report, Table 6, Performance of the 70B+ Instruct models and Qwen2.5-Plus, MMLU-redux row",
+      "reported_by": "Qwen",
+      "fetched_at": "2026-06-25T00:00:00Z",
+      "published": "2024-12-19"
+    }
+  }
+]

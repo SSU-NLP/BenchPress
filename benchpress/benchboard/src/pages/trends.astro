@@ -1,0 +1,151 @@
+---
+import Page from "../layouts/Page.astro";
+import { loadTrendData } from "../lib/loadData.ts";
+import "../styles/global.css";
+
+const trend = await loadTrendData(5);
+const benchIds = Object.keys(trend.names);
+---
+
+<Page title="Trends">
+  <h1 class="text-lg font-semibold mb-1">Benchmark trends over time</h1>
+  <p class="text-sm text-neutral-500 mb-4">
+    This chart shows how model scores change over time. Each dot is one model's
+    score on the selected benchmark, placed by release date. Turn on vendor
+    lines to compare companies, or click a company in the legend to show/hide it.
+  </p>
+
+  <div class="flex flex-wrap items-center gap-3 mb-3">
+    <label for="bench" class="text-sm text-neutral-600">Benchmark</label>
+    <select
+      id="bench"
+      class="text-sm border border-neutral-300 rounded px-2 py-1 bg-white"
+    ></select>
+    <label class="text-sm text-neutral-600 flex items-center gap-1.5 ml-2">
+      <input type="checkbox" id="vlines" /> Vendor lines
+    </label>
+    <span id="trend" class="text-xs text-neutral-500 ml-auto"></span>
+  </div>
+
+  <div
+    id="legend"
+    class="flex flex-wrap gap-x-4 gap-y-1.5 mb-2 text-xs text-neutral-500"
+  >
+  </div>
+
+  <div style="position:relative; width:100%; height:420px;">
+    <canvas
+      id="trendChart"
+      role="img"
+      aria-label="Scatter of benchmark scores over model release dates by vendor, with a dashed overall trend line."
+      >Benchmark scores rise over time as newer models release.</canvas
+    >
+  </div>
+
+  <script is:inline src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"
+  ></script>
+  <script define:vars={{ trend, benchIds }}>
+    const VC = {
+      Anthropic: "#D85A30", OpenAI: "#1D9E75", Google: "#378ADD",
+      DeepSeek: "#7F77DD", Alibaba: "#BA7517", Moonshot: "#D4537E",
+      xAI: "#5F5E5A", "Z.ai": "#639922", Meta: "#185FA5", LG: "#A32D2D",
+      Upstage: "#0F6E56", SKT: "#993556", Baidu: "#185FA5", Microsoft: "#534AB7",
+      Mistral: "#D85A30", MiniMax: "#993556", NVIDIA: "#639922", Amazon: "#BA7517",
+    };
+    const vc = (v) => VC[v] || "#888780";
+    const ts = (d) => new Date(d).getTime();
+    const fmtT = (t) => { const d = new Date(t); return d.toLocaleString("en", { month: "short" }) + " '" + String(d.getFullYear()).slice(2); };
+    const fmtYM = (t) => { const d = new Date(t); return d.getFullYear() + "-" + String(d.getMonth() + 1).padStart(2, "0"); };
+
+    const sel = document.getElementById("bench");
+    benchIds.forEach((k) => { const o = document.createElement("option"); o.value = k; o.textContent = trend.names[k]; sel.appendChild(o); });
+    const hidden = new Set();
+
+    function trendline(pts) {
+      const n = pts.length;
+      if (n < 2) return null;
+      let sx = 0, sy = 0, sxy = 0, sxx = 0;
+      for (const p of pts) { sx += p.x; sy += p.y; sxy += p.x * p.y; sxx += p.x * p.x; }
+      const denom = n * sxx - sx * sx;
+      if (denom === 0) return null;
+      const slope = (n * sxy - sx * sy) / denom;
+      const b = (sy - slope * sx) / n;
+      const xs = pts.map((p) => p.x), x0 = Math.min(...xs), x1 = Math.max(...xs);
+      return [{ x: x0, y: slope * x0 + b }, { x: x1, y: slope * x1 + b }];
+    }
+
+    let chart;
+    function build(bid) {
+      const rows = trend.data[bid];
+      const vendors = [...new Set(rows.map((r) => r.vendor))];
+
+      const lg = document.getElementById("legend");
+      lg.innerHTML = vendors.map((v) =>
+        '<span data-v="' + v + '" role="button" tabindex="0" title="click to show/hide" style="display:flex;align-items:center;gap:5px;cursor:pointer;opacity:' + (hidden.has(v) ? "0.3" : "1") + ';"><span style="width:10px;height:10px;border-radius:50%;background:' + vc(v) + ';"></span>' + v + "</span>"
+      ).join("");
+      lg.querySelectorAll("[data-v]").forEach((el) => { el.onclick = () => { const v = el.dataset.v; hidden.has(v) ? hidden.delete(v) : hidden.add(v); build(bid); }; });
+
+      const pts = rows.filter((r) => !hidden.has(r.vendor)).map((r) => ({ x: ts(r.date), y: r.score, model: r.model, vendor: r.vendor }));
+      if (!pts.length) { if (chart) { chart.destroy(); chart = null; } document.getElementById("trend").textContent = "(all companies hidden)"; return; }
+      const tr = trendline(pts);
+      const maxY = Math.max(...pts.map((p) => p.y));
+      const minY = Math.min(...pts.map((p) => p.y));
+      const pct = maxY <= 100;
+      const pad = Math.max(2, (maxY - minY) * 0.12);
+      const yScale = pct
+        ? { beginAtZero: true, suggestedMax: Math.min(100, Math.ceil(maxY / 10) * 10 + 4) }
+        : { beginAtZero: false, min: Math.floor((minY - pad) / 10) * 10, max: Math.ceil((maxY + pad) / 10) * 10 };
+
+      document.getElementById("trend").textContent = tr
+        ? "Trend: " + tr[0].y.toFixed(1) + " → " + tr[1].y.toFixed(1) + "  (" + fmtYM(tr[0].x) + " → " + fmtYM(tr[1].x) + ")"
+        : "";
+
+      const datasets = [
+        ...(tr ? [{ type: "line", label: "trend", data: tr, borderColor: "#888780", borderWidth: 1.5, borderDash: [5, 4], pointRadius: 0, tension: 0, fill: false, order: 3 }] : []),
+        { type: "scatter", label: "models", data: pts, pointRadius: 6, pointHoverRadius: 8, pointBackgroundColor: pts.map((p) => vc(p.vendor)), pointBorderColor: "rgba(255,255,255,0.7)", pointBorderWidth: 1, order: 1 },
+      ];
+
+      if (document.getElementById("vlines").checked) {
+        for (const v of vendors) {
+          const vp = pts.filter((p) => p.vendor === v).sort((a, b) => a.x - b.x);
+          if (vp.length < 2) continue;
+          datasets.push({ type: "line", label: v, data: vp, borderColor: vc(v), borderWidth: 1.5, pointRadius: 0, tension: 0, fill: false, order: 2 });
+        }
+      }
+
+      const cfg = {
+        data: { datasets },
+        options: {
+          responsive: true, maintainAspectRatio: false,
+          scales: {
+            x: { type: "linear", min: ts("2024-03-01"), ticks: { callback: (v) => fmtT(v), maxRotation: 0, autoSkipPadding: 18, color: "#888780", font: { size: 11 } }, grid: { color: "rgba(136,135,128,0.12)" } },
+            y: { ...yScale, ticks: { color: "#888780", font: { size: 11 } }, grid: { color: "rgba(136,135,128,0.12)" }, title: { display: true, text: "score", color: "#888780", font: { size: 11 } } },
+          },
+          plugins: {
+            legend: { display: false },
+            tooltip: {
+              callbacks: {
+                title: (items) => {
+                  const p = items[0]?.raw;
+                  return p?.model ? fmtYM(p.x) : "Trend";
+                },
+                label: (c) => {
+                  const p = c.raw;
+                  return p.model ? [p.model, p.vendor + " · Score " + p.y] : "Score " + p.y.toFixed(1);
+                },
+              },
+            },
+          },
+        },
+      };
+      if (chart) chart.destroy();
+      chart = new Chart(document.getElementById("trendChart"), cfg);
+    }
+
+    const init = benchIds.includes("gpqa") ? "gpqa" : benchIds[0];
+    sel.value = init;
+    build(init);
+    sel.addEventListener("change", () => build(sel.value));
+    document.getElementById("vlines").addEventListener("change", () => build(sel.value));
+  </script>
+</Page>

@@ -1,0 +1,5662 @@
+[
+  {
+    "model_id": "gpt-5",
+    "benchmark_id": "aa-lcr",
+    "score": 76,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+      "reported_by": "MiniMax-M2 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3.2",
+    "benchmark_id": "aa-lcr",
+    "score": 69,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+      "reported_by": "MiniMax-M2 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4.5",
+    "benchmark_id": "aa-lcr",
+    "score": 66,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+      "reported_by": "MiniMax-M2 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gemini-2.5-pro",
+    "benchmark_id": "aa-lcr",
+    "score": 66,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+      "reported_by": "MiniMax-M2 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4",
+    "benchmark_id": "aa-lcr",
+    "score": 65,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+      "reported_by": "MiniMax-M2 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "minimax-m2",
+    "benchmark_id": "aa-lcr",
+    "score": 61,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+      "reported_by": "MiniMax-M2 model card (Artificial Analysis metrics)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "glm-4.6",
+    "benchmark_id": "aa-lcr",
+    "score": 54,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+      "reported_by": "MiniMax-M2 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "nova-2-lite",
+    "benchmark_id": "aegis",
+    "score": 85.84,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 14, content moderation F1), self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "nova-pro",
+    "benchmark_id": "aegis",
+    "score": 84.37,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 14, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-5",
+    "benchmark_id": "aegis",
+    "score": 83.33,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 14, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gemini-2.5-flash",
+    "benchmark_id": "aegis",
+    "score": 82.94,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 14, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4.5",
+    "benchmark_id": "aegis",
+    "score": 81.56,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 14, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "nova-2-pro",
+    "benchmark_id": "aegis",
+    "score": 81.39,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 14, content moderation F1), self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "nova-2-omni",
+    "benchmark_id": "aegis",
+    "score": 80.74,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 14, content moderation F1), self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "claude-haiku-4.5",
+    "benchmark_id": "aegis",
+    "score": 80.23,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 14, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "nova-lite",
+    "benchmark_id": "aegis",
+    "score": 77.1,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 14, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3.1",
+    "benchmark_id": "aider-polyglot",
+    "score": 76.1,
+    "config": "reasoning, w/o tools",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V3.2-Exp",
+      "reported_by": "DeepSeek-V3.2-Exp model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "kimi-k1.5",
+    "benchmark_id": "aime-2024",
+    "score": 77.5,
+    "config": "long-CoT",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2501.12599",
+      "reported_by": "Kimi k1.5 technical report, self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    },
+    "variants": [
+      {
+        "score": 60.8,
+        "config": "short-CoT",
+        "source": {
+          "kind": "manual",
+          "url": "https://arxiv.org/abs/2501.12599",
+          "reported_by": "Kimi k1.5 technical report, self-reported",
+          "fetched_at": "2026-06-13T00:00:00Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "kimi-k2-thinking",
+    "benchmark_id": "aime-2025",
+    "score": 100,
+    "config": "heavy",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/moonshotai/Kimi-K2-Thinking",
+      "reported_by": "Kimi K2 Thinking model card, self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    },
+    "variants": [
+      {
+        "score": 99.1,
+        "config": "with python",
+        "source": {
+          "kind": "manual",
+          "url": "https://huggingface.co/moonshotai/Kimi-K2-Thinking",
+          "reported_by": "Kimi K2 Thinking model card, self-reported",
+          "fetched_at": "2026-06-13T00:00:00Z"
+        }
+      },
+      {
+        "score": 94.5,
+        "config": "no tools",
+        "source": {
+          "kind": "manual",
+          "url": "https://huggingface.co/moonshotai/Kimi-K2-Thinking",
+          "reported_by": "Kimi K2 Thinking model card, self-reported",
+          "fetched_at": "2026-06-13T00:00:00Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "claude-sonnet-4.5",
+    "benchmark_id": "aime-2025",
+    "score": 100,
+    "config": "with python",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/moonshotai/Kimi-K2-Thinking",
+      "reported_by": "Kimi K2 Thinking model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    },
+    "variants": [
+      {
+        "score": 88,
+        "config": "default",
+        "source": {
+          "kind": "manual",
+          "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+          "reported_by": "MiniMax-M2 model card (competitor column, cascade)",
+          "fetched_at": "2026-06-13T00:00:00Z"
+        }
+      },
+      {
+        "score": 87,
+        "config": "no tools",
+        "source": {
+          "kind": "manual",
+          "url": "https://huggingface.co/moonshotai/Kimi-K2-Thinking",
+          "reported_by": "Kimi K2 Thinking model card (competitor column, cascade)",
+          "fetched_at": "2026-06-13T00:00:00Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "gpt-5",
+    "benchmark_id": "aime-2025",
+    "score": 100,
+    "config": "heavy",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/moonshotai/Kimi-K2-Thinking",
+      "reported_by": "Kimi K2 Thinking model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    },
+    "variants": [
+      {
+        "score": 99.6,
+        "config": "with python",
+        "source": {
+          "kind": "manual",
+          "url": "https://huggingface.co/moonshotai/Kimi-K2-Thinking",
+          "reported_by": "Kimi K2 Thinking model card (competitor column, cascade)",
+          "fetched_at": "2026-06-13T00:00:00Z"
+        }
+      },
+      {
+        "score": 94,
+        "config": "default",
+        "source": {
+          "kind": "manual",
+          "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+          "reported_by": "MiniMax-M2 model card (competitor column, cascade)",
+          "fetched_at": "2026-06-13T00:00:00Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "grok-4",
+    "benchmark_id": "aime-2025",
+    "score": 100,
+    "config": "heavy",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/moonshotai/Kimi-K2-Thinking",
+      "reported_by": "Kimi K2 Thinking model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    },
+    "variants": [
+      {
+        "score": 98.8,
+        "config": "with python",
+        "source": {
+          "kind": "manual",
+          "url": "https://huggingface.co/moonshotai/Kimi-K2-Thinking",
+          "reported_by": "Kimi K2 Thinking model card (competitor column, cascade)",
+          "fetched_at": "2026-06-13T00:00:00Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "glm-4.6",
+    "benchmark_id": "aime-2025",
+    "score": 95.9,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/zai-org/GLM-4.6",
+      "reported_by": "GLM-4.7 release figure (bench_glm47.png), GLM-4.6 column, self-reported (cf. llm-stats 93.9)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    },
+    "variants": [
+      {
+        "score": 86,
+        "config": "default",
+        "source": {
+          "kind": "manual",
+          "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+          "reported_by": "MiniMax-M2 model card (competitor column, cascade)",
+          "fetched_at": "2026-06-13T00:00:00Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "gemini-3-pro",
+    "benchmark_id": "aime-2025",
+    "score": 95,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 1, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3.2",
+    "benchmark_id": "aime-2025",
+    "score": 93.1,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/zai-org/GLM-4.6",
+      "reported_by": "GLM-4.7 release figure (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    },
+    "variants": [
+      {
+        "score": 89.3,
+        "config": "reasoning, w/o tools",
+        "source": {
+          "kind": "manual",
+          "url": "https://huggingface.co/deepseek-ai/DeepSeek-V3.2-Exp",
+          "reported_by": "DeepSeek-V3.2-Exp model card, self-reported",
+          "fetched_at": "2026-06-13T00:00:00Z"
+        }
+      },
+      {
+        "score": 88,
+        "config": "default",
+        "source": {
+          "kind": "manual",
+          "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+          "reported_by": "MiniMax-M2 model card (competitor column, cascade)",
+          "fetched_at": "2026-06-13T00:00:00Z"
+        }
+      },
+      {
+        "score": 58.1,
+        "config": "with python",
+        "source": {
+          "kind": "manual",
+          "url": "https://huggingface.co/moonshotai/Kimi-K2-Thinking",
+          "reported_by": "Kimi K2 Thinking model card (competitor column, cascade)",
+          "fetched_at": "2026-06-13T00:00:00Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "ernie-5",
+    "benchmark_id": "aime-2025",
+    "score": 89.06,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2602.04705",
+      "reported_by": "ERNIE 5.0 technical report (post-trained), self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3.1",
+    "benchmark_id": "aime-2025",
+    "score": 88.4,
+    "config": "reasoning, w/o tools",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V3.2-Exp",
+      "reported_by": "DeepSeek-V3.2-Exp model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gemini-2.5-pro",
+    "benchmark_id": "aime-2025",
+    "score": 88,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+      "reported_by": "MiniMax-M2 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "qwen3-30b-a3b",
+    "benchmark_id": "aime-2025",
+    "score": 85,
+    "config": "thinking",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/zai-org/GLM-4.6",
+      "reported_by": "GLM-4.7 release figure (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "claude-haiku-4.5",
+    "benchmark_id": "aime-2025",
+    "score": 80.7,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 1, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "minimax-m2",
+    "benchmark_id": "aime-2025",
+    "score": 78,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+      "reported_by": "MiniMax-M2 model card (Artificial Analysis metrics)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4",
+    "benchmark_id": "aime-2025",
+    "score": 74,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+      "reported_by": "MiniMax-M2 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "nemotron-nano-9b-v2",
+    "benchmark_id": "aime-2025",
+    "score": 72.1,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Nano-9B-v2",
+      "reported_by": "NVIDIA-Nemotron-Nano-9B-v2 model card, self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gemini-2.5-flash",
+    "benchmark_id": "aime-2025",
+    "score": 72,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 1, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "nova-lite",
+    "benchmark_id": "aime-2025",
+    "score": 7,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 1, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "nova-pro",
+    "benchmark_id": "aime-2025",
+    "score": 7,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 1, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gemma-4-31b",
+    "benchmark_id": "bench",
+    "score": 76.9,
+    "config": "average over 3, micro avg",
+    "source": {
+      "kind": "tech_report",
+      "url": "gemma-4-technical-report.pdf",
+      "reported_by": "Gemma 4 technical report",
+      "published": "2026-07-02",
+      "fetched_at": "2026-07-09T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gemma-4-26b-a4b",
+    "benchmark_id": "bench",
+    "score": 68.2,
+    "config": "average over 3, micro avg",
+    "source": {
+      "kind": "tech_report",
+      "url": "gemma-4-technical-report.pdf",
+      "reported_by": "Gemma 4 technical report",
+      "published": "2026-07-02",
+      "fetched_at": "2026-07-09T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gemma-3-27b",
+    "benchmark_id": "bench",
+    "score": 16.2,
+    "config": "no think, average over 3, micro avg",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/google/gemma-4-31B-it",
+      "reported_by": "Gemma 4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.1",
+    "benchmark_id": "bench-airline",
+    "score": 72.4,
+    "config": "Verified",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 2, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-5",
+    "benchmark_id": "bench-airline",
+    "score": 72,
+    "config": "Verified",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 2, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gemini-3-pro",
+    "benchmark_id": "bench-airline",
+    "score": 70.8,
+    "config": "Verified",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 2, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "nova-2-omni",
+    "benchmark_id": "bench-airline",
+    "score": 68.8,
+    "config": "Verified",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 5), self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4.5",
+    "benchmark_id": "bench-airline",
+    "score": 66.8,
+    "config": "Verified",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 2, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "nova-2-pro",
+    "benchmark_id": "bench-airline",
+    "score": 65.2,
+    "config": "Verified",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 2), self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "nova-2-lite",
+    "benchmark_id": "bench-airline",
+    "score": 64.8,
+    "config": "Verified",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 2), self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gemini-2.5-pro",
+    "benchmark_id": "bench-airline",
+    "score": 60,
+    "config": "Verified",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 2, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "claude-haiku-4.5",
+    "benchmark_id": "bench-airline",
+    "score": 54,
+    "config": "Verified",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 2, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gemini-2.5-flash",
+    "benchmark_id": "bench-airline",
+    "score": 44,
+    "config": "Verified",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 2, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "nova-2-omni",
+    "benchmark_id": "bench-retail",
+    "score": 78.3,
+    "config": "Verified",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 5), self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-5",
+    "benchmark_id": "bench-retail",
+    "score": 78.3,
+    "config": "Verified",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 2, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "nova-2-pro",
+    "benchmark_id": "bench-retail",
+    "score": 77.7,
+    "config": "Verified",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 2), self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gemini-3-pro",
+    "benchmark_id": "bench-retail",
+    "score": 77.7,
+    "config": "Verified",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 2, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.1",
+    "benchmark_id": "bench-retail",
+    "score": 77.5,
+    "config": "Verified",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 2, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4.5",
+    "benchmark_id": "bench-retail",
+    "score": 77.2,
+    "config": "Verified",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 2, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "nova-2-lite",
+    "benchmark_id": "bench-retail",
+    "score": 76.5,
+    "config": "Verified",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 2), self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gemini-2.5-pro",
+    "benchmark_id": "bench-retail",
+    "score": 71.3,
+    "config": "Verified",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 2, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "claude-haiku-4.5",
+    "benchmark_id": "bench-retail",
+    "score": 69.1,
+    "config": "Verified",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 2, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gemini-2.5-flash",
+    "benchmark_id": "bench-retail",
+    "score": 57.7,
+    "config": "Verified",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 2, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "nova-2-pro",
+    "benchmark_id": "bench-telecom",
+    "score": 92.7,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 2), self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gemini-3-pro",
+    "benchmark_id": "bench-telecom",
+    "score": 87.1,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 2, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-5",
+    "benchmark_id": "bench-telecom",
+    "score": 86.5,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 2, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    },
+    "variants": [
+      {
+        "score": 85,
+        "config": "default",
+        "source": {
+          "kind": "manual",
+          "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+          "reported_by": "MiniMax-M2 model card (competitor column, cascade)",
+          "fetched_at": "2026-06-13T00:00:00Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "gpt-5.1",
+    "benchmark_id": "bench-telecom",
+    "score": 81.9,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 2, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "nova-2-omni",
+    "benchmark_id": "bench-telecom",
+    "score": 80,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 5), self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4.5",
+    "benchmark_id": "bench-telecom",
+    "score": 78.1,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 2, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    },
+    "variants": [
+      {
+        "score": 78,
+        "config": "default",
+        "source": {
+          "kind": "manual",
+          "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+          "reported_by": "MiniMax-M2 model card (competitor column, cascade)",
+          "fetched_at": "2026-06-13T00:00:00Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "nova-2-lite",
+    "benchmark_id": "bench-telecom",
+    "score": 76,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 2), self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "glm-4.6",
+    "benchmark_id": "bench-telecom",
+    "score": 71,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+      "reported_by": "MiniMax-M2 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4",
+    "benchmark_id": "bench-telecom",
+    "score": 65,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+      "reported_by": "MiniMax-M2 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "claude-haiku-4.5",
+    "benchmark_id": "bench-telecom",
+    "score": 54.7,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 2, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gemini-2.5-pro",
+    "benchmark_id": "bench-telecom",
+    "score": 54.1,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 2, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    },
+    "variants": [
+      {
+        "score": 54,
+        "config": "default",
+        "source": {
+          "kind": "manual",
+          "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+          "reported_by": "MiniMax-M2 model card (competitor column, cascade)",
+          "fetched_at": "2026-06-13T00:00:00Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "deepseek-v3.2",
+    "benchmark_id": "bench-telecom",
+    "score": 34,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+      "reported_by": "MiniMax-M2 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gemini-2.5-flash",
+    "benchmark_id": "bench-telecom",
+    "score": 31.6,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 2, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "nova-lite",
+    "benchmark_id": "bench-telecom",
+    "score": 17.5,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 2, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "nova-pro",
+    "benchmark_id": "bench-telecom",
+    "score": 14,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 2, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "nemotron-nano-9b-v2",
+    "benchmark_id": "bfcl-v3",
+    "score": 66.9,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Nano-9B-v2",
+      "reported_by": "NVIDIA-Nemotron-Nano-9B-v2 model card, self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gemini-3.1-pro",
+    "benchmark_id": "browsecomp",
+    "score": 85.9,
+    "config": "high",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "reported_by": "DeepSeek-V4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "claude-opus-4.6",
+    "benchmark_id": "browsecomp",
+    "score": 83.7,
+    "config": "max",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "reported_by": "DeepSeek-V4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v4-pro",
+    "benchmark_id": "browsecomp",
+    "score": 83.4,
+    "config": "Think Max",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "reported_by": "DeepSeek-V4-Pro model card, self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "kimi-k2.6",
+    "benchmark_id": "browsecomp",
+    "score": 83.2,
+    "config": "thinking",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "reported_by": "DeepSeek-V4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.4",
+    "benchmark_id": "browsecomp",
+    "score": 82.7,
+    "config": "xhigh",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "reported_by": "DeepSeek-V4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v4-flash",
+    "benchmark_id": "browsecomp",
+    "score": 73.2,
+    "config": "Think Max",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "reported_by": "DeepSeek-V4 model card, V4-Flash Max column, self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "glm-4.7",
+    "benchmark_id": "browsecomp",
+    "score": 67.5,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/zai-org/GLM-4.6",
+      "reported_by": "GLM-4.7 official release figure (bench_glm47.png), self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "kimi-k2-thinking",
+    "benchmark_id": "browsecomp",
+    "score": 60.2,
+    "config": "with tools",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/moonshotai/Kimi-K2-Thinking",
+      "reported_by": "Kimi K2 Thinking model card, self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "glm-4.6",
+    "benchmark_id": "browsecomp",
+    "score": 57.5,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/zai-org/GLM-4.6",
+      "reported_by": "GLM-4.7 release figure (bench_glm47.png), GLM-4.6 column, self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    },
+    "variants": [
+      {
+        "score": 45.1,
+        "config": "with tools",
+        "source": {
+          "kind": "manual",
+          "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+          "reported_by": "MiniMax-M2 model card (competitor column, cascade)",
+          "fetched_at": "2026-06-13T00:00:00Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "gpt-5",
+    "benchmark_id": "browsecomp",
+    "score": 54.9,
+    "config": "with tools",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/moonshotai/Kimi-K2-Thinking",
+      "reported_by": "Kimi K2 Thinking model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3.2",
+    "benchmark_id": "browsecomp",
+    "score": 51.4,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/zai-org/GLM-4.6",
+      "reported_by": "GLM-4.7 release figure (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    },
+    "variants": [
+      {
+        "score": 40.1,
+        "config": "agentic tool use",
+        "source": {
+          "kind": "manual",
+          "url": "https://huggingface.co/deepseek-ai/DeepSeek-V3.2-Exp",
+          "reported_by": "DeepSeek-V3.2-Exp model card, self-reported",
+          "fetched_at": "2026-06-13T00:00:00Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "gpt-5.1",
+    "benchmark_id": "browsecomp",
+    "score": 50.8,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/zai-org/GLM-4.6",
+      "reported_by": "GLM-4.7 release figure (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "minimax-m2",
+    "benchmark_id": "browsecomp",
+    "score": 44,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+      "reported_by": "MiniMax-M2 model card, self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "glm-4.7-flash",
+    "benchmark_id": "browsecomp",
+    "score": 42.8,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/zai-org/GLM-4.6",
+      "reported_by": "GLM-4.7-Flash official release figure (bench_glm47_flash.png), self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3.1",
+    "benchmark_id": "browsecomp",
+    "score": 38.5,
+    "config": "agentic tool use",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V3.2-Exp",
+      "reported_by": "DeepSeek-V3.2-Exp model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-oss-20b",
+    "benchmark_id": "browsecomp",
+    "score": 28.3,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/zai-org/GLM-4.6",
+      "reported_by": "GLM-4.7 release figure (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4.5",
+    "benchmark_id": "browsecomp",
+    "score": 24.1,
+    "config": "with tools",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/moonshotai/Kimi-K2-Thinking",
+      "reported_by": "Kimi K2 Thinking model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    },
+    "variants": [
+      {
+        "score": 19.6,
+        "config": "with tools",
+        "source": {
+          "kind": "manual",
+          "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+          "reported_by": "MiniMax-M2 model card (competitor column, cascade)",
+          "fetched_at": "2026-06-13T00:00:00Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "claude-sonnet-4",
+    "benchmark_id": "browsecomp",
+    "score": 12.2,
+    "config": "with tools",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+      "reported_by": "MiniMax-M2 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gemini-2.5-pro",
+    "benchmark_id": "browsecomp",
+    "score": 9.9,
+    "config": "with tools",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+      "reported_by": "MiniMax-M2 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "qwen3-30b-a3b",
+    "benchmark_id": "browsecomp",
+    "score": 2.3,
+    "config": "thinking",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/zai-org/GLM-4.6",
+      "reported_by": "GLM-4.7 release figure (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v4-pro",
+    "benchmark_id": "codeforces-elo",
+    "score": 3206,
+    "config": "Think Max",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "reported_by": "DeepSeek-V4-Pro model card, self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.4",
+    "benchmark_id": "codeforces-elo",
+    "score": 3168,
+    "config": "xhigh",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "reported_by": "DeepSeek-V4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v4-flash",
+    "benchmark_id": "codeforces-elo",
+    "score": 3052,
+    "config": "Think Max",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "reported_by": "DeepSeek-V4 model card, V4-Flash Max column, self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gemini-3.1-pro",
+    "benchmark_id": "codeforces-elo",
+    "score": 3052,
+    "config": "high",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "reported_by": "DeepSeek-V4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gemma-4-31b",
+    "benchmark_id": "codeforces-elo",
+    "score": 2150,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gemma-4-technical-report.pdf",
+      "reported_by": "Gemma 4 technical report",
+      "published": "2026-07-02",
+      "fetched_at": "2026-07-09T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3.2",
+    "benchmark_id": "codeforces-elo",
+    "score": 2121,
+    "config": "reasoning, w/o tools",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V3.2-Exp",
+      "reported_by": "DeepSeek-V3.2-Exp model card, self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3.1",
+    "benchmark_id": "codeforces-elo",
+    "score": 2046,
+    "config": "reasoning, w/o tools",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V3.2-Exp",
+      "reported_by": "DeepSeek-V3.2-Exp model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gemma-4-26b-a4b",
+    "benchmark_id": "codeforces-elo",
+    "score": 1718,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gemma-4-technical-report.pdf",
+      "reported_by": "Gemma 4 technical report",
+      "published": "2026-07-02",
+      "fetched_at": "2026-07-09T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gemma-3-27b",
+    "benchmark_id": "codeforces-elo",
+    "score": 110,
+    "config": "no think",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/google/gemma-4-31B-it",
+      "reported_by": "Gemma 4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "llama-3.3-70b",
+    "benchmark_id": "drop",
+    "score": 90.2,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/microsoft/phi-4",
+      "reported_by": "Phi-4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "qwen2.5-14b",
+    "benchmark_id": "drop",
+    "score": 85.5,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/microsoft/phi-4",
+      "reported_by": "Phi-4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "drop",
+    "score": 80.9,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/microsoft/phi-4",
+      "reported_by": "Phi-4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-4o-mini",
+    "benchmark_id": "drop",
+    "score": 79.3,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/microsoft/phi-4",
+      "reported_by": "Phi-4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "qwen-2.5-72b",
+    "benchmark_id": "drop",
+    "score": 76.7,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/microsoft/phi-4",
+      "reported_by": "Phi-4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "phi-4",
+    "benchmark_id": "drop",
+    "score": 75.5,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/microsoft/phi-4",
+      "reported_by": "Phi-4 model card (Microsoft), self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.4",
+    "benchmark_id": "gdpval-aa",
+    "score": 1674,
+    "config": "xhigh",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "reported_by": "DeepSeek-V4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "claude-opus-4.6",
+    "benchmark_id": "gdpval-aa",
+    "score": 1619,
+    "config": "max",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "reported_by": "DeepSeek-V4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v4-pro",
+    "benchmark_id": "gdpval-aa",
+    "score": 1554,
+    "config": "Think Max",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "reported_by": "DeepSeek-V4-Pro model card, self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "kimi-k2.6",
+    "benchmark_id": "gdpval-aa",
+    "score": 1482,
+    "config": "thinking",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "reported_by": "DeepSeek-V4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v4-flash",
+    "benchmark_id": "gdpval-aa",
+    "score": 1395,
+    "config": "Think Max",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "reported_by": "DeepSeek-V4 model card, V4-Flash Max column, self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gemini-3.1-pro",
+    "benchmark_id": "gdpval-aa",
+    "score": 1314,
+    "config": "high",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "reported_by": "DeepSeek-V4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.4",
+    "benchmark_id": "gpqa",
+    "score": 93,
+    "config": "xhigh",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "reported_by": "DeepSeek-V4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.1",
+    "benchmark_id": "gpqa",
+    "score": 88.3,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/zai-org/GLM-4.6",
+      "reported_by": "GLM-4.7 release figure (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gemini-2.5-pro",
+    "benchmark_id": "gpqa",
+    "score": 86.4,
+    "config": "Diamond",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 1, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-5",
+    "benchmark_id": "gpqa",
+    "score": 85.7,
+    "config": "no tools",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/moonshotai/Kimi-K2-Thinking",
+      "reported_by": "Kimi K2 Thinking model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    },
+    "variants": [
+      {
+        "score": 85,
+        "config": "default",
+        "source": {
+          "kind": "manual",
+          "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+          "reported_by": "MiniMax-M2 model card (competitor column, cascade)",
+          "fetched_at": "2026-06-13T00:00:00Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "claude-sonnet-4.5",
+    "benchmark_id": "gpqa",
+    "score": 83,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+      "reported_by": "MiniMax-M2 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gemini-2.5-flash",
+    "benchmark_id": "gpqa",
+    "score": 82.8,
+    "config": "Diamond",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 1, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3.2",
+    "benchmark_id": "gpqa",
+    "score": 82.4,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/zai-org/GLM-4.6",
+      "reported_by": "GLM-4.7 release figure (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    },
+    "variants": [
+      {
+        "score": 80,
+        "config": "default",
+        "source": {
+          "kind": "manual",
+          "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+          "reported_by": "MiniMax-M2 model card (competitor column, cascade)",
+          "fetched_at": "2026-06-13T00:00:00Z"
+        }
+      },
+      {
+        "score": 79.9,
+        "config": "Diamond, reasoning, w/o tools",
+        "source": {
+          "kind": "manual",
+          "url": "https://huggingface.co/deepseek-ai/DeepSeek-V3.2-Exp",
+          "reported_by": "DeepSeek-V3.2-Exp model card, self-reported",
+          "fetched_at": "2026-06-13T00:00:00Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "nova-2-pro",
+    "benchmark_id": "gpqa",
+    "score": 81.4,
+    "config": "Diamond",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 1), self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3.1",
+    "benchmark_id": "gpqa",
+    "score": 80.7,
+    "config": "Diamond, reasoning, w/o tools",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V3.2-Exp",
+      "reported_by": "DeepSeek-V3.2-Exp model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "nova-2-lite",
+    "benchmark_id": "gpqa",
+    "score": 79.6,
+    "config": "Diamond",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 1), self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4",
+    "benchmark_id": "gpqa",
+    "score": 78,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+      "reported_by": "MiniMax-M2 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "glm-4.7-flash",
+    "benchmark_id": "gpqa",
+    "score": 75.2,
+    "config": "Diamond, reasoning",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/zai-org/GLM-4.6",
+      "reported_by": "GLM-4.7-Flash official release figure (bench_glm47_flash.png), self-reported (cf. Artificial Analysis independent eval 58.1)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "qwen3-30b-a3b",
+    "benchmark_id": "gpqa",
+    "score": 73.4,
+    "config": "thinking",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/zai-org/GLM-4.6",
+      "reported_by": "GLM-4.7 release figure (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "claude-haiku-4.5",
+    "benchmark_id": "gpqa",
+    "score": 73,
+    "config": "Diamond",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 1, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "nemotron-nano-9b-v2",
+    "benchmark_id": "gpqa",
+    "score": 64,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Nano-9B-v2",
+      "reported_by": "NVIDIA-Nemotron-Nano-9B-v2 model card, self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "gpqa",
+    "score": 50.6,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/microsoft/phi-4",
+      "reported_by": "Phi-4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "llama-3.3-70b",
+    "benchmark_id": "gpqa",
+    "score": 49.1,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/microsoft/phi-4",
+      "reported_by": "Phi-4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "qwen2.5-14b",
+    "benchmark_id": "gpqa",
+    "score": 42.9,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/microsoft/phi-4",
+      "reported_by": "Phi-4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gemma-3-27b",
+    "benchmark_id": "gpqa",
+    "score": 42.4,
+    "config": "Diamond, no think",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/google/gemma-4-31B-it",
+      "reported_by": "Gemma 4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-4o-mini",
+    "benchmark_id": "gpqa",
+    "score": 40.9,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/microsoft/phi-4",
+      "reported_by": "Phi-4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-5",
+    "benchmark_id": "healthbench",
+    "score": 67.2,
+    "config": "no tools",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/moonshotai/Kimi-K2-Thinking",
+      "reported_by": "Kimi K2 Thinking model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "kimi-k2-thinking",
+    "benchmark_id": "healthbench",
+    "score": 58,
+    "config": "no tools",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/moonshotai/Kimi-K2-Thinking",
+      "reported_by": "Kimi K2 Thinking model card, self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3.2",
+    "benchmark_id": "healthbench",
+    "score": 46.9,
+    "config": "no tools",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/moonshotai/Kimi-K2-Thinking",
+      "reported_by": "Kimi K2 Thinking model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4.5",
+    "benchmark_id": "healthbench",
+    "score": 44.2,
+    "config": "no tools",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/moonshotai/Kimi-K2-Thinking",
+      "reported_by": "Kimi K2 Thinking model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "kimi-k2.6",
+    "benchmark_id": "hle",
+    "score": 54,
+    "config": "thinking, with tools",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "reported_by": "DeepSeek-V4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.4",
+    "benchmark_id": "hle",
+    "score": 52,
+    "config": "xhigh, with tools",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "reported_by": "DeepSeek-V4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gemini-3.1-pro",
+    "benchmark_id": "hle",
+    "score": 51.6,
+    "config": "high, with tools",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "reported_by": "DeepSeek-V4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "kimi-k2-thinking",
+    "benchmark_id": "hle",
+    "score": 51,
+    "config": "heavy",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/moonshotai/Kimi-K2-Thinking",
+      "reported_by": "Kimi K2 Thinking model card, self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    },
+    "variants": [
+      {
+        "score": 44.9,
+        "config": "with tools",
+        "source": {
+          "kind": "manual",
+          "url": "https://huggingface.co/moonshotai/Kimi-K2-Thinking",
+          "reported_by": "Kimi K2 Thinking model card, self-reported",
+          "fetched_at": "2026-06-13T00:00:00Z"
+        }
+      },
+      {
+        "score": 23.9,
+        "config": "no tools",
+        "source": {
+          "kind": "manual",
+          "url": "https://huggingface.co/moonshotai/Kimi-K2-Thinking",
+          "reported_by": "Kimi K2 Thinking model card, self-reported",
+          "fetched_at": "2026-06-13T00:00:00Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "grok-4",
+    "benchmark_id": "hle",
+    "score": 50.7,
+    "config": "heavy",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/moonshotai/Kimi-K2-Thinking",
+      "reported_by": "Kimi K2 Thinking model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    },
+    "variants": [
+      {
+        "score": 41,
+        "config": "with tools",
+        "source": {
+          "kind": "manual",
+          "url": "https://huggingface.co/moonshotai/Kimi-K2-Thinking",
+          "reported_by": "Kimi K2 Thinking model card (competitor column, cascade)",
+          "fetched_at": "2026-06-13T00:00:00Z"
+        }
+      },
+      {
+        "score": 25.4,
+        "config": "no tools",
+        "source": {
+          "kind": "manual",
+          "url": "https://huggingface.co/moonshotai/Kimi-K2-Thinking",
+          "reported_by": "Kimi K2 Thinking model card (competitor column, cascade)",
+          "fetched_at": "2026-06-13T00:00:00Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "deepseek-v4-pro",
+    "benchmark_id": "hle",
+    "score": 48.2,
+    "config": "Think Max, with tools",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "reported_by": "DeepSeek-V4-Pro model card, self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v4-flash",
+    "benchmark_id": "hle",
+    "score": 45.1,
+    "config": "Think Max, with tools",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "reported_by": "DeepSeek-V4 model card, V4-Flash Max column, self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-5",
+    "benchmark_id": "hle",
+    "score": 42,
+    "config": "heavy",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/moonshotai/Kimi-K2-Thinking",
+      "reported_by": "Kimi K2 Thinking model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    },
+    "variants": [
+      {
+        "score": 41.7,
+        "config": "with tools",
+        "source": {
+          "kind": "manual",
+          "url": "https://huggingface.co/moonshotai/Kimi-K2-Thinking",
+          "reported_by": "Kimi K2 Thinking model card (competitor column, cascade)",
+          "fetched_at": "2026-06-13T00:00:00Z"
+        }
+      },
+      {
+        "score": 35.2,
+        "config": "with tools",
+        "source": {
+          "kind": "manual",
+          "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+          "reported_by": "MiniMax-M2 model card (competitor column, cascade)",
+          "fetched_at": "2026-06-13T00:00:00Z"
+        }
+      },
+      {
+        "score": 26.3,
+        "config": "no tools",
+        "source": {
+          "kind": "manual",
+          "url": "https://huggingface.co/moonshotai/Kimi-K2-Thinking",
+          "reported_by": "Kimi K2 Thinking model card (competitor column, cascade)",
+          "fetched_at": "2026-06-13T00:00:00Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "claude-sonnet-4.5",
+    "benchmark_id": "hle",
+    "score": 32,
+    "config": "with tools",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/moonshotai/Kimi-K2-Thinking",
+      "reported_by": "Kimi K2 Thinking model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    },
+    "variants": [
+      {
+        "score": 24.5,
+        "config": "with tools",
+        "source": {
+          "kind": "manual",
+          "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+          "reported_by": "MiniMax-M2 model card (competitor column, cascade)",
+          "fetched_at": "2026-06-13T00:00:00Z"
+        }
+      },
+      {
+        "score": 19.8,
+        "config": "no tools",
+        "source": {
+          "kind": "manual",
+          "url": "https://huggingface.co/moonshotai/Kimi-K2-Thinking",
+          "reported_by": "Kimi K2 Thinking model card (competitor column, cascade)",
+          "fetched_at": "2026-06-13T00:00:00Z"
+        }
+      },
+      {
+        "score": 17.3,
+        "config": "without tools",
+        "source": {
+          "kind": "manual",
+          "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+          "reported_by": "MiniMax-M2 model card (competitor column, cascade)",
+          "fetched_at": "2026-06-13T00:00:00Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "minimax-m2",
+    "benchmark_id": "hle",
+    "score": 31.8,
+    "config": "with tools",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+      "reported_by": "MiniMax-M2 model card, self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "glm-4.6",
+    "benchmark_id": "hle",
+    "score": 30.4,
+    "config": "with tools",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+      "reported_by": "MiniMax-M2 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gemini-2.5-pro",
+    "benchmark_id": "hle",
+    "score": 28.4,
+    "config": "with tools",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+      "reported_by": "MiniMax-M2 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3.2",
+    "benchmark_id": "hle",
+    "score": 27.2,
+    "config": "with tools",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+      "reported_by": "MiniMax-M2 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    },
+    "variants": [
+      {
+        "score": 20.3,
+        "config": "with tools",
+        "source": {
+          "kind": "manual",
+          "url": "https://huggingface.co/moonshotai/Kimi-K2-Thinking",
+          "reported_by": "Kimi K2 Thinking model card (competitor column, cascade)",
+          "fetched_at": "2026-06-13T00:00:00Z"
+        }
+      },
+      {
+        "score": 19.8,
+        "config": "reasoning, w/o tools",
+        "source": {
+          "kind": "manual",
+          "url": "https://huggingface.co/deepseek-ai/DeepSeek-V3.2-Exp",
+          "reported_by": "DeepSeek-V3.2-Exp model card, self-reported",
+          "fetched_at": "2026-06-13T00:00:00Z"
+        }
+      },
+      {
+        "score": 13.8,
+        "config": "without tools",
+        "source": {
+          "kind": "manual",
+          "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+          "reported_by": "MiniMax-M2 model card (competitor column, cascade)",
+          "fetched_at": "2026-06-13T00:00:00Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "deepseek-v3.1",
+    "benchmark_id": "hle",
+    "score": 21.7,
+    "config": "reasoning, w/o tools",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V3.2-Exp",
+      "reported_by": "DeepSeek-V3.2-Exp model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4",
+    "benchmark_id": "hle",
+    "score": 20.3,
+    "config": "with tools",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+      "reported_by": "MiniMax-M2 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "nemotron-nano-9b-v2",
+    "benchmark_id": "hle",
+    "score": 6.5,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Nano-9B-v2",
+      "reported_by": "NVIDIA-Nemotron-Nano-9B-v2 model card, self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-5",
+    "benchmark_id": "hmmt-feb-2025",
+    "score": 100,
+    "config": "heavy",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/moonshotai/Kimi-K2-Thinking",
+      "reported_by": "Kimi K2 Thinking model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    },
+    "variants": [
+      {
+        "score": 96.7,
+        "config": "with python",
+        "source": {
+          "kind": "manual",
+          "url": "https://huggingface.co/moonshotai/Kimi-K2-Thinking",
+          "reported_by": "Kimi K2 Thinking model card (competitor column, cascade)",
+          "fetched_at": "2026-06-13T00:00:00Z"
+        }
+      },
+      {
+        "score": 93.3,
+        "config": "no tools",
+        "source": {
+          "kind": "manual",
+          "url": "https://huggingface.co/moonshotai/Kimi-K2-Thinking",
+          "reported_by": "Kimi K2 Thinking model card (competitor column, cascade)",
+          "fetched_at": "2026-06-13T00:00:00Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "kimi-k2-thinking",
+    "benchmark_id": "hmmt-feb-2025",
+    "score": 97.5,
+    "config": "heavy",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/moonshotai/Kimi-K2-Thinking",
+      "reported_by": "Kimi K2 Thinking model card, self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    },
+    "variants": [
+      {
+        "score": 95.1,
+        "config": "with python",
+        "source": {
+          "kind": "manual",
+          "url": "https://huggingface.co/moonshotai/Kimi-K2-Thinking",
+          "reported_by": "Kimi K2 Thinking model card, self-reported",
+          "fetched_at": "2026-06-13T00:00:00Z"
+        }
+      },
+      {
+        "score": 89.4,
+        "config": "no tools",
+        "source": {
+          "kind": "manual",
+          "url": "https://huggingface.co/moonshotai/Kimi-K2-Thinking",
+          "reported_by": "Kimi K2 Thinking model card, self-reported",
+          "fetched_at": "2026-06-13T00:00:00Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "grok-4",
+    "benchmark_id": "hmmt-feb-2025",
+    "score": 96.7,
+    "config": "heavy",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/moonshotai/Kimi-K2-Thinking",
+      "reported_by": "Kimi K2 Thinking model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    },
+    "variants": [
+      {
+        "score": 93.9,
+        "config": "with python",
+        "source": {
+          "kind": "manual",
+          "url": "https://huggingface.co/moonshotai/Kimi-K2-Thinking",
+          "reported_by": "Kimi K2 Thinking model card (competitor column, cascade)",
+          "fetched_at": "2026-06-13T00:00:00Z"
+        }
+      },
+      {
+        "score": 90,
+        "config": "no tools",
+        "source": {
+          "kind": "manual",
+          "url": "https://huggingface.co/moonshotai/Kimi-K2-Thinking",
+          "reported_by": "Kimi K2 Thinking model card (competitor column, cascade)",
+          "fetched_at": "2026-06-13T00:00:00Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "claude-sonnet-4.5",
+    "benchmark_id": "hmmt-feb-2025",
+    "score": 88.8,
+    "config": "with python",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/moonshotai/Kimi-K2-Thinking",
+      "reported_by": "Kimi K2 Thinking model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    },
+    "variants": [
+      {
+        "score": 74.6,
+        "config": "no tools",
+        "source": {
+          "kind": "manual",
+          "url": "https://huggingface.co/moonshotai/Kimi-K2-Thinking",
+          "reported_by": "Kimi K2 Thinking model card (competitor column, cascade)",
+          "fetched_at": "2026-06-13T00:00:00Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "deepseek-v3.1",
+    "benchmark_id": "hmmt-feb-2025",
+    "score": 86.1,
+    "config": "reasoning, w/o tools",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V3.2-Exp",
+      "reported_by": "DeepSeek-V3.2-Exp model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3.2",
+    "benchmark_id": "hmmt-feb-2025",
+    "score": 83.6,
+    "config": "reasoning, w/o tools",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V3.2-Exp",
+      "reported_by": "DeepSeek-V3.2-Exp model card, self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    },
+    "variants": [
+      {
+        "score": 49.5,
+        "config": "with python",
+        "source": {
+          "kind": "manual",
+          "url": "https://huggingface.co/moonshotai/Kimi-K2-Thinking",
+          "reported_by": "Kimi K2 Thinking model card (competitor column, cascade)",
+          "fetched_at": "2026-06-13T00:00:00Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "humaneval",
+    "score": 90.6,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/microsoft/phi-4",
+      "reported_by": "Phi-4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-4o-mini",
+    "benchmark_id": "humaneval",
+    "score": 86.2,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/microsoft/phi-4",
+      "reported_by": "Phi-4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "phi-4",
+    "benchmark_id": "humaneval",
+    "score": 82.6,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/microsoft/phi-4",
+      "reported_by": "Phi-4 model card (Microsoft), self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "qwen-2.5-72b",
+    "benchmark_id": "humaneval",
+    "score": 80.4,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/microsoft/phi-4",
+      "reported_by": "Phi-4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "llama-3.3-70b",
+    "benchmark_id": "humaneval",
+    "score": 78.9,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/microsoft/phi-4",
+      "reported_by": "Phi-4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "qwen2.5-14b",
+    "benchmark_id": "humaneval",
+    "score": 72.1,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/microsoft/phi-4",
+      "reported_by": "Phi-4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "ernie-5",
+    "benchmark_id": "humaneval+",
+    "score": 94.48,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2602.04705",
+      "reported_by": "ERNIE 5.0 technical report (post-trained), self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "nova-2-pro",
+    "benchmark_id": "ifbench",
+    "score": 80.2,
+    "config": "prompt loose acc",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 1), self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-5",
+    "benchmark_id": "ifbench",
+    "score": 73.1,
+    "config": "prompt loose acc",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 1, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    },
+    "variants": [
+      {
+        "score": 73,
+        "config": "default",
+        "source": {
+          "kind": "manual",
+          "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+          "reported_by": "MiniMax-M2 model card (competitor column, cascade)",
+          "fetched_at": "2026-06-13T00:00:00Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "gpt-5.1",
+    "benchmark_id": "ifbench",
+    "score": 72.9,
+    "config": "prompt loose acc",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 1, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "minimax-m2",
+    "benchmark_id": "ifbench",
+    "score": 72,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+      "reported_by": "MiniMax-M2 model card (Artificial Analysis metrics)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "nova-2-lite",
+    "benchmark_id": "ifbench",
+    "score": 70.8,
+    "config": "prompt loose acc",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 1), self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gemini-3-pro",
+    "benchmark_id": "ifbench",
+    "score": 70.4,
+    "config": "prompt loose acc",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 1, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "nova-2-omni",
+    "benchmark_id": "ifbench",
+    "score": 68.7,
+    "config": "prompt loose acc",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 5), self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4.5",
+    "benchmark_id": "ifbench",
+    "score": 57.3,
+    "config": "prompt loose acc",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 1, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    },
+    "variants": [
+      {
+        "score": 57,
+        "config": "default",
+        "source": {
+          "kind": "manual",
+          "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+          "reported_by": "MiniMax-M2 model card (competitor column, cascade)",
+          "fetched_at": "2026-06-13T00:00:00Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "claude-sonnet-4",
+    "benchmark_id": "ifbench",
+    "score": 55,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+      "reported_by": "MiniMax-M2 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "claude-haiku-4.5",
+    "benchmark_id": "ifbench",
+    "score": 54.3,
+    "config": "prompt loose acc",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 1, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3.2",
+    "benchmark_id": "ifbench",
+    "score": 54,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+      "reported_by": "MiniMax-M2 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gemini-2.5-flash",
+    "benchmark_id": "ifbench",
+    "score": 50.3,
+    "config": "prompt loose acc",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 1, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gemini-2.5-pro",
+    "benchmark_id": "ifbench",
+    "score": 49,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+      "reported_by": "MiniMax-M2 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    },
+    "variants": [
+      {
+        "score": 48.7,
+        "config": "prompt loose acc",
+        "source": {
+          "kind": "manual",
+          "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+          "reported_by": "Amazon Nova 2 technical report (Table 1, competitor column, cascade)",
+          "fetched_at": "2026-06-13T00:00:00Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "glm-4.6",
+    "benchmark_id": "ifbench",
+    "score": 43,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+      "reported_by": "MiniMax-M2 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "nova-pro",
+    "benchmark_id": "ifbench",
+    "score": 38.1,
+    "config": "prompt loose acc",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 1, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "nova-lite",
+    "benchmark_id": "ifbench",
+    "score": 34.1,
+    "config": "prompt loose acc",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 1, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "ernie-5",
+    "benchmark_id": "ifeval",
+    "score": 93.35,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2602.04705",
+      "reported_by": "ERNIE 5.0 technical report (post-trained), self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.4",
+    "benchmark_id": "imo-answerbench",
+    "score": 91.4,
+    "config": "xhigh",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "reported_by": "DeepSeek-V4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v4-pro",
+    "benchmark_id": "imo-answerbench",
+    "score": 89.8,
+    "config": "Think Max",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "reported_by": "DeepSeek-V4-Pro model card, self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v4-flash",
+    "benchmark_id": "imo-answerbench",
+    "score": 88.4,
+    "config": "Think Max",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "reported_by": "DeepSeek-V4 model card, V4-Flash Max column, self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "kimi-k2.6",
+    "benchmark_id": "imo-answerbench",
+    "score": 86,
+    "config": "thinking",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "reported_by": "DeepSeek-V4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gemini-3.1-pro",
+    "benchmark_id": "imo-answerbench",
+    "score": 81,
+    "config": "high",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "reported_by": "DeepSeek-V4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "kimi-k2-thinking",
+    "benchmark_id": "imo-answerbench",
+    "score": 78.6,
+    "config": "no tools",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/moonshotai/Kimi-K2-Thinking",
+      "reported_by": "Kimi K2 Thinking model card, self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-5",
+    "benchmark_id": "imo-answerbench",
+    "score": 76,
+    "config": "no tools",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/moonshotai/Kimi-K2-Thinking",
+      "reported_by": "Kimi K2 Thinking model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3.2",
+    "benchmark_id": "imo-answerbench",
+    "score": 76,
+    "config": "no tools",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/moonshotai/Kimi-K2-Thinking",
+      "reported_by": "Kimi K2 Thinking model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "claude-opus-4.6",
+    "benchmark_id": "imo-answerbench",
+    "score": 75.3,
+    "config": "max",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "reported_by": "DeepSeek-V4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "grok-4",
+    "benchmark_id": "imo-answerbench",
+    "score": 73.1,
+    "config": "no tools",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/moonshotai/Kimi-K2-Thinking",
+      "reported_by": "Kimi K2 Thinking model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4.5",
+    "benchmark_id": "imo-answerbench",
+    "score": 65.9,
+    "config": "no tools",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/moonshotai/Kimi-K2-Thinking",
+      "reported_by": "Kimi K2 Thinking model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "claude-haiku-4.5",
+    "benchmark_id": "jigsaw",
+    "score": 58.86,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 14, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gemini-2.5-flash",
+    "benchmark_id": "jigsaw",
+    "score": 57.87,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 14, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4.5",
+    "benchmark_id": "jigsaw",
+    "score": 57.8,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 14, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "nova-2-omni",
+    "benchmark_id": "jigsaw",
+    "score": 57.79,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 14, content moderation F1), self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "nova-2-lite",
+    "benchmark_id": "jigsaw",
+    "score": 56.53,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 14, content moderation F1), self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "nova-2-pro",
+    "benchmark_id": "jigsaw",
+    "score": 54.67,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 14, content moderation F1), self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-5",
+    "benchmark_id": "jigsaw",
+    "score": 52.33,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 14, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "nova-lite",
+    "benchmark_id": "jigsaw",
+    "score": 50.44,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 14, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "nova-pro",
+    "benchmark_id": "jigsaw",
+    "score": 45.75,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 14, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v4-pro",
+    "benchmark_id": "livecodebench",
+    "score": 93.5,
+    "config": "Think Max",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "reported_by": "DeepSeek-V4-Pro model card, self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gemini-3.1-pro",
+    "benchmark_id": "livecodebench",
+    "score": 91.7,
+    "config": "high",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "reported_by": "DeepSeek-V4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v4-flash",
+    "benchmark_id": "livecodebench",
+    "score": 91.6,
+    "config": "Think Max",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "reported_by": "DeepSeek-V4 model card, V4-Flash Max column, self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "kimi-k2.6",
+    "benchmark_id": "livecodebench",
+    "score": 89.6,
+    "config": "thinking",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "reported_by": "DeepSeek-V4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "claude-opus-4.6",
+    "benchmark_id": "livecodebench",
+    "score": 88.8,
+    "config": "max",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "reported_by": "DeepSeek-V4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-5",
+    "benchmark_id": "livecodebench",
+    "score": 85,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+      "reported_by": "MiniMax-M2 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gemini-2.5-pro",
+    "benchmark_id": "livecodebench",
+    "score": 80,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+      "reported_by": "MiniMax-M2 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3.2",
+    "benchmark_id": "livecodebench",
+    "score": 79,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+      "reported_by": "MiniMax-M2 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    },
+    "variants": [
+      {
+        "score": 74.1,
+        "config": "reasoning, w/o tools",
+        "source": {
+          "kind": "manual",
+          "url": "https://huggingface.co/deepseek-ai/DeepSeek-V3.2-Exp",
+          "reported_by": "DeepSeek-V3.2-Exp model card, self-reported",
+          "fetched_at": "2026-06-13T00:00:00Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "deepseek-v3.1",
+    "benchmark_id": "livecodebench",
+    "score": 74.9,
+    "config": "reasoning, w/o tools",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V3.2-Exp",
+      "reported_by": "DeepSeek-V3.2-Exp model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4.5",
+    "benchmark_id": "livecodebench",
+    "score": 71,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+      "reported_by": "MiniMax-M2 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "glm-4.6",
+    "benchmark_id": "livecodebench",
+    "score": 70,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+      "reported_by": "MiniMax-M2 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4",
+    "benchmark_id": "livecodebench",
+    "score": 66,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+      "reported_by": "MiniMax-M2 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "kimi-k1.5",
+    "benchmark_id": "livecodebench",
+    "score": 62.5,
+    "config": "long-CoT",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2501.12599",
+      "reported_by": "Kimi k1.5 technical report, self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    },
+    "variants": [
+      {
+        "score": 47.3,
+        "config": "short-CoT",
+        "source": {
+          "kind": "manual",
+          "url": "https://arxiv.org/abs/2501.12599",
+          "reported_by": "Kimi k1.5 technical report, self-reported",
+          "fetched_at": "2026-06-13T00:00:00Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "gemini-3-pro",
+    "benchmark_id": "livecodebench-v5",
+    "score": 91.7,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 4, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.1",
+    "benchmark_id": "livecodebench-v5",
+    "score": 86.8,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 4, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-5",
+    "benchmark_id": "livecodebench-v5",
+    "score": 84.6,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 4, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gemini-2.5-pro",
+    "benchmark_id": "livecodebench-v5",
+    "score": 80.1,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 4, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4.5",
+    "benchmark_id": "livecodebench-v5",
+    "score": 71.4,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 4, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gemini-2.5-flash",
+    "benchmark_id": "livecodebench-v5",
+    "score": 69.5,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 4, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "claude-haiku-4.5",
+    "benchmark_id": "livecodebench-v5",
+    "score": 61.5,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 4, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-5",
+    "benchmark_id": "livecodebench-v6",
+    "score": 87,
+    "config": "no tools",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/moonshotai/Kimi-K2-Thinking",
+      "reported_by": "Kimi K2 Thinking model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.1",
+    "benchmark_id": "livecodebench-v6",
+    "score": 87,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/zai-org/GLM-4.6",
+      "reported_by": "GLM-4.7 release figure (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "kimi-k2.5",
+    "benchmark_id": "livecodebench-v6",
+    "score": 85,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://github.com/MoonshotAI/Kimi-K2.5",
+      "reported_by": "Kimi K2.5 official benchmark table (GitHub), self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "glm-4.7",
+    "benchmark_id": "livecodebench-v6",
+    "score": 84.9,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/zai-org/GLM-4.6",
+      "reported_by": "GLM-4.7 official release figure (bench_glm47.png), self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3.2",
+    "benchmark_id": "livecodebench-v6",
+    "score": 83.3,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/zai-org/GLM-4.6",
+      "reported_by": "GLM-4.7 release figure (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    },
+    "variants": [
+      {
+        "score": 74.1,
+        "config": "no tools",
+        "source": {
+          "kind": "manual",
+          "url": "https://huggingface.co/moonshotai/Kimi-K2-Thinking",
+          "reported_by": "Kimi K2 Thinking model card (competitor column, cascade)",
+          "fetched_at": "2026-06-13T00:00:00Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "kimi-k2-thinking",
+    "benchmark_id": "livecodebench-v6",
+    "score": 83.1,
+    "config": "no tools",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/moonshotai/Kimi-K2-Thinking",
+      "reported_by": "Kimi K2 Thinking model card, self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "glm-4.6",
+    "benchmark_id": "livecodebench-v6",
+    "score": 82.8,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/zai-org/GLM-4.6",
+      "reported_by": "GLM-4.7 release figure (bench_glm47.png), GLM-4.6 column, self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gemma-4-31b",
+    "benchmark_id": "livecodebench-v6",
+    "score": 80,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gemma-4-technical-report.pdf",
+      "reported_by": "Gemma 4 technical report",
+      "published": "2026-07-02",
+      "fetched_at": "2026-07-09T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gemma-4-26b-a4b",
+    "benchmark_id": "livecodebench-v6",
+    "score": 77.1,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gemma-4-technical-report.pdf",
+      "reported_by": "Gemma 4 technical report",
+      "published": "2026-07-02",
+      "fetched_at": "2026-07-09T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "ernie-5",
+    "benchmark_id": "livecodebench-v6",
+    "score": 76.21,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2602.04705",
+      "reported_by": "ERNIE 5.0 technical report (post-trained), self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4.5",
+    "benchmark_id": "livecodebench-v6",
+    "score": 64,
+    "config": "no tools",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/moonshotai/Kimi-K2-Thinking",
+      "reported_by": "Kimi K2 Thinking model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gemma-3-27b",
+    "benchmark_id": "livecodebench-v6",
+    "score": 29.1,
+    "config": "no think",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/google/gemma-4-31B-it",
+      "reported_by": "Gemma 4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "qwen-2.5-72b",
+    "benchmark_id": "math",
+    "score": 80,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/microsoft/phi-4",
+      "reported_by": "Phi-4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "qwen2.5-14b",
+    "benchmark_id": "math",
+    "score": 75.6,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/microsoft/phi-4",
+      "reported_by": "Phi-4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "math",
+    "score": 74.6,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/microsoft/phi-4",
+      "reported_by": "Phi-4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-4o-mini",
+    "benchmark_id": "math",
+    "score": 73,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/microsoft/phi-4",
+      "reported_by": "Phi-4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "llama-3.3-70b",
+    "benchmark_id": "math",
+    "score": 66.3,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/microsoft/phi-4",
+      "reported_by": "Phi-4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "nemotron-nano-9b-v2",
+    "benchmark_id": "math-500",
+    "score": 97.8,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Nano-9B-v2",
+      "reported_by": "NVIDIA-Nemotron-Nano-9B-v2 model card, self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "kimi-k1.5",
+    "benchmark_id": "math-500",
+    "score": 96.2,
+    "config": "long-CoT",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2501.12599",
+      "reported_by": "Kimi k1.5 technical report, self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    },
+    "variants": [
+      {
+        "score": 94.6,
+        "config": "short-CoT",
+        "source": {
+          "kind": "manual",
+          "url": "https://arxiv.org/abs/2501.12599",
+          "reported_by": "Kimi k1.5 technical report, self-reported",
+          "fetched_at": "2026-06-13T00:00:00Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "ernie-5",
+    "benchmark_id": "mathvista",
+    "score": 84.8,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2602.04705",
+      "reported_by": "ERNIE 5.0 technical report (post-trained), self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "kimi-k1.5",
+    "benchmark_id": "mathvista",
+    "score": 74.9,
+    "config": "long-CoT",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2501.12599",
+      "reported_by": "Kimi k1.5 technical report, self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    },
+    "variants": [
+      {
+        "score": 70.1,
+        "config": "short-CoT",
+        "source": {
+          "kind": "manual",
+          "url": "https://arxiv.org/abs/2501.12599",
+          "reported_by": "Kimi k1.5 technical report, self-reported",
+          "fetched_at": "2026-06-13T00:00:00Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "claude-opus-4.6",
+    "benchmark_id": "mcp-atlas",
+    "score": 73.8,
+    "config": "max",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "reported_by": "DeepSeek-V4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v4-pro",
+    "benchmark_id": "mcp-atlas",
+    "score": 73.6,
+    "config": "Think Max",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "reported_by": "DeepSeek-V4-Pro model card, self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gemini-3.1-pro",
+    "benchmark_id": "mcp-atlas",
+    "score": 69.2,
+    "config": "high",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "reported_by": "DeepSeek-V4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v4-flash",
+    "benchmark_id": "mcp-atlas",
+    "score": 69,
+    "config": "Think Max",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "reported_by": "DeepSeek-V4 model card, V4-Flash Max column, self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.4",
+    "benchmark_id": "mcp-atlas",
+    "score": 67.2,
+    "config": "xhigh",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "reported_by": "DeepSeek-V4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "kimi-k2.6",
+    "benchmark_id": "mcp-atlas",
+    "score": 66.6,
+    "config": "thinking",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "reported_by": "DeepSeek-V4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-5",
+    "benchmark_id": "mcp-atlas",
+    "score": 44.5,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 2, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "nova-2-lite",
+    "benchmark_id": "mcp-atlas",
+    "score": 24.6,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 2), self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gemini-2.5-pro",
+    "benchmark_id": "mcp-atlas",
+    "score": 8.8,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 2, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "mgsm8k",
+    "score": 90.4,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/microsoft/phi-4",
+      "reported_by": "Phi-4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "llama-3.3-70b",
+    "benchmark_id": "mgsm8k",
+    "score": 89.1,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/microsoft/phi-4",
+      "reported_by": "Phi-4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "qwen-2.5-72b",
+    "benchmark_id": "mgsm8k",
+    "score": 87.3,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/microsoft/phi-4",
+      "reported_by": "Phi-4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-4o-mini",
+    "benchmark_id": "mgsm8k",
+    "score": 86.5,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/microsoft/phi-4",
+      "reported_by": "Phi-4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "phi-4",
+    "benchmark_id": "mgsm8k",
+    "score": 80.6,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/microsoft/phi-4",
+      "reported_by": "Phi-4 model card (Microsoft), self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "qwen2.5-14b",
+    "benchmark_id": "mgsm8k",
+    "score": 79.6,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/microsoft/phi-4",
+      "reported_by": "Phi-4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "mmlu",
+    "score": 88.1,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/microsoft/phi-4",
+      "reported_by": "Phi-4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "kimi-k1.5",
+    "benchmark_id": "mmlu",
+    "score": 87.4,
+    "config": "short-CoT",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2501.12599",
+      "reported_by": "Kimi k1.5 technical report, self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "llama-3.3-70b",
+    "benchmark_id": "mmlu",
+    "score": 86.3,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/microsoft/phi-4",
+      "reported_by": "Phi-4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "qwen-2.5-72b",
+    "benchmark_id": "mmlu",
+    "score": 85.3,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/microsoft/phi-4",
+      "reported_by": "Phi-4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-4o-mini",
+    "benchmark_id": "mmlu",
+    "score": 81.8,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/microsoft/phi-4",
+      "reported_by": "Phi-4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gemini-3.1-pro",
+    "benchmark_id": "mmlu-pro",
+    "score": 91,
+    "config": "high",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "reported_by": "DeepSeek-V4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "claude-opus-4.6",
+    "benchmark_id": "mmlu-pro",
+    "score": 89.1,
+    "config": "max",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "reported_by": "DeepSeek-V4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4.5",
+    "benchmark_id": "mmlu-pro",
+    "score": 88,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+      "reported_by": "MiniMax-M2 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    },
+    "variants": [
+      {
+        "score": 87.5,
+        "config": "no tools",
+        "source": {
+          "kind": "manual",
+          "url": "https://huggingface.co/moonshotai/Kimi-K2-Thinking",
+          "reported_by": "Kimi K2 Thinking model card (competitor column, cascade)",
+          "fetched_at": "2026-06-13T00:00:00Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "deepseek-v4-pro",
+    "benchmark_id": "mmlu-pro",
+    "score": 87.5,
+    "config": "Think Max",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "reported_by": "DeepSeek-V4-Pro model card, self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.4",
+    "benchmark_id": "mmlu-pro",
+    "score": 87.5,
+    "config": "xhigh",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "reported_by": "DeepSeek-V4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "kimi-k2.6",
+    "benchmark_id": "mmlu-pro",
+    "score": 87.1,
+    "config": "thinking",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "reported_by": "DeepSeek-V4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-5",
+    "benchmark_id": "mmlu-pro",
+    "score": 87,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+      "reported_by": "MiniMax-M2 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v4-flash",
+    "benchmark_id": "mmlu-pro",
+    "score": 86.2,
+    "config": "Think Max",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "reported_by": "DeepSeek-V4 model card, V4-Flash Max column, self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gemini-2.5-pro",
+    "benchmark_id": "mmlu-pro",
+    "score": 86,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+      "reported_by": "MiniMax-M2 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3.1",
+    "benchmark_id": "mmlu-pro",
+    "score": 85,
+    "config": "reasoning, w/o tools",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V3.2-Exp",
+      "reported_by": "DeepSeek-V3.2-Exp model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "kimi-k2-thinking",
+    "benchmark_id": "mmlu-pro",
+    "score": 84.6,
+    "config": "no tools",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/moonshotai/Kimi-K2-Thinking",
+      "reported_by": "Kimi K2 Thinking model card, self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4",
+    "benchmark_id": "mmlu-pro",
+    "score": 84,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+      "reported_by": "MiniMax-M2 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "glm-4.6",
+    "benchmark_id": "mmlu-pro",
+    "score": 83,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+      "reported_by": "MiniMax-M2 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "claude-haiku-4.5",
+    "benchmark_id": "mmlu-pro",
+    "score": 80,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 1, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gemma-3-27b",
+    "benchmark_id": "mmlu-pro",
+    "score": 67.6,
+    "config": "no think",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/google/gemma-4-31B-it",
+      "reported_by": "Gemma 4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4.5",
+    "benchmark_id": "mmlu-redux",
+    "score": 95.6,
+    "config": "no tools",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/moonshotai/Kimi-K2-Thinking",
+      "reported_by": "Kimi K2 Thinking model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-5",
+    "benchmark_id": "mmlu-redux",
+    "score": 95.3,
+    "config": "no tools",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/moonshotai/Kimi-K2-Thinking",
+      "reported_by": "Kimi K2 Thinking model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "kimi-k2-thinking",
+    "benchmark_id": "mmlu-redux",
+    "score": 94.4,
+    "config": "no tools",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/moonshotai/Kimi-K2-Thinking",
+      "reported_by": "Kimi K2 Thinking model card, self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3.2",
+    "benchmark_id": "mmlu-redux",
+    "score": 93.7,
+    "config": "no tools",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/moonshotai/Kimi-K2-Thinking",
+      "reported_by": "Kimi K2 Thinking model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "kimi-k1.5",
+    "benchmark_id": "mmmu",
+    "score": 68,
+    "config": "short-CoT",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2501.12599",
+      "reported_by": "Kimi k1.5 technical report, self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gemini-3-pro",
+    "benchmark_id": "mmmu-pro",
+    "score": 81,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 3, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-5",
+    "benchmark_id": "mmmu-pro",
+    "score": 78.4,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 3, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.1",
+    "benchmark_id": "mmmu-pro",
+    "score": 76,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 3, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gemini-2.5-flash",
+    "benchmark_id": "mmmu-pro",
+    "score": 69,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 3, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4.5",
+    "benchmark_id": "mmmu-pro",
+    "score": 69,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 3, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "ernie-5",
+    "benchmark_id": "mmmu-pro",
+    "score": 68.63,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2602.04705",
+      "reported_by": "ERNIE 5.0 technical report (post-trained), self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gemini-2.5-pro",
+    "benchmark_id": "mmmu-pro",
+    "score": 68,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 3, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "nova-2-pro",
+    "benchmark_id": "mmmu-pro",
+    "score": 63.5,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 3), self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "nova-2-lite",
+    "benchmark_id": "mmmu-pro",
+    "score": 61.8,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 3), self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "nova-2-omni",
+    "benchmark_id": "mmmu-pro",
+    "score": 61.4,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 6), self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "claude-haiku-4.5",
+    "benchmark_id": "mmmu-pro",
+    "score": 58,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 3, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "nova-pro",
+    "benchmark_id": "mmmu-pro",
+    "score": 44,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 3, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "nova-lite",
+    "benchmark_id": "mmmu-pro",
+    "score": 38,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 3, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4.5",
+    "benchmark_id": "multi-swe-bench",
+    "score": 44.3,
+    "config": "with tools",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/moonshotai/Kimi-K2-Thinking",
+      "reported_by": "Kimi K2 Thinking model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "kimi-k2-thinking",
+    "benchmark_id": "multi-swe-bench",
+    "score": 41.9,
+    "config": "with tools",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/moonshotai/Kimi-K2-Thinking",
+      "reported_by": "Kimi K2 Thinking model card, self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-5",
+    "benchmark_id": "multi-swe-bench",
+    "score": 39.3,
+    "config": "with tools",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/moonshotai/Kimi-K2-Thinking",
+      "reported_by": "Kimi K2 Thinking model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "minimax-m2",
+    "benchmark_id": "multi-swe-bench",
+    "score": 36.2,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+      "reported_by": "MiniMax-M2 model card, self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4",
+    "benchmark_id": "multi-swe-bench",
+    "score": 35.7,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+      "reported_by": "MiniMax-M2 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3.2",
+    "benchmark_id": "multi-swe-bench",
+    "score": 30.6,
+    "config": "with tools",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/moonshotai/Kimi-K2-Thinking",
+      "reported_by": "Kimi K2 Thinking model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "glm-4.6",
+    "benchmark_id": "multi-swe-bench",
+    "score": 30,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+      "reported_by": "MiniMax-M2 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "nova-2-pro",
+    "benchmark_id": "multichallenge",
+    "score": 77.7,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 1), self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "nova-2-lite",
+    "benchmark_id": "multichallenge",
+    "score": 76.6,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 1), self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "nova-2-omni",
+    "benchmark_id": "multichallenge",
+    "score": 75.5,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 5), self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gemini-3-pro",
+    "benchmark_id": "multichallenge",
+    "score": 73.6,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 1, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.1",
+    "benchmark_id": "multichallenge",
+    "score": 72.2,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 1, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-5",
+    "benchmark_id": "multichallenge",
+    "score": 69.6,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 1, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4.5",
+    "benchmark_id": "multichallenge",
+    "score": 63.1,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 1, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gemini-2.5-flash",
+    "benchmark_id": "multichallenge",
+    "score": 62.6,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 1, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gemini-2.5-pro",
+    "benchmark_id": "multichallenge",
+    "score": 62.3,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 1, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "claude-haiku-4.5",
+    "benchmark_id": "multichallenge",
+    "score": 57.1,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 1, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "nova-pro",
+    "benchmark_id": "multichallenge",
+    "score": 26.7,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 1, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "nova-lite",
+    "benchmark_id": "multichallenge",
+    "score": 18.7,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 1, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "nemotron-nano-9b-v2",
+    "benchmark_id": "ruler",
+    "score": 78.9,
+    "config": "128K",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Nano-9B-v2",
+      "reported_by": "NVIDIA-Nemotron-Nano-9B-v2 model card, self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4.5",
+    "benchmark_id": "scicode",
+    "score": 45,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+      "reported_by": "MiniMax-M2 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    },
+    "variants": [
+      {
+        "score": 44.7,
+        "config": "no tools",
+        "source": {
+          "kind": "manual",
+          "url": "https://huggingface.co/moonshotai/Kimi-K2-Thinking",
+          "reported_by": "Kimi K2 Thinking model card (competitor column, cascade)",
+          "fetched_at": "2026-06-13T00:00:00Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "kimi-k2-thinking",
+    "benchmark_id": "scicode",
+    "score": 44.8,
+    "config": "no tools",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/moonshotai/Kimi-K2-Thinking",
+      "reported_by": "Kimi K2 Thinking model card, self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gemini-2.5-pro",
+    "benchmark_id": "scicode",
+    "score": 43,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+      "reported_by": "MiniMax-M2 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-5",
+    "benchmark_id": "scicode",
+    "score": 43,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+      "reported_by": "MiniMax-M2 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3.2",
+    "benchmark_id": "scicode",
+    "score": 38,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+      "reported_by": "MiniMax-M2 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    },
+    "variants": [
+      {
+        "score": 37.7,
+        "config": "no tools",
+        "source": {
+          "kind": "manual",
+          "url": "https://huggingface.co/moonshotai/Kimi-K2-Thinking",
+          "reported_by": "Kimi K2 Thinking model card (competitor column, cascade)",
+          "fetched_at": "2026-06-13T00:00:00Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "glm-4.6",
+    "benchmark_id": "scicode",
+    "score": 38,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+      "reported_by": "MiniMax-M2 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "simpleqa",
+    "score": 39.4,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/microsoft/phi-4",
+      "reported_by": "Phi-4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "llama-3.3-70b",
+    "benchmark_id": "simpleqa",
+    "score": 20.9,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/microsoft/phi-4",
+      "reported_by": "Phi-4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "qwen-2.5-72b",
+    "benchmark_id": "simpleqa",
+    "score": 10.2,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/microsoft/phi-4",
+      "reported_by": "Phi-4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-4o-mini",
+    "benchmark_id": "simpleqa",
+    "score": 9.9,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/microsoft/phi-4",
+      "reported_by": "Phi-4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "qwen2.5-14b",
+    "benchmark_id": "simpleqa",
+    "score": 5.4,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/microsoft/phi-4",
+      "reported_by": "Phi-4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "phi-4",
+    "benchmark_id": "simpleqa",
+    "score": 3,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/microsoft/phi-4",
+      "reported_by": "Phi-4 model card (Microsoft), self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gemini-3.1-pro",
+    "benchmark_id": "simpleqa-verified",
+    "score": 75.6,
+    "config": "high",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "reported_by": "DeepSeek-V4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v4-pro",
+    "benchmark_id": "simpleqa-verified",
+    "score": 57.9,
+    "config": "Think Max",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "reported_by": "DeepSeek-V4-Pro model card, self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "claude-opus-4.6",
+    "benchmark_id": "simpleqa-verified",
+    "score": 46.2,
+    "config": "max",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "reported_by": "DeepSeek-V4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.4",
+    "benchmark_id": "simpleqa-verified",
+    "score": 45.3,
+    "config": "xhigh",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "reported_by": "DeepSeek-V4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "kimi-k2.6",
+    "benchmark_id": "simpleqa-verified",
+    "score": 36.9,
+    "config": "thinking",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "reported_by": "DeepSeek-V4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v4-flash",
+    "benchmark_id": "simpleqa-verified",
+    "score": 34.1,
+    "config": "Think Max",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "reported_by": "DeepSeek-V4 model card, V4-Flash Max column, self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "claude-opus-4.6",
+    "benchmark_id": "swe-bench-multilingual",
+    "score": 77.5,
+    "config": "max",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "reported_by": "DeepSeek-V4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "kimi-k2.6",
+    "benchmark_id": "swe-bench-multilingual",
+    "score": 76.7,
+    "config": "thinking",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "reported_by": "DeepSeek-V4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v4-pro",
+    "benchmark_id": "swe-bench-multilingual",
+    "score": 76.2,
+    "config": "Think Max",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "reported_by": "DeepSeek-V4-Pro model card, self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v4-flash",
+    "benchmark_id": "swe-bench-multilingual",
+    "score": 73.3,
+    "config": "Think Max",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "reported_by": "DeepSeek-V4 model card, V4-Flash Max column, self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4.5",
+    "benchmark_id": "swe-bench-multilingual",
+    "score": 68,
+    "config": "with tools",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/moonshotai/Kimi-K2-Thinking",
+      "reported_by": "Kimi K2 Thinking model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "kimi-k2-thinking",
+    "benchmark_id": "swe-bench-multilingual",
+    "score": 61.1,
+    "config": "with tools",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/moonshotai/Kimi-K2-Thinking",
+      "reported_by": "Kimi K2 Thinking model card, self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3.2",
+    "benchmark_id": "swe-bench-multilingual",
+    "score": 57.9,
+    "config": "with tools",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/moonshotai/Kimi-K2-Thinking",
+      "reported_by": "Kimi K2 Thinking model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3.1",
+    "benchmark_id": "swe-bench-multilingual",
+    "score": 57.8,
+    "config": "agentic tool use",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V3.2-Exp",
+      "reported_by": "DeepSeek-V3.2-Exp model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4",
+    "benchmark_id": "swe-bench-multilingual",
+    "score": 56.9,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+      "reported_by": "MiniMax-M2 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "minimax-m2",
+    "benchmark_id": "swe-bench-multilingual",
+    "score": 56.5,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+      "reported_by": "MiniMax-M2 model card, self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-5",
+    "benchmark_id": "swe-bench-multilingual",
+    "score": 55.3,
+    "config": "with tools",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/moonshotai/Kimi-K2-Thinking",
+      "reported_by": "Kimi K2 Thinking model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "glm-4.6",
+    "benchmark_id": "swe-bench-multilingual",
+    "score": 53.8,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+      "reported_by": "MiniMax-M2 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "kimi-k2.6",
+    "benchmark_id": "swe-bench-pro",
+    "score": 58.6,
+    "config": "public; Thinking",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "reported_by": "DeepSeek-V4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.4",
+    "benchmark_id": "swe-bench-pro",
+    "score": 57.7,
+    "config": "public; xHigh",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "reported_by": "DeepSeek-V4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "claude-opus-4.6",
+    "benchmark_id": "swe-bench-pro",
+    "score": 57.3,
+    "config": "public; Max",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "reported_by": "DeepSeek-V4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v4-pro",
+    "benchmark_id": "swe-bench-pro",
+    "score": 55.4,
+    "config": "public; Think Max",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "reported_by": "DeepSeek-V4-Pro model card, self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v4-flash",
+    "benchmark_id": "swe-bench-pro",
+    "score": 52.6,
+    "config": "public; Think Max",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "reported_by": "DeepSeek-V4 model card, V4-Flash Max column, self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "kimi-k2.5",
+    "benchmark_id": "swe-bench-pro",
+    "score": 50.7,
+    "config": "public",
+    "source": {
+      "kind": "manual",
+      "url": "https://github.com/MoonshotAI/Kimi-K2.5",
+      "reported_by": "Kimi K2.5 official benchmark table (GitHub), self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v4-pro",
+    "benchmark_id": "swe-bench-verified",
+    "score": 80.6,
+    "config": "Think Max",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "reported_by": "DeepSeek-V4-Pro model card, self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gemini-3.1-pro",
+    "benchmark_id": "swe-bench-verified",
+    "score": 80.6,
+    "config": "high",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "reported_by": "DeepSeek-V4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "kimi-k2.6",
+    "benchmark_id": "swe-bench-verified",
+    "score": 80.2,
+    "config": "thinking",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "reported_by": "DeepSeek-V4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v4-flash",
+    "benchmark_id": "swe-bench-verified",
+    "score": 79,
+    "config": "Think Max",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "reported_by": "DeepSeek-V4 model card, V4-Flash Max column, self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.1",
+    "benchmark_id": "swe-bench-verified",
+    "score": 76.3,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/zai-org/GLM-4.6",
+      "reported_by": "GLM-4.7 release figure (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-5",
+    "benchmark_id": "swe-bench-verified",
+    "score": 74.9,
+    "config": "with tools",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/moonshotai/Kimi-K2-Thinking",
+      "reported_by": "Kimi K2 Thinking model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    },
+    "variants": [
+      {
+        "score": 72.8,
+        "config": "default",
+        "source": {
+          "kind": "manual",
+          "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+          "reported_by": "Amazon Nova 2 technical report (Table 4, competitor column, cascade)",
+          "fetched_at": "2026-06-13T00:00:00Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "claude-haiku-4.5",
+    "benchmark_id": "swe-bench-verified",
+    "score": 73.3,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 4, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3.2",
+    "benchmark_id": "swe-bench-verified",
+    "score": 73.1,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/zai-org/GLM-4.6",
+      "reported_by": "GLM-4.7 release figure (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    },
+    "variants": [
+      {
+        "score": 67.8,
+        "config": "with tools",
+        "source": {
+          "kind": "manual",
+          "url": "https://huggingface.co/moonshotai/Kimi-K2-Thinking",
+          "reported_by": "Kimi K2 Thinking model card (competitor column, cascade)",
+          "fetched_at": "2026-06-13T00:00:00Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "claude-sonnet-4",
+    "benchmark_id": "swe-bench-verified",
+    "score": 72.7,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+      "reported_by": "MiniMax-M2 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "kimi-k2-thinking",
+    "benchmark_id": "swe-bench-verified",
+    "score": 71.3,
+    "config": "with tools",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/moonshotai/Kimi-K2-Thinking",
+      "reported_by": "Kimi K2 Thinking model card, self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "nova-2-pro",
+    "benchmark_id": "swe-bench-verified",
+    "score": 70,
+    "config": "inference-time scaling, agentic",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 4), self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    },
+    "variants": [
+      {
+        "score": 61.5,
+        "config": "default",
+        "source": {
+          "kind": "manual",
+          "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+          "reported_by": "Amazon Nova 2 technical report (Table 4), self-reported",
+          "fetched_at": "2026-06-13T00:00:00Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "minimax-m2",
+    "benchmark_id": "swe-bench-verified",
+    "score": 69.4,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+      "reported_by": "MiniMax-M2 model card, self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3.1",
+    "benchmark_id": "swe-bench-verified",
+    "score": 68.4,
+    "config": "agentic tool use",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V3.2-Exp",
+      "reported_by": "DeepSeek-V3.2-Exp model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "glm-4.6",
+    "benchmark_id": "swe-bench-verified",
+    "score": 68,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+      "reported_by": "MiniMax-M2 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "nova-2-lite",
+    "benchmark_id": "swe-bench-verified",
+    "score": 64.5,
+    "config": "inference-time scaling, agentic",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 4), self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    },
+    "variants": [
+      {
+        "score": 53.6,
+        "config": "default",
+        "source": {
+          "kind": "manual",
+          "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+          "reported_by": "Amazon Nova 2 technical report (Table 4), self-reported",
+          "fetched_at": "2026-06-13T00:00:00Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "gemini-2.5-pro",
+    "benchmark_id": "swe-bench-verified",
+    "score": 63.8,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+      "reported_by": "MiniMax-M2 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    },
+    "variants": [
+      {
+        "score": 59.6,
+        "config": "default",
+        "source": {
+          "kind": "manual",
+          "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+          "reported_by": "Amazon Nova 2 technical report (Table 4, competitor column, cascade)",
+          "fetched_at": "2026-06-13T00:00:00Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "glm-4.7-flash",
+    "benchmark_id": "swe-bench-verified",
+    "score": 59.2,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/zai-org/GLM-4.6",
+      "reported_by": "GLM-4.7-Flash official release figure (bench_glm47_flash.png), self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gemini-2.5-flash",
+    "benchmark_id": "swe-bench-verified",
+    "score": 48.9,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 4, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-oss-20b",
+    "benchmark_id": "swe-bench-verified",
+    "score": 34,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/zai-org/GLM-4.6",
+      "reported_by": "GLM-4.7 release figure (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "qwen3-30b-a3b",
+    "benchmark_id": "swe-bench-verified",
+    "score": 22,
+    "config": "thinking",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/zai-org/GLM-4.6",
+      "reported_by": "GLM-4.7 release figure (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gemini-3-pro",
+    "benchmark_id": "terminal-bench",
+    "score": 56.3,
+    "config": "1.0",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 4, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.1",
+    "benchmark_id": "terminal-bench",
+    "score": 53.8,
+    "config": "1.0",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 4, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4.5",
+    "benchmark_id": "terminal-bench",
+    "score": 51,
+    "config": "1.0",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 4, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    },
+    "variants": [
+      {
+        "score": 50,
+        "config": "default",
+        "source": {
+          "kind": "manual",
+          "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+          "reported_by": "MiniMax-M2 model card (competitor column, cascade)",
+          "fetched_at": "2026-06-13T00:00:00Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "claude-haiku-4.5",
+    "benchmark_id": "terminal-bench",
+    "score": 41.8,
+    "config": "1.0",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 4, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "nova-2-pro",
+    "benchmark_id": "terminal-bench",
+    "score": 41.3,
+    "config": "1.0",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 4), self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-5",
+    "benchmark_id": "terminal-bench",
+    "score": 41.3,
+    "config": "1.0",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 4, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "glm-4.6",
+    "benchmark_id": "terminal-bench",
+    "score": 40.5,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+      "reported_by": "MiniMax-M2 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3.2",
+    "benchmark_id": "terminal-bench",
+    "score": 37.7,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+      "reported_by": "MiniMax-M2 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3.1",
+    "benchmark_id": "terminal-bench",
+    "score": 36.7,
+    "config": "agentic tool use",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V3.2-Exp",
+      "reported_by": "DeepSeek-V3.2-Exp model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4",
+    "benchmark_id": "terminal-bench",
+    "score": 36.4,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+      "reported_by": "MiniMax-M2 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "nova-2-lite",
+    "benchmark_id": "terminal-bench",
+    "score": 32.5,
+    "config": "1.0",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 4), self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gemini-2.5-pro",
+    "benchmark_id": "terminal-bench",
+    "score": 25.3,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+      "reported_by": "MiniMax-M2 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gemini-2.5-flash",
+    "benchmark_id": "terminal-bench",
+    "score": 16.8,
+    "config": "1.0",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 4, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.4",
+    "benchmark_id": "terminal-bench-2.0",
+    "score": 75.1,
+    "config": "xhigh",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "reported_by": "DeepSeek-V4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gemini-3.1-pro",
+    "benchmark_id": "terminal-bench-2.0",
+    "score": 68.5,
+    "config": "high",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "reported_by": "DeepSeek-V4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v4-pro",
+    "benchmark_id": "terminal-bench-2.0",
+    "score": 67.9,
+    "config": "Think Max",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "reported_by": "DeepSeek-V4-Pro model card, self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "kimi-k2.6",
+    "benchmark_id": "terminal-bench-2.0",
+    "score": 66.7,
+    "config": "thinking",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "reported_by": "DeepSeek-V4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v4-flash",
+    "benchmark_id": "terminal-bench-2.0",
+    "score": 56.9,
+    "config": "Think Max",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "reported_by": "DeepSeek-V4 model card, V4-Flash Max column, self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "kimi-k2.5",
+    "benchmark_id": "terminal-bench-2.0",
+    "score": 50.8,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://github.com/MoonshotAI/Kimi-K2.5",
+      "reported_by": "Kimi K2.5 official benchmark table (GitHub), self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.1",
+    "benchmark_id": "terminal-bench-2.0",
+    "score": 47.6,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/zai-org/GLM-4.6",
+      "reported_by": "GLM-4.7 release figure (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3.2",
+    "benchmark_id": "terminal-bench-2.0",
+    "score": 46.4,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/zai-org/GLM-4.6",
+      "reported_by": "GLM-4.7 release figure (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4.5",
+    "benchmark_id": "terminal-bench-2.0",
+    "score": 42.8,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/zai-org/GLM-4.6",
+      "reported_by": "GLM-4.7 release figure (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "glm-4.7",
+    "benchmark_id": "terminal-bench-2.0",
+    "score": 41,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/zai-org/GLM-4.6",
+      "reported_by": "GLM-4.7 official release figure (bench_glm47.png), self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "glm-4.6",
+    "benchmark_id": "terminal-bench-2.0",
+    "score": 24.5,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/zai-org/GLM-4.6",
+      "reported_by": "GLM-4.7 release figure (bench_glm47.png), GLM-4.6 column, self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.4",
+    "benchmark_id": "toolathlon",
+    "score": 54.6,
+    "config": "xhigh",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "reported_by": "DeepSeek-V4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v4-pro",
+    "benchmark_id": "toolathlon",
+    "score": 51.8,
+    "config": "Think Max",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "reported_by": "DeepSeek-V4-Pro model card, self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "kimi-k2.6",
+    "benchmark_id": "toolathlon",
+    "score": 50,
+    "config": "thinking",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "reported_by": "DeepSeek-V4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gemini-3.1-pro",
+    "benchmark_id": "toolathlon",
+    "score": 48.8,
+    "config": "high",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "reported_by": "DeepSeek-V4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v4-flash",
+    "benchmark_id": "toolathlon",
+    "score": 47.8,
+    "config": "Think Max",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "reported_by": "DeepSeek-V4 model card, V4-Flash Max column, self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "claude-opus-4.6",
+    "benchmark_id": "toolathlon",
+    "score": 47.2,
+    "config": "max",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "reported_by": "DeepSeek-V4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "nova-2-pro",
+    "benchmark_id": "wildguard",
+    "score": 84.88,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 14, content moderation F1), self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "nova-2-lite",
+    "benchmark_id": "wildguard",
+    "score": 84.73,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 14, content moderation F1), self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4.5",
+    "benchmark_id": "wildguard",
+    "score": 84.71,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 14, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "nova-2-omni",
+    "benchmark_id": "wildguard",
+    "score": 84.08,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 14, content moderation F1), self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gemini-2.5-flash",
+    "benchmark_id": "wildguard",
+    "score": 83.82,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 14, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "claude-haiku-4.5",
+    "benchmark_id": "wildguard",
+    "score": 83.48,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 14, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-5",
+    "benchmark_id": "wildguard",
+    "score": 81.64,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 14, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "nova-lite",
+    "benchmark_id": "wildguard",
+    "score": 76.02,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 14, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "nova-pro",
+    "benchmark_id": "wildguard",
+    "score": 75.25,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 14, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  }
+]

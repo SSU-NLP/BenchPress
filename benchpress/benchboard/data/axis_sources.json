@@ -1,0 +1,30 @@
+[
+  {
+    "id": "profiling-static",
+    "label": "Profiling Static",
+    "kind": "baseline",
+    "description": "Canonical ability tags from benchmark profiling. Stable reference, not the primary demo mode.",
+    "confidence": 0.71
+  },
+  {
+    "id": "survey-static",
+    "label": "Survey Static",
+    "kind": "baseline",
+    "description": "Survey taxonomy categories mapped onto benchmarks. Broad coverage with weaker score-pattern fit.",
+    "confidence": 0.67
+  },
+  {
+    "id": "fixed-vloop",
+    "label": "Fixed V-loop",
+    "kind": "planner",
+    "description": "Fixed capability taxonomy, then benchmark selection by relevance, redundancy, predictive gain, and cost.",
+    "confidence": 0.83
+  },
+  {
+    "id": "dynamic-vloop",
+    "label": "Dynamic V-loop",
+    "kind": "planner",
+    "description": "Refines the taxonomy from model score patterns and rejects unstable axis edits.",
+    "confidence": 0.88
+  }
+]

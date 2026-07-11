@@ -1,0 +1,16 @@
+[
+  {
+    "run_id": "demo-agentic-coding-2026-06-27",
+    "date": "2026-06-27",
+    "condition": "coding + multi-step reasoning, k=5",
+    "selected_source": "dynamic-vloop",
+    "score_matrix_coverage": {
+      "models": 18,
+      "benchmarks": 42,
+      "observed_cells": 614,
+      "density": 0.812
+    },
+    "status": "demo",
+    "notes": "Mock data shaped for the UI demo; replace with experiment output using the same schema."
+  }
+]

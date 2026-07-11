@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BenchPress · Evaluation Planning</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&display=block"
+      rel="stylesheet"
+    />
+    <style>
+      @keyframes bp-mesh {
+        0% { transform: translate(0, 0) scale(1); }
+        50% { transform: translate(3%, -4%) scale(1.08); }
+        100% { transform: translate(0, 0) scale(1); }
+      }
+      @keyframes bp-glow {
+        0%, 100% { opacity: 0.55; }
+        50% { opacity: 1; }
+      }
+      #bp-radar path { transition: d 0.45s ease; }
+      .material-symbols-outlined {
+        font-family: "Material Symbols Outlined";
+        font-weight: normal;
+        font-style: normal;
+        line-height: 1;
+        letter-spacing: normal;
+        text-transform: none;
+        display: inline-block;
+        white-space: nowrap;
+        word-wrap: normal;
+        direction: ltr;
+      }
+      .bp-nav-link:hover { color: #191c1d !important; }
+      .bp-start-btn:hover { background: #00a572 !important; box-shadow: 0 10px 15px -3px rgba(0, 165, 114, 0.2); }
+      .bp-sim-btn:hover { border-color: #00a572 !important; }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

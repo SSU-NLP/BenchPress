@@ -1,0 +1,93 @@
+[
+  {
+    "model_id": "claude-opus-4.7",
+    "benchmark_id": "swe-bench-pro",
+    "score": 64.3,
+    "config": "public",
+    "source": {
+      "kind": "manual",
+      "url": "https://www.morphllm.com/claude-benchmarks",
+      "reported_by": "morphllm.com Claude benchmarks (June 2026)",
+      "fetched_at": "2026-06-30T00:00:00Z",
+      "published": "2026-06"
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4.5",
+    "benchmark_id": "swe-bench-pro",
+    "score": 43.6,
+    "config": "public",
+    "source": {
+      "kind": "manual",
+      "url": "https://www.morphllm.com/claude-benchmarks",
+      "reported_by": "morphllm.com Claude benchmarks (June 2026, estimated)",
+      "fetched_at": "2026-06-30T00:00:00Z",
+      "published": "2026-06"
+    }
+  },
+  {
+    "model_id": "claude-haiku-4.5",
+    "benchmark_id": "swe-bench-pro",
+    "score": 39.5,
+    "config": "public",
+    "source": {
+      "kind": "manual",
+      "url": "https://www.morphllm.com/claude-benchmarks",
+      "reported_by": "morphllm.com Claude benchmarks (June 2026, estimated)",
+      "fetched_at": "2026-06-30T00:00:00Z",
+      "published": "2026-06"
+    }
+  },
+  {
+    "model_id": "claude-fable-5",
+    "benchmark_id": "swe-bench-verified",
+    "score": 95,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://www.morphllm.com/claude-benchmarks",
+      "reported_by": "morphllm.com Claude benchmarks (June 2026)",
+      "fetched_at": "2026-06-30T00:00:00Z",
+      "published": "2026-06"
+    }
+  },
+  {
+    "model_id": "claude-mythos-5",
+    "benchmark_id": "swe-bench-verified",
+    "score": 93.9,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://www.morphllm.com/claude-benchmarks",
+      "reported_by": "morphllm.com Claude benchmarks (June 2026, restricted preview)",
+      "fetched_at": "2026-06-30T00:00:00Z",
+      "published": "2026-06"
+    }
+  },
+  {
+    "model_id": "claude-opus-4.8",
+    "benchmark_id": "swe-bench-verified",
+    "score": 88.6,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://www.morphllm.com/claude-benchmarks",
+      "reported_by": "morphllm.com Claude benchmarks (June 2026)",
+      "fetched_at": "2026-06-30T00:00:00Z",
+      "published": "2026-06"
+    }
+  },
+  {
+    "model_id": "claude-opus-4.7",
+    "benchmark_id": "swe-bench-verified",
+    "score": 87.6,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://www.morphllm.com/claude-benchmarks",
+      "reported_by": "morphllm.com Claude benchmarks (June 2026)",
+      "fetched_at": "2026-06-30T00:00:00Z",
+      "published": "2026-06"
+    }
+  }
+]

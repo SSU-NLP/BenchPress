@@ -1,0 +1,90 @@
+[
+  {
+    "axis_id": "analogical_reasoning",
+    "status": "new",
+    "from": null,
+    "to": "Analogical Reasoning",
+    "source": "dynamic-vloop",
+    "reason": "Imported from results/vloop_main/main_001 best iteration item-level V-loop tags."
+  },
+  {
+    "axis_id": "commonsense_causal_reasoning",
+    "status": "new",
+    "from": null,
+    "to": "Commonsense & Causal Reasoning",
+    "source": "dynamic-vloop",
+    "reason": "Imported from results/vloop_main/main_001 best iteration item-level V-loop tags."
+  },
+  {
+    "axis_id": "contextual_retrieval",
+    "status": "new",
+    "from": null,
+    "to": "Contextual Retrieval",
+    "source": "dynamic-vloop",
+    "reason": "Imported from results/vloop_main/main_001 best iteration item-level V-loop tags."
+  },
+  {
+    "axis_id": "external_knowledge_retrieval",
+    "status": "new",
+    "from": null,
+    "to": "External Knowledge Retrieval",
+    "source": "dynamic-vloop",
+    "reason": "Imported from results/vloop_main/main_001 best iteration item-level V-loop tags."
+  },
+  {
+    "axis_id": "formal_deduction",
+    "status": "new",
+    "from": null,
+    "to": "Formal Deduction",
+    "source": "dynamic-vloop",
+    "reason": "Imported from results/vloop_main/main_001 best iteration item-level V-loop tags."
+  },
+  {
+    "axis_id": "pattern_induction",
+    "status": "new",
+    "from": null,
+    "to": "Pattern Induction",
+    "source": "dynamic-vloop",
+    "reason": "Imported from results/vloop_main/main_001 best iteration item-level V-loop tags."
+  },
+  {
+    "axis_id": "numerical_computation",
+    "status": "new",
+    "from": null,
+    "to": "Numerical Computation",
+    "source": "dynamic-vloop",
+    "reason": "Imported from results/vloop_main/main_001 best iteration item-level V-loop tags."
+  },
+  {
+    "axis_id": "spatial_geometrical_reasoning",
+    "status": "new",
+    "from": null,
+    "to": "Spatial & Geometrical Reasoning",
+    "source": "dynamic-vloop",
+    "reason": "Imported from results/vloop_main/main_001 best iteration item-level V-loop tags."
+  },
+  {
+    "axis_id": "temporal_reasoning",
+    "status": "new",
+    "from": null,
+    "to": "Temporal Reasoning",
+    "source": "dynamic-vloop",
+    "reason": "Imported from results/vloop_main/main_001 best iteration item-level V-loop tags."
+  },
+  {
+    "axis_id": "procedural_planning",
+    "status": "new",
+    "from": null,
+    "to": "Procedural Planning",
+    "source": "dynamic-vloop",
+    "reason": "Imported from results/vloop_main/main_001 best iteration item-level V-loop tags."
+  },
+  {
+    "axis_id": "constraint_satisfaction",
+    "status": "new",
+    "from": null,
+    "to": "Constraint Satisfaction",
+    "source": "dynamic-vloop",
+    "reason": "Imported from results/vloop_main/main_001 best iteration item-level V-loop tags."
+  }
+]
