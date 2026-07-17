@@ -12,26 +12,39 @@
   <a href="https://youtu.be/zF_kGEbVKsI">Demo video</a>
 </p>
 
-## What it does
+<p align="center">
+  <img src="assets/system_overview.png" alt="BenchPress system overview: Leaderboard Scores and Benchmark Corpus feed the Autotagging Loop (read benchmark item, tag cognitive abilities, build benchmark profile), which produces neighbor benchmarks, a customized benchmark set, and cognitive ability tags." width="100%">
+</p>
 
-Picking benchmarks is a decision made *before* evaluation, but the ecosystem only helps *after*.
-Leaderboards and harnesses assume you already know what to run, and the labels they organize
-around — `math`, `coding`, `knowledge` — describe what a benchmark is *about*, not what it
-*demands*. GPQA and SimpleQA are both "knowledge," yet one wants multi-step scientific reasoning
-and the other simple fact recall; their model rankings are nearly uncorrelated. GPQA and SciCode
-sit in different domains, share scientific reasoning, and rank models almost identically.
+## How it works
 
-BenchPress reorganizes benchmarks by the **cognitive abilities their items require**. An LLM
-tags every benchmark item on each ability axis, the tags aggregate into a per-benchmark ability
-profile, and a closed loop refines the ability vocabulary against real model-score patterns —
-keeping a revision only when it measurably improves the alignment between tag similarity and
-ranking similarity. No human ground-truth labels are involved.
+The system is a closed alignment loop with four LLM roles, driven by a single objective: the
+cosine similarity between two benchmarks' ability-tag profiles should track how similarly the
+two benchmarks rank models.
 
-You pick a target ability and get three things back: **ability tags** that characterize each
-benchmark, a **compact evaluation set** published as a manifest with fixed revisions and
-sampling seeds — reproducible from the Hugging Face Hub without redistributing raw data — and
-**neighbor benchmarks** whose historical model scores give you a reference point for reading
-your own results.
+- **Mapper** — a lightweight model that tags each benchmark item on every ability axis. It runs
+  at high concurrency and produces the raw per-item labels that aggregate into ability profiles.
+- **Executer** — regenerates the ability vocabulary each iteration, proposing candidate axis
+  sets of varying size.
+- **Maker** — reduces per-item evidence into stable per-benchmark profiles via a cached
+  map-reduce pass.
+- **Improver** — proposes revisions to the tagging prompt and vocabulary. Samples are accepted
+  only when they pass an alignment-improvement gate; otherwise the previous state is kept.
+
+The loop optimizes an alignment loss (`L_align`, the error between tag-similarity and
+score-ranking-similarity over benchmark pairs) alongside rank-correlation diagnostics
+(`ρ_align`) and a tagging-quality term (`Δ_tag`). A candidate survives an iteration only if it
+improves these metrics, so the vocabulary is grounded in observed score behavior rather than in
+human intuition about categories.
+
+Two stages produce the final artifacts:
+
+- **Pre-experiment (Part 1)** — `autotagging_loop/pretrain.py` runs a single global alignment
+  loop and emits the seed taxonomy: `final/I_star.txt` plus `data/cognitive_abilities.json`
+  (the seed ability vocabulary).
+- **Main experiment (Part 2)** — `autotagging_loop/main.py` (via the runner) reuses those seed
+  artifacts and runs the validated loop over held-out splits of benchmarks and models, with
+  best-iteration selection tuned for stability and generalization.
 
 ## Quickstart
 
@@ -44,28 +57,15 @@ uv sync
 cp .env.example .env    # fill in your API keys
 ```
 
-### Run the Autotagging Loop
+The `.env` file configures two provider endpoints: a small model for the Mapper and a larger
+model shared by the Executer, Maker, and Improver. Each role in `benchpress_config.json` names
+its own `base_url_env` / `api_key_env`, so roles can point at different providers without any
+code changes.
 
-```bash
-uv run python autotagging_loop/main.py run
-```
 
-Subcommands: `build-corpus` (assemble the benchmark corpus), `run` (the closed loop),
-`refresh-aai-scores`. To regenerate the seed taxonomy first:
+## Running the demo locally
 
-```bash
-uv run python autotagging_loop/pretrain.py
-```
-
-Results land in `results/`. Models, concurrency, and loop hyperparameters live in
-`benchpress_config.json`; each model entry names its own `base_url_env` / `api_key_env`, so roles
-can point at different providers without touching code.
-
-The shipped `mapper_model` is a lightweight default. To reproduce the tagging reported in the
-paper, set it to **Qwen3.5-27B with reasoning disabled** — the tagger selected for passing the
-consensus-fidelity gate against teachers from four different model families.
-
-### Run the demo locally
+The demo has two parts. The Composer is the publishing backend; the Builder is the frontend.
 
 ```bash
 # Composer — publishing backend → http://127.0.0.1:7860
@@ -74,3 +74,8 @@ uv run python benchpress/space/app.py
 # Builder — frontend → http://localhost:5173/BenchPress/
 cd benchpress/benchboard && npm install && npm run dev
 ```
+
+The Composer requires no account, login, or user-provided token to preview compositions.
+Optional live publishing uses a server-side, fine-grained Hugging Face token scoped to a
+service-owned organization; generated demo repositories are public and prefixed with `demo-`.
+See `benchpress/space/README.md` for the relevant Space secrets and deployment steps.
