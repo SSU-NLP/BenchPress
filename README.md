@@ -69,7 +69,7 @@ The demo has two parts. The Composer is the publishing backend; the Builder is t
 
 ```bash
 # Publishing requires Hugging Face credentials (skip if you only want to preview)
-hf auth login
+uv run hf auth login
 
 # Composer — publishing backend → http://127.0.0.1:7860
 uv run python benchpress/space/app.py
@@ -79,7 +79,7 @@ cd benchpress/benchboard && npm install && npm run dev
 ```
 
 The Composer requires no account, login, or user-provided token to preview compositions.
-Publishing does require Hugging Face credentials: `hf auth login` login once before starting
+Publishing does require Hugging Face credentials: `uv run hf auth login` login once before starting
 app.py and the Composer will pick up your credentials automatically. 
 Generated demo repositories are public and prefixed with `demo-`.
 See `benchpress/space/README.md` for the relevant Space secrets and deployment steps.
