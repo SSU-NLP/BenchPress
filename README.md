@@ -69,7 +69,7 @@ The demo has two parts. The Composer is the publishing backend; the Builder is t
 
 ```bash
 # Publishing requires Hugging Face credentials (skip if you only want to preview)
-uv run hf auth login
+uv run hf auth login --token "$HF_TOKEN"
 
 # Composer — publishing backend → http://127.0.0.1:7860
 uv run python benchpress/space/app.py
