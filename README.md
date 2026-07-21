@@ -13,6 +13,10 @@
 </p>
 
 <p align="center">
+  <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow" alt="License: MIT"></a>
+</p>
+
+<p align="center">
   <img src="assets/system_overview.png" alt="BenchPress system overview: Leaderboard Scores and Benchmark Corpus feed the Autotagging Loop (read benchmark item, tag cognitive abilities, build benchmark profile), which produces neighbor benchmarks, a customized benchmark set, and cognitive ability tags." width="100%">
 </p>
 
@@ -83,3 +87,19 @@ Publishing does require Hugging Face credentials: `uv run hf auth login` login o
 app.py and the Composer will pick up your credentials automatically. 
 Generated demo repositories are public and prefixed with `demo-`.
 See `benchpress/space/README.md` for the relevant Space secrets and deployment steps.
+
+## Citation
+
+```bibtex
+@misc{jang2026benchpress,
+  title  = {BenchPress: Capability-Targeted Evaluation Planning from LLM Benchmark Score Patterns},
+  author = {Jang, Giyoon and Cho, Seonghyeon and Kim, Doyun and Song, Minsoo and
+            Song, Jihun and Choo, Kyojun and Nam, Chailin and Park, Chanjun},
+  year   = {2026},
+  url    = {https://github.com/SSU-NLP/BenchPress}
+}
+```
+
+## License
+
+Released under the [MIT License](https://opensource.org/licenses/MIT).
